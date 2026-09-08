@@ -62,7 +62,14 @@ for (const item of wanted) {
   let info
   try {
     const res = await fetch(url, { headers: { 'User-Agent': UA } })
-    const json = await res.json()
+    if (!res.ok) throw new Error(`Commons API returned HTTP ${res.status} (network blocked? run this outside the sandbox)`)
+    const text = await res.text()
+    let json
+    try {
+      json = JSON.parse(text)
+    } catch {
+      throw new Error(`Commons API returned non-JSON (${text.slice(0, 60).replace(/\s+/g, ' ')}...); network blocked?`)
+    }
     const page = Object.values(json.query?.pages ?? {})[0]
     info = page?.imageinfo?.[0]
     if (!info) {
