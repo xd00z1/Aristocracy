@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "builtAt": "2026-09-08T15:00:36.650Z",
+  "builtAt": "2026-09-08T16:32:08.939Z",
   "cities": [
     {
       "id": "london",
@@ -303,10 +303,15 @@
         "music.berlioz.symphonie-fantastique",
         "opera.bizet.carmen.habanera",
         "art.gericault.raft-of-the-medusa",
-        "history.episode.french-revolution"
+        "history.apocrypha.letat-cest-moi"
       ],
       "scenarioIds": [
-        "scenario.paris.versailles-leash"
+        "scenario.paris.impressionist-insult",
+        "scenario.paris.mona-lisa-theft",
+        "scenario.paris.versailles-leash",
+        "scenario.paris.garnier-chandelier",
+        "scenario.paris.sacre-riot",
+        "scenario.paris.degas-dreyfus"
       ]
     },
     {
@@ -318,12 +323,17 @@
         "music.chopin.nocturne-op9-2",
         "opera.bizet.carmen.toreador-song",
         "art.leonardo.mona-lisa",
-        "history.person.marie-antoinette",
+        "history.episode.french-revolution",
         "music.debussy.clair-de-lune",
         "opera.delibes.lakme.flower-duet"
       ],
       "scenarioIds": [
-        "scenario.paris.versailles-leash"
+        "scenario.paris.impressionist-insult",
+        "scenario.paris.mona-lisa-theft",
+        "scenario.paris.versailles-leash",
+        "scenario.paris.garnier-chandelier",
+        "scenario.paris.sacre-riot",
+        "scenario.paris.degas-dreyfus"
       ]
     },
     {
@@ -333,14 +343,19 @@
       "title": "Lesson 3",
       "itemIds": [
         "art.manet.dejeuner-sur-l-herbe",
+        "history.episode.louis-xiv-versailles",
         "music.ravel.bolero",
         "opera.gounod.faust.jewel-song",
         "art.monet.impression-sunrise",
-        "music.saint-saens.le-cygne",
-        "opera.massenet.manon.adieu-notre-petite-table"
+        "history.episode.napoleon-egypt-coronation-louvre"
       ],
       "scenarioIds": [
-        "scenario.paris.versailles-leash"
+        "scenario.paris.impressionist-insult",
+        "scenario.paris.mona-lisa-theft",
+        "scenario.paris.versailles-leash",
+        "scenario.paris.garnier-chandelier",
+        "scenario.paris.sacre-riot",
+        "scenario.paris.degas-dreyfus"
       ]
     },
     {
@@ -349,15 +364,20 @@
       "order": 4,
       "title": "Lesson 4",
       "itemIds": [
+        "music.saint-saens.le-cygne",
+        "opera.massenet.manon.adieu-notre-petite-table",
         "art.movement.impressionism",
+        "history.person.marie-antoinette",
         "music.satie.gymnopedie-1",
-        "opera.massenet.thais.meditation",
-        "art.renoir.bal-du-moulin-de-la-galette",
-        "music.stravinsky.le-sacre-du-printemps",
-        "opera.massenet.werther.pourquoi-me-reveiller"
+        "opera.massenet.thais.meditation"
       ],
       "scenarioIds": [
-        "scenario.paris.versailles-leash"
+        "scenario.paris.impressionist-insult",
+        "scenario.paris.mona-lisa-theft",
+        "scenario.paris.versailles-leash",
+        "scenario.paris.garnier-chandelier",
+        "scenario.paris.sacre-riot",
+        "scenario.paris.degas-dreyfus"
       ]
     },
     {
@@ -366,15 +386,20 @@
       "order": 5,
       "title": "Lesson 5",
       "itemIds": [
+        "art.renoir.bal-du-moulin-de-la-galette",
+        "history.person.napoleon",
+        "music.stravinsky.le-sacre-du-printemps",
+        "opera.massenet.werther.pourquoi-me-reveiller",
         "art.rodin",
-        "music.term.impressionism",
-        "opera.offenbach",
-        "art.cezanne",
-        "music.faure",
-        "opera.offenbach.contes-d-hoffmann.barcarolle"
+        "history.person.voltaire"
       ],
       "scenarioIds": [
-        "scenario.paris.versailles-leash"
+        "scenario.paris.impressionist-insult",
+        "scenario.paris.mona-lisa-theft",
+        "scenario.paris.versailles-leash",
+        "scenario.paris.garnier-chandelier",
+        "scenario.paris.sacre-riot",
+        "scenario.paris.degas-dreyfus"
       ]
     },
     {
@@ -383,15 +408,20 @@
       "order": 6,
       "title": "Lesson 6",
       "itemIds": [
-        "art.david.oath-of-the-horatii",
-        "music.movement.les-six",
-        "opera.offenbach.orphee-aux-enfers.galop-infernal",
-        "art.degas",
-        "music.term.conservatoire",
-        "opera.saint-saens.samson-et-dalila.mon-coeur"
+        "music.term.impressionism",
+        "opera.offenbach",
+        "art.cezanne",
+        "history.episode.charlemagne-crowned",
+        "music.faure",
+        "opera.offenbach.contes-d-hoffmann.barcarolle"
       ],
       "scenarioIds": [
-        "scenario.paris.versailles-leash"
+        "scenario.paris.impressionist-insult",
+        "scenario.paris.mona-lisa-theft",
+        "scenario.paris.versailles-leash",
+        "scenario.paris.garnier-chandelier",
+        "scenario.paris.sacre-riot",
+        "scenario.paris.degas-dreyfus"
       ]
     },
     {
@@ -400,15 +430,20 @@
       "order": 7,
       "title": "Lesson 7",
       "itemIds": [
-        "art.term.salon",
-        "music.term.salon",
-        "opera.term.opera-comique",
-        "art.term.japonisme",
-        "music.poulenc",
-        "opera.venue.opera-bastille"
+        "art.david.oath-of-the-horatii",
+        "history.episode.dreyfus-affair",
+        "music.movement.les-six",
+        "opera.offenbach.orphee-aux-enfers.galop-infernal",
+        "art.degas",
+        "history.episode.enlightenment-salons"
       ],
       "scenarioIds": [
-        "scenario.paris.versailles-leash"
+        "scenario.paris.impressionist-insult",
+        "scenario.paris.mona-lisa-theft",
+        "scenario.paris.versailles-leash",
+        "scenario.paris.garnier-chandelier",
+        "scenario.paris.sacre-riot",
+        "scenario.paris.degas-dreyfus"
       ]
     },
     {
@@ -417,15 +452,20 @@
       "order": 8,
       "title": "Lesson 8",
       "itemIds": [
-        "opera.venue.opera-comique",
-        "opera.venue.palais-garnier",
-        "opera.debussy.pelleas-et-melisande",
-        "opera.lully",
-        "opera.meyerbeer",
-        "opera.poulenc.dialogues-des-carmelites"
+        "music.term.conservatoire",
+        "opera.saint-saens.samson-et-dalila.mon-coeur",
+        "art.term.salon",
+        "history.episode.haussmann-second-empire",
+        "music.term.salon",
+        "opera.term.opera-comique"
       ],
       "scenarioIds": [
-        "scenario.paris.versailles-leash"
+        "scenario.paris.impressionist-insult",
+        "scenario.paris.mona-lisa-theft",
+        "scenario.paris.versailles-leash",
+        "scenario.paris.garnier-chandelier",
+        "scenario.paris.sacre-riot",
+        "scenario.paris.degas-dreyfus"
       ]
     },
     {
@@ -434,15 +474,62 @@
       "order": 9,
       "title": "Lesson 9",
       "itemIds": [
+        "art.term.japonisme",
+        "history.person.diaghilev",
+        "music.poulenc",
+        "opera.venue.opera-bastille",
+        "opera.venue.opera-comique",
+        "opera.venue.palais-garnier"
+      ],
+      "scenarioIds": [
+        "scenario.paris.impressionist-insult",
+        "scenario.paris.mona-lisa-theft",
+        "scenario.paris.versailles-leash",
+        "scenario.paris.garnier-chandelier",
+        "scenario.paris.sacre-riot",
+        "scenario.paris.degas-dreyfus"
+      ]
+    },
+    {
+      "id": "paris.10",
+      "cityId": "paris",
+      "order": 10,
+      "title": "Lesson 10",
+      "itemIds": [
+        "opera.debussy.pelleas-et-melisande",
+        "opera.lully",
+        "opera.meyerbeer",
+        "opera.poulenc.dialogues-des-carmelites",
         "opera.rameau",
-        "opera.term.claque",
+        "opera.term.claque"
+      ],
+      "scenarioIds": [
+        "scenario.paris.impressionist-insult",
+        "scenario.paris.mona-lisa-theft",
+        "scenario.paris.versailles-leash",
+        "scenario.paris.garnier-chandelier",
+        "scenario.paris.sacre-riot",
+        "scenario.paris.degas-dreyfus"
+      ]
+    },
+    {
+      "id": "paris.11",
+      "cityId": "paris",
+      "order": 11,
+      "title": "Lesson 11",
+      "itemIds": [
         "opera.term.divertissement",
         "opera.term.grand-opera",
         "opera.berlioz.les-troyens",
         "opera.meyerbeer.les-huguenots"
       ],
       "scenarioIds": [
-        "scenario.paris.versailles-leash"
+        "scenario.paris.impressionist-insult",
+        "scenario.paris.mona-lisa-theft",
+        "scenario.paris.versailles-leash",
+        "scenario.paris.garnier-chandelier",
+        "scenario.paris.sacre-riot",
+        "scenario.paris.degas-dreyfus"
       ]
     },
     {
@@ -669,12 +756,12 @@
       "order": 2,
       "title": "Lesson 2",
       "itemIds": [
-        "music.term.lied",
+        "music.beethoven.symphony-9.ode-to-joy",
         "opera.lehar",
         "art.durer.young-hare",
         "history.episode.mayerling",
-        "opera.lehar.die-lustige-witwe",
-        "art.klimt"
+        "music.haydn.symphony-94.ii",
+        "opera.lehar.die-lustige-witwe"
       ],
       "scenarioIds": [
         "scenario.vienna.bruegel-seasons",
@@ -691,12 +778,12 @@
       "order": 3,
       "title": "Lesson 3",
       "itemIds": [
+        "art.klimt",
         "history.episode.siege-of-vienna",
+        "music.mozart.eine-kleine-nachtmusik",
         "opera.mozart",
         "art.klimt.the-kiss",
-        "history.episode.vienna-1900",
-        "opera.mozart.die-zauberfloete",
-        "art.movement.vienna-secession"
+        "history.episode.vienna-1900"
       ],
       "scenarioIds": [
         "scenario.vienna.bruegel-seasons",
@@ -713,12 +800,12 @@
       "order": 4,
       "title": "Lesson 4",
       "itemIds": [
+        "music.mozart.rondo-alla-turca",
+        "opera.mozart.die-zauberfloete",
+        "art.movement.vienna-secession",
         "history.person.elisabeth",
-        "opera.mozart.die-zauberfloete.der-vogelfaenger",
-        "art.schiele",
-        "history.person.franz-joseph",
-        "opera.mozart.don-giovanni",
-        "art.venue.kunsthistorisches-museum"
+        "music.schubert",
+        "opera.mozart.die-zauberfloete.der-vogelfaenger"
       ],
       "scenarioIds": [
         "scenario.vienna.bruegel-seasons",
@@ -735,12 +822,12 @@
       "order": 5,
       "title": "Lesson 5",
       "itemIds": [
-        "history.person.maria-theresa",
-        "opera.mozart.le-nozze-di-figaro",
-        "art.klimt.adele-bloch-bauer-i",
-        "history.apocrypha.salieri-poisoned-mozart",
-        "opera.r-strauss.der-rosenkavalier",
-        "art.schiele.self-portrait-with-physalis"
+        "art.schiele",
+        "history.person.franz-joseph",
+        "music.strauss-ii.an-der-schoenen-blauen-donau",
+        "opera.mozart.don-giovanni",
+        "art.venue.kunsthistorisches-museum",
+        "history.person.maria-theresa"
       ],
       "scenarioIds": [
         "scenario.vienna.bruegel-seasons",
@@ -757,12 +844,12 @@
       "order": 6,
       "title": "Lesson 6",
       "itemIds": [
-        "history.episode.1848-and-franz-joseph",
-        "opera.strauss-ii.die-fledermaus",
-        "art.term.jugendstil",
-        "history.episode.end-of-old-europe",
-        "opera.term.opera-ball",
-        "art.vermeer.the-art-of-painting"
+        "music.term.lied",
+        "opera.mozart.le-nozze-di-figaro",
+        "art.klimt.adele-bloch-bauer-i",
+        "history.apocrypha.salieri-poisoned-mozart",
+        "music.brahms",
+        "opera.r-strauss.der-rosenkavalier"
       ],
       "scenarioIds": [
         "scenario.vienna.bruegel-seasons",
@@ -779,12 +866,12 @@
       "order": 7,
       "title": "Lesson 7",
       "itemIds": [
-        "history.episode.joseph-ii-and-mozart",
-        "opera.term.operetta",
-        "art.term.biedermeier",
-        "history.person.metternich",
-        "opera.term.prompter",
-        "opera.venue.staatsoper"
+        "art.schiele.self-portrait-with-physalis",
+        "history.episode.1848-and-franz-joseph",
+        "music.mahler",
+        "opera.strauss-ii.die-fledermaus",
+        "art.term.jugendstil",
+        "history.episode.end-of-old-europe"
       ],
       "scenarioIds": [
         "scenario.vienna.bruegel-seasons",
@@ -801,12 +888,12 @@
       "order": 8,
       "title": "Lesson 8",
       "itemIds": [
-        "opera.venue.theater-an-der-wien",
-        "opera.gluck",
-        "opera.gluck.orfeo-ed-euridice",
-        "opera.mozart.cosi-fan-tutte",
-        "opera.mozart.die-entfuehrung-aus-dem-serail",
-        "opera.r-strauss"
+        "music.strauss-i.radetzky-marsch",
+        "opera.term.opera-ball",
+        "art.vermeer.the-art-of-painting",
+        "history.episode.joseph-ii-and-mozart",
+        "music.term.waltz",
+        "opera.term.operetta"
       ],
       "scenarioIds": [
         "scenario.vienna.bruegel-seasons",
@@ -823,7 +910,50 @@
       "order": 9,
       "title": "Lesson 9",
       "itemIds": [
-        "opera.r-strauss.salome",
+        "art.term.biedermeier",
+        "history.person.metternich",
+        "music.movement.second-viennese-school",
+        "opera.term.prompter",
+        "opera.venue.staatsoper",
+        "opera.venue.theater-an-der-wien"
+      ],
+      "scenarioIds": [
+        "scenario.vienna.bruegel-seasons",
+        "scenario.vienna.fate-knocking",
+        "scenario.vienna.orlofsky-in-trousers",
+        "scenario.vienna.poor-salieri",
+        "scenario.vienna.woman-in-gold",
+        "scenario.vienna.metternich-sekt"
+      ]
+    },
+    {
+      "id": "vienna.10",
+      "cityId": "vienna",
+      "order": 10,
+      "title": "Lesson 10",
+      "itemIds": [
+        "opera.gluck",
+        "opera.gluck.orfeo-ed-euridice",
+        "opera.mozart.cosi-fan-tutte",
+        "opera.mozart.die-entfuehrung-aus-dem-serail",
+        "opera.r-strauss",
+        "opera.r-strauss.salome"
+      ],
+      "scenarioIds": [
+        "scenario.vienna.bruegel-seasons",
+        "scenario.vienna.fate-knocking",
+        "scenario.vienna.orlofsky-in-trousers",
+        "scenario.vienna.poor-salieri",
+        "scenario.vienna.woman-in-gold",
+        "scenario.vienna.metternich-sekt"
+      ]
+    },
+    {
+      "id": "vienna.11",
+      "cityId": "vienna",
+      "order": 11,
+      "title": "Lesson 11",
+      "itemIds": [
         "opera.term.regietheater",
         "opera.term.singspiel",
         "opera.venue.volksoper",
@@ -2510,7 +2640,7 @@
       "year_approx": true,
       "creator": "Leonardo da Vinci",
       "facts": [
-        "Oil on poplar panel, 77 by 53 centimetres, Louvre Inv. 779; Leonardo took it with him to France in his last years, and it has been in the French royal and then national collection since Francis I.",
+        "Oil on poplar panel, Louvre Inv. 779, usually given as 77 by 53 centimetres (the Louvre measures the panel itself at 79.4 by 53.4); Leonardo took it with him to France in his last years, and it has been in the French royal and then national collection since Francis I.",
         "Vasari's Lives (1550) says Leonardo painted the wife of Francesco del Giocondo, hence La Gioconda and La Joconde; a marginal note by Agostino Vespucci dated October 1503, found at Heidelberg in 2005, confirms he was at work on the portrait of Lisa del Giocondo then.",
         "There are no drawn outlines: the face is modelled by thin glazes shading into shadow, the technique known as sfumato, and there are no eyebrows or lashes.",
         "Stolen on 21 August 1911 by Vincenzo Peruggia, an Italian house painter who had worked on glazing pictures at the Louvre; recovered in Florence in December 1913 when he tried to sell it to the Uffizi through a dealer.",
@@ -2763,8 +2893,8 @@
       },
       "media": {
         "image": {
-          "commons": "File:Jacques-Louis David - Oath of the Horatii - Google Art Project.jpg",
-          "source": "Musée du Louvre, Paris, via Wikimedia Commons (Google Art Project)",
+          "commons": "File:Jacques-Louis David, Le Serment des Horaces.jpg",
+          "source": "Musée du Louvre, Paris (INV 3692), via Wikimedia Commons",
           "license": "Public domain (artist died 1825); verify the file's tag when fetching",
           "focus": {
             "x": 0.47,
@@ -2787,7 +2917,7 @@
         "Oil on canvas, 208 by 264.5 centimetres, Musée d'Orsay RF 1668; rejected by the Salon jury of 1863 and shown at the Salon des Refusés, which opened on 15 May 1863, under the title Le Bain.",
         "The group is lifted from Marcantonio Raimondi's engraving after Raphael's Judgement of Paris, and the idea of naked women beside dressed men from Titian's Pastoral Concert in the Louvre; the nude is Victorine Meurent, who posed for Olympia the same year.",
         "The men are one of Manet's brothers and his future brother-in-law, the sculptor Ferdinand Leenhoff; the still life of clothes and fruit at the lower left is painted with more care than the landscape behind.",
-        "Given to the state by Étienne Moreau-Nélaton in 1906; it hung in the Louvre from 1934 and moved to the Orsay when that museum opened in 1986.",
+        "Given to the state by Étienne Moreau-Nélaton in 1906; it hung at the Musée des Arts Décoratifs from 1907, went to the Louvre in 1934 and to the Jeu de Paume in 1947, and moved to the Orsay when that museum opened in 1986.",
         "Manet never exhibited with the Impressionists, though the younger painters treated him as their leader; he kept submitting to the Salon until his death in 1883."
       ],
       "remark": "Its scandal was not the nude but her company: Titian's Pastoral Concert in the Louvre has naked women beside clothed men too, but Manet's men wear the frock coats of 1863, and the woman looks straight at you.",
@@ -2927,8 +3057,8 @@
       "creator": "Pierre-Auguste Renoir",
       "facts": [
         "Oil on canvas, 131 by 175 centimetres, Musée d'Orsay RF 2739; shown at the third Impressionist exhibition in 1877 and left to the state by Gustave Caillebotte in 1894.",
-        "The Moulin de la Galette was a dance garden beside two old windmills at the top of Montmartre, open on Sunday afternoons; Renoir took a studio nearby in the rue Cortot in 1875 and had the canvas carried down to paint on the spot.",
-        "The sitters are friends: the journalist Georges Rivière at the table, the painters Franc-Lamy and Norbert Gœneutte, and the models Estelle and Jeanne in the foreground.",
+        "The Moulin de la Galette was a dance garden beside two old windmills at the top of Montmartre, open on Sunday afternoons; Renoir took a studio nearby at 12 rue Cortot in 1876 and had the canvas carried down to paint on the spot.",
+        "The sitters are friends: the writer Georges Rivière at the table with the painters Franc-Lamy and Norbert Gœneutte, and the Montmartre models Jeanne and her sister Estelle, the girl in the blue and pink striped dress on the bench in the foreground.",
         "The dappled patches on the dancers' clothes and the ground are sunlight through acacia leaves.",
         "A smaller version sold at Sotheby's in New York on 17 May 1990 for 78.1 million dollars to the Japanese businessman Ryoei Saito, two days after he bought Van Gogh's Portrait of Dr Gachet."
       ],
@@ -3000,7 +3130,7 @@
         "Born in Paris in 1834 into a banking family that spelled the name De Gas, and died in Paris in 1917; trained under Louis Lamothe, a pupil of Ingres, and told Paul Valéry that Ingres himself had advised him in 1855 to draw lines, many lines.",
         "Showed at seven of the eight Impressionist exhibitions, all but 1882, and disliked the name; he preferred Independents, worked in the studio from drawings and memory, and had no use for painting outdoors.",
         "Dancers make up something like half his output, mostly at class and rehearsal at the Paris Opéra rather than on stage; the Little Dancer Aged Fourteen, a wax figure dressed in a real tutu and shown in 1881, was the only sculpture he exhibited in his life, and the bronzes were cast after his death.",
-        "The Musée d'Orsay holds The Dance Class and L'Absinthe; his eyesight failed from the 1870s, and the late pastels are large, coarse and mostly of women bathing.",
+        "The Musée d'Orsay holds The Ballet Class (La Classe de danse) and L'Absinthe; his eyesight failed from the 1870s, and the late pastels are large, coarse and mostly of women bathing.",
         "An anti-Dreyfusard who broke with Jewish friends, including the Halévy family, during the affair."
       ],
       "remark": "He showed with the Impressionists at seven of their eight exhibitions and hated the word: no sunsets, no painting outdoors, everything worked up indoors from drawings and memory, which is why his dancers look caught rather than posed.",
@@ -3044,7 +3174,7 @@
       "media": {
         "image": {
           "commons": "File:Edgar Degas - The Ballet Class - Google Art Project.jpg",
-          "source": "Edgar Degas, The Dance Class (La Classe de danse), 1873–76, Musée d'Orsay, Paris, via Wikimedia Commons (Google Art Project)",
+          "source": "Edgar Degas, The Ballet Class (La Classe de danse), Musée d'Orsay, Paris, via Wikimedia Commons (Google Art Project)",
           "license": "Public domain (artist died 1917); verify the file's tag when fetching",
           "focus": {
             "x": 0.5,
@@ -3108,8 +3238,8 @@
       },
       "media": {
         "image": {
-          "commons": "File:Paul Cézanne, Les joueurs de carte (1892-95).jpg",
-          "source": "Paul Cézanne, The Card Players (Les Joueurs de cartes), c. 1890–95, Musée d'Orsay, Paris, via Wikimedia Commons",
+          "commons": "File:Les Joueurs de cartes, par Paul Cézanne.jpg",
+          "source": "Paul Cézanne, The Card Players (Les Joueurs de cartes), c. 1894–95, Musée d'Orsay, Paris, via Wikimedia Commons",
           "license": "Public domain (artist died 1906); verify the file's tag when fetching",
           "focus": {
             "x": 0.5,
@@ -3256,7 +3386,7 @@
       "facts": [
         "First held in 1667 by the Académie royale de peinture et de sculpture; in the Salon Carré of the Louvre from 1725, which gave it the name; opened to all artists in 1791, when the Revolution ended the Academy's monopoly.",
         "Diderot's reviews of the Salons from 1759 to 1781 are the beginning of art criticism; to be 'skyed', hung near the ceiling, was a verdict, and the eye-level line was the prize.",
-        "In 1863 the jury rejected about three thousand of some five thousand submissions; Napoleon III ordered the rejects shown in rooms next door in the Palais de l'Industrie, and the Salon des Refusés opened on 15 May with Manet's Déjeuner sur l'herbe and Whistler's White Girl in it.",
+        "In 1863 the jury rejected more than two thousand of some five thousand submissions; Napoleon III ordered the rejects shown in rooms next door in the Palais de l'Industrie, and the Salon des Refusés opened on 15 May with Manet's Déjeuner sur l'herbe and Whistler's White Girl in it.",
         "In 1881 the state handed the Salon to the Société des Artistes Français; the Salon des Indépendants (1884, no jury, no prizes) and the Salon d'Automne (1903) became the venues for new painting, and the Fauves were named at the Salon d'Automne of 1905."
       ],
       "remark": "The rejections of 1863 were so wholesale that Napoleon III ordered the rejects shown next door, and the Salon des Refusés, with Manet's Déjeuner in it, is the exhibition anybody now remembers from that year.",
@@ -3737,7 +3867,7 @@
       "facts": [
         "Oil and gouache on wood, barely 32 by 40 centimetres, in the Leopold Museum, whose founder Rudolf Leopold assembled the largest Schiele collection in the world.",
         "Its pendant, the Portrait of Wally Neuzil, was seized in New York in 1998 while on loan and returned to the Leopold in 2010 after a settlement of nineteen million dollars with the heirs of the dealer Lea Bondi Jaray.",
-        "Painted in 1912, the year Schiele spent twenty-four days in custody at Neulengbach over his drawings."
+        "Painted in 1912, the year Schiele spent twenty-four days in custody, at Neulengbach and then St Pölten, over his drawings."
       ],
       "remark": "It is hardly bigger than a sheet of paper, and its pair, the portrait of Wally, spent twelve years impounded in New York before the Leopold paid the heirs nineteen million dollars to bring it home.",
       "gaffe": "Calling it a Klimt. Klimt was his mentor, but Klimt never drew a contour like that; the taut outline and the blotched skin are Schiele.",
@@ -3838,9 +3968,9 @@
       },
       "media": {
         "image": {
-          "commons": "File:Klimt.jpg",
-          "source": "Photograph by Josef Anton Trčka, 1914, via Wikimedia Commons",
-          "license": "Public domain (photographer died 1940); verify the file's tag when fetching"
+          "commons": "File:Gustav Klimt.jpg",
+          "source": "Photograph of Gustav Klimt, via Wikimedia Commons",
+          "license": "Public domain (published long before 1929); verify the file's tag and photographer when fetching"
         }
       }
     },
@@ -3857,7 +3987,7 @@
       "facts": [
         "Born in 1890 at Tulln on the Danube, a stationmaster's son; admitted to the Vienna Academy of Fine Arts at sixteen, and left it in 1909 to found the Neukunstgruppe.",
         "Klimt took him up in 1907, bought and swapped drawings with him and introduced him to patrons.",
-        "Held for twenty-four days in 1912 at Neulengbach, where the judge burned one of his drawings in court.",
+        "Arrested at Neulengbach in April 1912 and held for twenty-four days, first there and then at St Pölten; the judge burned one of his drawings in court.",
         "Died of Spanish influenza on 31 October 1918, three days after his pregnant wife Edith, aged twenty-eight."
       ],
       "remark": "He died at twenty-eight in the influenza of 1918, three days after his wife, having already left well over two thousand drawings and watercolours; the Leopold Museum has more of him than anywhere else.",
@@ -3893,7 +4023,7 @@
       "media": {
         "image": {
           "commons": "File:Egon Schiele photo.jpg",
-          "source": "Photograph of Egon Schiele, c. 1914, via Wikimedia Commons",
+          "source": "Photograph of Egon Schiele, via Wikimedia Commons",
           "license": "Public domain (pre-1929 photograph); verify the file's tag and photographer when fetching"
         }
       },
@@ -5594,7 +5724,8 @@
       "gaffe": "Placing the storming of the Bastille in 1793. It was 1789; 1793 is the year of the guillotine.",
       "links": [
         "history.person.marie-antoinette",
-        "history.apocrypha.let-them-eat-cake"
+        "history.apocrypha.let-them-eat-cake",
+        "art.david.oath-of-the-horatii"
       ],
       "tags": [
         "france",
@@ -5633,7 +5764,8 @@
       "gaffe": "Attributing 'let them eat cake' to her as fact.",
       "links": [
         "history.episode.french-revolution",
-        "history.apocrypha.let-them-eat-cake"
+        "history.apocrypha.let-them-eat-cake",
+        "opera.gluck"
       ],
       "tags": [
         "france",
@@ -5678,7 +5810,8 @@
       "gaffe": "Quoting it as fact at a table where anyone has read a biography.",
       "links": [
         "history.person.marie-antoinette",
-        "history.episode.french-revolution"
+        "history.episode.french-revolution",
+        "opera.poulenc.dialogues-des-carmelites"
       ],
       "tags": [
         "france",
@@ -5694,6 +5827,656 @@
       "attributed_to": "Marie Antoinette",
       "verdict": "invented",
       "truth": "The line appears in Rousseau's Confessions, attributed to 'a great princess', and was written when Marie Antoinette was a child in Vienna. No contemporary source connects it to her."
+    },
+    {
+      "id": "history.episode.charlemagne-crowned",
+      "discipline": "history",
+      "kind": "episode",
+      "title": "Charlemagne crowned in Rome",
+      "city": "paris",
+      "difficulty": 2,
+      "era": "Carolingian",
+      "year": 800,
+      "facts": [
+        "Leo III set a crown on Charlemagne's head in St Peter's on Christmas Day 800 and the congregation acclaimed him emperor of the Romans; Einhard, who wrote the king's life a generation later, says he would not have entered the church that day had he known what the pope intended.",
+        "There had been no emperor in the West since 476, and the eastern emperors in Constantinople treated the new one as a theft; they conceded the bare title of emperor in 812, never emperor of the Romans.",
+        "The court at Aachen was a scholars' bureau. Alcuin of York came from Northumbria to run the palace school, old texts were hunted down and copied wholesale, and the round hand devised for that copying, Carolingian minuscule, is where our lower-case letters come from; it also carried across Europe the habit of putting spaces between words, which Irish and English scribes had begun earlier.",
+        "Around 1400 the Florentine humanists Poggio Bracciolini and Niccolò Niccoli took that hand off ninth-century manuscripts, believing it ancient Roman, and called it lettera antica; the printers copied the humanists, which is why this sentence is set in roman type.",
+        "Charlemagne died at Aachen on 28 January 814. The rearguard cut down in the Pyrenees by Basques in 778, in which Einhard names one Hruodlandus, became the Song of Roland about three centuries later, in the Oxford text of around 1100."
+      ],
+      "remark": "Our lower-case alphabet is Carolingian: the round hand cut for Charlemagne's copyists was picked up around 1400 by Florentine humanists who took it for ancient Roman writing, and the printers followed them.",
+      "gaffe": "Calling him the first Holy Roman Emperor. He was crowned emperor of the Romans in 800; nobody called the empire holy until Barbarossa's chancery in the twelfth century, and the full name is thirteenth-century.",
+      "links": [
+        "art.movement.renaissance",
+        "history.episode.napoleon-egypt-coronation-louvre",
+        "history.episode.norman-conquest",
+        "history.episode.congress-of-vienna"
+      ],
+      "tags": [
+        "france",
+        "carolingian",
+        "empire",
+        "aachen",
+        "coronation",
+        "manuscripts",
+        "800s"
+      ],
+      "sources": [
+        "Einhard, Vita Karoli Magni (c. 830), chapters 9 and 28",
+        "Rosamond McKitterick, Charlemagne: The Formation of a European Identity (2008)",
+        "Peter H. Wilson, The Holy Roman Empire: A Thousand Years of Europe's History (2016)",
+        "B. L. Ullman, The Origin and Development of Humanistic Script (1960)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Merovingian",
+          "Ottonian",
+          "Capetian"
+        ],
+        "year": [
+          732,
+          987,
+          1066
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Charlemagne-by-Durer.jpg",
+          "source": "Albrecht Dürer, Emperor Charlemagne (c. 1511-13), Germanisches Nationalmuseum, Nuremberg, via Wikimedia Commons",
+          "license": "Public domain (artist died 1528); verify the file's tag when fetching"
+        }
+      },
+      "cast": [
+        "Charlemagne",
+        "Pope Leo III",
+        "Einhard",
+        "Alcuin of York"
+      ]
+    },
+    {
+      "id": "history.episode.louis-xiv-versailles",
+      "discipline": "history",
+      "kind": "episode",
+      "title": "Louis XIV and Versailles",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Ancien Régime",
+      "year": 1661,
+      "year_end": 1715,
+      "facts": [
+        "King at four in 1643, he ruled through Mazarin until the cardinal died on 9 March 1661 and then announced that he would govern alone; the Fronde of 1648 to 1653 had driven him out of Paris as a child, and he never trusted the city again.",
+        "Nicolas Fouquet, the superintendent of finances, entertained the king at his new Vaux-le-Vicomte on 17 August 1661 and was arrested three weeks later. Louis took his architect Le Vau, his gardener Le Nôtre and his painter Le Brun and set them on his father's hunting lodge at Versailles.",
+        "The court moved to Versailles on 6 May 1682, thirty-eight years into the reign; Hardouin-Mansart's Hall of Mirrors was built between 1678 and 1684, thousands of courtiers and servants were housed in the palace, and attendance was the price of favour. Saint-Simon's memoirs are forty years of resenting it.",
+        "The Affair of the Poisons began in 1677. A special tribunal, the chambre ardente, sat from April 1679 and examined hundreds of people, more than thirty of whom were executed, among them the fortune-teller La Voisin, burned on the place de Grève on 22 February 1680. When the evidence began to touch Madame de Montespan, the king's mistress and mother of seven of his children, he closed the court, and in 1709 he burned the papers.",
+        "Music, dancing and painting were state business: Lully held a royal monopoly on sung drama from 1672, Molière wrote comédies-ballets for the court, and the Académie royale's Salon, first held in 1667, decided what French painting was. Louis died on 1 September 1715, after seventy-two years on the throne."
+      ],
+      "remark": "Fouquet gave a party at Vaux-le-Vicomte in August 1661 and was arrested three weeks later; the king then hired his architect, his gardener and his painter and had them do the same thing at Versailles, twenty times over.",
+      "gaffe": "Dating the move to Versailles to the start of the reign. Louis XIII's hunting lodge was there first, and the court did not move in until 6 May 1682, thirty-eight years after Louis XIV became king.",
+      "links": [
+        "opera.lully",
+        "opera.term.divertissement",
+        "art.term.salon",
+        "history.apocrypha.letat-cest-moi",
+        "history.person.marie-antoinette"
+      ],
+      "tags": [
+        "france",
+        "bourbon",
+        "versailles",
+        "court",
+        "poisons",
+        "1660s",
+        "1680s"
+      ],
+      "sources": [
+        "Jean-Christian Petitfils, Louis XIV (1995)",
+        "Peter Burke, The Fabrication of Louis XIV (1992)",
+        "Anne Somerset, The Affair of the Poisons: Murder, Infanticide and Satanism at the Court of Louis XIV (2003)",
+        "Saint-Simon, Mémoires"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Renaissance",
+          "Empire",
+          "Restoration"
+        ],
+        "year": [
+          1643,
+          1685,
+          1715
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Rigaud Louis XIV 1701.jpg",
+          "source": "Hyacinthe Rigaud, Louis XIV in Coronation Robes (1701), Musée du Louvre INV 7492, via Wikimedia Commons",
+          "license": "Public domain (artist died 1743); verify the file's tag when fetching"
+        }
+      },
+      "cast": [
+        "Louis XIV",
+        "Cardinal Mazarin",
+        "Nicolas Fouquet",
+        "Colbert",
+        "Madame de Montespan",
+        "Le Nôtre",
+        "Le Brun"
+      ]
+    },
+    {
+      "id": "history.episode.enlightenment-salons",
+      "discipline": "history",
+      "kind": "episode",
+      "title": "The Enlightenment salons",
+      "city": "paris",
+      "difficulty": 2,
+      "era": "Enlightenment",
+      "year": 1751,
+      "year_end": 1780,
+      "facts": [
+        "Madame Geoffrin, a glass manufacturer's widow with no title at all, held Mondays for artists and Wednesdays for men of letters in the rue Saint-Honoré for a quarter of a century; her business was keeping thirty egos in one room, and she ended a conversation when she judged it had gone far enough.",
+        "The Encyclopédie of Diderot and d'Alembert came out of those rooms: seventeen volumes of text and eleven of plates between 1751 and 1772, some seventy-two thousand articles. The royal council revoked its privilege in March 1759, and the last ten volumes of text were published with a false Neuchâtel imprint.",
+        "Rousseau wrote the music articles for the Encyclopédie, and in 1753, in the quarrel set off by an Italian troupe at the Opéra, published a letter arguing that French was not a language anyone could sing; Rameau answered him in print, and the philosophes and the old French opera were enemies from then on.",
+        "Madame du Deffand, blind from about 1754, kept her salon in an apartment at the convent of Saint-Joseph and wrote to Horace Walpole for fifteen years. In 1764 she discovered that her companion Julie de Lespinasse had been receiving the guests an hour before she came down, threw her out, and lost d'Alembert and most of the philosophes to the salon Lespinasse opened round the corner.",
+        "The one famous picture of a salon is a fiction. Lemonnier's reading of Voltaire's Orphelin de la Chine at Madame Geoffrin's was painted around 1812 for the Empress Joséphine, more than fifty years after the evening it shows, and its Voltaire is a bust on a pedestal, because he was in exile and not there."
+      ],
+      "remark": "The salons were run by women, and the hostess's work was not to shine but to keep thirty egos in one room: du Deffand threw out her own companion in 1764 for receiving the guests an hour early, and lost half the philosophes to her.",
+      "gaffe": "Calling the Encyclopédie a book of the Revolution. It was finished in 1772, seventeen years before the Bastille, and its editors spent the 1750s dodging the censor rather than planning a republic.",
+      "links": [
+        "music.term.salon",
+        "art.term.salon",
+        "opera.rameau",
+        "history.person.voltaire",
+        "history.episode.french-revolution"
+      ],
+      "tags": [
+        "france",
+        "enlightenment",
+        "salon",
+        "encyclopedie",
+        "geoffrin",
+        "du-deffand",
+        "1750s",
+        "1770s"
+      ],
+      "sources": [
+        "Dena Goodman, The Republic of Letters: A Cultural History of the French Enlightenment (1994)",
+        "Antoine Lilti, Le monde des salons: sociabilité et mondanité à Paris au XVIIIe siècle (2005)",
+        "Robert Darnton, The Business of Enlightenment: A Publishing History of the Encyclopédie (1979)",
+        "Grove Music Online, 'Querelle des Bouffons'",
+        "Musée national des châteaux de Malmaison et Bois-Préau, catalogue entry for Lemonnier, Lecture de la tragédie de L'Orphelin de la Chine dans le salon de Madame Geoffrin"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Empire",
+          "Revolution",
+          "Belle Époque"
+        ],
+        "year": [
+          1715,
+          1789,
+          1830
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Salon de Madame Geoffrin.jpg",
+          "source": "Anicet-Charles-Gabriel Lemonnier, Reading of Voltaire's L'Orphelin de la Chine in the Salon of Madame Geoffrin in 1755 (c. 1812), Château de Malmaison, via Wikimedia Commons",
+          "license": "Public domain (artist died 1824); verify the file's tag when fetching"
+        }
+      },
+      "cast": [
+        "Madame Geoffrin",
+        "Madame du Deffand",
+        "Julie de Lespinasse",
+        "Denis Diderot",
+        "d'Alembert",
+        "Voltaire",
+        "Rousseau"
+      ]
+    },
+    {
+      "id": "history.episode.napoleon-egypt-coronation-louvre",
+      "discipline": "history",
+      "kind": "episode",
+      "title": "Napoleon: Egypt, the coronation and the looted Louvre",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Empire",
+      "year": 1804,
+      "year_end": 1815,
+      "facts": [
+        "The Egyptian expedition sailed from Toulon in May 1798 carrying 167 scholars and draughtsmen as well as an army; Nelson destroyed the fleet at Aboukir Bay on 1 August and stranded them, so they stayed and measured, and out of it came the Description de l'Égypte, published from 1809 to 1829, and a European taste for Egypt in everything from furniture to opera.",
+        "Soldiers digging at Fort Julien near Rashid found the Rosetta Stone on 15 July 1799: one decree in hieroglyphic, demotic and Greek. It passed to the British under the Capitulation of Alexandria in 1801 and to the British Museum in 1802, and Champollion, working in Paris from copies, announced the decipherment in his Lettre à M. Dacier in September 1822.",
+        "He was crowned Emperor of the French at Notre-Dame on 2 December 1804 with Pius VII sitting by. He crowned himself and then crowned Joséphine, and it is the second of those that David chose to paint; the Sacre is nearly ten metres wide, hangs in the Louvre, and includes Napoleon's mother, who had stayed away in Rome.",
+        "The Louvre had opened as a public museum in 1793 and was renamed the Musée Napoléon in 1803 under Vivant Denon, who followed the armies and chose what to take. Veronese's Wedding at Cana, cut in half to travel, came out of the refectory of San Giorgio Maggiore in Venice in 1797.",
+        "In 1815 the allies took most of it back, with Canova sent from Rome to collect: the Apollo Belvedere, the Laocoön and the horses of St Mark's went home. The Veronese did not, on the argument that it was too fragile to move. Venice was given a Le Brun instead, and the picture still faces the Mona Lisa in the Salle des États."
+      ],
+      "remark": "The Veronese facing the Mona Lisa is loot: French commissioners cut it out of a Venetian refectory in 1797, and in 1815, when the rest was going home, France kept it by pleading that it was too fragile to travel.",
+      "gaffe": "Saying he crowned himself Emperor of France. The title was Emperor of the French, a people rather than a place, and the crowning David actually painted is Joséphine's.",
+      "links": [
+        "art.david.oath-of-the-horatii",
+        "art.leonardo.mona-lisa",
+        "music.beethoven.symphony-5.i",
+        "history.person.napoleon",
+        "history.episode.congress-of-vienna"
+      ],
+      "tags": [
+        "france",
+        "napoleon",
+        "empire",
+        "egypt",
+        "louvre",
+        "loot",
+        "rosetta-stone",
+        "1800s"
+      ],
+      "sources": [
+        "Philip Dwyer, Citizen Emperor: Napoleon in Power (2013)",
+        "Cecil Gould, Trophy of Conquest: The Musée Napoléon and the Creation of the Louvre (1965)",
+        "British Museum, collection entry for the Rosetta Stone (EA 24)",
+        "Musée du Louvre, catalogue entry INV 3699 (Le Sacre de l'empereur Napoléon Ier)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Ancien Régime",
+          "Revolution",
+          "Restoration"
+        ],
+        "year": [
+          1789,
+          1799,
+          1812
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Jacques-Louis David, The Coronation of Napoleon.jpg",
+          "source": "Jacques-Louis David, Le Sacre de l'empereur Napoléon Ier (1806-07), Musée du Louvre INV 3699, via Wikimedia Commons",
+          "license": "Public domain (artist died 1825); verify the file's tag when fetching"
+        }
+      },
+      "cast": [
+        "Napoleon Bonaparte",
+        "Joséphine",
+        "Pope Pius VII",
+        "Jacques-Louis David",
+        "Vivant Denon",
+        "Champollion"
+      ]
+    },
+    {
+      "id": "history.episode.haussmann-second-empire",
+      "discipline": "history",
+      "kind": "episode",
+      "title": "Haussmann's Paris and the Second Empire",
+      "city": "paris",
+      "difficulty": 2,
+      "era": "Second Empire",
+      "year": 1853,
+      "year_end": 1870,
+      "facts": [
+        "Napoleon III, who had spent his exile in London and come home admiring its parks, made Georges-Eugène Haussmann prefect of the Seine on 22 June 1853 and kept him there for sixteen years; the prefect was dismissed on 5 January 1870, months before the empire fell.",
+        "The work was surgery. Boulevards were cut straight through medieval quarters, the façades standardised in cream limestone with continuous balconies on the second and fifth floors, the sewer network taken to some six hundred kilometres, the Bois de Boulogne and the Buttes-Chaumont laid out, Baltard's iron halls built at Les Halles, and in 1860 the ring of suburbs annexed, taking Paris from twelve arrondissements to twenty.",
+        "The competition for a new opera house was won in 1861 by Charles Garnier, then thirty-five and unknown; the house opened on 5 January 1875, under the Third Republic. The empire's own music was Offenbach's: Orphée aux enfers in 1858, La Belle Hélène in 1864, and the galop that Paris danced as the can-can.",
+        "In 1863 the Salon jury rejected about three thousand of some five thousand submissions and Napoleon III ordered the rejects hung next door; the Salon des Refusés opened on 15 May with Manet's Déjeuner sur l'herbe in it.",
+        "The new streets became the subject. Monet painted the boulevard des Capucines from the photographer Nadar's studio, and the first Impressionist exhibition was held in that same studio in April 1874. Jules Ferry's pamphlet of 1868, Les Comptes fantastiques d'Haussmann, punned on the Barbier and Carré play that Offenbach would later set, and did for the prefect's accounts what no speech had managed."
+      ],
+      "remark": "The boulevards were built to be looked down, and the painters obliged: Monet painted the boulevard des Capucines out of Nadar's window, and the first Impressionist exhibition of 1874 was held in that same studio, above the new street.",
+      "gaffe": "Calling the boulevards a police measure and leaving it there. Wide streets are harder to barricade, and that was said at the time, but the water, the sewers and the annexation of the suburbs in 1860 are what actually changed how Paris lived.",
+      "links": [
+        "opera.venue.palais-garnier",
+        "opera.offenbach.orphee-aux-enfers.galop-infernal",
+        "art.term.salon",
+        "art.manet.dejeuner-sur-l-herbe",
+        "art.monet.impression-sunrise"
+      ],
+      "tags": [
+        "france",
+        "second-empire",
+        "haussmann",
+        "boulevards",
+        "offenbach",
+        "salon-des-refuses",
+        "1850s",
+        "1860s"
+      ],
+      "sources": [
+        "David P. Jordan, Transforming Paris: The Life and Labors of Baron Haussmann (1995)",
+        "David Harvey, Paris, Capital of Modernity (2003)",
+        "Grove Music Online, 'Offenbach, Jacques'",
+        "Patricia Mainardi, The End of the Salon: Art and the State in the Early Third Republic (1993)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "July Monarchy",
+          "Third Republic",
+          "Restoration"
+        ],
+        "year": [
+          1848,
+          1871,
+          1889
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project.jpg",
+          "source": "Gustave Caillebotte, Rue de Paris, temps de pluie (1877), Art Institute of Chicago, via Wikimedia Commons (Google Art Project)",
+          "license": "Public domain (artist died 1894); verify the file's tag when fetching"
+        }
+      },
+      "cast": [
+        "Napoleon III",
+        "Baron Haussmann",
+        "Charles Garnier",
+        "Jacques Offenbach",
+        "Jules Ferry"
+      ]
+    },
+    {
+      "id": "history.episode.dreyfus-affair",
+      "discipline": "history",
+      "kind": "episode",
+      "title": "The Dreyfus affair",
+      "city": "paris",
+      "difficulty": 2,
+      "era": "Third Republic",
+      "year": 1894,
+      "year_end": 1906,
+      "facts": [
+        "Alfred Dreyfus, an Alsatian Jewish artillery captain on the general staff, was convicted of treason on 22 December 1894 on a torn note and a handwriting comparison, stripped of his rank in the courtyard of the École militaire on 5 January 1895 while a crowd shouted outside, and sent to Devil's Island.",
+        "Colonel Picquart, the new head of intelligence, matched the handwriting to Major Esterhazy in 1896 and was posted to Tunisia for saying so; Esterhazy was tried and acquitted on 11 January 1898 after a few minutes' deliberation.",
+        "Two days later Zola published an open letter to the President of the Republic on the front page of L'Aurore, the paper Clemenceau wrote for, under the headline Clemenceau gave it, J'accuse...! Zola was convicted of criminal libel and left for England; in August 1898 Colonel Henry admitted forging a document in the file and cut his throat in prison.",
+        "The salons and the studios split with the country. Monet and Pissarro signed for Zola; Degas, who had dined with the Halévy family since childhood, stopped going at the end of 1897 and did not enter the house again until Ludovic Halévy lay dying in 1908, the same Halévy who had written the libretto of Carmen.",
+        "A second court-martial at Rennes in September 1899 found Dreyfus guilty again with extenuating circumstances, an absurdity that allowed the President to pardon him. The Cour de cassation quashed the verdict on 12 July 1906; he was reinstated, decorated, and served through the war of 1914."
+      ],
+      "remark": "It went through the dining rooms as well as the country: Degas gave up the Halévys, whose house he had eaten in since childhood and whose Ludovic wrote the libretto of Carmen, and never went back until the old man was dying.",
+      "gaffe": "Saying Zola won the case. J'accuse got Zola convicted of libel and out of the country; what broke the affair was Colonel Henry's confession of forgery in August 1898, and the exoneration took until 1906.",
+      "links": [
+        "art.degas",
+        "opera.bizet.carmen.habanera",
+        "art.monet.impression-sunrise",
+        "history.episode.haussmann-second-empire"
+      ],
+      "tags": [
+        "france",
+        "third-republic",
+        "dreyfus",
+        "zola",
+        "degas",
+        "antisemitism",
+        "1890s",
+        "1900s"
+      ],
+      "sources": [
+        "Ruth Harris, The Man on Devil's Island: Alfred Dreyfus and the Affair that Divided France (2010)",
+        "Jean-Denis Bredin, The Affair: The Case of Alfred Dreyfus (1986)",
+        "Linda Nochlin, 'Degas and the Dreyfus Affair: A Portrait of the Artist as an Anti-Semite', in Norman L. Kleeblatt (ed.), The Dreyfus Affair: Art, Truth, and Justice (1987)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Second Empire",
+          "July Monarchy",
+          "Restoration"
+        ],
+        "year": [
+          1871,
+          1889,
+          1900
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Caran-d-ache-dreyfus-supper.jpg",
+          "source": "Caran d'Ache, Un dîner en famille, Le Figaro, February 1898, via Wikimedia Commons",
+          "license": "Public domain (artist died 1909); verify the file's tag when fetching"
+        }
+      },
+      "cast": [
+        "Alfred Dreyfus",
+        "Émile Zola",
+        "Georges Picquart",
+        "Esterhazy",
+        "Georges Clemenceau",
+        "Edgar Degas"
+      ]
+    },
+    {
+      "id": "history.person.napoleon",
+      "discipline": "history",
+      "kind": "person",
+      "title": "Napoleon Bonaparte",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Empire",
+      "year": 1769,
+      "year_end": 1821,
+      "facts": [
+        "Born at Ajaccio on 15 August 1769, the year after Genoa ceded Corsica to France, so that he was French by a diplomatic accident; he was trained as an artillery officer at Brienne and Paris and spoke French with a Corsican accent all his life.",
+        "He made his name at Toulon in 1793 and in Italy in 1796, took power in the coup of 18 Brumaire in November 1799 as First Consul, was made consul for life in 1802 and Emperor of the French in 1804. The Code civil, promulgated that March, is the part of him still in force across half of Europe.",
+        "He married Joséphine de Beauharnais in 1796, divorced her at the end of 1809 for want of an heir and married the Austrian emperor's daughter Marie Louise in 1810; Austerlitz was 2 December 1805, the retreat from Moscow 1812, the abdication and Elba 1814, Waterloo 18 June 1815, and St Helena until his death on 5 May 1821.",
+        "The shortness is a mistake in units. The autopsy gave five feet two inches in French measure, and the French inch was longer than the English one, which puts him near one metre sixty-nine, about five foot six, a shade above his own infantry.",
+        "David painted the crossing of the Alps and the Coronation; Ingres put him on the imperial throne in 1806, posed like a medieval God the Father; and Beethoven, by his pupil Ries's account, tore up the Eroica's dedication when he heard that Bonaparte had made himself emperor."
+      ],
+      "remark": "The famous shortness is an arithmetic error: the autopsy gave five foot two in French measure, whose inches were longer than English ones, which makes him about five foot six and slightly taller than his own infantry.",
+      "gaffe": "Calling him Emperor of France. The title was Emperor of the French, chosen to rest on a people rather than a territory, and it dates from 1804; in 1799 he was First Consul.",
+      "links": [
+        "art.david.oath-of-the-horatii",
+        "music.beethoven.symphony-5.i",
+        "history.episode.napoleon-egypt-coronation-louvre",
+        "history.episode.congress-of-vienna",
+        "history.apocrypha.playing-fields-of-eton"
+      ],
+      "tags": [
+        "france",
+        "napoleon",
+        "empire",
+        "corsica",
+        "ingres",
+        "portrait",
+        "1800s"
+      ],
+      "sources": [
+        "Philip Dwyer, Napoleon: The Path to Power (2007) and Citizen Emperor: Napoleon in Power (2013)",
+        "Musée de l'Armée, Paris, catalogue entry for Ingres, Napoléon Ier sur le trône impérial",
+        "Ferdinand Ries and Franz Wegeler, Biographische Notizen über Ludwig van Beethoven (1838)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Revolution",
+          "Restoration",
+          "Ancien Régime"
+        ],
+        "person": [
+          "Talleyrand",
+          "Joseph Bonaparte",
+          "Marshal Murat"
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Ingres, Napoleon on his Imperial throne.jpg",
+          "source": "Jean-Auguste-Dominique Ingres, Napoléon Ier sur le trône impérial (1806), Musée de l'Armée, Paris, via Wikimedia Commons",
+          "license": "Public domain (artist died 1867); verify the file's tag when fetching"
+        }
+      },
+      "role": "Emperor of the French"
+    },
+    {
+      "id": "history.person.voltaire",
+      "discipline": "history",
+      "kind": "person",
+      "title": "Voltaire",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Enlightenment",
+      "year": 1694,
+      "year_end": 1778,
+      "facts": [
+        "Born François-Marie Arouet in Paris on 21 November 1694; he took the name Voltaire in 1718, after eleven months in the Bastille for verses about the Regent, and kept it for sixty years.",
+        "The Chevalier de Rohan had him beaten by his footmen in 1726 and Voltaire went to the Bastille and then to England for two years; the Lettres philosophiques of 1734, which praised English toleration and Newton at France's expense, were burned by the Paris hangman.",
+        "He spent fifteen years with Émilie du Châtelet, much of it at her husband's château at Cirey, and she translated Newton's Principia into French; then three years at Potsdam with Frederick the Great, until they quarrelled. From 1759 he lived at Ferney, on the frontier with Geneva.",
+        "Candide appeared in 1759. The Calas case made him a campaigner: a Toulouse Protestant broken on the wheel in 1762 for a murder he had not committed, whose conviction Voltaire had quashed in 1765, and out of which came the Treatise on Toleration.",
+        "He wrote for the opera as well as the stage: two court entertainments with Rameau in 1745, and a Samson the censors would not pass. He came back to Paris in February 1778 after twenty-eight years away, was crowned in his box at the Comédie-Française on 30 March at a performance of his Irène, and died on 30 May; the Revolution moved him to the Panthéon in July 1791."
+      ],
+      "remark": "He settled at Ferney in 1759 because it sat on the Genevan frontier: the great campaigner against censorship arranged his life so that he could be out of French jurisdiction within the hour.",
+      "gaffe": "Quoting 'I disapprove of what you say, but I will defend to the death your right to say it' as Voltaire. His English biographer Evelyn Beatrice Hall wrote it in 1906, and said afterwards that she was summarising his attitude, not quoting him.",
+      "links": [
+        "opera.rameau",
+        "music.term.salon",
+        "history.episode.enlightenment-salons",
+        "history.episode.french-revolution"
+      ],
+      "tags": [
+        "france",
+        "enlightenment",
+        "philosophe",
+        "ferney",
+        "largilliere",
+        "portrait",
+        "1700s"
+      ],
+      "sources": [
+        "Roger Pearson, Voltaire Almighty: A Life in Pursuit of Freedom (2005)",
+        "Grove Music Online, 'Rameau, Jean-Philippe'",
+        "Evelyn Beatrice Hall (as S. G. Tallentyre), The Friends of Voltaire (1906)",
+        "Musée Carnavalet, catalogue entry P208 (portrait de Voltaire)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Renaissance",
+          "Revolution",
+          "Restoration"
+        ],
+        "person": [
+          "Denis Diderot",
+          "Jean-Jacques Rousseau",
+          "Montesquieu"
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Nicolas de Largillière - Portrait de Voltaire (1694-1778) en 1718 - P208 - musée Carnavalet.jpg",
+          "source": "Nicolas de Largillière (and studio), Portrait de Voltaire en 1718, Musée Carnavalet P208, Paris, via Wikimedia Commons",
+          "license": "Public domain (artist died 1746); verify the file's tag when fetching"
+        }
+      },
+      "role": "Writer and philosophe"
+    },
+    {
+      "id": "history.person.diaghilev",
+      "discipline": "history",
+      "kind": "person",
+      "title": "Sergei Diaghilev",
+      "city": "paris",
+      "difficulty": 3,
+      "era": "Belle Époque",
+      "year": 1872,
+      "year_end": 1929,
+      "facts": [
+        "Born in Novgorod province on 31 March 1872 and trained in law at St Petersburg; he took his compositions to Rimsky-Korsakov, was told he had no gift for it, and became instead the editor of the magazine Mir iskusstva, the World of Art, from 1898 to 1904.",
+        "He brought Russian painting to the Salon d'Automne in 1906, Russian concerts to Paris in 1907 and Chaliapin in Boris Godunov in 1908; the first Saison Russe of ballet opened at the Théâtre du Châtelet on 19 May 1909 and made Nijinsky and Karsavina famous in a fortnight.",
+        "He commissioned rather than created: Stravinsky's Firebird in 1910, Petrushka in 1911 and the Rite of Spring in 1913, Ravel's Daphnis et Chloé in 1912, Debussy's Jeux in 1913, Satie's Parade in 1917 with Picasso's designs and Cocteau's scenario, then Poulenc, Milhaud and Prokofiev in the 1920s.",
+        "Nijinsky's Afternoon of a Faun, danced to Debussy's music on 29 May 1912, was attacked the next morning on the front page of Le Figaro for its closing gesture; Rodin defended it in print and the paper turned on Rodin.",
+        "The company was Russian and never danced in Russia. Diaghilev died in Venice on 19 August 1929, in debt, and is buried on the cemetery island of San Michele."
+      ],
+      "remark": "He never choreographed a step or wrote a bar: Rimsky-Korsakov told him he had no gift for composition, so he spent thirty years commissioning it from Stravinsky, Ravel, Debussy, Satie and Prokofiev instead.",
+      "gaffe": "Telling the Rite of Spring riot as though there had been arrests. There was a loud and ugly disturbance on 29 May 1913, the ballet was danced to the end, and the fights grew in the retelling; the scandal with a paper trail is Nijinsky's Faune the year before.",
+      "links": [
+        "music.stravinsky.le-sacre-du-printemps",
+        "music.ravel.bolero",
+        "music.debussy.clair-de-lune",
+        "music.satie.gymnopedie-1",
+        "art.rodin",
+        "opera.venue.palais-garnier"
+      ],
+      "tags": [
+        "russia",
+        "paris",
+        "ballets-russes",
+        "diaghilev",
+        "nijinsky",
+        "belle-epoque",
+        "portrait",
+        "1900s",
+        "1910s"
+      ],
+      "sources": [
+        "Sjeng Scheijen, Diaghilev: A Life (2009)",
+        "Richard Buckle, Diaghilev (1979)",
+        "Grove Music Online, 'Diaghilev, Serge'",
+        "State Russian Museum, St Petersburg, catalogue entry for Léon Bakst, Portrait of Sergei Diaghilev with his Nanny (1906)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Restoration",
+          "Second Empire",
+          "Enlightenment"
+        ],
+        "person": [
+          "Vaslav Nijinsky",
+          "Léon Bakst",
+          "Michel Fokine"
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Bakst Diaghilev.jpg",
+          "source": "Léon Bakst, Portrait of Sergei Diaghilev with his Nanny (1906), State Russian Museum, St Petersburg, via Wikimedia Commons",
+          "license": "Public domain (artist died 1924); verify the file's tag when fetching"
+        }
+      },
+      "role": "Impresario of the Ballets Russes"
+    },
+    {
+      "id": "history.apocrypha.letat-cest-moi",
+      "discipline": "history",
+      "kind": "apocrypha",
+      "title": "\"L'état, c'est moi\"",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Ancien Régime",
+      "year": 1655,
+      "facts": [
+        "The scene is set at the session of 13 April 1655, at which the sixteen-year-old king did appear before the Parlement of Paris; the words are not in its registers, and no memoir of the reign has them.",
+        "They surface long after his death, in Lémontey's essay on the monarchy of Louis XIV in 1818 and in Dulaure's history of Paris in 1834, when French writers were arguing about absolutism rather than reporting it.",
+        "The accounts of the death at Versailles in August 1715 have the king saying that he was going but that the state would remain always, and telling his five-year-old heir not to copy his taste for building or for war."
+      ],
+      "remark": "The one line everybody has from him is not his: it reaches print more than a century after his death, and what the deathbed accounts actually report is that he was going but the state would remain.",
+      "gaffe": "Producing it as a quotation. It is not in the registers of the Parlement, not in the memoirs and not in print before the nineteenth century, and anyone who has read a life of Louis XIV will hear it coming.",
+      "links": [
+        "history.episode.louis-xiv-versailles",
+        "opera.lully",
+        "art.term.salon",
+        "history.apocrypha.let-them-eat-cake"
+      ],
+      "tags": [
+        "france",
+        "bourbon",
+        "versailles",
+        "quotation",
+        "absolutism"
+      ],
+      "sources": [
+        "Peter Burke, The Fabrication of Louis XIV (1992)",
+        "Jean-Christian Petitfils, Louis XIV (1995)",
+        "Pierre-Édouard Lémontey, Essai sur l'établissement monarchique de Louis XIV (1818)"
+      ],
+      "reviewed_by": null,
+      "claim": "Told by the Parlement of Paris that his edicts must serve the interests of the state, the young Louis XIV replied: the state, it is me.",
+      "attributed_to": "Louis XIV",
+      "verdict": "invented",
+      "truth": "The words are in no contemporary source, and not in the registers of the Parlement for the session of 13 April 1655 at which the story places them. They appear in print only in the nineteenth century, in Lémontey in 1818 and in Dulaure's history of Paris in 1834. The accounts of the deathbed in August 1715 have him saying nearly the opposite: that he was going but that the state would remain."
     },
     {
       "id": "history.episode.siege-of-vienna",
@@ -5753,7 +6536,7 @@
         "image": {
           "commons": "File:Vienna Battle 1683.jpg",
           "source": "Frans Geffels, The Battle of Vienna, 12 September 1683 (late seventeenth century), Wien Museum, via Wikimedia Commons",
-          "license": "Public domain (artist died 1699); verify the file's tag when fetching"
+          "license": "Public domain (artist died 1694); verify the file's tag when fetching"
         }
       },
       "cast": [
@@ -5909,11 +6692,11 @@
       "era": "Age of revolutions",
       "year": 1848,
       "facts": [
-        "On 13 March 1848 a crowd stormed the Lower Austrian Landhaus in the Herrengasse, troops fired, and by evening Metternich had resigned after thirty-nine years in office; he reached London in April and stayed in England for three years.",
+        "On 13 March 1848 a crowd stormed the Lower Austrian Landhaus in the Herrengasse, troops fired, and by evening Metternich had resigned after thirty-nine years in office; he reached London in April and stayed in England until the autumn of 1849, then Brussels, and did not see Vienna again until 1851.",
         "Windischgrätz bombarded and retook Vienna at the end of October 1848 and had the Frankfurt deputy Robert Blum shot on 9 November; on 2 December, at Olomouc, the simple-minded Ferdinand I abdicated in favour of his eighteen-year-old nephew Franz Joseph, whose father had renounced his own claim.",
         "Hungary under Kossuth fought on until Russian troops helped end it at Világos in August 1849; thirteen Hungarian generals were executed at Arad on 6 October 1849, a date Hungary still marks.",
         "Johann Strauss the elder wrote the Radetzky March in August 1848 for a fête celebrating the field marshal's victory over the Piedmontese at Custoza, while his son sided with the revolution, wrote a Revolutions-Marsch and played the Marseillaise; the court held it against the younger Strauss for years.",
-        "Wagner manned the Dresden barricades in the rising of May 1849 alongside Bakunin and Gottfried Semper; a warrant was issued for his arrest and he fled through Weimar to Zurich, not to be fully amnestied until 1862. Semper fled too, and thirty years later designed Vienna's Kunsthistorisches Museum."
+        "Wagner manned the Dresden barricades in the rising of May 1849 alongside Bakunin and Gottfried Semper; a warrant was issued for his arrest and he fled through Weimar to Zurich, not to be fully amnestied until 1862. Semper fled too, and twenty years later was called to Vienna to design the Kunsthistorisches Museum with Hasenauer."
       ],
       "remark": "The Radetzky March is the counter-revolution's own tune: Strauss the elder wrote it in August 1848 for the field marshal who had just beaten the Italians at Custoza, while his son was playing the Marseillaise for the other side.",
       "gaffe": "Saying Franz Joseph overthrew his uncle, or that Metternich fell at the Congress. Ferdinand abdicated at Olomouc in December 1848 and lived on in Prague until 1875; Metternich lasted thirty-three years past the Congress and fell to the barricades of 13 March.",
@@ -6013,7 +6796,7 @@
         ],
         "year": [
           1867,
-          1898,
+          1879,
           1914
         ]
       },
@@ -6080,7 +6863,7 @@
         ],
         "year": [
           1867,
-          1908,
+          1873,
           1918
         ]
       },
@@ -6109,7 +6892,7 @@
         "The Habsburg Law of 3 April 1919 banished the family unless they renounced their claims, and a law of the same day abolished the nobility: titles and the particle 'von' became illegal in Austria, and still are.",
         "Nicholas II abdicated in March 1917 and was shot with his family at Ekaterinburg on 17 July 1918; Wilhelm II's abdication was announced on 9 November 1918 and he lived out his life at Doorn in the Netherlands. Klimt died in February 1918 and Schiele in October, of the influenza.",
         "Stefan Zweig, born in Vienna in 1881, finished Die Welt von Gestern (The World of Yesterday) in exile in 1941 and sent the manuscript to his publisher shortly before he and his wife took their own lives at Petrópolis in Brazil on 22 February 1942; its first chapter is called 'The World of Security'.",
-        "Elgar's Cello Concerto, his last major work, was premiered at the Queen's Hall on 27 October 1919 by Felix Salmond, under-rehearsed because Albert Coates had used up the time, and was a failure on the night. Ravel's Le Tombeau de Couperin (1919) dedicates each of its six movements to a friend killed in the war, and he denied that La Valse (1920) was about the fall of Vienna, though everyone hears it that way."
+        "Elgar's Cello Concerto, his last major work, was premiered at the Queen's Hall on 27 October 1919 by Felix Salmond, under-rehearsed because Albert Coates had used up the time, and was a failure on the night. Ravel's Le Tombeau de Couperin, the piano suite of 1914–17, dedicates each of its six movements to friends killed in the war, and he denied that La Valse (1920) was about the fall of Vienna, though everyone hears it that way."
       ],
       "remark": "Klimt died in February 1918, Schiele in October, the last emperor left Schönbrunn in November, and the republic abolished 'von' the following April; Zweig called the world before all that 'the world of security', and killed himself in Brazil in 1942.",
       "gaffe": "Saying Karl abdicated. He signed a renunciation of any part in the government on 11 November 1918 and never gave up the throne, which is why the republic had to legislate the family out of the country the following April.",
@@ -6325,7 +7108,7 @@
       "sources": [
         "Jean-Paul Bled, Franz Joseph (1992)",
         "Steven Beller, Francis Joseph (1996)",
-        "Kunsthistorisches Museum Wien, Sisi Museum, catalogue entry for Winterhalter's portrait of Franz Joseph I (1865)"
+        "Richard Ormond and Carol Blackett-Ord, Franz Xaver Winterhalter and the Courts of Europe 1830–70 (National Portrait Gallery, 1987)"
       ],
       "reviewed_by": null,
       "distractors": {
@@ -6343,7 +7126,7 @@
       "media": {
         "image": {
           "commons": "File:Franz Joseph I by Franz Xaver Winterhalter.jpg",
-          "source": "Franz Xaver Winterhalter, Emperor Franz Joseph I in the uniform of an Austrian field marshal (1865), Kunsthistorisches Museum, Vienna, via Wikimedia Commons",
+          "source": "Franz Xaver Winterhalter, Emperor Franz Joseph I in the uniform of an Austrian field marshal (1865), via Wikimedia Commons",
           "license": "Public domain (artist died 1873); verify the file's tag when fetching"
         }
       },
@@ -6386,7 +7169,7 @@
       ],
       "sources": [
         "Brigitte Hamann, The Reluctant Empress: A Biography of Empress Elisabeth of Austria (1986)",
-        "Kunsthistorisches Museum Wien, Sisi Museum, catalogue entry for Winterhalter's portrait of Empress Elisabeth (1865)"
+        "Richard Ormond and Carol Blackett-Ord, Franz Xaver Winterhalter and the Courts of Europe 1830–70 (National Portrait Gallery, 1987)"
       ],
       "reviewed_by": null,
       "distractors": {
@@ -7809,7 +8592,7 @@
       "year": 1830,
       "creator": "Hector Berlioz",
       "facts": [
-        "First performed on 5 December 1830 in the hall of the Paris Conservatoire, conducted by François Habeneck; Berlioz had won the Prix de Rome that July, at his fourth attempt.",
+        "First performed on 5 December 1830 in the hall of the Paris Conservatoire, conducted by François Habeneck; Berlioz had won the Prix de Rome that August, having entered every year since 1826.",
         "Five movements with a printed programme: Rêveries – Passions, Un bal, Scène aux champs, Marche au supplice, and Songe d'une nuit du sabbat, in which the artist, who has taken opium, dreams he is executed and then mocked at a witches' sabbath to the plainchant Dies irae.",
         "The beloved is a tune, which Berlioz's programme calls the idée fixe; it returns in every movement, waltzing in the second, and in the finale it comes back as a shrill parody on the E-flat clarinet.",
         "The beloved was real: the Irish actress Harriet Smithson, whom Berlioz had seen as Ophelia at the Odéon in September 1827 and had never met. They were introduced in December 1832 and married on 3 October 1833.",
@@ -7931,7 +8714,7 @@
         "The thirteenth of the fourteen movements of Le Carnaval des animaux, a 'grand zoological fantasy' written in a few days in February 1886 for a private Shrove Tuesday concert given by the cellist Charles Lebouc on 9 March.",
         "For cello and two pianos in the original; Saint-Saëns forbade public performance of the Carnival in his lifetime, fearing it would damage his reputation as a serious composer, and allowed only The Swan to be published, in 1887. The rest appeared in 1922, after his death.",
         "The Carnival's jokes include Offenbach's galop from Orphée aux enfers slowed to a crawl for the tortoises, Berlioz's Dance of the Sylphs given to the elephant on a double bass, and Saint-Saëns's own Danse macabre rattled out on a xylophone in Fossils.",
-        "Michel Fokine made the solo The Dying Swan for Anna Pavlova to it in St Petersburg; he dated it 1905, and its first documented performance was in December 1907."
+        "Michel Fokine made the solo The Dying Swan for Anna Pavlova to it in St Petersburg in 1905; it became her signature piece and she danced it for the rest of her life."
       ],
       "remark": "It is the only piece of the Carnival that Saint-Saëns let out in his lifetime; the rest, with its tortoises dancing Offenbach's galop at a crawl, was a private joke he sat on for thirty-five years.",
       "gaffe": "Calling it The Dying Swan as if that were the title. Saint-Saëns wrote Le Cygne; the dying is Fokine's and Pavlova's, some twenty years later, and the composer had nothing to do with it.",
@@ -8030,12 +8813,6 @@
           "Romantic"
         ]
       },
-      "theme": {
-        "notes": "F#5/4 A5/4 G5/4 | F#5/4 C#5/4 B4/4 | C#5/4 D5/4 A4/4 | A4/2. | A4/2.",
-        "tempo": 66,
-        "key": "D major",
-        "note": "The melody as it enters at bar 5, after four bars of the rocking accompaniment; the held A is approximated as two tied bars."
-      },
       "pronunciation": "zheem-no-pay-DEE",
       "language": "French"
     },
@@ -8114,7 +8891,7 @@
       "facts": [
         "Commissioned by the dancer Ida Rubinstein and first performed at the Paris Opéra on 22 November 1928, with Rubinstein dancing on a table in a Spanish tavern, choreography by Bronislava Nijinska, sets by Alexandre Benois, and Walther Straram conducting.",
         "Ravel had meant to orchestrate pieces from Albéniz's Iberia for her, found that the orchestration rights belonged to Enrique Fernández Arbós, and wrote an original piece instead.",
-        "One rhythm on the side drum from the first bar to the last, two sixteen-bar tunes alternating over it, a single crescendo, and C major throughout until one change of key just before the end; Ravel told the Daily Telegraph in 1931 that it was 'orchestral tissue without music'.",
+        "One rhythm on the side drum from the first bar to the last, two eighteen-bar tunes alternating over it, a single crescendo, and C major throughout until one change of key just before the end; Ravel told the Daily Telegraph in 1931 that it was 'orchestral tissue without music'.",
         "Ravel wanted it slow, about a quarter of an hour; when Toscanini took it faster with the New York Philharmonic in Paris in May 1930 the two men quarrelled about it.",
         "Ravel's other tune that everyone knows, the Pavane pour une infante défunte, was written for piano in 1899 while he was still a Conservatoire student and orchestrated in 1910."
       ],
@@ -8176,7 +8953,7 @@
         "Subtitled 'Pictures of pagan Russia in two parts'; a chosen maiden dances herself to death. The audience laughed, shouted and fought until the orchestra could not be heard; Stravinsky left his seat and watched from the wings, where Nijinsky stood on a chair shouting the counts to the dancers.",
         "The music itself won within a year: Monteux conducted it in concert at the Casino de Paris on 5 April 1914 and Stravinsky was carried out on the crowd's shoulders.",
         "Nijinsky's choreography was lost after a handful of performances in Paris and London and was reconstructed by Millicent Hodson and Kenneth Archer for the Joffrey Ballet in 1987.",
-        "Debussy and Stravinsky played it through as a piano duet at Louis Laloy's house at Bellevue on 9 June 1912, a year before the premiere."
+        "Debussy and Stravinsky played it through as a piano duet at Louis Laloy's house at Bellevue in June 1912, a year before the premiere."
       ],
       "remark": "The riot was at the ballet, not the music: a year later Monteux conducted it in concert at the Casino de Paris and Stravinsky was carried out on the crowd's shoulders. It was Nijinsky's steps that people could not bear.",
       "gaffe": "Repeating that Saint-Saëns stormed out over the bassoon's first note. The story is Stravinsky's own, told years later, and there is no evidence that Saint-Saëns was in the theatre that night.",
@@ -8235,7 +9012,7 @@
       "facts": [
         "Born in Pamiers, in the Ariège, on 12 May 1845; trained not at the Conservatoire but at the École Niedermeyer in Paris, a school for church musicians, where Saint-Saëns taught him the piano and showed him Schumann, Liszt and Wagner.",
         "Choirmaster at the Madeleine from 1877 and its organist from 1896; director of the Paris Conservatoire from 1905 to 1920, where his reforms and sackings earned him the nickname Robespierre, and his pupils included Ravel, Enescu, Koechlin and Nadia Boulanger.",
-        "His Requiem was first sung at the Madeleine on 16 January 1888, at the funeral of an architect, and grew to its final form by 1900; it leaves out the Dies irae sequence, and he wrote in 1910 that someone had called it 'a lullaby of death'.",
+        "His Requiem was first sung at the Madeleine on 16 January 1888, at the funeral of an architect, and grew to its final form by 1900; it leaves out the Dies irae sequence, and he said in 1902 that someone had called it 'a lullaby of death'.",
         "The Pavane of 1887 has words by Robert de Montesquiou and is dedicated to the Comtesse Greffulhe, the two people Proust would later turn into the Baron de Charlus and the Duchesse de Guermantes.",
         "Deaf and hearing pitches distorted from about 1903, he went on composing; he died in Paris on 4 November 1924 and was given a state funeral at the Madeleine."
       ],
@@ -8291,9 +9068,9 @@
       "year_end": 1963,
       "facts": [
         "Born in Paris on 7 January 1899, the son of a pharmaceutical manufacturer whose firm became Rhône-Poulenc; he never attended the Conservatoire, studied the piano with Ricardo Viñes, and took his only composition lessons from Charles Koechlin in the early 1920s.",
-        "The youngest of Les Six, named by the critic Henri Collet in 1920; Rapsodie nègre (1917) made his name at eighteen, and Diaghilev staged his ballet Les Biches in 1924.",
-        "After the death of his friend Pierre-Octave Ferroud in 1936 and a visit to the shrine of Rocamadour he returned to the Catholic faith; the Litanies à la Vierge noire (1936), the Stabat Mater (1950), Dialogues des Carmélites (La Scala, 1957) and the Gloria (1959) followed.",
-        "From 1934 he wrote and toured his songs with the baritone Pierre Bernac; in 1950 the critic Claude Rostand called him 'moine et voyou', monk and guttersnipe, and the phrase has stuck.",
+        "One of Les Six, named by the critic Henri Collet in 1920, and the youngest of them but for Georges Auric, five weeks his junior; Rapsodie nègre (1917) made his name at eighteen, and Diaghilev staged his ballet Les Biches in 1924.",
+        "After the death of his friend Pierre-Octave Ferroud in 1936 and a visit to the shrine of Rocamadour he returned to the Catholic faith; the Litanies à la Vierge noire (1936), the Stabat Mater (1950), Dialogues des Carmélites (La Scala, 1957) and the Gloria (1959–60) followed.",
+        "He first accompanied the baritone Pierre Bernac in 1934 and gave the first recital of their twenty-five-year partnership on 3 April 1935, writing and touring his songs with him thereafter; in 1950 the critic Claude Rostand called him 'moine et voyou', monk and guttersnipe, and the phrase has stuck.",
         "Died in Paris on 30 January 1963; his last opera, La Voix humaine (1959), is a forty-minute telephone call for one soprano, to a text by Cocteau."
       ],
       "remark": "He was a pharmaceutical manufacturer's son who never went to the Conservatoire, and Claude Rostand's 'moine et voyou' covers him: the Gloria and the Carmelites on one side, the naughty songs and Les Biches on the other.",
@@ -8458,7 +9235,7 @@
         "The tradition ran on into the twentieth century: the Princesse de Polignac, born Winnaretta Singer of the sewing-machine fortune, commissioned Stravinsky's Renard, Satie's Socrate, Falla's El retablo de maese Pedro and Poulenc's Organ Concerto for her salon on the avenue Henri-Martin.",
         "Fauré's songs, Debussy's early works and much of Ravel were first heard in private rooms; Proust's Madame Verdurin is a satire of the hostesses who ran them."
       ],
-      "remark": "Chopin gave about thirty public concerts in eighteen years in Paris and did the rest in drawing rooms; the salon was his concert hall, his publicity and his employment exchange, since that is where the pupils at twenty francs a lesson came from.",
+      "remark": "Chopin gave about thirty public concerts in his whole life and did the rest of his playing in drawing rooms; the salon was his concert hall, his publicity and his employment exchange, since that is where the pupils at twenty francs a lesson came from.",
       "gaffe": "Saying 'salon music' as a compliment, or muddling the salon with the Salon. The Salon, capital S, is the state art exhibition named after a room in the Louvre; and since about 1870 'salon music' has meant pretty and shallow, so do not say it of a Chopin nocturne in front of a pianist.",
       "links": [
         "music.chopin.nocturne-op9-2",
@@ -8507,11 +9284,11 @@
       "year": 1795,
       "facts": [
         "Founded by decree of the Convention on 3 August 1795, merging the old École royale de chant with the National Guard's music school, under Bernard Sarrette; it stood on the rue Bergère until 1911, then on the rue de Madrid, and since 1990 at the Cité de la musique at La Villette.",
-        "Its directors included Cherubini (1822 to 1842), Auber, Ambroise Thomas, Théodore Dubois and Fauré (1905 to 1920); its Société des Concerts, founded by François Habeneck in 1828, brought Beethoven's symphonies to Paris and became the Orchestre de Paris in 1967.",
-        "The Prix de Rome, judged by the Académie des Beaux-Arts, sent the winner to the Villa Medici: Berlioz won it in 1830 at the fourth attempt, Bizet in 1857, Debussy in 1884; Saint-Saëns failed twice and Ravel five times.",
+        "Its directors included Cherubini (1822 to 1842), Auber, Ambroise Thomas, Théodore Dubois and Fauré (1905 to 1920); its Société des Concerts, founded by François Habeneck in 1828, brought Beethoven's symphonies to Paris and was dissolved in 1967, succeeded by the Orchestre de Paris.",
+        "The Prix de Rome, judged by the Académie des Beaux-Arts, sent the winner to the Villa Medici: Berlioz won it in 1830, having entered every year since 1826, Bizet in 1857, Debussy in 1884; Saint-Saëns failed twice and Ravel five times.",
         "When the jury eliminated Ravel in the first round in 1905, and it emerged that the finalists were all pupils of one juror, the scandal forced Dubois out of the directorship and put Fauré, who had never studied there, in his place."
       ],
-      "remark": "Berlioz won the Prix de Rome at the fourth attempt and Ravel lost it five times; when the jury threw Ravel out in the first round in 1905, the scandal cost the director his job and gave it to Fauré, who had never been a student there.",
+      "remark": "Berlioz won the Prix de Rome after five years of trying and Ravel lost it five times; when the jury threw Ravel out in the first round in 1905, the scandal cost the director his job and gave it to Fauré, who had never been a student there.",
       "gaffe": "Saying 'the Conservatory'. In Paris it is the Conservatoire, founded in 1795 by the Convention and not by any king; and the Prix de Rome was not even its prize, but the Académie's, which is why the row of 1905 was so hard to contain.",
       "links": [
         "music.berlioz.symphonie-fantastique",
@@ -8637,6 +9414,650 @@
       "pronunciation": "leet (plural LEE-der)",
       "language": "German",
       "definition": "A German art song for solo voice and piano, in which the piano is a partner rather than an accompaniment; the plural is Lieder."
+    },
+    {
+      "id": "music.haydn.symphony-94.ii",
+      "discipline": "music",
+      "kind": "work",
+      "title": "Symphony No. 94 in G major ('Surprise'), second movement",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Classical",
+      "year": 1792,
+      "creator": "Joseph Haydn",
+      "facts": [
+        "One of the twelve 'London' symphonies written for Johann Peter Salomon's concerts; first performed at the Hanover Square Rooms in London on 23 March 1792, with Haydn directing from the fortepiano.",
+        "The Andante is a set of variations on a tune of nursery simplicity; the theme is played once quietly and then repeated more quietly still, and the fortissimo chord with the kettledrum lands at the end of that repeat.",
+        "Asked by his biographer Griesinger whether the chord was meant to wake a dozing audience, Haydn said he had wanted to surprise the public with something new and to keep his former pupil Ignaz Pleyel, then running rival concerts in London, from outdoing him. His friend the composer Gyrowetz remembered him showing off the passage beforehand and saying it would make the ladies scream.",
+        "Back in Vienna in 1797 Haydn wrote 'Gott erhalte Franz den Kaiser' as an Austrian answer to the 'God Save the King' he had heard in London, and used it as the slow movement of the String Quartet Op. 76 No. 3, which is why that quartet is called the Emperor."
+      ],
+      "remark": "Haydn told his biographer that the chord was there to give the public something new and to stop his old pupil Pleyel outdoing him in London; the story that he wrote it to wake a dozing audience came afterwards.",
+      "gaffe": "Waiting for the surprise in the first movement, or calling this the Drumroll. The chord comes in the slow movement, and the Drumroll is No. 103, which opens with one.",
+      "links": [
+        "music.anon.god-save-the-king",
+        "music.mozart.eine-kleine-nachtmusik",
+        "music.beethoven.symphony-5.i"
+      ],
+      "tags": [
+        "symphony",
+        "haydn",
+        "london-symphonies",
+        "classical",
+        "1790s",
+        "salomon"
+      ],
+      "sources": [
+        "Grove Music Online, 'Haydn, Joseph'",
+        "H. C. Robbins Landon, Haydn: Chronicle and Works, vol. 3: Haydn in England 1791–1795 (1976)",
+        "Georg August Griesinger, Biographische Notizen über Joseph Haydn (1810)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Wolfgang Amadeus Mozart",
+          "Ludwig van Beethoven",
+          "Ignaz Pleyel"
+        ],
+        "title": [
+          "Symphony No. 104 in D major ('London')",
+          "Symphony No. 45 in F-sharp minor ('Farewell')",
+          "Symphony No. 101 in D major ('The Clock')"
+        ],
+        "era": [
+          "Baroque",
+          "Romantic",
+          "Modernist"
+        ]
+      },
+      "theme": {
+        "notes": "C5/4 C5/4 | E5/4 E5/4 | G5/4 G5/4 | E5/4 R/4 | F5/4 F5/4 | D5/4 D5/4 | B4/4 B4/4 | G4/4 R/4",
+        "tempo": 76,
+        "key": "C major",
+        "note": "The first eight bars of the Andante theme, melody only, staccato in the strings; the chord arrives eight bars later, at the end of the quiet repeat."
+      }
+    },
+    {
+      "id": "music.mozart.eine-kleine-nachtmusik",
+      "discipline": "music",
+      "kind": "work",
+      "title": "Eine kleine Nachtmusik, K. 525, first movement",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Classical",
+      "year": 1787,
+      "creator": "Wolfgang Amadeus Mozart",
+      "facts": [
+        "Mozart entered it in his own catalogue of works on 10 August 1787, in Vienna, while he was in the middle of Don Giovanni; no commission, occasion or performance in his lifetime is documented.",
+        "His catalogue entry lists five movements — Allegro, Minuet and Trio, Romance, Minuet and Trio, Finale — but the leaf carrying the first minuet was torn out of the autograph and lost, which is why it is played in four.",
+        "A serenade for strings: two violins, viola, cello and bass, one to a part or a whole string orchestra.",
+        "It was not published until 1827, thirty-six years after his death, by Johann André of Offenbach."
+      ],
+      "remark": "He wrote it in Vienna in August 1787 in the middle of composing Don Giovanni, and nobody knows who it was for or whether he ever heard it; it was not printed until 1827.",
+      "gaffe": "Calling it a symphony, or a quartet. It is a serenade for strings, and it had five movements until somebody tore the first minuet out of the manuscript.",
+      "links": [
+        "opera.mozart.don-giovanni",
+        "opera.mozart",
+        "music.mozart.rondo-alla-turca",
+        "music.haydn.symphony-94.ii",
+        "history.episode.joseph-ii-and-mozart"
+      ],
+      "tags": [
+        "serenade",
+        "strings",
+        "mozart",
+        "classical",
+        "1780s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Mozart, Wolfgang Amadeus'",
+        "Neal Zaslaw and William Cowdery (eds.), The Compleat Mozart (1990)",
+        "Köchel-Verzeichnis (Internationale Stiftung Mozarteum), KV 525"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Joseph Haydn",
+          "Luigi Boccherini",
+          "Johann Christian Bach"
+        ],
+        "title": [
+          "Serenade No. 10 in B-flat major ('Gran Partita')",
+          "Symphony No. 40 in G minor, K. 550",
+          "Divertimento in D major, K. 136"
+        ],
+        "era": [
+          "Baroque",
+          "Romantic",
+          "Modernist"
+        ]
+      },
+      "theme": {
+        "notes": "G4/4 R/8 D4/8 G4/4 R/8 D4/8 | G4/8 D4/8 G4/8 B4/8 D5/4 R/4",
+        "tempo": 132,
+        "key": "G major",
+        "note": "The opening two bars, all the strings in unison, melody only."
+      },
+      "pronunciation": "EYE-nuh KLY-nuh NAHKHT-moo-zeek",
+      "language": "German"
+    },
+    {
+      "id": "music.mozart.rondo-alla-turca",
+      "discipline": "music",
+      "kind": "work",
+      "title": "Rondo alla turca, from the Piano Sonata in A major, K. 331",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Classical",
+      "year": 1783,
+      "year_approx": true,
+      "creator": "Wolfgang Amadeus Mozart",
+      "parent": "Piano Sonata No. 11 in A major, K. 331 (c. 1783)",
+      "facts": [
+        "The finale of the Sonata in A major, K. 331, which Artaria published in Vienna early in 1784 with two other sonatas; scholars now date all three to about 1783 rather than to Paris in 1778, as older books have it.",
+        "Marked 'Alla turca', it imitates the janissary band of the Ottoman army, whose sound Vienna had heard at the siege of 1683 and whose fashion was at its height in the 1780s; Viennese pianos of the day often had a pedal that rang a bell and struck a drum for this kind of music.",
+        "The sonata contains no movement in sonata form at all: a theme and variations, a minuet, and this rondo.",
+        "In 2014 Balázs Mikusi found four pages of the lost autograph in the National Széchényi Library in Budapest; they differ in places from the printed first edition."
+      ],
+      "remark": "It imitates a janissary band, and the Viennese pianos of the 1780s often had a pedal that rang a bell and beat a drum for exactly this sort of music.",
+      "gaffe": "Calling it a Turkish tune. It quotes no Turkish melody: alla turca is a Viennese style, got up a century after the janissaries were last at the walls.",
+      "links": [
+        "history.episode.siege-of-vienna",
+        "opera.mozart.die-entfuehrung-aus-dem-serail",
+        "music.mozart.eine-kleine-nachtmusik",
+        "opera.mozart"
+      ],
+      "tags": [
+        "piano",
+        "sonata",
+        "mozart",
+        "alla-turca",
+        "janissary",
+        "classical",
+        "1780s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Mozart, Wolfgang Amadeus'",
+        "Eva Badura-Skoda and Paul Badura-Skoda, Interpreting Mozart on the Keyboard (rev. ed., 2008)",
+        "National Széchényi Library, Budapest, on the K. 331 autograph fragment found in 2014"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Joseph Haydn",
+          "Muzio Clementi",
+          "Johann Nepomuk Hummel"
+        ],
+        "title": [
+          "Fantasia in D minor, K. 397",
+          "Rondo in A minor, K. 511",
+          "Twelve Variations on 'Ah vous dirai-je, Maman', K. 265"
+        ],
+        "era": [
+          "Baroque",
+          "Romantic",
+          "Modernist"
+        ]
+      },
+      "theme": {
+        "notes": "B4/16 A4/16 G#4/16 A4/16 | C5/4 D5/16 C5/16 B4/16 C5/16 | E5/4 F5/16 E5/16 D#5/16 E5/16",
+        "tempo": 120,
+        "key": "A minor",
+        "note": "The upbeat turn and the first two bars of the rondo theme; the turn figures climb the A minor triad, and the third of them is left where it lands."
+      }
+    },
+    {
+      "id": "music.beethoven.symphony-9.ode-to-joy",
+      "discipline": "music",
+      "kind": "work",
+      "title": "Ode to Joy, from the Symphony No. 9 in D minor, Op. 125",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Classical / early Romantic",
+      "year": 1824,
+      "creator": "Ludwig van Beethoven",
+      "parent": "Symphony No. 9 in D minor, Op. 125 ('Choral', 1824)",
+      "facts": [
+        "First performed at the Kärntnertortheater in Vienna on 7 May 1824. Michael Umlauf conducted and the players had been told to watch him; Beethoven stood beside him setting the tempi, too deaf to hear what followed, and the contralto Caroline Unger turned him round to see the applause.",
+        "The tune enters in the finale on cellos and basses alone, with no harmony under it, and is built up through the orchestra before any voice sings a word.",
+        "The words are Schiller's An die Freude of 1785, in the poet's later revision; the lines that open the finale, calling for other and more pleasant sounds, are Beethoven's own.",
+        "The Council of Europe adopted the tune as its anthem in 1972, in an arrangement by Herbert von Karajan, and the European Communities followed in 1985; it is official without words, so that no language is favoured."
+      ],
+      "remark": "The tune arrives on cellos and basses alone, with no harmony at all, and the orchestra has to build it up before anyone is allowed to sing it; the first words of the finale are Beethoven's own, not Schiller's.",
+      "gaffe": "Calling the Ode to Joy the symphony. It is one tune in a finale of about a quarter of an hour, in a work that runs over an hour, and three movements go by before it appears.",
+      "links": [
+        "music.beethoven.symphony-5.i",
+        "opera.beethoven.fidelio",
+        "history.episode.congress-of-vienna",
+        "music.schubert"
+      ],
+      "tags": [
+        "symphony",
+        "choral",
+        "beethoven",
+        "schiller",
+        "1820s",
+        "european-anthem"
+      ],
+      "sources": [
+        "Grove Music Online, 'Beethoven, Ludwig van'",
+        "Lewis Lockwood, Beethoven: The Music and the Life (2003)",
+        "Nicholas Cook, Beethoven: Symphony No. 9 (Cambridge Music Handbooks, 1993)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Franz Schubert",
+          "Joseph Haydn",
+          "Carl Maria von Weber"
+        ],
+        "title": [
+          "Missa solemnis, Op. 123",
+          "Symphony No. 6 in F major ('Pastoral')",
+          "Fantasia in C minor, Op. 80 ('Choral Fantasy')"
+        ],
+        "era": [
+          "Baroque",
+          "Late Romantic",
+          "Modernist"
+        ]
+      },
+      "theme": {
+        "notes": "F#4/4 F#4/4 G4/4 A4/4 | A4/4 G4/4 F#4/4 E4/4 | D4/4 D4/4 E4/4 F#4/4 | F#4/4. E4/8 E4/2 | F#4/4 F#4/4 G4/4 A4/4 | A4/4 G4/4 F#4/4 E4/4 | D4/4 D4/4 E4/4 F#4/4 | E4/4. D4/8 D4/2",
+        "tempo": 108,
+        "key": "D major",
+        "note": "The first eight bars of the tune as the cellos and basses give it out in the finale, melody only."
+      }
+    },
+    {
+      "id": "music.strauss-ii.an-der-schoenen-blauen-donau",
+      "discipline": "music",
+      "kind": "work",
+      "title": "An der schönen, blauen Donau (The Blue Danube), Op. 314",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Romantic",
+      "year": 1867,
+      "creator": "Johann Strauss II",
+      "facts": [
+        "First performed on 15 February 1867 at the Dianabad-Saal in Vienna, as a choral waltz for the Wiener Männergesang-Verein to comic verses by the society's own poet, Josef Weyl; the wordless orchestral version came later that year and made its name in Paris at the World Exhibition.",
+        "Vienna had been beaten by Prussia at Königgrätz the summer before, and the piece was written for a city in low spirits.",
+        "The title comes from a poem by Karl Isidor Beck, whose refrain addresses the beautiful blue Danube; the river at Vienna is grey-green.",
+        "Brahms, who admired Strauss and was his friend, is said to have written the opening bars on Adele Strauss's fan and added that they were, alas, not by Johannes Brahms."
+      ],
+      "remark": "It started life as a choral waltz for a men's singing club in February 1867, with joke verses, written for a city that had just lost a war to Prussia; the version everyone knows has no words at all.",
+      "gaffe": "Assuming the Danube is blue, or that this Strauss wrote the Radetzky March. The river is grey-green, and the march is his father's, from the other side of the 1848 barricades.",
+      "links": [
+        "music.term.waltz",
+        "music.strauss-i.radetzky-marsch",
+        "opera.strauss-ii.die-fledermaus",
+        "history.episode.1848-and-franz-joseph",
+        "music.brahms"
+      ],
+      "tags": [
+        "waltz",
+        "strauss",
+        "vienna",
+        "danube",
+        "1860s",
+        "mannergesang-verein"
+      ],
+      "sources": [
+        "Grove Music Online, 'Strauss, Johann (ii)'",
+        "Peter Kemp, The Strauss Family: Portrait of a Musical Dynasty (1985)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Johann Strauss I",
+          "Josef Lanner",
+          "Émile Waldteufel"
+        ],
+        "title": [
+          "Tales from the Vienna Woods, Op. 325",
+          "Emperor Waltz, Op. 437",
+          "Wine, Women and Song, Op. 333"
+        ],
+        "era": [
+          "Baroque",
+          "Classical",
+          "Modernist"
+        ]
+      },
+      "theme": {
+        "notes": "D4/4 F#4/4 A4/4 | A4/2. | D4/4 F#4/4 A4/4 | A4/2.",
+        "tempo": 160,
+        "key": "D major",
+        "note": "The first waltz: the rising D major triad and its held answer, twice. The orchestra's accented after-beats under the held note are not notated."
+      },
+      "pronunciation": "ahn dair SHUR-nen BLOW-en DOH-now",
+      "language": "German"
+    },
+    {
+      "id": "music.strauss-i.radetzky-marsch",
+      "discipline": "music",
+      "kind": "work",
+      "title": "Radetzky-Marsch, Op. 228",
+      "city": "vienna",
+      "difficulty": 2,
+      "era": "Romantic",
+      "year": 1848,
+      "creator": "Johann Strauss I",
+      "facts": [
+        "First played on 31 August 1848 at a festival at the Wasserglacis in Vienna, in honour of Field Marshal Radetzky, who had beaten the Piedmontese at Custoza on 25 July; the officers in the audience clapped and stamped along, and the audience has clapped ever since.",
+        "Strauss the elder took the court's side in the revolutions of 1848 while his son Johann II played the Marseillaise for the other, which cost the son official favour for years.",
+        "It has ended the Vienna Philharmonic's New Year's Concert since 1946, with the conductor turning round to govern the clapping.",
+        "The score used from 1946 was an arrangement made in 1914 by Leopold Weninger, who later joined the Nazi party; the orchestra played the original 1848 scoring under Nikolaus Harnoncourt in 2001 and adopted a new edition in 2020."
+      ],
+      "remark": "It is the counter-revolution's own tune: written in August 1848 for the field marshal who had just put down the Italians, while the composer's son was playing the Marseillaise for the revolution at home.",
+      "gaffe": "Crediting it to the waltz Strauss. The march is the father's, the Blue Danube the son's, and in 1848 the two of them were on opposite sides.",
+      "links": [
+        "music.term.waltz",
+        "music.strauss-ii.an-der-schoenen-blauen-donau",
+        "history.episode.1848-and-franz-joseph",
+        "history.person.franz-joseph"
+      ],
+      "tags": [
+        "march",
+        "strauss",
+        "radetzky",
+        "revolution-1848",
+        "new-years-concert",
+        "vienna"
+      ],
+      "sources": [
+        "Grove Music Online, 'Strauss, Johann (i)'",
+        "Peter Kemp, The Strauss Family: Portrait of a Musical Dynasty (1985)",
+        "Wiener Philharmoniker, 'The Philharmonic Version of the Radetzky March'"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Johann Strauss II",
+          "Josef Lanner",
+          "Josef Strauss"
+        ],
+        "title": [
+          "Persischer Marsch, Op. 289",
+          "Egyptischer Marsch, Op. 335",
+          "Marche militaire No. 1 in D, D. 733"
+        ],
+        "era": [
+          "Baroque",
+          "Classical",
+          "Modernist"
+        ]
+      },
+      "language": "German"
+    },
+    {
+      "id": "music.schubert",
+      "discipline": "music",
+      "kind": "creator",
+      "title": "Franz Schubert",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Early Romantic",
+      "year": 1797,
+      "year_end": 1828,
+      "facts": [
+        "Born in Himmelpfortgrund, a suburb of Vienna, on 31 January 1797; died in the city on 19 November 1828, aged thirty-one, of what the death record calls Nervenfieber, usually read as typhoid. He asked to be buried near Beethoven, who had died the year before, at Währing; both were moved to the Zentralfriedhof in 1888.",
+        "More than six hundred songs, among them Erlkönig, written to Goethe in 1815 when he was eighteen and published six years later as his Op. 1, and the two cycles Die schöne Müllerin and Winterreise.",
+        "He gave exactly one public concert of his own music, on 26 March 1828, eight months before he died; the rest was heard at friends' evening parties, the Schubertiaden.",
+        "The two movements of the B minor symphony of 1822 were left with Anselm Hüttenbrenner and not performed until 17 December 1865, thirty-seven years after his death."
+      ],
+      "remark": "He gave one public concert of his own music, eight months before he died at thirty-one; everything else was heard in friends' drawing rooms, and the Unfinished sat in a drawer until 1865.",
+      "gaffe": "Saying the Unfinished is unfinished because he died. He wrote its two movements in 1822 and lived another six years, writing other symphonies; the manuscript simply stayed with a friend.",
+      "links": [
+        "music.term.lied",
+        "music.beethoven.symphony-5.i",
+        "art.term.biedermeier",
+        "music.brahms",
+        "history.episode.congress-of-vienna"
+      ],
+      "tags": [
+        "composer",
+        "schubert",
+        "lieder",
+        "early-romantic",
+        "vienna",
+        "1820s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Schubert, Franz'",
+        "Elizabeth Norman McKay, Franz Schubert: A Biography (1996)",
+        "Christopher H. Gibbs, The Life of Schubert (2000)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Robert Schumann",
+          "Carl Maria von Weber",
+          "Felix Mendelssohn"
+        ],
+        "era": [
+          "Baroque",
+          "Late Romantic",
+          "Modernist"
+        ],
+        "person": [
+          "Robert Schumann",
+          "Carl Maria von Weber",
+          "Felix Mendelssohn"
+        ]
+      }
+    },
+    {
+      "id": "music.brahms",
+      "discipline": "music",
+      "kind": "creator",
+      "title": "Johannes Brahms",
+      "city": "vienna",
+      "difficulty": 2,
+      "era": "Late Romantic",
+      "year": 1833,
+      "year_end": 1897,
+      "facts": [
+        "Born in Hamburg on 7 May 1833; he came to Vienna in 1862, made it his home, and died there on 3 April 1897. He lies in the Zentralfriedhof a few steps from Beethoven and Schubert.",
+        "He spent twenty-one years on his First Symphony, begun in 1855 and finished in 1876; when Hans von Bülow called it Beethoven's Tenth, Brahms is said to have replied that any fool could hear as much.",
+        "The Wiegenlied, 'Guten Abend, gut' Nacht', Op. 49 No. 4, was published in 1868 for Bertha Faber on the birth of her second son, with a Ländler she used to sing to him hidden in the piano part.",
+        "Musical Vienna divided into Wagnerians and Brahmsians, with the critic Eduard Hanslick leading for Brahms; the essay that finally called him a modernist, 'Brahms the Progressive', was written in 1947 by Schoenberg."
+      ],
+      "remark": "The lullaby everyone knows was a present for Bertha Faber on the birth of her second son, and he hid in the piano part a Ländler she had sung to him years before.",
+      "gaffe": "Calling the Hungarian Dances his own tunes. He published them without opus numbers and called himself the arranger, precisely because most of the melodies were not his, and he was accused of stealing them anyway.",
+      "links": [
+        "music.term.lied",
+        "music.schubert",
+        "music.movement.second-viennese-school",
+        "music.strauss-ii.an-der-schoenen-blauen-donau"
+      ],
+      "tags": [
+        "composer",
+        "brahms",
+        "vienna",
+        "late-romantic",
+        "hanslick",
+        "1800s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Brahms, Johannes'",
+        "Jan Swafford, Johannes Brahms: A Biography (1997)",
+        "Styra Avins, Johannes Brahms: Life and Letters (1997)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Anton Bruckner",
+          "Robert Schumann",
+          "Antonín Dvořák"
+        ],
+        "era": [
+          "Baroque",
+          "Classical",
+          "Modernist"
+        ],
+        "person": [
+          "Anton Bruckner",
+          "Robert Schumann",
+          "Antonín Dvořák"
+        ]
+      }
+    },
+    {
+      "id": "music.mahler",
+      "discipline": "music",
+      "kind": "creator",
+      "title": "Gustav Mahler",
+      "city": "vienna",
+      "difficulty": 2,
+      "era": "Late Romantic",
+      "year": 1860,
+      "year_end": 1911,
+      "facts": [
+        "Born on 7 July 1860 at Kalischt in Bohemia into a German-speaking Jewish family; he was baptised a Catholic early in 1897 because the post he wanted, the directorship of the Vienna Hofoper, was closed to a Jew. He held it from 1897 to 1907 and died in Vienna on 18 May 1911.",
+        "He conducted for a living and composed in the summers: nine numbered symphonies, Das Lied von der Erde, and a Tenth left unfinished.",
+        "The Adagietto is the fourth movement of the Fifth Symphony, written in 1901 and 1902 for strings and harp alone; Willem Mengelberg noted in his score that both Mahler and Alma had told him it was a declaration of love to her.",
+        "It was played at Robert Kennedy's funeral in 1968 and ran through Visconti's Death in Venice in 1971, which is how most people meet Mahler."
+      ],
+      "remark": "He was baptised in 1897 because the directorship of the Court Opera was closed to a Jew, took the job, ran it for ten years, and had to do his composing in the summer holidays.",
+      "gaffe": "Treating the Adagietto as music about death because of the Visconti film. Mengelberg's score says Mahler and Alma both told him it was a love letter to her; the film came seventy years later.",
+      "links": [
+        "opera.venue.staatsoper",
+        "history.episode.vienna-1900",
+        "music.movement.second-viennese-school",
+        "art.klimt",
+        "music.term.lied"
+      ],
+      "tags": [
+        "composer",
+        "mahler",
+        "symphony",
+        "hofoper",
+        "vienna-1900",
+        "1900s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Mahler, Gustav'",
+        "Henry-Louis de La Grange, Gustav Mahler (4 vols., 1973–2008)",
+        "Jens Malte Fischer, Gustav Mahler (English edition, 2011)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Richard Strauss",
+          "Anton Bruckner",
+          "Hugo Wolf"
+        ],
+        "era": [
+          "Baroque",
+          "Classical",
+          "Renaissance"
+        ],
+        "person": [
+          "Richard Strauss",
+          "Anton Bruckner",
+          "Hugo Wolf"
+        ]
+      }
+    },
+    {
+      "id": "music.movement.second-viennese-school",
+      "discipline": "music",
+      "kind": "movement",
+      "title": "The Second Viennese School",
+      "city": "vienna",
+      "difficulty": 3,
+      "era": "Modernist",
+      "year": 1904,
+      "facts": [
+        "Arnold Schoenberg (1874–1951) and his two great pupils, Alban Berg and Anton Webern, who both began studying with him in 1904; the name answers the first Viennese school of Haydn, Mozart and Beethoven.",
+        "On 31 March 1913, in the Great Hall of the Musikverein, a concert of their music conducted by Schoenberg ended in a brawl and had to be abandoned; Vienna calls it the Skandalkonzert.",
+        "Schoenberg's answer to hostile audiences was the Society for Private Musical Performances, which ran from 1918 to 1921: members only, no critics admitted, no applause, and the programme not announced in advance.",
+        "He made the twelve-note method public in 1923: all twelve notes of the chromatic scale set in a row and used in order, so that none of them can become home. He was superstitious about the number thirteen, spelled the title of his opera Moses und Aron with one 'a' to keep it to twelve letters, and died on Friday 13 July 1951."
+      ],
+      "remark": "The name is a claim rather than a label: it answers the first Viennese school of Haydn, Mozart and Beethoven, and Schoenberg thought he was continuing that line, not breaking it.",
+      "gaffe": "Calling the music atonal in front of anyone who cares. Schoenberg disliked the word — the notes have relations, just not a key — and talked instead about the emancipation of the dissonance.",
+      "links": [
+        "opera.berg.wozzeck",
+        "music.mahler",
+        "art.movement.vienna-secession",
+        "history.episode.vienna-1900",
+        "music.brahms"
+      ],
+      "tags": [
+        "movement",
+        "schoenberg",
+        "berg",
+        "webern",
+        "twelve-tone",
+        "modernism",
+        "vienna-1900"
+      ],
+      "sources": [
+        "Grove Music Online, 'Schoenberg, Arnold'",
+        "Malcolm MacDonald, Schoenberg (Master Musicians, rev. ed., 2008)",
+        "Charles Rosen, Arnold Schoenberg (1975)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "title": [
+          "The First Viennese School",
+          "Les Six",
+          "The Mighty Handful"
+        ],
+        "era": [
+          "Baroque",
+          "Classical",
+          "Romantic"
+        ]
+      }
+    },
+    {
+      "id": "music.term.waltz",
+      "discipline": "music",
+      "kind": "term",
+      "title": "Waltz",
+      "city": "vienna",
+      "difficulty": 2,
+      "era": "Romantic",
+      "facts": [
+        "It grew out of the Ländler, the turning dance of the Alpine countryside, and scandalised polite Europe because the partners held one another instead of dancing in a line or a set.",
+        "The Congress of Vienna danced it into respectability in 1814 and 1815; the Prince de Ligne's line about the Congress dancing rather than advancing was about actual balls.",
+        "Joseph Lanner and Johann Strauss the elder turned it into concert music in the 1820s and 1830s, as rivals; Strauss's son Johann II wrote over five hundred pieces, most of them dances, and his brothers Josef and Eduard kept the family orchestra going.",
+        "The Vienna Philharmonic's New Year's Concert, all Strauss family, was first given on 31 December 1939 under Clemens Krauss in the Musikverein, whose Golden Hall opened in 1870 to Theophil Hansen's design; it ends with the Blue Danube and the Radetzky March."
+      ],
+      "remark": "It scandalised Europe because the partners held each other, and the Congress of Vienna danced it into respectability; the Viennese play the second beat a shade early, which is why their waltzes cannot be counted evenly.",
+      "gaffe": "Counting a Viennese waltz in a strict one-two-three, or calling anything in triple time a waltz. The minuet and the Ländler are in three as well, and neither is a waltz.",
+      "links": [
+        "music.strauss-ii.an-der-schoenen-blauen-donau",
+        "music.strauss-i.radetzky-marsch",
+        "opera.strauss-ii.die-fledermaus",
+        "history.episode.congress-of-vienna",
+        "opera.term.opera-ball"
+      ],
+      "tags": [
+        "term",
+        "dance",
+        "waltz",
+        "strauss",
+        "vienna",
+        "new-years-concert"
+      ],
+      "sources": [
+        "Grove Music Online, 'Waltz'",
+        "Grove Music Online, 'Strauss family'",
+        "Peter Kemp, The Strauss Family: Portrait of a Musical Dynasty (1985)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "term": [
+          "A stately court dance in triple time, danced by couples in a line, that closes the Baroque suite.",
+          "An Austrian country dance in duple time, played by brass bands at village fairs.",
+          "A Bohemian dance in quick duple time that swept Vienna in the 1840s."
+        ]
+      },
+      "pronunciation": "German Walzer, VAL-tser",
+      "language": "German",
+      "definition": "A dance in triple time in which a couple turn while holding each other, and the music written for it; the Viennese sort is fast, and its second beat is played a shade early."
     },
     {
       "id": "opera.movement.florentine-camerata",
@@ -10248,7 +11669,7 @@
         "Les contes d'Hoffmann opened at the Opéra-Comique on 10 February 1881; Offenbach had died on 5 October 1880 with the orchestration unfinished, and Ernest Guiraud completed the score.",
         "The Barcarolle opens the Venetian act and is a duet for Giulietta, a courtesan, and Nicklausse, Hoffmann's companion, a trouser role for mezzo-soprano.",
         "Offenbach took the tune from his own Die Rheinnixen (Vienna, 1864), where it was a song for elves.",
-        "It is in D major and a rocking 6/8: a barcarolle imitates the song of a Venetian gondolier."
+        "It is in F major and a rocking 6/8: a barcarolle imitates the song of a Venetian gondolier."
       ],
       "remark": "Offenbach never heard it in this opera; the tune was second-hand from his Rheinnixen of 1864, where elves sang it, and the score was finished by Guiraud after his death.",
       "gaffe": "Taking it for a love duet between a man and a woman. Both singers are women, and one of them is playing a man.",
@@ -10289,9 +11710,9 @@
         ]
       },
       "theme": {
-        "notes": "A4/4 B4/8 B4/4 C#5/8 | C#5/4 D5/8 D5/4 C#5/8 | C#5/4 B4/8 B4/4 A4/8 | A4/4. A4/4 R/8 | A4/4 B4/8 B4/4 C#5/8 | C#5/4 D5/8 D5/4 C#5/8 | C#5/4 B4/8 B4/4 A4/8 | A4/4. A4/4 A4/8 | A4/4 B4/8 B4/4 C5/8 | D5/2.",
+        "notes": "C5/4 D5/8 D5/4 E5/8 | E5/4 F5/8 F5/4 E5/8 | E5/4 D5/8 D5/4 C5/8 | C5/4. C5/4 R/8 | C5/4 D5/8 D5/4 E5/8 | E5/4 F5/8 F5/4 E5/8 | E5/4 D5/8 D5/4 C5/8 | C5/4. C5/4 C5/8 | C5/4 D5/8 D5/4 E5/8 | F5/2.",
         "tempo": 80,
-        "key": "D major",
+        "key": "F major",
         "note": "Melody from the vocal entry ('Belle nuit'), in 6/8; the lower of the two voices carries the tune. A tied note in bar 8 is re-struck."
       },
       "pronunciation": "BEL NWEE, oh NWEE dah-MOOR",
@@ -10602,12 +12023,12 @@
       "year_end": 1764,
       "facts": [
         "Baptised in Dijon on 25 September 1683; died in Paris on 12 September 1764.",
-        "Published the Traité de l'harmonie in 1722 and was known for years as a theorist and organist before his first opera, Hippolyte et Aricie, at the Académie Royale de Musique in 1733, when he was nearly fifty.",
+        "Published the Traité de l'harmonie in 1722 and was known for years as a theorist and organist before his first opera, Hippolyte et Aricie, at the Académie Royale de Musique in October 1733, at the age of fifty.",
         "Les Indes galantes (1735), Castor et Pollux (1737), Dardanus (1739) and the comedy Platée (1745) followed; Les Boréades was never staged in his lifetime.",
         "Saw two Native Americans from Louisiana dance at the Théâtre-Italien in 1725, wrote a harpsichord piece called Les Sauvages, and later reworked it for the last entrée of Les Indes galantes.",
         "Attacked from both sides: by the partisans of Lully in the 1730s for too much harmony, and by Rousseau in the Querelle des Bouffons of the 1750s for not being Italian."
       ],
-      "remark": "He was nearly fifty before he wrote an opera, having been famous for a decade as the man who wrote the treatise on harmony; the Lullistes complained that Hippolyte et Aricie had too much of it.",
+      "remark": "He was fifty before he wrote an opera, having been famous for a decade as the man who wrote the treatise on harmony; the Lullistes complained that Hippolyte et Aricie had too much of it.",
       "gaffe": "Filing him under Lully as more of the same. Rameau's first opera came forty-six years after Lully's death, and the Lullistes attacked it for being too modern.",
       "links": [
         "opera.lully"
@@ -11315,7 +12736,7 @@
         "The company began in the fairground theatres of Paris around 1715 and merged with the Comédie-Italienne in 1762; the house is named after Charles-Simon Favart, the eighteenth-century librettist who ran it.",
         "Three theatres have stood on the site: the first Salle Favart of 1783 burned in 1838, the second, of 1840, burned on 25 May 1887 with 84 dead, and the third, by Louis Bernier, opened in December 1898.",
         "Carmen (1875), Les contes d'Hoffmann (1881), Lakmé (1883), Manon (1884), Louise (1900) and Pelléas et Mélisande (1902) all had their premieres with the company; Werther's Paris premiere in 1893 was given at the Théâtre Lyrique while the house was being rebuilt.",
-        "It is a separate company from the Opéra, a few hundred metres from the Garnier on the boulevard des Italiens, and has been a théâtre national since 2005."
+        "It is a separate company from the Opéra, a few hundred metres from the Garnier and just off the boulevard des Italiens, and has been a théâtre national since 2005."
       ],
       "remark": "Three theatres on the same spot: the Salle Favart of 1783 burned in 1838, its successor burned in 1887 with eighty-four dead, and the third, of 1898, is where Pelléas opened in 1902.",
       "gaffe": "Assuming the Opéra-Comique is part of the Opéra. It is a separate company with its own house a few hundred metres away, and Carmen, Manon and Pelléas were its premieres, not the Opéra's.",
@@ -11359,11 +12780,11 @@
       "difficulty": 2,
       "era": "Nineteenth century",
       "facts": [
-        "Paris put applause on a commercial footing in 1820, when a man named Sauton opened an agency selling it to managers and performers; the Opéra's chef de claque of the 1830s, Auguste Levasseur, attended rehearsals to plan where his people would clap.",
+        "Paris put applause on a commercial footing in 1820, when a man named Sauton opened an agency selling it to managers and performers; Auguste Levasseur, who ran the Opéra's claque from 1853 until the Empire fell in 1870, studied the score and attended rehearsals to plan where his people would clap.",
         "A claque had specialists: rieurs to laugh, pleureurs to weep, bisseurs to demand the encore, and chatouilleurs to keep their neighbours in good humour.",
         "The practice is older than opera: Nero kept a trained body of young applauders, the Augustiani. Mahler fought the claque at the Vienna Hofoper after 1897, and houses went on tolerating it well into the twentieth century."
       ],
-      "remark": "At the Opéra in the 1830s the applause was scored as carefully as the music: Levasseur, the chef de claque, went to rehearsals to plan where his people would clap, laugh, weep and call for the encore.",
+      "remark": "At the Opéra under Napoleon III the applause was scored as carefully as the music: Levasseur, the chef de claque, went to rehearsals to plan where his people would clap, laugh, weep and call for the encore.",
       "gaffe": "Taking a warm reception at a Paris premiere as the verdict of the public. Well into the twentieth century some of it was paid for, seated in the middle of the parterre, and told when to start.",
       "links": [
         "opera.venue.palais-garnier",
@@ -11406,10 +12827,10 @@
       "facts": [
         "Louis XIV danced himself, appearing as the rising sun in the Ballet royal de la Nuit in 1653 with Lully among the dancers; Lully's tragédies en musique kept a divertissement of dances and choruses in each act, and Rameau's Les Indes galantes (1735) is an opéra-ballet, a form held together by dancing.",
         "The Romantic ballet was born inside an opera: the ballet of the dead nuns in Act 3 of Meyerbeer's Robert le diable (1831), choreographed by Filippo Taglioni for his daughter Marie, came a year before La Sylphide.",
-        "Verdi wrote ballets for the Opéra four times, for Les vêpres siciliennes (1855), Le trouvère (1857), Don Carlos (1867) and the Paris Otello of 1894; Gounod's Faust acquired its Walpurgis Night ballet when it moved to the Opéra in 1869."
+        "Verdi supplied ballet music for Paris from Jérusalem (1847) to the Paris Otello of 1894, by way of Les vêpres siciliennes (1855), Le trouvère (1857) and Don Carlos (1867); Gounod's Faust acquired its Walpurgis Night ballet when it moved to the Opéra in 1869."
       ],
       "remark": "The Romantic ballet was born inside an opera: the dance of the dead nuns in Robert le diable in 1831, with Marie Taglioni, came a year before La Sylphide, and after that the Opéra expected a ballet from everyone, Verdi and Wagner included.",
-      "gaffe": "Treating the ballet in a French opera as padding to cut. Verdi wrote one for Paris four times, and the whole opéra-ballet form of Rameau is nothing but the dancing.",
+      "gaffe": "Treating the ballet in a French opera as padding to cut. Verdi wrote one every time Paris asked, from Jérusalem in 1847 to Otello in 1894, and the whole opéra-ballet form of Rameau is nothing but the dancing.",
       "links": [
         "opera.lully",
         "opera.rameau",
@@ -11728,7 +13149,7 @@
       "reviewed_by": null,
       "distractors": {
         "creator": [
-          "Joseph Haydn",
+          "Niccolò Piccinni",
           "Johann Adolf Hasse",
           "Niccolò Jommelli"
         ],
@@ -11874,7 +13295,7 @@
         "notes": "R/4 Db5/4 | Ab4/8 Db5/8 Ab4/4 Gb4/4 Bb4/4 | F4/4 Ab4/4 Eb4/4 R/8 Eb4/8 | F4/4 Ab4/4 Bb4/4 Bb4/16 Gb5/16 R/8 | Ab4/2. Db5/4 | Ab4/8 Db5/8 Ab4/4 Gb4/4 Bb4/4 | F4/4 Ab4/4 Eb4/4 R/8 Eb4/8 | F4/4 Ab4/4 Bb4/4 Bb4/16 Gb5/16 R/8 | Ab4/2 R/2",
         "tempo": 144,
         "key": "D-flat major",
-        "note": "'Ich lade gern mir Gäste ein' (Chacun à son goût), Orlofsky's couplets in Act II; the vocal entry, after the 1875 Schreiber vocal score."
+        "note": "'Ich lade gern mir Gäste ein' (Chacun à son goût), Orlofsky's couplets in Act II; the vocal entry, in the original key."
       },
       "pronunciation": "dee FLAY-der-mowss",
       "language": "German"
@@ -12888,7 +14309,7 @@
           "A paid group in the audience who lead the applause at agreed moments, the claque."
         ]
       },
-      "pronunciation": "soo-FLUR, soo-FLURZ",
+      "pronunciation": "soo-FLUR, soo-FLUR-zeh",
       "language": "French",
       "definition": "The person in the hooded box at the front centre of the stage who, facing the singers and watching the conductor, gives them the first words of each phrase a moment before they sing them; the Souffleur or Souffleuse of a German house, the maestro suggeritore of an Italian one."
     }
@@ -12903,9 +14324,9 @@
       "prompt": "Your host says: \"Extraordinary that they left him out in the rain for so long.\"",
       "options": [
         {
-          "text": "Nearly four centuries of it, 1504 to 1873, and outdoors was never the plan: he was carved for a buttress of the cathedral, and a committee with Leonardo and Botticelli on it argued over where he should go before he ended up in front of the town hall instead.",
+          "text": "Nearly four centuries of it, 1504 to 1873, and the piazza was never the plan: he was carved for a buttress high on the cathedral, and a committee with Leonardo and Botticelli on it argued over where he should go before he ended up in front of the town hall instead.",
           "kind": "correct",
-          "explanation": "Agrees with the host, is specific, and adds two things they did not have: the block was meant for a cathedral buttress, and the placing was argued over by a committee that included Leonardo and Botticelli. The dates are right: outside the Palazzo della Signoria from 1504, indoors at the Accademia from 1873."
+          "explanation": "Agrees with the host, is specific, and adds two things they did not have: the block was meant for a buttress on the cathedral tribune, some eighty metres up, and the placing at ground level was argued over by a committee that included Leonardo and Botticelli. The dates are right: outside the Palazzo della Signoria from 1504, indoors at the Accademia from 1873."
         },
         {
           "text": "Donatello had a go at the block first and gave it up, which is why it lay about the workshop for so long.",
@@ -12976,7 +14397,7 @@
         {
           "text": "It is a marvellous line, and it turns up in print for the first time in 1757, in London, in a book by Baretti, who was Dr Johnson's friend rather than Galileo's. What is documented is better in a way: he went on saying the earth moved, in private, under house arrest at Arcetri, and Milton walked up the hill to see him there in 1638.",
           "kind": "correct",
-          "explanation": "Generous about the line, honest about its date, and it gives the host something they did not have: Giuseppe Baretti's The Italian Library (1757) is the earliest known printing, a hundred and twenty-four years after the trial, and Milton's visit to Arcetri in 1638 is attested in Areopagitica."
+          "explanation": "Generous about the line, honest about its date, and it gives the host something they did not have: Giuseppe Baretti's The Italian Library (1757) is the earliest known printing, a hundred and twenty-four years after the trial. Milton records the visit himself in Areopagitica, where he says he found Galileo 'grown old, a prisoner to the Inquisition'; he was in Florence in 1638, and Galileo was by then confined at Arcetri."
         },
         {
           "text": "He did, though that was in 1616, the first time they had him in Rome.",
@@ -13021,7 +14442,7 @@
         {
           "text": "Moving? Two hours of recitative. Nothing happens in opera until Mozart.",
           "kind": "gaffe",
-          "explanation": "A gaffe: it dismisses the evening your host has just enjoyed, and it is wrong. L'Orfeo has choruses, dances, ritornellos and a printed list of the instruments it needs, which is rare for 1609; the recitative is the part the Florentines had just invented, not the whole of it."
+          "explanation": "A gaffe: it dismisses the evening your host has just enjoyed, and it is wrong. L'Orfeo has choruses, dances and ritornellos, and the score printed in 1609 lists the instruments it needs, which is rare for the period; the recitative is the part the Florentines had just invented, not the whole of it."
         }
       ],
       "links": [
@@ -13045,7 +14466,7 @@
       "prompt": "Your hostess says: \"Florentine, of course. Catherine de' Medici took ice cream to France with her, and the fork, and taught them to cook.\"",
       "options": [
         {
-          "text": "She would have enjoyed hearing it; she was fourteen when she left in 1533, and nobody at the French court remarked on her forks. What she did carry across was Italian dancing masters: the festivals she staged are where the ballet de cour begins, and the granddaughter she brought up married the Grand Duke here in 1589.",
+          "text": "She would have enjoyed hearing it; she was fourteen when she left in 1533, and nobody at the French court remarked on her forks. What she did bring the French was Italian spectacle: the festivals of her court, staged with Italian dancing masters, are where the ballet de cour begins, and the granddaughter she brought up married the Grand Duke here in 1589.",
           "kind": "correct",
           "explanation": "Kind to the hostess, and it swaps a myth for two better facts: the French ballet de cour began in the festivals of Catherine's court, and Christine of Lorraine, whom she raised, married Ferdinando I in 1589, the wedding the Florentine intermedi were written for. Food historians have found no contemporary evidence for the forks, the ices or the cooks."
         },
@@ -13341,10 +14762,191 @@
         }
       ],
       "links": [
+        "history.episode.louis-xiv-versailles",
         "history.person.marie-antoinette"
       ],
       "sources": [
         "Saint-Simon, Mémoires"
+      ],
+      "reviewed_by": null
+    },
+    {
+      "id": "scenario.paris.impressionist-insult",
+      "city": "paris",
+      "discipline": "art",
+      "difficulty": 1,
+      "setting": "A bench in the Musée d'Orsay, in front of Renoir's Bal du moulin de la Galette.",
+      "prompt": "Your companion says: \"The Impressionists. They took the name from Monet's sunrise themselves, I suppose.\"",
+      "options": [
+        {
+          "text": "A critic gave it to them, and he meant it unkindly: Louis Leroy in Le Charivari, on 25 April 1874, headed his review of their first show 'Exhibition of the Impressionists' after Monet's Impression, soleil levant. They had hung under a company name, the Société anonyme of painters, sculptors and engravers, and only put the insult over their own door at the third exhibition, in 1877, where this Renoir was the big picture.",
+          "kind": "correct",
+          "explanation": "The register to aim for: your companion's instinct about the picture is right, only the direction of travel is wrong, and the correction arrives with a date attached. The first exhibition opened on 15 April 1874 at 35 boulevard des Capucines, in the photographer Nadar's old studio; Leroy's satire in Le Charivari ten days later took its title from Monet's canvas and the label stuck. The painters had registered themselves as a limited company, the Société anonyme des artistes peintres, sculpteurs et graveurs. 'Exposition des Impressionnistes' went up over the entrance only at the third show, in April 1877 in the rue Le Peletier, where Renoir hung the Bal du moulin de la Galette."
+        },
+        {
+          "text": "And the sunrise itself is here, two rooms along.",
+          "kind": "wrong",
+          "explanation": "Wrong museum, and it is the standard Paris mistake. Impression, Sunrise is in the Musée Marmottan Monet, out in the sixteenth, given in 1940 by Victorine Donop de Monchy, daughter of Monet's doctor and collector Georges de Bellio. The Orsay has Monet in quantity but has never had that one; the Marmottan lost it to thieves in October 1985 and got it back from Corsica in December 1990."
+        },
+        {
+          "text": "Renoir is a biscuit tin, though. My grandmother had this one on a tray.",
+          "kind": "gaffe",
+          "explanation": "A gaffe: it sneers at the picture the bench was put there for, in answer to someone who asked you a real question. The tray came after the painting. This one was carried up to Montmartre and worked on the spot in 1876, in a dance garden beside two old windmills that were open on Sunday afternoons; the patches on the dancers are sunlight through acacia leaves, and the sitters are Renoir's friends, the journalist Georges Rivière among them. If you must place it, place it correctly: the Moulin de la Galette ground flour, and the Moulin Rouge did not open at the foot of the hill until 1889."
+        }
+      ],
+      "links": [
+        "art.renoir.bal-du-moulin-de-la-galette",
+        "art.monet.impression-sunrise",
+        "art.movement.impressionism"
+      ],
+      "sources": [
+        "Musée d'Orsay, catalogue entry RF 2739 (Bal du moulin de la Galette)",
+        "Louis Leroy, 'L'Exposition des impressionnistes', Le Charivari, 25 April 1874",
+        "Musée Marmottan Monet, collection entry 'Impression, soleil levant'",
+        "John Rewald, The History of Impressionism (4th rev. ed., 1973)"
+      ],
+      "reviewed_by": null
+    },
+    {
+      "id": "scenario.paris.mona-lisa-theft",
+      "city": "paris",
+      "discipline": "art",
+      "difficulty": 1,
+      "setting": "A Sunday at the Louvre. You have worked your way to within four rows of the Mona Lisa in the Salle des États.",
+      "prompt": "Your friend says, over the raised telephones in front of you: \"It is only famous because somebody stole it, isn't it?\"",
+      "options": [
+        {
+          "text": "A good deal of it, yes. Vincenzo Peruggia, an Italian house painter who had fitted protective glass on pictures there, carried it out under his smock in August 1911, and for two years people queued to look at the empty wall; he was caught in Florence in December 1913, trying to sell it to a dealer. While we are penned in here, turn round: the Veronese behind us was taken out of a Venetian refectory by Napoleon's commissioners in 1797 and never went home.",
+          "kind": "correct",
+          "explanation": "Right, and it rescues a bad half-hour by giving your friend a second thing to look at. The theft was on 21 August 1911, and Peruggia had worked in the Louvre glazing pictures. The painting reappeared when he offered it to the dealer Alfredo Geri in Florence, who brought in Giovanni Poggi, director of the Uffizi, in December 1913. Facing the Mona Lisa across the Salle des États is Veronese's Wedding at Cana, painted for the refectory of San Giorgio Maggiore in Venice and removed by the French in 1797; it is still in Paris."
+        },
+        {
+          "text": "Apollinaire took it. He confessed, and did a week for it.",
+          "kind": "wrong",
+          "explanation": "Wrong man, roughly the right week. Guillaume Apollinaire was arrested on 7 September 1911 and held for a few days, and Picasso was questioned, but over Iberian statuettes that Apollinaire's secretary Géry Pieret had lifted from the Louvre and sold on; both were released, and neither had anything to do with the Mona Lisa. Peruggia was not identified for two years."
+        },
+        {
+          "text": "It is Leonardo himself, of course, in a wig. Somebody laid the two faces over each other and proved it.",
+          "kind": "gaffe",
+          "explanation": "A gaffe: it presents a fringe claim as common knowledge, at the top of your voice, in front of the label. The overlay was a computer exercise of the 1980s and has persuaded no curator. Vasari named the sitter in 1550 as the wife of the Florentine cloth merchant Francesco del Giocondo, which is why the French call her La Joconde, and a note written in the margin of a Cicero by the chancery clerk Agostino Vespucci in October 1503, found at Heidelberg in 2005, has Leonardo at work on the head of Lisa del Giocondo. Who she was is settled; what she is doing with her mouth is not."
+        }
+      ],
+      "links": [
+        "art.leonardo.mona-lisa",
+        "history.episode.napoleon-egypt-coronation-louvre"
+      ],
+      "sources": [
+        "Musée du Louvre, catalogue entry Inv. 779 (Portrait de Lisa Gherardini, dite Monna Lisa)",
+        "Martin Kemp and Giuseppe Pallanti, Mona Lisa: The People and the Painting (2017)",
+        "Giorgio Vasari, Lives of the Artists (1550/1568), Life of Leonardo da Vinci"
+      ],
+      "reviewed_by": null
+    },
+    {
+      "id": "scenario.paris.sacre-riot",
+      "city": "paris",
+      "discipline": "music",
+      "difficulty": 2,
+      "setting": "Supper after a concert at the Théâtre des Champs-Élysées. Someone down the table has brought up the riot.",
+      "prompt": "Your host says: \"The Rite of Spring. They rioted at the music, didn't they? Paris could not bear the sound of it.\"",
+      "options": [
+        {
+          "text": "At the steps, mostly. Nijinsky had the dancers standing with their feet turned in and stamping, in a theatre eight weeks old, and the din got so bad that he stood on a chair in the wings shouting the counts while Stravinsky watched beside him. The notes were forgiven inside a year: Monteux conducted it in concert at the Casino de Paris in April 1914 and the crowd carried Stravinsky out on their shoulders.",
+          "kind": "correct",
+          "explanation": "The register to aim for: it grants the riot, moves the blame to where the evidence puts it, and hands your host a fact she can use. Le Sacre du printemps was given by Diaghilev's Ballets Russes on 29 May 1913 at the Théâtre des Champs-Élysées, which had opened that April, with choreography by Vaslav Nijinsky, designs by Nicholas Roerich and Pierre Monteux conducting. Stravinsky left his seat for the wings, where Nijinsky was calling the beats to dancers who could not hear the orchestra. Monteux's concert performance at the Casino de Paris on 5 April 1914 was a triumph, which is the argument that it was never the music."
+        },
+        {
+          "text": "It was at the Opéra, and Diaghilev took it off after the first night.",
+          "kind": "wrong",
+          "explanation": "Wrong on both counts. The house was the impresario Gabriel Astruc's new Théâtre des Champs-Élysées on the avenue Montaigne, not the Palais Garnier; and nothing was withdrawn. The Rite was danced a handful more times in Paris and again in London that summer before Nijinsky's choreography went out of the repertoire and was lost, to be reconstructed for the Joffrey Ballet only in 1987."
+        },
+        {
+          "text": "Saint-Saëns walked out at the first bassoon note, they say. He knew what a bassoon could and could not be asked to do.",
+          "kind": "gaffe",
+          "explanation": "A gaffe, and a well-travelled one: the story comes from Stravinsky himself, told long afterwards, and there is no evidence that Saint-Saëns was in the theatre that night. Producing it as an eyewitness detail marks you as a man who has read one paragraph. The documented evening is quieter and better company: Debussy and Stravinsky played the score through as a piano duet at Louis Laloy's house at Bellevue in June 1912, a year before anybody rioted."
+        }
+      ],
+      "links": [
+        "music.stravinsky.le-sacre-du-printemps",
+        "history.person.diaghilev",
+        "music.saint-saens.le-cygne"
+      ],
+      "sources": [
+        "Grove Music Online, 'Stravinsky, Igor'",
+        "Thomas Forrest Kelly, First Nights: Five Musical Premieres (2000)",
+        "Richard Taruskin, Stravinsky and the Russian Traditions (1996)"
+      ],
+      "reviewed_by": null
+    },
+    {
+      "id": "scenario.paris.garnier-chandelier",
+      "city": "paris",
+      "discipline": "opera",
+      "difficulty": 2,
+      "setting": "Interval at the Palais Garnier, half way up the grand staircase.",
+      "prompt": "Your host says: \"The chandelier came down on the audience here once, you know. That is where Leroux got the Phantom.\"",
+      "options": [
+        {
+          "text": "One of its counterweights, rather: it came through the ceiling on the evening of 20 May 1896, during Hellé, and killed a woman sitting in the gallery. The lake is real as well. Garnier kept striking water under the site, gave up fighting it and built a tank down there, and the Paris fire brigade still dives in it.",
+          "kind": "correct",
+          "explanation": "Right, and it repays a good story with two better facts. On 20 May 1896 a counterweight from the great chandelier fell through the auditorium ceiling and killed a spectator; Gaston Leroux took the accident into Le Fantôme de l'Opéra in 1910, and the water under the stage with it. That water is a walled cistern Charles Garnier built when the foundations kept filling during construction; it is still there, and the fire brigade uses it for diving practice."
+        },
+        {
+          "text": "It was during Faust, which is why Leroux built his novel round a performance of it.",
+          "kind": "wrong",
+          "explanation": "Wrong opera, and the inference does not hold either. The counterweight fell during Hellé, by Alphonse Duvernoy. Faust is everywhere in Leroux's novel because Gounod's Faust was the warhorse of the house, the piece a Paris audience could be assumed to know by heart, not because of anything that happened in 1896."
+        },
+        {
+          "text": "Leroux invented all of it, of course. The accident, the lake, the whole business; it is a story for coach parties.",
+          "kind": "gaffe",
+          "explanation": "A gaffe: a sneer that is also wrong, which is the worst pairing available. The counterweight fell and killed somebody in 1896, and there is water beneath the stage in a cistern the architect built because the ground would not stay dry. Telling your host at the interval that her subject is invented for tourists, in the building where it happened, costs you the second half of the evening. Worth knowing before you condescend to the place: since the Opéra Bastille opened on 13 July 1989 the Garnier has been chiefly the ballet house."
+        }
+      ],
+      "links": [
+        "opera.venue.palais-garnier",
+        "opera.venue.opera-bastille",
+        "opera.gounod.faust.jewel-song"
+      ],
+      "sources": [
+        "Opéra national de Paris, '20 May 1896' (Les 350 ans, from the cellars to the rooftops)",
+        "Christopher Curtis Mead, Charles Garnier's Paris Opéra: Architectural Empathy and the Renaissance of French Classicism (1991)",
+        "Gaston Leroux, Le Fantôme de l'Opéra (1910)"
+      ],
+      "reviewed_by": null
+    },
+    {
+      "id": "scenario.paris.degas-dreyfus",
+      "city": "paris",
+      "discipline": "history",
+      "difficulty": 3,
+      "setting": "A private view at a dealer's in the rue de Seine: a small room of Degas pastels, dancers at the barre.",
+      "prompt": "Your host says: \"Degas was for Dreyfus, naturally. That whole generation was.\"",
+      "options": [
+        {
+          "text": "Degas was the other way, I am afraid, and it cost him his oldest friends: he stopped dining with the Halévys at the end of 1897 and did not go through the door again until Ludovic lay dying in 1908, the same Halévy who wrote the libretto of Carmen. Monet and Pissarro were the ones on Zola's side, and Pissarro was Jewish, which is what made it a quarrel among friends rather than a debate.",
+          "kind": "correct",
+          "explanation": "Right, and it declines to launder a painter your host plainly loves without lecturing her. The affair went through the studios as it went through the country: Monet put his name to the protests that followed J'accuse...! on 13 January 1898, Pissarro was a Dreyfusard, and Degas, who had eaten at the Halévys' table since boyhood, broke with them at the end of 1897 and came back only when Ludovic Halévy was dying in 1908. Halévy had written Carmen with Meilhac. Renoir was against Dreyfus too; the split ran through the movement, not around it."
+        },
+        {
+          "text": "He signed for Zola, and the Halévys never forgave him for it.",
+          "kind": "wrong",
+          "explanation": "The consequence is right and the cause is upside down. Degas did lose the Halévys over the affair, but because he was against Dreyfus and would not stop saying so at their table. The protests that followed J'accuse...! carried Monet's name; Degas's is on nothing of the kind, and it was his hosts, not he, who were on Zola's side."
+        },
+        {
+          "text": "Does it signify? One does not buy a dancer for her politics.",
+          "kind": "gaffe",
+          "explanation": "A gaffe twice over: it waves away your host's subject at her friend's private view, and it treats the pictures as furnishing in front of the man selling them. Degas's politics are the standard question about Degas, and Linda Nochlin's essay on the artist and the affair is on every reading list, so the subject will come back. Nor were the dancers ornaments: the girls at the barre were the petits rats of the Opéra, children of poor families drilled for years and watched from the wings by the subscribers who paid for the access."
+        }
+      ],
+      "links": [
+        "art.degas",
+        "history.episode.dreyfus-affair",
+        "opera.bizet.carmen.habanera"
+      ],
+      "sources": [
+        "Ruth Harris, The Man on Devil's Island: Alfred Dreyfus and the Affair that Divided France (2010)",
+        "Linda Nochlin, 'Degas and the Dreyfus Affair: A Portrait of the Artist as an Anti-Semite', in Norman L. Kleeblatt (ed.), The Dreyfus Affair: Art, Truth, and Justice (1987)",
+        "Jean-Denis Bredin, The Affair: The Case of Alfred Dreyfus (1986)"
       ],
       "reviewed_by": null
     },
@@ -13359,7 +14961,7 @@
         {
           "text": "His secretary Schindler said he said so, in a biography published thirteen years after the funeral, and Schindler is the witness scholars handle with tongs; he was caught adding entries of his own to the conversation books. What is certain is the first night: 22 December 1808 at the Theater an der Wien, four hours in a freezing theatre with the Pastoral and the Fourth Piano Concerto on the same bill.",
           "kind": "correct",
-          "explanation": "The register to aim for: it keeps your host's phrase, tells her where it comes from, and adds a date she did not have. 'So pocht das Schicksal an die Pforte' is Anton Schindler's, from his life of Beethoven of 1840; Beethoven died in 1827, and Schindler was later shown to have written entries into the conversation books after the fact, so nothing rests on his word alone. The premiere is documented: the marathon concert of 22 December 1808 at the Theater an der Wien, where Fidelio had opened three years earlier, also introduced the Sixth Symphony and the Fourth Piano Concerto, and Reichardt, who sat through it, complained of the cold."
+          "explanation": "The register to aim for: it keeps your host's phrase, tells her where it comes from, and adds a date she did not have. 'So pocht das Schicksal an die Pforte' is Anton Schindler's, from his life of Beethoven of 1840; Beethoven died in 1827, and Schindler was later shown to have written entries into the conversation books after the fact, so nothing rests on his word alone. The premiere is documented: the marathon concert of 22 December 1808 at the Theater an der Wien, where Fidelio had opened three years earlier, also gave the Sixth Symphony its premiere and the Fourth Piano Concerto its first public performance, and Reichardt, who sat through it, complained of the cold."
         },
         {
           "text": "He did, and this is the one he dedicated to Napoleon and then scratched out when Bonaparte crowned himself.",
@@ -13393,9 +14995,9 @@
       "prompt": "Your host says: \"I do enjoy their giving the Prince to a woman. Is that a modern liberty?\"",
       "options": [
         {
-          "text": "The original casting, in fact: Orlofsky has been a mezzo in trousers since the first night at the Theater an der Wien in April 1874, in the Cherubino line. The part people forget is that the whole plot is French, a play by Meilhac and Halévy, who wrote Carmen for Bizet the year after.",
+          "text": "The original casting, in fact: Orlofsky has been a mezzo in trousers since the first night at the Theater an der Wien in April 1874, in the Cherubino line. The part people forget is that the plot came by way of Paris: a play by Meilhac and Halévy, who wrote Carmen for Bizet the year after.",
           "kind": "correct",
-          "explanation": "Right, and it gives your host something to take home. Prince Orlofsky was written for a mezzo-soprano and has been a trouser role since the premiere on 5 April 1874, like Cherubino in Figaro and Octavian in Rosenkavalier. The libretto, by Carl Haffner and Richard Genée, derives from Le Réveillon (1872) by Henri Meilhac and Ludovic Halévy, whose Carmen followed in Paris in March 1875."
+          "explanation": "Right, and it gives your host something to take home. Prince Orlofsky was written for a mezzo-soprano and has been a trouser role since the premiere on 5 April 1874, like Cherubino in Figaro and Octavian in Rosenkavalier. The libretto, by Carl Haffner and Richard Genée, derives from Le Réveillon (1872) by Henri Meilhac and Ludovic Halévy, itself made over from a German farce, Roderich Benedix's Das Gefängnis; their Carmen followed in Paris in March 1875."
         },
         {
           "text": "A modern habit. Strauss wrote Orlofsky for a tenor; the mezzo came in with the New Year tradition.",
@@ -13500,9 +15102,9 @@
       "prompt": "Your host says: \"Poor Salieri. Do you think he really did it?\"",
       "options": [
         {
-          "text": "Seven weeks before he died Mozart fetched Salieri in his own carriage and took him to The Magic Flute, and wrote to Constanze that Salieri shouted bravo at every number; and Salieri went on to teach Beethoven, Schubert, Liszt and Mozart's younger son. The poison is Pushkin's, from 1830. Shaffer only borrowed it, and gave Salieri the best part.",
+          "text": "Seven weeks before he died Mozart fetched Salieri in a carriage and took him to The Magic Flute, and wrote to Constanze that Salieri shouted bravo at every number; and Salieri went on to teach Beethoven, Schubert, Liszt and Mozart's younger son. The poison is Pushkin's, from 1830. Shaffer only borrowed it, and gave Salieri the best part.",
           "kind": "correct",
-          "explanation": "Right, and it answers the question with evidence rather than a shrug. Mozart's letter of 14 October 1791 describes collecting Salieri and Caterina Cavalieri in his carriage, taking them to Die Zauberflöte and hearing Salieri call out bravo or bello at every number; Mozart died on 5 December, and the register gives an acute fever. Salieri, court Kapellmeister until 1824, taught Beethoven, Schubert, Liszt and Franz Xaver Mozart. Pushkin's Mozart and Salieri of 1830 put the poison in his hand; Shaffer's Amadeus of 1979 and Forman's film of 1984 made it permanent."
+          "explanation": "Right, and it answers the question with evidence rather than a shrug. Mozart's letter of 14 October 1791 describes calling for Salieri and Caterina Cavalieri in a carriage, taking them to Die Zauberflöte and hearing Salieri call out bravo or bello at every number; Mozart died on 5 December, and the register gives an acute fever. Salieri, court Kapellmeister until 1824, taught Beethoven, Schubert, Liszt and Franz Xaver Mozart. Pushkin's Mozart and Salieri of 1830 put the poison in his hand; Shaffer's Amadeus of 1979 and Forman's film of 1984 made it permanent."
         },
         {
           "text": "He confessed, though, on his deathbed in 1825, and the confession is in the Vienna death register.",
@@ -13565,21 +15167,21 @@
   ],
   "mediaIndex": {},
   "stats": {
-    "items": 216,
-    "scenarios": 19,
+    "items": 237,
+    "scenarios": 24,
     "byDiscipline": {
-      "music": 41,
+      "music": 52,
       "opera": 79,
       "art": 54,
-      "history": 42
+      "history": 52
     },
     "byCity": {
       "florence": 52,
       "london": 56,
-      "paris": 54,
-      "vienna": 54
+      "paris": 64,
+      "vienna": 65
     },
-    "withTheme": 14,
+    "withTheme": 18,
     "withImage": 0
   }
 }

@@ -132,13 +132,13 @@ items:
       - "Les contes d'Hoffmann opened at the Opéra-Comique on 10 February 1881; Offenbach had died on 5 October 1880 with the orchestration unfinished, and Ernest Guiraud completed the score."
       - "The Barcarolle opens the Venetian act and is a duet for Giulietta, a courtesan, and Nicklausse, Hoffmann's companion, a trouser role for mezzo-soprano."
       - "Offenbach took the tune from his own Die Rheinnixen (Vienna, 1864), where it was a song for elves."
-      - "It is in D major and a rocking 6/8: a barcarolle imitates the song of a Venetian gondolier."
+      - "It is in F major and a rocking 6/8: a barcarolle imitates the song of a Venetian gondolier."
     remark: "Offenbach never heard it in this opera; the tune was second-hand from his Rheinnixen of 1864, where elves sang it, and the score was finished by Guiraud after his death."
     gaffe: "Taking it for a love duet between a man and a woman. Both singers are women, and one of them is playing a man."
     theme:
-      notes: "A4/4 B4/8 B4/4 C#5/8 | C#5/4 D5/8 D5/4 C#5/8 | C#5/4 B4/8 B4/4 A4/8 | A4/4. A4/4 R/8 | A4/4 B4/8 B4/4 C#5/8 | C#5/4 D5/8 D5/4 C#5/8 | C#5/4 B4/8 B4/4 A4/8 | A4/4. A4/4 A4/8 | A4/4 B4/8 B4/4 C5/8 | D5/2."
+      notes: "C5/4 D5/8 D5/4 E5/8 | E5/4 F5/8 F5/4 E5/8 | E5/4 D5/8 D5/4 C5/8 | C5/4. C5/4 R/8 | C5/4 D5/8 D5/4 E5/8 | E5/4 F5/8 F5/4 E5/8 | E5/4 D5/8 D5/4 C5/8 | C5/4. C5/4 C5/8 | C5/4 D5/8 D5/4 E5/8 | F5/2."
       tempo: 80
-      key: D major
+      key: F major
       note: "Melody from the vocal entry ('Belle nuit'), in 6/8; the lower of the two voices carries the tune. A tied note in bar 8 is re-struck."
     distractors:
       creator: [Georges Bizet, Charles Gounod, Léo Delibes]
@@ -340,11 +340,11 @@ items:
     pronunciation: "zhahn fee-LEEP rah-MOH"
     facts:
       - "Baptised in Dijon on 25 September 1683; died in Paris on 12 September 1764."
-      - "Published the Traité de l'harmonie in 1722 and was known for years as a theorist and organist before his first opera, Hippolyte et Aricie, at the Académie Royale de Musique in 1733, when he was nearly fifty."
+      - "Published the Traité de l'harmonie in 1722 and was known for years as a theorist and organist before his first opera, Hippolyte et Aricie, at the Académie Royale de Musique in October 1733, at the age of fifty."
       - "Les Indes galantes (1735), Castor et Pollux (1737), Dardanus (1739) and the comedy Platée (1745) followed; Les Boréades was never staged in his lifetime."
       - "Saw two Native Americans from Louisiana dance at the Théâtre-Italien in 1725, wrote a harpsichord piece called Les Sauvages, and later reworked it for the last entrée of Les Indes galantes."
       - "Attacked from both sides: by the partisans of Lully in the 1730s for too much harmony, and by Rousseau in the Querelle des Bouffons of the 1750s for not being Italian."
-    remark: "He was nearly fifty before he wrote an opera, having been famous for a decade as the man who wrote the treatise on harmony; the Lullistes complained that Hippolyte et Aricie had too much of it."
+    remark: "He was fifty before he wrote an opera, having been famous for a decade as the man who wrote the treatise on harmony; the Lullistes complained that Hippolyte et Aricie had too much of it."
     gaffe: "Filing him under Lully as more of the same. Rameau's first opera came forty-six years after Lully's death, and the Lullistes attacked it for being too modern."
     media:
       image:
@@ -756,7 +756,7 @@ items:
       - "The company began in the fairground theatres of Paris around 1715 and merged with the Comédie-Italienne in 1762; the house is named after Charles-Simon Favart, the eighteenth-century librettist who ran it."
       - "Three theatres have stood on the site: the first Salle Favart of 1783 burned in 1838, the second, of 1840, burned on 25 May 1887 with 84 dead, and the third, by Louis Bernier, opened in December 1898."
       - "Carmen (1875), Les contes d'Hoffmann (1881), Lakmé (1883), Manon (1884), Louise (1900) and Pelléas et Mélisande (1902) all had their premieres with the company; Werther's Paris premiere in 1893 was given at the Théâtre Lyrique while the house was being rebuilt."
-      - "It is a separate company from the Opéra, a few hundred metres from the Garnier on the boulevard des Italiens, and has been a théâtre national since 2005."
+      - "It is a separate company from the Opéra, a few hundred metres from the Garnier and just off the boulevard des Italiens, and has been a théâtre national since 2005."
     remark: "Three theatres on the same spot: the Salle Favart of 1783 burned in 1838, its successor burned in 1887 with eighty-four dead, and the third, of 1898, is where Pelléas opened in 1902."
     gaffe: "Assuming the Opéra-Comique is part of the Opéra. It is a separate company with its own house a few hundred metres away, and Carmen, Manon and Pelléas were its premieres, not the Opéra's."
     distractors:
@@ -783,10 +783,10 @@ items:
     pronunciation: "klak"
     language: French
     facts:
-      - "Paris put applause on a commercial footing in 1820, when a man named Sauton opened an agency selling it to managers and performers; the Opéra's chef de claque of the 1830s, Auguste Levasseur, attended rehearsals to plan where his people would clap."
+      - "Paris put applause on a commercial footing in 1820, when a man named Sauton opened an agency selling it to managers and performers; Auguste Levasseur, who ran the Opéra's claque from 1853 until the Empire fell in 1870, studied the score and attended rehearsals to plan where his people would clap."
       - "A claque had specialists: rieurs to laugh, pleureurs to weep, bisseurs to demand the encore, and chatouilleurs to keep their neighbours in good humour."
       - "The practice is older than opera: Nero kept a trained body of young applauders, the Augustiani. Mahler fought the claque at the Vienna Hofoper after 1897, and houses went on tolerating it well into the twentieth century."
-    remark: "At the Opéra in the 1830s the applause was scored as carefully as the music: Levasseur, the chef de claque, went to rehearsals to plan where his people would clap, laugh, weep and call for the encore."
+    remark: "At the Opéra under Napoleon III the applause was scored as carefully as the music: Levasseur, the chef de claque, went to rehearsals to plan where his people would clap, laugh, weep and call for the encore."
     gaffe: "Taking a warm reception at a Paris premiere as the verdict of the public. Well into the twentieth century some of it was paid for, seated in the middle of the parterre, and told when to start."
     distractors:
       term:
@@ -813,9 +813,9 @@ items:
     facts:
       - "Louis XIV danced himself, appearing as the rising sun in the Ballet royal de la Nuit in 1653 with Lully among the dancers; Lully's tragédies en musique kept a divertissement of dances and choruses in each act, and Rameau's Les Indes galantes (1735) is an opéra-ballet, a form held together by dancing."
       - "The Romantic ballet was born inside an opera: the ballet of the dead nuns in Act 3 of Meyerbeer's Robert le diable (1831), choreographed by Filippo Taglioni for his daughter Marie, came a year before La Sylphide."
-      - "Verdi wrote ballets for the Opéra four times, for Les vêpres siciliennes (1855), Le trouvère (1857), Don Carlos (1867) and the Paris Otello of 1894; Gounod's Faust acquired its Walpurgis Night ballet when it moved to the Opéra in 1869."
+      - "Verdi supplied ballet music for Paris from Jérusalem (1847) to the Paris Otello of 1894, by way of Les vêpres siciliennes (1855), Le trouvère (1857) and Don Carlos (1867); Gounod's Faust acquired its Walpurgis Night ballet when it moved to the Opéra in 1869."
     remark: "The Romantic ballet was born inside an opera: the dance of the dead nuns in Robert le diable in 1831, with Marie Taglioni, came a year before La Sylphide, and after that the Opéra expected a ballet from everyone, Verdi and Wagner included."
-    gaffe: "Treating the ballet in a French opera as padding to cut. Verdi wrote one for Paris four times, and the whole opéra-ballet form of Rameau is nothing but the dancing."
+    gaffe: "Treating the ballet in a French opera as padding to cut. Verdi wrote one every time Paris asked, from Jérusalem in 1847 to Otello in 1894, and the whole opéra-ballet form of Rameau is nothing but the dancing."
     distractors:
       term:
         - "The comic intermezzo played between the acts of an Italian opera seria, from which opera buffa grew."

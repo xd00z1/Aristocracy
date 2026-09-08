@@ -90,9 +90,9 @@ items:
     facts:
       - "Leo III set a crown on Charlemagne's head in St Peter's on Christmas Day 800 and the congregation acclaimed him emperor of the Romans; Einhard, who wrote the king's life a generation later, says he would not have entered the church that day had he known what the pope intended."
       - "There had been no emperor in the West since 476, and the eastern emperors in Constantinople treated the new one as a theft; they conceded the bare title of emperor in 812, never emperor of the Romans."
-      - "The court at Aachen was a scholars' bureau. Alcuin of York came from Northumbria to run the palace school, old texts were hunted down and copied wholesale, and the round hand devised for that copying, Carolingian minuscule, is where lower-case letters and the space between words come from."
+      - "The court at Aachen was a scholars' bureau. Alcuin of York came from Northumbria to run the palace school, old texts were hunted down and copied wholesale, and the round hand devised for that copying, Carolingian minuscule, is where our lower-case letters come from; it also carried across Europe the habit of putting spaces between words, which Irish and English scribes had begun earlier."
       - "Around 1400 the Florentine humanists Poggio Bracciolini and Niccolò Niccoli took that hand off ninth-century manuscripts, believing it ancient Roman, and called it lettera antica; the printers copied the humanists, which is why this sentence is set in roman type."
-      - "Charlemagne died at Aachen on 28 January 814. The rearguard cut down in the Pyrenees by Basques in 778, in which Einhard names one Hruodlandus, became the Song of Roland about three centuries later, in the Oxford manuscript of around 1100."
+      - "Charlemagne died at Aachen on 28 January 814. The rearguard cut down in the Pyrenees by Basques in 778, in which Einhard names one Hruodlandus, became the Song of Roland about three centuries later, in the Oxford text of around 1100."
     remark: "Our lower-case alphabet is Carolingian: the round hand cut for Charlemagne's copyists was picked up around 1400 by Florentine humanists who took it for ancient Roman writing, and the printers followed them."
     gaffe: "Calling him the first Holy Roman Emperor. He was crowned emperor of the Romans in 800; nobody called the empire holy until Barbarossa's chancery in the twelfth century, and the full name is thirteenth-century."
     media:
@@ -125,11 +125,11 @@ items:
     facts:
       - "King at four in 1643, he ruled through Mazarin until the cardinal died on 9 March 1661 and then announced that he would govern alone; the Fronde of 1648 to 1653 had driven him out of Paris as a child, and he never trusted the city again."
       - "Nicolas Fouquet, the superintendent of finances, entertained the king at his new Vaux-le-Vicomte on 17 August 1661 and was arrested three weeks later. Louis took his architect Le Vau, his gardener Le Nôtre and his painter Le Brun and set them on his father's hunting lodge at Versailles."
-      - "The court moved to Versailles on 6 May 1682, forty-one years into the reign; Hardouin-Mansart's Hall of Mirrors was built between 1678 and 1684, thousands of courtiers and servants were housed in the palace, and attendance was the price of favour. Saint-Simon's memoirs are forty years of resenting it."
+      - "The court moved to Versailles on 6 May 1682, thirty-eight years into the reign; Hardouin-Mansart's Hall of Mirrors was built between 1678 and 1684, thousands of courtiers and servants were housed in the palace, and attendance was the price of favour. Saint-Simon's memoirs are forty years of resenting it."
       - "The Affair of the Poisons began in 1677. A special tribunal, the chambre ardente, sat from April 1679 and examined hundreds of people, more than thirty of whom were executed, among them the fortune-teller La Voisin, burned on the place de Grève on 22 February 1680. When the evidence began to touch Madame de Montespan, the king's mistress and mother of seven of his children, he closed the court, and in 1709 he burned the papers."
       - "Music, dancing and painting were state business: Lully held a royal monopoly on sung drama from 1672, Molière wrote comédies-ballets for the court, and the Académie royale's Salon, first held in 1667, decided what French painting was. Louis died on 1 September 1715, after seventy-two years on the throne."
     remark: "Fouquet gave a party at Vaux-le-Vicomte in August 1661 and was arrested three weeks later; the king then hired his architect, his gardener and his painter and had them do the same thing at Versailles, twenty times over."
-    gaffe: "Dating the move to Versailles to the start of the reign. Louis XIII's hunting lodge was there first, and the court did not move in until 6 May 1682, forty-one years after Louis XIV became king."
+    gaffe: "Dating the move to Versailles to the start of the reign. Louis XIII's hunting lodge was there first, and the court did not move in until 6 May 1682, thirty-eight years after Louis XIV became king."
     media:
       image:
         commons: "File:Rigaud Louis XIV 1701.jpg"
@@ -172,7 +172,7 @@ items:
         license: "Public domain (artist died 1824); verify the file's tag when fetching"
     distractors:
       year: [1715, 1789, 1830]
-      era: [Ancien Régime, Revolution, Belle Époque]
+      era: [Empire, Revolution, Belle Époque]
     links: [music.term.salon, art.term.salon, opera.rameau, history.person.voltaire, history.episode.french-revolution]
     tags: [france, enlightenment, salon, encyclopedie, geoffrin, du-deffand, 1750s, 1770s]
     sources:
@@ -266,7 +266,7 @@ items:
     facts:
       - "Alfred Dreyfus, an Alsatian Jewish artillery captain on the general staff, was convicted of treason on 22 December 1894 on a torn note and a handwriting comparison, stripped of his rank in the courtyard of the École militaire on 5 January 1895 while a crowd shouted outside, and sent to Devil's Island."
       - "Colonel Picquart, the new head of intelligence, matched the handwriting to Major Esterhazy in 1896 and was posted to Tunisia for saying so; Esterhazy was tried and acquitted on 11 January 1898 after a few minutes' deliberation."
-      - "Two days later Zola published an open letter to the President of the Republic on the front page of Clemenceau's paper L'Aurore, under the headline Clemenceau gave it, J'accuse...! Zola was convicted of criminal libel and left for England; in August 1898 Colonel Henry admitted forging a document in the file and cut his throat in prison."
+      - "Two days later Zola published an open letter to the President of the Republic on the front page of L'Aurore, the paper Clemenceau wrote for, under the headline Clemenceau gave it, J'accuse...! Zola was convicted of criminal libel and left for England; in August 1898 Colonel Henry admitted forging a document in the file and cut his throat in prison."
       - "The salons and the studios split with the country. Monet and Pissarro signed for Zola; Degas, who had dined with the Halévy family since childhood, stopped going at the end of 1897 and did not enter the house again until Ludovic Halévy lay dying in 1908, the same Halévy who had written the libretto of Carmen."
       - "A second court-martial at Rennes in September 1899 found Dreyfus guilty again with extenuating circumstances, an absurdity that allowed the President to pardon him. The Cour de cassation quashed the verdict on 12 July 1906; he was reinstated, decorated, and served through the war of 1914."
     remark: "It went through the dining rooms as well as the country: Degas gave up the Halévys, whose house he had eaten in since childhood and whose Ludovic wrote the libretto of Carmen, and never went back until the old man was dying."
@@ -304,7 +304,7 @@ items:
     facts:
       - "Born at Ajaccio on 15 August 1769, the year after Genoa ceded Corsica to France, so that he was French by a diplomatic accident; he was trained as an artillery officer at Brienne and Paris and spoke French with a Corsican accent all his life."
       - "He made his name at Toulon in 1793 and in Italy in 1796, took power in the coup of 18 Brumaire in November 1799 as First Consul, was made consul for life in 1802 and Emperor of the French in 1804. The Code civil, promulgated that March, is the part of him still in force across half of Europe."
-      - "He married Joséphine de Beauharnais in 1796, divorced her in 1810 for want of an heir and married the Austrian emperor's daughter Marie Louise; Austerlitz was 2 December 1805, the retreat from Moscow 1812, the abdication and Elba 1814, Waterloo 18 June 1815, and St Helena until his death on 5 May 1821."
+      - "He married Joséphine de Beauharnais in 1796, divorced her at the end of 1809 for want of an heir and married the Austrian emperor's daughter Marie Louise in 1810; Austerlitz was 2 December 1805, the retreat from Moscow 1812, the abdication and Elba 1814, Waterloo 18 June 1815, and St Helena until his death on 5 May 1821."
       - "The shortness is a mistake in units. The autopsy gave five feet two inches in French measure, and the French inch was longer than the English one, which puts him near one metre sixty-nine, about five foot six, a shade above his own infantry."
       - "David painted the crossing of the Alps and the Coronation; Ingres put him on the imperial throne in 1806, posed like a medieval God the Father; and Beethoven, by his pupil Ries's account, tore up the Eroica's dedication when he heard that Bonaparte had made himself emperor."
     remark: "The famous shortness is an arithmetic error: the autopsy gave five foot two in French measure, whose inches were longer than English ones, which makes him about five foot six and slightly taller than his own infantry."
@@ -406,7 +406,7 @@ items:
     attributed_to: Louis XIV
     verdict: invented
     claim: "Told by the Parlement of Paris that his edicts must serve the interests of the state, the young Louis XIV replied: the state, it is me."
-    truth: "The words are in no contemporary source, and not in the registers of the Parlement for the session of 13 April 1655 at which the story places them. They appear in print only in the nineteenth century, in Lémontey in 1818 and in Dulaure's history of Paris in 1834. What a contemporary did write down, the marquis de Dangeau in his journal, is nearly the opposite: at the deathbed in 1715 the king said that he was going but that the state would remain."
+    truth: "The words are in no contemporary source, and not in the registers of the Parlement for the session of 13 April 1655 at which the story places them. They appear in print only in the nineteenth century, in Lémontey in 1818 and in Dulaure's history of Paris in 1834. The accounts of the deathbed in August 1715 have him saying nearly the opposite: that he was going but that the state would remain."
     city: paris
     difficulty: 1
     era: Ancien Régime
@@ -414,13 +414,12 @@ items:
     facts:
       - "The scene is set at the session of 13 April 1655, at which the sixteen-year-old king did appear before the Parlement of Paris; the words are not in its registers, and no memoir of the reign has them."
       - "They surface long after his death, in Lémontey's essay on the monarchy of Louis XIV in 1818 and in Dulaure's history of Paris in 1834, when French writers were arguing about absolutism rather than reporting it."
-      - "Dangeau, who was at Versailles for the death in August 1715, has the king saying that he was going but that the state would remain always; the accounts of the deathbed also have him telling his five-year-old heir not to copy his taste for building or for war."
-    remark: "The one line everybody has from him is not his: it reaches print more than a century after his death, and what a courtier actually wrote down at the deathbed was that he was going but the state would remain."
+      - "The accounts of the death at Versailles in August 1715 have the king saying that he was going but that the state would remain always, and telling his five-year-old heir not to copy his taste for building or for war."
+    remark: "The one line everybody has from him is not his: it reaches print more than a century after his death, and what the deathbed accounts actually report is that he was going but the state would remain."
     gaffe: "Producing it as a quotation. It is not in the registers of the Parlement, not in the memoirs and not in print before the nineteenth century, and anyone who has read a life of Louis XIV will hear it coming."
     links: [history.episode.louis-xiv-versailles, opera.lully, art.term.salon, history.apocrypha.let-them-eat-cake]
     tags: [france, bourbon, versailles, quotation, absolutism]
     sources:
-      - "Journal du marquis de Dangeau, entries of August 1715"
       - "Peter Burke, The Fabrication of Louis XIV (1992)"
       - "Jean-Christian Petitfils, Louis XIV (1995)"
       - "Pierre-Édouard Lémontey, Essai sur l'établissement monarchique de Louis XIV (1818)"

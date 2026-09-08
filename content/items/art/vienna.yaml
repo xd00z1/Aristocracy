@@ -209,7 +209,7 @@ items:
     facts:
       - "Oil and gouache on wood, barely 32 by 40 centimetres, in the Leopold Museum, whose founder Rudolf Leopold assembled the largest Schiele collection in the world."
       - "Its pendant, the Portrait of Wally Neuzil, was seized in New York in 1998 while on loan and returned to the Leopold in 2010 after a settlement of nineteen million dollars with the heirs of the dealer Lea Bondi Jaray."
-      - "Painted in 1912, the year Schiele spent twenty-four days in custody at Neulengbach over his drawings."
+      - "Painted in 1912, the year Schiele spent twenty-four days in custody, at Neulengbach and then St Pölten, over his drawings."
     remark: "It is hardly bigger than a sheet of paper, and its pair, the portrait of Wally, spent twelve years impounded in New York before the Leopold paid the heirs nineteen million dollars to bring it home."
     gaffe: "Calling it a Klimt. Klimt was his mentor, but Klimt never drew a contour like that; the taut outline and the blotched skin are Schiele."
     media:
@@ -247,9 +247,9 @@ items:
     gaffe: "Calling him an Expressionist. He was the Secession's founding president and a decorator by training; Schiele and Kokoschka are the Expressionists, and both were a generation younger."
     media:
       image:
-        commons: "File:Klimt.jpg"
-        source: "Photograph by Josef Anton Trčka, 1914, via Wikimedia Commons"
-        license: "Public domain (photographer died 1940); verify the file's tag when fetching"
+        commons: "File:Gustav Klimt.jpg"
+        source: "Photograph of Gustav Klimt, via Wikimedia Commons"
+        license: "Public domain (published long before 1929); verify the file's tag and photographer when fetching"
     distractors:
       person: [Egon Schiele, Koloman Moser, Oskar Kokoschka]
       era: [Expressionism, Biedermeier, Impressionism]
@@ -273,14 +273,14 @@ items:
     facts:
       - "Born in 1890 at Tulln on the Danube, a stationmaster's son; admitted to the Vienna Academy of Fine Arts at sixteen, and left it in 1909 to found the Neukunstgruppe."
       - "Klimt took him up in 1907, bought and swapped drawings with him and introduced him to patrons."
-      - "Held for twenty-four days in 1912 at Neulengbach, where the judge burned one of his drawings in court."
+      - "Arrested at Neulengbach in April 1912 and held for twenty-four days, first there and then at St Pölten; the judge burned one of his drawings in court."
       - "Died of Spanish influenza on 31 October 1918, three days after his pregnant wife Edith, aged twenty-eight."
     remark: "He died at twenty-eight in the influenza of 1918, three days after his wife, having already left well over two thousand drawings and watercolours; the Leopold Museum has more of him than anywhere else."
     gaffe: "Saying 'Sheel'. It is two syllables, SHEE-luh; and he was Klimt's protégé, not his rival."
     media:
       image:
         commons: "File:Egon Schiele photo.jpg"
-        source: "Photograph of Egon Schiele, c. 1914, via Wikimedia Commons"
+        source: "Photograph of Egon Schiele, via Wikimedia Commons"
         license: "Public domain (pre-1929 photograph); verify the file's tag and photographer when fetching"
     distractors:
       person: [Gustav Klimt, Oskar Kokoschka, Richard Gerstl]

@@ -19,7 +19,7 @@ scenarios:
       - kind: gaffe
         text: "I have never understood why anyone bothers with Versailles. It is just a very big house."
         explanation: "A gaffe: it dismisses your host's subject and announces you have nothing to add. Philistinism is not the same as wit."
-    links: [history.person.marie-antoinette]
+    links: [history.episode.louis-xiv-versailles, history.person.marie-antoinette]
     sources:
       - "Saint-Simon, Mémoires"
     reviewed_by: null
@@ -56,7 +56,7 @@ scenarios:
     prompt: "Your friend says, over the raised telephones in front of you: \"It is only famous because somebody stole it, isn't it?\""
     options:
       - kind: correct
-        text: "A good deal of it, yes. Vincenzo Peruggia, an Italian house painter who had fitted the glass on it, carried it out under his smock in August 1911, and for two years people queued to look at the empty wall; he was caught in Florence in December 1913, trying to sell it to a dealer. While we are penned in here, turn round: the Veronese behind us was taken out of a Venetian refectory by Napoleon's commissioners in 1797 and never went home."
+        text: "A good deal of it, yes. Vincenzo Peruggia, an Italian house painter who had fitted protective glass on pictures there, carried it out under his smock in August 1911, and for two years people queued to look at the empty wall; he was caught in Florence in December 1913, trying to sell it to a dealer. While we are penned in here, turn round: the Veronese behind us was taken out of a Venetian refectory by Napoleon's commissioners in 1797 and never went home."
         explanation: "Right, and it rescues a bad half-hour by giving your friend a second thing to look at. The theft was on 21 August 1911, and Peruggia had worked in the Louvre glazing pictures. The painting reappeared when he offered it to the dealer Alfredo Geri in Florence, who brought in Giovanni Poggi, director of the Uffizi, in December 1913. Facing the Mona Lisa across the Salle des États is Veronese's Wedding at Cana, painted for the refectory of San Giorgio Maggiore in Venice and removed by the French in 1797; it is still in Paris."
       - kind: wrong
         text: "Apollinaire took it. He confessed, and did a week for it."
@@ -86,7 +86,7 @@ scenarios:
         explanation: "Wrong on both counts. The house was the impresario Gabriel Astruc's new Théâtre des Champs-Élysées on the avenue Montaigne, not the Palais Garnier; and nothing was withdrawn. The Rite was danced a handful more times in Paris and again in London that summer before Nijinsky's choreography went out of the repertoire and was lost, to be reconstructed for the Joffrey Ballet only in 1987."
       - kind: gaffe
         text: "Saint-Saëns walked out at the first bassoon note, they say. He knew what a bassoon could and could not be asked to do."
-        explanation: "A gaffe, and a well-travelled one: the story comes from Stravinsky himself, told long afterwards, and there is no evidence that Saint-Saëns was in the theatre that night. Producing it as an eyewitness detail marks you as a man who has read one paragraph. The documented evening is quieter and better company: Debussy and Stravinsky played the score through as a piano duet at Louis Laloy's house at Bellevue on 9 June 1912, a year before anybody rioted."
+        explanation: "A gaffe, and a well-travelled one: the story comes from Stravinsky himself, told long afterwards, and there is no evidence that Saint-Saëns was in the theatre that night. Producing it as an eyewitness detail marks you as a man who has read one paragraph. The documented evening is quieter and better company: Debussy and Stravinsky played the score through as a piano duet at Louis Laloy's house at Bellevue in June 1912, a year before anybody rioted."
     links: [music.stravinsky.le-sacre-du-printemps, history.person.diaghilev, music.saint-saens.le-cygne]
     sources:
       - "Grove Music Online, 'Stravinsky, Igor'"
@@ -102,7 +102,7 @@ scenarios:
     prompt: "Your host says: \"The chandelier came down on the audience here once, you know. That is where Leroux got the Phantom.\""
     options:
       - kind: correct
-        text: "One of its counterweights, rather: it came through the ceiling on the evening of 20 May 1896, during Hellé, and killed a woman in the gallery, the house's own concierge. The lake is real as well. Garnier kept striking water under the site, gave up fighting it and built a tank down there, and the Paris fire brigade still dives in it."
+        text: "One of its counterweights, rather: it came through the ceiling on the evening of 20 May 1896, during Hellé, and killed a woman sitting in the gallery. The lake is real as well. Garnier kept striking water under the site, gave up fighting it and built a tank down there, and the Paris fire brigade still dives in it."
         explanation: "Right, and it repays a good story with two better facts. On 20 May 1896 a counterweight from the great chandelier fell through the auditorium ceiling and killed a spectator; Gaston Leroux took the accident into Le Fantôme de l'Opéra in 1910, and the water under the stage with it. That water is a walled cistern Charles Garnier built when the foundations kept filling during construction; it is still there, and the fire brigade uses it for diving practice."
       - kind: wrong
         text: "It was during Faust, which is why Leroux built his novel round a performance of it."

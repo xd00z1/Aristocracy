@@ -12,8 +12,8 @@ scenarios:
     prompt: "Your host says: \"Extraordinary that they left him out in the rain for so long.\""
     options:
       - kind: correct
-        text: "Nearly four centuries of it, 1504 to 1873, and outdoors was never the plan: he was carved for a buttress of the cathedral, and a committee with Leonardo and Botticelli on it argued over where he should go before he ended up in front of the town hall instead."
-        explanation: "Agrees with the host, is specific, and adds two things they did not have: the block was meant for a cathedral buttress, and the placing was argued over by a committee that included Leonardo and Botticelli. The dates are right: outside the Palazzo della Signoria from 1504, indoors at the Accademia from 1873."
+        text: "Nearly four centuries of it, 1504 to 1873, and the piazza was never the plan: he was carved for a buttress high on the cathedral, and a committee with Leonardo and Botticelli on it argued over where he should go before he ended up in front of the town hall instead."
+        explanation: "Agrees with the host, is specific, and adds two things they did not have: the block was meant for a buttress on the cathedral tribune, some eighty metres up, and the placing at ground level was argued over by a committee that included Leonardo and Botticelli. The dates are right: outside the Palazzo della Signoria from 1504, indoors at the Accademia from 1873."
       - kind: wrong
         text: "Donatello had a go at the block first and gave it up, which is why it lay about the workshop for so long."
         explanation: "Wrong sculptor. Agostino di Duccio roughed out the block in the 1460s and abandoned it; Michelangelo, aged twenty-six, took it on in 1501. Donatello's David is the bronze in the Bargello, some sixty years older, and shows him after the fight with Goliath's head at his feet."
@@ -59,7 +59,7 @@ scenarios:
     options:
       - kind: correct
         text: "It is a marvellous line, and it turns up in print for the first time in 1757, in London, in a book by Baretti, who was Dr Johnson's friend rather than Galileo's. What is documented is better in a way: he went on saying the earth moved, in private, under house arrest at Arcetri, and Milton walked up the hill to see him there in 1638."
-        explanation: "Generous about the line, honest about its date, and it gives the host something they did not have: Giuseppe Baretti's The Italian Library (1757) is the earliest known printing, a hundred and twenty-four years after the trial, and Milton's visit to Arcetri in 1638 is attested in Areopagitica."
+        explanation: "Generous about the line, honest about its date, and it gives the host something they did not have: Giuseppe Baretti's The Italian Library (1757) is the earliest known printing, a hundred and twenty-four years after the trial. Milton records the visit himself in Areopagitica, where he says he found Galileo 'grown old, a prisoner to the Inquisition'; he was in Florence in 1638, and Galileo was by then confined at Arcetri."
       - kind: wrong
         text: "He did, though that was in 1616, the first time they had him in Rome."
         explanation: "Wrong year. In 1616 Galileo was warned not to hold or defend Copernicus, and there was no trial. The trial, the sentence of 22 June 1633 and the abjuration on his knees at Santa Maria sopra Minerva came seventeen years later. And in neither year did anyone hear him say it."
@@ -88,7 +88,7 @@ scenarios:
         explanation: "Wrong court. L'Orfeo was written for the Accademia degli Invaghiti at the Gonzaga court in Mantua, on Alessandro Striggio's libretto. The Pitti wedding opera was Peri's Euridice, sung on 6 October 1600 for the marriage of Maria de' Medici to Henri IV."
       - kind: gaffe
         text: "Moving? Two hours of recitative. Nothing happens in opera until Mozart."
-        explanation: "A gaffe: it dismisses the evening your host has just enjoyed, and it is wrong. L'Orfeo has choruses, dances, ritornellos and a printed list of the instruments it needs, which is rare for 1609; the recitative is the part the Florentines had just invented, not the whole of it."
+        explanation: "A gaffe: it dismisses the evening your host has just enjoyed, and it is wrong. L'Orfeo has choruses, dances and ritornellos, and the score printed in 1609 lists the instruments it needs, which is rare for the period; the recitative is the part the Florentines had just invented, not the whole of it."
     links: [opera.monteverdi.l-orfeo, opera.peri.euridice, music.venue.maggio-musicale-fiorentino]
     sources:
       - "Grove Music Online, 'Orfeo'"
@@ -104,7 +104,7 @@ scenarios:
     prompt: "Your hostess says: \"Florentine, of course. Catherine de' Medici took ice cream to France with her, and the fork, and taught them to cook.\""
     options:
       - kind: correct
-        text: "She would have enjoyed hearing it; she was fourteen when she left in 1533, and nobody at the French court remarked on her forks. What she did carry across was Italian dancing masters: the festivals she staged are where the ballet de cour begins, and the granddaughter she brought up married the Grand Duke here in 1589."
+        text: "She would have enjoyed hearing it; she was fourteen when she left in 1533, and nobody at the French court remarked on her forks. What she did bring the French was Italian spectacle: the festivals of her court, staged with Italian dancing masters, are where the ballet de cour begins, and the granddaughter she brought up married the Grand Duke here in 1589."
         explanation: "Kind to the hostess, and it swaps a myth for two better facts: the French ballet de cour began in the festivals of Catherine's court, and Christine of Lorraine, whom she raised, married Ferdinando I in 1589, the wedding the Florentine intermedi were written for. Food historians have found no contemporary evidence for the forks, the ices or the cooks."
       - kind: wrong
         text: "Married off to Francis I at fourteen. Imagine."

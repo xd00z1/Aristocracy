@@ -22,7 +22,7 @@ items:
     year: 1503
     year_approx: true
     facts:
-      - "Oil on poplar panel, 77 by 53 centimetres, Louvre Inv. 779; Leonardo took it with him to France in his last years, and it has been in the French royal and then national collection since Francis I."
+      - "Oil on poplar panel, Louvre Inv. 779, usually given as 77 by 53 centimetres (the Louvre measures the panel itself at 79.4 by 53.4); Leonardo took it with him to France in his last years, and it has been in the French royal and then national collection since Francis I."
       - "Vasari's Lives (1550) says Leonardo painted the wife of Francesco del Giocondo, hence La Gioconda and La Joconde; a marginal note by Agostino Vespucci dated October 1503, found at Heidelberg in 2005, confirms he was at work on the portrait of Lisa del Giocondo then."
       - "There are no drawn outlines: the face is modelled by thin glazes shading into shadow, the technique known as sfumato, and there are no eyebrows or lashes."
       - "Stolen on 21 August 1911 by Vincenzo Peruggia, an Italian house painter who had worked on glazing pictures at the Louvre; recovered in Florence in December 1913 when he tried to sell it to the Uffizi through a dealer."
@@ -136,8 +136,8 @@ items:
     gaffe: "Reading it as a Revolutionary manifesto. It is 1784 and paid for by the Crown; David's politics came later, and by January 1793 he was voting for the king's death."
     media:
       image:
-        commons: "File:Jacques-Louis David - Oath of the Horatii - Google Art Project.jpg"
-        source: "Musée du Louvre, Paris, via Wikimedia Commons (Google Art Project)"
+        commons: "File:Jacques-Louis David, Le Serment des Horaces.jpg"
+        source: "Musée du Louvre, Paris (INV 3692), via Wikimedia Commons"
         license: "Public domain (artist died 1825); verify the file's tag when fetching"
         focus: { x: 0.47, y: 0.4 }
     distractors:
@@ -171,7 +171,7 @@ items:
       - "Oil on canvas, 208 by 264.5 centimetres, Musée d'Orsay RF 1668; rejected by the Salon jury of 1863 and shown at the Salon des Refusés, which opened on 15 May 1863, under the title Le Bain."
       - "The group is lifted from Marcantonio Raimondi's engraving after Raphael's Judgement of Paris, and the idea of naked women beside dressed men from Titian's Pastoral Concert in the Louvre; the nude is Victorine Meurent, who posed for Olympia the same year."
       - "The men are one of Manet's brothers and his future brother-in-law, the sculptor Ferdinand Leenhoff; the still life of clothes and fruit at the lower left is painted with more care than the landscape behind."
-      - "Given to the state by Étienne Moreau-Nélaton in 1906; it hung in the Louvre from 1934 and moved to the Orsay when that museum opened in 1986."
+      - "Given to the state by Étienne Moreau-Nélaton in 1906; it hung at the Musée des Arts Décoratifs from 1907, went to the Louvre in 1934 and to the Jeu de Paume in 1947, and moved to the Orsay when that museum opened in 1986."
       - "Manet never exhibited with the Impressionists, though the younger painters treated him as their leader; he kept submitting to the Salon until his death in 1883."
     remark: "Its scandal was not the nude but her company: Titian's Pastoral Concert in the Louvre has naked women beside clothed men too, but Manet's men wear the frock coats of 1863, and the woman looks straight at you."
     gaffe: "Calling it an Impressionist painting shown at the Salon. The jury threw it out; it hung at the Salon des Refusés of 1863 as Le Bain, eleven years before the first Impressionist exhibition, which Manet declined to join, as he declined all eight."
@@ -241,8 +241,8 @@ items:
     language: French
     facts:
       - "Oil on canvas, 131 by 175 centimetres, Musée d'Orsay RF 2739; shown at the third Impressionist exhibition in 1877 and left to the state by Gustave Caillebotte in 1894."
-      - "The Moulin de la Galette was a dance garden beside two old windmills at the top of Montmartre, open on Sunday afternoons; Renoir took a studio nearby in the rue Cortot in 1875 and had the canvas carried down to paint on the spot."
-      - "The sitters are friends: the journalist Georges Rivière at the table, the painters Franc-Lamy and Norbert Gœneutte, and the models Estelle and Jeanne in the foreground."
+      - "The Moulin de la Galette was a dance garden beside two old windmills at the top of Montmartre, open on Sunday afternoons; Renoir took a studio nearby at 12 rue Cortot in 1876 and had the canvas carried down to paint on the spot."
+      - "The sitters are friends: the writer Georges Rivière at the table with the painters Franc-Lamy and Norbert Gœneutte, and the Montmartre models Jeanne and her sister Estelle, the girl in the blue and pink striped dress on the bench in the foreground."
       - "The dappled patches on the dancers' clothes and the ground are sunlight through acacia leaves."
       - "A smaller version sold at Sotheby's in New York on 17 May 1990 for 78.1 million dollars to the Japanese businessman Ryoei Saito, two days after he bought Van Gogh's Portrait of Dr Gachet."
     remark: "The patches on the dancers' clothes are sunlight through acacia leaves, painted on the spot on a Montmartre Sunday afternoon; the Moulin was a real windmill with a dance floor, and the Moulin Rouge did not exist for another thirteen years."
@@ -282,14 +282,14 @@ items:
       - "Born in Paris in 1834 into a banking family that spelled the name De Gas, and died in Paris in 1917; trained under Louis Lamothe, a pupil of Ingres, and told Paul Valéry that Ingres himself had advised him in 1855 to draw lines, many lines."
       - "Showed at seven of the eight Impressionist exhibitions, all but 1882, and disliked the name; he preferred Independents, worked in the studio from drawings and memory, and had no use for painting outdoors."
       - "Dancers make up something like half his output, mostly at class and rehearsal at the Paris Opéra rather than on stage; the Little Dancer Aged Fourteen, a wax figure dressed in a real tutu and shown in 1881, was the only sculpture he exhibited in his life, and the bronzes were cast after his death."
-      - "The Musée d'Orsay holds The Dance Class and L'Absinthe; his eyesight failed from the 1870s, and the late pastels are large, coarse and mostly of women bathing."
+      - "The Musée d'Orsay holds The Ballet Class (La Classe de danse) and L'Absinthe; his eyesight failed from the 1870s, and the late pastels are large, coarse and mostly of women bathing."
       - "An anti-Dreyfusard who broke with Jewish friends, including the Halévy family, during the affair."
     remark: "He showed with the Impressionists at seven of their eight exhibitions and hated the word: no sunsets, no painting outdoors, everything worked up indoors from drawings and memory, which is why his dancers look caught rather than posed."
     gaffe: "Calling him a painter of pretty ballerinas. They are working girls of the Opéra at class and rehearsal, scratching and yawning, and the Little Dancer of 1881, wax in a real tutu, so repelled the critics that he never showed another sculpture."
     media:
       image:
         commons: "File:Edgar Degas - The Ballet Class - Google Art Project.jpg"
-        source: "Edgar Degas, The Dance Class (La Classe de danse), 1873–76, Musée d'Orsay, Paris, via Wikimedia Commons (Google Art Project)"
+        source: "Edgar Degas, The Ballet Class (La Classe de danse), Musée d'Orsay, Paris, via Wikimedia Commons (Google Art Project)"
         license: "Public domain (artist died 1917); verify the file's tag when fetching"
         focus: { x: 0.5, y: 0.5 }
     distractors:
@@ -324,8 +324,8 @@ items:
     gaffe: "Filing him under Impressionism. He showed with them twice, in 1874 and 1877, then went back to Aix and spent thirty years painting one mountain until it was structure rather than weather."
     media:
       image:
-        commons: "File:Paul Cézanne, Les joueurs de carte (1892-95).jpg"
-        source: "Paul Cézanne, The Card Players (Les Joueurs de cartes), c. 1890–95, Musée d'Orsay, Paris, via Wikimedia Commons"
+        commons: "File:Les Joueurs de cartes, par Paul Cézanne.jpg"
+        source: "Paul Cézanne, The Card Players (Les Joueurs de cartes), c. 1894–95, Musée d'Orsay, Paris, via Wikimedia Commons"
         license: "Public domain (artist died 1906); verify the file's tag when fetching"
         focus: { x: 0.5, y: 0.6 }
     distractors:
@@ -425,7 +425,7 @@ items:
     facts:
       - "First held in 1667 by the Académie royale de peinture et de sculpture; in the Salon Carré of the Louvre from 1725, which gave it the name; opened to all artists in 1791, when the Revolution ended the Academy's monopoly."
       - "Diderot's reviews of the Salons from 1759 to 1781 are the beginning of art criticism; to be 'skyed', hung near the ceiling, was a verdict, and the eye-level line was the prize."
-      - "In 1863 the jury rejected about three thousand of some five thousand submissions; Napoleon III ordered the rejects shown in rooms next door in the Palais de l'Industrie, and the Salon des Refusés opened on 15 May with Manet's Déjeuner sur l'herbe and Whistler's White Girl in it."
+      - "In 1863 the jury rejected more than two thousand of some five thousand submissions; Napoleon III ordered the rejects shown in rooms next door in the Palais de l'Industrie, and the Salon des Refusés opened on 15 May with Manet's Déjeuner sur l'herbe and Whistler's White Girl in it."
       - "In 1881 the state handed the Salon to the Société des Artistes Français; the Salon des Indépendants (1884, no jury, no prizes) and the Salon d'Automne (1903) became the venues for new painting, and the Fauves were named at the Salon d'Automne of 1905."
     remark: "The rejections of 1863 were so wholesale that Napoleon III ordered the rejects shown next door, and the Salon des Refusés, with Manet's Déjeuner in it, is the exhibition anybody now remembers from that year."
     gaffe: "Confusing the Salon with a salon. Madame Geoffrin's drawing room was a salon; the Salon, capital S, is the state exhibition named after a room in the Louvre, and being skyed there, hung up by the ceiling, was a judgement."

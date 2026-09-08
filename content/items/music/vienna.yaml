@@ -57,3 +57,356 @@ items:
     sources:
       - "Grove Music Online, 'Lied'"
     reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Works. Themes are melody line only, opening phrase only, concert pitch, and
+  # only where the pitches and rhythm could be written down with confidence.
+  # ---------------------------------------------------------------------------
+
+  - id: music.haydn.symphony-94.ii
+    discipline: music
+    kind: work
+    title: "Symphony No. 94 in G major ('Surprise'), second movement"
+    creator: Joseph Haydn
+    city: vienna
+    difficulty: 1
+    era: Classical
+    year: 1792
+    facts:
+      - "One of the twelve 'London' symphonies written for Johann Peter Salomon's concerts; first performed at the Hanover Square Rooms in London on 23 March 1792, with Haydn directing from the fortepiano."
+      - "The Andante is a set of variations on a tune of nursery simplicity; the theme is played once quietly and then repeated more quietly still, and the fortissimo chord with the kettledrum lands at the end of that repeat."
+      - "Asked by his biographer Griesinger whether the chord was meant to wake a dozing audience, Haydn said he had wanted to surprise the public with something new and to keep his former pupil Ignaz Pleyel, then running rival concerts in London, from outdoing him. His friend the composer Gyrowetz remembered him showing off the passage beforehand and saying it would make the ladies scream."
+      - "Back in Vienna in 1797 Haydn wrote 'Gott erhalte Franz den Kaiser' as an Austrian answer to the 'God Save the King' he had heard in London, and used it as the slow movement of the String Quartet Op. 76 No. 3, which is why that quartet is called the Emperor."
+    remark: "Haydn told his biographer that the chord was there to give the public something new and to stop his old pupil Pleyel outdoing him in London; the story that he wrote it to wake a dozing audience came afterwards."
+    gaffe: "Waiting for the surprise in the first movement, or calling this the Drumroll. The chord comes in the slow movement, and the Drumroll is No. 103, which opens with one."
+    theme:
+      notes: "C5/4 C5/4 | E5/4 E5/4 | G5/4 G5/4 | E5/4 R/4 | F5/4 F5/4 | D5/4 D5/4 | B4/4 B4/4 | G4/4 R/4"
+      tempo: 76
+      key: C major
+      note: "The first eight bars of the Andante theme, melody only, staccato in the strings; the chord arrives eight bars later, at the end of the quiet repeat."
+    distractors:
+      creator: [Wolfgang Amadeus Mozart, Ludwig van Beethoven, Ignaz Pleyel]
+      title: ["Symphony No. 104 in D major ('London')", "Symphony No. 45 in F-sharp minor ('Farewell')", "Symphony No. 101 in D major ('The Clock')"]
+      era: [Baroque, Romantic, Modernist]
+    links: [music.anon.god-save-the-king, music.mozart.eine-kleine-nachtmusik, music.beethoven.symphony-5.i]
+    tags: [symphony, haydn, london-symphonies, classical, 1790s, salomon]
+    sources:
+      - "Grove Music Online, 'Haydn, Joseph'"
+      - "H. C. Robbins Landon, Haydn: Chronicle and Works, vol. 3: Haydn in England 1791–1795 (1976)"
+      - "Georg August Griesinger, Biographische Notizen über Joseph Haydn (1810)"
+    reviewed_by: null
+
+  - id: music.mozart.eine-kleine-nachtmusik
+    discipline: music
+    kind: work
+    title: "Eine kleine Nachtmusik, K. 525, first movement"
+    creator: Wolfgang Amadeus Mozart
+    city: vienna
+    difficulty: 1
+    era: Classical
+    year: 1787
+    language: German
+    pronunciation: "EYE-nuh KLY-nuh NAHKHT-moo-zeek"
+    facts:
+      - "Mozart entered it in his own catalogue of works on 10 August 1787, in Vienna, while he was in the middle of Don Giovanni; no commission, occasion or performance in his lifetime is documented."
+      - "His catalogue entry lists five movements — Allegro, Minuet and Trio, Romance, Minuet and Trio, Finale — but the leaf carrying the first minuet was torn out of the autograph and lost, which is why it is played in four."
+      - "A serenade for strings: two violins, viola, cello and bass, one to a part or a whole string orchestra."
+      - "It was not published until 1827, thirty-six years after his death, by Johann André of Offenbach."
+    remark: "He wrote it in Vienna in August 1787 in the middle of composing Don Giovanni, and nobody knows who it was for or whether he ever heard it; it was not printed until 1827."
+    gaffe: "Calling it a symphony, or a quartet. It is a serenade for strings, and it had five movements until somebody tore the first minuet out of the manuscript."
+    theme:
+      notes: "G4/4 R/8 D4/8 G4/4 R/8 D4/8 | G4/8 D4/8 G4/8 B4/8 D5/4 R/4"
+      tempo: 132
+      key: G major
+      note: "The opening two bars, all the strings in unison, melody only."
+    distractors:
+      creator: [Joseph Haydn, Luigi Boccherini, Johann Christian Bach]
+      title: ["Serenade No. 10 in B-flat major ('Gran Partita')", "Symphony No. 40 in G minor, K. 550", "Divertimento in D major, K. 136"]
+      era: [Baroque, Romantic, Modernist]
+    links: [opera.mozart.don-giovanni, opera.mozart, music.mozart.rondo-alla-turca, music.haydn.symphony-94.ii, history.episode.joseph-ii-and-mozart]
+    tags: [serenade, strings, mozart, classical, 1780s]
+    sources:
+      - "Grove Music Online, 'Mozart, Wolfgang Amadeus'"
+      - "Neal Zaslaw and William Cowdery (eds.), The Compleat Mozart (1990)"
+      - "Köchel-Verzeichnis (Internationale Stiftung Mozarteum), KV 525"
+    reviewed_by: null
+
+  - id: music.mozart.rondo-alla-turca
+    discipline: music
+    kind: work
+    title: "Rondo alla turca, from the Piano Sonata in A major, K. 331"
+    parent: "Piano Sonata No. 11 in A major, K. 331 (c. 1783)"
+    creator: Wolfgang Amadeus Mozart
+    city: vienna
+    difficulty: 1
+    era: Classical
+    year: 1783
+    year_approx: true
+    facts:
+      - "The finale of the Sonata in A major, K. 331, which Artaria published in Vienna early in 1784 with two other sonatas; scholars now date all three to about 1783 rather than to Paris in 1778, as older books have it."
+      - "Marked 'Alla turca', it imitates the janissary band of the Ottoman army, whose sound Vienna had heard at the siege of 1683 and whose fashion was at its height in the 1780s; Viennese pianos of the day often had a pedal that rang a bell and struck a drum for this kind of music."
+      - "The sonata contains no movement in sonata form at all: a theme and variations, a minuet, and this rondo."
+      - "In 2014 Balázs Mikusi found four pages of the lost autograph in the National Széchényi Library in Budapest; they differ in places from the printed first edition."
+    remark: "It imitates a janissary band, and the Viennese pianos of the 1780s often had a pedal that rang a bell and beat a drum for exactly this sort of music."
+    gaffe: "Calling it a Turkish tune. It quotes no Turkish melody: alla turca is a Viennese style, got up a century after the janissaries were last at the walls."
+    theme:
+      notes: "B4/16 A4/16 G#4/16 A4/16 | C5/4 D5/16 C5/16 B4/16 C5/16 | E5/4 F5/16 E5/16 D#5/16 E5/16"
+      tempo: 120
+      key: A minor
+      note: "The upbeat turn and the first two bars of the rondo theme; the turn figures climb the A minor triad, and the third of them is left where it lands."
+    distractors:
+      creator: [Joseph Haydn, Muzio Clementi, Johann Nepomuk Hummel]
+      title: ["Fantasia in D minor, K. 397", "Rondo in A minor, K. 511", "Twelve Variations on 'Ah vous dirai-je, Maman', K. 265"]
+      era: [Baroque, Romantic, Modernist]
+    links: [history.episode.siege-of-vienna, opera.mozart.die-entfuehrung-aus-dem-serail, music.mozart.eine-kleine-nachtmusik, opera.mozart]
+    tags: [piano, sonata, mozart, alla-turca, janissary, classical, 1780s]
+    sources:
+      - "Grove Music Online, 'Mozart, Wolfgang Amadeus'"
+      - "Eva Badura-Skoda and Paul Badura-Skoda, Interpreting Mozart on the Keyboard (rev. ed., 2008)"
+      - "National Széchényi Library, Budapest, on the K. 331 autograph fragment found in 2014"
+    reviewed_by: null
+
+  - id: music.beethoven.symphony-9.ode-to-joy
+    discipline: music
+    kind: work
+    title: "Ode to Joy, from the Symphony No. 9 in D minor, Op. 125"
+    parent: "Symphony No. 9 in D minor, Op. 125 ('Choral', 1824)"
+    creator: Ludwig van Beethoven
+    city: vienna
+    difficulty: 1
+    era: Classical / early Romantic
+    year: 1824
+    facts:
+      - "First performed at the Kärntnertortheater in Vienna on 7 May 1824. Michael Umlauf conducted and the players had been told to watch him; Beethoven stood beside him setting the tempi, too deaf to hear what followed, and the contralto Caroline Unger turned him round to see the applause."
+      - "The tune enters in the finale on cellos and basses alone, with no harmony under it, and is built up through the orchestra before any voice sings a word."
+      - "The words are Schiller's An die Freude of 1785, in the poet's later revision; the lines that open the finale, calling for other and more pleasant sounds, are Beethoven's own."
+      - "The Council of Europe adopted the tune as its anthem in 1972, in an arrangement by Herbert von Karajan, and the European Communities followed in 1985; it is official without words, so that no language is favoured."
+    remark: "The tune arrives on cellos and basses alone, with no harmony at all, and the orchestra has to build it up before anyone is allowed to sing it; the first words of the finale are Beethoven's own, not Schiller's."
+    gaffe: "Calling the Ode to Joy the symphony. It is one tune in a finale of about a quarter of an hour, in a work that runs over an hour, and three movements go by before it appears."
+    theme:
+      notes: "F#4/4 F#4/4 G4/4 A4/4 | A4/4 G4/4 F#4/4 E4/4 | D4/4 D4/4 E4/4 F#4/4 | F#4/4. E4/8 E4/2 | F#4/4 F#4/4 G4/4 A4/4 | A4/4 G4/4 F#4/4 E4/4 | D4/4 D4/4 E4/4 F#4/4 | E4/4. D4/8 D4/2"
+      tempo: 108
+      key: D major
+      note: "The first eight bars of the tune as the cellos and basses give it out in the finale, melody only."
+    distractors:
+      creator: [Franz Schubert, Joseph Haydn, Carl Maria von Weber]
+      title: ["Missa solemnis, Op. 123", "Symphony No. 6 in F major ('Pastoral')", "Fantasia in C minor, Op. 80 ('Choral Fantasy')"]
+      era: [Baroque, Late Romantic, Modernist]
+    links: [music.beethoven.symphony-5.i, opera.beethoven.fidelio, history.episode.congress-of-vienna, music.schubert]
+    tags: [symphony, choral, beethoven, schiller, 1820s, european-anthem]
+    sources:
+      - "Grove Music Online, 'Beethoven, Ludwig van'"
+      - "Lewis Lockwood, Beethoven: The Music and the Life (2003)"
+      - "Nicholas Cook, Beethoven: Symphony No. 9 (Cambridge Music Handbooks, 1993)"
+    reviewed_by: null
+
+  - id: music.strauss-ii.an-der-schoenen-blauen-donau
+    discipline: music
+    kind: work
+    title: "An der schönen, blauen Donau (The Blue Danube), Op. 314"
+    creator: Johann Strauss II
+    city: vienna
+    difficulty: 1
+    era: Romantic
+    year: 1867
+    language: German
+    pronunciation: "ahn dair SHUR-nen BLOW-en DOH-now"
+    facts:
+      - "First performed on 15 February 1867 at the Dianabad-Saal in Vienna, as a choral waltz for the Wiener Männergesang-Verein to comic verses by the society's own poet, Josef Weyl; the wordless orchestral version came later that year and made its name in Paris at the World Exhibition."
+      - "Vienna had been beaten by Prussia at Königgrätz the summer before, and the piece was written for a city in low spirits."
+      - "The title comes from a poem by Karl Isidor Beck, whose refrain addresses the beautiful blue Danube; the river at Vienna is grey-green."
+      - "Brahms, who admired Strauss and was his friend, is said to have written the opening bars on Adele Strauss's fan and added that they were, alas, not by Johannes Brahms."
+    remark: "It started life as a choral waltz for a men's singing club in February 1867, with joke verses, written for a city that had just lost a war to Prussia; the version everyone knows has no words at all."
+    gaffe: "Assuming the Danube is blue, or that this Strauss wrote the Radetzky March. The river is grey-green, and the march is his father's, from the other side of the 1848 barricades."
+    theme:
+      notes: "D4/4 F#4/4 A4/4 | A4/2. | D4/4 F#4/4 A4/4 | A4/2."
+      tempo: 160
+      key: D major
+      note: "The first waltz: the rising D major triad and its held answer, twice. The orchestra's accented after-beats under the held note are not notated."
+    distractors:
+      creator: [Johann Strauss I, Josef Lanner, Émile Waldteufel]
+      title: ["Tales from the Vienna Woods, Op. 325", "Emperor Waltz, Op. 437", "Wine, Women and Song, Op. 333"]
+      era: [Baroque, Classical, Modernist]
+    links: [music.term.waltz, music.strauss-i.radetzky-marsch, opera.strauss-ii.die-fledermaus, history.episode.1848-and-franz-joseph, music.brahms]
+    tags: [waltz, strauss, vienna, danube, 1860s, mannergesang-verein]
+    sources:
+      - "Grove Music Online, 'Strauss, Johann (ii)'"
+      - "Peter Kemp, The Strauss Family: Portrait of a Musical Dynasty (1985)"
+    reviewed_by: null
+
+  - id: music.strauss-i.radetzky-marsch
+    discipline: music
+    kind: work
+    title: "Radetzky-Marsch, Op. 228"
+    creator: Johann Strauss I
+    city: vienna
+    difficulty: 2
+    era: Romantic
+    year: 1848
+    language: German
+    facts:
+      - "First played on 31 August 1848 at a festival at the Wasserglacis in Vienna, in honour of Field Marshal Radetzky, who had beaten the Piedmontese at Custoza on 25 July; the officers in the audience clapped and stamped along, and the audience has clapped ever since."
+      - "Strauss the elder took the court's side in the revolutions of 1848 while his son Johann II played the Marseillaise for the other, which cost the son official favour for years."
+      - "It has ended the Vienna Philharmonic's New Year's Concert since 1946, with the conductor turning round to govern the clapping."
+      - "The score used from 1946 was an arrangement made in 1914 by Leopold Weninger, who later joined the Nazi party; the orchestra played the original 1848 scoring under Nikolaus Harnoncourt in 2001 and adopted a new edition in 2020."
+    remark: "It is the counter-revolution's own tune: written in August 1848 for the field marshal who had just put down the Italians, while the composer's son was playing the Marseillaise for the revolution at home."
+    gaffe: "Crediting it to the waltz Strauss. The march is the father's, the Blue Danube the son's, and in 1848 the two of them were on opposite sides."
+    distractors:
+      creator: [Johann Strauss II, Josef Lanner, Josef Strauss]
+      title: ["Persischer Marsch, Op. 289", "Egyptischer Marsch, Op. 335", "Marche militaire No. 1 in D, D. 733"]
+      era: [Baroque, Classical, Modernist]
+    links: [music.term.waltz, music.strauss-ii.an-der-schoenen-blauen-donau, history.episode.1848-and-franz-joseph, history.person.franz-joseph]
+    tags: [march, strauss, radetzky, revolution-1848, new-years-concert, vienna]
+    sources:
+      - "Grove Music Online, 'Strauss, Johann (i)'"
+      - "Peter Kemp, The Strauss Family: Portrait of a Musical Dynasty (1985)"
+      - "Wiener Philharmoniker, 'The Philharmonic Version of the Radetzky March'"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Creators
+  # ---------------------------------------------------------------------------
+
+  - id: music.schubert
+    discipline: music
+    kind: creator
+    title: "Franz Schubert"
+    city: vienna
+    difficulty: 1
+    era: Early Romantic
+    year: 1797
+    year_end: 1828
+    facts:
+      - "Born in Himmelpfortgrund, a suburb of Vienna, on 31 January 1797; died in the city on 19 November 1828, aged thirty-one, of what the death record calls Nervenfieber, usually read as typhoid. He asked to be buried near Beethoven, who had died the year before, at Währing; both were moved to the Zentralfriedhof in 1888."
+      - "More than six hundred songs, among them Erlkönig, written to Goethe in 1815 when he was eighteen and published six years later as his Op. 1, and the two cycles Die schöne Müllerin and Winterreise."
+      - "He gave exactly one public concert of his own music, on 26 March 1828, eight months before he died; the rest was heard at friends' evening parties, the Schubertiaden."
+      - "The two movements of the B minor symphony of 1822 were left with Anselm Hüttenbrenner and not performed until 17 December 1865, thirty-seven years after his death."
+    remark: "He gave one public concert of his own music, eight months before he died at thirty-one; everything else was heard in friends' drawing rooms, and the Unfinished sat in a drawer until 1865."
+    gaffe: "Saying the Unfinished is unfinished because he died. He wrote its two movements in 1822 and lived another six years, writing other symphonies; the manuscript simply stayed with a friend."
+    distractors:
+      person: [Robert Schumann, Carl Maria von Weber, Felix Mendelssohn]
+      creator: [Robert Schumann, Carl Maria von Weber, Felix Mendelssohn]
+      era: [Baroque, Late Romantic, Modernist]
+    links: [music.term.lied, music.beethoven.symphony-5.i, art.term.biedermeier, music.brahms, history.episode.congress-of-vienna]
+    tags: [composer, schubert, lieder, early-romantic, vienna, 1820s]
+    sources:
+      - "Grove Music Online, 'Schubert, Franz'"
+      - "Elizabeth Norman McKay, Franz Schubert: A Biography (1996)"
+      - "Christopher H. Gibbs, The Life of Schubert (2000)"
+    reviewed_by: null
+
+  - id: music.brahms
+    discipline: music
+    kind: creator
+    title: "Johannes Brahms"
+    city: vienna
+    difficulty: 2
+    era: Late Romantic
+    year: 1833
+    year_end: 1897
+    facts:
+      - "Born in Hamburg on 7 May 1833; he came to Vienna in 1862, made it his home, and died there on 3 April 1897. He lies in the Zentralfriedhof a few steps from Beethoven and Schubert."
+      - "He spent twenty-one years on his First Symphony, begun in 1855 and finished in 1876; when Hans von Bülow called it Beethoven's Tenth, Brahms is said to have replied that any fool could hear as much."
+      - "The Wiegenlied, 'Guten Abend, gut' Nacht', Op. 49 No. 4, was published in 1868 for Bertha Faber on the birth of her second son, with a Ländler she used to sing to him hidden in the piano part."
+      - "Musical Vienna divided into Wagnerians and Brahmsians, with the critic Eduard Hanslick leading for Brahms; the essay that finally called him a modernist, 'Brahms the Progressive', was written in 1947 by Schoenberg."
+    remark: "The lullaby everyone knows was a present for Bertha Faber on the birth of her second son, and he hid in the piano part a Ländler she had sung to him years before."
+    gaffe: "Calling the Hungarian Dances his own tunes. He published them without opus numbers and called himself the arranger, precisely because most of the melodies were not his, and he was accused of stealing them anyway."
+    distractors:
+      person: [Anton Bruckner, Robert Schumann, Antonín Dvořák]
+      creator: [Anton Bruckner, Robert Schumann, Antonín Dvořák]
+      era: [Baroque, Classical, Modernist]
+    links: [music.term.lied, music.schubert, music.movement.second-viennese-school, music.strauss-ii.an-der-schoenen-blauen-donau]
+    tags: [composer, brahms, vienna, late-romantic, hanslick, 1800s]
+    sources:
+      - "Grove Music Online, 'Brahms, Johannes'"
+      - "Jan Swafford, Johannes Brahms: A Biography (1997)"
+      - "Styra Avins, Johannes Brahms: Life and Letters (1997)"
+    reviewed_by: null
+
+  - id: music.mahler
+    discipline: music
+    kind: creator
+    title: "Gustav Mahler"
+    city: vienna
+    difficulty: 2
+    era: Late Romantic
+    year: 1860
+    year_end: 1911
+    facts:
+      - "Born on 7 July 1860 at Kalischt in Bohemia into a German-speaking Jewish family; he was baptised a Catholic early in 1897 because the post he wanted, the directorship of the Vienna Hofoper, was closed to a Jew. He held it from 1897 to 1907 and died in Vienna on 18 May 1911."
+      - "He conducted for a living and composed in the summers: nine numbered symphonies, Das Lied von der Erde, and a Tenth left unfinished."
+      - "The Adagietto is the fourth movement of the Fifth Symphony, written in 1901 and 1902 for strings and harp alone; Willem Mengelberg noted in his score that both Mahler and Alma had told him it was a declaration of love to her."
+      - "It was played at Robert Kennedy's funeral in 1968 and ran through Visconti's Death in Venice in 1971, which is how most people meet Mahler."
+    remark: "He was baptised in 1897 because the directorship of the Court Opera was closed to a Jew, took the job, ran it for ten years, and had to do his composing in the summer holidays."
+    gaffe: "Treating the Adagietto as music about death because of the Visconti film. Mengelberg's score says Mahler and Alma both told him it was a love letter to her; the film came seventy years later."
+    distractors:
+      person: [Richard Strauss, Anton Bruckner, Hugo Wolf]
+      creator: [Richard Strauss, Anton Bruckner, Hugo Wolf]
+      era: [Baroque, Classical, Renaissance]
+    links: [opera.venue.staatsoper, history.episode.vienna-1900, music.movement.second-viennese-school, art.klimt, music.term.lied]
+    tags: [composer, mahler, symphony, hofoper, vienna-1900, 1900s]
+    sources:
+      - "Grove Music Online, 'Mahler, Gustav'"
+      - "Henry-Louis de La Grange, Gustav Mahler (4 vols., 1973–2008)"
+      - "Jens Malte Fischer, Gustav Mahler (English edition, 2011)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Movement and term
+  # ---------------------------------------------------------------------------
+
+  - id: music.movement.second-viennese-school
+    discipline: music
+    kind: movement
+    title: "The Second Viennese School"
+    city: vienna
+    difficulty: 3
+    era: Modernist
+    year: 1904
+    facts:
+      - "Arnold Schoenberg (1874–1951) and his two great pupils, Alban Berg and Anton Webern, who both began studying with him in 1904; the name answers the first Viennese school of Haydn, Mozart and Beethoven."
+      - "On 31 March 1913, in the Great Hall of the Musikverein, a concert of their music conducted by Schoenberg ended in a brawl and had to be abandoned; Vienna calls it the Skandalkonzert."
+      - "Schoenberg's answer to hostile audiences was the Society for Private Musical Performances, which ran from 1918 to 1921: members only, no critics admitted, no applause, and the programme not announced in advance."
+      - "He made the twelve-note method public in 1923: all twelve notes of the chromatic scale set in a row and used in order, so that none of them can become home. He was superstitious about the number thirteen, spelled the title of his opera Moses und Aron with one 'a' to keep it to twelve letters, and died on Friday 13 July 1951."
+    remark: "The name is a claim rather than a label: it answers the first Viennese school of Haydn, Mozart and Beethoven, and Schoenberg thought he was continuing that line, not breaking it."
+    gaffe: "Calling the music atonal in front of anyone who cares. Schoenberg disliked the word — the notes have relations, just not a key — and talked instead about the emancipation of the dissonance."
+    distractors:
+      title: ["The First Viennese School", "Les Six", "The Mighty Handful"]
+      era: [Baroque, Classical, Romantic]
+    links: [opera.berg.wozzeck, music.mahler, art.movement.vienna-secession, history.episode.vienna-1900, music.brahms]
+    tags: [movement, schoenberg, berg, webern, twelve-tone, modernism, vienna-1900]
+    sources:
+      - "Grove Music Online, 'Schoenberg, Arnold'"
+      - "Malcolm MacDonald, Schoenberg (Master Musicians, rev. ed., 2008)"
+      - "Charles Rosen, Arnold Schoenberg (1975)"
+    reviewed_by: null
+
+  - id: music.term.waltz
+    discipline: music
+    kind: term
+    title: Waltz
+    pronunciation: "German Walzer, VAL-tser"
+    language: German
+    city: vienna
+    difficulty: 2
+    era: Romantic
+    definition: "A dance in triple time in which a couple turn while holding each other, and the music written for it; the Viennese sort is fast, and its second beat is played a shade early."
+    facts:
+      - "It grew out of the Ländler, the turning dance of the Alpine countryside, and scandalised polite Europe because the partners held one another instead of dancing in a line or a set."
+      - "The Congress of Vienna danced it into respectability in 1814 and 1815; the Prince de Ligne's line about the Congress dancing rather than advancing was about actual balls."
+      - "Joseph Lanner and Johann Strauss the elder turned it into concert music in the 1820s and 1830s, as rivals; Strauss's son Johann II wrote over five hundred pieces, most of them dances, and his brothers Josef and Eduard kept the family orchestra going."
+      - "The Vienna Philharmonic's New Year's Concert, all Strauss family, was first given on 31 December 1939 under Clemens Krauss in the Musikverein, whose Golden Hall opened in 1870 to Theophil Hansen's design; it ends with the Blue Danube and the Radetzky March."
+    remark: "It scandalised Europe because the partners held each other, and the Congress of Vienna danced it into respectability; the Viennese play the second beat a shade early, which is why their waltzes cannot be counted evenly."
+    gaffe: "Counting a Viennese waltz in a strict one-two-three, or calling anything in triple time a waltz. The minuet and the Ländler are in three as well, and neither is a waltz."
+    distractors:
+      term:
+        - "A stately court dance in triple time, danced by couples in a line, that closes the Baroque suite."
+        - "An Austrian country dance in duple time, played by brass bands at village fairs."
+        - "A Bohemian dance in quick duple time that swept Vienna in the 1840s."
+    links: [music.strauss-ii.an-der-schoenen-blauen-donau, music.strauss-i.radetzky-marsch, opera.strauss-ii.die-fledermaus, history.episode.congress-of-vienna, opera.term.opera-ball]
+    tags: [term, dance, waltz, strauss, vienna, new-years-concert]
+    sources:
+      - "Grove Music Online, 'Waltz'"
+      - "Grove Music Online, 'Strauss family'"
+      - "Peter Kemp, The Strauss Family: Portrait of a Musical Dynasty (1985)"
+    reviewed_by: null

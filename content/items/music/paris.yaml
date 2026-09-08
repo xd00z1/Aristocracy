@@ -22,7 +22,7 @@ items:
     language: French
     pronunciation: "sam-fo-NEE fahn-tass-TEEK"
     facts:
-      - "First performed on 5 December 1830 in the hall of the Paris Conservatoire, conducted by François Habeneck; Berlioz had won the Prix de Rome that July, at his fourth attempt."
+      - "First performed on 5 December 1830 in the hall of the Paris Conservatoire, conducted by François Habeneck; Berlioz had won the Prix de Rome that August, having entered every year since 1826."
       - "Five movements with a printed programme: Rêveries – Passions, Un bal, Scène aux champs, Marche au supplice, and Songe d'une nuit du sabbat, in which the artist, who has taken opium, dreams he is executed and then mocked at a witches' sabbath to the plainchant Dies irae."
       - "The beloved is a tune, which Berlioz's programme calls the idée fixe; it returns in every movement, waltzing in the second, and in the finale it comes back as a shrill parody on the E-flat clarinet."
       - "The beloved was real: the Irish actress Harriet Smithson, whom Berlioz had seen as Ophelia at the Odéon in September 1827 and had never met. They were introduced in December 1832 and married on 3 October 1833."
@@ -87,7 +87,7 @@ items:
       - "The thirteenth of the fourteen movements of Le Carnaval des animaux, a 'grand zoological fantasy' written in a few days in February 1886 for a private Shrove Tuesday concert given by the cellist Charles Lebouc on 9 March."
       - "For cello and two pianos in the original; Saint-Saëns forbade public performance of the Carnival in his lifetime, fearing it would damage his reputation as a serious composer, and allowed only The Swan to be published, in 1887. The rest appeared in 1922, after his death."
       - "The Carnival's jokes include Offenbach's galop from Orphée aux enfers slowed to a crawl for the tortoises, Berlioz's Dance of the Sylphs given to the elephant on a double bass, and Saint-Saëns's own Danse macabre rattled out on a xylophone in Fossils."
-      - "Michel Fokine made the solo The Dying Swan for Anna Pavlova to it in St Petersburg; he dated it 1905, and its first documented performance was in December 1907."
+      - "Michel Fokine made the solo The Dying Swan for Anna Pavlova to it in St Petersburg in 1905; it became her signature piece and she danced it for the rest of her life."
     remark: "It is the only piece of the Carnival that Saint-Saëns let out in his lifetime; the rest, with its tortoises dancing Offenbach's galop at a crawl, was a private joke he sat on for thirty-five years."
     gaffe: "Calling it The Dying Swan as if that were the title. Saint-Saëns wrote Le Cygne; the dying is Fokine's and Pavlova's, some twenty years later, and the composer had nothing to do with it."
     distractors:
@@ -120,11 +120,6 @@ items:
       - "One tune over a rocking accompaniment of two chords, in 3/4, in D major; the second and third Gymnopédies use the same shape, which is why they are often mistaken for one another."
     remark: "The word means the naked-boy dances of Sparta and nobody knows why Satie chose it; Debussy orchestrated two of the three in 1896 and swapped their numbers, so his first Gymnopédie is Satie's third."
     gaffe: "Calling it Impressionist because it is quiet and French. It is six years older than Debussy's Faune and the opposite of it: no wash of colour, one tune, two chords. Les Six took their plainness from Satie, not from Debussy."
-    theme:
-      notes: "F#5/4 A5/4 G5/4 | F#5/4 C#5/4 B4/4 | C#5/4 D5/4 A4/4 | A4/2. | A4/2."
-      tempo: 66
-      key: D major
-      note: "The melody as it enters at bar 5, after four bars of the rocking accompaniment; the held A is approximated as two tied bars."
     distractors:
       creator: [Claude Debussy, Gabriel Fauré, Maurice Ravel]
       title: ["Gnossienne No. 1", "Je te veux", "Trois morceaux en forme de poire"]
@@ -183,7 +178,7 @@ items:
     facts:
       - "Commissioned by the dancer Ida Rubinstein and first performed at the Paris Opéra on 22 November 1928, with Rubinstein dancing on a table in a Spanish tavern, choreography by Bronislava Nijinska, sets by Alexandre Benois, and Walther Straram conducting."
       - "Ravel had meant to orchestrate pieces from Albéniz's Iberia for her, found that the orchestration rights belonged to Enrique Fernández Arbós, and wrote an original piece instead."
-      - "One rhythm on the side drum from the first bar to the last, two sixteen-bar tunes alternating over it, a single crescendo, and C major throughout until one change of key just before the end; Ravel told the Daily Telegraph in 1931 that it was 'orchestral tissue without music'."
+      - "One rhythm on the side drum from the first bar to the last, two eighteen-bar tunes alternating over it, a single crescendo, and C major throughout until one change of key just before the end; Ravel told the Daily Telegraph in 1931 that it was 'orchestral tissue without music'."
       - "Ravel wanted it slow, about a quarter of an hour; when Toscanini took it faster with the New York Philharmonic in Paris in May 1930 the two men quarrelled about it."
       - "Ravel's other tune that everyone knows, the Pavane pour une infante défunte, was written for piano in 1899 while he was still a Conservatoire student and orchestrated in 1910."
     remark: "Ravel wrote it for Ida Rubinstein to dance on a tavern table in 1928, and told the Daily Telegraph it was 'orchestral tissue without music': one rhythm, two tunes, one crescendo, one change of key just before the end."
@@ -216,7 +211,7 @@ items:
       - "Subtitled 'Pictures of pagan Russia in two parts'; a chosen maiden dances herself to death. The audience laughed, shouted and fought until the orchestra could not be heard; Stravinsky left his seat and watched from the wings, where Nijinsky stood on a chair shouting the counts to the dancers."
       - "The music itself won within a year: Monteux conducted it in concert at the Casino de Paris on 5 April 1914 and Stravinsky was carried out on the crowd's shoulders."
       - "Nijinsky's choreography was lost after a handful of performances in Paris and London and was reconstructed by Millicent Hodson and Kenneth Archer for the Joffrey Ballet in 1987."
-      - "Debussy and Stravinsky played it through as a piano duet at Louis Laloy's house at Bellevue on 9 June 1912, a year before the premiere."
+      - "Debussy and Stravinsky played it through as a piano duet at Louis Laloy's house at Bellevue in June 1912, a year before the premiere."
     remark: "The riot was at the ballet, not the music: a year later Monteux conducted it in concert at the Casino de Paris and Stravinsky was carried out on the crowd's shoulders. It was Nijinsky's steps that people could not bear."
     gaffe: "Repeating that Saint-Saëns stormed out over the bassoon's first note. The story is Stravinsky's own, told years later, and there is no evidence that Saint-Saëns was in the theatre that night."
     distractors:
@@ -248,7 +243,7 @@ items:
     facts:
       - "Born in Pamiers, in the Ariège, on 12 May 1845; trained not at the Conservatoire but at the École Niedermeyer in Paris, a school for church musicians, where Saint-Saëns taught him the piano and showed him Schumann, Liszt and Wagner."
       - "Choirmaster at the Madeleine from 1877 and its organist from 1896; director of the Paris Conservatoire from 1905 to 1920, where his reforms and sackings earned him the nickname Robespierre, and his pupils included Ravel, Enescu, Koechlin and Nadia Boulanger."
-      - "His Requiem was first sung at the Madeleine on 16 January 1888, at the funeral of an architect, and grew to its final form by 1900; it leaves out the Dies irae sequence, and he wrote in 1910 that someone had called it 'a lullaby of death'."
+      - "His Requiem was first sung at the Madeleine on 16 January 1888, at the funeral of an architect, and grew to its final form by 1900; it leaves out the Dies irae sequence, and he said in 1902 that someone had called it 'a lullaby of death'."
       - "The Pavane of 1887 has words by Robert de Montesquiou and is dedicated to the Comtesse Greffulhe, the two people Proust would later turn into the Baron de Charlus and the Duchesse de Guermantes."
       - "Deaf and hearing pitches distorted from about 1903, he went on composing; he died in Paris on 4 November 1924 and was given a state funeral at the Madeleine."
     remark: "The Pavane's words are by Robert de Montesquiou and it is dedicated to the Comtesse Greffulhe: that is, to the models for Proust's Charlus and his Duchesse de Guermantes, a quarter of a century before Proust wrote them down."
@@ -276,9 +271,9 @@ items:
     pronunciation: "frahn-SEESS poo-LANK"
     facts:
       - "Born in Paris on 7 January 1899, the son of a pharmaceutical manufacturer whose firm became Rhône-Poulenc; he never attended the Conservatoire, studied the piano with Ricardo Viñes, and took his only composition lessons from Charles Koechlin in the early 1920s."
-      - "The youngest of Les Six, named by the critic Henri Collet in 1920; Rapsodie nègre (1917) made his name at eighteen, and Diaghilev staged his ballet Les Biches in 1924."
-      - "After the death of his friend Pierre-Octave Ferroud in 1936 and a visit to the shrine of Rocamadour he returned to the Catholic faith; the Litanies à la Vierge noire (1936), the Stabat Mater (1950), Dialogues des Carmélites (La Scala, 1957) and the Gloria (1959) followed."
-      - "From 1934 he wrote and toured his songs with the baritone Pierre Bernac; in 1950 the critic Claude Rostand called him 'moine et voyou', monk and guttersnipe, and the phrase has stuck."
+      - "One of Les Six, named by the critic Henri Collet in 1920, and the youngest of them but for Georges Auric, five weeks his junior; Rapsodie nègre (1917) made his name at eighteen, and Diaghilev staged his ballet Les Biches in 1924."
+      - "After the death of his friend Pierre-Octave Ferroud in 1936 and a visit to the shrine of Rocamadour he returned to the Catholic faith; the Litanies à la Vierge noire (1936), the Stabat Mater (1950), Dialogues des Carmélites (La Scala, 1957) and the Gloria (1959–60) followed."
+      - "He first accompanied the baritone Pierre Bernac in 1934 and gave the first recital of their twenty-five-year partnership on 3 April 1935, writing and touring his songs with him thereafter; in 1950 the critic Claude Rostand called him 'moine et voyou', monk and guttersnipe, and the phrase has stuck."
       - "Died in Paris on 30 January 1963; his last opera, La Voix humaine (1959), is a forty-minute telephone call for one soprano, to a text by Cocteau."
     remark: "He was a pharmaceutical manufacturer's son who never went to the Conservatoire, and Claude Rostand's 'moine et voyou' covers him: the Gloria and the Carmelites on one side, the naughty songs and Les Biches on the other."
     gaffe: "Treating Les Six as a school with a doctrine that Poulenc followed. They were six friends bundled together by a critic in 1920, with no manifesto of their own; Cocteau's Le Coq et l'Arlequin was the nearest thing, and it was Cocteau's."
@@ -375,7 +370,7 @@ items:
       - "Liszt and Thalberg played against each other at the Princess Belgiojoso's on 31 March 1837; her reported verdict, that Thalberg was the first pianist in the world and Liszt the only one, is the most quoted line a salon ever produced."
       - "The tradition ran on into the twentieth century: the Princesse de Polignac, born Winnaretta Singer of the sewing-machine fortune, commissioned Stravinsky's Renard, Satie's Socrate, Falla's El retablo de maese Pedro and Poulenc's Organ Concerto for her salon on the avenue Henri-Martin."
       - "Fauré's songs, Debussy's early works and much of Ravel were first heard in private rooms; Proust's Madame Verdurin is a satire of the hostesses who ran them."
-    remark: "Chopin gave about thirty public concerts in eighteen years in Paris and did the rest in drawing rooms; the salon was his concert hall, his publicity and his employment exchange, since that is where the pupils at twenty francs a lesson came from."
+    remark: "Chopin gave about thirty public concerts in his whole life and did the rest of his playing in drawing rooms; the salon was his concert hall, his publicity and his employment exchange, since that is where the pupils at twenty francs a lesson came from."
     gaffe: "Saying 'salon music' as a compliment, or muddling the salon with the Salon. The Salon, capital S, is the state art exhibition named after a room in the Louvre; and since about 1870 'salon music' has meant pretty and shallow, so do not say it of a Chopin nocturne in front of a pianist."
     distractors:
       term:
@@ -404,10 +399,10 @@ items:
     language: French
     facts:
       - "Founded by decree of the Convention on 3 August 1795, merging the old École royale de chant with the National Guard's music school, under Bernard Sarrette; it stood on the rue Bergère until 1911, then on the rue de Madrid, and since 1990 at the Cité de la musique at La Villette."
-      - "Its directors included Cherubini (1822 to 1842), Auber, Ambroise Thomas, Théodore Dubois and Fauré (1905 to 1920); its Société des Concerts, founded by François Habeneck in 1828, brought Beethoven's symphonies to Paris and became the Orchestre de Paris in 1967."
-      - "The Prix de Rome, judged by the Académie des Beaux-Arts, sent the winner to the Villa Medici: Berlioz won it in 1830 at the fourth attempt, Bizet in 1857, Debussy in 1884; Saint-Saëns failed twice and Ravel five times."
+      - "Its directors included Cherubini (1822 to 1842), Auber, Ambroise Thomas, Théodore Dubois and Fauré (1905 to 1920); its Société des Concerts, founded by François Habeneck in 1828, brought Beethoven's symphonies to Paris and was dissolved in 1967, succeeded by the Orchestre de Paris."
+      - "The Prix de Rome, judged by the Académie des Beaux-Arts, sent the winner to the Villa Medici: Berlioz won it in 1830, having entered every year since 1826, Bizet in 1857, Debussy in 1884; Saint-Saëns failed twice and Ravel five times."
       - "When the jury eliminated Ravel in the first round in 1905, and it emerged that the finalists were all pupils of one juror, the scandal forced Dubois out of the directorship and put Fauré, who had never studied there, in his place."
-    remark: "Berlioz won the Prix de Rome at the fourth attempt and Ravel lost it five times; when the jury threw Ravel out in the first round in 1905, the scandal cost the director his job and gave it to Fauré, who had never been a student there."
+    remark: "Berlioz won the Prix de Rome after five years of trying and Ravel lost it five times; when the jury threw Ravel out in the first round in 1905, the scandal cost the director his job and gave it to Fauré, who had never been a student there."
     gaffe: "Saying 'the Conservatory'. In Paris it is the Conservatoire, founded in 1795 by the Convention and not by any king; and the Prix de Rome was not even its prize, but the Académie's, which is why the row of 1905 was so hard to contain."
     distractors:
       term:

@@ -33,7 +33,7 @@ items:
       image:
         commons: "File:Vienna Battle 1683.jpg"
         source: "Frans Geffels, The Battle of Vienna, 12 September 1683 (late seventeenth century), Wien Museum, via Wikimedia Commons"
-        license: "Public domain (artist died 1699); verify the file's tag when fetching"
+        license: "Public domain (artist died 1694); verify the file's tag when fetching"
     distractors:
       year: [1529, 1571, 1699]
       era: [Renaissance, Enlightenment, Biedermeier]
@@ -120,11 +120,11 @@ items:
     year: 1848
     cast: [Metternich, Ferdinand I, Franz Joseph, Windischgrätz, Radetzky, Kossuth, Richard Wagner, Gottfried Semper]
     facts:
-      - "On 13 March 1848 a crowd stormed the Lower Austrian Landhaus in the Herrengasse, troops fired, and by evening Metternich had resigned after thirty-nine years in office; he reached London in April and stayed in England for three years."
+      - "On 13 March 1848 a crowd stormed the Lower Austrian Landhaus in the Herrengasse, troops fired, and by evening Metternich had resigned after thirty-nine years in office; he reached London in April and stayed in England until the autumn of 1849, then Brussels, and did not see Vienna again until 1851."
       - "Windischgrätz bombarded and retook Vienna at the end of October 1848 and had the Frankfurt deputy Robert Blum shot on 9 November; on 2 December, at Olomouc, the simple-minded Ferdinand I abdicated in favour of his eighteen-year-old nephew Franz Joseph, whose father had renounced his own claim."
       - "Hungary under Kossuth fought on until Russian troops helped end it at Világos in August 1849; thirteen Hungarian generals were executed at Arad on 6 October 1849, a date Hungary still marks."
       - "Johann Strauss the elder wrote the Radetzky March in August 1848 for a fête celebrating the field marshal's victory over the Piedmontese at Custoza, while his son sided with the revolution, wrote a Revolutions-Marsch and played the Marseillaise; the court held it against the younger Strauss for years."
-      - "Wagner manned the Dresden barricades in the rising of May 1849 alongside Bakunin and Gottfried Semper; a warrant was issued for his arrest and he fled through Weimar to Zurich, not to be fully amnestied until 1862. Semper fled too, and thirty years later designed Vienna's Kunsthistorisches Museum."
+      - "Wagner manned the Dresden barricades in the rising of May 1849 alongside Bakunin and Gottfried Semper; a warrant was issued for his arrest and he fled through Weimar to Zurich, not to be fully amnestied until 1862. Semper fled too, and twenty years later was called to Vienna to design the Kunsthistorisches Museum with Hasenauer."
     remark: "The Radetzky March is the counter-revolution's own tune: Strauss the elder wrote it in August 1848 for the field marshal who had just beaten the Italians at Custoza, while his son was playing the Marseillaise for the other side."
     gaffe: "Saying Franz Joseph overthrew his uncle, or that Metternich fell at the Congress. Ferdinand abdicated at Olomouc in December 1848 and lived on in Prague until 1875; Metternich lasted thirty-three years past the Congress and fell to the barricades of 13 March."
     distractors:
@@ -157,7 +157,7 @@ items:
     remark: "Mayerling was a succession crisis before it was a tragedy: Rudolf's death in January 1889 moved the crown toward Franz Ferdinand, and it was Franz Ferdinand's death at Sarajevo that finished the empire."
     gaffe: "Calling Mayerling a palace, or Sisi's death an accident. It was a hunting lodge, now a Carmelite convent, and the Empress was stabbed with a file by an anarchist on the quay at Geneva in September 1898."
     distractors:
-      year: [1867, 1898, 1914]
+      year: [1867, 1879, 1914]
       era: [Biedermeier, Restoration, First World War]
     links: [history.person.elisabeth, history.person.franz-joseph, opera.venue.staatsoper, opera.strauss-ii.die-fledermaus, history.episode.end-of-old-europe]
     tags: [vienna, habsburg, mayerling, rudolf, sisi, scandal, 1880s, 1890s]
@@ -186,7 +186,7 @@ items:
     remark: "Mahler had to be baptised to get the Opera in 1897, the same spring Klimt walked out of the Künstlerhaus and the Emperor gave in and accepted Lueger as mayor; Freud's Interpretation of Dreams followed in November 1899 with 1900 on the title page."
     gaffe: "Calling it a golden age without the politics. Lueger's Christian Socials ran the city from 1897, Mahler needed a baptism certificate to get the Opera, and Klimt's University paintings were rejected by the professors who had commissioned them."
     distractors:
-      year: [1867, 1908, 1918]
+      year: [1867, 1873, 1918]
       era: [Biedermeier, Restoration, Baroque]
     links: [art.movement.vienna-secession, art.klimt, opera.venue.staatsoper, art.klimt.the-kiss, art.term.jugendstil, art.schiele, history.episode.end-of-old-europe]
     tags: [vienna, fin-de-siecle, secession, mahler, freud, lueger, cafe, 1890s, 1900s]
@@ -211,7 +211,7 @@ items:
       - "The Habsburg Law of 3 April 1919 banished the family unless they renounced their claims, and a law of the same day abolished the nobility: titles and the particle 'von' became illegal in Austria, and still are."
       - "Nicholas II abdicated in March 1917 and was shot with his family at Ekaterinburg on 17 July 1918; Wilhelm II's abdication was announced on 9 November 1918 and he lived out his life at Doorn in the Netherlands. Klimt died in February 1918 and Schiele in October, of the influenza."
       - "Stefan Zweig, born in Vienna in 1881, finished Die Welt von Gestern (The World of Yesterday) in exile in 1941 and sent the manuscript to his publisher shortly before he and his wife took their own lives at Petrópolis in Brazil on 22 February 1942; its first chapter is called 'The World of Security'."
-      - "Elgar's Cello Concerto, his last major work, was premiered at the Queen's Hall on 27 October 1919 by Felix Salmond, under-rehearsed because Albert Coates had used up the time, and was a failure on the night. Ravel's Le Tombeau de Couperin (1919) dedicates each of its six movements to a friend killed in the war, and he denied that La Valse (1920) was about the fall of Vienna, though everyone hears it that way."
+      - "Elgar's Cello Concerto, his last major work, was premiered at the Queen's Hall on 27 October 1919 by Felix Salmond, under-rehearsed because Albert Coates had used up the time, and was a failure on the night. Ravel's Le Tombeau de Couperin, the piano suite of 1914–17, dedicates each of its six movements to friends killed in the war, and he denied that La Valse (1920) was about the fall of Vienna, though everyone hears it that way."
     remark: "Klimt died in February 1918, Schiele in October, the last emperor left Schönbrunn in November, and the republic abolished 'von' the following April; Zweig called the world before all that 'the world of security', and killed himself in Brazil in 1942."
     gaffe: "Saying Karl abdicated. He signed a renunciation of any part in the government on 11 November 1918 and never gave up the throne, which is why the republic had to legislate the family out of the country the following April."
     distractors:
@@ -320,7 +320,7 @@ items:
     media:
       image:
         commons: "File:Franz Joseph I by Franz Xaver Winterhalter.jpg"
-        source: "Franz Xaver Winterhalter, Emperor Franz Joseph I in the uniform of an Austrian field marshal (1865), Kunsthistorisches Museum, Vienna, via Wikimedia Commons"
+        source: "Franz Xaver Winterhalter, Emperor Franz Joseph I in the uniform of an Austrian field marshal (1865), via Wikimedia Commons"
         license: "Public domain (artist died 1873); verify the file's tag when fetching"
     distractors:
       person: [Franz Ferdinand, Wilhelm I of Germany, Maximilian of Mexico]
@@ -330,7 +330,7 @@ items:
     sources:
       - "Jean-Paul Bled, Franz Joseph (1992)"
       - "Steven Beller, Francis Joseph (1996)"
-      - "Kunsthistorisches Museum Wien, Sisi Museum, catalogue entry for Winterhalter's portrait of Franz Joseph I (1865)"
+      - "Richard Ormond and Carol Blackett-Ord, Franz Xaver Winterhalter and the Courts of Europe 1830–70 (National Portrait Gallery, 1987)"
     reviewed_by: null
 
   - id: history.person.elisabeth
@@ -363,7 +363,7 @@ items:
     tags: [vienna, habsburg, empress, sisi, winterhalter, portrait, hungary, 1800s]
     sources:
       - "Brigitte Hamann, The Reluctant Empress: A Biography of Empress Elisabeth of Austria (1986)"
-      - "Kunsthistorisches Museum Wien, Sisi Museum, catalogue entry for Winterhalter's portrait of Empress Elisabeth (1865)"
+      - "Richard Ormond and Carol Blackett-Ord, Franz Xaver Winterhalter and the Courts of Europe 1830–70 (National Portrait Gallery, 1987)"
     reviewed_by: null
 
   # ---------------------------------------------------------------------------
