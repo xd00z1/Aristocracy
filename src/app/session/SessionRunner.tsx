@@ -281,7 +281,7 @@ export default function SessionRunner({ profile, now = () => new Date(), onRankU
 
       {answered ? (
         <div className="mt-5 space-y-4">
-          <Feedback exercise={exercise} answer={answered} items={items} lookup={getItem} />
+          <Feedback exercise={exercise} answer={answered} items={items} lookup={getItem} media={MEDIA} />
           {saveWarning ? (
             <p className="text-center font-sans text-xs text-ink-mute" data-testid="save-warning">
               Progress could not be saved just now; the lesson continues.

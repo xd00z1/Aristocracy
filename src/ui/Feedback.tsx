@@ -10,6 +10,7 @@
  * Copy is dry and never mocks the user for not knowing.
  */
 import type { ReactNode } from 'react'
+import type { MediaResolver } from '../exercises/types'
 import type { Item, RemarkOption, Verdict } from '../content/types'
 import type { Answer, ApocryphaExercise, ChoiceExercise, Exercise, MatchExercise, RemarkExercise, TimelineExercise } from '../engine/types'
 
@@ -20,6 +21,12 @@ export interface FeedbackProps {
   items: Record<string, Item>
   /** Resolves ids not in `items` (the items' own links). Defaults to `items`. */
   lookup?: (id: string) => Item | undefined
+  /**
+   * Supplies the picture. Getting a painting wrong and being shown only prose
+   * teaches nothing, so when an image is on disk the panel shows it whatever
+   * the exercise was: the answer to "who painted The Hay Wain" is the Hay Wain.
+   */
+  media?: MediaResolver
   className?: string
 }
 
@@ -163,9 +170,29 @@ function verdictLine(exercise: Exercise, answer: Answer): string {
 // Item panels: remark, gaffe, links
 // ---------------------------------------------------------------------------
 
-function ItemNotes({ item, showTitle, showGaffe }: { item: Item; showTitle: boolean; showGaffe: boolean }) {
+function ItemNotes({
+  item,
+  showTitle,
+  showGaffe,
+  media,
+}: {
+  item: Item
+  showTitle: boolean
+  showGaffe: boolean
+  media?: MediaResolver
+}) {
+  const src = media?.imageUrl(item.id) ?? null
   return (
     <div className="space-y-2" data-testid={`feedback-item-${item.id}`}>
+      {src ? (
+        <img
+          src={src}
+          alt={item.creator ? `${item.title}, by ${item.creator}` : item.title}
+          loading="lazy"
+          data-testid={`feedback-image-${item.id}`}
+          className="mb-3 max-h-64 w-full rounded-card border border-rule object-contain"
+        />
+      ) : null}
       {showTitle ? (
         <p className="smallcaps text-xs text-ink-soft">
           {item.title}
@@ -187,7 +214,7 @@ function ItemNotes({ item, showTitle, showGaffe }: { item: Item; showTitle: bool
   )
 }
 
-export function Feedback({ exercise, answer, items, lookup, className = '' }: FeedbackProps) {
+export function Feedback({ exercise, answer, items, lookup, media, className = '' }: FeedbackProps) {
   const resolve = lookup ?? ((id: string) => items[id])
 
   // Items whose remark and gaffe are shown. The Remark exercise has no item of
@@ -236,7 +263,7 @@ export function Feedback({ exercise, answer, items, lookup, className = '' }: Fe
         {shown.length ? (
           <div className={`space-y-4 ${single ? '' : 'border-t border-rule pt-3'}`}>
             {shown.map((item) => (
-              <ItemNotes key={item.id} item={item} showTitle={!single} showGaffe={single} />
+              <ItemNotes key={item.id} item={item} showTitle={!single} showGaffe={single} media={media} />
             ))}
           </div>
         ) : null}
