@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "builtAt": "2026-09-08T14:59:02.441Z",
+  "builtAt": "2026-09-08T15:00:36.650Z",
   "cities": [
     {
       "id": "london",
@@ -1125,7 +1125,7 @@
         "A fresco of about 1425 on the entrance pier of the Brancacci Chapel in Santa Maria del Carmine, facing Masolino's Temptation of Adam and Eve on the opposite pier.",
         "Masaccio, born Tommaso di ser Giovanni in 1401, died in Rome in 1428 aged twenty-six; Filippino Lippi finished the chapel's frescoes in the 1480s.",
         "The fig leaves that covered Adam and Eve for three centuries, added in the late seventeenth century under the Medici grand dukes, were removed in the restoration completed in 1990.",
-        "Michelangelo's Expulsion on the Sistine ceiling echoes Adam's gesture; Vasari says the chapel was where the later Florentine painters went to learn."
+        "Michelangelo's Expulsion on the Sistine ceiling is plainly indebted to it; Vasari says the chapel was where the later Florentine painters went to learn."
       ],
       "remark": "For three hundred years they wore fig leaves put on under the Medici grand dukes; the restoration finished in 1990 took them off, and what is left is Masaccio, dead at twenty-six, painting grief as body weight, Eve howling and Adam hiding his face.",
       "gaffe": "Treating Masaccio and Masolino as one painter, or as father and son. Two men, unrelated: Masolino painted the graceful Temptation across the arch, Masaccio the Expulsion, and the contrast is the point of the chapel.",
@@ -2135,7 +2135,7 @@
         "Signed 'Vincent' on the vase, as he always signed; bought by the National Gallery in 1924 through the Courtauld Fund, and it is NG3863."
       ],
       "remark": "He painted them in August 1888 for the bedroom Gauguin was about to move into; the London canvas is one of the originals, and Amsterdam's is his own copy of it.",
-      "gaffe": "Saying 'the Sunflowers' as if there were one. There are seven of the vase pictures in Arles alone, and the National Gallery's is the one he chose to copy.",
+      "gaffe": "Saying 'the Sunflowers' as if there were one. There are seven of the vase pictures in Arles alone, and the National Gallery's is the one he copied for the Amsterdam version.",
       "links": [
         "art.whistler"
       ],
@@ -2258,7 +2258,7 @@
       "year_end": 1764,
       "facts": [
         "Born in Smithfield, London, in 1697, the son of a schoolmaster who was imprisoned for debt; apprenticed to a silver engraver before turning to painting.",
-        "Invented what he called 'modern moral subjects', stories told in a series of pictures and sold as engravings: A Harlot's Progress (1732), A Rake's Progress (1733 to 1735, Sir John Soane's Museum) and Marriage A-la-Mode (about 1743, National Gallery).",
+        "Invented what he called 'modern moral subjects', stories told in a series of pictures and sold as engravings: A Harlot's Progress (1732), A Rake's Progress (1732 to 1734, engraved 1735, Sir John Soane's Museum) and Marriage A-la-Mode (about 1743, National Gallery).",
         "The Engravers' Copyright Act of 1735, still called Hogarth's Act, was passed after pirates copied A Harlot's Progress; it was the first copyright protection for artists in Britain.",
         "Painted himself with his pug, Trump, in 1745 (Tate Britain); the six Marriage A-la-Mode canvases came to the National Gallery with the Angerstein collection at its foundation in 1824."
       ],
@@ -2317,7 +2317,7 @@
       "facts": [
         "Born in Lowell, Massachusetts, in 1834; left America for Paris in 1855 and never went back; settled in London in 1859 and lived mostly in Chelsea until his death in 1903.",
         "Gave his pictures musical titles, Symphony, Arrangement, Harmony, Nocturne; the portrait of his mother is Arrangement in Grey and Black No. 1 (1871, Musée d'Orsay).",
-        "Sued Ruskin for libel in 1878 after Ruskin wrote that he was 'flinging a pot of paint in the public's face' with Nocturne in Black and Gold: The Falling Rocket; he won a farthing in damages, and the costs bankrupted him in 1879.",
+        "Sued Ruskin for libel in 1877, after Ruskin wrote that he was 'flinging a pot of paint in the public's face' with Nocturne in Black and Gold: The Falling Rocket; at the trial in November 1878 he won a farthing in damages, and the costs bankrupted him in 1879.",
         "Tate Britain holds the Thames Nocturnes, including Nocturne: Blue and Gold, Old Battersea Bridge and Nocturne: Blue and Silver, Chelsea."
       ],
       "remark": "Ruskin accused him of flinging a pot of paint in the public's face; Whistler sued, won a farthing, and the costs bankrupted him, which makes it the most expensive farthing in English art.",
@@ -4355,7 +4355,7 @@
       "media": {
         "image": {
           "commons": "File:Hanging and burning of Girolamo Savonarola in Florence.jpg",
-          "source": "Anonymous Florentine, The Execution of Savonarola in the Piazza della Signoria (c. 1498), Museo di San Marco, Florence, via Wikimedia Commons",
+          "source": "The Execution of Savonarola in the Piazza della Signoria, Museo di San Marco, Florence, via Wikimedia Commons; the panel is variously attributed and dated, so copy the attribution from the Commons file page when fetching",
           "license": "Public domain (anonymous fifteenth-century painting); verify the file's tag when fetching"
         }
       },
@@ -4821,10 +4821,10 @@
         "The Bayeux Tapestry is not a tapestry but an embroidery, wool on linen, about seventy metres long, made in the 1070s, probably in England, for William's half-brother Odo, bishop of Bayeux; its final scenes are lost.",
         "Domesday Book, the survey of who held what, was compiled in 1086; the Conquest replaced the English landholding class almost entirely with Normans, which is where the peerage begins.",
         "Of the five ranks of the peerage only earl is older than the Conquest, from the Old English eorl; baron came with the Normans, the first dukedom was Cornwall in 1337 for the Black Prince, the first marquess was created in 1385 and the first viscount in 1440.",
-        "Knights and baronets are not peers: a baronetcy is a hereditary knighthood, invented by James I in 1611 and sold to pay for the plantation of Ulster, and it carries no seat in the House of Lords."
+        "Knights and baronets are not peers: a baronetcy is a hereditary dignity ranking above a knight and below a baron, invented by James I in 1611 and sold to pay for the plantation of Ulster, and it carries no seat in the House of Lords."
       ],
       "remark": "Every rank of the peerage is French except earl, which is Saxon, and even the earl's wife is a countess, because English never came up with a word for her.",
-      "gaffe": "Calling a baronet a peer, or the Bayeux Tapestry a tapestry. 'Sir Somebody, Bart.' is a hereditary knight with no seat in the Lords; and the Tapestry is embroidery, wool stitched on linen, not woven.",
+      "gaffe": "Calling a baronet a peer, or the Bayeux Tapestry a tapestry. 'Sir Somebody, Bart.' holds a hereditary dignity, not a peerage, and has no seat in the Lords; and the Tapestry is embroidery, wool stitched on linen, not woven.",
       "links": [
         "history.episode.glorious-revolution-whig-houses",
         "art.stubbs.whistlejacket",
@@ -5388,7 +5388,7 @@
         "Born at Greenwich on 7 September 1533, the daughter of Anne Boleyn; declared illegitimate after her mother's execution in 1536, imprisoned in the Tower by her half-sister Mary in 1554, and queen on 17 November 1558.",
         "Never married, though the suitors included Robert Dudley, Earl of Leicester, and a French prince more than twenty years her junior; the childlessness made the succession the running anxiety of the reign.",
         "The Armada Portrait of about 1588 exists in three versions, at Woburn Abbey, the National Portrait Gallery and Greenwich; the painter is unknown, the old attribution to George Gower having been dropped.",
-        "Her hand rests on a globe over the Americas; the fleet sails in one window and wrecks in the other, and a mermaid is carved on the chair. Royal Museums Greenwich bought its version in 2016 for £10.3 million from the Drake family.",
+        "Her hand rests on a globe over the Americas; the fleet sails in one window and wrecks in the other, and a mermaid is carved on the chair. Royal Museums Greenwich bought its version in 2016 for an agreed £10 million from the Tyrwhitt-Drake family, after a public appeal that raised £10.3 million.",
         "In 1575 she granted Tallis and Byrd the monopoly on printing music in England, and kept Byrd, a Catholic, on the books of her Chapel Royal for the rest of her reign."
       ],
       "remark": "The Armada Portrait is propaganda with a globe in it: her hand rests on the Americas, the Spanish fleet burns in one window and wrecks in the other, and there are three versions because it was made to be copied.",
@@ -5447,7 +5447,7 @@
       "facts": [
         "Born at Dunfermline on 19 November 1600, the second son of James VI of Scotland; became heir when his brother Henry died in 1612, king in March 1625, and married Henrietta Maria of France the same year.",
         "The greatest collector ever to sit on the English throne: he bought the Gonzaga collection from Mantua in 1627 to 1628, including Mantegna's Triumphs of Caesar, and had acquired the Raphael cartoons in 1623 while still Prince of Wales.",
-        "Van Dyck came to London in 1632, was knighted and made Principal Painter, and gave the king his image: the equestrian portraits, the hunting picture now in the Louvre, and the triple portrait sent to Rome so that Bernini could carve a bust, which was lost in the Whitehall fire of 1698.",
+        "Van Dyck came to London in 1632, was knighted and made Principal Painter, and gave the king his image: the equestrian portraits, the hunting picture now in the Louvre, and the triple portrait sent to Rome so that Bernini could carve a bust; the bust burned in the Whitehall fire of 1698, but the painting survives in the Royal Collection.",
         "He was short, about five foot four by the usual reckoning, and Van Dyck's answer was to paint him on horseback or from below.",
         "Tried by a High Court of Justice his subjects had invented for the purpose and beheaded at Whitehall on 30 January 1649; he wore two shirts so as not to be seen to shiver."
       ],
@@ -6721,7 +6721,7 @@
         "In Alexander Mackendrick's The Ladykillers (1955) it is the record the criminals play while pretending to rehearse as a string quintet."
       ],
       "remark": "The minuet everyone knows comes from a quintet with two cellos, because Boccherini was a cellist and wrote the quintets for himself to play; it is in A major though the quintet is in E.",
-      "gaffe": "Attributing it to Haydn. Boccherini was called 'Haydn's wife' in his lifetime, which was unkind and inaccurate: he spent his career in Spain, not Esterháza, and his textures are lighter.",
+      "gaffe": "Attributing it to Haydn. Boccherini was called 'Haydn's wife' by the violinist Giuseppe Puppo, which was unkind and inaccurate: he spent his career in Spain, not Esterháza, and his textures are lighter.",
       "links": [
         "music.puccini"
       ],
@@ -6907,7 +6907,7 @@
       "facts": [
         "A circle of noblemen, musicians and scholars who met at the house of Count Giovanni de' Bardi in Florence from about 1573 into the 1580s to discuss, among other things, how the ancient Greeks had sung their tragedies.",
         "Vincenzo Galilei, Galileo's father, was its leading theorist; his Dialogo della musica antica et della moderna (1581) argued that counterpoint smothered the words and that a single voice over a simple accompaniment moved the passions better.",
-        "Giulio Caccini belonged to it; Jacopo Peri did not. The first operas, Dafne (1598) and Euridice (1600), came from a later circle around Jacopo Corsi, after Bardi had gone to Rome in 1592."
+        "Giulio Caccini belonged to it; Peri's membership is likely but undocumented. The first operas, Dafne (1598) and Euridice (1600), came from a later circle around Jacopo Corsi, after Bardi had gone to Rome in 1592."
       ],
       "remark": "The Camerata did not invent opera, whatever the programme note says; it was a talking shop at Bardi's house about how the Greeks sang their tragedies, and Galileo's father was its loudest voice.",
       "gaffe": "Saying the Camerata wrote the first opera. Dafne and Euridice came from Jacopo Corsi's circle in the 1590s, after Bardi had left Florence for Rome.",
@@ -9506,7 +9506,7 @@
       "year": 1685,
       "year_end": 1759,
       "facts": [
-        "Born in Halle, Saxony, on 23 February 1685; came to London in 1710, settled there in 1712, and was naturalised as a British subject by Act of Parliament in 1727.",
+        "Born in Halle on 23 February 1685, in what was then the Duchy of Magdeburg under Brandenburg-Prussia; came to London in 1710, settled there in 1712, and was naturalised as a British subject by Act of Parliament in 1727.",
         "Wrote more than thirty Italian operas for London, from Rinaldo in 1711 to Deidamia in 1741, before turning to English oratorio; Messiah was first heard in Dublin in 1742.",
         "Lived at 25 Brook Street from 1723 until his death on 14 April 1759; he went blind in his last years and is buried in Westminster Abbey."
       ],
@@ -9885,7 +9885,7 @@
       "year": 1934,
       "facts": [
         "Opened on 28 May 1934 with The Marriage of Figaro, in an opera house that John Christie had built on to his country house for his wife, the soprano Audrey Mildmay.",
-        "The first seasons were run by three men newly out of Germany: the conductor Fritz Busch, the producer Carl Ebert and the manager Rudolf Bing, who later ran the Metropolitan Opera.",
+        "The first seasons were run by three men newly out of Germany: the conductor Fritz Busch, the producer Carl Ebert and and Rudolf Bing, who negotiated the singers' contracts in 1934, became general manager in 1936 and later ran the Metropolitan Opera.",
         "Britten's The Rape of Lucretia (1946) and Albert Herring (1947) had their premieres there; the present house, by Michael Hopkins, opened in 1994.",
         "The summer festival keeps its own customs: evening dress in the afternoon, and a dinner interval long enough for a picnic in the gardens."
       ],
@@ -13290,14 +13290,14 @@
       "prompt": "Your host, raising a glass: \"Well, as the Duke said, Waterloo was won on the playing fields of Eton.\"",
       "options": [
         {
-          "text": "The Duke would be surprised to hear it: the line first appears in French, in Montalembert, four years after he died, and the playing fields were added in the 1880s. He was an Etonian himself, though, so the school may keep the toast.",
+          "text": "The Duke would be surprised to hear it: the line first appears in French, in Montalembert, four years after he died, and the famous wording is not found before the 1880s. He was an Etonian himself, though, so the school may keep the toast.",
           "kind": "correct",
-          "explanation": "Right, and kind: it lets the toast stand while marking the quotation as legend. Montalembert printed 'C'est ici qu'a été gagnée la bataille de Waterloo' in 1856, four years after Wellington's death in 1852; the 'playing fields' form is not found before the 1880s, and Sir William Fraser's Words on Wellington (1889) is the usual citation. No contemporary record has the Duke saying either."
+          "explanation": "Right, and kind: it lets the toast stand while marking the quotation as legend. Montalembert printed 'C'est ici qu'a été gagnée la bataille de Waterloo' in 1856, four years after Wellington's death in 1852; Creasy's Memoirs of Eminent Etonians (1876) already has him watching cricket on the playing-fields, but the exact wording 'won on the playing fields of Eton' is not found before the 1880s, and Sir William Fraser's Words on Wellington (1889) is the usual citation. No contemporary record has the Duke saying either."
         },
         {
           "text": "He loved the place. Five years there, and captain of the cricket, before he went on to Sandhurst.",
           "kind": "wrong",
-          "explanation": "Wrong in every particular. Wellington was at Eton for three years, from 1781 to 1784, was taken away early because the family could not afford it, and was not fond of it; there were no organised games there in his day. Sandhurst did not yet exist: he was finished at a riding academy at Angers in France."
+          "explanation": "Wrong in every particular. Wellington was at Eton for three years, from 1781 to 1784, was taken away early because the family could not afford it, and was not fond of it; the cult of school-organised games at Eton is Victorian, well after his time. Sandhurst did not yet exist: he was finished at a riding academy at Angers in France."
         },
         {
           "text": "Poor boy. It is a very expensive way of learning to be rude to waiters.",

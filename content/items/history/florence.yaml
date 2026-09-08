@@ -144,7 +144,7 @@ items:
     media:
       image:
         commons: "File:Hanging and burning of Girolamo Savonarola in Florence.jpg"
-        source: "Anonymous Florentine, The Execution of Savonarola in the Piazza della Signoria (c. 1498), Museo di San Marco, Florence, via Wikimedia Commons"
+        source: "The Execution of Savonarola in the Piazza della Signoria, Museo di San Marco, Florence, via Wikimedia Commons; the panel is variously attributed and dated, so copy the attribution from the Commons file page when fetching"
         license: "Public domain (anonymous fifteenth-century painting); verify the file's tag when fetching"
     distractors:
       year: [1478, 1494, 1512]

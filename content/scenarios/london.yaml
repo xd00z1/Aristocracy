@@ -123,11 +123,11 @@ scenarios:
     prompt: "Your host, raising a glass: \"Well, as the Duke said, Waterloo was won on the playing fields of Eton.\""
     options:
       - kind: correct
-        text: "The Duke would be surprised to hear it: the line first appears in French, in Montalembert, four years after he died, and the playing fields were added in the 1880s. He was an Etonian himself, though, so the school may keep the toast."
-        explanation: "Right, and kind: it lets the toast stand while marking the quotation as legend. Montalembert printed 'C'est ici qu'a été gagnée la bataille de Waterloo' in 1856, four years after Wellington's death in 1852; the 'playing fields' form is not found before the 1880s, and Sir William Fraser's Words on Wellington (1889) is the usual citation. No contemporary record has the Duke saying either."
+        text: "The Duke would be surprised to hear it: the line first appears in French, in Montalembert, four years after he died, and the famous wording is not found before the 1880s. He was an Etonian himself, though, so the school may keep the toast."
+        explanation: "Right, and kind: it lets the toast stand while marking the quotation as legend. Montalembert printed 'C'est ici qu'a été gagnée la bataille de Waterloo' in 1856, four years after Wellington's death in 1852; Creasy's Memoirs of Eminent Etonians (1876) already has him watching cricket on the playing-fields, but the exact wording 'won on the playing fields of Eton' is not found before the 1880s, and Sir William Fraser's Words on Wellington (1889) is the usual citation. No contemporary record has the Duke saying either."
       - kind: wrong
         text: "He loved the place. Five years there, and captain of the cricket, before he went on to Sandhurst."
-        explanation: "Wrong in every particular. Wellington was at Eton for three years, from 1781 to 1784, was taken away early because the family could not afford it, and was not fond of it; there were no organised games there in his day. Sandhurst did not yet exist: he was finished at a riding academy at Angers in France."
+        explanation: "Wrong in every particular. Wellington was at Eton for three years, from 1781 to 1784, was taken away early because the family could not afford it, and was not fond of it; the cult of school-organised games at Eton is Victorian, well after his time. Sandhurst did not yet exist: he was finished at a riding academy at Angers in France."
       - kind: gaffe
         text: "Poor boy. It is a very expensive way of learning to be rude to waiters."
         explanation: "A gaffe: it sneers at your host's son, at your host's table, over your host's wine. Whatever you think of the school, the moment called for a raised glass and one graceful sentence; there is nothing clever in a snub, and the Duke, who disliked Eton himself, would not have thanked you for it."
