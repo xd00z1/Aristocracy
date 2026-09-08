@@ -41,6 +41,31 @@ variety. Themes are the scarcest thing in the content and the most valuable,
 because Drop the Needle is the signature exercise and only a music or opera work
 carrying `theme` notation can use it.
 
+## Known limitations
+
+**The whole content bundle loads before the first screen.** `src/content/index.ts`
+imports the compiled bundle synchronously, so all of it lands in the first-load
+chunk: 513 KB of JSON inside a 951 KB script, of which the content is about two
+thirds. A first-time player needs six items. Measuring the bundle field by field
+shows nothing worth trimming, because it is all teaching material: facts are 31
+percent of it, remarks 8, gaffes 7, distractors 7, sources 6. So the fix is not
+compression but lazy loading, one city at a time, keyed off the Grand Tour the
+app already uses to structure the content. That means making content access
+async and threading it through the engine and the screens, which is a v0.2
+refactor rather than a patch. It matters more than it looks: at the 1,500-item
+v1.0 target the bundle is roughly 3.5 MB, which no phone should be asked to
+download to answer twelve questions.
+
+**Images are not fetched in this repository.** Items name a Wikimedia Commons
+file; nothing is downloaded until you run `npm run media` locally. Until then
+Zoom Out and Who's Who fall back to text questions, which is by design but makes
+the exercise mix duller than it should be. See the mix report above.
+
+**Themes are scarce.** Only 14 of 216 items carry the notation Drop the Needle
+needs, so the signature exercise is 6 percent of what a player meets. Adding
+themes is the highest-value content work available, and the mix report names the
+works that lack one.
+
 ## Content review status
 
 Every item carries `reviewed_by: null` until a human signs it off. Machine drafting and machine fact-checking were used; see `docs/CONTENT-REVIEW.md` for the residual doubts the audit pass raised. Do not treat any item as verified until a person has.
