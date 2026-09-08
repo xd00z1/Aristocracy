@@ -6,15 +6,63 @@ Five minutes a day to become the person at the dinner party who knows what they 
 
 Read [`docs/OUTLINE.md`](docs/OUTLINE.md) for the product and [`docs/HISTORY.md`](docs/HISTORY.md) for the history curriculum. [`CLAUDE.md`](CLAUDE.md) is the engineering and content rulebook.
 
-## Run it
+## Run it on your computer
 
 ```bash
+git clone https://github.com/xd00z1/Aristocracy
+cd Aristocracy
+git checkout claude/aristocracy-gamification-outline-flnvoa
 npm install
-npm run media      # optional: download public-domain images from Wikimedia Commons (needs network)
+npm run media      # fetches the images from Wikimedia Commons; takes a few minutes
 npm run dev        # http://localhost:5173
 ```
 
-`npm run build` validates the content, typechecks, and produces an installable PWA in `dist/`. `npm run preview` serves it.
+Run `npm run media` before the first session if you can. It downloads the 78
+public-domain images the content declares, which is what turns on the Zoom Out
+and Who's Who exercises. Without it the app still works, but more of what you
+see is the same text question. It needs to reach Wikimedia, so it will not work
+behind a restrictive proxy.
+
+## Put it on your phone
+
+No Apple developer certificate, no App Store, no TestFlight. This is a
+progressive web app, so Safari installs it from a URL: open the page, tap Share,
+tap **Add to Home Screen**. It then launches full screen with its own icon, the
+same as any other app on the phone. Android is the same through Chrome's
+**Install app**.
+
+The only question is how the phone reaches the page.
+
+**Over your wifi, for a quick look.** Build it and serve it to the network:
+
+```bash
+npm run build
+npm run preview -- --host      # prints a http://192.168.x.x:4173 address
+```
+
+Open that address in Safari on the phone and add it to the home screen. It works
+and it looks right, but a service worker will not register over plain HTTP, so
+there is no offline mode and the app will not open without your computer awake
+and serving.
+
+**Deployed, for actually using it.** The build is static files, so any free host
+will do, and HTTPS is what unlocks offline and a proper install:
+
+```bash
+npm run build
+npx vercel deploy --prod dist          # or: npx wrangler pages deploy dist
+```
+
+Take the URL it prints, open it in Safari, and add that to the home screen.
+Now it works on the train, your progress is saved on the phone, and you can
+close the laptop. Progress lives in the phone's own storage and does not sync
+between devices, which is a v0.2 feature, so pick the device you actually want
+to use it on.
+
+## Checks and builds
+
+`npm run build` validates the content, typechecks, and produces the installable
+PWA in `dist/`. `npm run preview` serves that build locally.
 
 ## How it works
 
