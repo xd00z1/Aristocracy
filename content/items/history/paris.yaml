@@ -15,7 +15,7 @@ items:
       - "Jacques-Louis David sat in the Convention, voted for the king's death, and painted the Revolution's images."
     remark: "David voted to execute the king, painted Marat dead in his bath, and then painted Napoleon's coronation; the Revolution's official artist survived every regime."
     gaffe: "Placing the storming of the Bastille in 1793. It was 1789; 1793 is the year of the guillotine."
-    links: [history.person.marie-antoinette, history.apocrypha.let-them-eat-cake]
+    links: [history.person.marie-antoinette, history.apocrypha.let-them-eat-cake, art.david.oath-of-the-horatii]
     tags: [france, revolution, 1780s, 1790s]
     sources:
       - "William Doyle, The Oxford History of the French Revolution (2nd ed., 2002)"
@@ -44,7 +44,7 @@ items:
         license: "Public domain (artist died 1842); verify the file's tag when fetching"
     distractors:
       person: [Madame de Pompadour, Madame du Barry, Joséphine de Beauharnais]
-    links: [history.episode.french-revolution, history.apocrypha.let-them-eat-cake]
+    links: [history.episode.french-revolution, history.apocrypha.let-them-eat-cake, opera.gluck]
     tags: [france, queen, habsburg, 1700s]
     sources:
       - "Antonia Fraser, Marie Antoinette: The Journey (2001)"
@@ -67,9 +67,361 @@ items:
       - "The French is 'qu'ils mangent de la brioche', and brioche is not cake."
     remark: "Rousseau wrote that line down when she was about ten and living in Vienna; nobody pinned it on her until well after her death."
     gaffe: "Quoting it as fact at a table where anyone has read a biography."
-    links: [history.person.marie-antoinette, history.episode.french-revolution]
+    links: [history.person.marie-antoinette, history.episode.french-revolution, opera.poulenc.dialogues-des-carmelites]
     tags: [france, revolution, quotation]
     sources:
       - "Jean-Jacques Rousseau, Confessions, Book VI"
       - "Antonia Fraser, Marie Antoinette: The Journey (2001)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Episodes
+  # ---------------------------------------------------------------------------
+
+  - id: history.episode.charlemagne-crowned
+    discipline: history
+    kind: episode
+    title: "Charlemagne crowned in Rome"
+    city: paris
+    difficulty: 2
+    era: Carolingian
+    year: 800
+    cast: [Charlemagne, Pope Leo III, Einhard, Alcuin of York]
+    facts:
+      - "Leo III set a crown on Charlemagne's head in St Peter's on Christmas Day 800 and the congregation acclaimed him emperor of the Romans; Einhard, who wrote the king's life a generation later, says he would not have entered the church that day had he known what the pope intended."
+      - "There had been no emperor in the West since 476, and the eastern emperors in Constantinople treated the new one as a theft; they conceded the bare title of emperor in 812, never emperor of the Romans."
+      - "The court at Aachen was a scholars' bureau. Alcuin of York came from Northumbria to run the palace school, old texts were hunted down and copied wholesale, and the round hand devised for that copying, Carolingian minuscule, is where lower-case letters and the space between words come from."
+      - "Around 1400 the Florentine humanists Poggio Bracciolini and Niccolò Niccoli took that hand off ninth-century manuscripts, believing it ancient Roman, and called it lettera antica; the printers copied the humanists, which is why this sentence is set in roman type."
+      - "Charlemagne died at Aachen on 28 January 814. The rearguard cut down in the Pyrenees by Basques in 778, in which Einhard names one Hruodlandus, became the Song of Roland about three centuries later, in the Oxford manuscript of around 1100."
+    remark: "Our lower-case alphabet is Carolingian: the round hand cut for Charlemagne's copyists was picked up around 1400 by Florentine humanists who took it for ancient Roman writing, and the printers followed them."
+    gaffe: "Calling him the first Holy Roman Emperor. He was crowned emperor of the Romans in 800; nobody called the empire holy until Barbarossa's chancery in the twelfth century, and the full name is thirteenth-century."
+    media:
+      image:
+        commons: "File:Charlemagne-by-Durer.jpg"
+        source: "Albrecht Dürer, Emperor Charlemagne (c. 1511-13), Germanisches Nationalmuseum, Nuremberg, via Wikimedia Commons"
+        license: "Public domain (artist died 1528); verify the file's tag when fetching"
+    distractors:
+      year: [732, 987, 1066]
+      era: [Merovingian, Ottonian, Capetian]
+    links: [art.movement.renaissance, history.episode.napoleon-egypt-coronation-louvre, history.episode.norman-conquest, history.episode.congress-of-vienna]
+    tags: [france, carolingian, empire, aachen, coronation, manuscripts, 800s]
+    sources:
+      - "Einhard, Vita Karoli Magni (c. 830), chapters 9 and 28"
+      - "Rosamond McKitterick, Charlemagne: The Formation of a European Identity (2008)"
+      - "Peter H. Wilson, The Holy Roman Empire: A Thousand Years of Europe's History (2016)"
+      - "B. L. Ullman, The Origin and Development of Humanistic Script (1960)"
+    reviewed_by: null
+
+  - id: history.episode.louis-xiv-versailles
+    discipline: history
+    kind: episode
+    title: "Louis XIV and Versailles"
+    city: paris
+    difficulty: 1
+    era: Ancien Régime
+    year: 1661
+    year_end: 1715
+    cast: [Louis XIV, Cardinal Mazarin, Nicolas Fouquet, Colbert, Madame de Montespan, Le Nôtre, Le Brun]
+    facts:
+      - "King at four in 1643, he ruled through Mazarin until the cardinal died on 9 March 1661 and then announced that he would govern alone; the Fronde of 1648 to 1653 had driven him out of Paris as a child, and he never trusted the city again."
+      - "Nicolas Fouquet, the superintendent of finances, entertained the king at his new Vaux-le-Vicomte on 17 August 1661 and was arrested three weeks later. Louis took his architect Le Vau, his gardener Le Nôtre and his painter Le Brun and set them on his father's hunting lodge at Versailles."
+      - "The court moved to Versailles on 6 May 1682, forty-one years into the reign; Hardouin-Mansart's Hall of Mirrors was built between 1678 and 1684, thousands of courtiers and servants were housed in the palace, and attendance was the price of favour. Saint-Simon's memoirs are forty years of resenting it."
+      - "The Affair of the Poisons began in 1677. A special tribunal, the chambre ardente, sat from April 1679 and examined hundreds of people, more than thirty of whom were executed, among them the fortune-teller La Voisin, burned on the place de Grève on 22 February 1680. When the evidence began to touch Madame de Montespan, the king's mistress and mother of seven of his children, he closed the court, and in 1709 he burned the papers."
+      - "Music, dancing and painting were state business: Lully held a royal monopoly on sung drama from 1672, Molière wrote comédies-ballets for the court, and the Académie royale's Salon, first held in 1667, decided what French painting was. Louis died on 1 September 1715, after seventy-two years on the throne."
+    remark: "Fouquet gave a party at Vaux-le-Vicomte in August 1661 and was arrested three weeks later; the king then hired his architect, his gardener and his painter and had them do the same thing at Versailles, twenty times over."
+    gaffe: "Dating the move to Versailles to the start of the reign. Louis XIII's hunting lodge was there first, and the court did not move in until 6 May 1682, forty-one years after Louis XIV became king."
+    media:
+      image:
+        commons: "File:Rigaud Louis XIV 1701.jpg"
+        source: "Hyacinthe Rigaud, Louis XIV in Coronation Robes (1701), Musée du Louvre INV 7492, via Wikimedia Commons"
+        license: "Public domain (artist died 1743); verify the file's tag when fetching"
+    distractors:
+      year: [1643, 1685, 1715]
+      era: [Renaissance, Empire, Restoration]
+    links: [opera.lully, opera.term.divertissement, art.term.salon, history.apocrypha.letat-cest-moi, history.person.marie-antoinette]
+    tags: [france, bourbon, versailles, court, poisons, 1660s, 1680s]
+    sources:
+      - "Jean-Christian Petitfils, Louis XIV (1995)"
+      - "Peter Burke, The Fabrication of Louis XIV (1992)"
+      - "Anne Somerset, The Affair of the Poisons: Murder, Infanticide and Satanism at the Court of Louis XIV (2003)"
+      - "Saint-Simon, Mémoires"
+    reviewed_by: null
+
+  - id: history.episode.enlightenment-salons
+    discipline: history
+    kind: episode
+    title: "The Enlightenment salons"
+    city: paris
+    difficulty: 2
+    era: Enlightenment
+    year: 1751
+    year_end: 1780
+    cast: [Madame Geoffrin, Madame du Deffand, Julie de Lespinasse, Denis Diderot, d'Alembert, Voltaire, Rousseau]
+    facts:
+      - "Madame Geoffrin, a glass manufacturer's widow with no title at all, held Mondays for artists and Wednesdays for men of letters in the rue Saint-Honoré for a quarter of a century; her business was keeping thirty egos in one room, and she ended a conversation when she judged it had gone far enough."
+      - "The Encyclopédie of Diderot and d'Alembert came out of those rooms: seventeen volumes of text and eleven of plates between 1751 and 1772, some seventy-two thousand articles. The royal council revoked its privilege in March 1759, and the last ten volumes of text were published with a false Neuchâtel imprint."
+      - "Rousseau wrote the music articles for the Encyclopédie, and in 1753, in the quarrel set off by an Italian troupe at the Opéra, published a letter arguing that French was not a language anyone could sing; Rameau answered him in print, and the philosophes and the old French opera were enemies from then on."
+      - "Madame du Deffand, blind from about 1754, kept her salon in an apartment at the convent of Saint-Joseph and wrote to Horace Walpole for fifteen years. In 1764 she discovered that her companion Julie de Lespinasse had been receiving the guests an hour before she came down, threw her out, and lost d'Alembert and most of the philosophes to the salon Lespinasse opened round the corner."
+      - "The one famous picture of a salon is a fiction. Lemonnier's reading of Voltaire's Orphelin de la Chine at Madame Geoffrin's was painted around 1812 for the Empress Joséphine, more than fifty years after the evening it shows, and its Voltaire is a bust on a pedestal, because he was in exile and not there."
+    remark: "The salons were run by women, and the hostess's work was not to shine but to keep thirty egos in one room: du Deffand threw out her own companion in 1764 for receiving the guests an hour early, and lost half the philosophes to her."
+    gaffe: "Calling the Encyclopédie a book of the Revolution. It was finished in 1772, seventeen years before the Bastille, and its editors spent the 1750s dodging the censor rather than planning a republic."
+    media:
+      image:
+        commons: "File:Salon de Madame Geoffrin.jpg"
+        source: "Anicet-Charles-Gabriel Lemonnier, Reading of Voltaire's L'Orphelin de la Chine in the Salon of Madame Geoffrin in 1755 (c. 1812), Château de Malmaison, via Wikimedia Commons"
+        license: "Public domain (artist died 1824); verify the file's tag when fetching"
+    distractors:
+      year: [1715, 1789, 1830]
+      era: [Ancien Régime, Revolution, Belle Époque]
+    links: [music.term.salon, art.term.salon, opera.rameau, history.person.voltaire, history.episode.french-revolution]
+    tags: [france, enlightenment, salon, encyclopedie, geoffrin, du-deffand, 1750s, 1770s]
+    sources:
+      - "Dena Goodman, The Republic of Letters: A Cultural History of the French Enlightenment (1994)"
+      - "Antoine Lilti, Le monde des salons: sociabilité et mondanité à Paris au XVIIIe siècle (2005)"
+      - "Robert Darnton, The Business of Enlightenment: A Publishing History of the Encyclopédie (1979)"
+      - "Grove Music Online, 'Querelle des Bouffons'"
+      - "Musée national des châteaux de Malmaison et Bois-Préau, catalogue entry for Lemonnier, Lecture de la tragédie de L'Orphelin de la Chine dans le salon de Madame Geoffrin"
+    reviewed_by: null
+
+  - id: history.episode.napoleon-egypt-coronation-louvre
+    discipline: history
+    kind: episode
+    title: "Napoleon: Egypt, the coronation and the looted Louvre"
+    city: paris
+    difficulty: 1
+    era: Empire
+    year: 1804
+    year_end: 1815
+    cast: [Napoleon Bonaparte, Joséphine, Pope Pius VII, Jacques-Louis David, Vivant Denon, Champollion]
+    facts:
+      - "The Egyptian expedition sailed from Toulon in May 1798 carrying 167 scholars and draughtsmen as well as an army; Nelson destroyed the fleet at Aboukir Bay on 1 August and stranded them, so they stayed and measured, and out of it came the Description de l'Égypte, published from 1809 to 1829, and a European taste for Egypt in everything from furniture to opera."
+      - "Soldiers digging at Fort Julien near Rashid found the Rosetta Stone on 15 July 1799: one decree in hieroglyphic, demotic and Greek. It passed to the British under the Capitulation of Alexandria in 1801 and to the British Museum in 1802, and Champollion, working in Paris from copies, announced the decipherment in his Lettre à M. Dacier in September 1822."
+      - "He was crowned Emperor of the French at Notre-Dame on 2 December 1804 with Pius VII sitting by. He crowned himself and then crowned Joséphine, and it is the second of those that David chose to paint; the Sacre is nearly ten metres wide, hangs in the Louvre, and includes Napoleon's mother, who had stayed away in Rome."
+      - "The Louvre had opened as a public museum in 1793 and was renamed the Musée Napoléon in 1803 under Vivant Denon, who followed the armies and chose what to take. Veronese's Wedding at Cana, cut in half to travel, came out of the refectory of San Giorgio Maggiore in Venice in 1797."
+      - "In 1815 the allies took most of it back, with Canova sent from Rome to collect: the Apollo Belvedere, the Laocoön and the horses of St Mark's went home. The Veronese did not, on the argument that it was too fragile to move. Venice was given a Le Brun instead, and the picture still faces the Mona Lisa in the Salle des États."
+    remark: "The Veronese facing the Mona Lisa is loot: French commissioners cut it out of a Venetian refectory in 1797, and in 1815, when the rest was going home, France kept it by pleading that it was too fragile to travel."
+    gaffe: "Saying he crowned himself Emperor of France. The title was Emperor of the French, a people rather than a place, and the crowning David actually painted is Joséphine's."
+    media:
+      image:
+        commons: "File:Jacques-Louis David, The Coronation of Napoleon.jpg"
+        source: "Jacques-Louis David, Le Sacre de l'empereur Napoléon Ier (1806-07), Musée du Louvre INV 3699, via Wikimedia Commons"
+        license: "Public domain (artist died 1825); verify the file's tag when fetching"
+    distractors:
+      year: [1789, 1799, 1812]
+      era: [Ancien Régime, Revolution, Restoration]
+    links: [art.david.oath-of-the-horatii, art.leonardo.mona-lisa, music.beethoven.symphony-5.i, history.person.napoleon, history.episode.congress-of-vienna]
+    tags: [france, napoleon, empire, egypt, louvre, loot, rosetta-stone, 1800s]
+    sources:
+      - "Philip Dwyer, Citizen Emperor: Napoleon in Power (2013)"
+      - "Cecil Gould, Trophy of Conquest: The Musée Napoléon and the Creation of the Louvre (1965)"
+      - "British Museum, collection entry for the Rosetta Stone (EA 24)"
+      - "Musée du Louvre, catalogue entry INV 3699 (Le Sacre de l'empereur Napoléon Ier)"
+    reviewed_by: null
+
+  - id: history.episode.haussmann-second-empire
+    discipline: history
+    kind: episode
+    title: "Haussmann's Paris and the Second Empire"
+    city: paris
+    difficulty: 2
+    era: Second Empire
+    year: 1853
+    year_end: 1870
+    cast: [Napoleon III, Baron Haussmann, Charles Garnier, Jacques Offenbach, Jules Ferry]
+    facts:
+      - "Napoleon III, who had spent his exile in London and come home admiring its parks, made Georges-Eugène Haussmann prefect of the Seine on 22 June 1853 and kept him there for sixteen years; the prefect was dismissed on 5 January 1870, months before the empire fell."
+      - "The work was surgery. Boulevards were cut straight through medieval quarters, the façades standardised in cream limestone with continuous balconies on the second and fifth floors, the sewer network taken to some six hundred kilometres, the Bois de Boulogne and the Buttes-Chaumont laid out, Baltard's iron halls built at Les Halles, and in 1860 the ring of suburbs annexed, taking Paris from twelve arrondissements to twenty."
+      - "The competition for a new opera house was won in 1861 by Charles Garnier, then thirty-five and unknown; the house opened on 5 January 1875, under the Third Republic. The empire's own music was Offenbach's: Orphée aux enfers in 1858, La Belle Hélène in 1864, and the galop that Paris danced as the can-can."
+      - "In 1863 the Salon jury rejected about three thousand of some five thousand submissions and Napoleon III ordered the rejects hung next door; the Salon des Refusés opened on 15 May with Manet's Déjeuner sur l'herbe in it."
+      - "The new streets became the subject. Monet painted the boulevard des Capucines from the photographer Nadar's studio, and the first Impressionist exhibition was held in that same studio in April 1874. Jules Ferry's pamphlet of 1868, Les Comptes fantastiques d'Haussmann, punned on the Barbier and Carré play that Offenbach would later set, and did for the prefect's accounts what no speech had managed."
+    remark: "The boulevards were built to be looked down, and the painters obliged: Monet painted the boulevard des Capucines out of Nadar's window, and the first Impressionist exhibition of 1874 was held in that same studio, above the new street."
+    gaffe: "Calling the boulevards a police measure and leaving it there. Wide streets are harder to barricade, and that was said at the time, but the water, the sewers and the annexation of the suburbs in 1860 are what actually changed how Paris lived."
+    media:
+      image:
+        commons: "File:Gustave Caillebotte - Paris Street; Rainy Day - Google Art Project.jpg"
+        source: "Gustave Caillebotte, Rue de Paris, temps de pluie (1877), Art Institute of Chicago, via Wikimedia Commons (Google Art Project)"
+        license: "Public domain (artist died 1894); verify the file's tag when fetching"
+    distractors:
+      year: [1848, 1871, 1889]
+      era: [July Monarchy, Third Republic, Restoration]
+    links: [opera.venue.palais-garnier, opera.offenbach.orphee-aux-enfers.galop-infernal, art.term.salon, art.manet.dejeuner-sur-l-herbe, art.monet.impression-sunrise]
+    tags: [france, second-empire, haussmann, boulevards, offenbach, salon-des-refuses, 1850s, 1860s]
+    sources:
+      - "David P. Jordan, Transforming Paris: The Life and Labors of Baron Haussmann (1995)"
+      - "David Harvey, Paris, Capital of Modernity (2003)"
+      - "Grove Music Online, 'Offenbach, Jacques'"
+      - "Patricia Mainardi, The End of the Salon: Art and the State in the Early Third Republic (1993)"
+    reviewed_by: null
+
+  - id: history.episode.dreyfus-affair
+    discipline: history
+    kind: episode
+    title: "The Dreyfus affair"
+    city: paris
+    difficulty: 2
+    era: Third Republic
+    year: 1894
+    year_end: 1906
+    cast: [Alfred Dreyfus, Émile Zola, Georges Picquart, Esterhazy, Georges Clemenceau, Edgar Degas]
+    facts:
+      - "Alfred Dreyfus, an Alsatian Jewish artillery captain on the general staff, was convicted of treason on 22 December 1894 on a torn note and a handwriting comparison, stripped of his rank in the courtyard of the École militaire on 5 January 1895 while a crowd shouted outside, and sent to Devil's Island."
+      - "Colonel Picquart, the new head of intelligence, matched the handwriting to Major Esterhazy in 1896 and was posted to Tunisia for saying so; Esterhazy was tried and acquitted on 11 January 1898 after a few minutes' deliberation."
+      - "Two days later Zola published an open letter to the President of the Republic on the front page of Clemenceau's paper L'Aurore, under the headline Clemenceau gave it, J'accuse...! Zola was convicted of criminal libel and left for England; in August 1898 Colonel Henry admitted forging a document in the file and cut his throat in prison."
+      - "The salons and the studios split with the country. Monet and Pissarro signed for Zola; Degas, who had dined with the Halévy family since childhood, stopped going at the end of 1897 and did not enter the house again until Ludovic Halévy lay dying in 1908, the same Halévy who had written the libretto of Carmen."
+      - "A second court-martial at Rennes in September 1899 found Dreyfus guilty again with extenuating circumstances, an absurdity that allowed the President to pardon him. The Cour de cassation quashed the verdict on 12 July 1906; he was reinstated, decorated, and served through the war of 1914."
+    remark: "It went through the dining rooms as well as the country: Degas gave up the Halévys, whose house he had eaten in since childhood and whose Ludovic wrote the libretto of Carmen, and never went back until the old man was dying."
+    gaffe: "Saying Zola won the case. J'accuse got Zola convicted of libel and out of the country; what broke the affair was Colonel Henry's confession of forgery in August 1898, and the exoneration took until 1906."
+    media:
+      image:
+        commons: "File:Caran-d-ache-dreyfus-supper.jpg"
+        source: "Caran d'Ache, Un dîner en famille, Le Figaro, February 1898, via Wikimedia Commons"
+        license: "Public domain (artist died 1909); verify the file's tag when fetching"
+    distractors:
+      year: [1871, 1889, 1900]
+      era: [Second Empire, July Monarchy, Restoration]
+    links: [art.degas, opera.bizet.carmen.habanera, art.monet.impression-sunrise, history.episode.haussmann-second-empire]
+    tags: [france, third-republic, dreyfus, zola, degas, antisemitism, 1890s, 1900s]
+    sources:
+      - "Ruth Harris, The Man on Devil's Island: Alfred Dreyfus and the Affair that Divided France (2010)"
+      - "Jean-Denis Bredin, The Affair: The Case of Alfred Dreyfus (1986)"
+      - "Linda Nochlin, 'Degas and the Dreyfus Affair: A Portrait of the Artist as an Anti-Semite', in Norman L. Kleeblatt (ed.), The Dreyfus Affair: Art, Truth, and Justice (1987)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Persons
+  # ---------------------------------------------------------------------------
+
+  - id: history.person.napoleon
+    discipline: history
+    kind: person
+    title: "Napoleon Bonaparte"
+    role: Emperor of the French
+    city: paris
+    difficulty: 1
+    era: Empire
+    year: 1769
+    year_end: 1821
+    facts:
+      - "Born at Ajaccio on 15 August 1769, the year after Genoa ceded Corsica to France, so that he was French by a diplomatic accident; he was trained as an artillery officer at Brienne and Paris and spoke French with a Corsican accent all his life."
+      - "He made his name at Toulon in 1793 and in Italy in 1796, took power in the coup of 18 Brumaire in November 1799 as First Consul, was made consul for life in 1802 and Emperor of the French in 1804. The Code civil, promulgated that March, is the part of him still in force across half of Europe."
+      - "He married Joséphine de Beauharnais in 1796, divorced her in 1810 for want of an heir and married the Austrian emperor's daughter Marie Louise; Austerlitz was 2 December 1805, the retreat from Moscow 1812, the abdication and Elba 1814, Waterloo 18 June 1815, and St Helena until his death on 5 May 1821."
+      - "The shortness is a mistake in units. The autopsy gave five feet two inches in French measure, and the French inch was longer than the English one, which puts him near one metre sixty-nine, about five foot six, a shade above his own infantry."
+      - "David painted the crossing of the Alps and the Coronation; Ingres put him on the imperial throne in 1806, posed like a medieval God the Father; and Beethoven, by his pupil Ries's account, tore up the Eroica's dedication when he heard that Bonaparte had made himself emperor."
+    remark: "The famous shortness is an arithmetic error: the autopsy gave five foot two in French measure, whose inches were longer than English ones, which makes him about five foot six and slightly taller than his own infantry."
+    gaffe: "Calling him Emperor of France. The title was Emperor of the French, chosen to rest on a people rather than a territory, and it dates from 1804; in 1799 he was First Consul."
+    media:
+      image:
+        commons: "File:Ingres, Napoleon on his Imperial throne.jpg"
+        source: "Jean-Auguste-Dominique Ingres, Napoléon Ier sur le trône impérial (1806), Musée de l'Armée, Paris, via Wikimedia Commons"
+        license: "Public domain (artist died 1867); verify the file's tag when fetching"
+    distractors:
+      person: [Talleyrand, Joseph Bonaparte, Marshal Murat]
+      era: [Revolution, Restoration, Ancien Régime]
+    links: [art.david.oath-of-the-horatii, music.beethoven.symphony-5.i, history.episode.napoleon-egypt-coronation-louvre, history.episode.congress-of-vienna, history.apocrypha.playing-fields-of-eton]
+    tags: [france, napoleon, empire, corsica, ingres, portrait, 1800s]
+    sources:
+      - "Philip Dwyer, Napoleon: The Path to Power (2007) and Citizen Emperor: Napoleon in Power (2013)"
+      - "Musée de l'Armée, Paris, catalogue entry for Ingres, Napoléon Ier sur le trône impérial"
+      - "Ferdinand Ries and Franz Wegeler, Biographische Notizen über Ludwig van Beethoven (1838)"
+    reviewed_by: null
+
+  - id: history.person.voltaire
+    discipline: history
+    kind: person
+    title: "Voltaire"
+    role: Writer and philosophe
+    city: paris
+    difficulty: 1
+    era: Enlightenment
+    year: 1694
+    year_end: 1778
+    facts:
+      - "Born François-Marie Arouet in Paris on 21 November 1694; he took the name Voltaire in 1718, after eleven months in the Bastille for verses about the Regent, and kept it for sixty years."
+      - "The Chevalier de Rohan had him beaten by his footmen in 1726 and Voltaire went to the Bastille and then to England for two years; the Lettres philosophiques of 1734, which praised English toleration and Newton at France's expense, were burned by the Paris hangman."
+      - "He spent fifteen years with Émilie du Châtelet, much of it at her husband's château at Cirey, and she translated Newton's Principia into French; then three years at Potsdam with Frederick the Great, until they quarrelled. From 1759 he lived at Ferney, on the frontier with Geneva."
+      - "Candide appeared in 1759. The Calas case made him a campaigner: a Toulouse Protestant broken on the wheel in 1762 for a murder he had not committed, whose conviction Voltaire had quashed in 1765, and out of which came the Treatise on Toleration."
+      - "He wrote for the opera as well as the stage: two court entertainments with Rameau in 1745, and a Samson the censors would not pass. He came back to Paris in February 1778 after twenty-eight years away, was crowned in his box at the Comédie-Française on 30 March at a performance of his Irène, and died on 30 May; the Revolution moved him to the Panthéon in July 1791."
+    remark: "He settled at Ferney in 1759 because it sat on the Genevan frontier: the great campaigner against censorship arranged his life so that he could be out of French jurisdiction within the hour."
+    gaffe: "Quoting 'I disapprove of what you say, but I will defend to the death your right to say it' as Voltaire. His English biographer Evelyn Beatrice Hall wrote it in 1906, and said afterwards that she was summarising his attitude, not quoting him."
+    media:
+      image:
+        commons: "File:Nicolas de Largillière - Portrait de Voltaire (1694-1778) en 1718 - P208 - musée Carnavalet.jpg"
+        source: "Nicolas de Largillière (and studio), Portrait de Voltaire en 1718, Musée Carnavalet P208, Paris, via Wikimedia Commons"
+        license: "Public domain (artist died 1746); verify the file's tag when fetching"
+    distractors:
+      person: [Denis Diderot, Jean-Jacques Rousseau, Montesquieu]
+      era: [Renaissance, Revolution, Restoration]
+    links: [opera.rameau, music.term.salon, history.episode.enlightenment-salons, history.episode.french-revolution]
+    tags: [france, enlightenment, philosophe, ferney, largilliere, portrait, 1700s]
+    sources:
+      - "Roger Pearson, Voltaire Almighty: A Life in Pursuit of Freedom (2005)"
+      - "Grove Music Online, 'Rameau, Jean-Philippe'"
+      - "Evelyn Beatrice Hall (as S. G. Tallentyre), The Friends of Voltaire (1906)"
+      - "Musée Carnavalet, catalogue entry P208 (portrait de Voltaire)"
+    reviewed_by: null
+
+  - id: history.person.diaghilev
+    discipline: history
+    kind: person
+    title: "Sergei Diaghilev"
+    role: Impresario of the Ballets Russes
+    city: paris
+    difficulty: 3
+    era: Belle Époque
+    year: 1872
+    year_end: 1929
+    facts:
+      - "Born in Novgorod province on 31 March 1872 and trained in law at St Petersburg; he took his compositions to Rimsky-Korsakov, was told he had no gift for it, and became instead the editor of the magazine Mir iskusstva, the World of Art, from 1898 to 1904."
+      - "He brought Russian painting to the Salon d'Automne in 1906, Russian concerts to Paris in 1907 and Chaliapin in Boris Godunov in 1908; the first Saison Russe of ballet opened at the Théâtre du Châtelet on 19 May 1909 and made Nijinsky and Karsavina famous in a fortnight."
+      - "He commissioned rather than created: Stravinsky's Firebird in 1910, Petrushka in 1911 and the Rite of Spring in 1913, Ravel's Daphnis et Chloé in 1912, Debussy's Jeux in 1913, Satie's Parade in 1917 with Picasso's designs and Cocteau's scenario, then Poulenc, Milhaud and Prokofiev in the 1920s."
+      - "Nijinsky's Afternoon of a Faun, danced to Debussy's music on 29 May 1912, was attacked the next morning on the front page of Le Figaro for its closing gesture; Rodin defended it in print and the paper turned on Rodin."
+      - "The company was Russian and never danced in Russia. Diaghilev died in Venice on 19 August 1929, in debt, and is buried on the cemetery island of San Michele."
+    remark: "He never choreographed a step or wrote a bar: Rimsky-Korsakov told him he had no gift for composition, so he spent thirty years commissioning it from Stravinsky, Ravel, Debussy, Satie and Prokofiev instead."
+    gaffe: "Telling the Rite of Spring riot as though there had been arrests. There was a loud and ugly disturbance on 29 May 1913, the ballet was danced to the end, and the fights grew in the retelling; the scandal with a paper trail is Nijinsky's Faune the year before."
+    media:
+      image:
+        commons: "File:Bakst Diaghilev.jpg"
+        source: "Léon Bakst, Portrait of Sergei Diaghilev with his Nanny (1906), State Russian Museum, St Petersburg, via Wikimedia Commons"
+        license: "Public domain (artist died 1924); verify the file's tag when fetching"
+    distractors:
+      person: [Vaslav Nijinsky, Léon Bakst, Michel Fokine]
+      era: [Restoration, Second Empire, Enlightenment]
+    links: [music.stravinsky.le-sacre-du-printemps, music.ravel.bolero, music.debussy.clair-de-lune, music.satie.gymnopedie-1, art.rodin, opera.venue.palais-garnier]
+    tags: [russia, paris, ballets-russes, diaghilev, nijinsky, belle-epoque, portrait, 1900s, 1910s]
+    sources:
+      - "Sjeng Scheijen, Diaghilev: A Life (2009)"
+      - "Richard Buckle, Diaghilev (1979)"
+      - "Grove Music Online, 'Diaghilev, Serge'"
+      - "State Russian Museum, St Petersburg, catalogue entry for Léon Bakst, Portrait of Sergei Diaghilev with his Nanny (1906)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Apocrypha
+  # ---------------------------------------------------------------------------
+
+  - id: history.apocrypha.letat-cest-moi
+    discipline: history
+    kind: apocrypha
+    title: "\"L'état, c'est moi\""
+    attributed_to: Louis XIV
+    verdict: invented
+    claim: "Told by the Parlement of Paris that his edicts must serve the interests of the state, the young Louis XIV replied: the state, it is me."
+    truth: "The words are in no contemporary source, and not in the registers of the Parlement for the session of 13 April 1655 at which the story places them. They appear in print only in the nineteenth century, in Lémontey in 1818 and in Dulaure's history of Paris in 1834. What a contemporary did write down, the marquis de Dangeau in his journal, is nearly the opposite: at the deathbed in 1715 the king said that he was going but that the state would remain."
+    city: paris
+    difficulty: 1
+    era: Ancien Régime
+    year: 1655
+    facts:
+      - "The scene is set at the session of 13 April 1655, at which the sixteen-year-old king did appear before the Parlement of Paris; the words are not in its registers, and no memoir of the reign has them."
+      - "They surface long after his death, in Lémontey's essay on the monarchy of Louis XIV in 1818 and in Dulaure's history of Paris in 1834, when French writers were arguing about absolutism rather than reporting it."
+      - "Dangeau, who was at Versailles for the death in August 1715, has the king saying that he was going but that the state would remain always; the accounts of the deathbed also have him telling his five-year-old heir not to copy his taste for building or for war."
+    remark: "The one line everybody has from him is not his: it reaches print more than a century after his death, and what a courtier actually wrote down at the deathbed was that he was going but the state would remain."
+    gaffe: "Producing it as a quotation. It is not in the registers of the Parlement, not in the memoirs and not in print before the nineteenth century, and anyone who has read a life of Louis XIV will hear it coming."
+    links: [history.episode.louis-xiv-versailles, opera.lully, art.term.salon, history.apocrypha.let-them-eat-cake]
+    tags: [france, bourbon, versailles, quotation, absolutism]
+    sources:
+      - "Journal du marquis de Dangeau, entries of August 1715"
+      - "Peter Burke, The Fabrication of Louis XIV (1992)"
+      - "Jean-Christian Petitfils, Louis XIV (1995)"
+      - "Pierre-Édouard Lémontey, Essai sur l'établissement monarchique de Louis XIV (1818)"
     reviewed_by: null
