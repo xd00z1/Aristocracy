@@ -1,0 +1,424 @@
+# Vienna, history. The Habsburg city as the other three disciplines need it:
+# the Turkish siege and the Turkish craze, Maria Theresa and Joseph II with
+# Mozart in the room, the Congress that danced, 1848 and the young emperor,
+# Mayerling and Sisi, Vienna 1900, and the end of the old Europe. Persons are
+# taught through their portraits (Meytens, Lawrence, Winterhalter); the two
+# apocrypha are the Mozart stories everyone tells. Every item links to music,
+# opera or art taught in the same city. Commons titles are best candidates and
+# could not be checked from the sandbox; scripts/fetch-media.mjs reports misses.
+items:
+  # ---------------------------------------------------------------------------
+  # Episodes
+  # ---------------------------------------------------------------------------
+
+  - id: history.episode.siege-of-vienna
+    discipline: history
+    kind: episode
+    title: "The Siege of Vienna and the Turkish craze"
+    city: vienna
+    difficulty: 1
+    era: Baroque
+    year: 1683
+    cast: [Kara Mustafa Pasha, John III Sobieski, Charles of Lorraine, Ernst Rüdiger von Starhemberg, Leopold I, Prince Eugene of Savoy]
+    facts:
+      - "The Ottoman army under the Grand Vizier Kara Mustafa reached Vienna on 14 July 1683; Leopold I had already left for Passau, and Count Starhemberg held the walls for two months until the relief army under John III Sobieski of Poland and Charles of Lorraine came down from the Kahlenberg on 12 September and broke the siege in a day."
+      - "Kara Mustafa was strangled with a silk cord at Belgrade on 25 December 1683 on the Sultan's order; the war ran on to Prince Eugene's victory at Zenta in 1697 and the Peace of Karlowitz in 1699, which gave the Habsburgs Hungary and Transylvania."
+      - "It was the second siege: Suleiman the Magnificent had sat before the city in the autumn of 1529 and withdrawn. Lepanto, on 7 October 1571, was the earlier encounter, when the Holy League fleet under Don John of Austria beat the Ottomans at sea; Cervantes lost the use of his left hand there, and Veronese painted the victory as a votive picture now in the Accademia in Venice."
+      - "Prince Eugene, who finished the Turkish wars, built the Belvedere on the proceeds: the Upper Belvedere by Hildebrandt was completed in 1723, and it is where Klimt's The Kiss now hangs."
+      - "A century on, the Turk had become a style: Mozart's Die Entführung aus dem Serail (1782) and the Rondo alla Turca of the A major sonata K. 331, Haydn's 'Military' Symphony of 1794 and the march in the finale of Beethoven's Ninth all borrow the Janissary band of bass drum, cymbals and triangle."
+      - "The first licensed coffee house in Vienna was opened in 1685 by an Armenian, Johannes Diodato; the tale of the spy Kolschitzky brewing the abandoned Turkish sacks is later embroidery, and the croissant story has no source before the twentieth century."
+    remark: "The Belvedere, where The Kiss hangs, was built by Prince Eugene on the Turkish wars, the ones that began with Sobieski coming down from the Kahlenberg on 12 September 1683; Vienna's baroque is that victory paid out in stone."
+    gaffe: "Saying the croissant commemorates the siege. The story has no source before the twentieth century, and the Kolschitzky coffee-house legend is not much better; the first licensed café was an Armenian's, in 1685."
+    media:
+      image:
+        commons: "File:Vienna Battle 1683.jpg"
+        source: "Frans Geffels, The Battle of Vienna, 12 September 1683 (late seventeenth century), Wien Museum, via Wikimedia Commons"
+        license: "Public domain (artist died 1699); verify the file's tag when fetching"
+    distractors:
+      year: [1529, 1571, 1699]
+      era: [Renaissance, Enlightenment, Biedermeier]
+    links: [art.klimt.the-kiss, opera.term.singspiel, art.venue.kunsthistorisches-museum, history.person.maria-theresa]
+    tags: [vienna, habsburg, ottoman, siege, lepanto, turkish-music, baroque, 1680s]
+    sources:
+      - "John Stoye, The Siege of Vienna (1964; rev. ed., 2006)"
+      - "Andrew Wheatcroft, The Enemy at the Gate: Habsburgs, Ottomans and the Battle for Europe (2008)"
+      - "Grove Music Online, 'Janissary music'"
+      - "Alan Davidson, The Oxford Companion to Food (1999), 'croissant'"
+    reviewed_by: null
+
+  - id: history.episode.joseph-ii-and-mozart
+    discipline: history
+    kind: episode
+    title: "Joseph II and Mozart"
+    city: vienna
+    difficulty: 2
+    era: Enlightenment
+    year: 1781
+    year_end: 1790
+    cast: [Joseph II, Wolfgang Amadeus Mozart, Lorenzo Da Ponte, Antonio Salieri, Archbishop Colloredo, Count Arco]
+    facts:
+      - "Maria Theresa died on 29 November 1780 and Joseph, co-regent since 1765, ruled alone for ten years: the Patent of Toleration for Protestants and Orthodox in October 1781, the abolition of serfdom in the Austrian and Bohemian lands that November, the closing of hundreds of contemplative monasteries from 1782; he had already opened the Prater to the public in 1766 and the Augarten in 1775."
+      - "Mozart arrived in Vienna in March 1781 in the retinue of the Archbishop of Salzburg and was dismissed in June; by his own account Count Arco saw him out of the room with a kick, and he stayed in Vienna as a freelance for the rest of his life."
+      - "Joseph had founded a National Singspiel company at the Burgtheater in 1778 to promote opera in German, and Die Entführung aus dem Serail (16 July 1782) was written for it; 'too beautiful for our ears, and an enormous number of notes, dear Mozart' is what Niemetschek's biography of 1798 has the Emperor say of it, with Mozart answering that there were exactly as many as were needed."
+      - "Beaumarchais's play Le Mariage de Figaro was forbidden on the Vienna stage in 1785; Da Ponte, the Emperor's Italian theatre poet since 1783, cut Figaro's speeches, and the opera opened at the Burgtheater on 1 May 1786. After the third night Joseph ordered that only solo numbers might be encored, to keep the evenings to a length."
+      - "Joseph went to war with the Turks in 1788 and the nobility followed him to the front or left town; Mozart's subscription concerts dried up and the begging letters to Michael Puchberg begin that June. The Emperor died on 20 February 1790, a month after Così fan tutte opened, and the court mourning closed it."
+    remark: "Joseph banned the play and passed the opera: Beaumarchais's Figaro was forbidden on the Vienna stage in 1785, and a year later the same emperor let Da Ponte's version through at the Burgtheater, minus the speeches."
+    gaffe: "Quoting 'too many notes' as verbatim history. It comes from Niemetschek's biography of 1798, seven years after Mozart's death, and was said, if at all, about Die Entführung in 1782; Shaffer's Amadeus made it the Emperor's whole character."
+    distractors:
+      year: [1762, 1791, 1805]
+      era: [Baroque, Restoration, Biedermeier]
+    links: [opera.mozart.le-nozze-di-figaro, opera.term.singspiel, opera.da-ponte, opera.mozart.cosi-fan-tutte, history.person.maria-theresa, history.apocrypha.salieri-poisoned-mozart]
+    tags: [vienna, habsburg, joseph-ii, mozart, figaro, enlightenment, burgtheater, 1780s]
+    sources:
+      - "Derek Beales, Joseph II, vol. 2: Against the World, 1780–1790 (2009)"
+      - "Otto Erich Deutsch, Mozart: A Documentary Biography (1965)"
+      - "Franz Xaver Niemetschek, Leben des K.K. Kapellmeisters Wolfgang Gottlieb Mozart (1798)"
+      - "Grove Music Online, 'Mozart, Wolfgang Amadeus'"
+    reviewed_by: null
+
+  - id: history.episode.congress-of-vienna
+    discipline: history
+    kind: episode
+    title: "The Congress of Vienna"
+    city: vienna
+    difficulty: 1
+    era: Restoration
+    year: 1814
+    year_end: 1815
+    cast: [Metternich, Talleyrand, Castlereagh, Tsar Alexander I, Hardenberg, the Prince de Ligne]
+    facts:
+      - "The powers that had beaten Napoleon met in Vienna from September 1814 to redraw the map of Europe; Metternich hosted for Austria, Talleyrand came for defeated France and talked his way to the table, Castlereagh and then Wellington spoke for Britain, and Tsar Alexander I attended in person."
+      - "Napoleon left Elba on 26 February 1815 and was in Paris by 20 March; the Congress went on regardless, and its Final Act was signed on 9 June 1815, nine days before Waterloo."
+      - "The Prince de Ligne, the old field marshal and wit, is credited with 'Le congrès ne marche pas, il danse'; he died in Vienna on 13 December 1814, in the middle of it."
+      - "Beethoven made the most of the crowd: on 29 November 1814 the Seventh Symphony, Wellington's Victory and the cantata Der glorreiche Augenblick were played to the assembled sovereigns in the Redoutensaal, and the final version of Fidelio, first given that May, was in the repertory for the visitors. Schubert, aged seventeen, wrote Gretchen am Spinnrade on 19 October 1814 while the delegates danced."
+      - "Austria took Lombardy and Venetia and the presidency of the new German Confederation; the settlement, with Metternich policing it, held the peace of the great powers for nearly forty years, and the quiet, censored decades that followed are what the Viennese call Biedermeier."
+    remark: "The Prince de Ligne said the Congress did not walk, it danced, and he died in the middle of it, in December 1814; the Final Act was signed on 9 June 1815, nine days before Waterloo, while Napoleon was already back in Paris."
+    gaffe: "Calling it a peace treaty, or dating it after Waterloo. The Final Act came nine days before the battle; the Congress was nine months of balls with a settlement attached, and the battle only confirmed it."
+    media:
+      image:
+        commons: "File:Congress of Vienna.PNG"
+        source: "Jean Godefroy after Jean-Baptiste Isabey, The Congress of Vienna, engraving (1819) after the drawing of 1815, via Wikimedia Commons"
+        license: "Public domain (Isabey died 1855, Godefroy 1839); verify the file's tag when fetching"
+    distractors:
+      year: [1789, 1848, 1871]
+      era: [Baroque, Enlightenment, Fin de siècle]
+    links: [opera.beethoven.fidelio, music.term.lied, art.term.biedermeier, history.person.metternich, music.beethoven.symphony-5.i]
+    tags: [vienna, restoration, diplomacy, metternich, talleyrand, beethoven, 1810s]
+    sources:
+      - "Adam Zamoyski, Rites of Peace: The Fall of Napoleon and the Congress of Vienna (2007)"
+      - "Harold Nicolson, The Congress of Vienna: A Study in Allied Unity, 1812–1822 (1946)"
+      - "Grove Music Online, 'Beethoven, Ludwig van'"
+    reviewed_by: null
+
+  - id: history.episode.1848-and-franz-joseph
+    discipline: history
+    kind: episode
+    title: "1848 and the accession of Franz Joseph"
+    city: vienna
+    difficulty: 2
+    era: Age of revolutions
+    year: 1848
+    cast: [Metternich, Ferdinand I, Franz Joseph, Windischgrätz, Radetzky, Kossuth, Richard Wagner, Gottfried Semper]
+    facts:
+      - "On 13 March 1848 a crowd stormed the Lower Austrian Landhaus in the Herrengasse, troops fired, and by evening Metternich had resigned after thirty-nine years in office; he reached London in April and stayed in England for three years."
+      - "Windischgrätz bombarded and retook Vienna at the end of October 1848 and had the Frankfurt deputy Robert Blum shot on 9 November; on 2 December, at Olomouc, the simple-minded Ferdinand I abdicated in favour of his eighteen-year-old nephew Franz Joseph, whose father had renounced his own claim."
+      - "Hungary under Kossuth fought on until Russian troops helped end it at Világos in August 1849; thirteen Hungarian generals were executed at Arad on 6 October 1849, a date Hungary still marks."
+      - "Johann Strauss the elder wrote the Radetzky March in August 1848 for a fête celebrating the field marshal's victory over the Piedmontese at Custoza, while his son sided with the revolution, wrote a Revolutions-Marsch and played the Marseillaise; the court held it against the younger Strauss for years."
+      - "Wagner manned the Dresden barricades in the rising of May 1849 alongside Bakunin and Gottfried Semper; a warrant was issued for his arrest and he fled through Weimar to Zurich, not to be fully amnestied until 1862. Semper fled too, and thirty years later designed Vienna's Kunsthistorisches Museum."
+    remark: "The Radetzky March is the counter-revolution's own tune: Strauss the elder wrote it in August 1848 for the field marshal who had just beaten the Italians at Custoza, while his son was playing the Marseillaise for the other side."
+    gaffe: "Saying Franz Joseph overthrew his uncle, or that Metternich fell at the Congress. Ferdinand abdicated at Olomouc in December 1848 and lived on in Prague until 1875; Metternich lasted thirty-three years past the Congress and fell to the barricades of 13 March."
+    distractors:
+      year: [1815, 1866, 1867]
+      era: [Restoration, Baroque, Fin de siècle]
+    links: [opera.strauss-ii.die-fledermaus, art.venue.kunsthistorisches-museum, history.person.metternich, history.person.franz-joseph, art.term.biedermeier]
+    tags: [vienna, habsburg, revolution, metternich, franz-joseph, radetzky, wagner, 1840s]
+    sources:
+      - "Mike Rapport, 1848: Year of Revolution (2008)"
+      - "Alan Sked, Metternich and Austria: An Evaluation (2008)"
+      - "Grove Music Online, 'Strauss, Johann (i)' and 'Strauss, Johann (ii)'"
+      - "Grove Music Online, 'Wagner, Richard'"
+    reviewed_by: null
+
+  - id: history.episode.mayerling
+    discipline: history
+    kind: episode
+    title: "Mayerling and the death of Sisi"
+    city: vienna
+    difficulty: 1
+    era: Ringstrasse era
+    year: 1889
+    year_end: 1898
+    cast: [Crown Prince Rudolf, Mary Vetsera, Franz Joseph, Empress Elisabeth, Franz Ferdinand, Luigi Lucheni]
+    facts:
+      - "On the morning of 30 January 1889 Crown Prince Rudolf, the only son of Franz Joseph and Elisabeth, was found dead at his hunting lodge at Mayerling in the Vienna Woods with the seventeen-year-old Baroness Mary Vetsera; he had shot her and then himself. The court announced heart failure, then admitted suicide 'in a state of mental derangement' so that he could be buried in the Kapuzinergruft; Mary Vetsera was buried quietly at Heiligenkreuz."
+      - "Franz Joseph turned the lodge into a Carmelite convent. The succession passed to his brother Karl Ludwig and then to Karl Ludwig's son Franz Ferdinand, whose assassination at Sarajevo on 28 June 1914 started the war."
+      - "The Empress wore black from Mayerling onward and kept moving: Corfu, Hungary, spas. On 10 September 1898, walking to a lake steamer on the quay at Geneva, she was stabbed through the heart with a sharpened file by the Italian anarchist Luigi Lucheni and died within the hour."
+      - "The story became Anatole Litvak's film Mayerling of 1936, with Charles Boyer and Danielle Darrieux, and Kenneth MacMillan's ballet of 1978 for the Royal Ballet, to Liszt arranged by John Lanchbery."
+    remark: "Mayerling was a succession crisis before it was a tragedy: Rudolf's death in January 1889 moved the crown toward Franz Ferdinand, and it was Franz Ferdinand's death at Sarajevo that finished the empire."
+    gaffe: "Calling Mayerling a palace, or Sisi's death an accident. It was a hunting lodge, now a Carmelite convent, and the Empress was stabbed with a file by an anarchist on the quay at Geneva in September 1898."
+    distractors:
+      year: [1867, 1898, 1914]
+      era: [Biedermeier, Restoration, First World War]
+    links: [history.person.elisabeth, history.person.franz-joseph, opera.venue.staatsoper, opera.strauss-ii.die-fledermaus, history.episode.end-of-old-europe]
+    tags: [vienna, habsburg, mayerling, rudolf, sisi, scandal, 1880s, 1890s]
+    sources:
+      - "Brigitte Hamann, The Reluctant Empress: A Biography of Empress Elisabeth of Austria (1986)"
+      - "Greg King and Penny Wilson, Twilight of Empire: The Tragedy at Mayerling and the End of the Habsburgs (2017)"
+      - "Brigitte Hamann, Rudolf: Kronprinz und Rebell (1978)"
+    reviewed_by: null
+
+  - id: history.episode.vienna-1900
+    discipline: history
+    kind: episode
+    title: "Vienna 1900"
+    city: vienna
+    difficulty: 1
+    era: Fin de siècle
+    year: 1897
+    year_end: 1914
+    cast: [Gustav Klimt, Gustav Mahler, Sigmund Freud, Karl Lueger, Arthur Schnitzler, Adolf Loos, Arnold Schoenberg, Karl Kraus]
+    facts:
+      - "The spring of 1897 is the hinge: Klimt and his friends walked out of the Künstlerhaus and constituted the Secession on 3 April, the day Brahms died in the city; Franz Joseph, having refused to confirm him for two years, accepted the antisemitic Christian Social Karl Lueger as mayor on 16 April; and Mahler, baptised a Catholic that February to be eligible, took over the Court Opera in October."
+      - "Freud's Die Traumdeutung was published in November 1899 with 1900 printed on the title page; he saw patients at Berggasse 19 from 1891 until he left for London in 1938."
+      - "Klimt's ceiling paintings for the University, Philosophy, Medicine and Jurisprudence, were attacked by eighty-seven professors when the first was shown in 1900; Klimt gave the fee back in 1905 and took the pictures away, and they burned at Schloss Immendorf in 1945."
+      - "Café Griensteidl, the writers' café, was demolished in 1897 and Karl Kraus wrote its obituary as 'Die demolirte Literatur'; the Café Central inherited its clientele. Adolf Loos built the plain-fronted Looshaus opposite the Hofburg in 1910 and lectured the same year on 'Ornament and Crime'."
+      - "Schoenberg's Second String Quartet was hissed at its premiere in December 1908, and the Skandalkonzert of 31 March 1913, with Berg and Webern on the programme, ended in a brawl and a court case. Lueger's admirers included a young Adolf Hitler, who lived in the city from 1908 to 1913."
+    remark: "Mahler had to be baptised to get the Opera in 1897, the same spring Klimt walked out of the Künstlerhaus and the Emperor gave in and accepted Lueger as mayor; Freud's Interpretation of Dreams followed in November 1899 with 1900 on the title page."
+    gaffe: "Calling it a golden age without the politics. Lueger's Christian Socials ran the city from 1897, Mahler needed a baptism certificate to get the Opera, and Klimt's University paintings were rejected by the professors who had commissioned them."
+    distractors:
+      year: [1867, 1908, 1918]
+      era: [Biedermeier, Restoration, Baroque]
+    links: [art.movement.vienna-secession, art.klimt, opera.venue.staatsoper, art.klimt.the-kiss, art.term.jugendstil, art.schiele, history.episode.end-of-old-europe]
+    tags: [vienna, fin-de-siecle, secession, mahler, freud, lueger, cafe, 1890s, 1900s]
+    sources:
+      - "Carl E. Schorske, Fin-de-siècle Vienna: Politics and Culture (1980)"
+      - "Grove Music Online, 'Mahler, Gustav'"
+      - "Peter Gay, Freud: A Life for Our Time (1988)"
+      - "Tobias G. Natter (ed.), Gustav Klimt: The Complete Paintings (2012)"
+    reviewed_by: null
+
+  - id: history.episode.end-of-old-europe
+    discipline: history
+    kind: episode
+    title: "The end of the old Europe"
+    city: vienna
+    difficulty: 2
+    era: First World War
+    year: 1918
+    cast: [Karl I, Franz Joseph, Nicholas II, Wilhelm II, Stefan Zweig, Edward Elgar, Maurice Ravel]
+    facts:
+      - "Franz Joseph died at Schönbrunn on 21 November 1916 after sixty-eight years. His great-nephew Karl signed, on 11 November 1918, a declaration renouncing any part in the affairs of state, which was not an abdication, and left Schönbrunn that night; the Republic of German-Austria was proclaimed the next day."
+      - "The Habsburg Law of 3 April 1919 banished the family unless they renounced their claims, and a law of the same day abolished the nobility: titles and the particle 'von' became illegal in Austria, and still are."
+      - "Nicholas II abdicated in March 1917 and was shot with his family at Ekaterinburg on 17 July 1918; Wilhelm II's abdication was announced on 9 November 1918 and he lived out his life at Doorn in the Netherlands. Klimt died in February 1918 and Schiele in October, of the influenza."
+      - "Stefan Zweig, born in Vienna in 1881, finished Die Welt von Gestern (The World of Yesterday) in exile in 1941 and sent the manuscript to his publisher shortly before he and his wife took their own lives at Petrópolis in Brazil on 22 February 1942; its first chapter is called 'The World of Security'."
+      - "Elgar's Cello Concerto, his last major work, was premiered at the Queen's Hall on 27 October 1919 by Felix Salmond, under-rehearsed because Albert Coates had used up the time, and was a failure on the night. Ravel's Le Tombeau de Couperin (1919) dedicates each of its six movements to a friend killed in the war, and he denied that La Valse (1920) was about the fall of Vienna, though everyone hears it that way."
+    remark: "Klimt died in February 1918, Schiele in October, the last emperor left Schönbrunn in November, and the republic abolished 'von' the following April; Zweig called the world before all that 'the world of security', and killed himself in Brazil in 1942."
+    gaffe: "Saying Karl abdicated. He signed a renunciation of any part in the government on 11 November 1918 and never gave up the throne, which is why the republic had to legislate the family out of the country the following April."
+    distractors:
+      year: [1914, 1916, 1938]
+      era: [Fin de siècle, Biedermeier, Restoration]
+    links: [art.klimt, art.schiele, opera.venue.staatsoper, opera.r-strauss.der-rosenkavalier, history.episode.vienna-1900, history.person.franz-joseph, history.episode.mayerling]
+    tags: [vienna, habsburg, republic, zweig, elgar, ravel, first-world-war, 1910s]
+    sources:
+      - "Stefan Zweig, The World of Yesterday (1942; trans. Anthea Bell, 2009)"
+      - "Gordon Brook-Shepherd, The Last Habsburg (1968)"
+      - "Grove Music Online, 'Elgar, Sir Edward' and 'Ravel, Maurice'"
+      - "Jerrold Northrop Moore, Edward Elgar: A Creative Life (1984)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Persons (Who's Who, through their portraits)
+  # ---------------------------------------------------------------------------
+
+  - id: history.person.maria-theresa
+    discipline: history
+    kind: person
+    title: "Maria Theresa"
+    role: Archduchess of Austria, Queen of Hungary and Bohemia
+    city: vienna
+    difficulty: 1
+    era: Enlightenment
+    year: 1717
+    year_end: 1780
+    facts:
+      - "Born in Vienna on 13 May 1717, the eldest surviving child of Charles VI, who spent his reign getting Europe to accept that a daughter could inherit; she succeeded on 20 October 1740, and Frederick the Great invaded Silesia within two months."
+      - "She was never Holy Roman Empress in her own right: the title came from her husband, Francis Stephen of Lorraine, elected Emperor in 1745, and what she held was Hungary, Bohemia and the Austrian lands. She fought Frederick twice for Silesia, in the War of the Austrian Succession and the Seven Years' War, and lost it both times."
+      - "In September 1741 the Hungarian Diet at Pressburg voted her their 'life and blood'; the prints that show her holding up the infant Joseph while they cheer conflate two sittings. Sixteen children, among them Joseph II, Leopold II and Maria Antonia, who became Marie Antoinette."
+      - "She had Pacassi rebuild Schönbrunn from 1743 as the summer palace; there, on 13 October 1762, the six-year-old Mozart played to her, and by Leopold Mozart's letter home jumped into her lap and kissed her. Gluck's Orfeo had opened at the Burgtheater eight days earlier."
+      - "Martin van Meytens, her court painter, made the standard portraits; the Theresianum (1746), compulsory schooling (1774) and the alliance with France that sent her daughter to Versailles are hers. She died on 29 November 1780."
+    remark: "She was never empress in her own right; the title came from her husband's election in 1745, and what she actually held was Hungary, Bohemia and the Austrian lands, which she kept by fighting Frederick the Great twice over Silesia and losing it both times."
+    gaffe: "Calling her Holy Roman Empress as though she had been elected, or muddling the Hofburg with Schönbrunn. Schönbrunn is the summer palace she had Pacassi rebuild, where the six-year-old Mozart played in October 1762."
+    media:
+      image:
+        commons: "File:Kaiserin Maria Theresia (HRR).jpg"
+        source: "Martin van Meytens, Empress Maria Theresa (c. 1759), Akademie der bildenden Künste, Vienna, via Wikimedia Commons"
+        license: "Public domain (artist died 1770); verify the file's tag when fetching"
+    distractors:
+      person: [Catherine the Great, Elizabeth of Russia, Maria Carolina of Naples]
+      era: [Baroque, Restoration, Ringstrasse era]
+    links: [history.episode.joseph-ii-and-mozart, history.apocrypha.mozart-proposes-to-marie-antoinette, opera.gluck.orfeo-ed-euridice, opera.r-strauss.der-rosenkavalier, history.person.marie-antoinette]
+    tags: [vienna, habsburg, empress, schoenbrunn, meytens, portrait, 1700s]
+    sources:
+      - "Edward Crankshaw, Maria Theresa (1969)"
+      - "Barbara Stollberg-Rilinger, Maria Theresia: Die Kaiserin in ihrer Zeit (2017)"
+      - "Otto Erich Deutsch, Mozart: A Documentary Biography (1965), Leopold Mozart's letter of 16 October 1762"
+    reviewed_by: null
+
+  - id: history.person.metternich
+    discipline: history
+    kind: person
+    title: "Metternich"
+    role: Austrian Foreign Minister and State Chancellor
+    city: vienna
+    difficulty: 3
+    era: Restoration
+    year: 1773
+    year_end: 1859
+    facts:
+      - "Klemens von Metternich was born at Koblenz on 15 May 1773, a Rhinelander whose family lost its lands to the French Revolution; he was Austrian ambassador in Paris from 1806 to 1809, foreign minister from October 1809, and arranged Napoleon's marriage to the Emperor's daughter Marie Louise in 1810."
+      - "He hosted the Congress of Vienna, and Francis I paid him in 1816 with Schloss Johannisberg on the Rhine, which is why a sparkling wine still carries the name Fürst von Metternich; he was made State Chancellor in 1821."
+      - "The Carlsbad Decrees of 1819 put the universities and the press under police watch across the German Confederation; the 'Metternich system' is the name for the censorship and congress diplomacy of the thirty years after 1815. 'Italy is a geographical expression' is his, from 1847."
+      - "Thomas Lawrence painted him for the Prince Regent's Waterloo Chamber at Windsor, among the sovereigns and ministers who had beaten Napoleon."
+      - "He resigned on 13 March 1848, the day the barricades went up, fled to England, came back to Vienna in 1851 and died there on 11 June 1859."
+    remark: "He held the job for thirty-nine years, from 1809 to the afternoon of 13 March 1848, and the Emperor paid him for the Congress with Schloss Johannisberg on the Rhine, which is why his name is on a bottle of Sekt."
+    gaffe: "Saying he was Prussian, or that he fell at the Congress. He was a Rhinelander in Austrian service who ran the Congress and lasted another thirty-three years; it was the barricades of March 1848 that put him on the road to England."
+    media:
+      image:
+        commons: "File:Prince Metternich by Lawrence.jpeg"
+        source: "Sir Thomas Lawrence, Prince Metternich (1814–15), Royal Collection, Waterloo Chamber, Windsor Castle, via Wikimedia Commons"
+        license: "Public domain (artist died 1830); verify the file's tag when fetching"
+    distractors:
+      person: [Talleyrand, Castlereagh, Hardenberg]
+      era: [Baroque, Fin de siècle, Enlightenment]
+    links: [history.episode.congress-of-vienna, history.episode.1848-and-franz-joseph, art.term.biedermeier, opera.beethoven.fidelio]
+    tags: [vienna, habsburg, diplomat, congress, restoration, lawrence, portrait, 1800s]
+    sources:
+      - "Alan Sked, Metternich and Austria: An Evaluation (2008)"
+      - "Wolfram Siemann, Metternich: Strategist and Visionary (2019)"
+      - "Royal Collection Trust, catalogue entry for Sir Thomas Lawrence, Klemens Wenzel Lothar, Prince Metternich"
+      - "Oxford Dictionary of Quotations (8th ed., 2014), 'Metternich'"
+    reviewed_by: null
+
+  - id: history.person.franz-joseph
+    discipline: history
+    kind: person
+    title: "Franz Joseph I"
+    role: Emperor of Austria, King of Hungary
+    city: vienna
+    difficulty: 1
+    era: Ringstrasse era
+    year: 1830
+    year_end: 1916
+    facts:
+      - "Born at Schönbrunn on 18 August 1830; emperor at eighteen on 2 December 1848, when his uncle Ferdinand abdicated at Olomouc; died at Schönbrunn on 21 November 1916, after sixty-eight years, the longest reign in Habsburg history."
+      - "He went to Bad Ischl in August 1853 to meet his cousin Helene of Bavaria and chose her younger sister Elisabeth instead; they married in the Augustinerkirche on 24 April 1854."
+      - "Beaten by Prussia at Königgrätz in July 1866, he accepted the Compromise of 1867 that made Austria-Hungary, and was crowned King of Hungary in Buda on 8 June 1867 to Liszt's Coronation Mass."
+      - "His decree of December 1857 ordered the city walls down, and the Ringstrasse was his: the Opera opened in 1869, the Burgtheater in 1888, the Kunsthistorisches Museum in 1891. He worked from a desk from five in the morning, slept on an iron bedstead, and from 1886 had the Burgtheater actress Katharina Schratt as his companion, with the Empress's blessing."
+      - "He lost his brother Maximilian to a Mexican firing squad in 1867, his son Rudolf at Mayerling in 1889, his wife to an assassin in 1898 and his heir Franz Ferdinand at Sarajevo in 1914, and he outlived them all."
+    remark: "He came to the throne at eighteen in 1848 and was still on it in 1916; the Ringstrasse, the Opera and the Kunsthistorisches Museum are his, and he buried a brother, a son, a wife and an heir on the way."
+    gaffe: "Mixing him up with Franz Ferdinand. Franz Joseph is the whiskers and the sixty-eight years; Franz Ferdinand was his nephew, the heir shot at Sarajevo in 1914, and the old man outlived him by two years."
+    media:
+      image:
+        commons: "File:Franz Joseph I by Franz Xaver Winterhalter.jpg"
+        source: "Franz Xaver Winterhalter, Emperor Franz Joseph I in the uniform of an Austrian field marshal (1865), Kunsthistorisches Museum, Vienna, via Wikimedia Commons"
+        license: "Public domain (artist died 1873); verify the file's tag when fetching"
+    distractors:
+      person: [Franz Ferdinand, Wilhelm I of Germany, Maximilian of Mexico]
+      era: [Baroque, Enlightenment, Restoration]
+    links: [history.episode.1848-and-franz-joseph, history.episode.mayerling, history.person.elisabeth, opera.venue.staatsoper, art.venue.kunsthistorisches-museum, history.episode.end-of-old-europe]
+    tags: [vienna, habsburg, emperor, ringstrasse, winterhalter, portrait, 1800s]
+    sources:
+      - "Jean-Paul Bled, Franz Joseph (1992)"
+      - "Steven Beller, Francis Joseph (1996)"
+      - "Kunsthistorisches Museum Wien, Sisi Museum, catalogue entry for Winterhalter's portrait of Franz Joseph I (1865)"
+    reviewed_by: null
+
+  - id: history.person.elisabeth
+    discipline: history
+    kind: person
+    title: "Empress Elisabeth (Sisi)"
+    role: Empress of Austria, Queen of Hungary
+    city: vienna
+    difficulty: 1
+    era: Ringstrasse era
+    year: 1837
+    year_end: 1898
+    facts:
+      - "Born in Munich on Christmas Eve 1837, a daughter of Duke Max in Bavaria; married her cousin Franz Joseph at sixteen on 24 April 1854, having gone to Bad Ischl in August 1853 only to accompany her mother and her elder sister Helene, the intended bride."
+      - "Winterhalter painted her in 1865 in white tulle with diamond stars in her hair; the stars were real, made by the court jeweller Köchert, and the portrait hangs in the Hofburg. She refused to be photographed after her early thirties, so it is the face the world kept."
+      - "She kept a waist of about fifty centimetres with riding, walking and a set of gymnastic rings in her apartments; her hair took hours a day; she learned Hungarian, championed the Compromise of 1867, was crowned Queen of Hungary that June and was given Gödöllő as a coronation present."
+      - "She read Heine, wrote verse, built the Achilleion on Corfu about 1890 and then tired of it; after Mayerling she wore black and travelled almost without pause."
+      - "On 10 September 1898, walking to a lake steamer on the quay at Geneva, she was stabbed through the heart with a sharpened file by the anarchist Luigi Lucheni and died within the hour. The 1950s films with Romy Schneider spell her 'Sissi'; the family spelling is Sisi."
+    remark: "The diamond stars in the Winterhalter portrait were real, made by Köchert, and the waist underneath was about fifty centimetres; she stopped allowing photographs in her early thirties, so the 1865 picture is the face the world kept."
+    gaffe: "Spelling her Sissi. That is the Romy Schneider films of the 1950s; the family spelling is Sisi, and she was Bavarian, not Austrian, a duchess in Bavaria married to her cousin at sixteen."
+    media:
+      image:
+        commons: "File:Winterhalter Elisabeth 2.jpg"
+        source: "Franz Xaver Winterhalter, Empress Elisabeth of Austria in Courtly Gala Dress with Diamond Stars (1865), Hofburg, Vienna, via Wikimedia Commons"
+        license: "Public domain (artist died 1873); verify the file's tag when fetching"
+    distractors:
+      person: [Empress Eugénie, Carlota of Mexico, Queen Victoria]
+      era: [Baroque, Enlightenment, Restoration]
+    links: [history.episode.mayerling, history.person.franz-joseph, art.venue.kunsthistorisches-museum, opera.strauss-ii.die-fledermaus]
+    tags: [vienna, habsburg, empress, sisi, winterhalter, portrait, hungary, 1800s]
+    sources:
+      - "Brigitte Hamann, The Reluctant Empress: A Biography of Empress Elisabeth of Austria (1986)"
+      - "Kunsthistorisches Museum Wien, Sisi Museum, catalogue entry for Winterhalter's portrait of Empress Elisabeth (1865)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Apocrypha
+  # ---------------------------------------------------------------------------
+
+  - id: history.apocrypha.mozart-proposes-to-marie-antoinette
+    discipline: history
+    kind: apocrypha
+    title: "The child Mozart proposes to Marie Antoinette"
+    attributed_to: Wolfgang Amadeus Mozart
+    verdict: embellished
+    claim: "At Schönbrunn in 1762 the six-year-old Mozart slipped on the polished floor, was picked up by the little Archduchess Maria Antonia, and announced that he would marry her when he grew up."
+    truth: "The visit happened: Leopold Mozart's letter of 16 October 1762 describes Wolfgang playing at Schönbrunn on 13 October, jumping into the Empress's lap and kissing her. The slip on the floor and the proposal are not in the letter, the only contemporary account, and appear only in later biography; they cannot be verified."
+    city: vienna
+    difficulty: 1
+    era: Enlightenment
+    year: 1762
+    facts:
+      - "The Mozarts, on their first tour, were received by Maria Theresa at Schönbrunn on 13 October 1762; Leopold's letter home of 16 October reports the Empress's kindness and the boy jumping into her lap, and says nothing of a proposal."
+      - "Maria Antonia, the future Marie Antoinette, was born on 2 November 1755 and was six that October, as was Mozart, born on 27 January 1756; she left for France and the Dauphin in 1770."
+      - "Gluck's Orfeo ed Euridice had opened at the Burgtheater on 5 October 1762, the week before the Mozarts arrived."
+    remark: "What Leopold actually wrote home in October 1762 was that Wolferl jumped into the Empress's lap and kissed her; the slip on the floor and the proposal to the future Marie Antoinette came later, when both children were famous for other reasons."
+    gaffe: "Telling it as Mozart proposing to the Queen of France. In 1762 she was Maria Antonia, the Empress's fifteenth child, aged six, and the French marriage was eight years off; and the proposal is not in the one letter that describes the day."
+    links: [history.person.maria-theresa, history.person.marie-antoinette, history.apocrypha.let-them-eat-cake, opera.gluck.orfeo-ed-euridice, opera.mozart.le-nozze-di-figaro]
+    tags: [vienna, mozart, marie-antoinette, schoenbrunn, anecdote, 1760s]
+    sources:
+      - "Emily Anderson (ed.), The Letters of Mozart and His Family (3rd ed., 1985), Leopold Mozart to Lorenz Hagenauer, 16 October 1762"
+      - "Otto Erich Deutsch, Mozart: A Documentary Biography (1965)"
+      - "Maynard Solomon, Mozart: A Life (1995)"
+    reviewed_by: null
+
+  - id: history.apocrypha.salieri-poisoned-mozart
+    discipline: history
+    kind: apocrypha
+    title: "Salieri poisoned Mozart"
+    attributed_to: Antonio Salieri
+    verdict: invented
+    claim: "Antonio Salieri, the court Kapellmeister, poisoned Mozart out of jealousy and confessed to it on his deathbed."
+    truth: "Mozart died on 5 December 1791 after about two weeks of illness; the death register gives 'hitziges Frieselfieber', an acute fever with a rash. A Berlin paper printed the poisoning rumour within the month, with no evidence. In 1823, old and in mental decline, Salieri was said to have accused himself; he denied it to Moscheles on his word of honour, and the rumour survives mostly in Beethoven's conversation books. Pushkin's play Mozart and Salieri (1830), Rimsky-Korsakov's opera (1898) and Shaffer's Amadeus (1979) made the story permanent."
+    city: vienna
+    difficulty: 2
+    era: Classical
+    year: 1791
+    facts:
+      - "Seven weeks before he died Mozart took Salieri to Die Zauberflöte, and wrote to Constanze on 14 October 1791 that Salieri had called out bravo at every number."
+      - "Salieri taught Beethoven, Schubert, Liszt and Mozart's own younger son Franz Xaver; he was Kapellmeister to the imperial court from 1788 until 1824 and died on 7 May 1825."
+      - "Peter Shaffer's Amadeus opened at the National Theatre in London in 1979, and Milos Forman's film of 1984 won eight Academy Awards; Pushkin's little tragedy of 1830 had already put the poison in Salieri's hand."
+    remark: "Salieri taught Beethoven, Schubert, Liszt and Mozart's own younger son, which is not what you do with the family of a man you have murdered; the poison is Pushkin's, from 1830, and Shaffer's, from 1979."
+    gaffe: "Taking Amadeus for biography. The register says fever, the poisoning story was gossip within a month, and Salieri's supposed confession is a rumour from his dementia in 1823, denied by him and preserved second-hand in Beethoven's conversation books."
+    links: [opera.mozart.die-zauberfloete, opera.mozart.le-nozze-di-figaro, opera.da-ponte, history.episode.joseph-ii-and-mozart, music.beethoven.symphony-5.i]
+    tags: [vienna, mozart, salieri, myth, amadeus, 1790s]
+    sources:
+      - "Grove Music Online, 'Salieri, Antonio'"
+      - "H. C. Robbins Landon, 1791: Mozart's Last Year (1988)"
+      - "Otto Erich Deutsch, Mozart: A Documentary Biography (1965)"
+      - "Emily Anderson (ed.), The Letters of Mozart and His Family (3rd ed., 1985), Mozart to Constanze, 14 October 1791"
+    reviewed_by: null

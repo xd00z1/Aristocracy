@@ -1,0 +1,349 @@
+# Florence: thin for concert music, so it teaches what it is best placed to
+# teach: the Trecento, the 1589 intermedi and the Camerata (the birth of opera
+# itself belongs to the opera file), Frescobaldi at the Medici court, the
+# Florentines and Lucchesi who made their names elsewhere (Lully, Cherubini,
+# Boccherini, Puccini), the Maggio Musicale, and the terms that were coined or
+# argued over here. No themes: none of the opening melodies here could be
+# notated with certainty, and a guessed theme is worse than none.
+items:
+  - id: music.landini.ecco-la-primavera
+    discipline: music
+    kind: work
+    title: "Ecco la primavera"
+    creator: Francesco Landini
+    city: florence
+    difficulty: 3
+    era: Trecento
+    year: 1370
+    year_approx: true
+    facts:
+      - "A two-voice ballata by Francesco Landini (c. 1325–1397), the blind organist of San Lorenzo and the leading composer of the Italian Trecento; more than 150 of his pieces survive, almost all of them ballate."
+      - "Landini's music is preserved chiefly in the Squarcialupi Codex, an illuminated manuscript of the early 1400s now in the Biblioteca Medicea Laurenziana in Florence, which gives him nearly 150 pieces and a portrait with his portative organ."
+      - "The 'Landini cadence', in which the melody dips to the sixth before rising to the octave, is named after him, though he did not invent it."
+    remark: "Landini was blinded by smallpox as a child and became the most famous organist in Florence; his tomb slab in San Lorenzo shows him holding the little portative organ he played."
+    gaffe: "Hearing 'Trecento' and thinking of the thirteenth century. It is Italian for the 1300s: the century of Landini, Petrarch and Boccaccio."
+    distractors:
+      creator: [Guillaume de Machaut, Jacopo da Bologna, Philippe de Vitry]
+      title: ["Non avrà ma' pietà", "Douce dame jolie", "Fenice fu"]
+      era: [Renaissance, Ars antiqua, Early Baroque]
+    links: [music.term.madrigal]
+    tags: [ballata, trecento, medieval, landini, 1300s]
+    sources:
+      - "Grove Music Online, 'Landini, Francesco'"
+      - "Grove Music Online, 'Squarcialupi Codex'"
+    reviewed_by: null
+
+  - id: music.intermedi.la-pellegrina-1589
+    discipline: music
+    kind: work
+    title: "The Florentine intermedi of 1589 (La Pellegrina)"
+    creator: "Cristofano Malvezzi, Luca Marenzio, Emilio de' Cavalieri and others"
+    city: florence
+    difficulty: 2
+    era: Late Renaissance
+    year: 1589
+    facts:
+      - "Six musical interludes performed between the acts of Girolamo Bargagli's comedy La Pellegrina in the Uffizi theatre on 2 May 1589, for the wedding of Grand Duke Ferdinando I de' Medici and Christine of Lorraine."
+      - "Count Giovanni de' Bardi devised the programme on the power of music; Bernardo Buontalenti designed the sets and machines; the composers included Malvezzi, Marenzio, Cavalieri, Jacopo Peri and Giulio Caccini, and the music was printed in 1591."
+      - "The closing ballo, Cavalieri's 'O che nuovo miracolo', travelled across Europe as the 'Aria di Fiorenza' or 'Ballo del Granduca' and served keyboard composers as a theme for variations for a century."
+    remark: "The 1589 intermedi were a dress rehearsal for opera without anyone intending it: Peri sang Arion in the fifth, Caccini wrote for the fourth, and within eleven years both had composed an Euridice."
+    gaffe: "Calling them the first opera. They are spectacle between the acts of a spoken comedy; the first operas came from the same circle a decade later."
+    distractors:
+      creator: [Claudio Monteverdi, Giovanni Gabrieli, Carlo Gesualdo]
+      title: ["L'Orfeo", "Euridice", "Il ballo delle ingrate"]
+      era: [High Baroque, Trecento, Classical]
+    links: [music.movement.florentine-camerata, music.caccini.amarilli-mia-bella, music.term.madrigal]
+    tags: [intermedi, medici, renaissance, spectacle, 1580s]
+    sources:
+      - "Nina Treadwell, Music and Wonder at the Medici Court: The 1589 Interludes for La pellegrina (2008)"
+      - "Grove Music Online, 'Intermedio'"
+    reviewed_by: null
+
+  - id: music.caccini.amarilli-mia-bella
+    discipline: music
+    kind: work
+    title: "Amarilli, mia bella"
+    parent: "Le nuove musiche (1602)"
+    creator: Giulio Caccini
+    city: florence
+    difficulty: 2
+    era: Early Baroque
+    year: 1602
+    facts:
+      - "A solo song from Le nuove musiche, the collection Caccini published in Florence in 1602 with a preface that is the manifesto of the new style: one voice over a bass, the words ruling the rhythm, the ornaments written out and explained."
+      - "The poem is attributed to Alessandro Guarini; the song was copied, printed and arranged all over Europe within a generation and is in every singing student's Arie antiche."
+      - "Caccini's preface borrows Castiglione's word sprezzatura for the singer's studied nonchalance with the beat."
+      - "His daughter Francesca Caccini composed La liberazione di Ruggiero (Florence, 1625), generally called the first opera by a woman."
+    remark: "Caccini's preface to Le nuove musiche borrows the courtier's word sprezzatura: sing it with a studied carelessness about the beat, over a bass that keeps its own counsel."
+    gaffe: "Attributing the 'Caccini Ave Maria' to him. It was written around 1970 by the Soviet lutenist Vladimir Vavilov, who put it out as anonymous; Caccini's name attached itself later."
+    distractors:
+      creator: [Jacopo Peri, Claudio Monteverdi, Luca Marenzio]
+      title: ["Cruda Amarilli", "Lasciatemi morire", "Dovrò dunque morire"]
+      era: [Renaissance, High Baroque, Classical]
+    links: [music.movement.florentine-camerata, music.term.monody, music.term.basso-continuo, music.intermedi.la-pellegrina-1589]
+    tags: [song, monody, caccini, early-baroque, 1600s]
+    sources:
+      - "Grove Music Online, 'Caccini, Giulio'"
+      - "Giulio Caccini, Le nuove musiche, ed. H. Wiley Hitchcock (1970)"
+    reviewed_by: null
+
+  - id: music.frescobaldi.fiori-musicali
+    discipline: music
+    kind: work
+    title: "Fiori musicali"
+    creator: Girolamo Frescobaldi
+    city: florence
+    difficulty: 2
+    era: Early Baroque
+    year: 1635
+    facts:
+      - "Three organ masses (for Sundays, for the Apostles, for the Madonna) made up of toccatas, Kyrie versets, canzonas and ricercars, published in Venice in 1635; a bergamasca and a capriccio on a popular tune close the book."
+      - "Frescobaldi, born in Ferrara in 1583, was organist of St Peter's in Rome from 1608; the Medici brought him to Florence in 1628 and he served Grand Duke Ferdinando II until 1634, returning to Rome the year before Fiori musicali appeared."
+      - "J. S. Bach owned a manuscript copy of the whole collection, signed and dated by him in Weimar in 1714; Froberger came from Vienna to study with Frescobaldi in Rome in the late 1630s."
+    remark: "Bach owned a manuscript copy of the whole of Fiori musicali, signed and dated in Weimar in 1714, which tells you what he thought of it; the organ fugue's grandparents live in that book."
+    gaffe: "Calling Frescobaldi a Florentine. He was from Ferrara and worked mostly in Rome; Florence had him for six years, 1628 to 1634, on the Grand Duke's payroll."
+    distractors:
+      creator: [Claudio Monteverdi, Giovanni Gabrieli, Johann Jakob Froberger]
+      title: ["Toccate e partite d'intavolatura di cimbalo, Book I", "Il primo libro di capricci", "Arie musicali"]
+      era: [Renaissance, High Baroque, Classical]
+    links: [music.term.basso-continuo, music.caccini.amarilli-mia-bella]
+    tags: [organ, keyboard, frescobaldi, medici, 1630s]
+    sources:
+      - "Grove Music Online, 'Frescobaldi, Girolamo'"
+      - "Frederick Hammond, Girolamo Frescobaldi (1983)"
+    reviewed_by: null
+
+  - id: music.boccherini.minuet-op11-5
+    discipline: music
+    kind: work
+    title: "Minuet from the String Quintet in E major, Op. 11 No. 5"
+    parent: "String Quintet in E major, Op. 11 No. 5, G 275 (1771)"
+    creator: Luigi Boccherini
+    city: florence
+    difficulty: 1
+    era: Classical
+    year: 1771
+    facts:
+      - "The third movement of a quintet for two violins, viola and two cellos composed in 1771, one of a set of six; the quintet is in E major but the minuet is in A."
+      - "Boccherini was born in Lucca in 1743, a cellist who wrote his own cello part into the quintets; from 1770 he served the Infante Luis in Spain, and he died in Madrid in 1805."
+      - "In Alexander Mackendrick's The Ladykillers (1955) it is the record the criminals play while pretending to rehearse as a string quintet."
+    remark: "The minuet everyone knows comes from a quintet with two cellos, because Boccherini was a cellist and wrote the quintets for himself to play; it is in A major though the quintet is in E."
+    gaffe: "Attributing it to Haydn. Boccherini was called 'Haydn's wife' in his lifetime, which was unkind and inaccurate: he spent his career in Spain, not Esterháza, and his textures are lighter."
+    distractors:
+      creator: [Joseph Haydn, Wolfgang Amadeus Mozart, Carl Ditters von Dittersdorf]
+      title: ["Cello Concerto in B-flat major, G 482", "String Quintet in C major, 'Night Music of the Streets of Madrid'", "String Quintet in D major, 'Fandango'"]
+      era: [Baroque, Romantic, Renaissance]
+    links: [music.puccini]
+    tags: [quintet, minuet, boccherini, lucca, 1770s]
+    sources:
+      - "Grove Music Online, 'Boccherini, Luigi'"
+      - "Elisabeth Le Guin, Boccherini's Body: An Essay in Carnal Musicology (2006)"
+    reviewed_by: null
+
+  - id: music.lully
+    discipline: music
+    kind: creator
+    title: "Jean-Baptiste Lully"
+    city: florence
+    difficulty: 1
+    era: Baroque
+    year: 1632
+    year_end: 1687
+    facts:
+      - "Born Giovanni Battista Lulli in Florence on 28 November 1632, a miller's son; taken to Paris in 1646 to serve the Grande Mademoiselle, and naturalised French in 1661."
+      - "Danced beside the young Louis XIV in the Ballet de la Nuit in 1653, wrote the comédies-ballets with Molière, including Le Bourgeois gentilhomme (1670), and from 1672 held the royal monopoly on opera."
+      - "Died in 1687 of gangrene after striking his foot with the long staff he used to beat time, while conducting his Te Deum for the king's recovery."
+    remark: "The founder of French opera was a Florentine miller's son who did not become French until he was nearly thirty: Lulli turned into Lully by letters of naturalisation in 1661."
+    gaffe: "Treating the story of his death as a legend. He really did strike his foot with his conducting staff and die of the gangrene, in 1687; the surprise is that it is attested."
+    distractors:
+      person: [Marc-Antoine Charpentier, Jean-Philippe Rameau, Francesco Cavalli]
+      era: [Renaissance, Classical, Romantic]
+    links: [music.cherubini, music.movement.florentine-camerata]
+    tags: [composer, french-baroque, versailles, florence, 1600s]
+    sources:
+      - "Grove Music Online, 'Lully, Jean-Baptiste'"
+      - "Jérôme de La Gorce, Jean-Baptiste Lully (2002)"
+    reviewed_by: null
+
+  - id: music.cherubini
+    discipline: music
+    kind: creator
+    title: "Luigi Cherubini"
+    city: florence
+    difficulty: 2
+    era: Classical / early Romantic
+    year: 1760
+    year_end: 1842
+    facts:
+      - "Born in Florence in September 1760; came to Paris in 1786 and, after one last Italian commission at Turin, settled there for good in 1788, directing the Conservatoire from 1822 until a month before his death in 1842."
+      - "His Requiem in C minor was written for the anniversary of Louis XVI's execution and first sung at Saint-Denis on 21 January 1817; his opera Médée (1797) is the one that returns to the stage, usually in the Italian version with Franz Lachner's recitatives of 1855."
+      - "Ingres painted him in 1842 with the Muse of Lyric Poetry holding a hand over his head; the picture is in the Louvre. Berlioz's Mémoires make him the villain of the Conservatoire, which is one side of the story."
+      - "Florence's conservatory, the Conservatorio Luigi Cherubini, is named after him."
+    remark: "Cherubini was a Florentine who became the most powerful musician in Paris: Ingres painted him, Berlioz mocked him, Beethoven admired him, and Florence named its conservatory after him."
+    gaffe: "Assuming Callas's Medea is the original. Cherubini's Médée is a French opera of 1797 with spoken dialogue; the sung recitatives are Franz Lachner's, added in 1855."
+    distractors:
+      person: [Gaspare Spontini, Antonio Salieri, Étienne Méhul]
+      era: [Baroque, High Romantic, Renaissance]
+    links: [music.lully, music.beethoven.symphony-5.i]
+    tags: [composer, paris, conservatoire, requiem, 1800s]
+    sources:
+      - "Grove Music Online, 'Cherubini, Luigi'"
+      - "Basil Deane, Cherubini (1965)"
+    reviewed_by: null
+
+  - id: music.puccini
+    discipline: music
+    kind: creator
+    title: "Giacomo Puccini"
+    city: florence
+    difficulty: 1
+    era: Late Romantic / verismo
+    year: 1858
+    year_end: 1924
+    facts:
+      - "Born in Lucca on 22 December 1858, the fifth generation of a family that had run the music at Lucca's cathedral of San Martino since the eighteenth century."
+      - "Gianni Schicchi, the comedy that closes Il trittico (New York, 1918), is set in Florence in 1299 and takes its plot from a mention in Dante's Inferno; 'O mio babbino caro' names Porta Rossa, the Ponte Vecchio and the Arno."
+      - "He lived from the 1890s at Torre del Lago, on a lake near Lucca, shooting waterfowl between operas, and is buried in the villa there; he died in Brussels in 1924 leaving Turandot unfinished, and Franco Alfano completed it."
+    remark: "Puccini was Lucchese, not Florentine, from a family that had run Lucca's cathedral music for over a century; his one Florentine piece is Gianni Schicchi, which puts a fraudster from Dante's Inferno on stage."
+    gaffe: "Calling him a Florentine, or a Milanese because of La Scala. He was born in Lucca, lived by the lake at Torre del Lago, and the distinction matters in Tuscany."
+    distractors:
+      person: [Pietro Mascagni, Ruggero Leoncavallo, Umberto Giordano]
+      era: [Baroque, Classical, Modernist]
+    links: [music.boccherini.minuet-op11-5, music.venue.maggio-musicale-fiorentino]
+    tags: [composer, opera, lucca, verismo, 1900s]
+    sources:
+      - "Grove Music Online, 'Puccini, Giacomo'"
+      - "Julian Budden, Puccini: His Life and Works (2002)"
+    reviewed_by: null
+
+  - id: music.movement.florentine-camerata
+    discipline: music
+    kind: movement
+    title: "The Florentine Camerata"
+    city: florence
+    difficulty: 1
+    era: Late Renaissance
+    year: 1573
+    year_approx: true
+    facts:
+      - "A circle of noblemen, musicians and scholars who met at the house of Count Giovanni de' Bardi in Florence from about 1573 into the 1580s to discuss, among other things, how the ancient Greeks had sung their tragedies."
+      - "Vincenzo Galilei, Galileo's father, was its leading theorist; his Dialogo della musica antica et della moderna (1581) argued that counterpoint smothered the words and that a single voice over a simple accompaniment moved the passions better."
+      - "Giulio Caccini belonged to it; Jacopo Peri did not. The first operas, Dafne (1598) and Euridice (1600), came from a later circle around Jacopo Corsi, after Bardi had gone to Rome in 1592."
+    remark: "The Camerata did not invent opera, whatever the programme note says; it was a talking shop at Bardi's house about how the Greeks sang their tragedies, and Galileo's father was its loudest voice."
+    gaffe: "Saying the Camerata wrote the first opera. Dafne and Euridice came from Jacopo Corsi's circle in the 1590s, after Bardi had left Florence for Rome."
+    distractors:
+      title: ["The Accademia della Crusca", "The Accademia degli Incogniti", "The Accademia dei Lincei"]
+      era: [High Baroque, Classical, Trecento]
+    links: [music.caccini.amarilli-mia-bella, music.term.monody, music.intermedi.la-pellegrina-1589, music.term.madrigal]
+    tags: [movement, medici, monody, opera, 1570s]
+    sources:
+      - "Claude V. Palisca, The Florentine Camerata: Documentary Studies and Translations (1989)"
+      - "Grove Music Online, 'Camerata'"
+    reviewed_by: null
+
+  - id: music.venue.maggio-musicale-fiorentino
+    discipline: music
+    kind: venue
+    title: "Maggio Musicale Fiorentino"
+    location: Florence
+    city: florence
+    difficulty: 1
+    era: Twentieth century
+    year: 1933
+    facts:
+      - "Italy's oldest music festival, founded in 1933 by the conductor Vittorio Gui, who had set up the city's permanent orchestra five years earlier; it began as a festival for the month of May and now runs into the summer."
+      - "Its home for eighty years was the Teatro Comunale on the Corso Italia, a nineteenth-century politeama; in 2014 it moved to a new house by the Cascine park, opened in stages from December 2011 and now called the Teatro del Maggio."
+      - "Riccardo Muti was its principal conductor from 1968 to 1980 and Zubin Mehta from 1985 for more than thirty years."
+    remark: "Maggio means May: Vittorio Gui started it as a May festival in 1933, which makes it the oldest in Italy, and Muti and then Mehta ran its orchestra for most of the last half-century."
+    gaffe: "Saying 'the Florence opera house' and meaning La Pergola. The Teatro della Pergola is the old court theatre where Verdi's Macbeth had its premiere in 1847; the Maggio's home is the new Teatro del Maggio by the Cascine."
+    distractors:
+      title: ["Rossini Opera Festival, Pesaro", "Festival dei Due Mondi, Spoleto", "Arena di Verona Festival"]
+    links: [music.puccini]
+    tags: [venue, festival, florence, 1930s, opera-house]
+    sources:
+      - "Grove Music Online, 'Florence'"
+      - "Teatro del Maggio Musicale Fiorentino, official history"
+    reviewed_by: null
+
+  - id: music.term.madrigal
+    discipline: music
+    kind: term
+    title: Madrigal
+    city: florence
+    difficulty: 1
+    era: Renaissance
+    definition: "A secular Italian part-song of the sixteenth century, usually for four to six unaccompanied voices, setting a serious poem line by line so that the music follows the sense of the words."
+    pronunciation: "MAD-ri-gul"
+    language: Italian
+    facts:
+      - "It began in Florence and Rome in the 1520s and 1530s with Verdelot and Arcadelt, both of whom worked in Florence, and reached its height with Marenzio, Gesualdo and Monteverdi."
+      - "Word-painting is its signature: the line climbs on 'heaven', stops on 'death', sighs on 'sospiri'."
+      - "Monteverdi's eight books of madrigals (1587 to 1638) trace the form's whole passage from unaccompanied polyphony to voices with continuo; the fourteenth-century madrigal of Landini's time is a different form that shares only the name."
+    remark: "The madrigal is where word-painting lives, a rising line on 'heaven' and a discord on 'death'; Marenzio did it best and Gesualdo did it strangest."
+    gaffe: "Confusing it with the motet. A motet is sacred and Latin; a madrigal is secular and Italian, or, after Musica transalpina in 1588, English."
+    distractors:
+      term:
+        - "A sacred Latin motet for the Mass, sung by a choir without instruments."
+        - "A strophic Neapolitan street song in three parts with a refrain, deliberately rustic in style."
+        - "A solo song with lute accompaniment fashionable at the Elizabethan court."
+    links: [music.caccini.amarilli-mia-bella, music.term.monody, music.intermedi.la-pellegrina-1589, music.landini.ecco-la-primavera]
+    tags: [term, renaissance, polyphony, madrigal]
+    sources:
+      - "Grove Music Online, 'Madrigal'"
+      - "Alfred Einstein, The Italian Madrigal (1949)"
+    reviewed_by: null
+
+  - id: music.term.basso-continuo
+    discipline: music
+    kind: term
+    title: Basso continuo
+    city: florence
+    difficulty: 1
+    era: Baroque
+    definition: "The continuous bass line under most music from about 1600 to 1750, played by a bass instrument together with a chord instrument such as harpsichord, organ or lute, whose player improvises the harmonies, often from figures written under the notes."
+    pronunciation: "BAH-so con-TEE-nwo"
+    language: Italian
+    facts:
+      - "Figured bass first appeared in print around 1600, in Cavalieri's Rappresentatione di Anima, et di Corpo in Rome and Peri's Euridice in Florence; Caccini's Le nuove musiche followed in 1602."
+      - "The figures are intervals above the bass; the keyboard player realises them on the spot, so two performances of the same continuo part need never sound the same."
+      - "Historians have called the Baroque 'the thoroughbass era' because the practice bounds it so neatly: it arrives around 1600 and fades after 1750."
+    remark: "Continuo is why a Baroque band always has a harpsichordist who never seems to have a tune: they are reading a bass line with numbers under it and inventing the chords."
+    gaffe: "Assuming the figures under the bass are fingering. They are intervals above the bass, and the player is improvising the chords from them, not reading a written part."
+    distractors:
+      term:
+        - "A short bass melody repeated over and over while the upper parts vary, as in a chaconne or passacaglia."
+        - "The lowest voice part in an opera chorus, sung throughout without rests."
+        - "The sustained pedal note held under a cadenza in a concerto."
+    links: [music.caccini.amarilli-mia-bella, music.term.monody, music.frescobaldi.fiori-musicali]
+    tags: [term, baroque, continuo, harpsichord]
+    sources:
+      - "Grove Music Online, 'Continuo'"
+      - "F. T. Arnold, The Art of Accompaniment from a Thorough-Bass (1931)"
+    reviewed_by: null
+
+  - id: music.term.monody
+    discipline: music
+    kind: term
+    title: Monody
+    city: florence
+    difficulty: 1
+    era: Early Baroque
+    definition: "Italian solo song of around 1600 to 1640: one voice over a basso continuo, with the singer's rhythm following the words like heightened speech; the style in which the first operas were written."
+    pronunciation: "MON-uh-dee"
+    facts:
+      - "Caccini's Le nuove musiche (Florence, 1602) is the first large printed collection of monodies, with a preface explaining how they should be sung."
+      - "The Florentines called the speech-like kind stile recitativo or stile rappresentativo; 'monody' is the historians' word, not theirs."
+      - "Monteverdi's Lamento d'Arianna (1608), the one surviving piece of his lost opera Arianna, is the most famous monody of all; he later reworked it as a five-voice madrigal."
+    remark: "Monody is one voice and a bass, with the rhythm of speech; the Florentines believed that was how Greek tragedy had sounded, and it is the difference between a madrigal and an opera."
+    gaffe: "Using 'monody' to mean 'monophony'. Plainchant is monophony, one line and nothing else; monody has a bass under the voice, which is the whole point."
+    distractors:
+      term:
+        - "Music in a single unaccompanied line, such as plainchant."
+        - "A polyphonic texture in which every voice sings the same words in the same rhythm."
+        - "A canon in which one melody is sung by two voices entering at different times."
+    links: [music.caccini.amarilli-mia-bella, music.movement.florentine-camerata, music.term.basso-continuo, music.term.madrigal]
+    tags: [term, early-baroque, song, florence]
+    sources:
+      - "Grove Music Online, 'Monody'"
+      - "Nigel Fortune, 'Italian Secular Monody from 1600 to 1635: An Introductory Survey', Musical Quarterly (1953)"
+    reviewed_by: null

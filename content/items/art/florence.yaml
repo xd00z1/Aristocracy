@@ -1,0 +1,452 @@
+# Florence: the Renaissance taught where it happened. The Uffizi (Botticelli,
+# Michelangelo's one panel), the Accademia and the Bargello (the two Davids),
+# the Brancacci Chapel, the Baptistery doors, San Marco, and the dome. Creators
+# are the beginning (Giotto) and the engineer (Brunelleschi); Botticelli and
+# Michelangelo are taught through their works. Sculpture images need
+# public-domain photographs, so where a nineteenth-century print exists on
+# Commons it is used; Donatello's David has none confirmed and carries no image.
+items:
+  # ---------------------------------------------------------------------------
+  # Works
+  # ---------------------------------------------------------------------------
+
+  - id: art.botticelli.birth-of-venus
+    discipline: art
+    kind: work
+    title: "The Birth of Venus"
+    creator: Sandro Botticelli
+    city: florence
+    difficulty: 1
+    era: Early Renaissance
+    year: 1485
+    year_approx: true
+    facts:
+      - "Tempera on canvas, about 172 by 278 centimetres, in the Uffizi; canvas was an unusual support in fifteenth-century Florence, where panel was the rule."
+      - "First recorded by Vasari in 1550 at the Medici villa at Castello, together with the Primavera; who commissioned it is not documented, though Lorenzo di Pierfrancesco de' Medici is the usual guess."
+      - "Venus stands in the pose of an ancient Venus pudica, blown ashore by Zephyr while a figure usually identified as one of the Horae holds out a flowered cloak."
+      - "The subject is usually traced to Poliziano's Stanze per la giostra, a poem of the 1470s for Giuliano de' Medici that describes the birth of Venus."
+    remark: "Nobody knows who ordered it: it turns up first in 1550, when Vasari saw it at the Medici villa at Castello beside the Primavera, and everything said about Lorenzo di Pierfrancesco commissioning it is inference."
+    gaffe: "Looking for it in the Accademia. That is where the David is; the Venus is in the Uffizi, in the same room as the Primavera, and it is on canvas, not fresco."
+    media:
+      image:
+        commons: "File:Sandro Botticelli - La nascita di Venere - Google Art Project - edited.jpg"
+        source: "Uffizi, Florence, via Wikimedia Commons (Google Art Project)"
+        license: "Public domain (artist died 1510); verify the file's tag when fetching"
+        focus: { x: 0.52, y: 0.3 }
+    distractors:
+      creator: [Domenico Ghirlandaio, Filippino Lippi, Piero di Cosimo]
+      title: ["Primavera", "Venus and Mars", "Pallas and the Centaur"]
+      era: [High Renaissance, Mannerist, Venetian Renaissance]
+    links: [art.botticelli.primavera, art.movement.renaissance]
+    tags: [painting, tempera, mythology, uffizi, medici, 1480s]
+    sources:
+      - "Uffizi Galleries, catalogue entry 'The Birth of Venus'"
+      - "Ronald Lightbown, Sandro Botticelli: Life and Work (1989)"
+      - "Giorgio Vasari, Lives of the Artists (1550/1568), Life of Botticelli"
+    reviewed_by: null
+
+  - id: art.botticelli.primavera
+    discipline: art
+    kind: work
+    title: "Primavera"
+    creator: Sandro Botticelli
+    city: florence
+    difficulty: 1
+    era: Early Renaissance
+    year: 1480
+    year_approx: true
+    facts:
+      - "Tempera on panel, about 203 by 314 centimetres; listed in a 1499 inventory of the Florentine town house of Lorenzo and Giovanni di Pierfrancesco de' Medici, and seen by Vasari at the villa at Castello in 1550."
+      - "Read from right to left: Zephyr seizes the nymph Chloris, who turns into Flora, the figure scattering roses, as told in Ovid's Fasti; Venus stands in the middle with a blindfolded Cupid above her, then the three Graces, then Mercury."
+      - "The title is not Botticelli's: Vasari described the picture as Venus adorned by the Graces with flowers, 'denoting spring', and Primavera stuck."
+      - "Botanists have identified well over a hundred species of plants in the meadow, most of them flowering in spring."
+    remark: "Read it from right to left: the blue Zephyr grabs the nymph Chloris, flowers spill from her mouth, and she becomes Flora next to her; the story is from Ovid's Fasti, and the title is Vasari's, not Botticelli's."
+    gaffe: "Confusing it with the Birth of Venus. Venus is in both, but here she is clothed and standing in an orange grove, there is no shell, and it is on panel rather than canvas."
+    media:
+      image:
+        commons: "File:Botticelli-primavera.jpg"
+        source: "Uffizi, Florence, via Wikimedia Commons"
+        license: "Public domain (artist died 1510); verify the file's tag when fetching"
+        focus: { x: 0.68, y: 0.45 }
+    distractors:
+      creator: [Filippino Lippi, Domenico Ghirlandaio, Andrea del Verrocchio]
+      title: ["The Birth of Venus", "Venus and Mars", "The Adoration of the Magi"]
+      era: [High Renaissance, Mannerist, Baroque]
+    links: [art.botticelli.birth-of-venus, art.movement.renaissance]
+    tags: [painting, tempera, mythology, uffizi, medici, ovid, 1480s]
+    sources:
+      - "Uffizi Galleries, catalogue entry 'Spring (Primavera)'"
+      - "Ronald Lightbown, Sandro Botticelli: Life and Work (1989)"
+      - "Ovid, Fasti, Book V"
+    reviewed_by: null
+
+  - id: art.michelangelo.david
+    discipline: art
+    kind: work
+    title: "David"
+    creator: Michelangelo
+    city: florence
+    difficulty: 1
+    era: High Renaissance
+    year: 1501
+    year_end: 1504
+    facts:
+      - "Carved between 1501 and 1504 from a block of Carrara marble that Agostino di Duccio had roughed out in the 1460s and abandoned; it had lain in the cathedral workshop for decades before Michelangelo, aged twenty-six, was given it."
+      - "Meant for a buttress of the cathedral, it went instead to the front of the Palazzo della Signoria in 1504, after a committee that included Leonardo and Botticelli discussed where to put it."
+      - "Over five metres tall, it shows David before the fight, sling over his left shoulder; Donatello and Verrocchio had shown him afterwards, with Goliath's head at his feet."
+      - "Moved indoors to the Galleria dell'Accademia in 1873; the copy in the Piazza della Signoria dates from 1910."
+    remark: "It is the David before the fight, sling over the shoulder and no head at his feet, which is how you tell it from Donatello's; the republic put it outside the town hall in 1504, which was the point."
+    gaffe: "Admiring the marble in the Piazza della Signoria. That is a copy of 1910; the original went indoors to the Accademia in 1873, where it has a rotunda to itself."
+    media:
+      image:
+        commons: "File:Michelangelo David Philpot.jpg"
+        source: "Photograph by John Brampton Philpot, mid-nineteenth century, showing the statue outside the Palazzo Vecchio; National Gallery of Art Library, Washington, via Wikimedia Commons"
+        license: "Public Domain Mark (photographer died 1878); verify the file's tag when fetching"
+        focus: { x: 0.5, y: 0.2 }
+    distractors:
+      creator: [Donatello, Andrea del Verrocchio, Baccio Bandinelli]
+      title: ["Pietà", "Moses", "Bacchus"]
+      era: [Early Renaissance, Mannerist, Baroque]
+    links: [art.donatello.david, art.term.contrapposto, art.michelangelo.doni-tondo, art.movement.renaissance]
+    tags: [sculpture, marble, accademia, republic, 1500s]
+    sources:
+      - "Galleria dell'Accademia, Florence, catalogue entry 'David'"
+      - "Charles Seymour, Michelangelo's David: A Search for Identity (1967)"
+      - "Grove Art Online, 'Michelangelo'"
+    reviewed_by: null
+
+  - id: art.ghiberti.gates-of-paradise
+    discipline: art
+    kind: work
+    title: "The Gates of Paradise"
+    creator: Lorenzo Ghiberti
+    city: florence
+    difficulty: 1
+    era: Early Renaissance
+    year: 1425
+    year_end: 1452
+    facts:
+      - "Ghiberti's second pair of doors for the Baptistery, commissioned in 1425 and installed on the east side, facing the cathedral, in 1452; his first pair, won in the competition of 1401 against Brunelleschi, took from 1403 to 1424."
+      - "Ten square gilded-bronze panels of Old Testament scenes, from Adam and Eve to Solomon and Sheba, in place of the twenty-eight small quatrefoils of the earlier doors."
+      - "Vasari reports Michelangelo saying they were beautiful enough to be the gates of Paradise, which is where the name comes from."
+      - "The gilded originals, damaged in the flood of 1966, were restored over more than twenty years and have been shown since 2012 in the Museo dell'Opera del Duomo; the doors on the Baptistery are copies installed in 1990."
+      - "Ghiberti put his own portrait in the frame, a bald head looking out from among the prophets."
+    remark: "What you are looking at on the Baptistery is a copy from 1990; the gilded originals were battered by the 1966 flood and now live across the piazza in the Museo dell'Opera, and the name is Vasari's report of a remark by Michelangelo."
+    gaffe: "Saying Ghiberti won the 1401 competition with these. That contest, against Brunelleschi, was for the north doors; the Gates of Paradise are his second set, begun in 1425 and finished twenty-seven years later."
+    media:
+      image:
+        commons: "File:De gebeeldhouwde deuren van Lorenzo Ghiberti in het Baptisterium van de Dom in Florence 360 Firenze Porta del Battistero detta del Paradiso Ghiberti (titel op object), RP-F-00-6929.jpg"
+        source: "Nineteenth-century photograph of the doors, Rijksmuseum, Amsterdam, via Wikimedia Commons"
+        license: "Public domain / CC0 (Rijksmuseum release); verify the file's tag when fetching"
+        focus: { x: 0.5, y: 0.45 }
+    distractors:
+      creator: [Filippo Brunelleschi, Donatello, Andrea Pisano]
+      title: ["The North Doors of the Baptistery", "The Sacrifice of Isaac", "The Cantoria"]
+      era: [Gothic, High Renaissance, Baroque]
+    links: [art.brunelleschi, art.donatello.david, art.movement.renaissance]
+    tags: [sculpture, bronze, relief, baptistery, duomo, 1420s, 1450s]
+    sources:
+      - "Museo dell'Opera del Duomo, Florence, 'Porta del Paradiso'"
+      - "Richard Krautheimer, Lorenzo Ghiberti (1956)"
+      - "Giorgio Vasari, Lives of the Artists, Life of Lorenzo Ghiberti"
+    reviewed_by: null
+
+  - id: art.masaccio.expulsion-from-eden
+    discipline: art
+    kind: work
+    title: "The Expulsion from the Garden of Eden"
+    creator: Masaccio
+    city: florence
+    difficulty: 2
+    era: Early Renaissance
+    year: 1425
+    year_approx: true
+    facts:
+      - "A fresco of about 1425 on the entrance pier of the Brancacci Chapel in Santa Maria del Carmine, facing Masolino's Temptation of Adam and Eve on the opposite pier."
+      - "Masaccio, born Tommaso di ser Giovanni in 1401, died in Rome in 1428 aged twenty-six; Filippino Lippi finished the chapel's frescoes in the 1480s."
+      - "The fig leaves that covered Adam and Eve for three centuries, added in the late seventeenth century under the Medici grand dukes, were removed in the restoration completed in 1990."
+      - "Michelangelo's Expulsion on the Sistine ceiling echoes Adam's gesture; Vasari says the chapel was where the later Florentine painters went to learn."
+    remark: "For three hundred years they wore fig leaves put on under the Medici grand dukes; the restoration finished in 1990 took them off, and what is left is Masaccio, dead at twenty-six, painting grief as body weight, Eve howling and Adam hiding his face."
+    gaffe: "Treating Masaccio and Masolino as one painter, or as father and son. Two men, unrelated: Masolino painted the graceful Temptation across the arch, Masaccio the Expulsion, and the contrast is the point of the chapel."
+    media:
+      image:
+        commons: "File:Masaccio-TheExpulsionOfAdamAndEveFromEden-Restoration.jpg"
+        source: "Brancacci Chapel, Santa Maria del Carmine, Florence, via Wikimedia Commons"
+        license: "Public domain (artist died 1428); verify the file's tag when fetching"
+        focus: { x: 0.62, y: 0.28 }
+    distractors:
+      creator: [Masolino da Panicale, Fra Filippo Lippi, Paolo Uccello]
+      title: ["The Tribute Money", "The Holy Trinity", "The Temptation of Adam and Eve"]
+      era: [Gothic, High Renaissance, Mannerist]
+    links: [art.term.fresco, art.brunelleschi, art.movement.renaissance]
+    tags: [fresco, brancacci-chapel, carmine, adam-and-eve, 1420s]
+    sources:
+      - "Grove Art Online, 'Masaccio'"
+      - "Umberto Baldini and Ornella Casazza, The Brancacci Chapel Frescoes (1992)"
+      - "Giorgio Vasari, Lives of the Artists, Life of Masaccio"
+    reviewed_by: null
+
+  - id: art.donatello.david
+    discipline: art
+    kind: work
+    title: "David (bronze)"
+    creator: Donatello
+    city: florence
+    difficulty: 2
+    era: Early Renaissance
+    year: 1440
+    year_approx: true
+    facts:
+      - "Bronze, about 158 centimetres tall, in the Bargello; its date is not documented and estimates run from the 1430s to the 1450s."
+      - "Usually called the first free-standing nude statue since antiquity; David wears a laurelled hat and boots, nothing else, and stands on Goliath's severed head with a wing of Goliath's helmet running up the inside of his thigh."
+      - "First recorded in 1469, in the courtyard of the Medici palace, at the wedding of Lorenzo the Magnificent; after the Medici were expelled in 1494 it was moved to the courtyard of the Palazzo della Signoria."
+      - "Donatello had carved a marble David thirty years earlier, in 1408 to 1409, also now in the Bargello."
+    remark: "Hat, boots and nothing else, standing on Goliath's head: it is the first free-standing nude cast since antiquity, and it stood in the Medici courtyard, so this is what the inside of a fifteenth-century bank looked like."
+    gaffe: "Assuming 'the David' means Michelangelo's. In the Bargello it means this one, about sixty years older, bronze, life-size, and after the fight rather than before it."
+    distractors:
+      creator: [Andrea del Verrocchio, Lorenzo Ghiberti, Michelangelo]
+      title: ["Saint George", "Judith and Holofernes", "Gattamelata"]
+      era: [Gothic, High Renaissance, Mannerist]
+    links: [art.michelangelo.david, art.term.contrapposto, art.ghiberti.gates-of-paradise]
+    tags: [sculpture, bronze, nude, bargello, medici, 1440s]
+    sources:
+      - "Museo Nazionale del Bargello, Florence, catalogue entry 'David'"
+      - "H. W. Janson, The Sculpture of Donatello (1957)"
+      - "Grove Art Online, 'Donatello'"
+    reviewed_by: null
+
+  - id: art.fra-angelico.annunciation-san-marco
+    discipline: art
+    kind: work
+    title: "The Annunciation (San Marco)"
+    creator: Fra Angelico
+    city: florence
+    difficulty: 2
+    era: Early Renaissance
+    year: 1440
+    year_approx: true
+    facts:
+      - "A fresco at the top of the stairs to the friars' dormitory in the convent of San Marco, which Cosimo de' Medici had rebuilt by Michelozzo from the late 1430s; Fra Angelico frescoed the cells and corridors over the following decade."
+      - "The loggia in which Gabriel and Mary meet is modelled on Michelozzo's own architecture in the cloister below: slender columns, plain capitals, whitewashed walls."
+      - "An inscription beneath tells the passer-by, on coming before the image of the intact Virgin, not to forget to say an Ave."
+      - "Fra Angelico, born Guido di Pietro, was a Dominican friar; he was beatified in 1982 and named patron of artists by John Paul II in 1984. He painted the Annunciation several times, including the panel now in the Prado and a second fresco inside cell 3 at San Marco."
+    remark: "It is painted where the friars met it every night on the way up to bed, at the head of the dormitory stairs, and the line underneath tells you to say an Ave Maria as you pass; it was made to be used, not visited."
+    gaffe: "Assuming there is one Fra Angelico Annunciation. He painted the subject at least four times, including a panel in the Prado and a second fresco inside a cell a few yards away; this is the one at the top of the stairs, with Michelozzo's loggia in it."
+    media:
+      image:
+        commons: "File:ANGELICO, Fra Annunciation, 1437-46 (2236990916).jpg"
+        source: "Museo di San Marco, Florence, via Wikimedia Commons"
+        license: "Public domain (artist died 1455); verify the file's tag when fetching"
+        focus: { x: 0.74, y: 0.42 }
+    distractors:
+      creator: [Fra Filippo Lippi, Benozzo Gozzoli, Domenico Veneziano]
+      title: ["The Coronation of the Virgin", "The Deposition", "The San Marco Altarpiece"]
+      era: [Gothic, High Renaissance, Baroque]
+    links: [art.term.fresco, art.movement.renaissance]
+    tags: [fresco, san-marco, annunciation, dominican, medici, 1440s]
+    sources:
+      - "Museo di San Marco, Florence, catalogue entry 'Annunciazione' (north corridor)"
+      - "John Pope-Hennessy, Fra Angelico (2nd ed., 1974)"
+      - "William Hood, Fra Angelico at San Marco (1993)"
+    reviewed_by: null
+
+  - id: art.michelangelo.doni-tondo
+    discipline: art
+    kind: work
+    title: "The Doni Tondo"
+    creator: Michelangelo
+    city: florence
+    difficulty: 3
+    era: High Renaissance
+    year: 1507
+    year_approx: true
+    facts:
+      - "A round panel, about 120 centimetres across, of the Holy Family with the infant Baptist, painted for the Florentine merchant Agnolo Doni, probably around his marriage to Maddalena Strozzi in 1504; it is still in its original carved frame."
+      - "The only finished panel painting universally accepted as Michelangelo's; the two panels in the National Gallery, London, are unfinished and their attribution has been argued over."
+      - "Raphael painted the portraits of Agnolo and Maddalena Doni at about the same time; long in the Palazzo Pitti, they were moved to the Uffizi in 2018 and now hang in the same room as the tondo."
+      - "Vasari tells a story that Doni tried to pay less than the agreed price and Michelangelo responded by doubling it."
+      - "The nude young men on the wall behind the Holy Family have never been satisfactorily explained; the usual reading makes them the pagan world before the coming of grace."
+    remark: "It is the only panel painting everyone agrees Michelangelo finished, and it looks like sculpture; the Virgin twists like a figure on the Sistine ceiling, which he began the year after."
+    gaffe: "Attributing it to Raphael because Raphael painted the Donis. Raphael did the husband and wife, which since 2018 hang beside it in the Uffizi; Michelangelo did their tondo, and the naked youths at the back are the giveaway."
+    media:
+      image:
+        commons: "File:Michelangelo Buonarroti - Tondo Doni - Google Art Project.jpg"
+        source: "Uffizi, Florence, via Wikimedia Commons (Google Art Project)"
+        license: "Public domain (artist died 1564); verify the file's tag when fetching"
+        focus: { x: 0.45, y: 0.4 }
+    distractors:
+      creator: [Raphael, Fra Bartolomeo, Andrea del Sarto]
+      title: ["Madonna of the Goldfinch", "The Holy Family with Saint Elizabeth", "Madonna of the Harpies"]
+      era: [Early Renaissance, Mannerist, Baroque]
+    links: [art.michelangelo.david, art.movement.renaissance]
+    tags: [painting, tondo, holy-family, uffizi, 1500s]
+    sources:
+      - "Uffizi Galleries, catalogue entry 'Doni Tondo'"
+      - "Grove Art Online, 'Michelangelo'"
+      - "Giorgio Vasari, Lives of the Artists, Life of Michelangelo"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Creators
+  # ---------------------------------------------------------------------------
+
+  - id: art.giotto
+    discipline: art
+    kind: creator
+    title: "Giotto"
+    city: florence
+    difficulty: 1
+    era: Proto-Renaissance
+    year: 1267
+    year_approx: true
+    year_end: 1337
+    facts:
+      - "Born near Florence about 1267 and died in Florence in January 1337; Dante, his contemporary, wrote in the Purgatorio that Cimabue had thought to hold the field in painting, 'and now Giotto has the cry'."
+      - "His Ognissanti Madonna of about 1310 hangs in the first room of the Uffizi beside Cimabue's Santa Trinita Maestà and Duccio's Rucellai Madonna, so the change he made can be seen in one glance."
+      - "The Scrovegni Chapel in Padua, frescoed about 1305, is his masterpiece; in Florence he frescoed the Bardi and Peruzzi chapels in Santa Croce."
+      - "Appointed master of works for Florence cathedral in 1334, he designed the bell tower that still carries his name."
+      - "The stories that Cimabue found him as a shepherd boy drawing a sheep on a rock, and that he drew a perfect circle freehand for the Pope's messenger, are told by Ghiberti and Vasari a century and more later."
+    remark: "Dante put him in the Purgatorio while he was still alive, saying Cimabue had held the field in painting and now Giotto had the cry, and the Uffizi hangs his Ognissanti Madonna beside Cimabue's so you can check."
+    gaffe: "Placing the Scrovegni Chapel in Florence. It is in Padua; Florence has the Ognissanti Madonna in the Uffizi, the Bardi and Peruzzi chapels in Santa Croce and the Campanile."
+    media:
+      image:
+        commons: "File:Giotto Ognissanti Madonna.jpg"
+        source: "Ognissanti Madonna, c. 1310, Uffizi, Florence, via Wikimedia Commons"
+        license: "Public domain (artist died 1337); verify the file's tag when fetching"
+        focus: { x: 0.5, y: 0.35 }
+    distractors:
+      person: [Cimabue, Duccio, Simone Martini]
+      era: [International Gothic, Early Renaissance, Byzantine]
+    links: [art.movement.renaissance, art.term.fresco]
+    tags: [painter, proto-renaissance, uffizi, santa-croce, campanile, 1300s]
+    sources:
+      - "Grove Art Online, 'Giotto'"
+      - "Dante, Purgatorio XI, 94–96"
+      - "Uffizi Galleries, catalogue entry 'Ognissanti Madonna'"
+    reviewed_by: null
+
+  - id: art.brunelleschi
+    discipline: art
+    kind: creator
+    title: "Filippo Brunelleschi"
+    city: florence
+    difficulty: 1
+    era: Early Renaissance
+    year: 1377
+    year_end: 1446
+    facts:
+      - "Trained as a goldsmith; lost the 1401 competition for the Baptistery doors to Ghiberti, and both trial panels of the Sacrifice of Isaac are in the Bargello."
+      - "Entered the 1418 competition for a model of the cathedral dome, which had stood open since Arnolfo di Cambio began the church in 1296, and built it from 1420 to 1436 as an inner and an outer shell with herringbone brickwork, without wooden centring across the void."
+      - "The dome, about 45 metres across, is still the largest brick dome ever built; the lantern on top is his design but was finished after his death."
+      - "His demonstration of linear perspective with painted panels of the Baptistery and the Piazza della Signoria, described by his biographer Manetti, is the foundation of Renaissance picture space; Alberti wrote the method up in De pictura in 1435."
+      - "Also built the Ospedale degli Innocenti, San Lorenzo, Santo Spirito and the Pazzi Chapel; he is buried in the cathedral."
+    remark: "The dome went up without a wooden frame across the void, an inner and an outer shell with the bricks laid in a herringbone, and the man who worked it out had lost the Baptistery doors competition to Ghiberti twenty years earlier; both trial panels are in the Bargello."
+    gaffe: "Crediting him with the cathedral. Arnolfo di Cambio began it in 1296; Brunelleschi's job, from 1420 to 1436, was the hole in the roof that nobody for a century had known how to cover."
+    media:
+      image:
+        commons: "File:Fratelli Alinari Duomo Firenze c1860s.jpg"
+        source: "Photograph of the cathedral and dome by Fratelli Alinari, c. 1860s, via Wikimedia Commons"
+        license: "Public domain (nineteenth-century photograph); verify the file's tag when fetching"
+        focus: { x: 0.55, y: 0.3 }
+    distractors:
+      person: [Lorenzo Ghiberti, Leon Battista Alberti, Michelozzo]
+      era: [Gothic, High Renaissance, Baroque]
+    links: [art.ghiberti.gates-of-paradise, art.masaccio.expulsion-from-eden, art.movement.renaissance]
+    tags: [architect, engineer, dome, duomo, perspective, 1400s]
+    sources:
+      - "Grove Art Online, 'Brunelleschi, Filippo'"
+      - "Antonio Manetti, The Life of Brunelleschi (ed. Howard Saalman, 1970)"
+      - "Howard Saalman, Filippo Brunelleschi: The Cupola of Santa Maria del Fiore (1980)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Movement
+  # ---------------------------------------------------------------------------
+
+  - id: art.movement.renaissance
+    discipline: art
+    kind: movement
+    title: "The Renaissance"
+    city: florence
+    difficulty: 1
+    era: Renaissance
+    year: 1401
+    year_end: 1527
+    year_approx: true
+    facts:
+      - "The idea is Vasari's: in the Lives of 1550 he described a rinascita, a rebirth of the arts in Tuscany after the Middle Ages; the French word and the notion of a whole period came with Michelet in 1855 and Burckhardt's Civilization of the Renaissance in Italy in 1860."
+      - "The usual starting line in Florence is the 1401 competition for the Baptistery doors; the founding generation is Brunelleschi in architecture, Donatello in sculpture and Masaccio in painting."
+      - "Linear perspective, demonstrated by Brunelleschi and written up by Alberti in De pictura in 1435, is the technical signature; the money was Medici, from Cosimo il Vecchio's return in 1434 to Lorenzo the Magnificent's death in 1492."
+      - "Art historians divide it into Early (the fifteenth century), High (Leonardo, Michelangelo and Raphael, roughly 1495 to 1520) and then Mannerism; the Sack of Rome in 1527 is the conventional end of the High Renaissance."
+    remark: "The word is Vasari's, more or less: he wrote in 1550 of a rinascita of the arts, and he meant Florence; it took a Frenchman and a Swiss, Michelet and Burckhardt, to turn it into a period three centuries later."
+    gaffe: "Using 'Renaissance' for anything old and Italian. Giotto is before it, Botticelli is Early, Leonardo and Michelangelo are High, and by the 1530s you are in Mannerism; the whole Florentine run is little more than a century."
+    distractors:
+      title: ["Mannerism", "The Baroque", "International Gothic"]
+      era: [Baroque, Gothic, Neoclassical]
+    links: [art.brunelleschi, art.giotto, art.botticelli.birth-of-venus, art.michelangelo.david, art.masaccio.expulsion-from-eden, opera.movement.florentine-camerata]
+    tags: [movement, renaissance, florence, medici, vasari, 1400s, 1500s]
+    sources:
+      - "Grove Art Online, 'Renaissance'"
+      - "Jacob Burckhardt, The Civilization of the Renaissance in Italy (1860)"
+      - "Giorgio Vasari, Lives of the Artists (1550/1568), preface"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Terms
+  # ---------------------------------------------------------------------------
+
+  - id: art.term.fresco
+    discipline: art
+    kind: term
+    title: "Fresco"
+    city: florence
+    difficulty: 1
+    era: Renaissance
+    definition: "Painting on fresh, still-wet lime plaster, so that the pigment, mixed only with water, binds into the wall as it dries (buon fresco). The painter works in giornate, a day's patch of plaster at a time; painting on dry plaster is fresco secco, and it flakes."
+    pronunciation: "FRESS-koh"
+    language: Italian
+    facts:
+      - "Cennino Cennini's Il libro dell'arte, written around 1400, describes the method; the seams between one day's plaster and the next can still be seen and counted on Masaccio's Brancacci frescoes."
+      - "The Sistine ceiling, the Brancacci Chapel and Fra Angelico's cells at San Marco are true fresco; Leonardo's Last Supper in Milan is not, and began to deteriorate within twenty years."
+      - "Pigments have to survive the lime, so the range is limited: blues were often added afterwards a secco, which is why so much fresco sky has flaked off."
+    remark: "Fresco means fresh: the colour goes onto wet plaster and becomes part of the wall, which is why you can count the day-joins on a Masaccio, and why Leonardo's Last Supper, which was not one, started coming off within twenty years."
+    gaffe: "Calling every painting on a wall a fresco. The Last Supper is the great exception, painted on a dry wall in a mixture of Leonardo's own devising, and its condition is the price."
+    distractors:
+      term:
+        - "Painting in pigment bound with egg yolk on a gessoed wooden panel, the standard method before oil."
+        - "A round painting or relief, popular in Florentine houses in the fifteenth century."
+        - "A full-scale preparatory drawing, pricked or incised to transfer the design to the wall."
+    links: [art.masaccio.expulsion-from-eden, art.fra-angelico.annunciation-san-marco, art.giotto]
+    tags: [term, technique, fresco, plaster, brancacci-chapel]
+    sources:
+      - "Grove Art Online, 'Fresco'"
+      - "Cennino Cennini, Il libro dell'arte (trans. Daniel V. Thompson, 1933)"
+    reviewed_by: null
+
+  - id: art.term.contrapposto
+    discipline: art
+    kind: term
+    title: "Contrapposto"
+    city: florence
+    difficulty: 2
+    era: Renaissance
+    definition: "Italian for 'counterpoise': a standing figure with its weight on one leg, so that the hips tilt one way and the shoulders the other and the body settles into a gentle S. The Greek invention that makes a statue look able to move, revived in Florence by Donatello and made colossal in Michelangelo's David."
+    pronunciation: "kon-trah-POS-toh"
+    language: Italian
+    facts:
+      - "Polykleitos's Doryphoros of about 440 BC is the textbook ancient example; the Greeks worked the pose out in the fifth century BC, and medieval sculpture lost it."
+      - "Donatello's marble Saint Mark for Orsanmichele, of about 1411 to 1413, is usually cited as the first full Renaissance revival; Michelangelo's David is the most famous."
+      - "The word in Italian also means 'antithesis' in rhetoric; art historians borrowed it for the pose."
+    remark: "Weight on one leg, hip up on that side, shoulder down on the same side: it is what makes a statue look as if it could take a step, and Donatello's Saint Mark at Orsanmichele is where Florence got it back from the Greeks."
+    gaffe: "Using it for any twisting pose. A figure spiralling on its own axis is a figura serpentinata, which is Mannerist and later; contrapposto is standing still with the weight on one foot."
+    distractors:
+      term:
+        - "The smoky blending of tones so that outlines dissolve, as in Leonardo's faces."
+        - "Strong contrast of light and shadow used to model form, as in Caravaggio."
+        - "Relief carved so shallow that the figures barely rise from the ground, a Donatello speciality."
+    links: [art.michelangelo.david, art.donatello.david]
+    tags: [term, sculpture, pose, greek, donatello, michelangelo]
+    sources:
+      - "Grove Art Online, 'Contrapposto'"
+      - "Grove Art Online, 'Donatello'"
+    reviewed_by: null

@@ -1,0 +1,411 @@
+# Florence: the history the Florentine art, music and opera are about. Dante
+# and the factions, the plague and the Decameron, the Greeks and the council of
+# 1439, the Medici from Cosimo to the popes and the queens of France, the Pazzi
+# plot, Savonarola, Machiavelli, and Galileo's trial. Persons are taught through
+# portraits; the one apocryphal line is Galileo's. Every history item links to
+# at least one item in another discipline. Commons titles were chosen from
+# memory because the sandbox cannot reach Commons: verify each when fetching.
+items:
+  # ---------------------------------------------------------------------------
+  # Episodes
+  # ---------------------------------------------------------------------------
+
+  - id: history.episode.dante-exile
+    discipline: history
+    kind: episode
+    title: "Dante, the factions and exile"
+    city: florence
+    difficulty: 1
+    era: Trecento
+    year: 1302
+    cast: [Dante Alighieri, Boniface VIII, Charles of Valois, Corso Donati, Giovanni Boccaccio]
+    facts:
+      - "Florence was Guelph, the papal party, against the Ghibellines of the emperor; in the 1290s the Guelphs split into Whites and Blacks, and Dante, born in Florence in 1265, was a White. He served as one of the city's six priors from June to August 1300."
+      - "After Charles of Valois entered the city in November 1301 and the Blacks took power, Dante was condemned in January 1302 to a fine and exile, and on 10 March 1302 to be burned alive if he ever returned. He never did."
+      - "He wrote the whole Commedia in exile, setting it in Holy Week 1300 so that Boniface VIII, still alive, could be foretold a place among the simoniacs of Inferno XIX; he died in Ravenna in September 1321 and is buried there. Santa Croce's tomb for him, of 1829, is empty."
+      - "Boccaccio gave the first public lectures on the Commedia in Florence from October 1373, paid by the commune; the adjective 'divina' was his, and the title Divina Commedia first appears on a Venetian edition of 1555."
+    remark: "Dante was one of the six priors of Florence for two months in 1300, and two years later the city sentenced him to be burned alive if he came back; he wrote the whole Commedia in exile and is buried in Ravenna, which has never given him up."
+    gaffe: "Calling it the Divine Comedy as if Dante had named it. He called it the Commedia; the 'divine' was Boccaccio's compliment, and no title page carried it until 1555."
+    media:
+      image:
+        commons: "File:Dante Domenico di Michelino Duomo Florence.jpg"
+        source: "Domenico di Michelino, Dante and the Divine Comedy (1465), Santa Maria del Fiore, Florence, via Wikimedia Commons"
+        license: "Public domain (artist died 1491); verify the file's tag when fetching"
+    distractors:
+      year: [1265, 1321, 1348]
+    links: [history.episode.black-death-decameron, art.giotto, opera.puccini.gianni-schicchi.o-mio-babbino-caro, music.landini.ecco-la-primavera]
+    tags: [florence, dante, guelphs, exile, commedia, 1300s]
+    sources:
+      - "Marco Santagata, Dante: The Story of His Life (trans. Richard Dixon, 2016)"
+      - "John M. Najemy, A History of Florence 1200–1575 (2006)"
+      - "Dante, Inferno XIX; Purgatorio XI"
+    reviewed_by: null
+
+  - id: history.episode.black-death-decameron
+    discipline: history
+    kind: episode
+    title: "The Black Death and the Decameron"
+    city: florence
+    difficulty: 1
+    era: Trecento
+    year: 1348
+    cast: [Giovanni Boccaccio, Giovanni Villani, Matteo Villani, Petrarch]
+    facts:
+      - "The plague reached Florence in the spring of 1348 and, by most estimates, killed something like half the city, perhaps more; the chronicler Giovanni Villani died of it, and his brother Matteo took up the chronicle where it stopped."
+      - "Boccaccio's Decameron, written in the years after 1348, opens with the plague in Florence: seven young women and three young men meet in Santa Maria Novella and withdraw to a villa in the hills, where they tell ten stories a day for ten days and end each evening with a ballata."
+      - "Petrarch recorded in his copy of Virgil that Laura died at Avignon on 6 April 1348, in the same epidemic."
+      - "Millard Meiss's Painting in Florence and Siena after the Black Death (1951) argued that the plague pushed Florentine painting back toward stiff, otherworldly forms; the thesis is much disputed but still sets the terms of the debate."
+    remark: "The Decameron is a plague book only for its first thirty pages: ten Florentines meet in Santa Maria Novella in 1348, go up to a villa, and tell a hundred stories while the city dies, closing each evening with a ballata of the kind Landini was writing."
+    gaffe: "Calling the narrators ten young men, or the book a chronicle. Seven of the ten are women, the villa is fiction, and the plague is the frame, not the subject."
+    distractors:
+      year: [1302, 1378, 1434]
+    links: [history.episode.dante-exile, music.landini.ecco-la-primavera, art.movement.renaissance, art.giotto]
+    tags: [florence, plague, boccaccio, decameron, trecento, 1340s]
+    sources:
+      - "Giovanni Boccaccio, Decameron, Introduction to the First Day"
+      - "John M. Najemy, A History of Florence 1200–1575 (2006)"
+      - "Millard Meiss, Painting in Florence and Siena after the Black Death (1951)"
+    reviewed_by: null
+
+  - id: history.episode.council-of-florence
+    discipline: history
+    kind: episode
+    title: "The Council of Florence and the Greeks"
+    city: florence
+    difficulty: 3
+    era: Early Renaissance
+    year: 1439
+    cast: [Cosimo de' Medici, Pope Eugenius IV, John VIII Palaiologos, Patriarch Joseph II, Bessarion, Gemistos Plethon, Gentile Bellini]
+    facts:
+      - "The council to reunite the Latin and Greek churches opened at Ferrara in 1438 and moved to Florence in January 1439, with Cosimo de' Medici's money behind the move; the Byzantine emperor John VIII Palaiologos came with the patriarch and some seven hundred Greeks."
+      - "The decree of union, Laetentur caeli, was read in the cathedral on 6 July 1439, in Latin by Cardinal Cesarini and in Greek by Bessarion; Constantinople rejected it, and the city fell to Mehmed II on 29 May 1453."
+      - "Patriarch Joseph II died in Florence in June 1439 and is buried in Santa Maria Novella. Pisanello's medal of John VIII, made for the council, is usually called the first portrait medal of the Renaissance."
+      - "Gemistos Plethon lectured on Plato while in Florence; Marsilio Ficino wrote in 1492 that Cosimo's idea of reviving Plato came from hearing him. Manuel Chrysoloras had already taught Greek in Florence from 1397 to 1400."
+      - "Gentile Bellini went from Venice to Constantinople in 1479 and painted Mehmed II; the portrait, dated 25 November 1480 and much restored, is in the National Gallery, London, which catalogues it as attributed to him."
+    remark: "The union of the churches was proclaimed in the Duomo on 6 July 1439 and repudiated in Constantinople within a few years; what stayed in Florence was Plato, because Ficino said Cosimo caught the idea from hearing Plethon lecture that summer."
+    gaffe: "Saying Greek learning reached Florence in 1453 with refugees from the fall of Constantinople. The Greeks came in 1439, for the council, fourteen years before the city fell, and Chrysoloras had been teaching Greek in Florence since 1397."
+    media:
+      image:
+        commons: "File:Gentile Bellini 003.jpg"
+        source: "Attributed to Gentile Bellini, The Sultan Mehmet II (1480), National Gallery, London, via Wikimedia Commons"
+        license: "Public domain (artist died 1507); verify the file's tag when fetching"
+    distractors:
+      year: [1401, 1453, 1494]
+    links: [history.person.cosimo-de-medici, art.fra-angelico.annunciation-san-marco, art.brunelleschi, art.movement.renaissance]
+    tags: [florence, council, byzantium, plato, ficino, medici, 1430s]
+    sources:
+      - "Joseph Gill, The Council of Florence (1959)"
+      - "James Hankins, Plato in the Italian Renaissance (1990)"
+      - "National Gallery, London, catalogue entry 'The Sultan Mehmet II', Gentile Bellini"
+    reviewed_by: null
+
+  - id: history.episode.pazzi-conspiracy
+    discipline: history
+    kind: episode
+    title: "The Pazzi conspiracy"
+    city: florence
+    difficulty: 1
+    era: Early Renaissance
+    year: 1478
+    cast: [Lorenzo de' Medici, Giuliano de' Medici, Francesco de' Pazzi, Jacopo de' Pazzi, Francesco Salviati, Pope Sixtus IV, Bernardo Bandini Baroncelli]
+    facts:
+      - "On Sunday 26 April 1478, at High Mass in the cathedral, Giuliano de' Medici was stabbed to death and his brother Lorenzo, wounded, escaped into the sacristy. The Pazzi, bankers and rivals of the Medici, and Francesco Salviati, Archbishop of Pisa, were behind it, with the knowledge of Pope Sixtus IV."
+      - "The hired soldier Montesecco refused to commit murder in a church, so two priests took his place and bungled the attack on Lorenzo; by nightfall the archbishop and Francesco de' Pazzi had been hanged from the windows of the Palazzo della Signoria."
+      - "Bernardo Bandini Baroncelli fled to Constantinople, was sent back in chains by the sultan and hanged in December 1479; Leonardo da Vinci drew the body and noted the colours of its clothes. Botticelli was paid to paint the hanged conspirators on a wall of the Palazzo della Signoria."
+      - "Sixtus IV excommunicated Lorenzo and made war on Florence with Naples; in December 1479 Lorenzo sailed to Naples and negotiated peace with King Ferrante in person. Giuliano's illegitimate son Giulio, born a month after the murder, became Pope Clement VII."
+    remark: "They chose High Mass in the Duomo on a Sunday in April 1478, killed Giuliano and missed Lorenzo, and by nightfall the Archbishop of Pisa was hanging from a window of the Palazzo della Signoria; Giuliano's posthumous son grew up to be Pope Clement VII."
+    gaffe: "Assuming the Pazzi won. They killed the wrong brother: Lorenzo ruled for another fourteen years, the Pazzi name was banned and their arms were scraped off the city's walls."
+    distractors:
+      year: [1434, 1494, 1512]
+    links: [history.person.lorenzo-the-magnificent, history.episode.medici-popes, art.botticelli.primavera, art.brunelleschi, art.donatello.david]
+    tags: [florence, medici, pazzi, conspiracy, duomo, 1470s]
+    sources:
+      - "Lauro Martines, April Blood: Florence and the Plot against the Medici (2003)"
+      - "Angelo Poliziano, Coniurationis commentarium (1478)"
+      - "Ronald Lightbown, Sandro Botticelli: Life and Work (1989)"
+    reviewed_by: null
+
+  - id: history.episode.bonfire-of-the-vanities
+    discipline: history
+    kind: episode
+    title: "Savonarola and the Bonfire of the Vanities"
+    city: florence
+    difficulty: 1
+    era: Early Renaissance
+    year: 1497
+    cast: [Girolamo Savonarola, Piero de' Medici, Charles VIII of France, Pope Alexander VI, Sandro Botticelli, Fra Bartolomeo]
+    facts:
+      - "Girolamo Savonarola, a Dominican from Ferrara, was prior of San Marco from 1491; after Piero de' Medici fled before the French army in November 1494 the friar's sermons in the Duomo set the tone of the republic, and his followers were nicknamed piagnoni, the weepers."
+      - "On Shrove Tuesday, 7 February 1497, his boys collected mirrors, cosmetics, wigs, playing cards, dice, secular books and pictures and burned them on a pyre in the Piazza della Signoria; the bonfire was repeated at Carnival 1498."
+      - "Vasari says Botticelli became a follower and gave up work, and that Baccio della Porta, the future Fra Bartolomeo, threw his drawings of nudes into the fire; Fra Bartolomeo's profile portrait of the friar, of about 1498, is in San Marco."
+      - "Excommunicated by Alexander VI in May 1497, Savonarola was arrested after a trial by fire fizzled out in April 1498, and on 23 May 1498 he was hanged and burned with two companions on the spot where the vanities had gone up; a plaque marks it. Machiavelli's Prince cites him as the unarmed prophet who was destroyed."
+    remark: "It was Shrove Tuesday 1497, in the Piazza della Signoria: mirrors, wigs, dice, cards and pictures went up on one pyre, and fifteen months later the friar was hanged and burned on the same spot; the plaque is still set in the paving."
+    gaffe: "Treating Savonarola as a Florentine. He was from Ferrara, the Florentines who followed him were the piagnoni, the weepers, and the city that burned its vanities for him burned him too."
+    media:
+      image:
+        commons: "File:Hanging and burning of Girolamo Savonarola in Florence.jpg"
+        source: "Anonymous Florentine, The Execution of Savonarola in the Piazza della Signoria (c. 1498), Museo di San Marco, Florence, via Wikimedia Commons"
+        license: "Public domain (anonymous fifteenth-century painting); verify the file's tag when fetching"
+    distractors:
+      year: [1478, 1494, 1512]
+    links: [history.episode.machiavelli-the-prince, history.person.lorenzo-the-magnificent, art.botticelli.birth-of-venus, art.fra-angelico.annunciation-san-marco, art.michelangelo.david]
+    tags: [florence, savonarola, san-marco, republic, botticelli, 1490s]
+    sources:
+      - "Donald Weinstein, Savonarola: The Rise and Fall of a Renaissance Prophet (2011)"
+      - "Lauro Martines, Scourge and Fire: Savonarola and Renaissance Italy (2006)"
+      - "Giorgio Vasari, Lives of the Artists, Lives of Botticelli and of Fra Bartolomeo"
+      - "Niccolò Machiavelli, The Prince, chapter 6"
+    reviewed_by: null
+
+  - id: history.episode.machiavelli-the-prince
+    discipline: history
+    kind: episode
+    title: "Machiavelli writes The Prince"
+    city: florence
+    difficulty: 1
+    era: High Renaissance
+    year: 1513
+    cast: [Niccolò Machiavelli, Francesco Vettori, Giuliano de' Medici, Lorenzo de' Medici Duke of Urbino, Cesare Borgia]
+    facts:
+      - "The Medici returned to Florence in September 1512 and Machiavelli lost his post in the chancery; in February 1513 he was implicated in a plot, tortured with the strappado, and released in March under the amnesty for Leo X's election. He withdrew to the family farm at Sant'Andrea in Percussina."
+      - "His letter to Francesco Vettori of 10 December 1513 describes the evening ritual of putting on court clothes to read the ancients, and says he has written a little work De principatibus; the dedication went first to Giuliano de' Medici and, after Giuliano's death, to Lorenzo, Duke of Urbino."
+      - "Cesare Borgia is the model of chapter 7, including the morning at Cesena in December 1502 when his lieutenant Remirro de Orco was found cut in two in the piazza; Machiavelli was there on embassy and reported it."
+      - "The book circulated in manuscript and was printed only in 1532, five years after Machiavelli's death; it went on the Index in 1559."
+    remark: "He wrote it in 1513 on a farm outside Florence, sacked and tortured after the Medici came back, and told Vettori that December that he dressed in court clothes each evening to read the ancients; it was not printed until 1532, five years after he died."
+    gaffe: "Quoting 'the end justifies the means'. The phrase is not in the book; the nearest thing, in chapter 18, is that in the actions of princes one looks to the outcome. And the book is dedicated to a Medici, which anyone calling it a republican satire has to explain."
+    distractors:
+      year: [1494, 1527, 1532]
+    links: [history.person.machiavelli, history.episode.bonfire-of-the-vanities, history.episode.medici-popes, art.michelangelo.david, art.movement.renaissance]
+    tags: [florence, machiavelli, prince, medici, politics, 1510s]
+    sources:
+      - "Niccolò Machiavelli, letter to Francesco Vettori, 10 December 1513"
+      - "Quentin Skinner, Machiavelli: A Very Short Introduction (2000)"
+      - "Roberto Ridolfi, The Life of Niccolò Machiavelli (trans. Cecil Grayson, 1963)"
+    reviewed_by: null
+
+  - id: history.episode.medici-popes
+    discipline: history
+    kind: episode
+    title: "The Medici popes: Leo X and Clement VII"
+    city: florence
+    difficulty: 2
+    era: High Renaissance
+    year: 1513
+    year_end: 1534
+    cast: [Leo X, Clement VII, Raphael, Martin Luther, Charles V, Henry VIII, Michelangelo]
+    facts:
+      - "Giovanni de' Medici, Lorenzo the Magnificent's second son, was made a cardinal at thirteen and elected Pope Leo X in March 1513, aged thirty-seven; Raphael painted him around 1518 with his cousin Cardinal Giulio de' Medici and Luigi de' Rossi, and the picture is in the Uffizi."
+      - "Leo X excommunicated Luther in January 1521 and died that December; Giulio, the posthumous son of the Giuliano murdered by the Pazzi, was elected Clement VII in November 1523."
+      - "Clement sat out the Sack of Rome in the Castel Sant'Angelo in May 1527, refused Henry VIII the annulment of his marriage to Catherine of Aragon, crowned Charles V at Bologna in 1530, and after a siege the same year put the Medici back into Florence; Alessandro de' Medici became duke in 1532."
+      - "Between them the two popes gave Michelangelo the New Sacristy and the Laurentian Library at San Lorenzo. Clement also arranged his young kinswoman Catherine's marriage to the future Henri II of France and presided at it in Marseille in 1533."
+    remark: "Lorenzo the Magnificent's son became Leo X in 1513 and Lorenzo's nephew Clement VII ten years later; between them they got Raphael's best portrait, Luther, the Sack of Rome and Henry VIII's divorce, and still found time to order Michelangelo's Medici Chapel."
+    gaffe: "Calling Clement VII Leo's son, or either of them a grand duke. Leo was Lorenzo's son, Clement the illegitimate son of the murdered Giuliano, and the grand dukes come later, with Cosimo I in 1569."
+    media:
+      image:
+        commons: "File:Raffaello Sanzio - Ritratto di Leone X coi cardinali Giulio de' Medici e Luigi de' Rossi - Google Art Project.jpg"
+        source: "Raphael, Portrait of Leo X with Cardinals Giulio de' Medici and Luigi de' Rossi (c. 1518), Uffizi, Florence, via Wikimedia Commons (Google Art Project)"
+        license: "Public domain (artist died 1520); verify the file's tag when fetching"
+    distractors:
+      year: [1492, 1503, 1569]
+    links: [history.person.lorenzo-the-magnificent, history.episode.pazzi-conspiracy, history.person.catherine-de-medici, art.michelangelo.david, art.michelangelo.doni-tondo, art.movement.renaissance]
+    tags: [florence, medici, papacy, rome, reformation, 1510s, 1520s]
+    sources:
+      - "Uffizi Galleries, catalogue entry 'Portrait of Leo X with Cardinals Giulio de' Medici and Luigi de' Rossi'"
+      - "J. R. Hale, Florence and the Medici (1977)"
+      - "Kenneth Gouwens and Sheryl E. Reiss (eds), The Pontificate of Clement VII: History, Politics, Culture (2005)"
+    reviewed_by: null
+
+  - id: history.episode.galileo-trial
+    discipline: history
+    kind: episode
+    title: "Galileo's trial"
+    city: florence
+    difficulty: 1
+    era: Baroque
+    year: 1633
+    cast: [Galileo Galilei, Pope Urban VIII, Cardinal Bellarmine, Ferdinando II de' Medici, John Milton]
+    facts:
+      - "Galileo, born in Pisa in 1564, published the moons of Jupiter in the Sidereus Nuncius of 1610, named them the Medicean Stars after Cosimo II, and was rewarded with the post of Philosopher and Chief Mathematician to the Grand Duke; he moved from Padua to Florence that year."
+      - "Warned in 1616 not to hold or defend Copernicus, he published the Dialogue Concerning the Two Chief World Systems in Florence in 1632; summoned to Rome, he was examined under threat of torture, sentenced on 22 June 1633 and abjured on his knees at Santa Maria sopra Minerva."
+      - "The prison sentence was commuted to house arrest, first with the Archbishop of Siena and from December 1633 at his villa at Arcetri, above Florence, where he wrote the Two New Sciences, printed at Leiden in 1638; Milton visited him there in 1638 and mentions it in Areopagitica. He died at Arcetri in January 1642."
+      - "Grand Duke Ferdinando II, who had Frescobaldi on the court payroll from 1628 to 1634, did not shield his mathematician. Galileo's father Vincenzo Galilei had been the theorist of the Florentine Camerata."
+      - "Buried in Santa Croce; when the body was moved to its monumental tomb in 1737, three fingers and a tooth were taken, and the middle finger of his right hand is displayed in the Museo Galileo."
+    remark: "He was tried in Rome but he was Florence's man: Chief Mathematician to the Grand Duke since 1610, with Jupiter's moons named the Medicean Stars in the family's honour, and he served his sentence at home in Arcetri, where Milton called on him in 1638."
+    gaffe: "Saying he was tortured, thrown in a dungeon or burned. He was threatened with torture, abjured on his knees, and spent eight and a half more years under house arrest outside Florence writing his best book; Bruno was the one burned, in 1600."
+    media:
+      image:
+        commons: "File:Galileo before the Holy Office.jpg"
+        source: "Joseph-Nicolas Robert-Fleury, Galileo before the Holy Office (1847), Louvre, Paris, via Wikimedia Commons"
+        license: "Public domain (artist died 1890); verify the file's tag when fetching"
+    distractors:
+      year: [1610, 1616, 1642]
+    links: [history.apocrypha.eppur-si-muove, music.movement.florentine-camerata, opera.movement.florentine-camerata, music.frescobaldi.fiori-musicali]
+    tags: [florence, galileo, inquisition, medici, science, 1630s]
+    sources:
+      - "Maurice A. Finocchiaro, The Galileo Affair: A Documentary History (1989)"
+      - "J. L. Heilbron, Galileo (2010)"
+      - "Museo Galileo, Florence, 'Galileo's middle finger'"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Persons (Who's Who)
+  # ---------------------------------------------------------------------------
+
+  - id: history.person.cosimo-de-medici
+    discipline: history
+    kind: person
+    title: "Cosimo de' Medici"
+    role: "Banker and de facto ruler of Florence"
+    city: florence
+    difficulty: 2
+    era: Early Renaissance
+    year: 1389
+    year_end: 1464
+    facts:
+      - "Born in 1389, son of Giovanni di Bicci, who founded the Medici bank in 1397; exiled to Venice by the Albizzi faction in 1433 and recalled in 1434, after which he led Florence for thirty years without any office that said so."
+      - "He paid for Michelozzo's rebuilding of San Marco from 1437, where Fra Angelico frescoed the cells, and installed Niccolò Niccoli's books there in 1444 as the first public library in Florence; his own palace on the Via Larga, also by Michelozzo, was begun in 1444."
+      - "He brought the church council to Florence in 1439, and in the early 1460s gave Marsilio Ficino a villa at Careggi and Greek manuscripts to translate; Ficino's Latin Plato was printed in 1484."
+      - "He died at Careggi on 1 August 1464 and is buried in San Lorenzo; the commune's decree gave him the title Pater Patriae, which is cut on the tomb. Pontormo's portrait, painted about 1518, is posthumous."
+    remark: "He never held an office he did not have to, was exiled in 1433, came back in 1434 and ran the city for thirty years from a bank; the Signoria had Pater Patriae cut on his tomb in San Lorenzo, which had been Cicero's title."
+    gaffe: "Confusing him with Cosimo I, the first Grand Duke. Cosimo il Vecchio was a banker who died in 1464 and never held a title; Cosimo I was a soldier's son who took a ducal crown a century later and built the Uffizi."
+    media:
+      image:
+        commons: "File:Pontormo - Ritratto di Cosimo il Vecchio - Google Art Project.jpg"
+        source: "Jacopo Pontormo, Portrait of Cosimo il Vecchio (c. 1518–1520), Uffizi, Florence, via Wikimedia Commons"
+        license: "Public domain (artist died 1557); verify the file's tag when fetching"
+    distractors:
+      person: [Cosimo I de' Medici, Giovanni di Bicci de' Medici, Palla Strozzi]
+    links: [history.episode.council-of-florence, history.person.lorenzo-the-magnificent, art.fra-angelico.annunciation-san-marco, art.donatello.david, art.brunelleschi]
+    tags: [florence, medici, banker, patron, san-marco, 1400s]
+    sources:
+      - "Dale Kent, Cosimo de' Medici and the Florentine Renaissance (2000)"
+      - "Vespasiano da Bisticci, Lives of Illustrious Men of the XVth Century, 'Cosimo de' Medici'"
+      - "Grove Art Online, 'Medici'"
+    reviewed_by: null
+
+  - id: history.person.lorenzo-the-magnificent
+    discipline: history
+    kind: person
+    title: "Lorenzo the Magnificent"
+    role: "De facto ruler of Florence, poet and patron"
+    city: florence
+    difficulty: 1
+    era: Early Renaissance
+    year: 1449
+    year_end: 1492
+    facts:
+      - "Born 1 January 1449, grandson of Cosimo il Vecchio; took over the family's leadership of Florence at twenty when his father Piero died in December 1469. Donatello's bronze David stood in the courtyard of the Medici palace at his wedding to Clarice Orsini that year."
+      - "Survived the Pazzi attack in the cathedral in April 1478, in which his brother Giuliano was killed; in December 1479 he sailed to Naples and negotiated peace with King Ferrante in person."
+      - "Kept Poliziano, Ficino and Pico della Mirandola around him, took the teenage Michelangelo into his household around 1490, and had his own name, LAV.R.MED, cut into the antique gems and vases he collected; his own poems include the Canzona di Bacco."
+      - "Died at Careggi on 8 April 1492, aged forty-three; Savonarola came to the deathbed, and what passed between them is told differently by Poliziano and by the friar's followers. His son Giovanni, a cardinal at thirteen, became Leo X; Piero, his heir, was driven out of Florence in November 1494."
+    remark: "His own carnival song says it: how fine is youth, which flees all the same, so let whoever wants to be happy be so, for there is no certainty of tomorrow. He died at forty-three in 1492, and his son was driven out of Florence two and a half years later."
+    gaffe: "Crediting him with Botticelli's Venus and Primavera. So far as the documents go both belonged to his cousin Lorenzo di Pierfrancesco's branch; the Magnificent's own money went on manuscripts, gems and villas."
+    media:
+      image:
+        commons: "File:Lorenzo de' Medici-ritratto.jpg"
+        source: "Giorgio Vasari, Portrait of Lorenzo the Magnificent (c. 1533–1534, posthumous), Uffizi, Florence, via Wikimedia Commons"
+        license: "Public domain (artist died 1574); verify the file's tag when fetching"
+    distractors:
+      person: [Giuliano de' Medici, Piero di Cosimo de' Medici, Lorenzo di Pierfrancesco de' Medici]
+    links: [history.episode.pazzi-conspiracy, history.person.cosimo-de-medici, history.episode.medici-popes, history.episode.bonfire-of-the-vanities, art.botticelli.primavera, art.botticelli.birth-of-venus, art.donatello.david, art.michelangelo.david]
+    tags: [florence, medici, patron, poet, 1400s]
+    sources:
+      - "Lorenzo de' Medici, Canzona di Bacco (Trionfo di Bacco e Arianna)"
+      - "Miles J. Unger, Magnifico: The Brilliant Life and Violent Times of Lorenzo de' Medici (2008)"
+      - "Grove Art Online, 'Medici'"
+      - "Ronald Lightbown, Sandro Botticelli: Life and Work (1989)"
+    reviewed_by: null
+
+  - id: history.person.machiavelli
+    discipline: history
+    kind: person
+    title: "Niccolò Machiavelli"
+    role: "Second Chancellor of the Florentine republic, political writer"
+    city: florence
+    difficulty: 2
+    era: High Renaissance
+    year: 1469
+    year_end: 1527
+    facts:
+      - "Born in Florence on 3 May 1469; from 1498 to 1512 he was Second Chancellor of the republic and secretary to the Ten of War, and rode on missions to Cesare Borgia, Louis XII, the Emperor Maximilian and Julius II."
+      - "He argued for a citizen militia instead of mercenaries and raised one in 1506; it helped retake Pisa in 1509 and broke at Prato in 1512, after which the Medici returned and he lost his post."
+      - "Besides The Prince he wrote the Discourses on Livy, the comedy La Mandragola, The Art of War, the only one of his political works printed in his lifetime, and the Florentine Histories, commissioned by Cardinal Giulio de' Medici; he died on 21 June 1527, weeks after the Medici had been expelled again."
+      - "He is buried in Santa Croce, where the monument of 1787 reads 'Tanto nomini nullum par elogium', no praise is equal to such a name. The portrait by Santi di Tito in the Palazzo Vecchio was painted decades after his death; none from life is known."
+    remark: "He spent fourteen years as a civil servant of the republic, riding to Cesare Borgia and the French court on Florence's business, and everything he is famous for he wrote after being sacked; his tomb in Santa Croce says no epitaph could equal his name."
+    gaffe: "Using 'Machiavellian' for anyone cunning and assuming the man was a courtier. He was a republican official whom the Medici tortured; The Prince was a bid for employment, and the Discourses on Livy are the longer book."
+    media:
+      image:
+        commons: "File:Portrait of Niccolò Machiavelli by Santi di Tito.jpg"
+        source: "Santi di Tito, Portrait of Niccolò Machiavelli (second half of the sixteenth century), Palazzo Vecchio, Florence, via Wikimedia Commons"
+        license: "Public domain (artist died 1603); verify the file's tag when fetching"
+    distractors:
+      person: [Francesco Guicciardini, Piero Soderini, Cesare Borgia]
+    links: [history.episode.machiavelli-the-prince, history.episode.bonfire-of-the-vanities, history.episode.medici-popes, art.michelangelo.david, art.movement.renaissance]
+    tags: [florence, machiavelli, republic, chancery, 1500s]
+    sources:
+      - "Roberto Ridolfi, The Life of Niccolò Machiavelli (trans. Cecil Grayson, 1963)"
+      - "Quentin Skinner, Machiavelli: A Very Short Introduction (2000)"
+      - "Grove Art Online, 'Santi di Tito'"
+    reviewed_by: null
+
+  - id: history.person.catherine-de-medici
+    discipline: history
+    kind: person
+    title: "Catherine de' Medici"
+    role: "Queen of France"
+    city: florence
+    difficulty: 2
+    era: Late Renaissance
+    year: 1519
+    year_end: 1589
+    facts:
+      - "Born in Florence on 13 April 1519, daughter of Lorenzo de' Medici, Duke of Urbino, the man to whom The Prince is dedicated; both parents were dead within a month of her birth."
+      - "Married Henri, second son of Francis I, at Marseille on 28 October 1533, aged fourteen, with her kinsman Clement VII presiding; Henri became Henri II in 1547, kept Diane de Poitiers as his mistress throughout, and died in 1559 of a jousting wound."
+      - "Three of her sons were kings of France, François II, Charles IX and Henri III; she was regent for Charles IX from 1560 and the power behind the throne through the Wars of Religion, and the St Bartholomew's Day massacre of 24 August 1572 has been laid at her door ever since, on evidence historians dispute."
+      - "She began the Tuileries in 1564, and the festivals of her court, staged with Italian dancing masters, are where the French ballet de cour began. She died at Blois on 5 January 1589; her granddaughter Christine of Lorraine, whom she had raised, married Grand Duke Ferdinando I of Tuscany that spring, the wedding for which the 1589 intermedi were performed."
+    remark: "Her father was the Medici to whom The Prince is dedicated, her wedding was fixed by a Medici pope, three of her sons were kings of France, and the granddaughter she raised married back into Florence in 1589, which is what the intermedi were for."
+    gaffe: "Crediting her with bringing forks, ice cream and French cuisine from Florence in 1533. She was fourteen, nobody at the time remarked on it, and food historians have found no contemporary evidence."
+    media:
+      image:
+        commons: "File:Catherine-de-medici.jpg"
+        source: "Portrait of Catherine de' Medici attributed to François Clouet (c. 1555), via Wikimedia Commons"
+        license: "Public domain (artist died 1572); verify the file's tag when fetching"
+    distractors:
+      person: [Diane de Poitiers, Marie de' Medici, Mary Queen of Scots]
+    links: [history.episode.medici-popes, history.episode.machiavelli-the-prince, music.intermedi.la-pellegrina-1589, opera.peri.euridice, music.lully]
+    tags: [florence, medici, france, queen, valois, 1500s]
+    sources:
+      - "R. J. Knecht, Catherine de' Medici (1998)"
+      - "Nina Treadwell, Music and Wonder at the Medici Court: The 1589 Interludes for La pellegrina (2008)"
+      - "Barbara Ketcham Wheaton, Savoring the Past: The French Kitchen and Table from 1300 to 1789 (1983)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Apocrypha
+  # ---------------------------------------------------------------------------
+
+  - id: history.apocrypha.eppur-si-muove
+    discipline: history
+    kind: apocrypha
+    title: "\"Eppur si muove\""
+    attributed_to: Galileo Galilei
+    verdict: invented
+    claim: "Rising from his knees after abjuring Copernicanism before the Inquisition in June 1633, Galileo muttered 'Eppur si muove', and yet it moves."
+    truth: "No contemporary source has it: not the trial record, not Galileo's letters, not the accounts of his friends. The line first appears in print in 1757, in Giuseppe Baretti's The Italian Library, published in London a hundred and twenty-four years after the trial. A painting that surfaced in 1911, once claimed to date from the 1640s, shows the words scratched on a cell wall; that early date has never been established and is widely doubted."
+    city: florence
+    difficulty: 1
+    era: Baroque
+    year: 1633
+    facts:
+      - "Giuseppe Baretti, an Italian man of letters living in London and a friend of Samuel Johnson, printed the anecdote in The Italian Library in 1757; nothing earlier is known."
+      - "The sentence of 22 June 1633 and Galileo's written abjuration survive in the Vatican archives; neither records any remark, and Galileo had just been examined under formal threat of torture."
+      - "The story attaches to a real fact: Galileo went on believing the earth moved, and said so privately, while serving his sentence at Arcetri."
+    remark: "The line turns up first in 1757, in a book Giuseppe Baretti published in London, and Baretti was Johnson's friend, not Galileo's; nobody in 1633 heard it, and a man just threatened with torture is unlikely to have said it aloud."
+    gaffe: "Quoting it as Galileo's parting shot to the Inquisition. It is in no trial record and no letter; say it with a smile and date it to the eighteenth century."
+    links: [history.episode.galileo-trial, music.movement.florentine-camerata, opera.movement.florentine-camerata]
+    tags: [florence, galileo, quotation, inquisition, 1630s]
+    sources:
+      - "Giuseppe Baretti, The Italian Library (London, 1757)"
+      - "Stillman Drake, Galileo at Work: His Scientific Biography (1978)"
+      - "Maurice A. Finocchiaro, Retrying Galileo, 1633–1992 (2005)"
+    reviewed_by: null

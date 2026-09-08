@@ -1,0 +1,423 @@
+# London, history. The departure: the Conquest and where titles come from, the
+# Tudors and Stuarts through their portraits, 1688 and the Whig houses, the
+# South Sea Bubble, the Regency, the Great Exhibition, and two stories a
+# cultured person knows to be false. Every item links to music, opera or art
+# taught in the same city; portraits are public-domain Commons files.
+items:
+  # ---------------------------------------------------------------------------
+  # Episodes
+  # ---------------------------------------------------------------------------
+
+  - id: history.episode.norman-conquest
+    discipline: history
+    kind: episode
+    title: "The Norman Conquest and the Bayeux Tapestry"
+    city: london
+    difficulty: 2
+    era: Norman
+    year: 1066
+    cast: [William the Conqueror, Harold Godwinson, Edward the Confessor, Odo of Bayeux]
+    facts:
+      - "Edward the Confessor died on 5 January 1066 and Harold Godwinson was crowned the next day; William, Duke of Normandy, defeated and killed him at Hastings on 14 October and was crowned in Westminster Abbey on Christmas Day."
+      - "The Bayeux Tapestry is not a tapestry but an embroidery, wool on linen, about seventy metres long, made in the 1070s, probably in England, for William's half-brother Odo, bishop of Bayeux; its final scenes are lost."
+      - "Domesday Book, the survey of who held what, was compiled in 1086; the Conquest replaced the English landholding class almost entirely with Normans, which is where the peerage begins."
+      - "Of the five ranks of the peerage only earl is older than the Conquest, from the Old English eorl; baron came with the Normans, the first dukedom was Cornwall in 1337 for the Black Prince, the first marquess was created in 1385 and the first viscount in 1440."
+      - "Knights and baronets are not peers: a baronetcy is a hereditary knighthood, invented by James I in 1611 and sold to pay for the plantation of Ulster, and it carries no seat in the House of Lords."
+    remark: "Every rank of the peerage is French except earl, which is Saxon, and even the earl's wife is a countess, because English never came up with a word for her."
+    gaffe: "Calling a baronet a peer, or the Bayeux Tapestry a tapestry. 'Sir Somebody, Bart.' is a hereditary knight with no seat in the Lords; and the Tapestry is embroidery, wool stitched on linen, not woven."
+    media:
+      image:
+        commons: "File:Bayeux Tapestry scene57 Harold death.jpg"
+        source: "The Bayeux Tapestry, scene 57, 'Harold rex interfectus est' (1070s), Musée de la Tapisserie de Bayeux, via Wikimedia Commons"
+        license: "Public domain (eleventh-century work; photograph of a two-dimensional work); verify the file's tag when fetching"
+    distractors:
+      year: [1016, 1086, 1215]
+      era: [Anglo-Saxon, Plantagenet, Tudor]
+    links: [history.episode.glorious-revolution-whig-houses, art.stubbs.whistlejacket, opera.sullivan.pirates-of-penzance]
+    tags: [england, norman, conquest, peerage, titles, 1060s]
+    sources:
+      - "Oxford Dictionary of National Biography, 'William I'"
+      - "David Bates, William the Conqueror (Yale English Monarchs, 2016)"
+      - "David M. Wilson, The Bayeux Tapestry (1985)"
+      - "Debrett's Peerage and Baronetage, introductory notes on the ranks of the peerage and the baronetage"
+    reviewed_by: null
+
+  - id: history.episode.henry-viii-break-with-rome
+    discipline: history
+    kind: episode
+    title: "Henry VIII, the six wives and the break with Rome"
+    city: london
+    difficulty: 1
+    era: Tudor
+    year: 1534
+    year_end: 1547
+    cast: [Henry VIII, Catherine of Aragon, Anne Boleyn, Thomas Cranmer, Thomas Cromwell, Thomas More]
+    facts:
+      - "Cranmer annulled the marriage to Catherine of Aragon in May 1533 so that Anne Boleyn, already pregnant with Elizabeth, could be crowned; the Act of Supremacy of November 1534 made Henry Supreme Head of the Church of England, and Thomas More was beheaded in July 1535 for refusing to acknowledge it."
+      - "The six wives in order: Catherine of Aragon (annulled), Anne Boleyn (beheaded 1536), Jane Seymour (died 1537 after giving birth to Edward), Anne of Cleves (annulled 1540), Catherine Howard (beheaded 1542), Catherine Parr (survived him)."
+      - "Between 1536 and 1540 Thomas Cromwell dissolved more than eight hundred religious houses and the Crown sold or granted their land; Longleat, Lacock and Syon all stand on monastic sites."
+      - "Holbein was the court's painter: the Whitehall mural of 1537, source of the legs-apart pose everyone knows, burned with the palace in 1698, and only the cartoon and the copies survive."
+    remark: "It began as a divorce case and became the largest transfer of land since the Conquest: the Act of Supremacy is 1534, the dissolution ran from 1536 to 1540, and Longleat, Lacock and Syon all stand on monastic ground."
+    gaffe: "Saying Henry divorced anyone. The marriages to Catherine of Aragon and Anne of Cleves were annulled, declared never to have existed; 'divorced, beheaded, died' is a mnemonic, not a legal history."
+    distractors:
+      year: [1509, 1517, 1558]
+      era: [Plantagenet, Stuart, Norman]
+    links: [history.person.henry-viii, art.holbein.the-ambassadors, history.person.elizabeth-i, history.episode.elizabeth-armada]
+    tags: [england, tudor, reformation, dissolution, 1530s]
+    sources:
+      - "J. J. Scarisbrick, Henry VIII (Yale English Monarchs, 1968)"
+      - "G. W. Bernard, The King's Reformation: Henry VIII and the Remaking of the English Church (2005)"
+      - "Oxford Dictionary of National Biography, 'Henry VIII'"
+    reviewed_by: null
+
+  - id: history.episode.elizabeth-armada
+    discipline: history
+    kind: episode
+    title: "Elizabeth I, Mary Queen of Scots and the Armada"
+    city: london
+    difficulty: 1
+    era: Tudor
+    year: 1588
+    cast: [Elizabeth I, Mary Queen of Scots, Philip II of Spain, Francis Drake, William Cecil, Francis Walsingham]
+    facts:
+      - "Elizabeth came to the throne on 17 November 1558, aged twenty-five; Mary, Queen of Scots, her Catholic cousin and heir, fled to England in 1568 and spent nineteen years in custody before being beheaded at Fotheringhay on 8 February 1587 for her part in the Babington Plot."
+      - "Elizabeth signed Mary's death warrant and then insisted it had been sent without her final order; her secretary William Davison was fined and put in the Tower for dispatching it."
+      - "Philip II's Armada of about 130 ships was scattered by fireships off Calais and beaten at Gravelines on 8 August 1588, then driven north round Scotland and Ireland, where the weather did most of the sinking; a medal struck that year reads 'He blew and they were scattered'."
+      - "The Tilbury speech, with 'the heart and stomach of a king', survives in a version written down by Leonel Sharp decades later; the tale of Drake finishing his game of bowls is not recorded until the following century."
+      - "Elizabeth died on 24 March 1603 and the crown passed to James VI of Scotland, the son of the woman she had executed."
+    remark: "She had Mary Queen of Scots beheaded in 1587 and left the throne to Mary's son in 1603; the union of the crowns was the executed woman's revenge."
+    gaffe: "Saying the English navy sank the Armada. Gravelines broke its formation; the weather wrecked it on the long way home round Scotland and Ireland, which is why the medal gave the credit to God rather than to Drake."
+    media:
+      image:
+        commons: "File:Loutherbourg-Spanish Armada.jpg"
+        source: "Philip James de Loutherbourg, Defeat of the Spanish Armada, 8 August 1588 (1796), National Maritime Museum, Greenwich, via Wikimedia Commons"
+        license: "Public domain (artist died 1812); verify the file's tag when fetching"
+    distractors:
+      year: [1558, 1603, 1605]
+      era: [Stuart, Plantagenet, Georgian]
+    links: [history.person.elizabeth-i, music.byrd, history.episode.henry-viii-break-with-rome, history.apocrypha.raleighs-cloak]
+    tags: [england, tudor, armada, spain, scotland, 1580s]
+    sources:
+      - "Garrett Mattingly, The Defeat of the Spanish Armada (1959)"
+      - "Oxford Dictionary of National Biography, 'Elizabeth I'"
+      - "John Guy, My Heart Is My Own: The Life of Mary Queen of Scots (2004)"
+    reviewed_by: null
+
+  - id: history.episode.civil-war-and-restoration
+    discipline: history
+    kind: episode
+    title: "Charles I, the Civil War and the Restoration"
+    city: london
+    difficulty: 1
+    era: Stuart
+    year: 1649
+    year_end: 1660
+    cast: [Charles I, Oliver Cromwell, Charles II, Henrietta Maria, Nell Gwyn, Samuel Pepys]
+    facts:
+      - "Charles ruled without Parliament from 1629 to 1640, raised his standard at Nottingham in August 1642, lost the war, and was tried by a court of his own subjects; he was beheaded on 30 January 1649 on a scaffold outside the Banqueting House in Whitehall, walking to it beneath the Rubens ceiling he had commissioned."
+      - "Parliament closed the theatres in 1642; Cromwell refused the crown in 1657 and ruled as Lord Protector until his death in 1658, and his body was dug up and hanged at Tyburn in January 1661."
+      - "The Commonwealth sold the king's pictures from 1649; Philip IV of Spain and Cardinal Mazarin were among the buyers, which is why Charles I's collection is now partly in the Prado and the Louvre."
+      - "Charles II entered London on 29 May 1660, his thirtieth birthday; the theatres reopened with women on the stage for the first time, Pepys had begun his diary that January, and the orange-seller Nell Gwyn became an actress and then the king's mistress."
+    remark: "He walked to the scaffold through the Banqueting House, under the Rubens ceiling he had paid for glorifying his father, and the Commonwealth then sold his pictures, which is why so much of Charles I's collection now hangs in the Prado and the Louvre."
+    gaffe: "Calling Cromwell a king, or the Commonwealth a lasting republic. He refused the crown in 1657 and took 'Lord Protector' instead, and the whole arrangement outlived him by less than two years."
+    distractors:
+      year: [1605, 1688, 1715]
+      era: [Tudor, Georgian, Regency]
+    links: [history.person.charles-i, music.purcell, opera.purcell, opera.purcell.dido-and-aeneas.when-i-am-laid-in-earth, history.episode.glorious-revolution-whig-houses]
+    tags: [england, stuart, civil-war, restoration, 1640s, 1660s]
+    sources:
+      - "Oxford Dictionary of National Biography, 'Charles I'"
+      - "Blair Worden, The English Civil Wars 1640–1660 (2009)"
+      - "Jerry Brotton, The Sale of the Late King's Goods: Charles I and His Art Collection (2006)"
+    reviewed_by: null
+
+  - id: history.episode.glorious-revolution-whig-houses
+    discipline: history
+    kind: episode
+    title: "The Glorious Revolution and the Whig houses"
+    city: london
+    difficulty: 2
+    era: Stuart
+    year: 1688
+    cast: [William III, Mary II, James II, the Duke of Marlborough, Sarah Duchess of Marlborough, John Vanbrugh, Robert Walpole]
+    facts:
+      - "Seven men, the 'Immortal Seven', signed an invitation to William of Orange in June 1688; he landed at Torbay on 5 November with a Dutch army, James II fled to France, and William and Mary were offered the crown in February 1689 on the terms of the Declaration of Right, enacted that December as the Bill of Rights."
+      - "The Act of Settlement of 1701 passed the crown over more than fifty Catholics with better blood claims to the Protestant House of Hanover, which is why a German prince became George I in 1714 and found Handel, his former Kapellmeister, already in London."
+      - "William Cavendish, Earl of Devonshire, one of the seven, was made a duke in 1694 and rebuilt Chatsworth; Blenheim was the nation's gift to Marlborough for the victory of 1704, designed by Vanbrugh from 1705, and the Duchess quarrelled with him so badly that in 1725 he was refused entry to see it finished."
+      - "Robert Walpole, First Lord of the Treasury from 1721 to 1742 and the first man to be called prime minister, built Houghton in Norfolk while in office; George II offered him 10 Downing Street in 1732, he accepted it for the office rather than for himself, and moved in in 1735."
+      - "The Jacobite risings of 1715 and 1745 were the attempts to reverse 1688; the theatre audiences who took up 'God Save the King' in September 1745 were singing against the Young Pretender."
+    remark: "The great English houses are mostly Whig monuments: Devonshire got his dukedom in 1694 for inviting William over, Blenheim was Parliament's thank-you to Marlborough, and Walpole built Houghton on twenty years in office."
+    gaffe: "Saying William conquered England. He was invited, by seven signatures in June 1688, and it was bloodless in England, which is what 'Glorious' meant; in Ireland, at the Boyne in 1690, it was not."
+    distractors:
+      year: [1660, 1701, 1714]
+      era: [Tudor, Regency, Victorian]
+    links: [art.stubbs.whistlejacket, opera.handel, music.handel.zadok-the-priest, music.anon.god-save-the-king, history.episode.civil-war-and-restoration, history.episode.south-sea-bubble]
+    tags: [england, stuart, whig, country-house, blenheim, hanover, 1680s, 1700s]
+    sources:
+      - "Steve Pincus, 1688: The First Modern Revolution (2009)"
+      - "Oxford Dictionary of National Biography, 'William III and II'"
+      - "Oxford Dictionary of National Biography, 'Vanbrugh, Sir John'"
+      - "Mark Girouard, Life in the English Country House (1978)"
+    reviewed_by: null
+
+  - id: history.episode.south-sea-bubble
+    discipline: history
+    kind: episode
+    title: "The South Sea Bubble"
+    city: london
+    difficulty: 1
+    era: Georgian
+    year: 1720
+    cast: [Robert Walpole, John Blunt, Isaac Newton, John Law, William Hogarth]
+    facts:
+      - "The South Sea Company, founded in 1711 and holding from 1713 the asiento, the contract to ship enslaved Africans to Spanish America, offered in 1720 to take over the national debt in exchange for its shares; the price went from about £128 in January to about £1,000 by the summer and was under £200 again by December."
+      - "Parliament passed the Bubble Act in June 1720, near the top; Isaac Newton was among the losers, and Handel's opera company, the Royal Academy of Music, had been floated as a joint-stock venture in the same speculative season of 1719."
+      - "Walpole came to power in the wreckage as First Lord of the Treasury in 1721 and shielded the guilty so thoroughly that the prints called him the Screen-Master General."
+      - "The Mississippi Bubble burst in Paris the same year: John Law, a Scottish gambler who had become Controller-General of France's finances, fled the country in December 1720."
+      - "The Dutch tulip mania of 1636 to 1637 is the oldest of the three; Anne Goldgar's study of the Haarlem archives found very few actual bankruptcies, and most of the ruin is in the moralising written afterwards."
+      - "Hogarth's first satirical print, The South Sea Scheme of 1721, shows the public riding a merry-go-round while Honesty is broken on the wheel and Honour flogged."
+    remark: "The shares went from about £130 in January 1720 to about £1,000 by the summer and were back where they started by Christmas; Walpole came to power by shielding the guilty, and the prints called him the Screen-Master General."
+    gaffe: "Saying tulips ruined Holland. Goldgar went through the Haarlem records and found almost no bankruptcies; the South Sea, which really did ruin people, is the bubble to cite."
+    media:
+      image:
+        commons: "File:William Hogarth - The South Sea Scheme.png"
+        source: "William Hogarth, Emblematical Print on the South Sea Scheme (1721), engraving, via Wikimedia Commons"
+        license: "Public domain (artist died 1764); verify the file's tag when fetching"
+    distractors:
+      year: [1637, 1688, 1745]
+      era: [Restoration, Regency, Victorian]
+    links: [art.hogarth, opera.handel.giulio-cesare, history.episode.glorious-revolution-whig-houses]
+    tags: [england, georgian, finance, bubble, walpole, hogarth, 1720s]
+    sources:
+      - "John Carswell, The South Sea Bubble (rev. ed., 1993)"
+      - "Anne Goldgar, Tulipmania: Money, Honor, and Knowledge in the Dutch Golden Age (2007)"
+      - "Ronald Paulson, Hogarth's Graphic Works (3rd ed., 1989)"
+      - "Oxford Dictionary of National Biography, 'Law, John'"
+    reviewed_by: null
+
+  - id: history.episode.regency
+    discipline: history
+    kind: episode
+    title: "The Regency: Brummell, Almack's and Brighton"
+    city: london
+    difficulty: 1
+    era: Regency
+    year: 1811
+    year_end: 1820
+    cast: [the Prince Regent (George IV), Beau Brummell, Lady Jersey, John Nash, Jane Austen, the Duke of Wellington]
+    facts:
+      - "The Regency Act of February 1811 made the Prince of Wales regent for his father, George III, whose madness had become permanent; it ended when the old king died on 29 January 1820 and the Regent became George IV."
+      - "George 'Beau' Brummell, the son of Lord North's private secretary and holder of no title at all, dictated how the Prince and his friends dressed: dark coat, plain linen, a starched cravat and no scent; he quarrelled with the Prince, fled his creditors to Calais in May 1816 and died in an asylum at Caen in 1840."
+      - "Almack's Assembly Rooms in King Street, St James's, held a ball every Wednesday of the Season; the lady patronesses, Lady Jersey chief among them, issued the vouchers, and to be refused one was social death. The waltz was danced there from about 1814."
+      - "John Nash laid out Regent Street from 1813 and rebuilt the Prince's seaside house at Brighton as the Royal Pavilion between 1815 and 1822, Indian outside and Chinese within."
+      - "Waterloo was fought on 18 June 1815; Jane Austen's six novels were all published between 1811 and 1818, and Emma of 1815 was dedicated, at his librarian's suggestion and to her private distaste, to the Prince Regent."
+    remark: "The Regency is nine years, from George III's final madness in February 1811 to his death in January 1820, and it holds Regent Street, the Brighton Pavilion, the waltz at Almack's and Brummell, who taught the Prince how to dress and then fled to Calais owing everyone."
+    gaffe: "Using 'Regency' for anything vaguely Georgian, or for Victoria's reign. It is 1811 to 1820, and Jane Austen's novels all came out inside it, which is the easiest way to keep the dates."
+    distractors:
+      year: [1789, 1830, 1837]
+      era: [Victorian, Restoration, Edwardian]
+    links: [art.constable.the-hay-wain, art.turner, history.apocrypha.playing-fields-of-eton, history.episode.great-exhibition]
+    tags: [england, regency, brummell, almacks, brighton, dandy, 1810s]
+    sources:
+      - "Oxford Dictionary of National Biography, 'George IV'"
+      - "Ian Kelly, Beau Brummell: The Ultimate Dandy (2005)"
+      - "Venetia Murray, High Society: A Social History of the Regency Period, 1788–1830 (1998)"
+      - "Captain Gronow, Reminiscences (1862)"
+    reviewed_by: null
+
+  - id: history.episode.great-exhibition
+    discipline: history
+    kind: episode
+    title: "Victoria, Albert and the Great Exhibition"
+    city: london
+    difficulty: 1
+    era: Victorian
+    year: 1851
+    cast: [Queen Victoria, Prince Albert, Joseph Paxton, Henry Cole]
+    facts:
+      - "The Great Exhibition of the Works of Industry of All Nations opened in Hyde Park on 1 May 1851, Albert's project, in Joseph Paxton's iron-and-glass Crystal Palace, about 560 metres long and raised in under a year; six million people came before it closed in October."
+      - "The profit of about £186,000 bought 87 acres in South Kensington, on which the South Kensington Museum (now the V&A), the Natural History Museum, the Science Museum, Imperial College and the Royal Albert Hall were built; the district was nicknamed Albertopolis."
+      - "The Crystal Palace was moved to Sydenham in 1854 and burned down on 30 November 1936; the name survives in the football club and the transmitter."
+      - "Victoria reigned from 20 June 1837 to 22 January 1901; she married Albert in February 1840, he died in December 1861, and she wore black for the remaining forty years."
+    remark: "The Crystal Palace paid for South Kensington: the Exhibition's profit of about £186,000 bought the land where the V&A, the Natural History Museum and the Albert Hall now stand, which is why the district was called Albertopolis."
+    gaffe: "Looking for the Crystal Palace in Hyde Park, or assuming it still stands. Paxton's building went to Sydenham in 1854 and burned in November 1936; the football club and the transmitter mark the site."
+    media:
+      image:
+        commons: "File:The Crystal Palace in Hyde Park for Grand International Exhibition of 1851.jpg"
+        source: "The Crystal Palace in Hyde Park for the Grand International Exhibition of 1851, coloured lithograph (1851), via Wikimedia Commons"
+        license: "Public domain (nineteenth-century print); verify the file's tag when fetching"
+    distractors:
+      year: [1837, 1861, 1887]
+      era: [Regency, Edwardian, Georgian]
+    links: [music.venue.royal-albert-hall, art.millais.ophelia, art.movement.pre-raphaelite-brotherhood, opera.sullivan.hms-pinafore, history.episode.regency]
+    tags: [england, victorian, great-exhibition, crystal-palace, albert, south-kensington, 1850s]
+    sources:
+      - "Oxford Dictionary of National Biography, 'Albert [Prince Albert of Saxe-Coburg and Gotha]'"
+      - "Michael Leapman, The World for a Shilling: How the Great Exhibition of 1851 Shaped a Nation (2001)"
+      - "Royal Commission for the Exhibition of 1851, 'History' (account of the surplus and the South Kensington estate)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Persons (Who's Who, through their portraits)
+  # ---------------------------------------------------------------------------
+
+  - id: history.person.henry-viii
+    discipline: history
+    kind: person
+    title: "Henry VIII"
+    role: King of England
+    city: london
+    difficulty: 1
+    era: Tudor
+    year: 1491
+    year_end: 1547
+    facts:
+      - "Born at Greenwich on 28 June 1491, the second son of Henry VII; his elder brother Arthur died in 1502, and Henry came to the throne in April 1509 aged seventeen, marrying Arthur's widow, Catherine of Aragon, within two months."
+      - "Leo X gave him the title Defender of the Faith in October 1521 for a book against Luther; he broke with Rome in 1534 and kept the title, and F.D. is still on the coins."
+      - "Holbein painted him in 1537 for the Whitehall mural, which burned in 1698; the small panel in the Thyssen-Bornemisza in Madrid is the only surviving painted portrait of the king generally accepted as Holbein's own work."
+      - "'Pastime with Good Company' is his, in the manuscript songbook of about 1518; 'Greensleeves' is not, being first registered in 1580, thirty-three years after his death."
+      - "Died at Whitehall on 28 January 1547, leaving three children who reigned in turn: Edward VI, Mary I and Elizabeth I."
+    remark: "He got 'Defender of the Faith' from the Pope in 1521 for a book against Luther, broke with the Pope thirteen years later, and kept the title; F.D. is still on the coins."
+    gaffe: "Crediting him with Greensleeves. It is first recorded in 1580, thirty-three years after his death; the tune that is actually his is 'Pastime with Good Company'."
+    media:
+      image:
+        commons: "File:Hans Holbein, the Younger, Around 1497-1543 - Portrait of Henry VIII of England - Google Art Project.jpg"
+        source: "Hans Holbein the Younger, Portrait of Henry VIII of England (1537), Museo Nacional Thyssen-Bornemisza, Madrid, via Wikimedia Commons (Google Art Project)"
+        license: "Public domain (artist died 1543); verify the file's tag when fetching"
+    distractors:
+      person: [Francis I, Charles V, Henry VII]
+      era: [Plantagenet, Stuart, Norman]
+    links: [history.episode.henry-viii-break-with-rome, art.holbein.the-ambassadors, history.person.elizabeth-i]
+    tags: [england, tudor, king, holbein, portrait, 1500s]
+    sources:
+      - "Oxford Dictionary of National Biography, 'Henry VIII'"
+      - "J. J. Scarisbrick, Henry VIII (Yale English Monarchs, 1968)"
+      - "Museo Nacional Thyssen-Bornemisza, Madrid, catalogue entry for Hans Holbein the Younger, Portrait of Henry VIII of England (1537)"
+      - "Grove Music Online, 'Henry VIII, King of England'"
+    reviewed_by: null
+
+  - id: history.person.elizabeth-i
+    discipline: history
+    kind: person
+    title: "Elizabeth I"
+    role: Queen of England
+    city: london
+    difficulty: 1
+    era: Tudor
+    year: 1533
+    year_end: 1603
+    facts:
+      - "Born at Greenwich on 7 September 1533, the daughter of Anne Boleyn; declared illegitimate after her mother's execution in 1536, imprisoned in the Tower by her half-sister Mary in 1554, and queen on 17 November 1558."
+      - "Never married, though the suitors included Robert Dudley, Earl of Leicester, and a French prince more than twenty years her junior; the childlessness made the succession the running anxiety of the reign."
+      - "The Armada Portrait of about 1588 exists in three versions, at Woburn Abbey, the National Portrait Gallery and Greenwich; the painter is unknown, the old attribution to George Gower having been dropped."
+      - "Her hand rests on a globe over the Americas; the fleet sails in one window and wrecks in the other, and a mermaid is carved on the chair. Royal Museums Greenwich bought its version in 2016 for £10.3 million from the Drake family."
+      - "In 1575 she granted Tallis and Byrd the monopoly on printing music in England, and kept Byrd, a Catholic, on the books of her Chapel Royal for the rest of her reign."
+    remark: "The Armada Portrait is propaganda with a globe in it: her hand rests on the Americas, the Spanish fleet burns in one window and wrecks in the other, and there are three versions because it was made to be copied."
+    gaffe: "Calling it 'the Gower'. The attribution to George Gower was dropped long ago; the painter is unknown, and the version Greenwich bought in 2016 had come down in Drake's family."
+    media:
+      image:
+        commons: "File:Elizabeth I (Armada Portrait).jpg"
+        source: "Unknown English artist, the Armada Portrait of Elizabeth I (c. 1588), Woburn Abbey version, via Wikimedia Commons"
+        license: "Public domain (anonymous sixteenth-century work); verify the file's tag when fetching"
+    distractors:
+      person: [Mary I, Mary Queen of Scots, Lady Jane Grey]
+      era: [Stuart, Plantagenet, Georgian]
+    links: [history.episode.elizabeth-armada, music.byrd, history.apocrypha.raleighs-cloak, history.person.henry-viii]
+    tags: [england, tudor, queen, armada-portrait, portrait, 1500s]
+    sources:
+      - "Oxford Dictionary of National Biography, 'Elizabeth I'"
+      - "Royal Museums Greenwich, 'The Armada Portrait of Elizabeth I' (collection entry)"
+      - "Roy Strong, Gloriana: The Portraits of Queen Elizabeth I (1987)"
+    reviewed_by: null
+
+  - id: history.person.charles-i
+    discipline: history
+    kind: person
+    title: "Charles I"
+    role: King of England, Scotland and Ireland
+    city: london
+    difficulty: 2
+    era: Stuart
+    year: 1600
+    year_end: 1649
+    facts:
+      - "Born at Dunfermline on 19 November 1600, the second son of James VI of Scotland; became heir when his brother Henry died in 1612, king in March 1625, and married Henrietta Maria of France the same year."
+      - "The greatest collector ever to sit on the English throne: he bought the Gonzaga collection from Mantua in 1627 to 1628, including Mantegna's Triumphs of Caesar, and had acquired the Raphael cartoons in 1623 while still Prince of Wales."
+      - "Van Dyck came to London in 1632, was knighted and made Principal Painter, and gave the king his image: the equestrian portraits, the hunting picture now in the Louvre, and the triple portrait sent to Rome so that Bernini could carve a bust, which was lost in the Whitehall fire of 1698."
+      - "He was short, about five foot four by the usual reckoning, and Van Dyck's answer was to paint him on horseback or from below."
+      - "Tried by a High Court of Justice his subjects had invented for the purpose and beheaded at Whitehall on 30 January 1649; he wore two shirts so as not to be seen to shiver."
+    remark: "He was about five foot four and Van Dyck's answer was the horse: two equestrian portraits, and the hunting picture in the Louvre where the king has dismounted and still manages to look down at you."
+    gaffe: "Mixing him up with his son. Charles II is the one with the spaniels and the mistresses; Charles I is the pointed beard in Van Dyck, and the only English king tried and executed by his own subjects."
+    media:
+      image:
+        commons: "File:Anthony van Dyck - Charles I at the Hunt.jpg"
+        source: "Anthony van Dyck, Charles I at the Hunt (c. 1635), Musée du Louvre, Paris, via Wikimedia Commons"
+        license: "Public domain (artist died 1641); verify the file's tag when fetching"
+    distractors:
+      person: [Charles II, James I, Philip IV of Spain]
+      era: [Tudor, Georgian, Regency]
+    links: [history.episode.civil-war-and-restoration, art.velazquez.rokeby-venus, music.purcell]
+    tags: [england, stuart, king, van-dyck, collector, portrait, 1600s]
+    sources:
+      - "Oxford Dictionary of National Biography, 'Charles I'"
+      - "Desmond Shawe-Taylor and Per Rumberg (eds), Charles I: King and Collector (Royal Academy exhibition catalogue, 2018)"
+      - "Musée du Louvre, catalogue entry INV 1236, Anthony van Dyck, Charles I at the Hunt"
+      - "Jerry Brotton, The Sale of the Late King's Goods (2006)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Apocrypha
+  # ---------------------------------------------------------------------------
+
+  - id: history.apocrypha.playing-fields-of-eton
+    discipline: history
+    kind: apocrypha
+    title: "\"The Battle of Waterloo was won on the playing fields of Eton\""
+    attributed_to: The Duke of Wellington
+    verdict: invented
+    claim: "Revisiting Eton in old age, the Duke of Wellington said that the Battle of Waterloo had been won on its playing fields."
+    truth: "Nothing of the kind is recorded in Wellington's lifetime. The earliest version is in French, in Montalembert's De l'avenir politique de l'Angleterre (1856), four years after the Duke's death: 'C'est ici qu'a été gagnée la bataille de Waterloo', with no playing fields in it. The 'playing fields' form belongs to the 1880s; Sir William Fraser's Words on Wellington (1889) is the version the Oxford Dictionary of Quotations cites."
+    city: london
+    difficulty: 2
+    era: Regency
+    year: 1815
+    facts:
+      - "Wellington was at Eton from 1781 to 1784, was taken away early because the family could not afford it, and was not fond of the place; the cult of organised games at Eton is Victorian, after his time."
+      - "The Oxford Dictionary of Quotations traces the words to Montalembert (1856) and the 'playing fields' to the 1880s; no contemporary of the Duke's reports him saying either."
+      - "Waterloo was fought on 18 June 1815; Turner exhibited The Field of Waterloo at the Royal Academy in 1818, and Byron had put the battle into Childe Harold in 1816."
+    remark: "It is French and posthumous: Montalembert printed 'C'est ici qu'a été gagnée la bataille de Waterloo' in 1856, four years after the Duke died, and the playing fields were added by English writers in the 1880s."
+    gaffe: "Quoting it to an Etonian as the Duke's own words. He was taken away from the school early, disliked it, and the cult of games at Eton is Victorian, after his day."
+    links: [history.episode.regency, art.turner]
+    tags: [england, wellington, waterloo, eton, quotation, 1810s]
+    sources:
+      - "Oxford Dictionary of Quotations (8th ed., 2014), 'Arthur Wellesley, 1st Duke of Wellington'"
+      - "Elizabeth Longford, Wellington: The Years of the Sword (1969)"
+      - "Charles de Montalembert, De l'avenir politique de l'Angleterre (1856)"
+    reviewed_by: null
+
+  - id: history.apocrypha.raleighs-cloak
+    discipline: history
+    kind: apocrypha
+    title: "Raleigh's cloak in the puddle"
+    attributed_to: Sir Walter Raleigh
+    verdict: invented
+    claim: "Meeting the Queen at a muddy place, the young Walter Raleigh spread his new plush cloak over the puddle so that she could cross dry-shod, and his fortune at court was made."
+    truth: "No one who knew Raleigh or Elizabeth mentions it. The story first appears in Thomas Fuller's Worthies of England, published in 1662, some eighty years after the supposed event and forty-four after Raleigh's execution; Fuller is also the earliest source for the couplet scratched on a window pane. Scott's Kenilworth (1821) made it universal."
+    city: london
+    difficulty: 3
+    era: Tudor
+    year: 1581
+    year_approx: true
+    facts:
+      - "Raleigh, born about 1554 in Devon, rose at court from about 1581, was knighted in 1585, and was beheaded in Old Palace Yard, Westminster, on 29 October 1618 under a treason sentence passed fifteen years earlier."
+      - "Fuller's Worthies of England (1662) is the first place the cloak appears: 'meeting with a plashy place, she seemed to scruple going thereon; presently Raleigh cast and spread his new plush cloak on the ground'."
+      - "He spelled his own name Ralegh, and the Oxford Dictionary of National Biography lists him that way."
+    remark: "The cloak comes from Fuller's Worthies of 1662, the same book that gives us the couplet scratched on the window, and Fuller was collecting Devon anecdotes eighty years after the fact; Scott's Kenilworth did the rest."
+    gaffe: "Telling the cloak story as a fact about Elizabeth's court. The only thing it reliably records is what the 1660s liked to believe about the 1580s."
+    links: [history.person.elizabeth-i, history.episode.elizabeth-armada, music.byrd]
+    tags: [england, tudor, raleigh, elizabeth, anecdote, 1580s]
+    sources:
+      - "Thomas Fuller, The History of the Worthies of England (1662), 'Devonshire'"
+      - "Oxford Dictionary of National Biography, 'Ralegh, Sir Walter'"
+      - "Mark Nicholls and Penry Williams, Sir Walter Raleigh: In Life and Legend (2011)"
+    reviewed_by: null

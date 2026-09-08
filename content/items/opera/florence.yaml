@@ -1,0 +1,366 @@
+# Florence: where opera was invented. The Camerata, Peri and Caccini, Monteverdi's
+# Orfeo as the first great opera, the Pergola and Verdi's Macbeth, then Puccini's
+# Florentine comedy and the verismo generation. Themes only where the melody is certain.
+items:
+  - id: opera.movement.florentine-camerata
+    discipline: opera
+    kind: movement
+    title: "The Florentine Camerata"
+    city: florence
+    difficulty: 1
+    era: Late Renaissance
+    year: 1573
+    year_end: 1587
+    year_approx: true
+    facts:
+      - "A circle of noblemen, musicians and poets who met at the Florentine house of Count Giovanni de' Bardi from about 1573 into the late 1580s; Vincenzo Galilei and Giulio Caccini were members."
+      - "Vincenzo Galilei, Galileo's father, set out the group's case in his Dialogo della musica antica et della moderna (1581): counterpoint smothered the words, and ancient Greek drama had been sung by a single voice."
+      - "Caccini wrote in the preface to Le nuove musiche (1602) that he had learned more from the Camerata's conversations than from thirty years of counterpoint."
+      - "The Camerata staged no opera: Peri's Dafne (1598) and Euridice (1600) came out of the rival circle of Jacopo Corsi, after Bardi had gone to Rome in 1592."
+    remark: "The Camerata were trying to bring back Greek tragedy and invented opera by mistake; their theorist was Vincenzo Galilei, whose son had the better career."
+    gaffe: "Saying the Camerata wrote the first opera. They argued about Greek music at Bardi's house; the first operas came out of Jacopo Corsi's circle after Bardi had left for Rome."
+    distractors:
+      title: ["The Accademia degli Immobili", "The Accademia della Crusca", "The Accademia degli Incogniti"]
+      era: [High Baroque, Classical, Romantic]
+    links: [opera.peri.dafne, opera.peri.euridice, opera.caccini, opera.term.stile-recitativo]
+    tags: [movement, florence, monody, bardi, 1570s, 1580s]
+    sources:
+      - "Grove Music Online, 'Camerata'"
+      - "Claude V. Palisca, The Florentine Camerata: Documentary Studies and Translations (1989)"
+    reviewed_by: null
+
+  - id: opera.peri.dafne
+    discipline: opera
+    kind: work
+    title: "Dafne"
+    creator: Jacopo Peri
+    city: florence
+    difficulty: 3
+    era: Early Baroque
+    year: 1598
+    facts:
+      - "Performed at the Florentine palazzo of Jacopo Corsi during Carnival 1598, on a libretto by Ottavio Rinuccini; Corsi wrote some of the music himself."
+      - "Usually counted as the first opera, but almost all the music is lost; only a few short fragments survive."
+      - "Rinuccini's libretto had a long afterlife: Marco da Gagliano reset it for Mantua in 1608, and Heinrich Schütz set Martin Opitz's German version in 1627 as the first German opera."
+    remark: "The first opera is one nobody has heard: Peri's Dafne of 1598 survives only in scraps, so the earliest opera you can actually sit through is Euridice, two years later."
+    gaffe: "Talking about the score. Almost none of it exists; anyone who claims to have heard Dafne has heard Gagliano's 1608 setting or a modern reconstruction."
+    distractors:
+      creator: [Giulio Caccini, Emilio de' Cavalieri, Claudio Monteverdi]
+      title: ["Euridice", "L'Orfeo", "Rappresentatione di Anima, et di Corpo"]
+      era: [High Baroque, Classical, Romantic]
+    links: [opera.movement.florentine-camerata, opera.peri.euridice, opera.monteverdi.l-orfeo]
+    tags: [opera, first-opera, florence, peri, rinuccini, 1590s]
+    sources:
+      - "Grove Music Online, 'Peri, Jacopo'"
+      - "Tim Carter, Jacopo Peri (1561–1633): His Life and Works (1989)"
+    reviewed_by: null
+
+  - id: opera.peri.euridice
+    discipline: opera
+    kind: work
+    title: "Euridice"
+    creator: Jacopo Peri
+    city: florence
+    difficulty: 2
+    era: Early Baroque
+    year: 1600
+    facts:
+      - "Performed on 6 October 1600 in the Palazzo Pitti during the celebrations for the marriage of Maria de' Medici to Henri IV of France; libretto by Ottavio Rinuccini."
+      - "The earliest opera whose music survives complete; Peri, a tenor, sang Orfeo himself."
+      - "Giulio Caccini set the same libretto and rushed his version into print in December 1600, ahead of Peri's; at the 1600 performance Caccini's pupils sang his music for their own parts."
+      - "Rinuccini gave the myth a happy ending for the wedding: Euridice is returned to Orfeo and nobody looks back."
+    remark: "The two Euridices are a race: Caccini set the same words and got his score into print first, but Peri's is the one that was sung at the Medici wedding, with Peri himself as Orfeo."
+    gaffe: "Expecting a tragedy. It was written for a royal wedding, so Euridice comes back and nobody looks over his shoulder."
+    distractors:
+      creator: [Giulio Caccini, Claudio Monteverdi, Emilio de' Cavalieri]
+      title: ["Dafne", "L'Orfeo", "Il rapimento di Cefalo"]
+      era: [High Baroque, Classical, Romantic]
+    links: [opera.peri.dafne, opera.caccini, opera.monteverdi.l-orfeo, opera.movement.florentine-camerata, opera.term.stile-recitativo]
+    tags: [opera, florence, medici, peri, rinuccini, orpheus, 1600s]
+    sources:
+      - "Grove Music Online, 'Euridice'"
+      - "Tim Carter, Jacopo Peri (1561–1633): His Life and Works (1989)"
+    reviewed_by: null
+
+  - id: opera.monteverdi.l-orfeo
+    discipline: opera
+    kind: work
+    title: "L'Orfeo"
+    creator: Claudio Monteverdi
+    city: florence
+    difficulty: 1
+    era: Early Baroque
+    year: 1607
+    facts:
+      - "First performed on 24 February 1607 at the Gonzaga court in Mantua, for the Accademia degli Invaghiti, on a libretto by Alessandro Striggio."
+      - "Published in Venice in 1609 with a list of the instruments required, which is rare for the period; a second edition followed in 1615."
+      - "Opens with a Toccata for trumpets that Monteverdi reused to open his Vespers of 1610."
+      - "The printed score ends with Apollo carrying Orfeo to heaven; the 1607 libretto ended instead with a chorus of Bacchantes threatening him, as in Ovid, and his fate left offstage."
+    remark: "L'Orfeo is the first opera anyone stages for pleasure rather than piety, and it was written for Mantua, not Florence; the Gonzagas were catching up with the Medici seven years after Euridice."
+    gaffe: "Calling it the first opera. It is the first great one; Peri's Dafne and Euridice are older, and Striggio's libretto leans on Rinuccini's."
+    distractors:
+      creator: [Jacopo Peri, Giulio Caccini, Francesco Cavalli]
+      title: ["Euridice", "L'incoronazione di Poppea", "Il ritorno d'Ulisse in patria"]
+      era: [High Baroque, Classical, Romantic]
+    links: [opera.peri.euridice, opera.peri.dafne, opera.term.stile-recitativo]
+    tags: [opera, mantua, gonzaga, monteverdi, orpheus, 1600s]
+    sources:
+      - "Grove Music Online, 'Orfeo'"
+      - "John Whenham (ed.), Claudio Monteverdi: Orfeo (Cambridge Opera Handbooks, 1986)"
+    reviewed_by: null
+
+  - id: opera.verdi.macbeth
+    discipline: opera
+    kind: work
+    title: "Macbeth"
+    creator: Giuseppe Verdi
+    city: florence
+    difficulty: 2
+    era: Romantic
+    year: 1847
+    facts:
+      - "Premiered at the Teatro della Pergola, Florence, on 14 March 1847, on a libretto by Francesco Maria Piave after Shakespeare; Verdi's first opera on a Shakespeare play."
+      - "Revised for Paris in 1865, which added Lady Macbeth's 'La luce langue' and a ballet; most houses now play the revision."
+      - "Verdi told the librettist Cammarano in 1848 that the Naples soprano Tadolini sang too beautifully for Lady Macbeth, whose voice he wanted harsh, stifled and hollow."
+      - "Dedicated to Antonio Barezzi, the Busseto merchant who had paid for Verdi's education and became his father-in-law."
+    remark: "Verdi wanted his Lady Macbeth to sound ugly; he wrote to Cammarano that the Naples soprano sang too well for the part, which is not a complaint composers often make."
+    gaffe: "Assuming it premiered at La Scala. Florence's Pergola had it first, in 1847, and Paris got the revised version in 1865."
+    distractors:
+      creator: [Gaetano Donizetti, Saverio Mercadante, Giovanni Pacini]
+      title: ["Nabucco", "Ernani", "Attila"]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.venue.teatro-della-pergola, opera.term.bel-canto]
+    tags: [opera, verdi, shakespeare, florence, pergola, 1840s]
+    sources:
+      - "Julian Budden, The Operas of Verdi, vol. 1 (1973)"
+      - "David Rosen and Andrew Porter (eds), Verdi's Macbeth: A Sourcebook (1984)"
+      - "Grove Music Online, 'Macbeth'"
+    reviewed_by: null
+
+  - id: opera.puccini.gianni-schicchi.o-mio-babbino-caro
+    discipline: opera
+    kind: work
+    title: "O mio babbino caro"
+    parent: "Gianni Schicchi (1918)"
+    creator: Giacomo Puccini
+    city: florence
+    difficulty: 1
+    era: Late Romantic / verismo
+    year: 1918
+    facts:
+      - "Lauretta's aria from Gianni Schicchi, the comic third panel of Il trittico, which opened at the Metropolitan Opera, New York, on 14 December 1918."
+      - "The opera is set in Florence in 1299 and grows out of a few lines in Dante's Inferno, Canto XXX, where Schicchi is damned for impersonating the dead Buoso Donati to forge his will."
+      - "Lauretta sings it to her father, Schicchi, to make him help her marry Rinuccio; she threatens to throw herself from the Ponte Vecchio into the Arno if he refuses."
+      - "The libretto is by Giovacchino Forzano; the aria names Porta Rossa, where she means to buy the ring."
+    remark: "It is emotional blackmail set to a lovely tune: Lauretta threatens to jump off the Ponte Vecchio unless her father forges a will, and the opera it comes from is a comedy about fraud."
+    gaffe: "Treating it as a love song. Babbino means daddy; she is wheedling her father, not serenading a lover."
+    theme:
+      notes: "Eb5/8 | Ab5/4. G5/8 F5/8 Eb5/8 | Db5/4. C5/4."
+      tempo: 66
+      key: A-flat major
+      note: "Lauretta's opening phrase only, 'O mio babbino caro', voice part at concert pitch; 6/8, Andantino ingenuo, A-flat major. Do not extend without checking the vocal score."
+    distractors:
+      creator: [Pietro Mascagni, Ruggero Leoncavallo, Umberto Giordano]
+      title: ["Un bel dì vedremo", "Quando m'en vo'", "Vissi d'arte"]
+      era: [Baroque, Classical, Early Romantic]
+    links: [opera.term.verismo, opera.mascagni.cavalleria-rusticana, opera.leoncavallo]
+    tags: [aria, soprano, puccini, florence, dante, 1910s]
+    sources:
+      - "Grove Music Online, 'Gianni Schicchi'"
+      - "Julian Budden, Puccini: His Life and Works (2002)"
+      - "Dante, Inferno, Canto XXX"
+    reviewed_by: null
+
+  - id: opera.mascagni.cavalleria-rusticana
+    discipline: opera
+    kind: work
+    title: "Cavalleria rusticana"
+    creator: Pietro Mascagni
+    city: florence
+    difficulty: 1
+    era: Verismo
+    year: 1890
+    facts:
+      - "Won the publisher Sonzogno's competition for one-act operas and opened at the Teatro Costanzi, Rome, on 17 May 1890; Mascagni was twenty-six and running a municipal music school in Cerignola."
+      - "From Giovanni Verga's Sicilian story of 1880 and the play he made of it in 1884; libretto by Giovanni Targioni-Tozzetti and Guido Menasci."
+      - "The Intermezzo sinfonico divides a single act set on Easter Sunday; the opera ends with a shout from offstage that Turiddu has been killed."
+      - "Mascagni was born in Livorno in 1863 and never repeated the success; the piece is usually paired with Leoncavallo's Pagliacci as 'Cav and Pag'."
+    remark: "Mascagni was twenty-six and running a music school in Puglia when it won Sonzogno's competition; the Intermezzo is the part everyone knows, and it is the only stretch of the piece in which nobody is threatening anybody."
+    gaffe: "Saying Cav and Pag are by the same composer. Leoncavallo wrote Pagliacci two years later; the pairing is a box-office habit, not a joint work."
+    distractors:
+      creator: [Ruggero Leoncavallo, Giacomo Puccini, Umberto Giordano]
+      title: ["Pagliacci", "Andrea Chénier", "L'amico Fritz"]
+      era: [Baroque, Classical, Early Romantic]
+    links: [opera.term.verismo, opera.leoncavallo, opera.puccini.gianni-schicchi.o-mio-babbino-caro]
+    tags: [opera, verismo, sicily, mascagni, livorno, intermezzo, 1890s]
+    sources:
+      - "Grove Music Online, 'Cavalleria rusticana'"
+      - "Grove Music Online, 'Mascagni, Pietro'"
+    reviewed_by: null
+
+  - id: opera.caccini
+    discipline: opera
+    kind: creator
+    title: "Giulio Caccini"
+    city: florence
+    difficulty: 2
+    era: Late Renaissance / early Baroque
+    year: 1551
+    year_approx: true
+    year_end: 1618
+    facts:
+      - "A singer at the Medici court in Florence from the 1560s until his death in 1618, and a member of Bardi's Camerata."
+      - "Le nuove musiche (1602) collects his solo songs with a preface on how to sing them; 'Amarilli, mia bella' is in it."
+      - "Set Rinuccini's Euridice in competition with Peri, printed it first, in 1600, and saw it staged in 1602."
+      - "His daughter Francesca Caccini wrote La liberazione di Ruggiero (1625), the earliest surviving opera by a woman."
+      - "The 'Ave Maria' sold under his name is by Vladimir Vavilov, a Soviet guitarist and lutenist, from about 1970."
+    remark: "Caccini's most famous piece is one he did not write: the Ave Maria on every wedding playlist is by a Soviet guitarist called Vavilov, from around 1970."
+    gaffe: "Praising Caccini's Ave Maria. Praise Amarilli instead; it is his, and it is in Le nuove musiche."
+    distractors:
+      person: [Jacopo Peri, Emilio de' Cavalieri, Vincenzo Galilei]
+      era: [High Baroque, Classical, Romantic]
+    links: [opera.movement.florentine-camerata, opera.peri.euridice, opera.term.stile-recitativo]
+    tags: [composer, singer, florence, medici, monody, 1600s]
+    sources:
+      - "Grove Music Online, 'Caccini, Giulio'"
+      - "H. Wiley Hitchcock (ed.), Giulio Caccini: Le nuove musiche (1970)"
+    reviewed_by: null
+
+  - id: opera.leoncavallo
+    discipline: opera
+    kind: creator
+    title: "Ruggero Leoncavallo"
+    city: florence
+    difficulty: 1
+    era: Verismo
+    year: 1857
+    year_end: 1919
+    facts:
+      - "Born in Naples in 1857; died at Montecatini Terme, in Tuscany, in 1919."
+      - "Pagliacci opened at the Teatro Dal Verme, Milan, on 21 May 1892, conducted by Arturo Toscanini; he wrote the libretto himself."
+      - "Accused of plagiarism by Catulle Mendès, he replied that the plot came from a real murder tried by his father, a magistrate in Calabria."
+      - "His La bohème (1897) set the same Murger novel as Puccini's, a year later, and lost."
+    remark: "Leoncavallo wrote his own words, which Italian composers almost never did, and set the same Murger novel as Puccini a year too late; Pagliacci is what he is remembered for and La bohème is what he was bitter about."
+    gaffe: "Attributing Pagliacci to Mascagni because it always shares the bill with Cavalleria. Different composer, two years apart, same publisher."
+    distractors:
+      person: [Pietro Mascagni, Umberto Giordano, Francesco Cilea]
+      era: [Baroque, Classical, Early Romantic]
+    links: [opera.mascagni.cavalleria-rusticana, opera.term.verismo]
+    tags: [composer, verismo, naples, pagliacci, 1890s]
+    sources:
+      - "Grove Music Online, 'Leoncavallo, Ruggero'"
+      - "Konrad Dryden, Leoncavallo: Life and Works (2007)"
+    reviewed_by: null
+
+  - id: opera.venue.teatro-della-pergola
+    discipline: opera
+    kind: venue
+    title: "Teatro della Pergola"
+    location: "Via della Pergola, Florence"
+    city: florence
+    difficulty: 2
+    era: Baroque
+    year: 1656
+    facts:
+      - "Built from 1656 to a design by Ferdinando Tacca for the Accademia degli Immobili, a society of Florentine nobles; the first opera staged there was Jacopo Melani's Il potestà di Colognole in 1657."
+      - "Usually credited as the first theatre built with superimposed tiers of boxes, the plan that Italian opera houses followed for two centuries."
+      - "Verdi's Macbeth had its premiere here on 14 March 1847; Donizetti's Parisina had opened here in 1833."
+      - "Florence's opera company now plays elsewhere; the Pergola is mainly a theatre for plays."
+    remark: "The Pergola is why opera houses look the way they do: it was built in 1656 with stacked tiers of boxes, and every horseshoe from La Scala to Covent Garden descends from it."
+    gaffe: "Booking it for opera. Verdi's Macbeth opened here, but Florence's opera now lives at the Maggio Musicale's house; the Pergola is mostly for plays."
+    distractors:
+      title: ["Teatro San Carlo, Naples", "Teatro La Fenice, Venice", "Teatro Comunale, Florence"]
+    links: [opera.verdi.macbeth, opera.venue.covent-garden]
+    tags: [venue, florence, opera-house, verdi, 1650s]
+    sources:
+      - "Grove Music Online, 'Florence'"
+      - "Teatro della Pergola, 'La storia del teatro' (the theatre's own history)"
+    reviewed_by: null
+
+  - id: opera.term.stile-recitativo
+    discipline: opera
+    kind: term
+    title: "Stile recitativo"
+    city: florence
+    difficulty: 1
+    era: Early Baroque
+    year: 1600
+    year_approx: true
+    definition: "The 'recitative style' of the first Florentine operas: a single voice declaiming the words over a simple bass, following the pace and inflection of speech rather than the shape of a tune. The Florentines also called it recitar cantando, speaking in song."
+    pronunciation: "STEE-leh reh-chee-tah-TEE-voh"
+    language: Italian
+    facts:
+      - "Peri's preface to Euridice explains that he wanted a way of singing that lay between ordinary speech and melody, holding the bass still while the voice moved through the notes of the speech."
+      - "The phrase recitar cantando appears in the preface to Emilio de' Cavalieri's Rappresentatione di Anima, et di Corpo, printed in Rome in 1600."
+      - "Recitative became the connective tissue of opera; arias were the tunes that grew up between the stretches of it."
+    remark: "The invention of opera was really the invention of speaking in pitch; Peri's preface says he was looking for the halfway house between talking and singing, and that is what recitative still is."
+    gaffe: "Calling the first operas a string of arias. Euridice is almost all recitative; the tunes came later, and that was the point."
+    distractors:
+      term:
+        - "A florid, ornamented style of singing in which the performer improvises runs on the long vowels."
+        - "The eighteenth-century aria form in which the opening section returns after a contrasting middle."
+        - "The Baroque practice of doubling the vocal line with a solo violin or cornett."
+    links: [opera.movement.florentine-camerata, opera.peri.euridice, opera.caccini, opera.monteverdi.l-orfeo]
+    tags: [term, recitative, monody, florence, 1600s]
+    sources:
+      - "Grove Music Online, 'Recitative'"
+      - "Claude V. Palisca, The Florentine Camerata: Documentary Studies and Translations (1989)"
+    reviewed_by: null
+
+  - id: opera.term.verismo
+    discipline: opera
+    kind: term
+    title: "Verismo"
+    city: florence
+    difficulty: 1
+    era: Late Romantic
+    year: 1890
+    definition: "Literally 'realism': the Italian operatic fashion of the 1890s for contemporary, low-life, often violent subjects, after Verga's fiction; Cavalleria rusticana and Pagliacci are the models."
+    pronunciation: "veh-REEZ-moh"
+    language: Italian
+    facts:
+      - "The word came from Italian literary realism, above all Giovanni Verga, whose 1880 story Cavalleria rusticana became Mascagni's opera in 1890."
+      - "The strict list is short: Cavalleria rusticana, Pagliacci and a few others from the 1890s; Puccini is called verismo loosely, and only Il tabarro really fits."
+      - "The term is now applied loosely to the whole generation of Italian opera after Verdi."
+    remark: "Verismo proper is a short list, Cavalleria, Pagliacci and a handful of others from the 1890s; calling all of Puccini verismo is the loose usage, and Il tabarro is about the only one that qualifies."
+    gaffe: "Using it for anything Italian and loud. Verdi is not verismo; the word belongs to the 1890s and Mascagni's generation."
+    distractors:
+      term:
+        - "The bel canto ideal of an even, agile voice across the whole range."
+        - "The nineteenth-century Italian practice of casting a woman in a young man's role."
+        - "A Risorgimento opera in which the chorus stands for the nation."
+    links: [opera.mascagni.cavalleria-rusticana, opera.leoncavallo, opera.puccini.gianni-schicchi.o-mio-babbino-caro, opera.term.bel-canto]
+    tags: [term, verismo, mascagni, leoncavallo, 1890s]
+    sources:
+      - "Grove Music Online, 'Verismo'"
+    reviewed_by: null
+
+  - id: opera.term.bel-canto
+    discipline: opera
+    kind: term
+    title: "Bel canto"
+    city: florence
+    difficulty: 1
+    era: Early Romantic
+    year: 1830
+    year_approx: true
+    definition: "Literally 'beautiful singing': the Italian style that prized an even, agile, legato voice, and by extension the operas of Rossini, Bellini and Donizetti written for it in the early nineteenth century."
+    pronunciation: "bel KAHN-toh"
+    language: Italian
+    facts:
+      - "The term was hardly used before the middle of the nineteenth century, when it became a nostalgic complaint that singing had declined since Rossini."
+      - "The bel canto revival of the 1950s is associated with Maria Callas and Joan Sutherland, who made the serious operas of Bellini and Donizetti repertory pieces again."
+      - "Chopin, who knew Bellini in Paris, admired his long melodic lines."
+    remark: "Bel canto is a nostalgic term: hardly anyone used it while Bellini was alive, and it came into fashion in the middle of the nineteenth century as a way of complaining that singers had started shouting."
+    gaffe: "Calling Verdi or Puccini bel canto. The label covers Rossini, Bellini and Donizetti; after that the orchestra gets louder and the term gets vaguer."
+    distractors:
+      term:
+        - "The Florentine style of declaiming a text in pitch over a sustained bass."
+        - "The tradition of unaccompanied choral singing in Italian churches."
+        - "The Neapolitan school of comic opera sung in dialect."
+    links: [opera.term.verismo, opera.verdi.macbeth]
+    tags: [term, singing, rossini, bellini, donizetti, 1830s]
+    sources:
+      - "Grove Music Online, 'Bel canto'"
+      - "Rodolfo Celletti, A History of Bel Canto (1991)"
+    reviewed_by: null

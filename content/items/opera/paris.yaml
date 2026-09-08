@@ -1,0 +1,453 @@
+# Paris: opera. Bizet, Gounod, Offenbach, Massenet, Debussy, Berlioz; the
+# founders Lully and Rameau; the Palais Garnier; grand opéra and opéra comique.
+# Themes are melody line only, at concert pitch, opening phrase; triplets and
+# ties are approximated because the notation has no triplet value.
+items:
+  # ---------------------------------------------------------------------------
+  # Bizet: Carmen (Opéra-Comique, 1875)
+  # ---------------------------------------------------------------------------
+
+  - id: opera.bizet.carmen.habanera
+    discipline: opera
+    kind: work
+    title: "L'amour est un oiseau rebelle (Habanera)"
+    parent: "Carmen (1875)"
+    creator: Georges Bizet
+    city: paris
+    difficulty: 1
+    era: Romantic
+    year: 1875
+    language: French
+    pronunciation: "lah-MOOR eh tuhn wah-ZOH ruh-BEL"
+    facts:
+      - "Carmen opened at the Opéra-Comique, Paris, on 3 March 1875; Bizet died on 3 June, three months later, aged 36, before the work had become a success."
+      - "Carmen sings it in Act 1, outside the cigarette factory in Seville, to a crowd of soldiers; Célestine Galli-Marié created the role, which is written for mezzo-soprano."
+      - "The tune is taken from 'El Arreglito', a habanera by the Spanish composer Sebastián Iradier, published in 1863; Bizet believed it was a folk song and, when told otherwise, added an acknowledgement to the vocal score."
+      - "The libretto is by Henri Meilhac and Ludovic Halévy, after Prosper Mérimée's novella of 1845."
+    remark: "The tune is not Bizet's own; it is 'El Arreglito' by Sebastián Iradier, which Bizet took for a folk song and credited in the vocal score once someone told him."
+    gaffe: "Calling Carmen a soprano. She is a mezzo, and the Habanera sits in the middle of the voice on purpose; the soprano in the opera is Micaëla."
+    theme:
+      notes: "D5/8 C#5/8 | C5/16 C5/16 C5/8 B4/8 Bb4/8 | A4/8. A4/16 G#4/8 G4/8 | F4/32 G4/32 F4/16 E4/16 F4/16 G4/8 F4/8 | E4/8 R/8 D5/8 C#5/8 | C5/16 C5/16 C5/8 B4/8 Bb4/8 | A4/8. A4/16 G4/8 F4/8 | E4/32 F4/32 E4/16 D4/16 E4/16 F4/8 E4/8 | D4/4"
+      tempo: 72
+      key: D minor
+      note: "Vocal line from the entry of Carmen, first two lines of text. The triplets on 'est un oi-' and the turn on 'nul' are approximated with straight values."
+    distractors:
+      creator: [Charles Gounod, Jules Massenet, Léo Delibes]
+      title: ["Près des remparts de Séville (Séguedille)", "Votre toast, je peux vous le rendre (Toreador Song)", "La fleur que tu m'avais jetée"]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.bizet.carmen.toreador-song, opera.term.opera-comique, opera.term.voice-types]
+    tags: [aria, mezzo, bizet, carmen, paris, 1870s]
+    sources:
+      - "Grove Music Online, 'Carmen'"
+      - "Winton Dean, Georges Bizet: His Life and Work (1965)"
+      - "Hugh Macdonald, Bizet (2014)"
+    reviewed_by: null
+
+  - id: opera.bizet.carmen.toreador-song
+    discipline: opera
+    kind: work
+    title: "Votre toast, je peux vous le rendre (Toreador Song)"
+    parent: "Carmen (1875)"
+    creator: Georges Bizet
+    city: paris
+    difficulty: 1
+    era: Romantic
+    year: 1875
+    language: French
+    pronunciation: "VOT-ruh TOAST, zhuh puh voo luh RAHN-druh"
+    facts:
+      - "Escamillo, the bullfighter, sings it on his entrance in Act 2, at Lillas Pastia's tavern; the role is a baritone, first sung by the Belgian Jacques Bouhy."
+      - "The refrain, 'Toréador, en garde', is heard before the curtain rises, as the middle section of the Prelude, in F major."
+      - "The refrain returns at the very end: the crowd sings it inside the bullring while Don José stabs Carmen outside the gates."
+      - "Toréador is the French form of the word; a Spanish bullfighter is a torero, or, if he kills, a matador."
+    remark: "Bizet saves the jolliest tune in the score for the murder; the crowd sings 'Toréador, en garde' inside the arena while Don José kills Carmen at the gate."
+    gaffe: "Calling Escamillo a tenor. He is the baritone; the tenor is Don José, and he never sings a note of this."
+    theme:
+      notes: "C5/4 D5/8. C5/16 | A4/4 A4/4 | A4/8. G4/16 A4/8. Bb4/16 | A4/4. R/8 | Bb4/4 G4/8. C5/16 | A4/4. R/8 | F4/4 D4/8. G4/16 | C4/4. R/8 | G4/2 | G4/8 D5/8 C5/8 Bb4/8 | A4/8 G4/8 A4/8 Bb4/8 | A4/4. R/8"
+      tempo: 112
+      key: F major
+      note: "The refrain ('Toréador, en garde') as it appears in the Prelude, treble register; Escamillo sings it an octave lower."
+    distractors:
+      creator: [Charles Gounod, Jacques Offenbach, Jules Massenet]
+      title: ["L'amour est un oiseau rebelle (Habanera)", "La fleur que tu m'avais jetée", "Les tringles des sistres tintaient (Chanson bohème)"]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.bizet.carmen.habanera, opera.term.opera-comique, opera.term.voice-types]
+    tags: [aria, baritone, bizet, carmen, paris, 1870s]
+    sources:
+      - "Grove Music Online, 'Carmen'"
+      - "Winton Dean, Georges Bizet: His Life and Work (1965)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Gounod: Faust (Théâtre Lyrique, 1859)
+  # ---------------------------------------------------------------------------
+
+  - id: opera.gounod.faust.jewel-song
+    discipline: opera
+    kind: work
+    title: "Ah! je ris de me voir si belle (Jewel Song)"
+    parent: "Faust (1859)"
+    creator: Charles Gounod
+    city: paris
+    difficulty: 1
+    era: Romantic
+    year: 1859
+    language: French
+    pronunciation: "ah, zhuh REE duh muh VWAHR see BEL"
+    facts:
+      - "Faust opened at the Théâtre Lyrique, Paris, on 19 March 1859, with spoken dialogue; sung recitatives came later, and the Walpurgis Night ballet was added when the work entered the Opéra in 1869."
+      - "Marguerite sings it in the garden in Act 3, having found a casket of jewels that Méphistophélès has left to tempt her; it is a waltz, and she sings it to a mirror."
+      - "The libretto is by Jules Barbier and Michel Carré, after Part One of Goethe's Faust; in Germany the opera is often billed as Margarethe."
+      - "The Metropolitan Opera opened its first season with Faust on 22 October 1883, with Christine Nilsson as Marguerite."
+    remark: "It is a waltz sung to a mirror: Marguerite has just opened a box of jewels left by the devil, and it is the one aria Bianca Castafiore in Tintin ever sings."
+    gaffe: "Calling the opera 'Goethe's Faust'. Gounod set only the Gretchen story from Part One, which is why the Germans bill it as Margarethe."
+    distractors:
+      creator: [Georges Bizet, Jules Massenet, Ambroise Thomas]
+      title: ["Salut, demeure chaste et pure", "Le veau d'or est toujours debout", "Il était un roi de Thulé"]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.term.opera-comique, opera.term.grand-opera, opera.term.aria]
+    tags: [aria, soprano, gounod, faust, paris, 1850s]
+    sources:
+      - "Grove Music Online, 'Faust' (Gounod)"
+      - "Steven Huebner, The Operas of Charles Gounod (1990)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Offenbach
+  # ---------------------------------------------------------------------------
+
+  - id: opera.offenbach.contes-d-hoffmann.barcarolle
+    discipline: opera
+    kind: work
+    title: "Belle nuit, ô nuit d'amour (Barcarolle)"
+    parent: "Les contes d'Hoffmann (1881)"
+    creator: Jacques Offenbach
+    city: paris
+    difficulty: 1
+    era: Romantic
+    year: 1881
+    language: French
+    pronunciation: "BEL NWEE, oh NWEE dah-MOOR"
+    facts:
+      - "Les contes d'Hoffmann opened at the Opéra-Comique on 10 February 1881; Offenbach had died on 5 October 1880 with the orchestration unfinished, and Ernest Guiraud completed the score."
+      - "The Barcarolle opens the Venetian act and is a duet for Giulietta, a courtesan, and Nicklausse, Hoffmann's companion, a trouser role for mezzo-soprano."
+      - "Offenbach took the tune from his own Die Rheinnixen (Vienna, 1864), where it was a song for elves."
+      - "It is in D major and a rocking 6/8: a barcarolle imitates the song of a Venetian gondolier."
+    remark: "Offenbach never heard it in this opera; the tune was second-hand from his Rheinnixen of 1864, where elves sang it, and the score was finished by Guiraud after his death."
+    gaffe: "Taking it for a love duet between a man and a woman. Both singers are women, and one of them is playing a man."
+    theme:
+      notes: "A4/4 B4/8 B4/4 C#5/8 | C#5/4 D5/8 D5/4 C#5/8 | C#5/4 B4/8 B4/4 A4/8 | A4/4. A4/4 R/8 | A4/4 B4/8 B4/4 C#5/8 | C#5/4 D5/8 D5/4 C#5/8 | C#5/4 B4/8 B4/4 A4/8 | A4/4. A4/4 A4/8 | A4/4 B4/8 B4/4 C5/8 | D5/2."
+      tempo: 80
+      key: D major
+      note: "Melody from the vocal entry ('Belle nuit'), in 6/8; the lower of the two voices carries the tune. A tied note in bar 8 is re-struck."
+    distractors:
+      creator: [Georges Bizet, Charles Gounod, Léo Delibes]
+      title: ["Les oiseaux dans la charmille (Doll Song)", "Scintille, diamant", "Sous le dôme épais (Flower Duet)"]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.offenbach.orphee-aux-enfers.galop-infernal, opera.term.opera-comique]
+    tags: [duet, barcarolle, mezzo, soprano, offenbach, hoffmann, paris, 1880s]
+    sources:
+      - "Grove Music Online, 'Contes d'Hoffmann, Les'"
+      - "Alexander Faris, Jacques Offenbach (1980)"
+    reviewed_by: null
+
+  - id: opera.offenbach.orphee-aux-enfers.galop-infernal
+    discipline: opera
+    kind: work
+    title: "Galop infernal (the Can-can)"
+    parent: "Orphée aux enfers (1858)"
+    creator: Jacques Offenbach
+    city: paris
+    difficulty: 1
+    era: Romantic
+    year: 1858
+    language: French
+    pronunciation: "gah-LOP an-fair-NAHL"
+    facts:
+      - "Orphée aux enfers opened at Offenbach's own Théâtre des Bouffes-Parisiens on 21 October 1858, to a libretto by Hector Crémieux and Ludovic Halévy; an expanded four-act version followed at the Théâtre de la Gaîté in 1874."
+      - "The galop is the finale in Hades: the gods, bored with Olympus, dance it at Pluto's party, and Eurydice, who has no wish to go home with Orpheus, joins in; the chorus sings 'Ce bal est original'."
+      - "It became the music of the cancan later, in the dance halls; in the opera it is a galop, and nobody kicks."
+      - "Saint-Saëns quotes it, slowed to a crawl, for the tortoises in Le carnaval des animaux (1886)."
+    remark: "In the opera nobody kicks; it is a galop for bored Olympians at a party in Hades, and Saint-Saëns's joke in the Carnival of the Animals is to play it at tortoise speed."
+    gaffe: "Calling it 'the Can-can by Offenbach' as if he had written a cancan. He wrote a galop for a mythological burlesque; the dance halls borrowed it."
+    theme:
+      notes: "G4/2 | A4/8 C5/8 B4/8 A4/8 | D5/4 D5/4 | D5/8 E5/8 B4/8 C5/8 | A4/4 A4/4 | A4/8 C5/8 B4/8 A4/8 | G4/8 G5/8 F#5/8 E5/8 | D5/8 C5/8 B4/8 A4/8 | G4/2"
+      tempo: 160
+      key: G major
+      note: "The principal strain, sung to 'Ce bal est original', in G major as first heard; the galop's own opening bars are a different, less known tune."
+    distractors:
+      creator: [Johann Strauss II, Georges Bizet, Charles Lecocq]
+      title: ["Belle nuit, ô nuit d'amour (Barcarolle)", "Duo de la mouche", "Couplets du roi de Béotie"]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.offenbach.contes-d-hoffmann.barcarolle]
+    tags: [galop, operetta, chorus, offenbach, orphee, paris, 1850s]
+    sources:
+      - "Grove Music Online, 'Orphée aux enfers'"
+      - "Alexander Faris, Jacques Offenbach (1980)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Massenet: Thaïs (Opéra, 1894)
+  # ---------------------------------------------------------------------------
+
+  - id: opera.massenet.thais.meditation
+    discipline: opera
+    kind: work
+    title: "Méditation (from Thaïs)"
+    parent: "Thaïs (1894)"
+    creator: Jules Massenet
+    city: paris
+    difficulty: 1
+    era: Romantic
+    year: 1894
+    language: French
+    pronunciation: "may-dee-tah-SYON; tah-EES"
+    facts:
+      - "Thaïs opened at the Opéra, in the Palais Garnier, on 16 March 1894, with Sibyl Sanderson, the American soprano Massenet wrote the role for; the libretto is by Louis Gallet, after Anatole France's novel of 1890."
+      - "The Méditation is an intermezzo for solo violin and orchestra between the two scenes of Act 2; while it plays, Thaïs, a courtesan in Alexandria, resolves to follow the monk Athanaël into the desert."
+      - "Athanaël is a baritone; by the last act it is he who burns with desire and she who dies a saint."
+      - "Massenet's other repertory operas are Manon (Opéra-Comique, 1884) and Werther, first given in Vienna in 1892."
+    remark: "It is the sound of a courtesan converting: the violin plays between the two scenes of Act 2 while Thaïs decides to follow the monk, and by the last act the monk wants her and she is dying a saint."
+    gaffe: "Treating it as a stand-alone violin piece by 'the man who wrote the Méditation'. It is an entr'acte from Thaïs, and Massenet's reputation rests on Manon and Werther."
+    theme:
+      notes: "F#5/2 F#5/8 D5/8 A4/16 D5/16 F#5/8 | B5/2 C#6/4 D6/4 | D5/4. E5/8 F#5/16 G5/32 F#5/32 E5/16 F#5/16 A5/8 A4/8 | B4/2. C#5/8 D5/8"
+      tempo: 66
+      key: D major
+      note: "Solo violin from its entry after the harp introduction, Andante religioso. The opening tied note is re-struck; the triplet in bar 1 and the five-note turn in bar 3 are approximated."
+    distractors:
+      creator: [Camille Saint-Saëns, Charles Gounod, Gabriel Fauré]
+      title: ["Adieu, notre petite table", "Pourquoi me réveiller", "En fermant les yeux (Le rêve)"]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.venue.palais-garnier, opera.term.opera-comique]
+    tags: [intermezzo, violin, massenet, thais, paris, 1890s]
+    sources:
+      - "Grove Music Online, 'Thaïs'"
+      - "Demar Irvine, Massenet: A Chronicle of His Life and Times (1994)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Debussy: Pelléas et Mélisande (Opéra-Comique, 1902)
+  # ---------------------------------------------------------------------------
+
+  - id: opera.debussy.pelleas-et-melisande
+    discipline: opera
+    kind: work
+    title: "Pelléas et Mélisande"
+    creator: Claude Debussy
+    city: paris
+    difficulty: 2
+    era: Early modern
+    year: 1902
+    language: French
+    pronunciation: "pel-lay-AHSS ay may-lee-ZAHND"
+    facts:
+      - "First performed at the Opéra-Comique on 30 April 1902, conducted by André Messager, with the Scottish soprano Mary Garden as Mélisande and Jean Périer as Pelléas."
+      - "The text is Maurice Maeterlinck's Symbolist play of 1892, set almost word for word; Maeterlinck wanted his companion Georgette Leblanc for Mélisande and, refused, attacked the production in print before the premiere."
+      - "Golaud finds Mélisande weeping by a spring in a forest and marries her; his half-brother Pelléas falls in love with her, and Golaud kills him."
+      - "Debussy's only completed opera. Fauré and Sibelius wrote incidental music for the same play, and Schoenberg a tone poem."
+    remark: "Nobody in it raises their voice: the text is Maeterlinck's play set nearly word for word, and Debussy's only finished opera has no set-piece arias at all, which is the point rather than a defect."
+    gaffe: "Confusing it with Fauré's or Sibelius's Pelléas, which are incidental music for the play, or with Schoenberg's tone poem. Only Debussy's is an opera."
+    distractors:
+      creator: [Gabriel Fauré, Maurice Ravel, Paul Dukas]
+      title: ["L'heure espagnole", "Ariane et Barbe-bleue", "Pénélope"]
+      era: [Baroque, Romantic, Verismo]
+    links: [opera.term.opera-comique, opera.massenet.thais.meditation]
+    tags: [opera, debussy, maeterlinck, symbolism, paris, 1900s]
+    sources:
+      - "Grove Music Online, 'Pelléas et Mélisande'"
+      - "Roger Nichols and Richard Langham Smith, Claude Debussy: Pelléas et Mélisande (Cambridge Opera Handbooks, 1989)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Berlioz: Les Troyens
+  # ---------------------------------------------------------------------------
+
+  - id: opera.berlioz.les-troyens
+    discipline: opera
+    kind: work
+    title: "Les Troyens"
+    creator: Hector Berlioz
+    city: paris
+    difficulty: 3
+    era: Romantic
+    year: 1858
+    language: French
+    pronunciation: "lay trwah-YAN"
+    facts:
+      - "Berlioz wrote his own libretto from Virgil's Aeneid and composed the score between 1856 and 1858; the Opéra declined to stage it."
+      - "Only the second half, as Les Troyens à Carthage, was performed in his lifetime, with cuts, at the Théâtre Lyrique on 4 November 1863; the first complete staging was at Karlsruhe in December 1890, over two evenings."
+      - "Covent Garden gave it in one evening under Rafael Kubelík in 1957; the Opéra Bastille opened its first season with it on 17 March 1990."
+      - "Cassandre in the Trojan acts and Didon in the Carthaginian acts are both mezzo-soprano roles; the 'Royal Hunt and Storm' is the orchestral interlude that turns up in concerts."
+    remark: "Berlioz never saw the Trojan acts staged; Paris gave him half of it, cut, in 1863, and the whole thing waited for Karlsruhe in 1890 and Covent Garden in 1957."
+    gaffe: "Calling it Berlioz's Faust. La damnation de Faust is a different work and not written for the stage; Les Troyens is Virgil, in five acts and about four hours."
+    distractors:
+      creator: [Giacomo Meyerbeer, Charles Gounod, Camille Saint-Saëns]
+      title: ["La damnation de Faust", "Benvenuto Cellini", "Béatrice et Bénédict"]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.venue.covent-garden, opera.venue.palais-garnier, opera.term.grand-opera]
+    tags: [opera, berlioz, virgil, mezzo, paris, 1850s]
+    sources:
+      - "Grove Music Online, 'Troyens, Les'"
+      - "David Cairns, Berlioz: Servitude and Greatness, 1832–1869 (1999)"
+      - "Hugh Macdonald, Berlioz (1982)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # The founders: Lully and Rameau
+  # ---------------------------------------------------------------------------
+
+  - id: opera.lully
+    discipline: opera
+    kind: creator
+    title: "Jean-Baptiste Lully"
+    city: paris
+    difficulty: 2
+    era: Baroque
+    year: 1632
+    year_end: 1687
+    pronunciation: "zhahn bah-TEEST lew-LEE"
+    facts:
+      - "Born Giovanni Battista Lulli in Florence on 28 November 1632; brought to France as a boy in 1646 and naturalised in 1661."
+      - "Louis XIV's surintendant de la musique; in 1672 he acquired the privilege of the Académie Royale de Musique, which gave him a monopoly on sung drama in France."
+      - "With the poet Philippe Quinault he created the tragédie en musique: Cadmus et Hermione (1673), Alceste (1674), Atys (1676) and Armide (1686); before that he wrote the comédies-ballets with Molière, including Le Bourgeois gentilhomme (1670)."
+      - "Struck his own foot with the long staff he beat time with while conducting a Te Deum for the king's recovery in January 1687, and died of the gangrene on 22 March."
+    remark: "French opera was founded by a Florentine with a royal monopoly; Lully bought the privilege in 1672, and after that nobody in France could stage a sung drama without his leave."
+    gaffe: "Calling him an Italian composer. He was born Lulli in Florence, but he was naturalised in 1661, and his operas are in French, for Louis XIV."
+    media:
+      image:
+        commons: "File:Paul Mignard - Jean-Baptiste Lully.jpg"
+        source: "Paul Mignard, portrait of Jean-Baptiste Lully, Musée Condé, Chantilly, via Wikimedia Commons"
+        license: "Public domain (painter died 1691); verify the file's tag when fetching"
+    distractors:
+      person: [Jean-Philippe Rameau, Marc-Antoine Charpentier, Marin Marais]
+      era: [Renaissance, Classical, Romantic]
+    links: [opera.rameau, opera.venue.palais-garnier]
+    tags: [composer, baroque, lully, louis-xiv, versailles, paris, 1600s]
+    sources:
+      - "Grove Music Online, 'Lully, Jean-Baptiste'"
+      - "Jérôme de La Gorce, Jean-Baptiste Lully (2002)"
+    reviewed_by: null
+
+  - id: opera.rameau
+    discipline: opera
+    kind: creator
+    title: "Jean-Philippe Rameau"
+    city: paris
+    difficulty: 2
+    era: Baroque
+    year: 1683
+    year_end: 1764
+    pronunciation: "zhahn fee-LEEP rah-MOH"
+    facts:
+      - "Baptised in Dijon on 25 September 1683; died in Paris on 12 September 1764."
+      - "Published the Traité de l'harmonie in 1722 and was known for years as a theorist and organist before his first opera, Hippolyte et Aricie, at the Académie Royale de Musique in 1733, when he was nearly fifty."
+      - "Les Indes galantes (1735), Castor et Pollux (1737), Dardanus (1739) and the comedy Platée (1745) followed; Les Boréades was never staged in his lifetime."
+      - "Saw two Native Americans from Louisiana dance at the Théâtre-Italien in 1725, wrote a harpsichord piece called Les Sauvages, and later reworked it for the last entrée of Les Indes galantes."
+      - "Attacked from both sides: by the partisans of Lully in the 1730s for too much harmony, and by Rousseau in the Querelle des Bouffons of the 1750s for not being Italian."
+    remark: "He was nearly fifty before he wrote an opera, having been famous for a decade as the man who wrote the treatise on harmony; the Lullistes complained that Hippolyte et Aricie had too much of it."
+    gaffe: "Filing him under Lully as more of the same. Rameau's first opera came forty-six years after Lully's death, and the Lullistes attacked it for being too modern."
+    media:
+      image:
+        commons: "File:Attribué à Joseph Aved, Portrait de Jean-Philippe Rameau (vers 1728) - 001.jpg"
+        source: "Attributed to Joseph Aved, portrait of Jean-Philippe Rameau (c. 1728), Musée des Beaux-Arts de Dijon, via Wikimedia Commons"
+        license: "Public domain (painter died 1766); verify the file's tag when fetching"
+    distractors:
+      person: [Jean-Baptiste Lully, François Couperin, André Campra]
+      era: [Renaissance, Classical, Romantic]
+    links: [opera.lully]
+    tags: [composer, baroque, rameau, harmony, dijon, paris, 1700s]
+    sources:
+      - "Grove Music Online, 'Rameau, Jean-Philippe'"
+      - "Cuthbert Girdlestone, Jean-Philippe Rameau: His Life and Work (rev. ed., 1969)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Venue
+  # ---------------------------------------------------------------------------
+
+  - id: opera.venue.palais-garnier
+    discipline: opera
+    kind: venue
+    title: "Palais Garnier"
+    location: "Place de l'Opéra, Paris"
+    city: paris
+    difficulty: 1
+    era: Second Empire
+    year: 1875
+    pronunciation: "pah-LEH gar-NYAY"
+    facts:
+      - "Charles Garnier, aged 35, won the competition for the new opera house in 1861; Napoleon III commissioned it as part of Haussmann's rebuilding of Paris, but it opened under the Third Republic, on 5 January 1875."
+      - "In 1896 a counterweight from the chandelier fell into the auditorium and killed a spectator; Gaston Leroux used the accident in Le Fantôme de l'Opéra (1910), along with the water tank beneath the stage."
+      - "Marc Chagall's ceiling, commissioned by André Malraux, was unveiled on 23 September 1964; it is painted on removable panels fixed over Lenepveu's original of 1872."
+      - "The Opéra Bastille, designed by Carlos Ott, was inaugurated on 13 July 1989; since then most opera is given there, and the Garnier is chiefly the house of the ballet."
+    remark: "Napoleon III ordered it and never saw it finished; it opened in January 1875 under the Third Republic, five years after his empire had fallen."
+    gaffe: "Booking the Garnier expecting an opera. Since the Bastille opened in 1989 the Garnier is mostly ballet; check the poster before you boast about your seats."
+    distractors:
+      title: ["Opéra Bastille", "Opéra-Comique (Salle Favart)", "Théâtre des Champs-Élysées"]
+    links: [opera.massenet.thais.meditation, opera.term.grand-opera, opera.lully, opera.venue.covent-garden]
+    tags: [venue, opera-house, garnier, ballet, paris, 1870s]
+    sources:
+      - "Opéra national de Paris, 'The Paris Opera in the 19th century' and 'The Paris Opera in the 20th century'"
+      - "Christopher Curtis Mead, Charles Garnier's Paris Opéra: Architectural Empathy and the Renaissance of French Classicism (1991)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Terms
+  # ---------------------------------------------------------------------------
+
+  - id: opera.term.grand-opera
+    discipline: opera
+    kind: term
+    title: "Grand opéra"
+    city: paris
+    difficulty: 2
+    era: Romantic
+    definition: "The Paris Opéra's house style from the 1830s: four or five acts, sung throughout in French, on a historical subject, with a large chorus, spectacular staging and an obligatory ballet, and usually a libretto by Eugène Scribe."
+    pronunciation: "grahn oh-pay-RAH"
+    language: French
+    facts:
+      - "Auber's La Muette de Portici (1828) and Rossini's Guillaume Tell (1829) set the pattern; Meyerbeer's Robert le diable (1831) and Les Huguenots (1836) and Halévy's La Juive (1835) made it the fashion of Europe."
+      - "Giacomo Meyerbeer (1791–1864), a Berlin banker's son, was the most performed opera composer of his age; Les Huguenots passed its thousandth performance at the Opéra in 1906."
+      - "The ballet was expected in Act 2, after the members of the Jockey Club had dined; Wagner put his Tannhäuser ballet in Act 1 for the Paris production of March 1861, the Jockey Club whistled, and the opera was withdrawn after three performances."
+      - "Verdi wrote Don Carlos (1867) for the Opéra in the form; Wagner's attack on Meyerbeer in 'Das Judenthum in der Musik' (1850) helped bury Meyerbeer's reputation."
+    remark: "The ballet was contractual and it went in Act 2, because the Jockey Club dined first; Wagner put his in Act 1 in 1861 and Tannhäuser lasted three nights."
+    gaffe: "Using 'grand opera' to mean any big serious opera. In Paris it names a form with rules: five acts, history, chorus, ballet, and usually Scribe."
+    distractors:
+      term:
+        - "An Italian tradition of florid singing in which the beauty of the vocal line matters more than dramatic truth."
+        - "A French opera with spoken dialogue between the musical numbers, whether or not the subject is comic."
+        - "A late nineteenth-century Italian school that put working-class violence on the stage in short, blunt acts."
+    links: [opera.term.opera-comique, opera.berlioz.les-troyens, opera.venue.palais-garnier, opera.gounod.faust.jewel-song]
+    tags: [term, grand-opera, meyerbeer, scribe, ballet, paris, 1830s]
+    sources:
+      - "Grove Music Online, 'Grand opéra'"
+      - "David Charlton (ed.), The Cambridge Companion to Grand Opera (2003)"
+    reviewed_by: null
+
+  - id: opera.term.opera-comique
+    discipline: opera
+    kind: term
+    title: "Opéra comique"
+    city: paris
+    difficulty: 1
+    era: Romantic
+    definition: "French opera with spoken dialogue between the musical numbers instead of recitative; the name describes the form, not the tone, and Carmen, which ends in a stabbing, is one."
+    pronunciation: "oh-pay-RAH koh-MEEK"
+    language: French
+    facts:
+      - "The Opéra-Comique is also the company and its theatre, the Salle Favart on the place Boieldieu; the present house, the third, opened in 1898 after a fire on 25 May 1887 killed 84 people."
+      - "Carmen (1875), Les contes d'Hoffmann (1881), Lakmé (1883), Manon (1884) and Pelléas et Mélisande (1902) all opened there."
+      - "Carmen was written with spoken dialogue; the sung recitatives usually heard instead were composed by Ernest Guiraud for Vienna in October 1875, after Bizet's death."
+    remark: "Comique means the form, not the jokes: an opéra comique has spoken dialogue, and Carmen, which ends with a stabbing, opened at the Opéra-Comique in 1875."
+    gaffe: "Saying Carmen 'is not really an opéra comique because it is not funny'. The term has nothing to do with comedy; it means spoken dialogue."
+    distractors:
+      term:
+        - "A comic opera in the Italian style, with recitative and an ensemble finale to each act."
+        - "A light French stage piece of the Second Empire with songs and dances, written for the boulevard theatres."
+        - "The Paris Opéra's spectacular five-act form, sung throughout, with an obligatory ballet."
+    links: [opera.term.grand-opera, opera.bizet.carmen.habanera, opera.offenbach.contes-d-hoffmann.barcarolle, opera.debussy.pelleas-et-melisande]
+    tags: [term, opera-comique, spoken-dialogue, salle-favart, paris]
+    sources:
+      - "Grove Music Online, 'Opéra comique'"
+      - "Hervé Lacombe, The Keys to French Opera in the Nineteenth Century (2001)"
+    reviewed_by: null

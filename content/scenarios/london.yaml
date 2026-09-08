@@ -1,0 +1,139 @@
+# London Remark scenarios: a social situation, three replies. Exactly one
+# `correct` (specific, generous to the host, one fact they did not have), one
+# `wrong` (a plausible factual error) and one `gaffe` (socially exposing).
+# Every option carries an explanation shown after answering. Facts are taken
+# from the London item files and their sources; see CLAUDE.md, Content rules.
+scenarios:
+  - id: scenario.london.hallelujah-standing
+    city: london
+    discipline: music
+    difficulty: 1
+    setting: "Interval at a Christmas Messiah in the Albert Hall. Everyone stood for the Hallelujah chorus."
+    prompt: "The woman beside you says: \"We all stand because George II did at the first performance, of course.\""
+    options:
+      - kind: correct
+        text: "So the story goes, though it first appears in a letter of 1780, thirty-seven years after the London premiere, and nobody who was there mentions the king. I stand anyway, for the trumpets and drums."
+        explanation: "The register to aim for: it agrees with her where she is right, that the custom is old, and adds the one thing she did not have. The story rests on a letter written in 1780; no contemporary account puts George II at Covent Garden in March 1743. Standing is a custom, not a record, and there is no harm in keeping it."
+      - kind: wrong
+        text: "It was Dublin, in fact; the king stood at the premiere there in April 1742."
+        explanation: "Wrong. Messiah was indeed first performed in Dublin, on 13 April 1742, but George II was not there. The standing story, such as it is, has the king in London, and even there it rests on a letter of 1780."
+      - kind: gaffe
+        text: "I never stand for it. It's a chorus from an opera, not the national anthem."
+        explanation: "A gaffe twice over. Messiah is an oratorio, sung in concert with no staging and no characters, not an opera; and refusing a harmless custom in front of someone who has just kept it is not wit, it is rudeness. The chorus, incidentally, closes Part Two of three, not the work."
+    links: [music.handel.messiah.hallelujah, music.term.oratorio, music.venue.royal-albert-hall]
+    sources:
+      - "Grove Music Online, 'Messiah'"
+      - "Donald Burrows, Handel: Messiah (Cambridge Music Handbooks, 1991)"
+    reviewed_by: null
+
+  - id: scenario.london.nimrod-funeral
+    city: london
+    discipline: music
+    difficulty: 1
+    setting: "Interval at the Proms, Royal Albert Hall. The second half is the Enigma Variations."
+    prompt: "Your host says: \"Nimrod always undoes me. He wrote it for a funeral, didn't he?\""
+    options:
+      - kind: correct
+        text: "It has become one, at the Cenotaph every November, but he wrote it about a living friend: August Jaeger, his editor at Novello, after an evening's talk about Beethoven's slow movements. Jäger is German for hunter, hence Nimrod."
+        explanation: "Right, and generous: it grants your host's feeling and gives the fact behind it. Variation IX is a portrait of Jaeger, Elgar's editor at the publisher Novello; the title is a pun on his surname, Nimrod being the mighty hunter of Genesis, and Elgar said the opening was meant to recall the slow movement of Beethoven's Pathétique. The Cenotaph came later."
+      - kind: wrong
+        text: "Yes, for Queen Victoria's funeral in 1901; that is why it is played every Remembrance Sunday."
+        explanation: "Wrong. The Variations were first performed at St James's Hall on 19 June 1899, conducted by Hans Richter; Victoria died in January 1901, by which time Nimrod had been in the repertoire for a year and a half. It was written for no funeral, and the Remembrance Sunday custom is a later one."
+      - kind: gaffe
+        text: "Elgar is all bunting and empire, isn't he? One goes to the Proms for the Beethoven."
+        explanation: "A gaffe: it dismisses the piece your host has just told you moves her, and it mistakes the man. The big tune in Pomp and Circumstance made Elgar the Land of Hope and Glory composer, but the words were A. C. Benson's, and Nimrod is a private portrait of a friend. Sneering at a programme you chose to attend is not a position."
+    links: [music.elgar.enigma-variations.nimrod, music.venue.royal-albert-hall, music.elgar.pomp-and-circumstance-1]
+    sources:
+      - "Grove Music Online, 'Elgar, Edward'"
+      - "Julian Rushton, Elgar: Enigma Variations (Cambridge Music Handbooks, 1999)"
+    reviewed_by: null
+
+  - id: scenario.london.caesar-countertenor
+    city: london
+    discipline: opera
+    difficulty: 2
+    setting: "Interval, Covent Garden, Giulio Cesare."
+    prompt: "Your host says: \"I had not expected Caesar to be sung by a woman. Is that a modern conceit?\""
+    options:
+      - kind: correct
+        text: "An old necessity rather than a new conceit: Handel wrote Caesar in 1724 for the castrato Senesino, so the choice now is a countertenor or a mezzo. If you ever hear a baritone Caesar, somebody has transposed it."
+        explanation: "Right, and it answers the question actually asked. The title role was written for Senesino and Cleopatra for the soprano Francesca Cuzzoni; with the castrati gone, the part sits in a woman's or a countertenor's range. A countertenor is not a castrato: he is an intact man singing in a trained falsetto, which is why the sound is lighter."
+      - kind: wrong
+        text: "Handel wrote it for a soprano, Cuzzoni, so it has always been a woman's role."
+        explanation: "Wrong. Cuzzoni created Cleopatra, not Caesar. Caesar was Senesino, a castrato; the part goes to women or countertenors now because his kind of voice no longer exists, not because Handel wrote it for a woman."
+      - kind: gaffe
+        text: "It is absurd. Three hours and not a sign of Brutus. I came for Shakespeare."
+        explanation: "A gaffe: it announces that you did not read the programme. Haym's libretto is Caesar in Egypt in 48 BC, with Pompey's severed head presented to him and Cleopatra in disguise; Brutus is four years and another author away. Complaining that the opera is not the play is the oldest way to expose yourself at Covent Garden."
+    links: [opera.handel.giulio-cesare, opera.term.castrato, opera.venue.covent-garden]
+    sources:
+      - "Grove Music Online, 'Giulio Cesare in Egitto'"
+      - "Winton Dean and John Merrill Knapp, Handel's Operas, 1704–1726 (1987)"
+    reviewed_by: null
+
+  - id: scenario.london.arnolfini-wedding
+    city: london
+    discipline: art
+    difficulty: 1
+    setting: "A bench in the National Gallery, in front of the Arnolfini Portrait."
+    prompt: "Your companion says: \"It's their wedding, of course; you can see him taking her hand for the vows.\""
+    options:
+      - kind: correct
+        text: "That was Panofsky's reading in 1934, and the argument has never stopped; what nobody disputes is the line over the mirror, 'Johannes de eyck fuit hic 1434', the painter telling you he was here. Look in the mirror: two people are standing where we are sitting."
+        explanation: "Right, and it keeps your companion's idea alive rather than squashing it. Panofsky argued in 1934 that the picture records a marriage, and art historians have argued about it since. The Latin above the mirror, 'Jan van Eyck was here', reads like a witness's signature, and the convex mirror reflects two figures in the doorway, one of whom may be the painter. The wedding is a theory; the signature is a fact."
+      - kind: wrong
+        text: "Yes, and the mirror shows the priest who married them."
+        explanation: "Wrong. The mirror reflects two figures in the doorway, and neither is identifiable as a priest; one may be Van Eyck himself. The inscription above says only that the painter was here. Whether a marriage is happening at all is what art historians have argued about since Panofsky."
+      - kind: gaffe
+        text: "I've seen the original in Bruges. This one is rather dull by comparison."
+        explanation: "A gaffe: this is the original, and the only one. The National Gallery bought it in 1842 and it has hung in London since. Claiming to have seen a better version somewhere else, while sitting in front of the thing itself, is boasting that does not survive the catalogue."
+    links: [art.van-eyck.arnolfini-portrait, art.holbein.the-ambassadors]
+    sources:
+      - "National Gallery, London, catalogue entry NG186"
+      - "Erwin Panofsky, 'Jan van Eyck's Arnolfini Portrait', Burlington Magazine (1934)"
+    reviewed_by: null
+
+  - id: scenario.london.whistler-farthing
+    city: london
+    discipline: art
+    difficulty: 2
+    setting: "A private view in Cork Street. The pictures are large and abstract, and someone has just muttered 'a pot of paint in the public's face'."
+    prompt: "Your host says: \"That was Ruskin on Whistler, wasn't it? And Whistler sued and won a fortune.\""
+    options:
+      - kind: correct
+        text: "He won, in 1878, and the jury gave him a farthing; the costs bankrupted him the next year, which makes it the most expensive farthing in English art. The picture was Nocturne in Black and Gold, a rocket falling over Cremorne Gardens."
+        explanation: "Right: it agrees with your host, corrects the one detail gently, and adds the farthing. Whistler v. Ruskin was heard in November 1878; the jury found for Whistler with damages of one farthing and each side paid its own costs, and he was declared bankrupt in 1879. Ruskin's sentence, in Fors Clavigera in 1877, was about Nocturne in Black and Gold: The Falling Rocket, painted from the fireworks at Cremorne Gardens in Chelsea."
+      - kind: wrong
+        text: "Ruskin won, in fact; the jury agreed the Nocturne was unfinished, and Whistler left for Venice in disgrace."
+        explanation: "Wrong on the verdict. Whistler won; it was the derisory damages and the divided costs that ruined him. He did go to Venice in 1879, but on a commission from the Fine Art Society to make etchings, and he was back in Chelsea by the end of 1880."
+      - kind: gaffe
+        text: "Ruskin had a point. It's splashes. My daughter could do it, and she's nine."
+        explanation: "A gaffe: it repeats the philistine's line at a private view where the artist may be standing behind you, and it puts you on the losing side of a case decided in 1878. Whistler's answer under cross-examination, that he asked two hundred guineas not for two days' work but for the knowledge of a lifetime, is the line to have ready instead."
+    links: [art.whistler, art.movement.pre-raphaelite-brotherhood]
+    sources:
+      - "Linda Merrill, A Pot of Paint: Aesthetics on Trial in Whistler v. Ruskin (1992)"
+      - "Oxford Dictionary of National Biography, 'Whistler, James Abbott McNeill'"
+      - "James McNeill Whistler, The Gentle Art of Making Enemies (1890)"
+    reviewed_by: null
+
+  - id: scenario.london.playing-fields-of-eton
+    city: london
+    discipline: history
+    difficulty: 3
+    setting: "A house party in Hampshire; Sunday lunch. Your host's son has just got into Eton."
+    prompt: "Your host, raising a glass: \"Well, as the Duke said, Waterloo was won on the playing fields of Eton.\""
+    options:
+      - kind: correct
+        text: "The Duke would be surprised to hear it: the line first appears in French, in Montalembert, four years after he died, and the playing fields were added in the 1880s. He was an Etonian himself, though, so the school may keep the toast."
+        explanation: "Right, and kind: it lets the toast stand while marking the quotation as legend. Montalembert printed 'C'est ici qu'a été gagnée la bataille de Waterloo' in 1856, four years after Wellington's death in 1852; the 'playing fields' form is not found before the 1880s, and Sir William Fraser's Words on Wellington (1889) is the usual citation. No contemporary record has the Duke saying either."
+      - kind: wrong
+        text: "He loved the place. Five years there, and captain of the cricket, before he went on to Sandhurst."
+        explanation: "Wrong in every particular. Wellington was at Eton for three years, from 1781 to 1784, was taken away early because the family could not afford it, and was not fond of it; there were no organised games there in his day. Sandhurst did not yet exist: he was finished at a riding academy at Angers in France."
+      - kind: gaffe
+        text: "Poor boy. It is a very expensive way of learning to be rude to waiters."
+        explanation: "A gaffe: it sneers at your host's son, at your host's table, over your host's wine. Whatever you think of the school, the moment called for a raised glass and one graceful sentence; there is nothing clever in a snub, and the Duke, who disliked Eton himself, would not have thanked you for it."
+    links: [history.apocrypha.playing-fields-of-eton, history.episode.regency]
+    sources:
+      - "Oxford Dictionary of Quotations (8th ed., 2014), 'Arthur Wellesley, 1st Duke of Wellington'"
+      - "Elizabeth Longford, Wellington: The Years of the Sword (1969)"
+      - "Charles de Montalembert, De l'avenir politique de l'Angleterre (1856)"
+    reviewed_by: null

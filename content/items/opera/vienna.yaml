@@ -1,0 +1,418 @@
+# Vienna, opera. Mozart's Vienna operas, Gluck's reform, Beethoven's one opera,
+# operetta from the Theater an der Wien, Strauss's Rosenkavalier, the Staatsoper.
+# Themes are transcribed from public-domain LilyPond sources (Mutopia and
+# published arrangements checked against each other); see the note on each.
+items:
+  # ---------------------------------------------------------------------------
+  # Mozart
+  # ---------------------------------------------------------------------------
+
+  - id: opera.mozart.le-nozze-di-figaro
+    discipline: opera
+    kind: work
+    title: "Le nozze di Figaro (The Marriage of Figaro)"
+    creator: Wolfgang Amadeus Mozart
+    city: vienna
+    difficulty: 1
+    era: Classical
+    year: 1786
+    language: Italian
+    pronunciation: "leh NOT-seh dee FEE-ga-ro"
+    facts:
+      - "First performed at the Burgtheater, Vienna, on 1 May 1786, with a libretto by Lorenzo Da Ponte after Beaumarchais's play La Folle Journée, ou Le Mariage de Figaro (1784)."
+      - "Joseph II had forbidden the play on the Vienna stage; Da Ponte's libretto dropped its political speeches, and the emperor let the opera through."
+      - "One 'mad day' at Count Almaviva's castle near Seville: Figaro and Susanna are to marry, the Count wants Susanna, and the Countess and Susanna conspire to catch him out."
+      - "Cherubino, the page, is a trouser role for a mezzo-soprano; Figaro's 'Non più andrai' closes Act I and Cherubino's 'Voi che sapete' comes in Act II."
+    remark: "The play was banned in Vienna and the opera was not; Da Ponte cut Figaro's politics, kept the bedroom doors, and Joseph II let it through in 1786."
+    gaffe: "Running it together with Rossini. The Barber of Seville is the earlier play and the later opera (1816); Mozart's Figaro is the sequel, with Figaro now the Count's valet and about to be married."
+    theme:
+      notes: "Bb4/4 F4/8 F4/8 | C5/4 F4/8 F4/8 | D5/4 Bb4/16. C5/32 D5/16. Eb5/32 | C5/4 R/4 | D5/4 Eb5/8 E5/8 | F5/8. D5/16 Bb4/8 R/8 | C5/4 C#5/8 D5/8 | Eb5/4 R/4"
+      tempo: 66
+      key: B-flat major
+      note: "'Voi che sapete', Cherubino's arietta in Act II; the opening vocal phrase in the original key."
+    distractors:
+      creator: [Antonio Salieri, Giovanni Paisiello, Joseph Haydn]
+      title: ["Don Giovanni", "Così fan tutte", "Il barbiere di Siviglia"]
+      era: [Baroque, Romantic, Verismo]
+    links: [opera.mozart.don-giovanni, opera.mozart.cosi-fan-tutte, opera.da-ponte, opera.term.voice-types]
+    tags: [opera, mozart, da-ponte, vienna, burgtheater, 1780s]
+    sources:
+      - "Grove Music Online, 'Nozze di Figaro, Le'"
+      - "Tim Carter, W. A. Mozart: Le nozze di Figaro (Cambridge Opera Handbooks, 1987)"
+    reviewed_by: null
+
+  - id: opera.mozart.don-giovanni
+    discipline: opera
+    kind: work
+    title: "Don Giovanni"
+    creator: Wolfgang Amadeus Mozart
+    city: vienna
+    difficulty: 1
+    era: Classical
+    year: 1787
+    language: Italian
+    pronunciation: "don jo-VAHN-nee"
+    facts:
+      - "First performed in Prague at the Nostitz (now Estates) Theatre on 29 October 1787; Vienna heard it at the Burgtheater on 7 May 1788 with numbers Mozart added for the Viennese cast."
+      - "For Vienna Mozart wrote 'Dalla sua pace' for the tenor Francesco Morella, who found 'Il mio tesoro' too hard, and 'Mi tradì quell'alma ingrata' for Caterina Cavalieri as Donna Elvira."
+      - "Da Ponte called it a dramma giocoso; the Commendatore, killed in the first scene, returns as a stone statue and drags the unrepentant Don down to hell."
+      - "Leporello's catalogue aria counts the Don's conquests by country: 640 in Italy, 231 in Germany, 100 in France, 91 in Turkey, and in Spain already 1,003."
+    remark: "Prague had it first, in October 1787; Vienna got it seven months later with 'Dalla sua pace' added because the Viennese tenor could not manage 'Il mio tesoro'."
+    gaffe: "Giving the catalogue aria to the Don. 'Madamina, il catalogo è questo' is Leporello's, the servant reading the list to Donna Elvira, and the Spanish total is 1,003."
+    theme:
+      notes: "A4/8 A4/16 B4/16 C#5/8 A4/8 | F#4/8 B4/4. | G#4/8 G#4/16 G#4/16 A4/8 B4/8 | E4/4 R/4 | A4/8 A4/16 B4/16 C#5/8 A4/8 | F#4/8 B4/4 A4/8 | A4/16 G#4/16 F#4/16 E4/16 E4/8 F#4/16 G#4/16 | A4/4 R/4"
+      tempo: 66
+      key: A major
+      note: "'Là ci darem la mano', the Act I duet; Don Giovanni's opening phrase, which he sings an octave below this and Zerlina answers at this pitch."
+    distractors:
+      creator: [Antonio Salieri, Domenico Cimarosa, Giovanni Paisiello]
+      title: ["Le nozze di Figaro", "Così fan tutte", "Die Entführung aus dem Serail"]
+      era: [Baroque, Romantic, Bel canto]
+    links: [opera.mozart.le-nozze-di-figaro, opera.mozart.cosi-fan-tutte, opera.da-ponte, opera.venue.staatsoper]
+    tags: [opera, mozart, da-ponte, prague, vienna, 1780s]
+    sources:
+      - "Grove Music Online, 'Don Giovanni'"
+      - "Julian Rushton, W. A. Mozart: Don Giovanni (Cambridge Opera Handbooks, 1981)"
+    reviewed_by: null
+
+  - id: opera.mozart.cosi-fan-tutte
+    discipline: opera
+    kind: work
+    title: "Così fan tutte"
+    creator: Wolfgang Amadeus Mozart
+    city: vienna
+    difficulty: 2
+    era: Classical
+    year: 1790
+    language: Italian
+    pronunciation: "ko-ZEE fahn TOOT-teh"
+    facts:
+      - "First performed at the Burgtheater on 26 January 1790; the third and last Mozart and Da Ponte opera, subtitled La scuola degli amanti, the school for lovers."
+      - "Joseph II died on 20 February 1790 and the court theatres closed in mourning after a handful of performances; the run resumed that summer."
+      - "Two officers, Ferrando and Guglielmo, bet the cynic Don Alfonso that their fiancées Fiordiligi and Dorabella will stay faithful, then woo each other's fiancée in disguise; the maid Despina is in on it."
+      - "Nineteenth-century audiences thought the plot immoral and it was rewritten or left alone; its standing in the repertory dates from the twentieth century."
+    remark: "It is the men who make the wager: Don Alfonso bets two officers that their fiancées will stray within a day, and the title, 'they all do it', is his verdict when they do."
+    gaffe: "Pronouncing it 'cosy fan tootie'. It is ko-ZEE fahn TOOT-teh, and tutte is feminine: 'so do all women', which is the whole of Don Alfonso's argument."
+    distractors:
+      creator: [Antonio Salieri, Domenico Cimarosa, Vicente Martín y Soler]
+      title: ["Le nozze di Figaro", "Don Giovanni", "La clemenza di Tito"]
+      era: [Baroque, Romantic, Verismo]
+    links: [opera.mozart.le-nozze-di-figaro, opera.mozart.don-giovanni, opera.da-ponte]
+    tags: [opera, mozart, da-ponte, vienna, burgtheater, 1790s]
+    sources:
+      - "Grove Music Online, 'Così fan tutte'"
+      - "Bruce Alan Brown, W. A. Mozart: Così fan tutte (Cambridge Opera Handbooks, 1995)"
+    reviewed_by: null
+
+  - id: opera.mozart.die-zauberfloete
+    discipline: opera
+    kind: work
+    title: "Die Zauberflöte (The Magic Flute)"
+    creator: Wolfgang Amadeus Mozart
+    city: vienna
+    difficulty: 1
+    era: Classical
+    year: 1791
+    language: German
+    pronunciation: "dee TSOW-ber-flur-teh"
+    facts:
+      - "First performed on 30 September 1791 at the Theater auf der Wieden, Emanuel Schikaneder's suburban theatre; Schikaneder wrote the words and played Papageno, and Mozart died on 5 December."
+      - "A Singspiel: sung numbers with spoken dialogue in German, not recitative."
+      - "The Queen of the Night's second aria, 'Der Hölle Rache kocht in meinem Herzen', climbs to F above high C; the role was created by Mozart's sister-in-law Josepha Hofer."
+      - "Papageno the bird-catcher has panpipes and a set of magic bells, Tamino the flute; Sarastro, the bass, sings 'O Isis und Osiris'. Mozart and Schikaneder were Freemasons, and the three chords and the trials are usually read as Masonic."
+    remark: "It opened in a suburb, not at court: Schikaneder's Theater auf der Wieden, where the impresario wrote the words and played Papageno himself, some nine weeks before Mozart died."
+    gaffe: "Taking the Queen of the Night for the heroine because she has the famous aria. By Act II she is the villain, and Sarastro, whom she wants murdered, is the good one."
+    theme:
+      notes: "R/8 A4/8 A4/8 A4/8 | D5/4. A4/8 F5/8 F5/8 E5/8 E5/8 | D5/4 A4/4 R/2 | G5/2 R/4 E5/8 C#5/8 | A5/4 D5/4 R/2"
+      tempo: 132
+      key: D minor
+      note: "'Der Hölle Rache', the Queen of the Night's Act II aria; the vocal entry after one bar of orchestra."
+    distractors:
+      creator: [Joseph Haydn, Antonio Salieri, Carl Maria von Weber]
+      title: ["Die Entführung aus dem Serail", "Der Freischütz", "Fidelio"]
+      era: [Baroque, Romantic, Verismo]
+    links: [opera.term.singspiel, opera.mozart.le-nozze-di-figaro, opera.beethoven.fidelio, opera.da-ponte]
+    tags: [opera, singspiel, mozart, schikaneder, vienna, 1790s]
+    sources:
+      - "Grove Music Online, 'Zauberflöte, Die'"
+      - "Peter Branscombe, W. A. Mozart: Die Zauberflöte (Cambridge Opera Handbooks, 1991)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Gluck and Beethoven
+  # ---------------------------------------------------------------------------
+
+  - id: opera.gluck.orfeo-ed-euridice
+    discipline: opera
+    kind: work
+    title: "Orfeo ed Euridice"
+    creator: Christoph Willibald Gluck
+    city: vienna
+    difficulty: 2
+    era: Classical
+    year: 1762
+    language: Italian
+    pronunciation: "or-FEH-o ed eh-oo-REE-dee-cheh"
+    facts:
+      - "First performed at the Burgtheater, Vienna, on 5 October 1762, with a libretto by Ranieri de' Calzabigi."
+      - "Orfeo was written for the alto castrato Gaetano Guadagni; for Paris in 1774 Gluck rewrote the role for a high tenor and the work became Orphée et Eurydice."
+      - "Gluck and Calzabigi set out to rid opera of vocal display and da capo ornament, the programme Gluck spelled out in the preface to Alceste, published in 1769."
+      - "Orfeo loses Euridice a second time by looking back, sings 'Che farò senza Euridice', and is about to kill himself when Amore restores her; the ending is happy."
+    remark: "The great lament is in C major and the ending is happy: Amore relents and hands Euridice back, because the Vienna of 1762 had no appetite for Ovid's version."
+    gaffe: "Announcing that Orfeo is a tenor. In Vienna he was the castrato Guadagni, today he is a mezzo or a countertenor, and the tenor version is the Paris one of 1774."
+    theme:
+      notes: "E4/8 F4/8 | G4/4. G4/8 G4/4. C5/8 | C5/8 B4/8 B4/4 R/4 C5/8 G4/8 | A4/4. A4/8 G4/4 F4/4 | F4/4 E4/8 R/8"
+      tempo: 80
+      key: C major
+      note: "'Che farò senza Euridice', Act III; the vocal line from its first entry, in the Vienna key of C major."
+    distractors:
+      creator: [Joseph Haydn, Johann Adolf Hasse, Niccolò Jommelli]
+      title: ["Alceste", "Iphigénie en Tauride", "Paride ed Elena"]
+      era: [Baroque, Romantic, Bel canto]
+    links: [opera.mozart.le-nozze-di-figaro, opera.term.castrato]
+    tags: [opera, gluck, reform, castrato, vienna, burgtheater, 1760s]
+    sources:
+      - "Grove Music Online, 'Orfeo ed Euridice'"
+      - "Patricia Howard (ed.), C. W. von Gluck: Orfeo (Cambridge Opera Handbooks, 1981)"
+    reviewed_by: null
+
+  - id: opera.beethoven.fidelio
+    discipline: opera
+    kind: work
+    title: "Fidelio"
+    creator: Ludwig van Beethoven
+    city: vienna
+    difficulty: 1
+    era: Classical / early Romantic
+    year: 1805
+    language: German
+    pronunciation: "fee-DAY-lee-o"
+    facts:
+      - "First performed at the Theater an der Wien on 20 November 1805, a week after Napoleon's troops had occupied Vienna; the audience was largely French officers and it closed after three nights."
+      - "Beethoven revised it in 1806 and again, thoroughly, in 1814; the 1814 version is the one performed, and the earlier title was Leonore."
+      - "Beethoven's only opera. It has four overtures, Leonore Nos. 1, 2 and 3 and the Fidelio overture of 1814; Mahler started the custom of playing Leonore No. 3 before the final scene."
+      - "Leonore disguises herself as the youth Fidelio to free her husband Florestan from Pizarro's prison; the libretto descends from Bouilly's Léonore, ou L'amour conjugal (1798)."
+    remark: "Its first audience in November 1805 was mostly French officers, because Napoleon's army had marched into Vienna the week before; it ran for three nights."
+    gaffe: "Asking which of Beethoven's operas it is. There is only one, though it has four overtures, and the Leonore No. 3 often played before the finale was Mahler's habit, not Beethoven's."
+    theme:
+      notes: "E5/4. B4/8 B4/4 R/4 | G#5/4. E5/8 E5/4 R/4 | B5/4. G#5/8 G#5/4 E6/4 | D#6/4 R/4 R/2"
+      tempo: 240
+      key: E major
+      note: "Fidelio overture (1814), the opening fanfare, top line; alla breve, the fermata approximated by rests."
+    distractors:
+      creator: [Carl Maria von Weber, Luigi Cherubini, Franz Schubert]
+      title: ["Der Freischütz", "Die Zauberflöte", "Euryanthe"]
+      era: [Baroque, Verismo, Bel canto]
+    links: [music.beethoven.symphony-5.i, opera.mozart.die-zauberfloete, opera.term.singspiel, opera.venue.staatsoper]
+    tags: [opera, beethoven, rescue-opera, theater-an-der-wien, vienna, 1800s]
+    sources:
+      - "Grove Music Online, 'Fidelio'"
+      - "Paul Robinson (ed.), Ludwig van Beethoven: Fidelio (Cambridge Opera Handbooks, 1996)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Operetta and Strauss
+  # ---------------------------------------------------------------------------
+
+  - id: opera.strauss-ii.die-fledermaus
+    discipline: opera
+    kind: work
+    title: "Die Fledermaus"
+    creator: Johann Strauss II
+    city: vienna
+    difficulty: 1
+    era: Viennese operetta
+    year: 1874
+    language: German
+    pronunciation: "dee FLAY-der-mowss"
+    facts:
+      - "First performed at the Theater an der Wien on 5 April 1874; the libretto by Carl Haffner and Richard Genée derives from Meilhac and Halévy's French play Le Réveillon."
+      - "Dr Falke pays Eisenstein back for once leaving him to walk home in daylight dressed as a bat: he lures him to Prince Orlofsky's ball, where Eisenstein flirts with his own masked wife."
+      - "Prince Orlofsky is a trouser role for a mezzo-soprano; Adele's laughing song 'Mein Herr Marquis' and the Act II 'Brüderlein und Schwesterlein' are the numbers people hum."
+      - "The Vienna State Opera plays it on New Year's Eve, a tradition of long standing."
+    remark: "The Staatsoper puts it on every New Year's Eve, and the Russian prince throwing the party is sung by a woman; if Orlofsky sounds like a mezzo, that is the casting, not the acoustics."
+    gaffe: "Calling Johann Strauss the father of Richard Strauss. Richard was from Munich and no relation; Johann's father was the other Johann Strauss, of the Radetzky March."
+    theme:
+      notes: "R/4 Db5/4 | Ab4/8 Db5/8 Ab4/4 Gb4/4 Bb4/4 | F4/4 Ab4/4 Eb4/4 R/8 Eb4/8 | F4/4 Ab4/4 Bb4/4 Bb4/16 Gb5/16 R/8 | Ab4/2. Db5/4 | Ab4/8 Db5/8 Ab4/4 Gb4/4 Bb4/4 | F4/4 Ab4/4 Eb4/4 R/8 Eb4/8 | F4/4 Ab4/4 Bb4/4 Bb4/16 Gb5/16 R/8 | Ab4/2 R/2"
+      tempo: 144
+      key: D-flat major
+      note: "'Ich lade gern mir Gäste ein' (Chacun à son goût), Orlofsky's couplets in Act II; the vocal entry, after the 1875 Schreiber vocal score."
+    distractors:
+      creator: [Franz von Suppé, Carl Millöcker, Jacques Offenbach]
+      title: ["Der Zigeunerbaron", "Eine Nacht in Venedig", "Die lustige Witwe"]
+      era: [Classical, Grand opéra, Verismo]
+    links: [opera.term.operetta, opera.venue.staatsoper, opera.beethoven.fidelio, opera.r-strauss, opera.term.voice-types]
+    tags: [operetta, strauss, theater-an-der-wien, vienna, new-year, 1870s]
+    sources:
+      - "Grove Music Online, 'Fledermaus, Die'"
+      - "Richard Traubner, Operetta: A Theatrical History (2nd ed., 2003)"
+    reviewed_by: null
+
+  - id: opera.r-strauss.der-rosenkavalier
+    discipline: opera
+    kind: work
+    title: "Der Rosenkavalier"
+    creator: Richard Strauss
+    city: vienna
+    difficulty: 1
+    era: Late Romantic
+    year: 1911
+    language: German
+    pronunciation: "dair ROH-zen-ka-va-leer"
+    facts:
+      - "First performed at the Dresden Court Opera on 26 January 1911, with a libretto by Hugo von Hofmannsthal; the Vienna Court Opera followed in April 1911."
+      - "Set in Vienna in the 1740s, early in Maria Theresa's reign: the Marschallin gives up her young lover Octavian, who falls for Sophie while presenting the silver rose on behalf of the boorish Baron Ochs."
+      - "Octavian is a trouser role for a mezzo-soprano; the Marschallin, Octavian and Sophie end the opera with a trio, and then Octavian and Sophie with a duet."
+      - "The waltzes are an anachronism; the Viennese waltz belongs to the century after the opera's setting."
+    remark: "The waltzes are an anachronism: the story is set in Maria Theresa's 1740s, two generations before the Viennese waltz, and it is still the most Viennese opera there is."
+    gaffe: "Calling it a Vienna premiere. It opened in Dresden in January 1911, as Salome and Elektra had; Vienna's Court Opera got it that April."
+    distractors:
+      creator: [Gustav Mahler, Franz Schreker, Erich Wolfgang Korngold]
+      title: ["Salome", "Elektra", "Ariadne auf Naxos"]
+      era: [Classical, Baroque, Verismo]
+    links: [opera.r-strauss, opera.venue.staatsoper, opera.strauss-ii.die-fledermaus, opera.term.voice-types]
+    tags: [opera, strauss, hofmannsthal, dresden, vienna, maria-theresa, 1910s]
+    sources:
+      - "Grove Music Online, 'Rosenkavalier, Der'"
+      - "Alan Jefferson, Richard Strauss: Der Rosenkavalier (Cambridge Opera Handbooks, 1985)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Creators
+  # ---------------------------------------------------------------------------
+
+  - id: opera.da-ponte
+    discipline: opera
+    kind: creator
+    title: "Lorenzo Da Ponte"
+    city: vienna
+    difficulty: 3
+    era: Classical
+    year: 1749
+    year_end: 1838
+    facts:
+      - "Born Emanuele Conegliano in the Jewish community of Ceneda in the Veneto on 10 March 1749; the family converted when he was fourteen and took the name of the local bishop, and he was ordained a priest in 1773."
+      - "Banished from Venice in 1779 for adultery and for living in a brothel; came to Vienna in 1781 and in 1783 became poet to Joseph II's Italian opera company at the court theatre."
+      - "Wrote the librettos of Le nozze di Figaro (1786), Don Giovanni (1787) and Così fan tutte (1790) for Mozart, and Una cosa rara for Martín y Soler, which outsold them all at the time."
+      - "Left Vienna after Joseph II's death, spent years in London, and emigrated to America in 1805, where he kept a grocery in Pennsylvania and in 1825 became the first professor of Italian at Columbia College; he died in New York in 1838."
+    remark: "A Venetian priest banished for adultery who wrote Figaro, Don Giovanni and Così, then ended as a grocer in Pennsylvania and the first professor of Italian at Columbia; the life outdid the librettos."
+    gaffe: "Assuming he wrote The Magic Flute. That is Schikaneder's; Da Ponte's Mozart operas are the three Italian ones."
+    distractors:
+      person: [Emanuel Schikaneder, Pietro Metastasio, Ranieri de' Calzabigi]
+      era: [Baroque, Romantic, Verismo]
+    links: [opera.mozart.le-nozze-di-figaro, opera.mozart.don-giovanni, opera.mozart.cosi-fan-tutte, opera.mozart.die-zauberfloete]
+    tags: [librettist, venice, vienna, mozart, new-york, 1700s]
+    sources:
+      - "Grove Music Online, 'Da Ponte, Lorenzo'"
+      - "Sheila Hodges, Lorenzo Da Ponte: The Life and Times of Mozart's Librettist (1985)"
+    reviewed_by: null
+
+  - id: opera.r-strauss
+    discipline: opera
+    kind: creator
+    title: "Richard Strauss"
+    city: vienna
+    difficulty: 2
+    era: Late Romantic
+    year: 1864
+    year_end: 1949
+    facts:
+      - "Born in Munich on 11 June 1864, the son of Franz Strauss, principal horn of the Munich court orchestra; died at Garmisch-Partenkirchen on 8 September 1949."
+      - "Salome (Dresden, 1905), after Oscar Wilde's play, was kept off the Vienna Court Opera stage by the censor when Mahler wanted to give it; Vienna's opera did not stage it until 1918."
+      - "Elektra (1909) and Der Rosenkavalier (1911), both with Hugo von Hofmannsthal, followed at Dresden; the two worked together until the poet's death in 1929."
+      - "Co-director of the Vienna State Opera with Franz Schalk from 1919 to 1924; he liked to say that Salome's royalties had built his villa at Garmisch."
+    remark: "No relation to the waltz Strausses: a Bavarian, son of Munich's principal horn, whose Salome the Vienna censor kept off the Court Opera stage from 1905 until 1918."
+    gaffe: "Filing him with Johann Strauss as a Viennese. Richard was a Munich man, born in 1864, and Salome, Elektra and Der Rosenkavalier all opened in Dresden."
+    distractors:
+      person: [Gustav Mahler, Alexander von Zemlinsky, Hans Pfitzner]
+      era: [Classical, Baroque, Bel canto]
+    links: [opera.r-strauss.der-rosenkavalier, opera.strauss-ii.die-fledermaus, opera.venue.staatsoper]
+    tags: [composer, munich, dresden, vienna, staatsoper, 1900s]
+    sources:
+      - "Grove Music Online, 'Strauss, Richard'"
+      - "Michael Kennedy, Richard Strauss: Man, Musician, Enigma (1999)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Venue and terms
+  # ---------------------------------------------------------------------------
+
+  - id: opera.venue.staatsoper
+    discipline: opera
+    kind: venue
+    title: "Wiener Staatsoper (Vienna State Opera)"
+    location: Vienna
+    city: vienna
+    difficulty: 1
+    era: Ringstrasse era
+    year: 1869
+    facts:
+      - "Opened on the Ringstrasse on 25 May 1869 as the Court Opera (Hofoper) with Mozart's Don Giovanni; the architects, August Sicard von Sicardsburg and Eduard van der Nüll, both died in 1868 before the opening, van der Nüll by his own hand."
+      - "Gustav Mahler was its director from 1897 to 1907; it became the State Opera after the monarchy fell in 1918."
+      - "The auditorium was destroyed by bombing on 12 March 1945; the house reopened on 5 November 1955 with Fidelio under Karl Böhm."
+      - "The Vienna Opera Ball takes over the auditorium on the Thursday before Ash Wednesday, with the stalls floored over for dancing."
+    remark: "It opened in 1869 with Don Giovanni and neither architect lived to see it: van der Nüll hanged himself after the design was ridiculed, and Sicardsburg died within weeks."
+    gaffe: "Calling it the Volksoper. That is the other Vienna house, out by the Gürtel, for operetta and opera in German; the Staatsoper is the one on the Ring."
+    distractors:
+      title: ["Volksoper Wien", "Theater an der Wien", "Burgtheater"]
+    links: [opera.mozart.don-giovanni, opera.beethoven.fidelio, opera.strauss-ii.die-fledermaus, opera.r-strauss]
+    tags: [venue, vienna, opera-house, ringstrasse, opera-ball, mahler]
+    sources:
+      - "Wiener Staatsoper, 'History of the Vienna State Opera'"
+      - "Grove Music Online, 'Vienna'"
+    reviewed_by: null
+
+  - id: opera.term.singspiel
+    discipline: opera
+    kind: term
+    title: Singspiel
+    city: vienna
+    difficulty: 2
+    era: Classical
+    definition: "A German-language opera with spoken dialogue between the musical numbers instead of sung recitative; the Viennese form of the late eighteenth century, of which Die Zauberflöte is the summit."
+    pronunciation: "ZING-shpeel (plural ZING-shpee-leh)"
+    language: German
+    facts:
+      - "Joseph II founded a National Singspiel company at the Burgtheater in 1778 to promote opera in German; Mozart's Die Entführung aus dem Serail (1782) was written for it."
+      - "Die Zauberflöte (1791) is a Singspiel; so, technically, is Fidelio (1805), which keeps spoken dialogue; the line runs on to Weber's Der Freischütz (1821)."
+      - "The plural is Singspiele."
+    remark: "It simply means that they talk between the numbers: The Magic Flute and Fidelio are both Singspiele, and the spoken dialogue is what modern productions cut or rewrite."
+    gaffe: "Treating it as a lesser form, or as a musical. Mozart and Beethoven wrote Singspiele; the word describes the spoken dialogue, not the ambition."
+    distractors:
+      term:
+        - "An Italian comic opera in two acts with a buffo bass and a patter finale."
+        - "A short one-act German opera without chorus, performed as a curtain-raiser."
+        - "A song cycle for voice and piano staged with costumes and scenery."
+    links: [opera.mozart.die-zauberfloete, opera.beethoven.fidelio, opera.term.operetta]
+    tags: [term, german, singspiel, mozart, vienna]
+    sources:
+      - "Grove Music Online, 'Singspiel'"
+    reviewed_by: null
+
+  - id: opera.term.operetta
+    discipline: opera
+    kind: term
+    title: Operetta
+    city: vienna
+    difficulty: 1
+    era: Nineteenth century
+    definition: "Light opera with spoken dialogue, dance rhythms and a comic or sentimental plot; in Vienna it runs from Strauss's Die Fledermaus (1874) to Lehár's The Merry Widow (1905) and its successors."
+    pronunciation: "op-er-ET-ta"
+    language: Italian
+    facts:
+      - "Offenbach made the form in Paris in the 1850s and 1860s; Vienna's Golden Age is Strauss, Suppé and Millöcker, its Silver Age Lehár, Kálmán and Oscar Straus."
+      - "Lehár's Die lustige Witwe (The Merry Widow) opened at the Theater an der Wien on 30 December 1905, set in the Paris embassy of the invented Balkan state of Pontevedro, and went round the world."
+      - "Gilbert and Sullivan's Savoy operas are the English branch; the Volksoper, opened in 1898, is Vienna's operetta house today."
+    remark: "The Merry Widow's Pontevedro is Montenegro with the name changed, and the plot is a bankrupt state trying to keep a widow's millions at home by marrying her to Danilo; that is Viennese operetta, written by a Hungarian."
+    gaffe: "Calling Die Fledermaus or The Merry Widow an opera. Both are operettas, with spoken dialogue; the Staatsoper's New Year Fledermaus is the exception it makes once a year."
+    distractors:
+      term:
+        - "A short opera in one act, usually tragic, performed as half of a double bill."
+        - "An opera's overture played on its own as a concert piece."
+        - "A staged song recital with piano accompaniment."
+    links: [opera.strauss-ii.die-fledermaus, opera.term.singspiel, opera.venue.staatsoper]
+    tags: [term, operetta, lehar, strauss, vienna]
+    sources:
+      - "Grove Music Online, 'Operetta'"
+      - "Richard Traubner, Operetta: A Theatrical History (2nd ed., 2003)"
+    reviewed_by: null

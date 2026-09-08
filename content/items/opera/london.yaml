@@ -13,7 +13,7 @@ items:
       - "Opens Serse, which premiered at the King's Theatre in the Haymarket, London, on 15 April 1738."
       - "Known as 'Handel's Largo', though Handel marked it larghetto."
       - "Sung by Xerxes, king of Persia, in praise of the shade of a plane tree."
-    remark: "It is a love song to a tree; Xerxes is serenading a plane tree, which is why the opera was laughed at in 1738 and adored two centuries later."
+    remark: "It is a love song to a tree: Xerxes is serenading a plane tree, in an opera that lasted five performances in 1738 and was not staged again for nearly two centuries."
     gaffe: "Calling it 'Handel's Largo' as if that were its name, or assuming it is addressed to a woman."
     distractors:
       creator: [Henry Purcell, Antonio Vivaldi, Johann Sebastian Bach]
@@ -40,11 +40,400 @@ items:
       - "Handel wrote many of his operas and oratorios for the first Covent Garden theatre."
       - "It has been called the Royal Opera House since 1892."
     remark: "Everyone calls it Covent Garden; the current house is the third on the site, the first two having burned down."
-    gaffe: "Calling it 'the Royal Albert Hall' or 'the Coliseum', which is the other opera house across the road, home of English National Opera."
+    gaffe: "Calling it 'the Royal Albert Hall' or 'the Coliseum', which is the other opera house a few streets away in St Martin's Lane, home of English National Opera."
     distractors:
       title: ["London Coliseum", "Theatre Royal, Drury Lane", "Glyndebourne"]
     links: []
     tags: [venue, london, opera-house]
     sources:
       - "Royal Opera House, 'History of the Royal Opera House'"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Handel in London
+  # ---------------------------------------------------------------------------
+
+  - id: opera.handel.rinaldo.lascia-chio-pianga
+    discipline: opera
+    kind: work
+    title: "Lascia ch'io pianga"
+    parent: "Rinaldo (1711)"
+    creator: George Frideric Handel
+    city: london
+    difficulty: 1
+    era: Baroque
+    year: 1711
+    language: Italian
+    pronunciation: "LAH-sha kyo PYAHN-ga"
+    facts:
+      - "Rinaldo opened at the Queen's Theatre in the Haymarket on 24 February 1711, the first Italian opera composed specifically for the London stage."
+      - "Sung in Act II by Almirena, a captive of the sorceress Armida, asking to be left to weep for her cruel fate and sigh for liberty."
+      - "The tune had already served as a sarabande in Almira (Hamburg, 1705) and as 'Lascia la spina' in Il trionfo del Tempo (Rome, 1707)."
+      - "The libretto is by Giacomo Rossi, from a scenario by Aaron Hill after Tasso; Addison mocked the production's live sparrows in The Spectator."
+    remark: "Handel had used the tune twice already, as a sarabande in Almira at Hamburg and as 'Lascia la spina' in Rome; London in 1711 got the third set of words and kept it."
+    gaffe: "Calling it 'Handel's Largo'. That is 'Ombra mai fu' from Serse; this is a sarabande from Rinaldo, sung by a woman in captivity asking for the liberty to weep."
+    distractors:
+      creator: [Henry Purcell, Johann Sebastian Bach, Alessandro Scarlatti]
+      title: ["Ombra mai fu", "Dido's Lament", "Piangerò la sorte mia"]
+      era: [Classical, Romantic, Renaissance]
+    links: [opera.handel, opera.handel.serse.ombra-mai-fu, opera.term.aria, opera.term.castrato]
+    tags: [aria, baroque, handel, soprano, london, 1710s]
+    sources:
+      - "Grove Music Online, 'Rinaldo'"
+      - "Winton Dean and John Merrill Knapp, Handel's Operas, 1704–1726 (1987)"
+    reviewed_by: null
+
+  - id: opera.handel.giulio-cesare
+    discipline: opera
+    kind: work
+    title: "Giulio Cesare in Egitto"
+    creator: George Frideric Handel
+    city: london
+    difficulty: 1
+    era: Baroque
+    year: 1724
+    language: Italian
+    pronunciation: "JOO-lyo CHAY-za-reh in eh-JEET-to"
+    facts:
+      - "First performed at the King's Theatre in the Haymarket on 20 February 1724 by the Royal Academy of Music, the opera company Handel served as composer."
+      - "The title role was written for the castrato Senesino and Cleopatra for the soprano Francesca Cuzzoni; the libretto is by Nicola Francesco Haym."
+      - "Set in Egypt in 48 BC: Ptolemy has Pompey murdered and presents his head to Caesar, while Cleopatra, disguised as 'Lidia', sets out to win Caesar for herself."
+      - "Cleopatra's arias include 'V'adoro, pupille', 'Piangerò la sorte mia' and 'Da tempeste'; Caesar's 'Va tacito e nascosto' has a solo horn stalking alongside the voice."
+    remark: "Caesar was written for the castrato Senesino, so today he is a countertenor or a mezzo; if the Caesar you hear is a baritone, someone has transposed it."
+    gaffe: "Expecting Shakespeare. Haym's libretto is Caesar in Egypt in 48 BC: Pompey's severed head, Cleopatra and her brother Ptolemy, and no Brutus at all."
+    distractors:
+      creator: [Giovanni Bononcini, Alessandro Scarlatti, Antonio Vivaldi]
+      title: ["Rinaldo", "Serse", "Alcina"]
+      era: [Classical, Restoration, Romantic]
+    links: [opera.handel, opera.term.castrato, opera.handel.rinaldo.lascia-chio-pianga, opera.term.aria, opera.term.voice-types]
+    tags: [opera, baroque, handel, castrato, london, 1720s]
+    sources:
+      - "Grove Music Online, 'Giulio Cesare in Egitto'"
+      - "Winton Dean and John Merrill Knapp, Handel's Operas, 1704–1726 (1987)"
+    reviewed_by: null
+
+  - id: opera.handel
+    discipline: opera
+    kind: creator
+    title: "George Frideric Handel"
+    city: london
+    difficulty: 1
+    era: Baroque
+    year: 1685
+    year_end: 1759
+    facts:
+      - "Born in Halle, Saxony, on 23 February 1685; came to London in 1710, settled there in 1712, and was naturalised as a British subject by Act of Parliament in 1727."
+      - "Wrote more than thirty Italian operas for London, from Rinaldo in 1711 to Deidamia in 1741, before turning to English oratorio; Messiah was first heard in Dublin in 1742."
+      - "Lived at 25 Brook Street from 1723 until his death on 14 April 1759; he went blind in his last years and is buried in Westminster Abbey."
+    remark: "He was a Saxon who became a British subject by Act of Parliament in 1727, wrote more than thirty Italian operas for London, and turned to English oratorio only when the opera business failed him."
+    gaffe: "Assuming he and Bach knew each other. They were born in the same year, 1685, in towns a few days' ride apart, and never met; Bach tried twice."
+    distractors:
+      person: [Henry Purcell, Thomas Arne, Giovanni Bononcini]
+      era: [Classical, Restoration, Romantic]
+    links: [opera.handel.rinaldo.lascia-chio-pianga, opera.handel.giulio-cesare, opera.handel.serse.ombra-mai-fu, opera.venue.covent-garden, opera.term.castrato]
+    tags: [composer, baroque, handel, london, 1700s]
+    sources:
+      - "Grove Music Online, 'Handel, George Frideric'"
+      - "Oxford Dictionary of National Biography, 'Handel, George Frideric'"
+      - "Donald Burrows, Handel (2nd ed., 2012)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Purcell
+  # ---------------------------------------------------------------------------
+
+  - id: opera.purcell.dido-and-aeneas.when-i-am-laid-in-earth
+    discipline: opera
+    kind: work
+    title: "When I am laid in earth (Dido's Lament)"
+    parent: "Dido and Aeneas (c. 1689)"
+    creator: Henry Purcell
+    city: london
+    difficulty: 1
+    era: Restoration
+    year: 1689
+    year_approx: true
+    language: English
+    facts:
+      - "The only performance we can document in Purcell's lifetime was at Josias Priest's boarding school for young gentlewomen in Chelsea, in or before 1689; the exact date is still argued over."
+      - "Built over a five-bar ground bass in G minor that descends by semitones from G to D and repeats, unchanged, under the whole lament."
+      - "Dido sings it after she has sent Aeneas away; the words end 'Remember me, but ah! forget my fate', and the chorus 'With drooping wings' follows."
+      - "The libretto is by Nahum Tate; no score in Purcell's hand survives, and the earliest copy dates from long after his death."
+    remark: "The whole lament sits on a five-bar ground bass that sinks chromatically from G to D and simply repeats; the grief is in the bass line, and the voice is left to break across it."
+    gaffe: "Attributing it to Handel. Purcell died in 1695, and Handel did not reach London until 1710."
+    distractors:
+      creator: [John Blow, George Frideric Handel, Claudio Monteverdi]
+      title: ["Ombra mai fu", "Lascia ch'io pianga", "Music for a While"]
+      era: [Renaissance, Classical, Romantic]
+    links: [opera.purcell, opera.term.aria, opera.term.voice-types]
+    tags: [aria, lament, ground-bass, purcell, restoration, london, 1680s]
+    sources:
+      - "Grove Music Online, 'Dido and Aeneas'"
+      - "Curtis Price, Henry Purcell and the London Stage (1984)"
+      - "Ellen T. Harris, Henry Purcell's Dido and Aeneas (1987)"
+    reviewed_by: null
+
+  - id: opera.purcell
+    discipline: opera
+    kind: creator
+    title: "Henry Purcell"
+    city: london
+    difficulty: 2
+    era: Restoration
+    year: 1659
+    year_end: 1695
+    pronunciation: "PUR-sul"
+    facts:
+      - "Born in 1659, almost certainly in Westminster; organist of Westminster Abbey from 1679 and of the Chapel Royal from 1682."
+      - "Wrote one opera sung throughout, Dido and Aeneas, and four semi-operas for the London theatres: Dioclesian (1690), King Arthur (1691), The Fairy-Queen (1692) and The Indian Queen (1695)."
+      - "Died on 21 November 1695, aged about thirty-six, and was buried in Westminster Abbey beside the organ; the music he had written for Queen Mary's funeral that March was played at his own."
+      - "Playford published his songs after his death under the title Orpheus Britannicus (1698)."
+    remark: "Dido is his only opera sung throughout; King Arthur and The Fairy-Queen are semi-operas, in which the principal characters speak and the singing is left to spirits, shepherds and a drunken poet."
+    gaffe: "Saying 'Pur-SELL'. The stress falls on the first syllable, as in 'purse'."
+    distractors:
+      person: [John Blow, Thomas Arne, George Frideric Handel]
+      era: [Elizabethan, Georgian, Victorian]
+    links: [opera.purcell.dido-and-aeneas.when-i-am-laid-in-earth, opera.handel, opera.britten.peter-grimes]
+    tags: [composer, restoration, purcell, london, 1600s]
+    sources:
+      - "Grove Music Online, 'Purcell, Henry'"
+      - "Oxford Dictionary of National Biography, 'Purcell, Henry'"
+      - "Peter Holman, Henry Purcell (1994)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Gilbert and Sullivan
+  # ---------------------------------------------------------------------------
+
+  - id: opera.sullivan.hms-pinafore
+    discipline: opera
+    kind: work
+    title: "H.M.S. Pinafore"
+    creator: Arthur Sullivan
+    city: london
+    difficulty: 2
+    era: Victorian
+    year: 1878
+    language: English
+    facts:
+      - "Opened at the Opera Comique, London, on 25 May 1878 and ran for 571 performances; the words are by W. S. Gilbert, the fourth of his collaborations with Sullivan."
+      - "Josephine, the captain's daughter, loves the able seaman Ralph Rackstraw but is promised to Sir Joseph Porter, First Lord of the Admiralty, who rose to rule the Queen's Navy without ever going to sea."
+      - "Little Buttercup resolves everything by confessing that she nursed Ralph and the captain as babies and mixed them up; the numbers include 'When I was a lad' and 'He is an Englishman'."
+      - "Unauthorised American productions in 1878 and 1879 earned the authors nothing, which is why their next piece opened in New York."
+    remark: "Sir Joseph Porter, who polished up the handle of the big front door and never went to sea, was taken by everyone in 1878 to be W. H. Smith, the newsagent Disraeli had just made First Lord of the Admiralty."
+    gaffe: "Calling Sullivan the librettist, or Gilbert the composer. Gilbert wrote the words and Sullivan the music, and the partnership nearly ended in 1890 in a quarrel over the cost of a carpet for the Savoy."
+    distractors:
+      creator: [Jacques Offenbach, Edward German, Alfred Cellier]
+      title: ["The Pirates of Penzance", "The Mikado", "The Gondoliers"]
+      era: [Georgian, Edwardian, Baroque]
+    links: [opera.sullivan.pirates-of-penzance, opera.sullivan.the-mikado, opera.term.voice-types]
+    tags: [comic-opera, gilbert-and-sullivan, victorian, london, 1870s]
+    sources:
+      - "Grove Music Online, 'H.M.S. Pinafore'"
+      - "Arthur Jacobs, Arthur Sullivan: A Victorian Musician (1984)"
+    reviewed_by: null
+
+  - id: opera.sullivan.pirates-of-penzance
+    discipline: opera
+    kind: work
+    title: "The Pirates of Penzance"
+    creator: Arthur Sullivan
+    city: london
+    difficulty: 1
+    era: Victorian
+    year: 1879
+    language: English
+    facts:
+      - "After a single copyright performance at Paignton in Devon on 30 December 1879, it opened at the Fifth Avenue Theatre, New York, on 31 December 1879, and reached the Opera Comique in London on 3 April 1880."
+      - "Frederic, apprenticed to the pirates until his twenty-first birthday, was born on 29 February and so has had only five birthdays; he will come of age in 1940."
+      - "Major-General Stanley's patter song 'I am the very model of a modern Major-General' lists everything he knows, none of it military; the pirates turn out to be noblemen who have gone wrong."
+      - "The other famous numbers are 'With cat-like tread', 'Poor wand'ring one' and the Sergeant of Police's 'A policeman's lot is not a happy one'."
+    remark: "It is the one Gilbert and Sullivan opera that opened in New York, on the last day of 1879, because American managers had spent a year staging Pinafore without paying either of them a penny."
+    gaffe: "Attributing the Major-General's song to The Mikado. It is from Pirates, and the joke is that Stanley knows everything except anything military."
+    distractors:
+      creator: [Jacques Offenbach, Edward German, Alfred Cellier]
+      title: ["H.M.S. Pinafore", "The Mikado", "Iolanthe"]
+      era: [Georgian, Edwardian, Baroque]
+    links: [opera.sullivan.hms-pinafore, opera.sullivan.the-mikado, opera.term.voice-types]
+    tags: [comic-opera, gilbert-and-sullivan, patter-song, victorian, london, 1870s]
+    sources:
+      - "Grove Music Online, 'Pirates of Penzance, The'"
+      - "Arthur Jacobs, Arthur Sullivan: A Victorian Musician (1984)"
+    reviewed_by: null
+
+  - id: opera.sullivan.the-mikado
+    discipline: opera
+    kind: work
+    title: "The Mikado"
+    creator: Arthur Sullivan
+    city: london
+    difficulty: 1
+    era: Victorian
+    year: 1885
+    language: English
+    facts:
+      - "Opened at the Savoy Theatre on 14 March 1885 and ran for 672 performances, the longest first run of any of the Gilbert and Sullivan operas; it was the ninth of their collaborations."
+      - "Set in the town of Titipu: Nanki-Poo, the Mikado's son disguised as a wandering minstrel, loves Yum-Yum, who is engaged to her guardian Ko-Ko, the Lord High Executioner."
+      - "Sullivan borrowed one genuine Japanese tune, the march 'Miya sama', for the Mikado's entrance; a Japanese village exhibition had opened in Knightsbridge two months before the premiere."
+      - "The numbers include 'A wand'ring minstrel I', 'Three little maids from school are we', 'The sun whose rays', 'Tit-Willow' and Ko-Ko's 'I've got a little list'."
+    remark: "The Japan is fancy dress and the target is Victorian England, which is why Ko-Ko's little list of people who never would be missed has been rewritten with topical names since Gilbert's own day."
+    gaffe: "Calling it Japanese music. Sullivan borrows one Japanese tune, the march 'Miya sama' for the Mikado's entrance, and the rest is a Victorian burlesque in kimonos."
+    distractors:
+      creator: [Jacques Offenbach, Edward German, Alfred Cellier]
+      title: ["The Pirates of Penzance", "H.M.S. Pinafore", "The Yeomen of the Guard"]
+      era: [Georgian, Edwardian, Baroque]
+    links: [opera.sullivan.hms-pinafore, opera.sullivan.pirates-of-penzance, opera.term.voice-types]
+    tags: [comic-opera, gilbert-and-sullivan, savoy, victorian, london, 1880s]
+    sources:
+      - "Grove Music Online, 'Mikado, The'"
+      - "Arthur Jacobs, Arthur Sullivan: A Victorian Musician (1984)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Britten
+  # ---------------------------------------------------------------------------
+
+  - id: opera.britten.peter-grimes
+    discipline: opera
+    kind: work
+    title: "Peter Grimes"
+    creator: Benjamin Britten
+    city: london
+    difficulty: 3
+    era: Twentieth century
+    year: 1945
+    language: English
+    facts:
+      - "First performed at Sadler's Wells Theatre, London, on 7 June 1945, a month after VE Day, with Peter Pears as Grimes and Joan Cross as Ellen Orford; Reginald Goodall conducted."
+      - "The libretto is by Montagu Slater, after George Crabbe's poem The Borough (1810); Britten found Crabbe through an article by E. M. Forster that he read in California in 1941."
+      - "Grimes is a fisherman in a Suffolk village whose apprentices keep dying; the Borough turns on him, and Balstrode tells him to sail out and sink his boat."
+      - "The orchestral interludes were published separately as the Four Sea Interludes, Op. 33a: Dawn, Sunday Morning, Moonlight and Storm; the Passacaglia is Op. 33b."
+    remark: "It opened at Sadler's Wells a month after VE Day with Peter Pears as Grimes, and it is the first English opera since Purcell to hold the stage everywhere."
+    gaffe: "Calling Grimes a villain, or a baritone. He is a tenor written for Pears, and the point is that the Borough condemns him without ever proving anything."
+    distractors:
+      creator: [Ralph Vaughan Williams, Michael Tippett, William Walton]
+      title: ["Billy Budd", "The Turn of the Screw", "Albert Herring"]
+      era: [Victorian, Baroque, Romantic]
+    links: [opera.term.voice-types, opera.purcell, opera.venue.glyndebourne]
+    tags: [opera, britten, tenor, sea-interludes, twentieth-century, london, 1940s]
+    sources:
+      - "Grove Music Online, 'Peter Grimes'"
+      - "Humphrey Carpenter, Benjamin Britten: A Biography (1992)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Venue
+  # ---------------------------------------------------------------------------
+
+  - id: opera.venue.glyndebourne
+    discipline: opera
+    kind: venue
+    title: "Glyndebourne"
+    location: "Near Lewes, East Sussex"
+    city: london
+    difficulty: 2
+    era: Twentieth century
+    year: 1934
+    pronunciation: "GLINED-born"
+    facts:
+      - "Opened on 28 May 1934 with The Marriage of Figaro, in an opera house that John Christie had built on to his country house for his wife, the soprano Audrey Mildmay."
+      - "The first seasons were run by three men newly out of Germany: the conductor Fritz Busch, the producer Carl Ebert and the manager Rudolf Bing, who later ran the Metropolitan Opera."
+      - "Britten's The Rape of Lucretia (1946) and Albert Herring (1947) had their premieres there; the present house, by Michael Hopkins, opened in 1994."
+      - "The summer festival keeps its own customs: evening dress in the afternoon, and a dinner interval long enough for a picnic in the gardens."
+    remark: "John Christie built it in 1934 for his wife, the soprano Audrey Mildmay, and staffed it with three men just out of Hitler's Germany: Fritz Busch, Carl Ebert and Rudolf Bing, who went on to run the Met."
+    gaffe: "Turning up in a lounge suit, or complaining about the length of the interval. Evening dress and a picnic in the long dinner interval are the point, and it is in Sussex, not London."
+    distractors:
+      title: ["London Coliseum", "Royal Opera House, Covent Garden", "Garsington Opera"]
+    links: [opera.venue.covent-garden, opera.britten.peter-grimes]
+    tags: [venue, festival, country-house-opera, sussex, 1930s]
+    sources:
+      - "Grove Music Online, 'Glyndebourne'"
+      - "Spike Hughes, Glyndebourne: A History of the Festival Opera (1965)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Terms
+  # ---------------------------------------------------------------------------
+
+  - id: opera.term.aria
+    discipline: opera
+    kind: term
+    title: "Aria"
+    city: london
+    difficulty: 1
+    era: All periods
+    definition: "A self-contained song for one voice in an opera or oratorio, in which the action pauses so that a character can feel something at length; its opposite is recitative, the speech-like passages that carry the plot."
+    pronunciation: "AH-ree-a"
+    language: Italian
+    facts:
+      - "In a Handel opera almost every aria is a da capo aria, in the form A–B–A, and the singer was expected to ornament the repeat of the first section."
+      - "Recitative comes in two kinds: secco, accompanied by the continuo alone, and accompagnato, with the orchestra."
+      - "The English plural is arias; an arietta is a short one, and an arioso is something between recitative and aria."
+    remark: "In a Handel opera the plot happens in the recitative and the feeling in the arias; if you find yourself following a story during an aria, you have missed something."
+    gaffe: "Calling a duet or a chorus an aria, or asking where the tune is during a recitative: the recitative is not meant to have one."
+    distractors:
+      term:
+        - "A passage of sung speech, following the rhythms of the words, in which the story is carried forward between the set numbers."
+        - "The spoken dialogue between musical numbers in a comic opera or Singspiel."
+        - "An instrumental piece played by the orchestra before the curtain rises."
+    links: [opera.handel.rinaldo.lascia-chio-pianga, opera.handel.serse.ombra-mai-fu, opera.purcell.dido-and-aeneas.when-i-am-laid-in-earth, opera.handel.giulio-cesare]
+    tags: [term, aria, recitative, italian]
+    sources:
+      - "Grove Music Online, 'Aria'"
+      - "Grove Music Online, 'Recitative'"
+    reviewed_by: null
+
+  - id: opera.term.castrato
+    discipline: opera
+    kind: term
+    title: "Castrato"
+    city: london
+    difficulty: 2
+    era: Baroque
+    definition: "A male singer castrated before puberty so that he kept a boy's high range with a grown man's lungs; the star of Italian opera from the mid-seventeenth century to about 1800, whose heroic roles now go to countertenors or to women."
+    pronunciation: "kass-TRAH-toh (plural castrati)"
+    language: Italian
+    facts:
+      - "Handel wrote Rinaldo for Nicolini and Giulio Cesare for Senesino; Farinelli came to London in 1734 to sing for the rival company set up against Handel."
+      - "The last castrato of the Sistine Chapel choir, Alessandro Moreschi, made recordings in 1902 and 1904 and died in 1922."
+      - "A countertenor is a different thing: an intact man singing in a developed falsetto. Alfred Deller revived the voice in England in the 1940s, and Britten wrote Oberon in A Midsummer Night's Dream (1960) for him."
+    remark: "Handel's Caesar and Rinaldo were castrato roles, and a countertenor is not the same thing: he is an intact man singing in a trained falsetto, which is why the sound is lighter."
+    gaffe: "Calling a countertenor a castrato. The last of the castrati, Alessandro Moreschi, died in 1922 and can be heard on records made in 1902 and 1904."
+    distractors:
+      term:
+        - "A tenor with an exceptionally high range, trained to sing above the stave in full voice rather than falsetto."
+        - "A bass singer who specialises in the comic roles of Italian opera."
+        - "A boy soprano in a cathedral choir, replaced when his voice breaks."
+    links: [opera.handel.giulio-cesare, opera.handel.rinaldo.lascia-chio-pianga, opera.handel, opera.term.voice-types]
+    tags: [term, castrato, countertenor, baroque, italian]
+    sources:
+      - "Grove Music Online, 'Castrato'"
+      - "Grove Music Online, 'Countertenor'"
+    reviewed_by: null
+
+  - id: opera.term.voice-types
+    discipline: opera
+    kind: term
+    title: "The voice types"
+    city: london
+    difficulty: 1
+    era: All periods
+    definition: "From high to low: soprano, mezzo-soprano and contralto for women; countertenor, tenor, baritone and bass for men. Convention gives the heroine to the soprano, the lover to the tenor, and the fathers, villains and kings to baritones and basses."
+    language: Italian
+    facts:
+      - "Mimì, Violetta and Tosca are sopranos; Rodolfo, Alfredo and Cavaradossi, the men who love them, are tenors."
+      - "Mezzo-sopranos get the seductresses and the trouser roles: Carmen, and the young men Cherubino in The Marriage of Figaro and Octavian in Der Rosenkavalier."
+      - "Scarpia in Tosca, Iago in Otello and Rigoletto are baritones; Sarastro in The Magic Flute and Boris Godunov are basses."
+    remark: "The rule of thumb is that sopranos and tenors fall in love and baritones and basses get in the way; Scarpia, Iago and Rigoletto are all baritones."
+    gaffe: "Calling Scarpia 'the tenor'. He is a baritone, and the tenor is the man he has arranged to have shot in Act III."
+    distractors:
+      term:
+        - "The ranks of an opera company, from principal to chorus, fixed by the terms of a singer's contract."
+        - "The three registers of a single voice, chest, middle and head, which a singer must learn to blend."
+        - "The clefs in which vocal parts were printed before the nineteenth century: soprano, alto, tenor and bass."
+    links: [opera.purcell.dido-and-aeneas.when-i-am-laid-in-earth, opera.britten.peter-grimes, opera.handel.giulio-cesare, opera.term.castrato]
+    tags: [term, voice-types, soprano, mezzo, tenor, baritone, bass]
+    sources:
+      - "Grove Music Online, entries 'Soprano', 'Mezzo-soprano', 'Tenor', 'Baritone' and 'Bass'"
+      - "The New Kobbé's Opera Book, ed. the Earl of Harewood and Antony Peattie (1997)"
     reviewed_by: null

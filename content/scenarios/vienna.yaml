@@ -1,0 +1,143 @@
+# Vienna Remark scenarios: a social situation, three replies. Exactly one
+# `correct` (specific, generous to the host, one fact they did not have), one
+# `wrong` (a plausible factual error) and one `gaffe` (socially exposing).
+# Every option carries an explanation shown after answering. Facts are taken
+# from the Vienna item files and their sources; see CLAUDE.md, Content rules.
+scenarios:
+  - id: scenario.vienna.fate-knocking
+    city: vienna
+    discipline: music
+    difficulty: 1
+    setting: "Interval at the Musikverein. The second half is Beethoven's Fifth."
+    prompt: "Your host says: \"Fate knocking at the door. He said so himself, didn't he?\""
+    options:
+      - kind: correct
+        text: "His secretary Schindler said he said so, in a biography published thirteen years after the funeral, and Schindler is the witness scholars handle with tongs; he was caught adding entries of his own to the conversation books. What is certain is the first night: 22 December 1808 at the Theater an der Wien, four hours in a freezing theatre with the Pastoral and the Fourth Piano Concerto on the same bill."
+        explanation: "The register to aim for: it keeps your host's phrase, tells her where it comes from, and adds a date she did not have. 'So pocht das Schicksal an die Pforte' is Anton Schindler's, from his life of Beethoven of 1840; Beethoven died in 1827, and Schindler was later shown to have written entries into the conversation books after the fact, so nothing rests on his word alone. The premiere is documented: the marathon concert of 22 December 1808 at the Theater an der Wien, where Fidelio had opened three years earlier, also introduced the Sixth Symphony and the Fourth Piano Concerto, and Reichardt, who sat through it, complained of the cold."
+      - kind: wrong
+        text: "He did, and this is the one he dedicated to Napoleon and then scratched out when Bonaparte crowned himself."
+        explanation: "Wrong symphony. The Napoleon story belongs to the Third, the Eroica of 1804: by Ferdinand Ries's account Beethoven tore the title page in two on hearing that Bonaparte had made himself emperor, and a copyist's score with the name scratched out survives in the archive of the Gesellschaft der Musikfreunde, in this building. The Fifth was dedicated to Prince Lobkowitz and Count Razumovsky, two of his Viennese patrons."
+      - kind: gaffe
+        text: "Da-da-da-dum. Everyone knows the first four notes and nobody listens to the rest. I usually make my excuses at the interval."
+        explanation: "A gaffe: it dismisses the piece your host has brought you to hear and announces that you intend to leave her at it. The Fifth is the argument that follows the four notes, and the finale, where C minor turns into C major and Beethoven brings in trombones, piccolo and contrabassoon for the first time in one of his symphonies, is the part nobody should walk out on."
+    links: [music.beethoven.symphony-5.i, opera.beethoven.fidelio]
+    sources:
+      - "Lewis Lockwood, Beethoven: The Music and the Life (2003)"
+      - "Grove Music Online, 'Beethoven, Ludwig van'"
+      - "Grove Music Online, 'Schindler, Anton Felix'"
+      - "Franz Gerhard Wegeler and Ferdinand Ries, Biographische Notizen über Ludwig van Beethoven (1838)"
+    reviewed_by: null
+
+  - id: scenario.vienna.orlofsky-in-trousers
+    city: vienna
+    discipline: opera
+    difficulty: 1
+    setting: "New Year's Eve at the Staatsoper, Die Fledermaus. The interval after Orlofsky's party."
+    prompt: "Your host says: \"I do enjoy their giving the Prince to a woman. Is that a modern liberty?\""
+    options:
+      - kind: correct
+        text: "The original casting, in fact: Orlofsky has been a mezzo in trousers since the first night at the Theater an der Wien in April 1874, in the Cherubino line. The part people forget is that the whole plot is French, a play by Meilhac and Halévy, who wrote Carmen for Bizet the year after."
+        explanation: "Right, and it gives your host something to take home. Prince Orlofsky was written for a mezzo-soprano and has been a trouser role since the premiere on 5 April 1874, like Cherubino in Figaro and Octavian in Rosenkavalier. The libretto, by Carl Haffner and Richard Genée, derives from Le Réveillon (1872) by Henri Meilhac and Ludovic Halévy, whose Carmen followed in Paris in March 1875."
+      - kind: wrong
+        text: "A modern habit. Strauss wrote Orlofsky for a tenor; the mezzo came in with the New Year tradition."
+        explanation: "Wrong. Orlofsky was a mezzo from the start, and the Staatsoper's New Year's Eve Fledermaus is a custom of long standing, not a rewrite. The tenor in the piece is Alfred, the singing teacher who is arrested in Eisenstein's dressing gown; the Prince's bored couplets, 'Chacun à son goût', have always been sung by a woman."
+      - kind: gaffe
+        text: "And to think his son went on to write Der Rosenkavalier. Quite a family."
+        explanation: "A gaffe, and a famous one: Richard Strauss was no relation. He was born in Munich in 1864, the son of Franz Strauss, principal horn of the Munich court orchestra, and Der Rosenkavalier opened in Dresden in January 1911. Johann Strauss the younger's father was the other Johann Strauss, of the Radetzky March; the family made waltzes, not Elektra."
+    links: [opera.strauss-ii.die-fledermaus, opera.venue.staatsoper, opera.r-strauss]
+    sources:
+      - "Grove Music Online, 'Fledermaus, Die'"
+      - "Richard Traubner, Operetta: A Theatrical History (2nd ed., 2003)"
+      - "Grove Music Online, 'Strauss, Richard'"
+    reviewed_by: null
+
+  - id: scenario.vienna.bruegel-seasons
+    city: vienna
+    discipline: art
+    difficulty: 1
+    setting: "A bench in the Bruegel room of the Kunsthistorisches Museum, in front of Hunters in the Snow."
+    prompt: "Your companion says: \"This is the cycle of the months, isn't it? All twelve of them in one room.\""
+    options:
+      - kind: correct
+        text: "Three of them, all painted in 1565 for an Antwerp merchant, Niclaes Jongelinck: this one, The Gloomy Day and The Return of the Herd. The haymaking is in Prague and The Harvesters got away to the Metropolitan in New York; there were probably six, and one is lost. He had dropped the h from his name by then; the sons put it back."
+        explanation: "Right, and it turns your companion's guess into a map. The series of the seasons was painted in a single year for Jongelinck; five survive, three in this room, one in Prague and one in New York, and most scholars think there were six, each covering two months. Twelve is the number of Bruegel panels the museum owns, the largest holding anywhere, which is where the confusion comes from. Bruegel signed without the h from 1559; Pieter the Younger and Jan kept it."
+      - kind: wrong
+        text: "All twelve, yes: the museum has the whole calendar, a panel for each month."
+        explanation: "Wrong. The museum does own twelve Bruegel panels, but they are not a calendar: they include The Tower of Babel, The Peasant Wedding, Children's Games and The Fight Between Carnival and Lent, and only three of the seasons. The seasons series was probably six pictures; the museum has three, and the other survivors are in Prague and New York."
+      - kind: gaffe
+        text: "A Christmas card, really. I would trade the whole room for the one Vermeer down the corridor."
+        explanation: "A gaffe: it sneers at the museum's greatest possession while sitting on the bench put there to look at it, and your companion came for Bruegel. The Vermeer is here, The Art of Painting, and worth the walk; but the Bruegels are here because the Habsburgs wanted them early, Antwerp having given the seasons to Archduke Ernst in 1594 and Rudolf II having gathered more for Prague, and nobody has assembled anything like them since."
+    links: [art.bruegel.hunters-in-the-snow, art.venue.kunsthistorisches-museum, art.vermeer.the-art-of-painting]
+    sources:
+      - "Kunsthistorisches Museum Wien, Gemäldegalerie, inv. GG 1838"
+      - "Manfred Sellink, Bruegel: The Complete Paintings, Drawings and Prints (2007)"
+    reviewed_by: null
+
+  - id: scenario.vienna.woman-in-gold
+    city: vienna
+    discipline: art
+    difficulty: 2
+    setting: "Dinner in Döbling. Your hostess has spent the afternoon at the Belvedere."
+    prompt: "Your hostess says: \"We went for the Woman in Gold and could not find her anywhere. Is she on loan?\""
+    options:
+      - kind: correct
+        text: "Gone for good, I'm afraid: her niece Maria Altmann won her back in 2006 and she hangs at the Neue Galerie on Fifth Avenue. She is Adele Bloch-Bauer, painted in 1907 after Klimt had seen the mosaics at Ravenna, and the Belvedere hung her for decades as the Woman in Gold, which kept her name off the label. You had The Kiss, though, and the state bought that one off the wall before Klimt had finished it."
+        explanation: "Right, and it turns a lost afternoon into a story. Adele Bloch-Bauer I was seized after the Anschluss and shown in the Belvedere under an anonymous title until an Austrian arbitration panel restituted it to Maria Altmann in 2006; Ronald Lauder bought it that year for the Neue Galerie in New York for a reported 135 million dollars. Klimt's gold owes something to the Byzantine mosaics he saw at Ravenna in 1903. The Kiss, shown unfinished at the Kunstschau of 1908 and bought by the state there, is still the Belvedere's."
+      - kind: wrong
+        text: "She has moved to the Leopold, with the Schieles. The Belvedere only ever had The Kiss."
+        explanation: "Wrong on both counts. The Leopold Museum is Rudolf Leopold's collection, strongest in Schiele, and has never had the portrait; and the Belvedere showed Adele Bloch-Bauer I from the war years until 2006, when it was restituted to her niece and sold to the Neue Galerie in New York. It has not been in Vienna since."
+      - kind: gaffe
+        text: "Nobody knows who she was, anyway. Klimt cared about the gold, not the girl; it is a poster, not a portrait."
+        explanation: "A gaffe: everybody knows who she was, and the not-knowing was manufactured. She was Adele Bloch-Bauer, wife of the sugar industrialist Ferdinand Bloch-Bauer, painted by Klimt twice; the Belvedere's title 'Woman in Gold' was what kept a Jewish sitter's name off the wall for decades. Calling a restituted picture a poster, to a hostess who has just tried to see it, is the wrong kind of memorable."
+    links: [art.klimt.adele-bloch-bauer-i, art.klimt.the-kiss, art.klimt]
+    sources:
+      - "Neue Galerie New York, collection entry 'Adele Bloch-Bauer I'"
+      - "Anne-Marie O'Connor, The Lady in Gold (2012)"
+      - "Belvedere, Vienna, collection entry 'The Kiss (Lovers)'"
+    reviewed_by: null
+
+  - id: scenario.vienna.poor-salieri
+    city: vienna
+    discipline: history
+    difficulty: 2
+    setting: "Supper in the Josefstadt after a revival screening of Amadeus."
+    prompt: "Your host says: \"Poor Salieri. Do you think he really did it?\""
+    options:
+      - kind: correct
+        text: "Seven weeks before he died Mozart fetched Salieri in his own carriage and took him to The Magic Flute, and wrote to Constanze that Salieri shouted bravo at every number; and Salieri went on to teach Beethoven, Schubert, Liszt and Mozart's younger son. The poison is Pushkin's, from 1830. Shaffer only borrowed it, and gave Salieri the best part."
+        explanation: "Right, and it answers the question with evidence rather than a shrug. Mozart's letter of 14 October 1791 describes collecting Salieri and Caterina Cavalieri in his carriage, taking them to Die Zauberflöte and hearing Salieri call out bravo or bello at every number; Mozart died on 5 December, and the register gives an acute fever. Salieri, court Kapellmeister until 1824, taught Beethoven, Schubert, Liszt and Franz Xaver Mozart. Pushkin's Mozart and Salieri of 1830 put the poison in his hand; Shaffer's Amadeus of 1979 and Forman's film of 1984 made it permanent."
+      - kind: wrong
+        text: "He confessed, though, on his deathbed in 1825, and the confession is in the Vienna death register."
+        explanation: "Wrong in the particulars. The register entry that exists is Mozart's, and it says fever, 'hitziges Frieselfieber'. What Salieri is said to have done is accuse himself in 1823, old and in mental decline; he denied it to Moscheles on his word of honour, and the story survives only second-hand, in remarks visitors wrote into Beethoven's conversation books. He died on 7 May 1825 with no confession on record."
+      - kind: gaffe
+        text: "Obviously he did. Mediocrity always hates genius; that is the whole point of the film."
+        explanation: "A gaffe: it takes a play for a biography and insults a composer who taught Beethoven, Schubert and Liszt, at a table where somebody may know that. Amadeus is Peter Shaffer's invention of 1979, built on Pushkin's little tragedy of 1830 and on gossip a Berlin paper printed within a month of Mozart's death; F. Murray Abraham won an Academy Award for Salieri, which is not the same as a conviction."
+    links: [history.apocrypha.salieri-poisoned-mozart, opera.mozart.die-zauberfloete, history.episode.joseph-ii-and-mozart]
+    sources:
+      - "Grove Music Online, 'Salieri, Antonio'"
+      - "H. C. Robbins Landon, 1791: Mozart's Last Year (1988)"
+      - "Emily Anderson (ed.), The Letters of Mozart and His Family (3rd ed., 1985), Mozart to Constanze, 14 October 1791"
+    reviewed_by: null
+
+  - id: scenario.vienna.metternich-sekt
+    city: vienna
+    discipline: history
+    difficulty: 3
+    setting: "A house party in the Wachau. Before dinner your host opens a bottle of Fürst von Metternich."
+    prompt: "Your host says: \"Fürst von Metternich. Did the old fox actually own a vineyard, or is that the marketing department?\""
+    options:
+      - kind: correct
+        text: "He did, and it was his fee: Francis I gave him Schloss Johannisberg on the Rhine in 1816, the year after the Final Act, for a Congress that in the Prince de Ligne's phrase did not walk but danced. He was a Rhinelander himself, born at Koblenz to a family the Revolution had turned out of its lands, so the Emperor was sending him home with a vineyard."
+        explanation: "Right, and it gives your host a toast. Metternich hosted the Congress of Vienna from September 1814; its Final Act was signed on 9 June 1815, nine days before Waterloo, and in 1816 the Emperor rewarded him with Johannisberg in the Rheingau, which is why the name is on the bottle. He was born at Koblenz on 15 May 1773 and lost the family's Rhenish lands to the French; the Prince de Ligne's 'Le congrès ne marche pas, il danse' is the line to have ready."
+      - kind: wrong
+        text: "Napoleon's present, in fact, for brokering the marriage to Marie Louise in 1810; he kept it through everything that followed."
+        explanation: "Wrong donor. Metternich did arrange Napoleon's marriage to the Emperor's daughter Marie Louise in 1810, as Austria's new foreign minister, but Johannisberg came from Francis I in 1816 as the reward for the Congress, with Napoleon already on St Helena. The marriage was Metternich's policy; the vineyard was his fee, and it came from Vienna, not Paris, followed in 1821 by the chancellorship."
+      - kind: gaffe
+        text: "Sekt? I never touch it. If one cannot have Champagne one may as well drink water."
+        explanation: "A gaffe: it snubs what your host has just opened, in his own house, before you have tasted it. A guest drinks what is poured and finds something to say about it, and this bottle offered a whole evening's conversation: a chancellor who held office for thirty-nine years, was paid for a congress in vines, and fell to the barricades of 13 March 1848. Thomas Lawrence painted him for the Waterloo Chamber at Windsor; you have just declined his wine."
+    links: [history.person.metternich, history.episode.congress-of-vienna]
+    sources:
+      - "Alan Sked, Metternich and Austria: An Evaluation (2008)"
+      - "Wolfram Siemann, Metternich: Strategist and Visionary (2019)"
+      - "Adam Zamoyski, Rites of Peace: The Fall of Napoleon and the Congress of Vienna (2007)"
+    reviewed_by: null

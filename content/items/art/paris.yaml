@@ -1,0 +1,474 @@
+# Paris: the Louvre's big canvases and the Musée d'Orsay's Impressionists,
+# taught where they hang. The Louvre gives the Mona Lisa, the Raft of the
+# Medusa, Liberty and the Oath of the Horatii; the Orsay gives Manet and
+# Renoir; the Marmottan gives Impression, Sunrise. Monet, Manet, Renoir and
+# David are taught through their works; Degas, Cézanne and Rodin are creators.
+# Impressionism is the one movement; the Salon and japonisme are the terms
+# (plein air and the Salon des Refusés are folded into them). Rodin's sculpture
+# needs a public-domain photograph, so his image is Nadar's 1893 portrait.
+items:
+  # ---------------------------------------------------------------------------
+  # The Louvre
+  # ---------------------------------------------------------------------------
+
+  - id: art.leonardo.mona-lisa
+    discipline: art
+    kind: work
+    title: "Mona Lisa"
+    creator: Leonardo da Vinci
+    city: paris
+    difficulty: 1
+    era: High Renaissance
+    year: 1503
+    year_approx: true
+    facts:
+      - "Oil on poplar panel, 77 by 53 centimetres, Louvre Inv. 779; Leonardo took it with him to France in his last years, and it has been in the French royal and then national collection since Francis I."
+      - "Vasari's Lives (1550) says Leonardo painted the wife of Francesco del Giocondo, hence La Gioconda and La Joconde; a marginal note by Agostino Vespucci dated October 1503, found at Heidelberg in 2005, confirms he was at work on the portrait of Lisa del Giocondo then."
+      - "There are no drawn outlines: the face is modelled by thin glazes shading into shadow, the technique known as sfumato, and there are no eyebrows or lashes."
+      - "Stolen on 21 August 1911 by Vincenzo Peruggia, an Italian house painter who had worked on glazing pictures at the Louvre; recovered in Florence in December 1913 when he tried to sell it to the Uffizi through a dealer."
+      - "Hangs behind glass on its own wall in the Salle des États, the largest room in the Louvre, facing Veronese's Wedding at Cana."
+    remark: "Until August 1911 it was an admired Leonardo and no more; then Vincenzo Peruggia, who had fitted glass at the Louvre, walked out with it under his smock, and two years on a missing wall did more for its fame than four centuries on a full one."
+    gaffe: "Asking who she was as if nobody knew. Vasari named her in 1550, Lisa Gherardini, wife of the Florentine cloth merchant Francesco del Giocondo, and a note found at Heidelberg in 2005 has Leonardo at work on her in October 1503."
+    media:
+      image:
+        commons: "File:Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg"
+        source: "Musée du Louvre, Paris, via Wikimedia Commons (C2RMF photograph)"
+        license: "Public domain (artist died 1519); verify the file's tag when fetching"
+        focus: { x: 0.5, y: 0.33 }
+    distractors:
+      creator: [Raphael, Giorgione, Andrea del Sarto]
+      title: ["Lady with an Ermine", "La Belle Ferronnière", "The Virgin of the Rocks"]
+      era: [Early Renaissance, Mannerist, Baroque]
+    links: [art.gericault.raft-of-the-medusa, art.delacroix.liberty-leading-the-people, art.david.oath-of-the-horatii]
+    tags: [painting, portrait, high-renaissance, italian, 1500s, louvre, theft]
+    sources:
+      - "Musée du Louvre, catalogue entry Inv. 779 (Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dite Monna Lisa, la Gioconda ou la Joconde)"
+      - "Giorgio Vasari, Lives of the Artists (1550/1568), Life of Leonardo da Vinci"
+      - "Martin Kemp and Giuseppe Pallanti, Mona Lisa: The People and the Painting (2017)"
+    reviewed_by: null
+
+  - id: art.gericault.raft-of-the-medusa
+    discipline: art
+    kind: work
+    title: "The Raft of the Medusa"
+    creator: Théodore Géricault
+    city: paris
+    difficulty: 1
+    era: Romantic
+    year: 1819
+    facts:
+      - "Oil on canvas, 491 by 716 centimetres, Louvre Inv. 4884; shown at the Salon of 1819 under the neutral title Scène de naufrage, and bought for the Louvre after Géricault's death in 1824."
+      - "The frigate Méduse ran aground on the Arguin bank off the West African coast on 2 July 1816, bound for Senegal; the officers took the boats, about 147 people were put on a raft that was cut loose from its tow, and thirteen days later the Argus found fifteen of them alive."
+      - "The captain, Hugues Duroy de Chaumareys, was a returned émigré given the ship by the restored Bourbon government; two survivors, the surgeon Savigny and the engineer Corréard, published an account in 1817 that became a scandal against the regime."
+      - "Géricault interviewed the survivors, had a model of the raft built, and painted severed limbs and heads borrowed from the Beaujon hospital; Delacroix, then twenty, is said to have posed for the corpse lying face down in the foreground."
+      - "Shown in London at Bullock's Egyptian Hall in Piccadilly in 1820, where it drew tens of thousands of paying visitors; Géricault died in January 1824, aged thirty-two."
+    remark: "It went to the Salon of 1819 as 'Scene of a Shipwreck', because naming the Medusa would have named the Bourbon ministry that gave a frigate to an émigré captain chosen for his loyalty rather than his seamanship."
+    gaffe: "Calling it a Delacroix. Delacroix is the twenty-year-old friend who is said to have posed for the corpse in the foreground; Géricault painted it, and was dead at thirty-two five years later."
+    media:
+      image:
+        commons: "File:JEAN LOUIS THÉODORE GÉRICAULT - La Balsa de la Medusa (Museo del Louvre, 1818-19).jpg"
+        source: "Musée du Louvre, Paris, via Wikimedia Commons"
+        license: "Public domain (artist died 1824); verify the file's tag when fetching"
+        focus: { x: 0.79, y: 0.3 }
+    distractors:
+      creator: [Eugène Delacroix, Antoine-Jean Gros, Anne-Louis Girodet]
+      title: ["The Death of Sardanapalus", "The Charging Chasseur", "Napoleon Visiting the Plague-Stricken at Jaffa"]
+      era: [Neoclassical, Realist, Impressionist]
+    links: [art.delacroix.liberty-leading-the-people, art.david.oath-of-the-horatii, art.term.salon]
+    tags: [painting, history-painting, romantic, french, shipwreck, 1810s, louvre]
+    sources:
+      - "Musée du Louvre, catalogue entry Inv. 4884 (Le Radeau de la Méduse)"
+      - "Lorenz Eitner, Géricault's Raft of the Medusa (1972)"
+      - "Jonathan Miles, Medusa: The Shipwreck, the Scandal, the Masterpiece (2007)"
+    reviewed_by: null
+
+  - id: art.delacroix.liberty-leading-the-people
+    discipline: art
+    kind: work
+    title: "Liberty Leading the People"
+    creator: Eugène Delacroix
+    city: paris
+    difficulty: 1
+    era: Romantic
+    year: 1830
+    facts:
+      - "Oil on canvas, 260 by 325 centimetres, Louvre RF 129; painted in the autumn of 1830 and shown at the Salon of 1831 as 'Le 28 juillet: La Liberté guidant le peuple'."
+      - "The subject is the July Revolution of 1830, the three days of 27 to 29 July that ended the reign of Charles X and put Louis-Philippe on the throne; the towers of Notre-Dame stand at the right with a tricolour flying from one of them."
+      - "Delacroix wrote to his brother in October 1830 that he had taken on a modern subject, a barricade, and that if he had not fought for his country he would at least paint for her."
+      - "The state bought it in 1831 for 3,000 francs, hung it briefly, then kept it out of sight as too inflammatory; it came back on view after 1848 and entered the Louvre in 1874."
+      - "The man in the top hat with the musket has often been taken for Delacroix himself, an identification most scholars now reject; the boy with two pistols is usually said to have suggested Gavroche in Hugo's Les Misérables (1862), and the picture was on the 100-franc note from 1978 to 1995."
+    remark: "It is not 1789: it is the three days of July 1830 that got rid of Charles X, and Delacroix, who had watched rather than fought, told his brother that if he had not won for his country he would at least paint for her."
+    gaffe: "Placing it in 1789, or on the barricades of Les Misérables. It is July 1830; Hugo's barricade is June 1832, though the boy with the pistols is generally taken to have suggested Gavroche."
+    media:
+      image:
+        commons: "File:Eugène Delacroix - Le 28 Juillet. La Liberté guidant le peuple.jpg"
+        source: "Musée du Louvre, Paris, via Wikimedia Commons"
+        license: "Public domain (artist died 1863); verify the file's tag when fetching"
+        focus: { x: 0.56, y: 0.3 }
+    distractors:
+      creator: [Théodore Géricault, Antoine-Jean Gros, Horace Vernet]
+      title: ["The Death of Sardanapalus", "The Massacre at Chios", "Women of Algiers in their Apartment"]
+      era: [Neoclassical, Realist, Impressionist]
+    links: [art.gericault.raft-of-the-medusa, art.david.oath-of-the-horatii, art.term.salon, history.episode.french-revolution]
+    tags: [painting, history-painting, romantic, french, revolution, 1830s, louvre]
+    sources:
+      - "Musée du Louvre, catalogue entry RF 129 (Le 28 juillet 1830. La Liberté guidant le peuple)"
+      - "Grove Art Online, 'Delacroix, Eugène'"
+      - "Barthélémy Jobert, Delacroix (1998)"
+    reviewed_by: null
+
+  - id: art.david.oath-of-the-horatii
+    discipline: art
+    kind: work
+    title: "The Oath of the Horatii"
+    creator: Jacques-Louis David
+    city: paris
+    difficulty: 2
+    era: Neoclassical
+    year: 1784
+    facts:
+      - "Oil on canvas, 330 by 425 centimetres, Louvre Inv. 3692; commissioned by the Crown through the comte d'Angiviller, painted in Rome in 1784 and shown there in David's studio before it reached the Paris Salon of 1785."
+      - "The story is from Livy: three brothers of the Horatii fight three Curiatii of Alba Longa to settle a war between the two cities, and Corneille made a tragedy of it, Horace, in 1640. The oath sworn on the swords is in neither Livy nor Corneille."
+      - "The women at the right are Sabina, a Curiatius sister married to a Horatius, and Camilla, a Horatius sister betrothed to a Curiatius; in Livy the surviving brother kills Camilla for mourning her lover."
+      - "Three arches, three groups, straight lines for the men and curves for the women: it became the model for Neoclassical history painting, and later, against its own date, an image of Revolutionary virtue."
+      - "David went on to sit in the Convention, vote for the death of Louis XVI, sketch Marie Antoinette on the cart to the scaffold in October 1793, paint the Death of Marat and the Coronation of Napoleon, and die in exile in Brussels in 1825."
+    remark: "It was a royal commission, painted in Rome for Louis XVI's Bâtiments du Roi five years before the Bastille, and the oath itself is in neither Livy nor Corneille: David invented the one moment the picture is about."
+    gaffe: "Reading it as a Revolutionary manifesto. It is 1784 and paid for by the Crown; David's politics came later, and by January 1793 he was voting for the king's death."
+    media:
+      image:
+        commons: "File:Jacques-Louis David - Oath of the Horatii - Google Art Project.jpg"
+        source: "Musée du Louvre, Paris, via Wikimedia Commons (Google Art Project)"
+        license: "Public domain (artist died 1825); verify the file's tag when fetching"
+        focus: { x: 0.47, y: 0.4 }
+    distractors:
+      creator: [Jean-Auguste-Dominique Ingres, Anne-Louis Girodet, François Gérard]
+      title: ["The Death of Marat", "The Coronation of Napoleon", "The Lictors Bring to Brutus the Bodies of his Sons"]
+      era: [Rococo, Romantic, Baroque]
+    links: [history.episode.french-revolution, history.person.marie-antoinette, art.delacroix.liberty-leading-the-people, art.term.salon]
+    tags: [painting, history-painting, neoclassical, french, rome, 1780s, louvre]
+    sources:
+      - "Musée du Louvre, catalogue entry Inv. 3692 (Le Serment des Horaces)"
+      - "Grove Art Online, 'David, Jacques-Louis'"
+      - "Thomas Crow, Painters and Public Life in Eighteenth-Century Paris (1985)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # The Musée d'Orsay and the Marmottan
+  # ---------------------------------------------------------------------------
+
+  - id: art.manet.dejeuner-sur-l-herbe
+    discipline: art
+    kind: work
+    title: "Le Déjeuner sur l'herbe"
+    creator: Édouard Manet
+    city: paris
+    difficulty: 1
+    era: Realist
+    year: 1863
+    pronunciation: "luh day-zhuh-NAY sewr LAIRB"
+    language: French
+    facts:
+      - "Oil on canvas, 208 by 264.5 centimetres, Musée d'Orsay RF 1668; rejected by the Salon jury of 1863 and shown at the Salon des Refusés, which opened on 15 May 1863, under the title Le Bain."
+      - "The group is lifted from Marcantonio Raimondi's engraving after Raphael's Judgement of Paris, and the idea of naked women beside dressed men from Titian's Pastoral Concert in the Louvre; the nude is Victorine Meurent, who posed for Olympia the same year."
+      - "The men are one of Manet's brothers and his future brother-in-law, the sculptor Ferdinand Leenhoff; the still life of clothes and fruit at the lower left is painted with more care than the landscape behind."
+      - "Given to the state by Étienne Moreau-Nélaton in 1906; it hung in the Louvre from 1934 and moved to the Orsay when that museum opened in 1986."
+      - "Manet never exhibited with the Impressionists, though the younger painters treated him as their leader; he kept submitting to the Salon until his death in 1883."
+    remark: "Its scandal was not the nude but her company: Titian's Pastoral Concert in the Louvre has naked women beside clothed men too, but Manet's men wear the frock coats of 1863, and the woman looks straight at you."
+    gaffe: "Calling it an Impressionist painting shown at the Salon. The jury threw it out; it hung at the Salon des Refusés of 1863 as Le Bain, eleven years before the first Impressionist exhibition, which Manet declined to join, as he declined all eight."
+    media:
+      image:
+        commons: "File:Edouard Manet - Luncheon on the Grass - Google Art Project.jpg"
+        source: "Musée d'Orsay, Paris, via Wikimedia Commons (Google Art Project)"
+        license: "Public domain (artist died 1883); verify the file's tag when fetching"
+        focus: { x: 0.36, y: 0.4 }
+    distractors:
+      creator: [Claude Monet, Gustave Courbet, Frédéric Bazille]
+      title: ["Olympia", "A Bar at the Folies-Bergère", "The Balcony"]
+      era: [Impressionist, Neoclassical, Romantic]
+    links: [art.term.salon, art.movement.impressionism, art.monet.impression-sunrise, art.term.japonisme]
+    tags: [painting, nude, realist, french, salon-des-refuses, 1860s, musee-d-orsay]
+    sources:
+      - "Musée d'Orsay, catalogue entry RF 1668 (Le Déjeuner sur l'herbe)"
+      - "Françoise Cachin, Charles S. Moffett and Juliet Wilson-Bareau, Manet 1832–1883 (exhibition catalogue, Grand Palais and Metropolitan Museum of Art, 1983)"
+      - "Grove Art Online, 'Manet, Edouard'"
+    reviewed_by: null
+
+  - id: art.monet.impression-sunrise
+    discipline: art
+    kind: work
+    title: "Impression, Sunrise"
+    creator: Claude Monet
+    city: paris
+    difficulty: 1
+    era: Impressionist
+    year: 1872
+    facts:
+      - "Oil on canvas, 48 by 63 centimetres, in the Musée Marmottan Monet in Paris, given in 1940 by Victorine Donop de Monchy, daughter of Monet's doctor and collector Georges de Bellio."
+      - "The view is the port of Le Havre from a hotel window, signed and dated '72'; the museum's work with astronomers in 2014 put the sunrise on a November morning in 1872."
+      - "Shown in April 1874 at the first exhibition of the Société anonyme of painters, sculptors and engravers at 35 boulevard des Capucines, the photographer Nadar's former studio; Louis Leroy's review in Le Charivari on 25 April was headed 'Exhibition of the Impressionists', and the name stuck."
+      - "Monet told the journalist Maurice Guillemot in 1897 that, asked for a catalogue title, he had said it could hardly pass for a view of Le Havre, so they should put 'Impression'."
+      - "Stolen from the Marmottan on 27 October 1985 with eight other pictures and recovered in Corsica in December 1990."
+    remark: "The name of the whole movement is a joke that stuck: Louis Leroy, reviewing this in Le Charivari in April 1874, headed his piece 'Exhibition of the Impressionists', and the painters adopted the insult."
+    gaffe: "Looking for it in the Musée d'Orsay. It is in the Marmottan, out in the sixteenth arrondissement, where it was stolen in 1985 and came back from Corsica five years later."
+    media:
+      image:
+        commons: "File:Monet - Impression, Sunrise.jpg"
+        source: "Musée Marmottan Monet, Paris, via Wikimedia Commons"
+        license: "Public domain (artist died 1926); verify the file's tag when fetching"
+        focus: { x: 0.72, y: 0.28 }
+    distractors:
+      creator: [Camille Pissarro, Alfred Sisley, Eugène Boudin]
+      title: ["Women in the Garden", "The Magpie", "La Grenouillère"]
+      era: [Realist, Post-Impressionist, Barbizon]
+    links: [art.movement.impressionism, art.term.salon, art.renoir.bal-du-moulin-de-la-galette, art.degas, art.manet.dejeuner-sur-l-herbe]
+    tags: [painting, seascape, impressionist, french, le-havre, 1870s, marmottan, theft]
+    sources:
+      - "Musée Marmottan Monet, collection entry 'Impression, soleil levant'"
+      - "Marianne Mathieu and Dominique Lobstein (eds), Monet's Impression, Sunrise: The Biography of a Painting (Musée Marmottan Monet, 2014)"
+      - "Louis Leroy, 'L'Exposition des impressionnistes', Le Charivari, 25 April 1874"
+    reviewed_by: null
+
+  - id: art.renoir.bal-du-moulin-de-la-galette
+    discipline: art
+    kind: work
+    title: "Bal du moulin de la Galette"
+    creator: Pierre-Auguste Renoir
+    city: paris
+    difficulty: 1
+    era: Impressionist
+    year: 1876
+    pronunciation: "BAL dew moo-LAN duh la ga-LET"
+    language: French
+    facts:
+      - "Oil on canvas, 131 by 175 centimetres, Musée d'Orsay RF 2739; shown at the third Impressionist exhibition in 1877 and left to the state by Gustave Caillebotte in 1894."
+      - "The Moulin de la Galette was a dance garden beside two old windmills at the top of Montmartre, open on Sunday afternoons; Renoir took a studio nearby in the rue Cortot in 1875 and had the canvas carried down to paint on the spot."
+      - "The sitters are friends: the journalist Georges Rivière at the table, the painters Franc-Lamy and Norbert Gœneutte, and the models Estelle and Jeanne in the foreground."
+      - "The dappled patches on the dancers' clothes and the ground are sunlight through acacia leaves."
+      - "A smaller version sold at Sotheby's in New York on 17 May 1990 for 78.1 million dollars to the Japanese businessman Ryoei Saito, two days after he bought Van Gogh's Portrait of Dr Gachet."
+    remark: "The patches on the dancers' clothes are sunlight through acacia leaves, painted on the spot on a Montmartre Sunday afternoon; the Moulin was a real windmill with a dance floor, and the Moulin Rouge did not exist for another thirteen years."
+    gaffe: "Attributing it to Monet, or confusing the Galette with the Moulin Rouge. The Galette was a windmill with a dance garden at the top of Montmartre; the Moulin Rouge opened at the foot of the hill in 1889 and its sails never turned for flour."
+    media:
+      image:
+        commons: "File:Auguste Renoir - Dance at Le Moulin de la Galette - Musée d'Orsay RF 2739 (derivative work - AutoContrast edit in LCH space).jpg"
+        source: "Musée d'Orsay, Paris, via Wikimedia Commons"
+        license: "Public domain (artist died 1919); verify the file's tag when fetching"
+        focus: { x: 0.22, y: 0.5 }
+    distractors:
+      creator: [Claude Monet, Édouard Manet, Edgar Degas]
+      title: ["Luncheon of the Boating Party", "La Loge", "Dance at Bougival"]
+      era: [Realist, Post-Impressionist, Fauvist]
+    links: [art.movement.impressionism, art.monet.impression-sunrise, art.degas]
+    tags: [painting, genre, impressionist, french, montmartre, 1870s, musee-d-orsay, caillebotte-bequest]
+    sources:
+      - "Musée d'Orsay, catalogue entry RF 2739 (Bal du moulin de la Galette)"
+      - "Grove Art Online, 'Renoir, (Pierre-)Auguste'"
+      - "John House and Anne Distel, Renoir (exhibition catalogue, Hayward Gallery, Grand Palais and Museum of Fine Arts, Boston, 1985)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Creators
+  # ---------------------------------------------------------------------------
+
+  - id: art.degas
+    discipline: art
+    kind: creator
+    title: "Edgar Degas"
+    city: paris
+    difficulty: 2
+    era: Impressionist
+    year: 1834
+    year_end: 1917
+    facts:
+      - "Born in Paris in 1834 into a banking family that spelled the name De Gas, and died in Paris in 1917; trained under Louis Lamothe, a pupil of Ingres, and told Paul Valéry that Ingres himself had advised him in 1855 to draw lines, many lines."
+      - "Showed at seven of the eight Impressionist exhibitions, all but 1882, and disliked the name; he preferred Independents, worked in the studio from drawings and memory, and had no use for painting outdoors."
+      - "Dancers make up something like half his output, mostly at class and rehearsal at the Paris Opéra rather than on stage; the Little Dancer Aged Fourteen, a wax figure dressed in a real tutu and shown in 1881, was the only sculpture he exhibited in his life, and the bronzes were cast after his death."
+      - "The Musée d'Orsay holds The Dance Class and L'Absinthe; his eyesight failed from the 1870s, and the late pastels are large, coarse and mostly of women bathing."
+      - "An anti-Dreyfusard who broke with Jewish friends, including the Halévy family, during the affair."
+    remark: "He showed with the Impressionists at seven of their eight exhibitions and hated the word: no sunsets, no painting outdoors, everything worked up indoors from drawings and memory, which is why his dancers look caught rather than posed."
+    gaffe: "Calling him a painter of pretty ballerinas. They are working girls of the Opéra at class and rehearsal, scratching and yawning, and the Little Dancer of 1881, wax in a real tutu, so repelled the critics that he never showed another sculpture."
+    media:
+      image:
+        commons: "File:Edgar Degas - The Ballet Class - Google Art Project.jpg"
+        source: "Edgar Degas, The Dance Class (La Classe de danse), 1873–76, Musée d'Orsay, Paris, via Wikimedia Commons (Google Art Project)"
+        license: "Public domain (artist died 1917); verify the file's tag when fetching"
+        focus: { x: 0.5, y: 0.5 }
+    distractors:
+      person: [Édouard Manet, Gustave Caillebotte, Henri de Toulouse-Lautrec]
+      era: [Realist, Post-Impressionist, Symbolist]
+    links: [art.movement.impressionism, art.term.japonisme, art.renoir.bal-du-moulin-de-la-galette, art.monet.impression-sunrise, opera.venue.palais-garnier]
+    tags: [painter, sculptor, impressionist, french, dancers, opera, pastel, 1800s, musee-d-orsay]
+    sources:
+      - "Grove Art Online, 'Degas, (Hilaire-Germain-)Edgar'"
+      - "Jean Sutherland Boggs et al., Degas (exhibition catalogue, Grand Palais, National Gallery of Canada and Metropolitan Museum of Art, 1988)"
+      - "Paul Valéry, Degas Danse Dessin (1936)"
+    reviewed_by: null
+
+  - id: art.cezanne
+    discipline: art
+    kind: creator
+    title: "Paul Cézanne"
+    city: paris
+    difficulty: 2
+    era: Post-Impressionist
+    year: 1839
+    year_end: 1906
+    pronunciation: "say-ZAN"
+    language: French
+    facts:
+      - "Born in Aix-en-Provence in 1839, a banker's son, and died there in 1906; at school in Aix his closest friend was Émile Zola, and the friendship faded after Zola's novel L'Œuvre (1886), whose failed painter was widely read as a portrait of him."
+      - "Showed at the first and third Impressionist exhibitions, 1874 and 1877, after working beside Pissarro at Pontoise and Auvers; the Salon jury refused him year after year and accepted him once, in 1882, as the 'pupil' of a friend who sat on the jury."
+      - "His first one-man show was at Ambroise Vollard's gallery in the rue Laffitte in 1895, when he was fifty-six; the retrospective at the Salon d'Automne of 1907, the year after his death, was studied by Braque and Picasso."
+      - "He wrote to Émile Bernard on 15 April 1904 that nature should be treated by the cylinder, the sphere and the cone; he painted Mont Sainte-Victoire, outside Aix, dozens of times."
+      - "The Musée d'Orsay holds one of the five versions of The Card Players; another was bought for Qatar in 2011 at a price reported at over 250 million dollars. He died of pneumonia a week after being caught in a storm while painting outdoors."
+    remark: "He told Émile Bernard in 1904 to treat nature by the cylinder, the sphere and the cone, and the retrospective the year after his death was the exhibition Braque and Picasso were looking at when Cubism began."
+    gaffe: "Filing him under Impressionism. He showed with them twice, in 1874 and 1877, then went back to Aix and spent thirty years painting one mountain until it was structure rather than weather."
+    media:
+      image:
+        commons: "File:Paul Cézanne, Les joueurs de carte (1892-95).jpg"
+        source: "Paul Cézanne, The Card Players (Les Joueurs de cartes), c. 1890–95, Musée d'Orsay, Paris, via Wikimedia Commons"
+        license: "Public domain (artist died 1906); verify the file's tag when fetching"
+        focus: { x: 0.5, y: 0.6 }
+    distractors:
+      person: [Paul Gauguin, Camille Pissarro, Georges Seurat]
+      era: [Impressionist, Cubist, Fauvist]
+    links: [art.movement.impressionism, art.term.salon, art.van-gogh.sunflowers, art.degas]
+    tags: [painter, post-impressionist, french, aix-en-provence, cubism, still-life, 1800s, musee-d-orsay]
+    sources:
+      - "Grove Art Online, 'Cézanne, Paul'"
+      - "Paul Cézanne, Letters, ed. John Rewald (rev. ed., 1976)"
+      - "Alex Danchev, Cézanne: A Life (2012)"
+    reviewed_by: null
+
+  - id: art.rodin
+    discipline: art
+    kind: creator
+    title: "Auguste Rodin"
+    city: paris
+    difficulty: 1
+    era: Belle Époque
+    year: 1840
+    year_end: 1917
+    pronunciation: "oh-GOOST roh-DAN"
+    language: French
+    facts:
+      - "Born in Paris in 1840, refused three times by the École des Beaux-Arts, and died at Meudon in 1917; his first exhibited figure, The Age of Bronze (1877), was so lifelike that he was accused of casting it from the model."
+      - "In 1880 the state commissioned a bronze door, The Gates of Hell, for a museum of decorative arts that was never built; he worked on it until his death without finishing it, and The Thinker, The Kiss and dozens of other figures began there."
+      - "The Thinker was the poet, Dante, above the doors; enlarged in 1902 to 1904, the first monumental cast was set up in front of the Panthéon in 1906 by public subscription and moved to the garden of the Musée Rodin in 1922."
+      - "The Kiss is Paolo and Francesca from Dante's Inferno; the marble commissioned by the state in 1888 was shown at the Salon of 1898 beside the Balzac, which the Société des Gens de Lettres had commissioned and then refused."
+      - "Went to Italy in 1875 to 1876 to see Michelangelo; Camille Claudel worked in his studio from 1884 and became his lover; in 1916 he gave his work and the Hôtel Biron to the state, and the Musée Rodin opened there in 1919."
+    remark: "The Thinker was never meant to sit alone: he is Dante above the Gates of Hell, a door commissioned in 1880 for a museum that was never built, and Rodin worked on it for thirty-seven years without finishing."
+    gaffe: "Asking whether the Thinker in front of you is 'the original'. Rodin's bronzes are casts, more than twenty full-size Thinkers exist, and the Musée Rodin went on casting after his death under the terms of his gift."
+    media:
+      image:
+        commons: "File:Auguste Rodin 1893 Nadar.jpg"
+        source: "Photograph of Rodin by Nadar, 1893, via Wikimedia Commons"
+        license: "Public domain (photographer died 1910); verify the file's tag when fetching"
+        focus: { x: 0.5, y: 0.3 }
+    distractors:
+      person: [Camille Claudel, Antoine Bourdelle, Jean-Baptiste Carpeaux]
+      era: [Neoclassical, Art Deco, Baroque]
+    links: [art.term.salon, art.degas, art.michelangelo.david]
+    tags: [sculptor, bronze, marble, french, belle-epoque, musee-rodin, dante, 1800s]
+    sources:
+      - "Grove Art Online, 'Rodin, Auguste'"
+      - "Musée Rodin, collection entries 'The Thinker', 'The Gates of Hell' and 'The Kiss'"
+      - "Ruth Butler, Rodin: The Shape of Genius (1993)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Movement
+  # ---------------------------------------------------------------------------
+
+  - id: art.movement.impressionism
+    discipline: art
+    kind: movement
+    title: "Impressionism"
+    city: paris
+    difficulty: 1
+    era: Impressionist
+    year: 1874
+    year_end: 1886
+    facts:
+      - "The first exhibition opened on 15 April 1874 at 35 boulevard des Capucines, the photographer Nadar's former studio, organised by a Société anonyme of painters, sculptors and engravers with about thirty exhibitors; Monet, Renoir, Pissarro, Sisley, Degas, Morisot and Cézanne were among them."
+      - "The name came from Louis Leroy's mocking review of Monet's Impression, Sunrise in Le Charivari; there were eight exhibitions between 1874 and 1886, and Pissarro was the only painter at all of them."
+      - "Paint in metal tubes, patented by John Goffe Rand in 1841, made painting outdoors, en plein air, practical; broken brushwork, colours laid side by side rather than blended, and subjects from modern life were the shared habits, though Degas worked indoors."
+      - "Manet was the elder the group looked to and never exhibited with them; the dealer Paul Durand-Ruel, who met Monet and Pissarro in London in 1871, kept them going through decades of poor sales."
+      - "Gustave Caillebotte's bequest of 1894 brought the movement into the national collections over official reluctance; the state's Impressionists are now in the Musée d'Orsay, opened in 1986, with Monet's Water Lilies at the Orangerie since 1927."
+    remark: "Pissarro is the only one who showed at all eight exhibitions, from Nadar's old studio in 1874 to the last in 1886; Monet, whose picture named the group, missed three of them."
+    gaffe: "Calling Manet an Impressionist. He was their elder and their cause, and he declined to show with them every single time; the Salon was where he wanted to win."
+    distractors:
+      title: ["Post-Impressionism", "Realism", "The Barbizon School"]
+      era: [Realist, Symbolist, Fauvist]
+    links: [art.monet.impression-sunrise, art.renoir.bal-du-moulin-de-la-galette, art.degas, art.cezanne, art.manet.dejeuner-sur-l-herbe, art.term.salon, art.term.japonisme, art.whistler, art.van-gogh.sunflowers]
+    tags: [movement, impressionist, french, plein-air, 1870s, 1880s, musee-d-orsay]
+    sources:
+      - "Grove Art Online, 'Impressionism'"
+      - "John Rewald, The History of Impressionism (4th ed., 1973)"
+      - "Charles S. Moffett (ed.), The New Painting: Impressionism 1874–1886 (exhibition catalogue, 1986)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Terms
+  # ---------------------------------------------------------------------------
+
+  - id: art.term.salon
+    discipline: art
+    kind: term
+    title: "The Salon"
+    city: paris
+    difficulty: 2
+    era: Academic
+    year: 1667
+    definition: "The official exhibition of living artists in Paris, held by the Académie royale from 1667 and named after the Salon Carré of the Louvre, where it hung from 1725. In the nineteenth century it was the event that made or broke a painter: a jury chose the works, hung them frame to frame up to the ceiling, and rejection could mean ruin. 'Salon painting' means the polished, academic kind it rewarded."
+    pronunciation: "sa-LOHN"
+    language: French
+    facts:
+      - "First held in 1667 by the Académie royale de peinture et de sculpture; in the Salon Carré of the Louvre from 1725, which gave it the name; opened to all artists in 1791, when the Revolution ended the Academy's monopoly."
+      - "Diderot's reviews of the Salons from 1759 to 1781 are the beginning of art criticism; to be 'skyed', hung near the ceiling, was a verdict, and the eye-level line was the prize."
+      - "In 1863 the jury rejected about three thousand of some five thousand submissions; Napoleon III ordered the rejects shown in rooms next door in the Palais de l'Industrie, and the Salon des Refusés opened on 15 May with Manet's Déjeuner sur l'herbe and Whistler's White Girl in it."
+      - "In 1881 the state handed the Salon to the Société des Artistes Français; the Salon des Indépendants (1884, no jury, no prizes) and the Salon d'Automne (1903) became the venues for new painting, and the Fauves were named at the Salon d'Automne of 1905."
+    remark: "The rejections of 1863 were so wholesale that Napoleon III ordered the rejects shown next door, and the Salon des Refusés, with Manet's Déjeuner in it, is the exhibition anybody now remembers from that year."
+    gaffe: "Confusing the Salon with a salon. Madame Geoffrin's drawing room was a salon; the Salon, capital S, is the state exhibition named after a room in the Louvre, and being skyed there, hung up by the ceiling, was a judgement."
+    distractors:
+      term:
+        - "An exhibiting society founded in 1884 that admitted any artist who paid the fee, with no jury and no prizes."
+        - "The drawing-room gathering of writers, philosophes and patrons over which a hostess presided in eighteenth-century Paris."
+        - "The state school of art whose annual prize sent the winner to Rome for several years at the Crown's expense."
+    links: [art.manet.dejeuner-sur-l-herbe, art.movement.impressionism, art.gericault.raft-of-the-medusa, art.david.oath-of-the-horatii, art.cezanne, art.whistler]
+    tags: [term, institution, salon, academy, salon-des-refuses, louvre, 1600s, 1800s]
+    sources:
+      - "Grove Art Online, 'Salon'"
+      - "Patricia Mainardi, The End of the Salon: Art and the State in the Early Third Republic (1993)"
+      - "Thomas Crow, Painters and Public Life in Eighteenth-Century Paris (1985)"
+    reviewed_by: null
+
+  - id: art.term.japonisme
+    discipline: art
+    kind: term
+    title: "Japonisme"
+    city: paris
+    difficulty: 3
+    era: Impressionist
+    year: 1872
+    definition: "The French craze for Japanese art after Japan's ports opened in the 1850s, and what painters took from the woodblock prints that came with it: flat areas of colour, high viewpoints, figures cut off by the frame, asymmetry and empty space. The word was coined by the critic Philippe Burty in 1872."
+    pronunciation: "zha-po-NEEZM"
+    language: French
+    facts:
+      - "Philippe Burty coined the word in articles in La Renaissance littéraire et artistique in 1872; the Japanese pavilion at the Paris Exposition Universelle of 1867 had been the first large public showing, and the dealer Siegfried Bing published the magazine Le Japon artistique from 1888 to 1891 and mounted an exhibition of prints at the École des Beaux-Arts in 1890."
+      - "Monet collected some 230 Japanese prints, still on the walls at Giverny, and painted his wife in a red kimono in La Japonaise (1876); Manet's Portrait of Émile Zola (1868, Musée d'Orsay) has a sumo print and a Japanese screen behind the sitter."
+      - "Van Gogh copied Hiroshige's Plum Orchard and Bridge in the Rain in oils in 1887 and painted Père Tanguy against a wall of prints; Mary Cassatt made her colour prints of 1891 after seeing Bing's exhibition."
+      - "Degas's cropped figures and high viewpoints, Toulouse-Lautrec's flat poster colour and Whistler's Peacock Room all owe something to it."
+    remark: "Monet owned about two hundred and thirty Japanese prints and they are still on the walls at Giverny; the cut-off figures and high viewpoints in Degas come from Hiroshige as much as from photography."
+    gaffe: "Saying 'Japanism' and meaning kimonos. The kimono pictures are the least of it; the point is what the prints did to composition, which is why Van Gogh copied Hiroshige in oils in 1887."
+    distractors:
+      term:
+        - "The eighteenth-century taste for Chinese and pseudo-Chinese decoration: pagodas, lacquer and blue-and-white porcelain."
+        - "Painting outdoors, in front of the subject, rather than working up a landscape in the studio."
+        - "The North African and Near Eastern subjects painted by Delacroix, Gérôme and Ingres in the decades after the conquest of Algeria."
+    links: [art.degas, art.movement.impressionism, art.van-gogh.sunflowers, art.whistler, art.monet.impression-sunrise, art.manet.dejeuner-sur-l-herbe]
+    tags: [term, japan, prints, ukiyo-e, impressionist, post-impressionist, 1870s, 1880s]
+    sources:
+      - "Grove Art Online, 'Japonisme'"
+      - "Siegfried Wichmann, Japonisme: The Japanese Influence on Western Art since 1858 (1981)"
+      - "Geneviève Lacambre et al., Le Japonisme (exhibition catalogue, Grand Palais and National Museum of Western Art, Tokyo, 1988)"
+    reviewed_by: null

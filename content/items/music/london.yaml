@@ -1,0 +1,375 @@
+# London, music. The departure: Handel, Purcell, Byrd, Elgar, Vaughan Williams,
+# Holst, the Albert Hall, and the two words (oratorio, anthem) people get wrong.
+# Themes only where the opening melody could be verified; see CLAUDE.md.
+items:
+  - id: music.handel.zadok-the-priest
+    discipline: music
+    kind: work
+    title: "Zadok the Priest, HWV 258"
+    creator: George Frideric Handel
+    city: london
+    difficulty: 1
+    era: Baroque
+    year: 1727
+    facts:
+      - "One of four anthems Handel wrote for the coronation of George II and Queen Caroline in Westminster Abbey on 11 October 1727; it has been sung at every coronation since."
+      - "The words, from 1 Kings 1, describe the anointing of Solomon and have been used at English coronations since King Edgar's in 973."
+      - "Handel had been made a British subject by Act of Parliament in February 1727, eight months before the coronation."
+      - "The UEFA Champions League anthem of 1992 is an arrangement of it by Tony Britten."
+    remark: "Handel wrote it for George II's coronation in October 1727, eight months after an Act of Parliament made him a British subject, and it has been sung at every coronation since."
+    gaffe: "Assuming it was written for George I. He died in June 1727; the anthem is for his son's crowning in October, and the Champions League tune is a 1992 arrangement of it, not the other way round."
+    distractors:
+      creator: [Henry Purcell, William Boyce, Thomas Arne]
+      title: ["The King Shall Rejoice", "My Heart Is Inditing", "I Was Glad"]
+      era: [Renaissance, Classical, Romantic]
+    links: [music.term.anthem, music.handel.messiah.hallelujah, music.anon.god-save-the-king, opera.handel]
+    tags: [anthem, coronation, handel, baroque, 1720s, westminster-abbey]
+    sources:
+      - "Grove Music Online, 'Handel, George Frideric'"
+      - "Donald Burrows, Handel and the English Chapel Royal (2005)"
+    reviewed_by: null
+
+  - id: music.handel.water-music
+    discipline: music
+    kind: work
+    title: "Water Music, HWV 348–350"
+    creator: George Frideric Handel
+    city: london
+    difficulty: 1
+    era: Baroque
+    year: 1717
+    facts:
+      - "Played on the Thames on 17 July 1717 from a barge alongside George I's, between Whitehall and Chelsea, by about fifty musicians; the Daily Courant reported that the king had it played over three times 'in going and returning', and the Prussian envoy Friedrich Bonet added that this was twice before supper and once after."
+      - "Survives as three suites, in F, D and G major; the autograph is lost and the original order of the movements is not known."
+      - "The well-known 'Alla Hornpipe' belongs to the D major suite, the one with trumpets."
+      - "Handel's other outdoor piece, the Music for the Royal Fireworks, was for George II's peace celebration in Green Park on 27 April 1749, at which part of the fireworks pavilion caught fire."
+    remark: "The Daily Courant reported that George I had it played three times on the river that night, 'in going and returning'; the tale that Handel wrote it to win back the king's favour comes from Mainwaring in 1760 and is doubted."
+    gaffe: "Calling it the Royal Fireworks music. That is a different piece, for a different king, thirty-two years later."
+    distractors:
+      creator: [Henry Purcell, Georg Philipp Telemann, William Boyce]
+      title: ["Music for the Royal Fireworks", "Zadok the Priest", "Concerti grossi, Op. 6"]
+      era: [Renaissance, Classical, Romantic]
+    links: [music.handel.zadok-the-priest, music.handel.messiah.hallelujah, opera.handel]
+    tags: [suite, orchestral, handel, baroque, 1710s, thames]
+    sources:
+      - "Grove Music Online, 'Handel, George Frideric'"
+      - "Donald Burrows, Handel (Master Musicians, 2nd ed., 2012)"
+      - "Daily Courant, 19 July 1717"
+    reviewed_by: null
+
+  - id: music.handel.messiah.hallelujah
+    discipline: music
+    kind: work
+    title: "Hallelujah, from Messiah"
+    parent: "Messiah, HWV 56 (1741)"
+    creator: George Frideric Handel
+    city: london
+    difficulty: 1
+    era: Baroque
+    year: 1741
+    facts:
+      - "Messiah was composed in about twenty-four days in August and September 1741, to a text compiled by Charles Jennens from the Bible and the Prayer Book psalms."
+      - "First performed in Dublin on 13 April 1742; the London premiere was at Covent Garden on 23 March 1743."
+      - "The chorus ends Part Two of three; the words are from Revelation, and it is where the timpani first enter: until then the trumpets have sounded only briefly, 'from a distance', in 'Glory to God' in Part One."
+      - "The story that George II stood for it first appears in a letter of 1780; no contemporary account puts the king at the performance."
+    remark: "It closes Part Two, not the work, and the story of George II rising to his feet rests on a letter written in 1780, thirty-seven years after the London premiere."
+    gaffe: "Saying 'The Messiah', or calling it an opera. Handel's title has no article, and an oratorio is sung in concert with no staging."
+    distractors:
+      creator: [Johann Sebastian Bach, Henry Purcell, Joseph Haydn]
+      title: ["For unto us a child is born", "Zadok the Priest", "And the glory of the Lord"]
+      era: [Renaissance, Classical, Romantic]
+    links: [music.term.oratorio, music.handel.zadok-the-priest, opera.venue.covent-garden, opera.handel]
+    tags: [oratorio, chorus, handel, baroque, 1740s]
+    sources:
+      - "Grove Music Online, 'Messiah'"
+      - "Donald Burrows, Handel: Messiah (Cambridge Music Handbooks, 1991)"
+    reviewed_by: null
+
+  - id: music.elgar.enigma-variations.nimrod
+    discipline: music
+    kind: work
+    title: "Nimrod, from the Enigma Variations"
+    parent: "Variations on an Original Theme ('Enigma'), Op. 36 (1899)"
+    creator: Edward Elgar
+    city: london
+    difficulty: 1
+    era: Late Romantic
+    year: 1899
+    facts:
+      - "Variation IX of fourteen; the set was first performed at St James's Hall, London, on 19 June 1899, conducted by Hans Richter."
+      - "A portrait of August Jaeger, Elgar's editor at the publisher Novello: Jäger is German for hunter, and Nimrod is the mighty hunter of Genesis."
+      - "Elgar wrote that the opening bars were meant to recall the slow movement of Beethoven's Pathétique Sonata, after an evening in which Jaeger talked about Beethoven's slow movements."
+      - "Played at the Cenotaph in Whitehall every Remembrance Sunday."
+    remark: "It is a portrait of August Jaeger, his editor at Novello: Jäger is German for hunter, and Nimrod is the mighty hunter of Genesis, so the most solemn tune in English music is named after a pun on a friend's surname."
+    gaffe: "Calling it a funeral piece. Elgar wrote it about a living friend and a summer-evening talk about Beethoven's slow movements; the Cenotaph came later."
+    distractors:
+      creator: [Hubert Parry, Charles Villiers Stanford, Ralph Vaughan Williams]
+      title: ["Pomp and Circumstance March No. 1", "Salut d'amour", "Chanson de matin"]
+      era: [Baroque, Classical, Modernist]
+    links: [music.elgar.pomp-and-circumstance-1, music.venue.royal-albert-hall]
+    tags: [orchestral, variations, elgar, 1890s, remembrance]
+    sources:
+      - "Grove Music Online, 'Elgar, Edward'"
+      - "Julian Rushton, Elgar: Enigma Variations (Cambridge Music Handbooks, 1999)"
+      - "Jerrold Northrop Moore, Edward Elgar: A Creative Life (1984)"
+    reviewed_by: null
+
+  - id: music.elgar.pomp-and-circumstance-1
+    discipline: music
+    kind: work
+    title: "Pomp and Circumstance March No. 1 in D, Op. 39"
+    creator: Edward Elgar
+    city: london
+    difficulty: 1
+    era: Edwardian
+    year: 1901
+    facts:
+      - "First played in Liverpool on 19 October 1901; three days later Henry Wood conducted it at the Queen's Hall Proms and, by his own account, the audience made him play it three times."
+      - "The title is from Othello: 'Pride, pomp, and circumstance of glorious war.'"
+      - "The trio tune became 'Land of Hope and Glory' in the Coronation Ode of 1902, with words by A. C. Benson; the coronation gala was cancelled when Edward VII fell ill with appendicitis."
+      - "There are five Pomp and Circumstance marches (1901 to 1930); a sixth was completed from sketches by Anthony Payne in 2006."
+    remark: "The tune came first and the words a year later: Elgar had the trio in 1901, and A. C. Benson fitted 'Land of Hope and Glory' to it for the Coronation Ode of 1902."
+    gaffe: "Calling the whole march 'Land of Hope and Glory', or crediting Elgar with the words. Benson wrote them, and there are five Pomp and Circumstance marches, not one."
+    distractors:
+      creator: [William Walton, Hubert Parry, Arthur Sullivan]
+      title: ["Crown Imperial", "Jerusalem", "Nimrod"]
+      era: [Baroque, Classical, Modernist]
+    links: [music.elgar.enigma-variations.nimrod, music.venue.royal-albert-hall]
+    tags: [march, orchestral, elgar, proms, 1900s]
+    sources:
+      - "Grove Music Online, 'Elgar, Edward'"
+      - "Henry Wood, My Life of Music (1938)"
+      - "Jerrold Northrop Moore, Edward Elgar: A Creative Life (1984)"
+    reviewed_by: null
+
+  - id: music.vaughan-williams.the-lark-ascending
+    discipline: music
+    kind: work
+    title: "The Lark Ascending"
+    creator: Ralph Vaughan Williams
+    city: london
+    difficulty: 1
+    era: Twentieth century
+    year: 1914
+    facts:
+      - "Written for violin and piano in 1914, revised and orchestrated after the war; the orchestral version was first heard at the Queen's Hall, London, on 14 June 1921, with Marie Hall and Adrian Boult."
+      - "Subtitled 'Romance'; it is a single movement of about a quarter of an hour, and takes its title and prefatory lines from George Meredith's poem."
+      - "The solo violin's opening and closing cadenzas are written without bar lines."
+      - "Regularly voted first in Classic FM's annual Hall of Fame poll."
+    remark: "It was sketched in 1914 and finished after the war, so the pastoral is a memory rather than a description; the violin's opening cadenza has no bar lines at all."
+    gaffe: "Calling it a violin concerto. It is a single-movement romance for violin and orchestra, a quarter of an hour long, with no fast movement to show off in."
+    distractors:
+      creator: [Gustav Holst, Edward Elgar, Frederick Delius]
+      title: ["Fantasia on a Theme by Thomas Tallis", "Fantasia on Greensleeves", "A London Symphony"]
+      era: [Baroque, Classical, Romantic]
+    links: [music.holst.the-planets.jupiter, music.venue.royal-albert-hall]
+    tags: [violin, orchestral, vaughan-williams, pastoral, 1910s]
+    sources:
+      - "Grove Music Online, 'Vaughan Williams, Ralph'"
+      - "Michael Kennedy, The Works of Ralph Vaughan Williams (2nd ed., 1980)"
+    reviewed_by: null
+
+  - id: music.holst.the-planets.jupiter
+    discipline: music
+    kind: work
+    title: "Jupiter, the Bringer of Jollity, from The Planets"
+    parent: "The Planets, Op. 32 (1914–16)"
+    creator: Gustav Holst
+    city: london
+    difficulty: 1
+    era: Twentieth century
+    year: 1916
+    facts:
+      - "The fourth of seven movements; the suite was written between 1914 and 1916 and first heard privately at the Queen's Hall on 29 September 1918, conducted by Adrian Boult."
+      - "Holst's planets are astrological characters, an interest he took up in 1913, which is why Earth is absent and each title names a temperament."
+      - "The broad central tune became the hymn 'I vow to thee, my country' in 1921 and takes its hymn-book name, Thaxted, from the Essex village where Holst lived."
+      - "Holst taught for most of his working life at St Paul's Girls' School in Hammersmith, from 1905 until his death, and at Morley College from 1907 to 1924."
+    remark: "The planets are astrological characters, not astronomy, which is why there is no Earth; the big tune in the middle only became 'I vow to thee, my country' in 1921, five years after the suite was finished."
+    gaffe: "Asking why Pluto is missing. It was discovered in 1930, sixteen years after Holst began the suite, and Earth is missing too, because the planets are astrological."
+    distractors:
+      creator: [Ralph Vaughan Williams, Edward Elgar, William Walton]
+      title: ["Mars, the Bringer of War", "Saturn, the Bringer of Old Age", "The Lark Ascending"]
+      era: [Baroque, Classical, Romantic]
+    links: [music.vaughan-williams.the-lark-ascending]
+    tags: [orchestral, suite, holst, hymn, 1910s]
+    sources:
+      - "Grove Music Online, 'Holst, Gustav'"
+      - "Imogen Holst, The Music of Gustav Holst (3rd ed., 1986)"
+      - "Michael Short, Gustav Holst: The Man and His Music (1990)"
+    reviewed_by: null
+
+  - id: music.anon.god-save-the-king
+    discipline: music
+    kind: work
+    title: "God Save the King"
+    creator: Anonymous
+    city: london
+    difficulty: 2
+    era: Georgian
+    year: 1744
+    facts:
+      - "First printed, without an author, in the collection Thesaurus Musicus in London in 1744."
+      - "Taken up at Drury Lane and Covent Garden in September 1745, in the alarm after the Jacobite victory at Prestonpans; Thomas Arne made the Drury Lane arrangement."
+      - "Henry Carey's son claimed the song for his father fifty years after Carey's death; John Bull has also been proposed; no attribution has been proved."
+      - "Beethoven wrote seven piano variations on it (WoO 78, 1803), and Haydn, who heard it in London, wanted an equivalent for Austria and wrote the Emperor's Hymn of 1797."
+    remark: "Nobody knows who wrote it: it was printed anonymously in 1744 and taken up by the London theatres in September 1745 as the Jacobites marched south, and Beethoven later wrote a set of variations on it."
+    gaffe: "Attributing it to Handel, or to Henry Carey as fact. Carey's son claimed it for his father half a century after his death, and nobody's authorship has ever been proved."
+    theme:
+      notes: "G4/4 G4/4 A4/4 | F#4/4. G4/8 A4/4 | B4/4 B4/4 C5/4 | B4/4. A4/8 G4/4 | A4/4 G4/4 F#4/4 | G4/2."
+      tempo: 80
+      key: G major
+      note: "The first six bars, melody only, in the usual key of G."
+    distractors:
+      creator: [George Frideric Handel, Thomas Arne, Henry Carey]
+      title: ["Rule, Britannia!", "Jerusalem", "Land of Hope and Glory"]
+      era: [Tudor, Restoration, Victorian]
+    links: [music.term.anthem, music.handel.zadok-the-priest, opera.venue.covent-garden]
+    tags: [anthem, song, anonymous, georgian, 1740s, jacobites]
+    sources:
+      - "Grove Music Online, 'God Save the King'"
+      - "Percy Scholes, God Save the Queen! The History and Romance of the World's First National Anthem (1954)"
+    reviewed_by: null
+
+  - id: music.purcell
+    discipline: music
+    kind: creator
+    title: "Henry Purcell"
+    pronunciation: "PUR-sel"
+    city: london
+    difficulty: 2
+    era: Restoration
+    year: 1659
+    year_end: 1695
+    facts:
+      - "Born in Westminster in 1659; organist of Westminster Abbey from 1679 and of the Chapel Royal from 1682; died on 21 November 1695, aged thirty-six, and was buried in the Abbey beside the organ."
+      - "Wrote the March and Canzona for four 'flatt' (slide) trumpets and the anthem 'Thou knowest, Lord' for Queen Mary II's funeral in Westminster Abbey on 5 March 1695; the same music was performed at his own funeral that November."
+      - "Dido and Aeneas, his one true opera, was performed at a girls' boarding school in Chelsea in about 1689; its closing lament is built over a repeating descending bass, a ground bass."
+      - "Britten's Young Person's Guide to the Orchestra (1946) is a set of variations on a rondeau from Purcell's music for the play Abdelazer."
+    remark: "He was buried beneath the organ he had played at Westminster Abbey, and the music he wrote for Queen Mary's funeral in March 1695 was sung again at his own that November."
+    gaffe: "Saying pur-SELL, or crediting him with the Trumpet Voluntary. The stress is on the first syllable, and the Trumpet Voluntary is Jeremiah Clarke's Prince of Denmark's March, published under Purcell's name from the 1870s and not given back to Clarke until the mid-twentieth century."
+    media:
+      image:
+        commons: "File:Henry Purcell by John Closterman.jpg"
+        source: "John Closterman, portrait of Henry Purcell (1695), National Portrait Gallery, London, via Wikimedia Commons"
+        license: "Public domain (artist died 1711); verify the file's tag when fetching"
+    distractors:
+      person: [John Blow, Jeremiah Clarke, William Boyce]
+      creator: [John Blow, Jeremiah Clarke, William Boyce]
+      era: [Tudor, Georgian, Victorian]
+    links: [music.byrd, music.term.anthem, opera.purcell, opera.purcell.dido-and-aeneas.when-i-am-laid-in-earth, opera.britten.peter-grimes]
+    tags: [composer, baroque, restoration, westminster-abbey, 1600s]
+    sources:
+      - "Grove Music Online, 'Purcell, Henry'"
+      - "Oxford Dictionary of National Biography, 'Purcell, Henry'"
+      - "Peter Holman, Henry Purcell (Oxford Studies of Composers, 1994)"
+    reviewed_by: null
+
+  - id: music.byrd
+    discipline: music
+    kind: creator
+    title: "William Byrd"
+    city: london
+    difficulty: 3
+    era: Tudor
+    year: 1540
+    year_approx: true
+    year_end: 1623
+    facts:
+      - "Born about 1540, probably a pupil of Thomas Tallis; organist of Lincoln Cathedral from 1563 and a Gentleman of the Chapel Royal from 1572; died at Stondon Massey, Essex, on 4 July 1623."
+      - "In 1575 Elizabeth I granted Tallis and Byrd a twenty-one-year monopoly on printing music in England; their first joint publication, the Cantiones sacrae of 1575, was dedicated to her."
+      - "A Catholic recusant who wrote three Latin Masses (for three, four and five voices, about 1592 to 1595) and the Gradualia for clandestine worship, while also writing the Anglican Great Service."
+      - "Tallis (about 1505 to 1585) served under Henry VIII, Edward VI, Mary and Elizabeth; his forty-part motet Spem in alium is his, not Byrd's."
+    remark: "He was a Catholic who wrote Latin masses for illegal household chapels under Elizabeth and kept his place in her Chapel Royal throughout; the Queen evidently preferred good music to consistency."
+    gaffe: "Crediting him with Spem in alium. The forty-part motet is Tallis's, his teacher and business partner; Byrd's are the three Masses and the Great Service."
+    distractors:
+      person: [Thomas Tallis, Orlando Gibbons, John Dowland]
+      creator: [Thomas Tallis, Orlando Gibbons, John Dowland]
+      era: [Restoration, Georgian, Victorian]
+    links: [music.purcell, music.term.anthem]
+    tags: [composer, renaissance, tudor, chapel-royal, 1500s, catholic]
+    sources:
+      - "Grove Music Online, 'Byrd, William'"
+      - "Kerry McCarthy, Byrd (Master Musicians, 2013)"
+      - "Oxford Dictionary of National Biography, 'Byrd, William'"
+    reviewed_by: null
+
+  - id: music.venue.royal-albert-hall
+    discipline: music
+    kind: venue
+    title: "Royal Albert Hall"
+    location: "Kensington Gore, London"
+    city: london
+    difficulty: 1
+    era: Victorian
+    year: 1871
+    facts:
+      - "Opened by Queen Victoria on 29 March 1871 in memory of Prince Albert, who had died in 1861; she was too overcome to speak, and the Prince of Wales declared it open for her. Designed by two Royal Engineers, Francis Fowke and Henry Scott."
+      - "Home of the BBC Proms since 1941, after the Queen's Hall was destroyed by bombing; the Proms had begun there in 1895 under Robert Newman and Henry Wood, and the BBC took them over in 1927."
+      - "Its echo was notorious until fibreglass 'mushrooms' were hung from the dome in 1969."
+      - "The chamber-music hall is Wigmore Hall, opened as the Bechstein Hall in 1901 and renamed in 1917 after the German firm's property was seized in the war."
+    remark: "The Proms only moved here in 1941 because a bomb destroyed the Queen's Hall; before the acoustic 'mushrooms' went up in 1969 the echo was such that, as the old joke went, a British composer could be sure of hearing his work twice."
+    gaffe: "Assuming the Royal Opera performs here. Opera is at Covent Garden; the Albert Hall is a concert hall that also hosts boxing and tennis, and the Proms for eight weeks a summer."
+    distractors:
+      title: ["Wigmore Hall", "Royal Festival Hall", "Barbican Hall"]
+      era: [Georgian, Edwardian, Twentieth century]
+    links: [music.elgar.pomp-and-circumstance-1, opera.venue.covent-garden]
+    tags: [venue, concert-hall, proms, london, victorian, kensington]
+    sources:
+      - "Royal Albert Hall, 'Our History' (archives pages)"
+      - "David Cox, The Henry Wood Proms (1980)"
+    reviewed_by: null
+
+  - id: music.term.oratorio
+    discipline: music
+    kind: term
+    title: Oratorio
+    pronunciation: "or-uh-TOR-ee-oh"
+    language: Italian
+    city: london
+    difficulty: 1
+    era: Baroque
+    definition: "A large-scale setting of a sacred or biblical text for solo voices, chorus and orchestra, performed in concert without staging, costumes or action; Handel's Messiah is the standard English example."
+    facts:
+      - "Named after the oratory, or prayer hall, of St Philip Neri in Rome, where the genre began around 1600."
+      - "Handel turned from Italian opera to English oratorio in the 1730s when opera stopped paying; Messiah (1742), Judas Maccabaeus (1747) and Israel in Egypt (1739) followed, given in Lent when the theatres could not stage opera."
+      - "Mendelssohn's Elijah was written for Birmingham in 1846 and Elgar's The Dream of Gerontius for Birmingham in 1900; the English choral festival kept the form alive."
+    remark: "Handel more or less invented the English oratorio because Italian opera stopped paying: the same singers and theatres, no scenery to fund, and the weeks of Lent to fill when opera could not be staged."
+    gaffe: "Asking who is singing Jesus in Messiah. There are no characters and no drama; the soloists narrate and reflect, they do not play anyone."
+    distractors:
+      term:
+        - "A staged music drama sung throughout, with sets, costumes and action."
+        - "A short choral piece sung during the Anglican service, usually after the third collect."
+        - "A work for orchestra alone in four movements, the first in sonata form."
+    links: [music.handel.messiah.hallelujah, opera.handel, opera.handel.serse.ombra-mai-fu]
+    tags: [term, choral, handel, sacred, baroque]
+    sources:
+      - "Grove Music Online, 'Oratorio'"
+      - "Howard E. Smither, A History of the Oratorio (1977–2000)"
+    reviewed_by: null
+
+  - id: music.term.anthem
+    discipline: music
+    kind: term
+    title: Anthem
+    language: English
+    city: london
+    difficulty: 2
+    era: Restoration to Edwardian
+    definition: "In English church music, a choral piece on a sacred English text sung during the Anglican service, a 'verse anthem' alternating soloists with full choir; only by extension a national or ceremonial song."
+    facts:
+      - "The word descends from 'antiphon'; the Prayer Book of 1662 fixed its place in the service with the rubric 'In quires and places where they sing, here followeth the anthem'."
+      - "Purcell wrote verse anthems for the Chapel Royal; Handel wrote four coronation anthems in 1727; Parry's 'I was glad' was written for the coronation of 1902."
+      - "'God Save the King' has been called the national anthem since the early nineteenth century and is generally reckoned the first song anywhere to be called one; 'Jerusalem' is a hymn, Parry's 1916 setting of Blake."
+    remark: "In England an anthem is the choir's piece at Evensong long before it is anything to do with flags; the Prayer Book of 1662 says 'here followeth the anthem', and Handel's Zadok is a coronation anthem in exactly that sense."
+    gaffe: "Calling 'Jerusalem' the national anthem. It is Parry's 1916 setting of Blake, sung as a hymn; the anthem is 'God Save the King', and 'anthem' in church means something else again."
+    distractors:
+      term:
+        - "A solo song with orchestra sung by a character in an opera."
+        - "A German art song for solo voice and piano."
+        - "A piece for organ played while the congregation leaves the church."
+    links: [music.handel.zadok-the-priest, music.anon.god-save-the-king, music.purcell]
+    tags: [term, choral, church, anglican, coronation]
+    sources:
+      - "Grove Music Online, 'Anthem'"
+      - "Peter Le Huray, Music and the Reformation in England 1549–1660 (1967)"
+    reviewed_by: null

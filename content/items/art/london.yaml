@@ -53,3 +53,429 @@ items:
     sources:
       - "Tate, 'Joseph Mallord William Turner 1775–1851' artist biography"
     reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # The National Gallery canon
+  # ---------------------------------------------------------------------------
+
+  - id: art.holbein.the-ambassadors
+    discipline: art
+    kind: work
+    title: "The Ambassadors"
+    creator: Hans Holbein the Younger
+    city: london
+    difficulty: 1
+    era: Northern Renaissance
+    year: 1533
+    facts:
+      - "Painted in London and signed and dated 1533; the sitters are Jean de Dinteville, French ambassador to Henry VIII, aged twenty-nine, and his friend Georges de Selve, bishop of Lavaur, aged twenty-five."
+      - "The distorted grey shape across the floor is an anamorphic skull, which comes into focus only when the picture is viewed from the right-hand side at a steep angle."
+      - "The shelves between the men hold a celestial globe, a terrestrial globe, sundials, a Lutheran hymnbook and a lute with a broken string."
+      - "Bought by the National Gallery in 1890 from the Earl of Radnor's collection at Longford Castle; it is NG1314."
+    remark: "The smear across the floor is a skull, but only from the right-hand edge; stand there and the two ambassadors flatten out while the death's head snaps into focus."
+    gaffe: "Calling them Henry VIII's ambassadors. They are French, Dinteville and de Selve, at Henry's court in the year of the Boleyn marriage, and the broken lute string is not an accident."
+    media:
+      image:
+        commons: "File:Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg"
+        source: "National Gallery, London, via Wikimedia Commons (Google Art Project)"
+        license: "Public domain (artist died 1543); verify the file's tag when fetching"
+        focus: { x: 0.47, y: 0.86 }
+    distractors:
+      creator: [Quentin Matsys, Albrecht Dürer, Lucas Cranach the Elder]
+      title: ["The Arnolfini Portrait", "Portrait of Erasmus", "Portrait of Henry VIII"]
+      era: [Early Netherlandish, Baroque, Mannerist]
+    links: [art.van-eyck.arnolfini-portrait]
+    tags: [painting, portrait, northern-renaissance, tudor, 1500s, national-gallery]
+    sources:
+      - "National Gallery, London, catalogue entry NG1314"
+      - "Susan Foister, Ashok Roy and Martin Wyld, Making and Meaning: Holbein's Ambassadors (National Gallery, 1997)"
+    reviewed_by: null
+
+  - id: art.velazquez.rokeby-venus
+    discipline: art
+    kind: work
+    title: "The Toilet of Venus (The Rokeby Venus)"
+    creator: Diego Velázquez
+    city: london
+    difficulty: 1
+    era: Spanish Baroque
+    year: 1651
+    year_approx: true
+    facts:
+      - "Painted in about 1647 to 1651, and the only female nude by Velázquez to survive; nudes were rare in Spain under the Inquisition."
+      - "Venus lies with her back to us while Cupid holds a mirror; the reflected face is blurred and, at that angle, could not really show her face at all."
+      - "Named after Rokeby Park in Yorkshire, where it hung in the nineteenth century; bought for the nation in 1906 by the National Art Collections Fund, its first major purchase."
+      - "On 10 March 1914 the suffragette Mary Richardson attacked it with a meat cleaver in protest at the treatment of Emmeline Pankhurst; the cuts were repaired."
+    remark: "It is the only Velázquez nude that survives, and a suffragette went at it with a meat cleaver in 1914; the restoration is good enough that you have to know where the cuts were."
+    gaffe: "Asking which Italian painted it. It is Spanish, from Philip IV's court, and the name is a Yorkshire country house, not a place in Italy."
+    media:
+      image:
+        commons: "File:Diego Velázquez - Rokeby Venus.jpg"
+        source: "National Gallery, London, via Wikimedia Commons"
+        license: "Public domain (artist died 1660); verify the file's tag when fetching"
+        focus: { x: 0.38, y: 0.33 }
+    distractors:
+      creator: [Francisco de Zurbarán, Bartolomé Esteban Murillo, Jusepe de Ribera]
+      title: ["Venus of Urbino", "Sleeping Venus", "The Birth of Venus"]
+      era: [Renaissance, Rococo, Neoclassical]
+    links: [art.holbein.the-ambassadors]
+    tags: [painting, nude, spanish, baroque, 1600s, national-gallery, suffragettes]
+    sources:
+      - "National Gallery, London, catalogue entry NG2057"
+      - "Jonathan Brown, Velázquez: Painter and Courtier (1986)"
+    reviewed_by: null
+
+  - id: art.turner.the-fighting-temeraire
+    discipline: art
+    kind: work
+    title: "The Fighting Temeraire"
+    creator: J. M. W. Turner
+    city: london
+    difficulty: 1
+    era: Romantic
+    year: 1839
+    facts:
+      - "Exhibited at the Royal Academy in 1839 with the full title 'The Fighting Temeraire tugged to her last berth to be broken up, 1838'."
+      - "The Temeraire, a 98-gun ship, fought at Trafalgar in 1805 next in line behind Victory; in September 1838 she was towed from Sheerness up the Thames to a breaker's yard at Rotherhithe."
+      - "Turner refused to sell it, called it his darling, and left it to the nation in the Turner Bequest; it is NG524."
+      - "Voted the greatest painting in Britain in a BBC Radio 4 poll in 2005, and printed on the Bank of England twenty-pound note issued in 2020."
+    remark: "By the time she was towed the masts and rigging had already been stripped out; Turner put them back, because a bare hull would not have made an elegy."
+    gaffe: "Calling it a picture of Trafalgar. Trafalgar was 1805; this is 1838, an old ship being pulled to the breakers by a steam tug, and the tug is the villain."
+    media:
+      image:
+        commons: "File:The Fighting Temeraire, JMW Turner, National Gallery.jpg"
+        source: "National Gallery, London, via Wikimedia Commons"
+        license: "Public domain (artist died 1851); verify the file's tag when fetching"
+        focus: { x: 0.3, y: 0.5 }
+    distractors:
+      creator: [John Constable, Clarkson Stanfield, John Martin]
+      title: ["Rain, Steam and Speed", "The Slave Ship", "Snow Storm: Steam-Boat off a Harbour's Mouth"]
+      era: [Pre-Raphaelite, Impressionist, Neoclassical]
+    links: [art.turner, art.constable.the-hay-wain]
+    tags: [painting, marine, romantic, british, 1830s, national-gallery, turner]
+    sources:
+      - "National Gallery, London, catalogue entry NG524"
+      - "Judy Egerton, Turner: The Fighting Temeraire (National Gallery, 1995)"
+    reviewed_by: null
+
+  - id: art.constable.the-hay-wain
+    discipline: art
+    kind: work
+    title: "The Hay Wain"
+    creator: John Constable
+    city: london
+    difficulty: 1
+    era: Romantic
+    year: 1821
+    facts:
+      - "Exhibited at the Royal Academy in 1821 as 'Landscape: Noon' and left unsold; painted in Constable's London studio from sketches made on the Stour."
+      - "The house on the left is Willy Lott's cottage at Flatford, Suffolk, beside the mill that Constable's father owned; the cart is crossing the millpond, not stuck in it."
+      - "Bought by the Paris dealer John Arrowsmith and shown at the Salon of 1824, where Charles X awarded Constable a gold medal."
+      - "Presented to the National Gallery by Henry Vaughan in 1886; the full-size oil sketch for it is in the Victoria and Albert Museum."
+    remark: "Nobody bought it at the Academy in 1821; a French dealer took it to the Salon of 1824, where Charles X gave it a gold medal and the French painters took notes."
+    gaffe: "Attributing it to Turner. Turner painted light dissolving ships; Constable painted the Suffolk he grew up in, and the view from Flatford is still there to check."
+    media:
+      image:
+        commons: "File:John Constable - The Hay Wain (1821).jpg"
+        source: "National Gallery, London, via Wikimedia Commons"
+        license: "Public domain (artist died 1837); verify the file's tag when fetching"
+        focus: { x: 0.5, y: 0.6 }
+    distractors:
+      creator: [J. M. W. Turner, Thomas Gainsborough, Richard Wilson]
+      title: ["Flatford Mill", "Salisbury Cathedral from the Meadows", "The Cornfield"]
+      era: [Pre-Raphaelite, Baroque, Impressionist]
+    links: [art.turner, art.turner.the-fighting-temeraire]
+    tags: [painting, landscape, romantic, british, suffolk, 1820s, national-gallery]
+    sources:
+      - "National Gallery, London, catalogue entry NG1207"
+      - "Graham Reynolds, The Later Paintings and Drawings of John Constable (1984)"
+    reviewed_by: null
+
+  - id: art.gainsborough.mr-and-mrs-andrews
+    discipline: art
+    kind: work
+    title: "Mr and Mrs Andrews"
+    creator: Thomas Gainsborough
+    city: london
+    difficulty: 1
+    era: Georgian
+    year: 1750
+    year_approx: true
+    facts:
+      - "Painted in about 1750: Robert Andrews and Frances Carter, married in 1748, on their estate, the Auberies, near Sudbury in Suffolk, Gainsborough's home town."
+      - "Half the canvas is given to the couple's land, with the wheat in neat drilled rows; the patch on Mrs Andrews's lap was left unfinished and nobody knows what was meant to go there."
+      - "Stayed with the family's descendants until the National Gallery bought it in 1960; it is NG6301."
+      - "John Berger's Ways of Seeing (1972) made it the textbook example of a portrait of property as much as of people."
+    remark: "Half the picture is a field, and that is the point: they are showing you the acres as much as themselves, and the blank on her lap was never painted in."
+    gaffe: "Attributing it to Reynolds. Reynolds painted his sitters as Roman senators and goddesses; Gainsborough put his under an oak tree with their own wheat behind them."
+    media:
+      image:
+        commons: "File:Thomas Gainsborough - Mr and Mrs Andrews.jpg"
+        source: "National Gallery, London, via Wikimedia Commons"
+        license: "Public domain (artist died 1788); verify the file's tag when fetching"
+        focus: { x: 0.3, y: 0.62 }
+    distractors:
+      creator: [Joshua Reynolds, George Romney, Joseph Wright of Derby]
+      title: ["The Blue Boy", "The Morning Walk", "The Painter's Daughters chasing a Butterfly"]
+      era: [Restoration, Victorian, Edwardian]
+    links: [art.term.conversation-piece, art.term.grand-manner, art.constable.the-hay-wain]
+    tags: [painting, portrait, landscape, georgian, british, suffolk, 1750s, national-gallery]
+    sources:
+      - "National Gallery, London, catalogue entry NG6301"
+      - "John Berger, Ways of Seeing (1972)"
+    reviewed_by: null
+
+  - id: art.stubbs.whistlejacket
+    discipline: art
+    kind: work
+    title: "Whistlejacket"
+    creator: George Stubbs
+    city: london
+    difficulty: 2
+    era: Georgian
+    year: 1762
+    year_approx: true
+    facts:
+      - "Painted in about 1762 for Charles Watson-Wentworth, 2nd Marquess of Rockingham, later twice prime minister, who owned the horse; it hung at Wentworth Woodhouse in Yorkshire."
+      - "A rearing Arabian stallion at life size, nearly three metres tall, against a plain bare ground: no rider, no landscape, no sky."
+      - "Stubbs had spent about eighteen months dissecting horses in a farmhouse at Horkstow in Lincolnshire, and published The Anatomy of the Horse from those drawings in 1766."
+      - "Bought by the National Gallery in 1997 with help from the Heritage Lottery Fund; it is NG6569."
+    remark: "There is no rider, no landscape, nothing but a life-size Arabian on bare canvas, painted by a man who had spent eighteen months dissecting horses in a Lincolnshire barn."
+    gaffe: "Dismissing Stubbs as a horse painter. He was an anatomist who published The Anatomy of the Horse from his own dissections, and the Academy's snobbery about animal pictures is the reason he is undervalued."
+    media:
+      image:
+        commons: "File:Whistlejacket by George Stubbs.jpg"
+        source: "National Gallery, London, via Wikimedia Commons"
+        license: "Public domain (artist died 1806); verify the file's tag when fetching"
+        focus: { x: 0.58, y: 0.2 }
+    distractors:
+      creator: [Sawrey Gilpin, Benjamin Marshall, Thomas Gainsborough]
+      title: ["Mares and Foals in a Landscape", "Horse Attacked by a Lion", "Gimcrack on Newmarket Heath"]
+      era: [Victorian, Baroque, Regency]
+    links: [art.gainsborough.mr-and-mrs-andrews, art.term.grand-manner]
+    tags: [painting, animal, horse, georgian, british, 1760s, national-gallery]
+    sources:
+      - "National Gallery, London, catalogue entry NG6569"
+      - "Judy Egerton, George Stubbs, Painter: Catalogue Raisonné (2007)"
+    reviewed_by: null
+
+  - id: art.van-gogh.sunflowers
+    discipline: art
+    kind: work
+    title: "Sunflowers"
+    creator: Vincent van Gogh
+    city: london
+    difficulty: 1
+    era: Post-Impressionist
+    year: 1888
+    facts:
+      - "Painted in Arles in August 1888 to decorate the room in the Yellow House that Gauguin was coming to occupy; fifteen sunflowers in a vase on a yellow ground."
+      - "One of seven vase pictures: four painted in August 1888 and three repetitions in January 1889; the Amsterdam canvas is Van Gogh's own copy of the London one."
+      - "Signed 'Vincent' on the vase, as he always signed; bought by the National Gallery in 1924 through the Courtauld Fund, and it is NG3863."
+    remark: "He painted them in August 1888 for the bedroom Gauguin was about to move into; the London canvas is one of the originals, and Amsterdam's is his own copy of it."
+    gaffe: "Saying 'the Sunflowers' as if there were one. There are seven of the vase pictures in Arles alone, and the National Gallery's is the one he chose to copy."
+    media:
+      image:
+        commons: "File:Vincent Willem van Gogh 127.jpg"
+        source: "National Gallery, London, via Wikimedia Commons (Yorck Project)"
+        license: "Public domain (artist died 1890); verify the file's tag when fetching"
+        focus: { x: 0.5, y: 0.82 }
+    distractors:
+      creator: [Paul Gauguin, Claude Monet, Paul Cézanne]
+      title: ["The Starry Night", "Irises", "Wheatfield with Crows"]
+      era: [Impressionist, Fauvist, Expressionist]
+    links: [art.whistler]
+    tags: [painting, still-life, post-impressionist, dutch, arles, 1880s, national-gallery]
+    sources:
+      - "National Gallery, London, catalogue entry NG3863"
+      - "Vincent van Gogh: The Letters, ed. Leo Jansen, Hans Luijten and Nienke Bakker (2009)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Tate Britain
+  # ---------------------------------------------------------------------------
+
+  - id: art.millais.ophelia
+    discipline: art
+    kind: work
+    title: "Ophelia"
+    creator: John Everett Millais
+    city: london
+    difficulty: 1
+    era: Pre-Raphaelite
+    year: 1852
+    facts:
+      - "Painted in 1851 and 1852 and exhibited at the Royal Academy in 1852; the subject is Gertrude's speech in Hamlet, Act IV, describing a drowning that happens offstage."
+      - "The riverbank was painted from life on the Hogsmill at Ewell in Surrey over about five months, from July into November 1851; Elizabeth Siddal then posed for the figure in a bath of water in Millais's London studio, warmed by lamps underneath."
+      - "The lamps went out, Siddal caught a bad cold, and her father threatened Millais with an action for the doctor's bills."
+      - "Presented to the nation by Sir Henry Tate in 1894; it hangs at Tate Britain."
+    remark: "The drowning happens offstage in Hamlet; Millais painted Gertrude's speech, and did the river first, at Ewell, for about five months before the girl went into a bath in London."
+    gaffe: "Attributing it to Rossetti or Waterhouse. Rossetti drew Siddal endlessly but not this, and Waterhouse's drowning girls came forty years later."
+    media:
+      image:
+        commons: "File:John Everett Millais - Ophelia - Google Art Project.jpg"
+        source: "Tate Britain, London, via Wikimedia Commons (Google Art Project)"
+        license: "Public domain (artist died 1896); verify the file's tag when fetching"
+        focus: { x: 0.55, y: 0.5 }
+    distractors:
+      creator: [Dante Gabriel Rossetti, William Holman Hunt, John William Waterhouse]
+      title: ["The Lady of Shalott", "Christ in the House of His Parents", "Mariana"]
+      era: [Romantic, Aesthetic Movement, Impressionist]
+    links: [art.movement.pre-raphaelite-brotherhood]
+    tags: [painting, pre-raphaelite, victorian, shakespeare, british, 1850s, tate-britain]
+    sources:
+      - "Tate, catalogue entry N01506, 'Ophelia'"
+      - "Malcolm Warner et al., The Pre-Raphaelites (Tate Gallery exhibition catalogue, 1984)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Creators
+  # ---------------------------------------------------------------------------
+
+  - id: art.hogarth
+    discipline: art
+    kind: creator
+    title: "William Hogarth"
+    city: london
+    difficulty: 2
+    era: Georgian
+    year: 1697
+    year_end: 1764
+    facts:
+      - "Born in Smithfield, London, in 1697, the son of a schoolmaster who was imprisoned for debt; apprenticed to a silver engraver before turning to painting."
+      - "Invented what he called 'modern moral subjects', stories told in a series of pictures and sold as engravings: A Harlot's Progress (1732), A Rake's Progress (1733 to 1735, Sir John Soane's Museum) and Marriage A-la-Mode (about 1743, National Gallery)."
+      - "The Engravers' Copyright Act of 1735, still called Hogarth's Act, was passed after pirates copied A Harlot's Progress; it was the first copyright protection for artists in Britain."
+      - "Painted himself with his pug, Trump, in 1745 (Tate Britain); the six Marriage A-la-Mode canvases came to the National Gallery with the Angerstein collection at its foundation in 1824."
+    remark: "The paintings were almost a sideline; he told the stories in six or eight scenes, sold the engravings by subscription, and got Parliament to pass a copyright act in 1735 so nobody else could."
+    gaffe: "Treating Marriage A-la-Mode as six separate pictures. It is one story in order, from the marriage settlement to the countess's suicide, and the point is the sequence."
+    media:
+      image:
+        commons: "File:Marriage A-la-Mode 1, The Marriage Settlement - William Hogarth.jpg"
+        source: "William Hogarth, Marriage A-la-Mode: 1, The Marriage Settlement (about 1743), National Gallery, London, via Wikimedia Commons"
+        license: "Public domain (artist died 1764); verify the file's tag when fetching"
+    distractors:
+      person: [Joseph Highmore, Francis Hayman, Arthur Devis]
+      era: [Restoration, Victorian, Regency]
+    links: [art.term.conversation-piece, art.gainsborough.mr-and-mrs-andrews, art.term.grand-manner]
+    tags: [painter, engraver, satire, georgian, british, 1700s, national-gallery]
+    sources:
+      - "Oxford Dictionary of National Biography, 'Hogarth, William'"
+      - "Ronald Paulson, Hogarth (3 vols, 1991 to 1993)"
+      - "National Gallery, London, catalogue entries NG113 to NG118"
+    reviewed_by: null
+
+  - id: art.whistler
+    discipline: art
+    kind: creator
+    title: "James McNeill Whistler"
+    city: london
+    difficulty: 2
+    era: Aesthetic Movement
+    year: 1834
+    year_end: 1903
+    facts:
+      - "Born in Lowell, Massachusetts, in 1834; left America for Paris in 1855 and never went back; settled in London in 1859 and lived mostly in Chelsea until his death in 1903."
+      - "Gave his pictures musical titles, Symphony, Arrangement, Harmony, Nocturne; the portrait of his mother is Arrangement in Grey and Black No. 1 (1871, Musée d'Orsay)."
+      - "Sued Ruskin for libel in 1878 after Ruskin wrote that he was 'flinging a pot of paint in the public's face' with Nocturne in Black and Gold: The Falling Rocket; he won a farthing in damages, and the costs bankrupted him in 1879."
+      - "Tate Britain holds the Thames Nocturnes, including Nocturne: Blue and Gold, Old Battersea Bridge and Nocturne: Blue and Silver, Chelsea."
+    remark: "Ruskin accused him of flinging a pot of paint in the public's face; Whistler sued, won a farthing, and the costs bankrupted him, which makes it the most expensive farthing in English art."
+    gaffe: "Calling him English. He was American, from Lowell, Massachusetts, left for Paris at twenty-one and never went home; London and Paris were his cities."
+    media:
+      image:
+        commons: "File:Whistlers Mother high res.jpg"
+        source: "James McNeill Whistler, Arrangement in Grey and Black No. 1 (1871), Musée d'Orsay, Paris, via Wikimedia Commons"
+        license: "Public domain (artist died 1903); verify the file's tag when fetching"
+    distractors:
+      person: [John Singer Sargent, Walter Sickert, Albert Moore]
+      era: [Pre-Raphaelite, Impressionist, Post-Impressionist]
+    links: [art.turner, art.movement.pre-raphaelite-brotherhood, art.van-gogh.sunflowers]
+    tags: [painter, etcher, aesthetic-movement, american, chelsea, 1800s, tate-britain]
+    sources:
+      - "Oxford Dictionary of National Biography, 'Whistler, James Abbott McNeill'"
+      - "Linda Merrill, A Pot of Paint: Aesthetics on Trial in Whistler v. Ruskin (1992)"
+      - "Tate, 'James Abbott McNeill Whistler 1834–1903' artist biography"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Movement and terms
+  # ---------------------------------------------------------------------------
+
+  - id: art.movement.pre-raphaelite-brotherhood
+    discipline: art
+    kind: movement
+    title: "The Pre-Raphaelite Brotherhood"
+    city: london
+    difficulty: 1
+    era: Victorian
+    year: 1848
+    year_end: 1853
+    facts:
+      - "Founded in London in September 1848 by seven young men, none older than twenty-three: Dante Gabriel Rossetti, John Everett Millais and William Holman Hunt, with Thomas Woolner, James Collinson, Frederic George Stephens and William Michael Rossetti."
+      - "They signed early pictures with the secret initials PRB and rejected the conventions the Academy taught from Raphael, preferring the sharp detail and bright colour of art before him; Reynolds they nicknamed 'Sir Sloshua'."
+      - "Dickens attacked Millais's Christ in the House of His Parents in Household Words in 1850, calling the boy Jesus 'wry-necked, blubbering, red-headed'; Ruskin defended the group in letters to The Times in 1851."
+      - "The Brotherhood had dispersed by 1853, but Burne-Jones and William Morris carried a second Pre-Raphaelite wave into the 1860s and beyond; the Tate holds the core collection."
+    remark: "The name means before Raphael: they thought painting went wrong with him and that Reynolds, whom they called Sir Sloshua, finished the job; Dickens loathed them and Ruskin saved them."
+    gaffe: "Assuming they painted like Raphael. The whole point was to paint as if he had never happened, in hard-edged detail from nature, and on a white ground so the colour glowed."
+    distractors:
+      title: ["The Aesthetic Movement", "The Arts and Crafts Movement", "The Nazarenes"]
+      era: [Georgian, Regency, Edwardian]
+    links: [art.millais.ophelia, art.term.grand-manner, art.whistler]
+    tags: [movement, pre-raphaelite, victorian, british, 1840s, tate-britain]
+    sources:
+      - "Tate, art term 'Pre-Raphaelite'"
+      - "Elizabeth Prettejohn, The Art of the Pre-Raphaelites (2000)"
+      - "Malcolm Warner et al., The Pre-Raphaelites (Tate Gallery exhibition catalogue, 1984)"
+    reviewed_by: null
+
+  - id: art.term.conversation-piece
+    discipline: art
+    kind: term
+    title: "Conversation piece"
+    city: london
+    difficulty: 2
+    era: Georgian
+    definition: "An informal group portrait, usually small in scale, showing a family or friends at some shared occupation, taking tea, making music, walking their land, in a domestic or landscape setting; a British speciality of the eighteenth century."
+    facts:
+      - "The term was in use in England by the 1720s; Hogarth, Arthur Devis, Johann Zoffany and the young Gainsborough were its chief practitioners."
+      - "Gainsborough's Mr and Mrs Andrews in the National Gallery is the example everyone knows; Zoffany painted the royal family and the Academicians in the same idiom."
+      - "The scale is that of a cabinet picture: full-length figures a foot or so high, which is what separates it from the life-size portrait of the Grand Manner."
+    remark: "A conversation piece is a small group portrait of people doing something, tea or cards or a walk over their acres, and the joke of the name is that nobody in one is ever talking."
+    gaffe: "Using it to mean an object that starts a conversation. In a gallery it is a genre, Hogarth and Devis and Zoffany, small full-length figures at home."
+    distractors:
+      term:
+        - "A portrait in which the sitter is shown in the costume and pose of a classical hero or goddess."
+        - "A painting of a crowded public entertainment such as a fair, a masquerade or a race meeting."
+        - "A pair of portraits of husband and wife painted to hang facing each other."
+    links: [art.gainsborough.mr-and-mrs-andrews, art.hogarth, art.term.grand-manner]
+    tags: [term, portrait, georgian, british, 1700s]
+    sources:
+      - "Grove Art Online, 'Conversation piece'"
+      - "Mario Praz, Conversation Pieces: A Survey of the Informal Group Portrait in Europe and America (1971)"
+    reviewed_by: null
+
+  - id: art.term.grand-manner
+    discipline: art
+    kind: term
+    title: "The Grand Manner"
+    city: london
+    difficulty: 3
+    era: Georgian
+    definition: "The elevated style of history painting and portraiture, drawn from the Italian High Renaissance and the antique, that Joshua Reynolds set out in his Discourses to the Royal Academy: idealised figures, classical poses and general truths in place of particular detail."
+    facts:
+      - "Reynolds delivered fifteen Discourses to the Royal Academy between 1769 and 1790 as its first President; the Academy was founded in 1768 and he was knighted the following year."
+      - "In practice it meant painting a sitter in the pose of an antique statue or as a figure from mythology, and treating portraiture as a branch of history painting."
+      - "Reynolds's Discourse XIV, delivered after Gainsborough's death in 1788, praised him generously while noting that he had never attempted the grand style."
+      - "The Pre-Raphaelites' nickname for Reynolds, 'Sir Sloshua', was aimed at exactly this manner."
+    remark: "The Grand Manner is Reynolds's term for painting a general as a Roman and a lady as a goddess; he laid it down in fifteen Discourses to the Academy, and it is what the Pre-Raphaelites meant by Sir Sloshua."
+    gaffe: "Calling Gainsborough's portraits Grand Manner. Gainsborough is the counter-example, and Reynolds's own Discourse XIV credits him with everything except the grand style."
+    distractors:
+      term:
+        - "A loose, rapid way of painting in which the brushstrokes remain visible on the surface."
+        - "The British fashion for small informal group portraits of families at their leisure."
+        - "A landscape style of ruined temples and golden evening light modelled on Claude."
+    links: [art.gainsborough.mr-and-mrs-andrews, art.term.conversation-piece, art.movement.pre-raphaelite-brotherhood, art.hogarth]
+    tags: [term, portrait, history-painting, reynolds, royal-academy, georgian, 1700s]
+    sources:
+      - "Grove Art Online, 'Grand Manner'"
+      - "Joshua Reynolds, Discourses on Art, ed. Robert R. Wark (1975)"
+    reviewed_by: null

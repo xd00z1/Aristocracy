@@ -1,0 +1,143 @@
+# Remark scenarios for Florence: a social situation, three replies. Exactly one
+# `correct` (specific, generous to the host, adds a fact they did not have), one
+# `wrong` (a plausible factual error), one `gaffe` (socially exposing: dismissive,
+# boastful, or a famous misconception). Every option carries an explanation shown
+# after answering. Facts are drawn from the Florence item files and their sources.
+scenarios:
+  - id: scenario.florence.david-out-in-the-rain
+    city: florence
+    discipline: art
+    difficulty: 1
+    setting: "A bench in the rotunda of the Accademia, under the David. Your host has queued forty minutes for this."
+    prompt: "Your host says: \"Extraordinary that they left him out in the rain for so long.\""
+    options:
+      - kind: correct
+        text: "Nearly four centuries of it, 1504 to 1873, and outdoors was never the plan: he was carved for a buttress of the cathedral, and a committee with Leonardo and Botticelli on it argued over where he should go before he ended up in front of the town hall instead."
+        explanation: "Agrees with the host, is specific, and adds two things they did not have: the block was meant for a cathedral buttress, and the placing was argued over by a committee that included Leonardo and Botticelli. The dates are right: outside the Palazzo della Signoria from 1504, indoors at the Accademia from 1873."
+      - kind: wrong
+        text: "Donatello had a go at the block first and gave it up, which is why it lay about the workshop for so long."
+        explanation: "Wrong sculptor. Agostino di Duccio roughed out the block in the 1460s and abandoned it; Michelangelo, aged twenty-six, took it on in 1501. Donatello's David is the bronze in the Bargello, some sixty years older, and shows him after the fight with Goliath's head at his feet."
+      - kind: gaffe
+        text: "I preferred the one in the piazza, to be honest. The light is better outside."
+        explanation: "A gaffe: the David in the Piazza della Signoria is a copy of 1910. You have just told your host, after their forty-minute queue, that you like the replica better than the marble in front of you."
+    links: [art.michelangelo.david, art.donatello.david, art.term.contrapposto]
+    sources:
+      - "Galleria dell'Accademia, Florence, catalogue entry 'David'"
+      - "Charles Seymour, Michelangelo's David: A Search for Identity (1967)"
+      - "Museo Nazionale del Bargello, Florence, catalogue entry 'David'"
+    reviewed_by: null
+
+  - id: scenario.florence.brancacci-fig-leaves
+    city: florence
+    discipline: art
+    difficulty: 2
+    setting: "Dinner in a house in the Oltrarno. Your host spent the afternoon in the Brancacci Chapel at Santa Maria del Carmine."
+    prompt: "Your host says: \"Masolino's Adam and Eve are so much prettier than Masaccio's, aren't they? I felt rather sorry for his pair.\""
+    options:
+      - kind: correct
+        text: "That contrast is the whole point of the chapel: Masolino's two are still in the garden, Masaccio's are being thrown out of it, and he paints the grief as body weight, Eve howling and Adam hiding his face. Michelangelo came here to draw them as a boy and answered them with his own Expulsion on the Sistine ceiling, and until 1990 the pair of them wore fig leaves the grand dukes had ordered."
+        explanation: "Takes the host's observation seriously and turns it into the reading the chapel invites: the Temptation and the Expulsion face each other across the entrance arch on purpose. The two facts the host probably lacked are that Michelangelo studied here as a young man (Vasari says so, and his drawing after the Tribute Money survives) before painting his own Expulsion on the Sistine ceiling, and the fig leaves, added under the Medici grand dukes and removed in the restoration completed in 1990."
+      - kind: wrong
+        text: "Masolino was his father, of course, so he had the head start; the names give it away."
+        explanation: "Wrong. They were not related. Masolino da Panicale and Masaccio, born Tommaso di ser Giovanni in 1401, were two painters who shared the chapel; both names are nicknames from Tommaso, not a surname. Masaccio died in Rome in 1428 aged twenty-six, and Filippino Lippi finished the chapel in the 1480s."
+      - kind: gaffe
+        text: "Half an hour queuing for two patches of wall. It is all in the Uffizi anyway, in better light."
+        explanation: "A gaffe on two counts: it dismisses the afternoon your host has just enjoyed, and a fresco is part of the wall; nothing of the Brancacci Chapel is in the Uffizi. Vasari says the later Florentine painters went to that chapel to learn, which is a reasonable reason to go yourself."
+    links: [art.masaccio.expulsion-from-eden, art.term.fresco]
+    sources:
+      - "Grove Art Online, 'Masaccio'"
+      - "Umberto Baldini and Ornella Casazza, The Brancacci Chapel Frescoes (1992)"
+      - "Giorgio Vasari, Lives of the Artists, Life of Masaccio"
+    reviewed_by: null
+
+  - id: scenario.florence.eppur-si-muove
+    city: florence
+    discipline: history
+    difficulty: 1
+    setting: "A house party in the hills above Florence. After dinner someone points out that Galileo's villa at Arcetri is just over the ridge."
+    prompt: "Your host says: \"And when they made him recant he got up off his knees and said 'eppur si muove'. Marvellous man.\""
+    options:
+      - kind: correct
+        text: "It is a marvellous line, and it turns up in print for the first time in 1757, in London, in a book by Baretti, who was Dr Johnson's friend rather than Galileo's. What is documented is better in a way: he went on saying the earth moved, in private, under house arrest at Arcetri, and Milton walked up the hill to see him there in 1638."
+        explanation: "Generous about the line, honest about its date, and it gives the host something they did not have: Giuseppe Baretti's The Italian Library (1757) is the earliest known printing, a hundred and twenty-four years after the trial, and Milton's visit to Arcetri in 1638 is attested in Areopagitica."
+      - kind: wrong
+        text: "He did, though that was in 1616, the first time they had him in Rome."
+        explanation: "Wrong year. In 1616 Galileo was warned not to hold or defend Copernicus, and there was no trial. The trial, the sentence of 22 June 1633 and the abjuration on his knees at Santa Maria sopra Minerva came seventeen years later. And in neither year did anyone hear him say it."
+      - kind: gaffe
+        text: "And then they burned him for it, which rather makes the point about the Church and science."
+        explanation: "A gaffe: he was not burned. He was threatened with torture, abjured, and served his sentence under house arrest at his villa at Arcetri, where he wrote the Two New Sciences and died in 1642. Giordano Bruno was burned, in Rome in 1600. Lecturing the table on a fact you have wrong is the exposing part."
+    links: [history.apocrypha.eppur-si-muove, history.episode.galileo-trial]
+    sources:
+      - "Giuseppe Baretti, The Italian Library (London, 1757)"
+      - "Maurice A. Finocchiaro, The Galileo Affair: A Documentary History (1989)"
+      - "J. L. Heilbron, Galileo (2010)"
+    reviewed_by: null
+
+  - id: scenario.florence.orfeo-first-opera
+    city: florence
+    discipline: opera
+    difficulty: 1
+    setting: "Interval at the Teatro del Maggio, the Maggio Musicale's new house by the Cascine, at Monteverdi's L'Orfeo."
+    prompt: "Your host says: \"The very first opera, and in the city where opera was born. Rather moving, I thought.\""
+    options:
+      - kind: correct
+        text: "The first one anyone stages for pleasure, certainly, though Mantua gets the credit: the Gonzagas put it on in 1607, seven years after the Medici had Peri's Euridice sung at the Pitti for a wedding. Did you notice the trumpet toccata at the start? He used it again to open the Vespers of 1610."
+        explanation: "Agrees where the host is right, corrects the geography without making a point of it, and adds a fact they did not have: the opening Toccata reappears at the start of the 1610 Vespers. L'Orfeo was first given at the Gonzaga court in Mantua on 24 February 1607; the first opera with a surviving score is Peri's Euridice, Florence, 1600."
+      - kind: wrong
+        text: "Monteverdi wrote it for the Medici, didn't he, for one of the weddings at the Pitti."
+        explanation: "Wrong court. L'Orfeo was written for the Accademia degli Invaghiti at the Gonzaga court in Mantua, on Alessandro Striggio's libretto. The Pitti wedding opera was Peri's Euridice, sung on 6 October 1600 for the marriage of Maria de' Medici to Henri IV."
+      - kind: gaffe
+        text: "Moving? Two hours of recitative. Nothing happens in opera until Mozart."
+        explanation: "A gaffe: it dismisses the evening your host has just enjoyed, and it is wrong. L'Orfeo has choruses, dances, ritornellos and a printed list of the instruments it needs, which is rare for 1609; the recitative is the part the Florentines had just invented, not the whole of it."
+    links: [opera.monteverdi.l-orfeo, opera.peri.euridice, music.venue.maggio-musicale-fiorentino]
+    sources:
+      - "Grove Music Online, 'Orfeo'"
+      - "John Whenham (ed.), Claudio Monteverdi: Orfeo (Cambridge Opera Handbooks, 1986)"
+      - "Grove Music Online, 'Euridice'"
+    reviewed_by: null
+
+  - id: scenario.florence.catherine-and-the-fork
+    city: florence
+    discipline: history
+    difficulty: 2
+    setting: "Dinner in a palazzo on the Via Maggio. The sorbet has just been put down."
+    prompt: "Your hostess says: \"Florentine, of course. Catherine de' Medici took ice cream to France with her, and the fork, and taught them to cook.\""
+    options:
+      - kind: correct
+        text: "She would have enjoyed hearing it; she was fourteen when she left in 1533, and nobody at the French court remarked on her forks. What she did carry across was Italian dancing masters: the festivals she staged are where the ballet de cour begins, and the granddaughter she brought up married the Grand Duke here in 1589."
+        explanation: "Kind to the hostess, and it swaps a myth for two better facts: the French ballet de cour began in the festivals of Catherine's court, and Christine of Lorraine, whom she raised, married Ferdinando I in 1589, the wedding the Florentine intermedi were written for. Food historians have found no contemporary evidence for the forks, the ices or the cooks."
+      - kind: wrong
+        text: "Married off to Francis I at fourteen. Imagine."
+        explanation: "Wrong husband. She married Henri, Francis I's second son, at Marseille on 28 October 1533, with her kinsman Clement VII presiding; he became Henri II in 1547 and kept Diane de Poitiers as his mistress throughout. Francis I was her father-in-law."
+      - kind: gaffe
+        text: "Somebody had to. The French had no cuisine to speak of until a Medici showed them."
+        explanation: "A gaffe: it inflates a story nobody in 1533 told into a slight on a whole country, at somebody else's table. The Medici cook legend has no sixteenth-century source; say something about the ballet instead."
+    links: [history.person.catherine-de-medici, music.intermedi.la-pellegrina-1589]
+    sources:
+      - "R. J. Knecht, Catherine de' Medici (1998)"
+      - "Barbara Ketcham Wheaton, Savoring the Past: The French Kitchen and Table from 1300 to 1789 (1983)"
+      - "Nina Treadwell, Music and Wonder at the Medici Court: The 1589 Interludes for La pellegrina (2008)"
+    reviewed_by: null
+
+  - id: scenario.florence.ballo-del-granduca
+    city: florence
+    discipline: music
+    difficulty: 3
+    setting: "A private concert in a palazzo near Santa Croce. The harpsichordist has just finished a set of variations on a tune your host knows."
+    prompt: "Your host says: \"That was the Ballo del Granduca, wasn't it? From the first opera, I have always been told.\""
+    options:
+      - kind: correct
+        text: "That is the tune, and it is nearly a decade older than opera: it closed the intermedi of 1589, the interludes between the acts of a comedy for Ferdinando de' Medici's wedding, and Cavalieri wrote it. Keyboard composers all over Europe wrote variations on it for a century, which is why we have just heard some; and Peri and Caccini both worked on those interludes before either of them wrote an Euridice."
+        explanation: "Right, and generous: the host's tune is correctly named. Cavalieri's closing ballo 'O che nuovo miracolo' from the 1589 intermedi for La Pellegrina travelled as the Aria di Fiorenza or Ballo del Granduca and served as a theme for variations for a hundred years. The intermedi are a dress rehearsal for opera, not an opera: Peri sang Arion in the fifth, Caccini wrote for the fourth, and both had composed an Euridice by 1600."
+      - kind: wrong
+        text: "From Euridice, surely; Peri wrote it for Maria de' Medici's wedding."
+        explanation: "Wrong wedding. Euridice was sung at the Pitti on 6 October 1600 for Maria de' Medici's marriage to Henri IV; the Ballo del Granduca is Cavalieri's, from the intermedi of 1589 for Ferdinando I and Christine of Lorraine, eleven years earlier. Peri was in both, singing Arion in the fifth intermedio and Orfeo in his own opera."
+      - kind: gaffe
+        text: "No, no, that is the Camerata. They invented opera in Bardi's drawing room; Galileo's father was one of them, you know."
+        explanation: "A gaffe: correcting your host with a famous misconception. The Camerata was a talking shop at Bardi's house about how the Greeks sang their tragedies; it staged nothing, and the first operas came from Jacopo Corsi's circle in the 1590s, after Bardi had left for Rome in 1592. Vincenzo Galilei was its theorist, which is the one true thing in the sentence, and it does not rescue the rest."
+    links: [music.intermedi.la-pellegrina-1589, music.movement.florentine-camerata, opera.peri.euridice]
+    sources:
+      - "Nina Treadwell, Music and Wonder at the Medici Court: The 1589 Interludes for La pellegrina (2008)"
+      - "Grove Music Online, 'Intermedio'"
+      - "Claude V. Palisca, The Florentine Camerata: Documentary Studies and Translations (1989)"
+    reviewed_by: null

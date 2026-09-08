@@ -1,0 +1,402 @@
+# Vienna, art. The Habsburg picture gallery (Bruegel, Vermeer) and the
+# Secession generation (Klimt, Schiele), with the terms a visitor needs.
+# Commons titles are best candidates; scripts/fetch-media.mjs reports misses.
+items:
+  - id: art.klimt.the-kiss
+    discipline: art
+    kind: work
+    title: "The Kiss"
+    creator: Gustav Klimt
+    city: vienna
+    difficulty: 1
+    era: Vienna Secession
+    year: 1908
+    year_approx: true
+    facts:
+      - "Oil and gold leaf on a square canvas, 180 centimetres each way, painted in 1907 and 1908 during what is called his golden period."
+      - "Shown, still unfinished, at the Kunstschau of 1908 in Vienna, where the Austrian state bought it for the Modern Gallery; it hangs in the Upper Belvedere."
+      - "Klimt's father was a gold engraver, and the gold is leaf, not paint."
+    remark: "The state bought it off the wall of the 1908 Kunstschau before Klimt had quite finished it, and the gold is leaf rather than paint; his father was a gold engraver."
+    gaffe: "Asking to see it at the Secession. It hangs in the Upper Belvedere; the Secession has the Beethoven Frieze, and the two buildings are a tram ride apart."
+    media:
+      image:
+        commons: "File:The Kiss - Gustav Klimt - Google Cultural Institute.jpg"
+        source: "Österreichische Galerie Belvedere, Vienna, via Wikimedia Commons (Google Cultural Institute scan)"
+        license: "Public domain (artist died 1918); verify the file's tag when fetching"
+        focus: { x: 0.56, y: 0.28 }
+    distractors:
+      creator: [Egon Schiele, Koloman Moser, Oskar Kokoschka]
+      title: ["Judith I", "Death and Life", "The Tree of Life"]
+      era: [Expressionism, Biedermeier, Impressionism]
+    links: [art.klimt, art.klimt.adele-bloch-bauer-i, art.movement.vienna-secession]
+    tags: [painting, klimt, secession, golden-period, belvedere, 1900s]
+    sources:
+      - "Belvedere, Vienna, collection entry 'The Kiss (Lovers)'"
+      - "Tobias G. Natter (ed.), Gustav Klimt: The Complete Paintings (2012)"
+    reviewed_by: null
+
+  - id: art.klimt.adele-bloch-bauer-i
+    discipline: art
+    kind: work
+    title: "Portrait of Adele Bloch-Bauer I"
+    creator: Gustav Klimt
+    city: vienna
+    difficulty: 2
+    era: Vienna Secession
+    year: 1907
+    facts:
+      - "Oil, silver and gold on canvas, completed in 1907 after studies going back to 1903, the year Klimt saw the Byzantine mosaics at Ravenna."
+      - "Seized after the Anschluss and shown for decades in the Belvedere as 'Woman in Gold', a title that kept the Jewish sitter's name off the label; an Austrian arbitration panel restituted it to her niece Maria Altmann in 2006."
+      - "Ronald Lauder bought it that year for the Neue Galerie in New York for a reported 135 million dollars."
+    remark: "It has not been in Vienna since 2006; the Belvedere hung it for decades as 'Woman in Gold', which conveniently kept the name Bloch-Bauer off the label, and it now lives on Fifth Avenue at the Neue Galerie."
+    gaffe: "Looking for it at the Belvedere, or calling the sitter 'the woman in gold' as though nobody knew who she was; she was Adele Bloch-Bauer, wife of a sugar industrialist, and Klimt painted her twice."
+    media:
+      image:
+        commons: "File:Gustav Klimt 046.jpg"
+        source: "Neue Galerie New York, via Wikimedia Commons (Yorck Project scan)"
+        license: "Public domain (artist died 1918); verify the file's tag when fetching"
+        focus: { x: 0.48, y: 0.2 }
+    distractors:
+      creator: [Egon Schiele, Koloman Moser, Carl Moll]
+      title: ["Portrait of Fritza Riedler", "Portrait of Emilie Flöge", "Judith I"]
+      era: [Expressionism, Biedermeier, Impressionism]
+    links: [art.klimt, art.klimt.the-kiss]
+    tags: [painting, klimt, portrait, restitution, new-york, 1900s]
+    sources:
+      - "Neue Galerie New York, collection entry 'Adele Bloch-Bauer I'"
+      - "Anne-Marie O'Connor, The Lady in Gold (2012)"
+      - "Republic of Austria v. Altmann, 541 U.S. 677 (2004)"
+    reviewed_by: null
+
+  - id: art.bruegel.hunters-in-the-snow
+    discipline: art
+    kind: work
+    title: "Hunters in the Snow"
+    creator: Pieter Bruegel the Elder
+    city: vienna
+    difficulty: 1
+    era: Northern Renaissance
+    year: 1565
+    facts:
+      - "Signed and dated 1565; one of a series of the seasons painted for the Antwerp merchant Niclaes Jongelinck, of which five survive: three in Vienna, one in Prague and The Harvesters in New York."
+      - "The Kunsthistorisches Museum owns twelve Bruegel panels, the largest holding anywhere."
+      - "Bruegel dropped the h from Brueghel in his signature in 1559; his sons kept it."
+    remark: "It is one of a set of the seasons painted in a single year, 1565, for an Antwerp merchant; Vienna kept three, Prague has the haymaking, and the harvest got away to the Metropolitan in New York."
+    gaffe: "Attributing it to Pieter Brueghel the Younger, who spent his career copying his father, or spelling the father with an h; he dropped it in 1559."
+    media:
+      image:
+        commons: "File:Pieter Bruegel the Elder - Hunters in the Snow (Winter) - Google Art Project.jpg"
+        source: "Kunsthistorisches Museum, Vienna, via Wikimedia Commons (Google Art Project scan)"
+        license: "Public domain (artist died 1569); verify the file's tag when fetching"
+        focus: { x: 0.2, y: 0.52 }
+    distractors:
+      creator: [Hieronymus Bosch, Joachim Patinir, Lucas van Valckenborch]
+      title: ["The Peasant Wedding", "The Gloomy Day", "The Return of the Herd"]
+      era: [Dutch Golden Age, Early Netherlandish, Flemish Baroque]
+    links: [art.bruegel.tower-of-babel, art.venue.kunsthistorisches-museum]
+    tags: [painting, bruegel, flemish, landscape, kunsthistorisches-museum, 1500s]
+    sources:
+      - "Kunsthistorisches Museum Wien, Gemäldegalerie, inv. GG 1838"
+      - "Manfred Sellink, Bruegel: The Complete Paintings, Drawings and Prints (2007)"
+    reviewed_by: null
+
+  - id: art.bruegel.tower-of-babel
+    discipline: art
+    kind: work
+    title: "The Tower of Babel"
+    creator: Pieter Bruegel the Elder
+    city: vienna
+    difficulty: 1
+    era: Northern Renaissance
+    year: 1563
+    facts:
+      - "Signed and dated 1563; the arcades are modelled on the Colosseum, which Bruegel had seen on his Italian journey a decade earlier."
+      - "King Nimrod inspects the works at the bottom left while stonemasons kneel to him; the harbour at the right is full of Antwerp shipping."
+      - "A second, smaller Tower of Babel by Bruegel is in the Museum Boijmans Van Beuningen in Rotterdam."
+    remark: "There are two by him, the big one here and the little one in Rotterdam, and in both the tower is really the Colosseum, which Bruegel had walked round in Rome ten years before."
+    gaffe: "Attributing it to Bosch because it is busy and strange, or dismissing the Rotterdam picture as a copy; both towers are by Bruegel himself."
+    media:
+      image:
+        commons: "File:Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google Art Project - edited.jpg"
+        source: "Kunsthistorisches Museum, Vienna, via Wikimedia Commons (Google Art Project scan)"
+        license: "Public domain (artist died 1569); verify the file's tag when fetching"
+        focus: { x: 0.45, y: 0.5 }
+    distractors:
+      creator: [Hieronymus Bosch, Lucas van Valckenborch, Joos de Momper]
+      title: ["The Procession to Calvary", "The Fight Between Carnival and Lent", "Children's Games"]
+      era: [Dutch Golden Age, Early Netherlandish, Flemish Baroque]
+    links: [art.bruegel.hunters-in-the-snow, art.venue.kunsthistorisches-museum]
+    tags: [painting, bruegel, flemish, kunsthistorisches-museum, 1500s]
+    sources:
+      - "Kunsthistorisches Museum Wien, Gemäldegalerie, inv. GG 1026"
+      - "Manfred Sellink, Bruegel: The Complete Paintings, Drawings and Prints (2007)"
+    reviewed_by: null
+
+  - id: art.vermeer.the-art-of-painting
+    discipline: art
+    kind: work
+    title: "The Art of Painting"
+    creator: Johannes Vermeer
+    city: vienna
+    difficulty: 2
+    era: Dutch Golden Age
+    year: 1666
+    year_approx: true
+    facts:
+      - "Painted about 1666 to 1668 and never sold in Vermeer's lifetime; after his death in 1675 his widow Catharina made it over to her mother to keep it from his creditors."
+      - "The model with laurel wreath, trumpet and book is Clio, the muse of history, as Ripa's Iconologia prescribes; the map behind her shows the Seventeen Provinces."
+      - "Bought for Hitler from the Czernin family in 1940 for the museum he planned at Linz; it passed to the Austrian state after the war, and a Czernin restitution claim was rejected in 2011."
+    remark: "The painter has his back to us and the girl is Clio, the muse of history, so it is an allegory rather than a studio scene; it is the one Vermeer he would not sell, and his widow fought his creditors for it."
+    gaffe: "Calling it 'The Artist's Studio' and assuming the man at the easel is Vermeer. He is seen only from behind, in fancy dress a century out of date."
+    media:
+      image:
+        commons: "File:Jan Vermeer - The Art of Painting - Google Art Project.jpg"
+        source: "Kunsthistorisches Museum, Vienna, via Wikimedia Commons (Google Art Project scan)"
+        license: "Public domain (artist died 1675); verify the file's tag when fetching"
+        focus: { x: 0.58, y: 0.38 }
+    distractors:
+      creator: [Pieter de Hooch, Gerard ter Borch, Gabriel Metsu]
+      title: ["The Milkmaid", "The Astronomer", "Woman Reading a Letter at an Open Window"]
+      era: [Flemish Baroque, Northern Renaissance, Rococo]
+    links: [art.venue.kunsthistorisches-museum]
+    tags: [painting, vermeer, dutch, allegory, kunsthistorisches-museum, 1600s]
+    sources:
+      - "Kunsthistorisches Museum Wien, Gemäldegalerie, inv. GG 9128"
+      - "Walter Liedtke, Vermeer: The Complete Paintings (2008)"
+    reviewed_by: null
+
+  - id: art.durer.young-hare
+    discipline: art
+    kind: work
+    title: "Young Hare"
+    creator: Albrecht Dürer
+    city: vienna
+    difficulty: 1
+    era: Northern Renaissance
+    year: 1502
+    facts:
+      - "Watercolour and bodycolour on paper, monogrammed and dated 1502; the Albertina holds it with the largest collection of Dürer drawings and watercolours anywhere."
+      - "It is so sensitive to light that the Albertina shows the original only for limited periods and a facsimile the rest of the time."
+      - "Praying Hands (1508), a brush drawing on blue paper made as a study for the Heller Altarpiece, is in the same collection."
+    remark: "It is a watercolour, not a painting, and there is a window reflected in the eye; most of the year the Albertina shows a facsimile, because light would ruin the original."
+    gaffe: "Calling it a rabbit, or expecting to see the original on an ordinary visit; it is a hare, and it comes out of the dark only for special showings."
+    media:
+      image:
+        commons: "File:Albrecht Dürer - Hare, 1502 - Google Art Project.jpg"
+        source: "Albertina, Vienna, via Wikimedia Commons (Google Art Project scan)"
+        license: "Public domain (artist died 1528); verify the file's tag when fetching"
+        focus: { x: 0.64, y: 0.3 }
+    distractors:
+      creator: [Lucas Cranach the Elder, Hans Holbein the Younger, Matthias Grünewald]
+      title: ["Praying Hands", "The Great Piece of Turf", "Melencolia I"]
+      era: [Early Netherlandish, Rococo, Biedermeier]
+    links: []
+    tags: [watercolour, durer, german, albertina, 1500s]
+    sources:
+      - "Albertina, Vienna, collection entry 'Hare' (inv. 3073)"
+      - "Jane Campbell Hutchison, Albrecht Dürer: A Biography (1990)"
+    reviewed_by: null
+
+  - id: art.schiele.self-portrait-with-physalis
+    discipline: art
+    kind: work
+    title: "Self-Portrait with Physalis"
+    creator: Egon Schiele
+    city: vienna
+    difficulty: 2
+    era: Expressionism
+    year: 1912
+    facts:
+      - "Oil and gouache on wood, barely 32 by 40 centimetres, in the Leopold Museum, whose founder Rudolf Leopold assembled the largest Schiele collection in the world."
+      - "Its pendant, the Portrait of Wally Neuzil, was seized in New York in 1998 while on loan and returned to the Leopold in 2010 after a settlement of nineteen million dollars with the heirs of the dealer Lea Bondi Jaray."
+      - "Painted in 1912, the year Schiele spent twenty-four days in custody at Neulengbach over his drawings."
+    remark: "It is hardly bigger than a sheet of paper, and its pair, the portrait of Wally, spent twelve years impounded in New York before the Leopold paid the heirs nineteen million dollars to bring it home."
+    gaffe: "Calling it a Klimt. Klimt was his mentor, but Klimt never drew a contour like that; the taut outline and the blotched skin are Schiele."
+    media:
+      image:
+        commons: "File:Egon Schiele - Self-Portrait with Physalis - Google Art Project.jpg"
+        source: "Leopold Museum, Vienna, via Wikimedia Commons (Google Art Project scan)"
+        license: "Public domain (artist died 1918); verify the file's tag when fetching"
+        focus: { x: 0.42, y: 0.4 }
+    distractors:
+      creator: [Gustav Klimt, Oskar Kokoschka, Richard Gerstl]
+      title: ["Death and the Maiden", "Portrait of Wally Neuzil", "The Family"]
+      era: [Vienna Secession, Biedermeier, Fauvism]
+    links: [art.schiele, art.klimt]
+    tags: [painting, schiele, self-portrait, expressionism, leopold-museum, 1910s]
+    sources:
+      - "Leopold Museum, Vienna, collection entry 'Self-Portrait with Chinese Lantern Plant'"
+      - "Jane Kallir, Egon Schiele: The Complete Works (1990)"
+    reviewed_by: null
+
+  - id: art.klimt
+    discipline: art
+    kind: creator
+    title: "Gustav Klimt"
+    city: vienna
+    difficulty: 1
+    era: Vienna Secession
+    year: 1862
+    year_end: 1918
+    facts:
+      - "Born in 1862 at Baumgarten outside Vienna, the son of a gold engraver; trained at the School of Applied Arts rather than the Academy."
+      - "With his brother Ernst and Franz Matsch he painted the Burgtheater ceilings and the spandrels of the Kunsthistorisches Museum staircase before founding the Secession in 1897 as its first president."
+      - "His three ceiling paintings for the University of Vienna caused a scandal and were burned at Schloss Immendorf in 1945 as the SS retreated."
+      - "Died in February 1918 after a stroke, months before Schiele."
+    remark: "Before he was the Secession's rebel he was an imperial decorator, painting the spandrels on the Kunsthistorisches Museum staircase; look up when you go in."
+    gaffe: "Calling him an Expressionist. He was the Secession's founding president and a decorator by training; Schiele and Kokoschka are the Expressionists, and both were a generation younger."
+    media:
+      image:
+        commons: "File:Klimt.jpg"
+        source: "Photograph by Josef Anton Trčka, 1914, via Wikimedia Commons"
+        license: "Public domain (photographer died 1940); verify the file's tag when fetching"
+    distractors:
+      person: [Egon Schiele, Koloman Moser, Oskar Kokoschka]
+      era: [Expressionism, Biedermeier, Impressionism]
+    links: [art.klimt.the-kiss, art.klimt.adele-bloch-bauer-i, art.movement.vienna-secession, art.schiele, art.venue.kunsthistorisches-museum]
+    tags: [painter, austrian, secession, 1800s, 1900s]
+    sources:
+      - "Grove Art Online, 'Klimt, Gustav'"
+      - "Tobias G. Natter (ed.), Gustav Klimt: The Complete Paintings (2012)"
+    reviewed_by: null
+
+  - id: art.schiele
+    discipline: art
+    kind: creator
+    title: "Egon Schiele"
+    city: vienna
+    difficulty: 1
+    era: Expressionism
+    year: 1890
+    year_end: 1918
+    pronunciation: "SHEE-luh"
+    facts:
+      - "Born in 1890 at Tulln on the Danube, a stationmaster's son; admitted to the Vienna Academy of Fine Arts at sixteen, and left it in 1909 to found the Neukunstgruppe."
+      - "Klimt took him up in 1907, bought and swapped drawings with him and introduced him to patrons."
+      - "Held for twenty-four days in 1912 at Neulengbach, where the judge burned one of his drawings in court."
+      - "Died of Spanish influenza on 31 October 1918, three days after his pregnant wife Edith, aged twenty-eight."
+    remark: "He died at twenty-eight in the influenza of 1918, three days after his wife, having already left well over two thousand drawings and watercolours; the Leopold Museum has more of him than anywhere else."
+    gaffe: "Saying 'Sheel'. It is two syllables, SHEE-luh; and he was Klimt's protégé, not his rival."
+    media:
+      image:
+        commons: "File:Egon Schiele photo.jpg"
+        source: "Photograph of Egon Schiele, c. 1914, via Wikimedia Commons"
+        license: "Public domain (pre-1929 photograph); verify the file's tag and photographer when fetching"
+    distractors:
+      person: [Gustav Klimt, Oskar Kokoschka, Richard Gerstl]
+      era: [Vienna Secession, Biedermeier, Impressionism]
+    links: [art.schiele.self-portrait-with-physalis, art.klimt]
+    tags: [painter, austrian, expressionism, 1900s, 1910s]
+    sources:
+      - "Grove Art Online, 'Schiele, Egon'"
+      - "Jane Kallir, Egon Schiele: The Complete Works (1990)"
+    reviewed_by: null
+
+  - id: art.movement.vienna-secession
+    discipline: art
+    kind: movement
+    title: "The Vienna Secession"
+    city: vienna
+    difficulty: 1
+    era: Fin de siècle
+    year: 1897
+    facts:
+      - "Founded in April 1897 by Klimt, Koloman Moser, Josef Hoffmann and Joseph Maria Olbrich among others, in a walk-out from the conservative Künstlerhaus; Klimt was its first president."
+      - "Olbrich's exhibition hall opened in 1898 under a dome of gilded laurel leaves that the Viennese call the golden cabbage; the motto over the door, 'To every age its art, to art its freedom', was coined by the critic Ludwig Hevesi."
+      - "Klimt painted the Beethoven Frieze for the fourteenth exhibition in 1902, around Max Klinger's statue of Beethoven; it was meant to be temporary and has been shown in a purpose-built basement room since 1986."
+      - "Its journal was Ver Sacrum (1898 to 1903); Klimt and his group walked out in 1905, and the association still holds exhibitions in the building."
+    remark: "The motto over the door, to every age its art and to art its freedom, was written by a critic rather than an artist, and the Beethoven Frieze in the basement was painted for a single exhibition in 1902 and meant to be scraped off afterwards."
+    gaffe: "Calling the building the Secession Museum, or assuming Klimt stayed; he and his friends walked out in 1905, and the association still runs its own exhibitions there."
+    distractors:
+      title: ["Wiener Werkstätte", "Hagenbund", "Der Blaue Reiter"]
+      era: [Biedermeier, Baroque, Expressionism]
+    links: [art.klimt, art.klimt.the-kiss, art.term.jugendstil]
+    tags: [movement, secession, vienna, olbrich, 1890s]
+    sources:
+      - "Grove Art Online, 'Secession'"
+      - "Carl E. Schorske, Fin-de-siècle Vienna: Politics and Culture (1980)"
+      - "Secession, Vienna, 'The Beethoven Frieze'"
+    reviewed_by: null
+
+  - id: art.venue.kunsthistorisches-museum
+    discipline: art
+    kind: venue
+    title: "Kunsthistorisches Museum"
+    location: "Maria-Theresien-Platz, Vienna"
+    city: vienna
+    difficulty: 1
+    era: Ringstrasse
+    year: 1891
+    facts:
+      - "Opened by Franz Joseph in 1891 in a building by Gottfried Semper and Carl von Hasenauer on the Ringstrasse; its twin across the square is the Natural History Museum."
+      - "The picture gallery is the Habsburg collection: twelve Bruegels, Vermeer's Art of Painting, Raphael's Madonna of the Meadow, Arcimboldo's composite heads and Velázquez's portraits of the Infanta Margarita Teresa, sent from Madrid to her uncle and future husband Leopold I."
+      - "The Kunstkammer holds Cellini's gold salt cellar, the Saliera, stolen from the museum in 2003 and dug up in a forest near Zwettl in 2006."
+      - "Klimt, his brother Ernst and Franz Matsch painted the spandrels of the main staircase in 1890 and 1891."
+    remark: "The Velázquez infantas are here because Madrid posted them to Vienna as progress reports: Leopold I was Margarita Teresa's uncle and her fiancé, and he watched her grow up by portrait before he married her."
+    gaffe: "Going there for Klimt, or calling it the Belvedere. The collection stops around 1800; Klimt is at the Belvedere, though he did paint the staircase here."
+    distractors:
+      title: ["Belvedere", "Albertina", "Leopold Museum"]
+    links: [art.bruegel.hunters-in-the-snow, art.bruegel.tower-of-babel, art.vermeer.the-art-of-painting, art.klimt]
+    tags: [venue, museum, vienna, habsburg, ringstrasse]
+    sources:
+      - "Kunsthistorisches Museum Wien, 'History of the Museum'"
+      - "Kunsthistorisches Museum Wien, Gemäldegalerie"
+      - "Carl E. Schorske, Fin-de-siècle Vienna: Politics and Culture (1980)"
+    reviewed_by: null
+
+  - id: art.term.jugendstil
+    discipline: art
+    kind: term
+    title: Jugendstil
+    city: vienna
+    difficulty: 2
+    era: Fin de siècle
+    year: 1896
+    definition: "The German-speaking world's Art Nouveau: the decorative style of about 1895 to 1910, named after the Munich magazine Jugend, built on flowing line, flat pattern and stylised plant forms; in Vienna it turned geometric in the hands of the Secession and the Wiener Werkstätte."
+    pronunciation: "YOO-gent-shteel"
+    language: German
+    facts:
+      - "Named after Jugend ('Youth'), an illustrated weekly founded in Munich in 1896."
+      - "The Viennese version, under Josef Hoffmann and Koloman Moser, preferred squares and grids to whiplash curves; the Wiener Werkstätte, founded in 1903, put it on furniture, silver and tableware."
+      - "Otto Wagner's Karlsplatz Stadtbahn pavilions and his Majolikahaus on the Linke Wienzeile, both of 1898 and 1899, are the examples on the street."
+    remark: "Jugendstil is Art Nouveau with a German name taken from a Munich magazine; the Viennese version went square under Hoffmann and Moser, so if it has a grid it is Vienna and if it whiplashes it is Paris or Brussels."
+    gaffe: "Calling the Secession 'Art Nouveau' to a Viennese as though it were a French import, or pronouncing the J as in English; it is YOO-gent-shteel."
+    distractors:
+      term:
+        - "The stripped, ornament-free manner of the Bauhaus in the 1920s."
+        - "The Gothic revival in nineteenth-century German architecture that completed Cologne Cathedral."
+        - "A school of German history painting of the 1840s that took its subjects from folk tales and the Nibelungenlied."
+    links: [art.movement.vienna-secession, art.klimt, art.term.biedermeier]
+    tags: [term, art-nouveau, german, secession, 1890s]
+    sources:
+      - "Grove Art Online, 'Jugendstil'"
+    reviewed_by: null
+
+  - id: art.term.biedermeier
+    discipline: art
+    kind: term
+    title: Biedermeier
+    city: vienna
+    difficulty: 3
+    era: Restoration
+    year: 1815
+    year_end: 1848
+    definition: "The middle-class domestic culture of the German-speaking lands between the Congress of Vienna in 1815 and the revolutions of 1848: plain, well-made furniture in pale veneers, small genre pictures and landscapes such as Waldmüller's, and a general retreat from politics into the parlour."
+    pronunciation: "BEE-der-my-er"
+    language: German
+    facts:
+      - "The name comes from 'Gottlieb Biedermaier', a fictional philistine schoolmaster whose spoof verses appeared in the Munich comic paper Fliegende Blätter from 1855; it was a joke before it was a style."
+      - "Ferdinand Georg Waldmüller is the Viennese painter of the period, and Schubert's evenings among friends, the Schubertiades, belong to the same world."
+      - "Its plain cherry and walnut furniture was admired by Josef Hoffmann and the Wiener Werkstätte as a native ancestor of modern design."
+    remark: "Biedermeier was an insult before it was a style, a spoof schoolmaster-poet in a Munich comic paper, and the name stuck to the whole Metternich era of quiet parlours and Schubert evenings."
+    gaffe: "Using it for anything grand. Biedermeier is the bourgeois parlour, cherrywood and Waldmüller; the gilt and sphinxes of the years just before it are Empire."
+    distractors:
+      term:
+        - "The gilded imperial style of the Napoleonic court, all sphinxes, eagles and mahogany."
+        - "The Viennese Baroque of Fischer von Erlach and Hildebrandt in the decades after the Turkish siege."
+        - "The Austrian painting of the interwar years that turned away from Expressionism toward sober realism."
+    links: [art.term.jugendstil, music.term.lied]
+    tags: [term, biedermeier, german, furniture, 1800s]
+    sources:
+      - "Grove Art Online, 'Biedermeier'"
+    reviewed_by: null
