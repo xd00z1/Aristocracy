@@ -28,9 +28,18 @@ npm run dev        # http://localhost:5173
 ```bash
 npm run validate   # content
 npm run typecheck
-npm test           # vitest
-npm run e2e        # playwright, full session
+npm test           # vitest, including the engine against the real content
+npm run e2e        # playwright, a full twelve-slot session
+npx tsx scripts/exercise-mix.ts   # what a player actually meets
 ```
+
+The last one is the number to watch as content grows. Variety is the product: if
+one exercise type dominates, the five minutes a day feel like a quiz. It reports
+the mix as it stands, the mix you would get once `npm run media` has fetched
+every declared image, and the items whose missing theme or image costs the most
+variety. Themes are the scarcest thing in the content and the most valuable,
+because Drop the Needle is the signature exercise and only a music or opera work
+carrying `theme` notation can use it.
 
 ## Content review status
 
