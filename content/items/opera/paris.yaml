@@ -451,3 +451,380 @@ items:
       - "Grove Music Online, 'Opéra comique'"
       - "Hervé Lacombe, The Keys to French Opera in the Nineteenth Century (2001)"
     reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Massenet: Manon (Opéra-Comique, 1884) and Werther (Vienna, 1892)
+  # ---------------------------------------------------------------------------
+
+  - id: opera.massenet.manon.adieu-notre-petite-table
+    discipline: opera
+    kind: work
+    title: "Adieu, notre petite table"
+    parent: "Manon (1884)"
+    creator: Jules Massenet
+    city: paris
+    difficulty: 1
+    era: Romantic
+    year: 1884
+    language: French
+    pronunciation: "ah-DYUH, NOT-ruh puh-TEET TAHBL"
+    facts:
+      - "Manon opened at the Opéra-Comique on 19 January 1884, with Marie Heilbron as Manon and Jean-Alexandre Talazac as des Grieux; the libretto is by Henri Meilhac and Philippe Gille, after the Abbé Prévost's novel of 1731."
+      - "Manon sings it in Act 2, in the lovers' rooms in the rue Vivienne, having already agreed to leave des Grieux for the rich de Brétigny; des Grieux comes in, sings her his dream ('En fermant les yeux'), and is carried off by his father's men before the act ends."
+      - "Much of the dialogue is spoken over the orchestra rather than sung, a device called mélodrame; in Massenet's version Manon dies on the road to Le Havre, not, as in the novel, in Louisiana."
+      - "Puccini set the same novel as Manon Lescaut (Turin, 1 February 1893); Massenet answered with a one-act sequel, Le portrait de Manon, in 1894."
+    remark: "She is saying goodbye to a table, not to a man: Manon has already agreed to go off with the rich de Brétigny, and des Grieux, who does not know, walks in and sings her his dream."
+    gaffe: "Confusing it with Puccini's Manon Lescaut. Same novel, nine years later, in Italian; Massenet's Manon dies on the road to Le Havre, Puccini's in a Louisiana desert."
+    distractors:
+      creator: [Charles Gounod, Georges Bizet, Ambroise Thomas]
+      title: ["En fermant les yeux (Le rêve)", "Obéissons quand leur voix appelle (Gavotte)", "Je suis encor tout étourdie"]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.massenet.thais.meditation, opera.massenet.werther.pourquoi-me-reveiller, opera.term.opera-comique, opera.venue.opera-comique]
+    tags: [aria, soprano, massenet, manon, prevost, paris, 1880s]
+    sources:
+      - "Grove Music Online, 'Manon'"
+      - "Demar Irvine, Massenet: A Chronicle of His Life and Times (1994)"
+    reviewed_by: null
+
+  - id: opera.massenet.werther.pourquoi-me-reveiller
+    discipline: opera
+    kind: work
+    title: "Pourquoi me réveiller"
+    parent: "Werther (1892)"
+    creator: Jules Massenet
+    city: paris
+    difficulty: 1
+    era: Romantic
+    year: 1892
+    language: French
+    pronunciation: "poor-KWAH muh ray-vay-YAY"
+    facts:
+      - "Massenet finished Werther in 1887; Léon Carvalho, director of the Opéra-Comique, turned it down as too gloomy, and the work opened instead at the Vienna Hofoper, in German, on 16 February 1892, with the Belgian tenor Ernest Van Dyck as Werther."
+      - "Paris heard it on 16 January 1893, given by the Opéra-Comique company at the Théâtre Lyrique while the Salle Favart was being rebuilt after the fire of 1887."
+      - "The libretto, by Édouard Blau, Paul Milliet and Georges Hartmann, follows Goethe's novel of 1774; the aria comes in Act 3, on Christmas Eve, when Werther reads Charlotte his translation of Ossian, the passage Goethe's Werther reads to Lotte in the book."
+      - "Charlotte is a mezzo-soprano; Werther shoots himself with pistols borrowed from her husband Albert and dies as children sing a carol outside; Massenet later arranged the title role for the baritone Mattia Battistini, who sang it in St Petersburg in 1902."
+    remark: "The words are not the librettists' but Ossian's: Werther is reading Charlotte his translation of Macpherson's counterfeit Gaelic bard, which is exactly what Goethe has him read to Lotte before he shoots himself."
+    gaffe: "Calling it a German opera because it opened in Vienna. It is French through and through; Vienna took it after the Opéra-Comique had refused it as too gloomy, and Paris caught up a year later."
+    distractors:
+      creator: [Charles Gounod, Georges Bizet, Ernest Chausson]
+      title: ["Ô nature, pleine de grâce", "Va! laisse couler mes larmes", "Ah! fuyez, douce image"]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.massenet.manon.adieu-notre-petite-table, opera.massenet.thais.meditation, opera.venue.staatsoper, opera.term.voice-types]
+    tags: [aria, tenor, massenet, werther, goethe, ossian, paris, vienna, 1890s]
+    sources:
+      - "Grove Music Online, 'Werther'"
+      - "Demar Irvine, Massenet: A Chronicle of His Life and Times (1994)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Meyerbeer and grand opéra
+  # ---------------------------------------------------------------------------
+
+  - id: opera.meyerbeer
+    discipline: opera
+    kind: creator
+    title: "Giacomo Meyerbeer"
+    city: paris
+    difficulty: 2
+    era: Romantic
+    year: 1791
+    year_end: 1864
+    pronunciation: "JAH-ko-mo MY-er-bair"
+    facts:
+      - "Born Jakob Liebmann Beer near Berlin on 5 September 1791, the son of a Jewish banker; the Meyer came from his mother's family. He died in Paris on 2 May 1864."
+      - "Studied with the Abbé Vogler at Darmstadt alongside Carl Maria von Weber, then spent the years 1816 to 1824 in Italy writing Italian operas, ending with Il crociato in Egitto (Venice, 1824)."
+      - "Robert le diable (1831), Les Huguenots (1836) and Le prophète (1849) at the Paris Opéra made him the most performed opera composer of the century; L'Africaine was staged in 1865, the year after his death. From 1842 he was also Prussian Generalmusikdirektor in Berlin."
+      - "His support helped get Wagner's Rienzi staged at Dresden in 1842; Wagner repaid him in 1850 with the anonymous pamphlet 'Das Judenthum in der Musik'."
+    remark: "Wagner owed him Rienzi and repaid him with 'Das Judenthum in der Musik'; the most performed opera composer of the nineteenth century is now known chiefly through the attack on him."
+    gaffe: "Calling him a French composer. He was a Berlin banker's son who wrote Italian operas for Venice before he ever wrote for Paris, and he held the Prussian court's music post while the Opéra lived off Les Huguenots."
+    media:
+      image:
+        commons: "File:Meyerbeer d'après P. Petit b 1865.jpg"
+        source: "Print after a photograph of Meyerbeer by Pierre Petit (1865), via Wikimedia Commons"
+        license: "Public domain (nineteenth-century print; photographer Pierre Petit died 1909); verify the file's tag when fetching"
+    distractors:
+      person: [Fromental Halévy, Daniel Auber, Gaspare Spontini]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.meyerbeer.les-huguenots, opera.term.grand-opera, opera.term.divertissement, opera.venue.palais-garnier]
+    tags: [composer, grand-opera, meyerbeer, berlin, wagner, paris, 1800s]
+    sources:
+      - "Grove Music Online, 'Meyerbeer, Giacomo'"
+      - "Robert Ignatius Letellier, The Operas of Giacomo Meyerbeer (2006)"
+    reviewed_by: null
+
+  - id: opera.meyerbeer.les-huguenots
+    discipline: opera
+    kind: work
+    title: "Les Huguenots"
+    creator: Giacomo Meyerbeer
+    city: paris
+    difficulty: 3
+    era: Romantic
+    year: 1836
+    language: French
+    pronunciation: "lay ewg-NOH"
+    facts:
+      - "Grand opéra in five acts, libretto by Eugène Scribe and Émile Deschamps; first performed at the Opéra, then in the Salle Le Peletier, on 29 February 1836."
+      - "Set in 1572 and ending in the St Bartholomew's Day massacre: the Protestant Raoul de Nangis loves the Catholic Valentine, and in the last act Raoul, Valentine and Raoul's old servant Marcel are shot by soldiers led by Valentine's own father, Saint-Bris."
+      - "Marcel, a bass, sings Luther's chorale 'Ein feste Burg', which runs through the score; the Act 4 'Bénédiction des poignards', in which the Catholic nobles bless their daggers, is the famous ensemble."
+      - "It needs seven leading singers, and in the 1890s the Metropolitan Opera's casts (Melba, Nordica, Scalchi, the brothers de Reszke, Plançon, Maurel) were billed as 'the nights of the seven stars'; it was also the first work to reach a thousand performances at the Paris Opéra, in 1906."
+    remark: "It needs seven stars, which is why nobody stages it: the Met's Huguenots of the 1890s, with Melba, Nordica and both de Reszkes, were sold as the nights of the seven stars, and the phrase has outlived the opera's place in the repertory."
+    gaffe: "Assuming the Huguenots come out of it alive. It ends in the massacre of 24 August 1572, and the hero, the heroine and the servant who sings Luther's chorale are all shot by the heroine's father's men."
+    distractors:
+      creator: [Fromental Halévy, Daniel Auber, Gioachino Rossini]
+      title: ["La Juive", "Robert le diable", "Guillaume Tell"]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.meyerbeer, opera.term.grand-opera, opera.term.divertissement, history.person.catherine-de-medici]
+    tags: [opera, grand-opera, meyerbeer, scribe, huguenots, paris, 1830s]
+    sources:
+      - "Grove Music Online, 'Huguenots, Les'"
+      - "Robert Ignatius Letellier, The Operas of Giacomo Meyerbeer (2006)"
+      - "David Charlton (ed.), The Cambridge Companion to Grand Opera (2003)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Offenbach the man
+  # ---------------------------------------------------------------------------
+
+  - id: opera.offenbach
+    discipline: opera
+    kind: creator
+    title: "Jacques Offenbach"
+    city: paris
+    difficulty: 1
+    era: Romantic
+    year: 1819
+    year_end: 1880
+    pronunciation: "zhahk OFF-en-bahk"
+    facts:
+      - "Born Jacob Offenbach in Cologne on 20 June 1819, the son of a synagogue cantor who had taken the name of his home town, Offenbach am Main; he came to the Paris Conservatoire as a cellist in 1833 and died in Paris on 5 October 1880."
+      - "He opened his own theatre, the Bouffes-Parisiens, in 1855; its licence at first allowed only one-act pieces for a handful of singers, and Orphée aux enfers (1858) was his first full-length work once the rule was relaxed."
+      - "La belle Hélène (1864), La Vie parisienne (1866), La Grande-Duchesse de Gérolstein (1867) and La Périchole (1868) made him the composer of the Second Empire; he was naturalised French in 1860. Rossini is said to have called him the Mozart of the Champs-Élysées."
+      - "After the war of 1870 he was attacked in Paris as a German and in Germany as the man who had mocked the Empire; Les contes d'Hoffmann, his one serious opera, was unfinished when he died."
+    remark: "He was the Second Empire's court jester and its one German: after 1870 France remembered where he was born and Germany remembered whom he had mocked, and the Hoffmann he did not live to finish was his bid to be taken seriously."
+    gaffe: "Calling him a Viennese operetta composer. He is the Paris original; Johann Strauss took up the form after Offenbach's Vienna successes, and Die Fledermaus is 1874, sixteen years after Orphée."
+    media:
+      image:
+        commons: "File:Jacques Offenbach by Nadar.jpg"
+        source: "Photograph of Jacques Offenbach by Nadar, Bibliothèque nationale de France, via Wikimedia Commons"
+        license: "Public domain (photographer Félix Nadar died 1910); verify the file's tag when fetching"
+    distractors:
+      person: [Hervé, Charles Lecocq, Johann Strauss II]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.offenbach.orphee-aux-enfers.galop-infernal, opera.offenbach.contes-d-hoffmann.barcarolle, opera.strauss-ii.die-fledermaus, opera.term.operetta]
+    tags: [composer, operetta, offenbach, second-empire, cologne, paris, 1800s]
+    sources:
+      - "Grove Music Online, 'Offenbach, Jacques'"
+      - "Alexander Faris, Jacques Offenbach (1980)"
+      - "Siegfried Kracauer, Jacques Offenbach and the Paris of His Time (1937)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Delibes, Saint-Saëns, Poulenc
+  # ---------------------------------------------------------------------------
+
+  - id: opera.delibes.lakme.flower-duet
+    discipline: opera
+    kind: work
+    title: "Sous le dôme épais (Flower Duet)"
+    parent: "Lakmé (1883)"
+    creator: Léo Delibes
+    city: paris
+    difficulty: 1
+    era: Romantic
+    year: 1883
+    language: French
+    pronunciation: "soo luh DOHM ay-PEH"
+    facts:
+      - "Lakmé opened at the Opéra-Comique on 14 April 1883, with the American soprano Marie van Zandt in the title role; the libretto is by Edmond Gondinet and Philippe Gille, after Pierre Loti."
+      - "The duet comes in Act 1: Lakmé, daughter of a Brahmin priest in British India, and her servant Mallika, a mezzo, gather flowers by a river, singing in thirds in a rocking 6/8; Gérald, the British officer Lakmé will die for, has not yet appeared."
+      - "The Act 2 'Bell Song' ('Où va la jeune Hindoue') is the coloratura showpiece; Lakmé dies at the end by eating a datura leaf."
+      - "Delibes was a ballet composer first: Coppélia (1870) and Sylvia (1876) were written for the Opéra. British Airways took the duet for its advertising from 1989."
+    remark: "Delibes was a ballet composer first, and the duet, sung in thirds by a Brahmin's daughter and her servant picking flowers by a river, is the one page of Lakmé that an airline and everybody else took."
+    gaffe: "Calling it a love duet. Both singers are women, mistress and servant, and the man Lakmé loves, a British officer, has not yet walked on."
+    distractors:
+      creator: [Georges Bizet, Jules Massenet, Charles Gounod]
+      title: ["Où va la jeune Hindoue (Bell Song)", "Belle nuit, ô nuit d'amour (Barcarolle)", "Les oiseaux dans la charmille (Doll Song)"]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.term.opera-comique, opera.venue.opera-comique, opera.offenbach.contes-d-hoffmann.barcarolle, opera.term.voice-types]
+    tags: [duet, soprano, mezzo, delibes, lakme, paris, 1880s]
+    sources:
+      - "Grove Music Online, 'Lakmé'"
+      - "Grove Music Online, 'Delibes, Léo'"
+    reviewed_by: null
+
+  - id: opera.saint-saens.samson-et-dalila.mon-coeur
+    discipline: opera
+    kind: work
+    title: "Mon cœur s'ouvre à ta voix"
+    parent: "Samson et Dalila (1877)"
+    creator: Camille Saint-Saëns
+    city: paris
+    difficulty: 1
+    era: Romantic
+    year: 1877
+    language: French
+    pronunciation: "mohn KUR SOOV-rah tah VWAH"
+    facts:
+      - "Paris theatres were shy of biblical subjects on stage, so the opera was first given at Weimar, in German, on 2 December 1877, at Liszt's instigation; the libretto is by Ferdinand Lemaire."
+      - "France first heard it at Rouen in 1890; it entered the Paris Opéra on 23 November 1892, and is the only one of Saint-Saëns's dozen or so operas that stays in the repertory."
+      - "Dalila, a mezzo-soprano, sings it in Act 2 to seduce Samson, a tenor, into telling her the secret of his strength; the Act 3 Bacchanale in the temple of Dagon is the orchestral showpiece, and Samson brings the temple down at the end."
+      - "Saint-Saëns began the piece in 1867 as an oratorio and was talked into making it an opera."
+    remark: "Paris would not put the Bible on the stage, so his one repertory opera opened in Weimar, in German, in 1877 because Liszt arranged it, and the Opéra waited fifteen years."
+    gaffe: "Calling Dalila a soprano. The seduction sits low on purpose; it is the mezzo's aria, and Samson is the tenor she is working on."
+    distractors:
+      creator: [Jules Massenet, Charles Gounod, Ernest Reyer]
+      title: ["Printemps qui commence", "Amour! viens aider ma faiblesse", "Bacchanale"]
+      era: [Baroque, Classical, Verismo]
+    links: [opera.bizet.carmen.habanera, opera.massenet.thais.meditation, opera.venue.palais-garnier, opera.term.voice-types]
+    tags: [aria, mezzo, saint-saens, samson, weimar, paris, 1870s]
+    sources:
+      - "Grove Music Online, 'Samson et Dalila'"
+      - "Brian Rees, Camille Saint-Saëns: A Life (1999)"
+    reviewed_by: null
+
+  - id: opera.poulenc.dialogues-des-carmelites
+    discipline: opera
+    kind: work
+    title: "Dialogues des Carmélites"
+    creator: Francis Poulenc
+    city: paris
+    difficulty: 2
+    era: Twentieth century
+    year: 1957
+    language: French
+    pronunciation: "dee-ah-LOG day kar-may-LEET"
+    facts:
+      - "Commissioned by Ricordi and first performed at La Scala, Milan, in Italian, on 26 January 1957; the French premiere followed at the Paris Opéra on 21 June 1957, with Denise Duval as Blanche and Régine Crespin as the new Prioress."
+      - "The text is Georges Bernanos's, written as a film script after Gertrud von Le Fort's novella Die Letzte am Schafott (1931), and set by Poulenc nearly as it stood."
+      - "The subject is the sixteen Carmelite nuns of Compiègne guillotined in Paris on 17 July 1794, ten days before Robespierre fell; Blanche de la Force, the frightened aristocrat who joins them at the scaffold, is invented."
+      - "In the final scene the nuns walk to the guillotine singing the Salve Regina, and the fall of the blade is written into the score, the voices dropping out one by one. Poulenc dedicated the work to the memory of his mother and to Monteverdi, Verdi, Mussorgsky and Debussy."
+    remark: "The guillotine is in the score: the nuns walk out singing the Salve Regina and a voice drops out at each stroke, which is what happened at the place du Trône on 17 July 1794, ten days before Robespierre followed them."
+    gaffe: "Assuming it opened in Paris. Ricordi commissioned it, so it opened at La Scala in Italian in January 1957; Paris heard it in French that June, with Denise Duval as Blanche."
+    distractors:
+      creator: [Olivier Messiaen, Darius Milhaud, Arthur Honegger]
+      title: ["La voix humaine", "Les mamelles de Tirésias", "Saint François d'Assise"]
+      era: [Baroque, Romantic, Verismo]
+    links: [history.episode.french-revolution, opera.debussy.pelleas-et-melisande, opera.venue.palais-garnier]
+    tags: [opera, poulenc, bernanos, revolution, carmelites, paris, 1950s]
+    sources:
+      - "Grove Music Online, 'Dialogues des Carmélites'"
+      - "Carl B. Schmidt, Entrancing Muse: A Documented Biography of Francis Poulenc (2001)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Venues: the Bastille and the Salle Favart
+  # ---------------------------------------------------------------------------
+
+  - id: opera.venue.opera-bastille
+    discipline: opera
+    kind: venue
+    title: "Opéra Bastille"
+    location: "Place de la Bastille, Paris"
+    city: paris
+    difficulty: 1
+    era: Contemporary
+    year: 1989
+    pronunciation: "oh-pay-RAH bas-TEEY"
+    facts:
+      - "One of Mitterrand's grands projets, meant as a modern, popular opera house; Carlos Ott won the competition in 1983, and the building went up on the site of the old Bastille railway station."
+      - "Inaugurated on 13 July 1989, the eve of the Revolution's bicentenary; the first opera performed in it was Berlioz's Les Troyens, on 17 March 1990. The main auditorium seats about 2,700."
+      - "Pierre Bergé, president of the Opéra, sacked its music director designate, Daniel Barenboim, in January 1989, before the house had opened; Myung-whun Chung took the post."
+      - "Since it opened, most opera in Paris is given here and the Palais Garnier is chiefly the house of the ballet; the two together form the Opéra national de Paris."
+    remark: "It opened on the eve of the bicentenary, 13 July 1989, on the site of the old Bastille railway station, having already sacked its music director, Barenboim, six months before anyone sang in it."
+    gaffe: "Praising the building at a Paris dinner. Parisians have been rude about Carlos Ott's design since the competition, and panels of its facade started coming loose within a few years; praise the stage machinery and the sightlines instead."
+    distractors:
+      title: ["Palais Garnier", "Théâtre des Champs-Élysées", "Théâtre du Châtelet"]
+    links: [opera.venue.palais-garnier, opera.berlioz.les-troyens, opera.venue.opera-comique]
+    tags: [venue, opera-house, bastille, mitterrand, paris, 1980s]
+    sources:
+      - "Opéra national de Paris, 'The Opéra Bastille'"
+      - "Grove Music Online, 'Paris', §6 (after 1945)"
+    reviewed_by: null
+
+  - id: opera.venue.opera-comique
+    discipline: opera
+    kind: venue
+    title: "Opéra-Comique (Salle Favart)"
+    location: "Place Boieldieu, Paris"
+    city: paris
+    difficulty: 1
+    era: Ancien Régime to Third Republic
+    year: 1783
+    pronunciation: "oh-pay-RAH koh-MEEK; sal fah-VAHR"
+    facts:
+      - "The company began in the fairground theatres of Paris around 1715 and merged with the Comédie-Italienne in 1762; the house is named after Charles-Simon Favart, the eighteenth-century librettist who ran it."
+      - "Three theatres have stood on the site: the first Salle Favart of 1783 burned in 1838, the second, of 1840, burned on 25 May 1887 with 84 dead, and the third, by Louis Bernier, opened in December 1898."
+      - "Carmen (1875), Les contes d'Hoffmann (1881), Lakmé (1883), Manon (1884), Louise (1900) and Pelléas et Mélisande (1902) all had their premieres with the company; Werther's Paris premiere in 1893 was given at the Théâtre Lyrique while the house was being rebuilt."
+      - "It is a separate company from the Opéra, a few hundred metres from the Garnier on the boulevard des Italiens, and has been a théâtre national since 2005."
+    remark: "Three theatres on the same spot: the Salle Favart of 1783 burned in 1838, its successor burned in 1887 with eighty-four dead, and the third, of 1898, is where Pelléas opened in 1902."
+    gaffe: "Assuming the Opéra-Comique is part of the Opéra. It is a separate company with its own house a few hundred metres away, and Carmen, Manon and Pelléas were its premieres, not the Opéra's."
+    distractors:
+      title: ["Palais Garnier", "Théâtre des Bouffes-Parisiens", "Théâtre Lyrique"]
+    links: [opera.term.opera-comique, opera.bizet.carmen.habanera, opera.debussy.pelleas-et-melisande, opera.venue.palais-garnier, opera.venue.opera-bastille]
+    tags: [venue, opera-house, salle-favart, opera-comique, paris, 1780s, 1890s]
+    sources:
+      - "Grove Music Online, 'Opéra-Comique'"
+      - "Nicole Wild and David Charlton, Théâtre de l'Opéra-Comique, Paris: répertoire 1762–1972 (2005)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Terms: the claque and the divertissement
+  # ---------------------------------------------------------------------------
+
+  - id: opera.term.claque
+    discipline: opera
+    kind: term
+    title: "Claque"
+    city: paris
+    difficulty: 2
+    era: Nineteenth century
+    definition: "An organised body of paid applauders, seated through the house and directed by a chef de claque, who clapped, laughed, wept and called for encores to order; from claquer, to clap."
+    pronunciation: "klak"
+    language: French
+    facts:
+      - "Paris put applause on a commercial footing in 1820, when a man named Sauton opened an agency selling it to managers and performers; the Opéra's chef de claque of the 1830s, Auguste Levasseur, attended rehearsals to plan where his people would clap."
+      - "A claque had specialists: rieurs to laugh, pleureurs to weep, bisseurs to demand the encore, and chatouilleurs to keep their neighbours in good humour."
+      - "The practice is older than opera: Nero kept a trained body of young applauders, the Augustiani. Mahler fought the claque at the Vienna Hofoper after 1897, and houses went on tolerating it well into the twentieth century."
+    remark: "At the Opéra in the 1830s the applause was scored as carefully as the music: Levasseur, the chef de claque, went to rehearsals to plan where his people would clap, laugh, weep and call for the encore."
+    gaffe: "Taking a warm reception at a Paris premiere as the verdict of the public. Well into the twentieth century some of it was paid for, seated in the middle of the parterre, and told when to start."
+    distractors:
+      term:
+        - "A group of critics and connoisseurs who sat together in the parterre and set the town's opinion of a new work."
+        - "The clatter made by the stage machinery of an old French theatre, used as a signal to the orchestra."
+        - "A rousing vocal flourish written into the end of an aria to draw an ovation."
+    links: [opera.venue.palais-garnier, opera.term.grand-opera, opera.meyerbeer, opera.venue.staatsoper]
+    tags: [term, claque, applause, audience, paris, 1820s]
+    sources:
+      - "Grove Music Online, 'Claque'"
+      - "The Oxford Companion to Music, 'Claque'"
+    reviewed_by: null
+
+  - id: opera.term.divertissement
+    discipline: opera
+    kind: term
+    title: "Divertissement (the ballet in French opera)"
+    city: paris
+    difficulty: 2
+    era: Baroque to Romantic
+    definition: "The dance episode built into a French opera: a set of dances, usually with chorus, that halts the plot to show the company's ballet. Lully put one in every act, and the Opéra of the 1830s expected it in Act 2."
+    pronunciation: "dee-vair-teess-MAHN"
+    language: French
+    facts:
+      - "Louis XIV danced himself, appearing as the rising sun in the Ballet royal de la Nuit in 1653 with Lully among the dancers; Lully's tragédies en musique kept a divertissement of dances and choruses in each act, and Rameau's Les Indes galantes (1735) is an opéra-ballet, a form held together by dancing."
+      - "The Romantic ballet was born inside an opera: the ballet of the dead nuns in Act 3 of Meyerbeer's Robert le diable (1831), choreographed by Filippo Taglioni for his daughter Marie, came a year before La Sylphide."
+      - "Verdi wrote ballets for the Opéra four times, for Les vêpres siciliennes (1855), Le trouvère (1857), Don Carlos (1867) and the Paris Otello of 1894; Gounod's Faust acquired its Walpurgis Night ballet when it moved to the Opéra in 1869."
+    remark: "The Romantic ballet was born inside an opera: the dance of the dead nuns in Robert le diable in 1831, with Marie Taglioni, came a year before La Sylphide, and after that the Opéra expected a ballet from everyone, Verdi and Wagner included."
+    gaffe: "Treating the ballet in a French opera as padding to cut. Verdi wrote one for Paris four times, and the whole opéra-ballet form of Rameau is nothing but the dancing."
+    distractors:
+      term:
+        - "The comic intermezzo played between the acts of an Italian opera seria, from which opera buffa grew."
+        - "A spoken scene between the musical numbers of an opéra comique."
+        - "The orchestral prelude played before the curtain rises on a French grand opéra."
+    links: [opera.lully, opera.rameau, opera.term.grand-opera, opera.meyerbeer, opera.gounod.faust.jewel-song, opera.venue.palais-garnier]
+    tags: [term, ballet, divertissement, lully, rameau, meyerbeer, verdi, paris]
+    sources:
+      - "Grove Music Online, 'Divertissement'"
+      - "Marian Smith, Ballet and Opera in the Age of Giselle (2000)"
+      - "David Charlton (ed.), The Cambridge Companion to Grand Opera (2003)"
+    reviewed_by: null

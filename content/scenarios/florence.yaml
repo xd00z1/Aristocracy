@@ -8,7 +8,7 @@ scenarios:
     city: florence
     discipline: art
     difficulty: 1
-    setting: "A bench in the rotunda of the Accademia, under the David. Your host has queued forty minutes for this."
+    setting: "A bench in the Tribune of the Accademia, under the David. Your host has queued forty minutes for this."
     prompt: "Your host says: \"Extraordinary that they left him out in the rain for so long.\""
     options:
       - kind: correct
@@ -35,7 +35,7 @@ scenarios:
     prompt: "Your host says: \"Masolino's Adam and Eve are so much prettier than Masaccio's, aren't they? I felt rather sorry for his pair.\""
     options:
       - kind: correct
-        text: "That contrast is the whole point of the chapel: Masolino's two are still in the garden, Masaccio's are being thrown out of it, and he paints the grief as body weight, Eve howling and Adam hiding his face. Michelangelo came here to draw them as a boy and answered them with his own Expulsion on the Sistine ceiling, and until 1990 the pair of them wore fig leaves the grand dukes had ordered."
+        text: "That contrast is the whole point of the chapel: Masolino's two are still in the garden, Masaccio's are being thrown out of it, and he paints the grief as body weight, Eve howling and Adam hiding his face. Michelangelo came here to copy Masaccio as a boy and answered this pair with his own Expulsion on the Sistine ceiling; and until 1990 Masaccio's two wore fig leaves the grand dukes had ordered."
         explanation: "Takes the host's observation seriously and turns it into the reading the chapel invites: the Temptation and the Expulsion face each other across the entrance arch on purpose. The two facts the host probably lacked are that Michelangelo studied here as a young man (Vasari says so, and his drawing after the Tribute Money survives) before painting his own Expulsion on the Sistine ceiling, and the fig leaves, added under the Medici grand dukes and removed in the restoration completed in 1990."
       - kind: wrong
         text: "Masolino was his father, of course, so he had the head start; the names give it away."

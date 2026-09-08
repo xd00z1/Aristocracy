@@ -1,116 +1,103 @@
 /**
- * Drives one full twelve-slot session end to end through the data-testids
- * listed in CLAUDE.md, then checks the summary, the rank-up ceremony that the
- * first completed session earns, the return to Today, and every nav route.
- * Content is not assumed: every slot is answered by whatever its exercise type
- * demands, so the spec stays valid as items and lessons change.
+ * End-to-end: one twelve-slot session driven purely through the data-testids
+ * that CLAUDE.md declares as the contract, with the rooms, the Standing meter
+ * and lesson progress checked afterwards; then the same session with sound
+ * switched off in Settings, and once more with sound on so Drop the Needle
+ * is played for real.
+ *
+ * The first test runs the true first-run experience (London, lesson 1, the
+ * rank-up ceremony). The other two seed the profile onto Vienna, whose first
+ * lesson holds two themed works and an apocrypha, so Drop the Needle and
+ * Apocrypha are exercised whichever way the seed falls.
  */
 import { expect, test, type Page } from '@playwright/test'
+import { expectTodayAfterOneSession, openToday, runSession, seedCity, watchErrors } from './helpers'
 
-const SLOTS = 12
+const errorLogs = new WeakMap<Page, string[]>()
 
-async function answerSlot(page: Page): Promise<string> {
-  const root = page.locator('[data-testid^="exercise-"]').first()
-  await expect(root).toBeVisible()
-  const type = (await root.getAttribute('data-testid'))!.replace('exercise-', '')
-
-  switch (type) {
-    case 'timeline': {
-      // Tap every pooled entry in turn; the pool shrinks as entries are placed.
-      const pool = page.locator('[data-testid^="timeline-entry-"]')
-      const count = await pool.count()
-      for (let i = 0; i < count; i++) await pool.first().click()
-      await expect(page.getByTestId('timeline-submit')).toBeEnabled()
-      await page.getByTestId('timeline-submit').click()
-      break
-    }
-    case 'match': {
-      const lefts = page.locator('[data-testid^="match-left-"]:not([data-testid="match-left-column"])')
-      const ids = (await lefts.evaluateAll((els) => els.map((el) => el.getAttribute('data-testid')!))).map((id) => id.replace('match-left-', ''))
-      for (const id of ids) {
-        await page.getByTestId(`match-left-${id}`).click()
-        await page.getByTestId(`match-right-${id}`).click()
-      }
-      break
-    }
-    case 'apocrypha':
-      await page.getByTestId('apocrypha-attested').click()
-      break
-    default:
-      // Choice exercises and the Remark share option-<id> buttons.
-      await page.locator('[data-testid^="option-"]').first().click()
-  }
-
-  await expect(page.getByTestId('feedback')).toBeVisible()
-  return type
-}
-
-test.beforeEach(async ({ page }) => {
-  await page.goto('/')
-  // Fresh household for every test: IndexedDB is per-origin.
-  await page.evaluate(async () => {
-    const names = (await indexedDB.databases?.()) ?? []
-    await Promise.all(names.map((d) => new Promise<void>((resolve) => {
-      if (!d.name) return resolve()
-      const req = indexedDB.deleteDatabase(d.name)
-      req.onsuccess = req.onerror = req.onblocked = () => resolve()
-    })))
-  })
-  await page.reload()
+test.beforeEach(({ page }) => {
+  errorLogs.set(page, watchErrors(page))
 })
 
-test('a full session runs from Today to the Summary and back', async ({ page }) => {
-  await expect(page.getByTestId('today-screen')).toBeVisible()
+test.afterEach(({ page }) => {
+  expect(errorLogs.get(page) ?? []).toEqual([])
+})
+
+test('a full session runs from Today to the Summary, every room opens, and the day is counted', async ({ page }) => {
+  await openToday(page)
   await expect(page.getByTestId('today-city')).not.toBeEmpty()
-  await page.getByTestId('begin-session').click()
+  await expect(page.getByTestId('meter-standing')).toHaveText(/Standing\s*0\s*days$/)
+  const lessonBefore = (await page.getByTestId('today-lesson').textContent())!.trim()
+  expect(lessonBefore).toMatch(/^Lesson 1 of \d+/)
 
-  const seen: string[] = []
-  for (let slot = 1; slot <= SLOTS; slot++) {
-    await expect(page.getByTestId('slot-label')).toHaveText(`${slot} of ${SLOTS}`)
-    seen.push(await answerSlot(page))
-    await page.getByTestId('continue').click()
-  }
-
-  // The first completed session makes a Gentleman: the ceremony precedes the summary.
-  const rankUp = page.getByTestId('rank-up-screen')
-  const summary = page.getByTestId('session-summary')
-  await expect(rankUp.or(summary)).toBeVisible()
-  if (await rankUp.isVisible()) {
-    await expect(page.getByTestId('rank-up-name')).not.toBeEmpty()
-    await page.getByTestId('rank-up-continue').click()
-  }
-  await expect(summary).toBeVisible()
-  await expect(page.getByTestId('summary-grade')).not.toBeEmpty()
-  await expect(page.getByTestId('summary-correct')).toContainText(`of ${SLOTS}`)
-
-  // Slot 10 is the Remark and slot 11 a set piece whenever content allows.
-  expect(seen).toHaveLength(SLOTS)
-  expect(seen[9]).toBe('remark')
-  expect(['timeline', 'match']).toContain(seen[10])
+  const { slots, grade } = await runSession(page)
+  console.log(`[e2e] first-run session: grade ${grade}; slots ${slots.map((s) => s.type).join(', ')}`)
 
   await page.getByTestId('return').click()
   await expect(page.getByTestId('today-screen')).toBeVisible()
-  await expect(page.getByTestId('meter-standing')).toContainText('1')
-  await expect(page.getByTestId('nav-today')).toBeVisible()
-})
 
-test('every household room opens from the nav', async ({ page }) => {
+  // Every room opens from the bottom bar and shows its heading.
   await page.getByTestId('nav-estate').click()
   await expect(page).toHaveURL(/\/estate$/)
-  await expect(page.locator('[data-testid^="room-"]').first()).toBeVisible()
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('The Estate')
 
   await page.getByTestId('nav-tour').click()
   await expect(page).toHaveURL(/\/tour$/)
-  await expect(page.locator('[data-testid^="tour-city-"]').first()).toBeVisible()
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('The Grand Tour')
 
   await page.getByTestId('nav-collection').click()
   await expect(page).toHaveURL(/\/collection$/)
-  await expect(page.getByTestId('collection-empty')).toBeVisible()
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('The Collection')
 
   await page.getByTestId('nav-settings').click()
   await expect(page).toHaveURL(/\/settings$/)
-  await expect(page.getByTestId('sound-toggle')).toBeVisible()
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Settings')
 
   await page.getByTestId('nav-today').click()
   await expect(page.getByTestId('begin-session')).toBeVisible()
+
+  // A fresh load of Today: the day counts and the lesson has advanced.
+  await expectTodayAfterOneSession(page, lessonBefore)
+})
+
+test('a session with sound switched off in Settings is still completable', async ({ page }) => {
+  await openToday(page)
+  await seedCity(page, 'vienna', 'Vienna')
+  const lessonBefore = (await page.getByTestId('today-lesson').textContent())!.trim()
+
+  await page.getByTestId('nav-settings').click()
+  const toggle = page.getByTestId('sound-toggle')
+  await expect(toggle).toHaveAttribute('aria-checked', 'true')
+  await toggle.click()
+  await expect(toggle).toHaveAttribute('aria-checked', 'false')
+
+  await page.getByTestId('nav-today').click()
+  await expect(page.getByTestId('begin-session')).toBeVisible()
+
+  const { slots, grade } = await runSession(page)
+  console.log(`[e2e] sound-off session: grade ${grade}; slots ${slots.map((s) => s.type).join(', ')}`)
+
+  const needles = slots.filter((s) => s.type === 'drop-the-needle')
+  expect(needles.length).toBeGreaterThan(0)
+  for (const needle of needles) expect(needle.played).toBe(false)
+  expect(slots.map((s) => s.type)).toContain('apocrypha')
+
+  await page.getByTestId('return').click()
+  await expectTodayAfterOneSession(page, lessonBefore)
+
+  // The setting survives the session.
+  await page.getByTestId('nav-settings').click()
+  await expect(page.getByTestId('sound-toggle')).toHaveAttribute('aria-checked', 'false')
+})
+
+test('with sound on, Drop the Needle plays the theme before it is answered', async ({ page }) => {
+  await openToday(page)
+  await seedCity(page, 'vienna', 'Vienna')
+
+  const { slots, grade } = await runSession(page)
+  console.log(`[e2e] sound-on session: grade ${grade}; slots ${slots.map((s) => s.type).join(', ')}`)
+
+  const needles = slots.filter((s) => s.type === 'drop-the-needle')
+  expect(needles.length).toBeGreaterThan(0)
+  for (const needle of needles) expect(needle.played).toBe(true)
 })
