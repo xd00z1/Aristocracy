@@ -154,11 +154,6 @@ items:
       - "The libretto is by Giovacchino Forzano; the aria names Porta Rossa, where she means to buy the ring."
     remark: "It is emotional blackmail set to a lovely tune: Lauretta threatens to jump off the Ponte Vecchio unless her father forges a will, and the opera it comes from is a comedy about fraud."
     gaffe: "Treating it as a love song. Babbino means daddy; she is wheedling her father, not serenading a lover."
-    theme:
-      notes: "Eb5/8 | Ab5/4. G5/8 F5/8 Eb5/8 | Db5/4. C5/4."
-      tempo: 66
-      key: A-flat major
-      note: "Lauretta's opening phrase only, 'O mio babbino caro', voice part at concert pitch; 6/8, Andantino ingenuo, A-flat major. Do not extend without checking the vocal score."
     distractors:
       creator: [Pietro Mascagni, Ruggero Leoncavallo, Umberto Giordano]
       title: ["Un bel dì vedremo", "Quando m'en vo'", "Vissi d'arte"]

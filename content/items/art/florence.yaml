@@ -234,9 +234,9 @@ items:
     gaffe: "Assuming there is one Fra Angelico Annunciation. He painted the subject at least four times, including a panel in the Prado and a second fresco inside a cell a few yards away; this is the one at the top of the stairs, with Michelozzo's loggia in it."
     media:
       image:
-        commons: "File:ANGELICO, Fra Annunciation, 1437-46 (2236990916).jpg"
+        commons: "File:Fra Angelico - The Annunciation - WGA00555.jpg"
         source: "Museo di San Marco, Florence, via Wikimedia Commons"
-        license: "Public domain (artist died 1455); verify the file's tag when fetching"
+        license: "Public domain (artist died 1455). The previous candidate file was a CC BY Flickr photograph, which the fetch script rejects; confirm this one carries a PD-Art tag."
         focus: { x: 0.74, y: 0.42 }
     distractors:
       creator: [Fra Filippo Lippi, Benozzo Gozzoli, Domenico Veneziano]
