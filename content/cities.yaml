@@ -1,0 +1,62 @@
+# The Grand Tour. Cities are units; each city weights its lessons toward what
+# the city is known for. Only `release: mvp` cities are shown in the app today.
+cities:
+  - id: london
+    name: London
+    order: 1
+    release: mvp
+    blurb: The departure. Fundamentals, the National Gallery, Handel, the Tudors, the Regency, the fall of the Lords.
+    lesson_size: 6
+  - id: paris
+    name: Paris
+    order: 2
+    release: mvp
+    blurb: The Louvre, the Impressionists, the Opéra; Versailles, the salons, the Revolution, Napoleon, Dreyfus.
+    lesson_size: 6
+  - id: florence
+    name: Florence
+    order: 3
+    release: mvp
+    blurb: The Renaissance and the Medici; Dante, Savonarola, Machiavelli, Galileo; where opera was invented.
+    lesson_size: 6
+  - id: vienna
+    name: Vienna
+    order: 4
+    release: mvp
+    blurb: Haydn to Mahler, Klimt and the Secession; the siege, Maria Theresa, the Congress, Mayerling.
+    lesson_size: 6
+  - id: rome
+    name: Rome
+    order: 5
+    release: v2
+    blurb: Bernini, Caravaggio, Borromini; the popes; Tosca's real day.
+  - id: venice
+    name: Venice
+    order: 6
+    release: v2
+    blurb: Titian and Tintoretto, Vivaldi and Monteverdi, the Serenissima and its fall.
+  - id: naples
+    name: Naples
+    order: 7
+    release: v2
+    blurb: Caravaggio's late work, the San Carlo, Pompeii dug up, Nelson and Emma Hamilton.
+  - id: milan
+    name: Milan
+    order: 8
+    release: v2
+    blurb: La Scala, Verdi and Puccini, the Last Supper, the Risorgimento.
+  - id: dresden-munich
+    name: Dresden and Munich
+    order: 9
+    release: v3
+    blurb: Wagner and Strauss, Meissen, Ludwig II, the Old Masters.
+  - id: st-petersburg
+    name: St Petersburg
+    order: 10
+    release: v3
+    blurb: The Hermitage, Tchaikovsky and Stravinsky, Peter and Catherine, the last Romanovs.
+  - id: return
+    name: The Return
+    order: 11
+    release: v3
+    blurb: The country house; titles, etiquette, and what became of the aristocracy.

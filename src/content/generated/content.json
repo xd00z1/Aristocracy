@@ -1,0 +1,580 @@
+{
+  "version": 1,
+  "builtAt": "2026-09-08T05:44:06.824Z",
+  "cities": [
+    {
+      "id": "london",
+      "name": "London",
+      "order": 1,
+      "blurb": "The departure. Fundamentals, the National Gallery, Handel, the Tudors, the Regency, the fall of the Lords.",
+      "release": "mvp",
+      "lesson_size": 6
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "order": 2,
+      "blurb": "The Louvre, the Impressionists, the Opéra; Versailles, the salons, the Revolution, Napoleon, Dreyfus.",
+      "release": "mvp",
+      "lesson_size": 6
+    },
+    {
+      "id": "florence",
+      "name": "Florence",
+      "order": 3,
+      "blurb": "The Renaissance and the Medici; Dante, Savonarola, Machiavelli, Galileo; where opera was invented.",
+      "release": "mvp",
+      "lesson_size": 6
+    },
+    {
+      "id": "vienna",
+      "name": "Vienna",
+      "order": 4,
+      "blurb": "Haydn to Mahler, Klimt and the Secession; the siege, Maria Theresa, the Congress, Mayerling.",
+      "release": "mvp",
+      "lesson_size": 6
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "order": 5,
+      "blurb": "Bernini, Caravaggio, Borromini; the popes; Tosca's real day.",
+      "release": "v2",
+      "lesson_size": 6
+    },
+    {
+      "id": "venice",
+      "name": "Venice",
+      "order": 6,
+      "blurb": "Titian and Tintoretto, Vivaldi and Monteverdi, the Serenissima and its fall.",
+      "release": "v2",
+      "lesson_size": 6
+    },
+    {
+      "id": "naples",
+      "name": "Naples",
+      "order": 7,
+      "blurb": "Caravaggio's late work, the San Carlo, Pompeii dug up, Nelson and Emma Hamilton.",
+      "release": "v2",
+      "lesson_size": 6
+    },
+    {
+      "id": "milan",
+      "name": "Milan",
+      "order": 8,
+      "blurb": "La Scala, Verdi and Puccini, the Last Supper, the Risorgimento.",
+      "release": "v2",
+      "lesson_size": 6
+    },
+    {
+      "id": "dresden-munich",
+      "name": "Dresden and Munich",
+      "order": 9,
+      "blurb": "Wagner and Strauss, Meissen, Ludwig II, the Old Masters.",
+      "release": "v3",
+      "lesson_size": 6
+    },
+    {
+      "id": "st-petersburg",
+      "name": "St Petersburg",
+      "order": 10,
+      "blurb": "The Hermitage, Tchaikovsky and Stravinsky, Peter and Catherine, the last Romanovs.",
+      "release": "v3",
+      "lesson_size": 6
+    },
+    {
+      "id": "return",
+      "name": "The Return",
+      "order": 11,
+      "blurb": "The country house; titles, etiquette, and what became of the aristocracy.",
+      "release": "v3",
+      "lesson_size": 6
+    }
+  ],
+  "lessons": [
+    {
+      "id": "london.1",
+      "cityId": "london",
+      "order": 1,
+      "title": "Lesson 1",
+      "itemIds": [
+        "art.turner",
+        "opera.handel.serse.ombra-mai-fu",
+        "art.van-eyck.arnolfini-portrait",
+        "opera.venue.covent-garden"
+      ],
+      "scenarioIds": []
+    },
+    {
+      "id": "paris.1",
+      "cityId": "paris",
+      "order": 1,
+      "title": "Lesson 1",
+      "itemIds": [
+        "history.apocrypha.let-them-eat-cake",
+        "history.episode.french-revolution",
+        "history.person.marie-antoinette"
+      ],
+      "scenarioIds": [
+        "scenario.paris.versailles-leash"
+      ]
+    },
+    {
+      "id": "vienna.1",
+      "cityId": "vienna",
+      "order": 1,
+      "title": "Lesson 1",
+      "itemIds": [
+        "music.beethoven.symphony-5.i",
+        "music.term.lied"
+      ],
+      "scenarioIds": []
+    }
+  ],
+  "items": [
+    {
+      "id": "art.van-eyck.arnolfini-portrait",
+      "discipline": "art",
+      "kind": "work",
+      "title": "The Arnolfini Portrait",
+      "city": "london",
+      "difficulty": 1,
+      "era": "Early Netherlandish",
+      "year": 1434,
+      "creator": "Jan van Eyck",
+      "facts": [
+        "Hangs in the National Gallery, London, which bought it in 1842.",
+        "The Latin inscription above the mirror reads 'Johannes de eyck fuit hic 1434': Jan van Eyck was here.",
+        "The convex mirror reflects two figures in the doorway, one of whom may be the painter."
+      ],
+      "remark": "Look at the mirror: two people are standing where you are standing, and the signature above it says the painter was here. It is a witness statement as much as a portrait.",
+      "gaffe": "Announcing that it depicts a wedding. Panofsky argued that in 1934, and art historians have been arguing about it ever since.",
+      "links": [],
+      "tags": [
+        "painting",
+        "netherlandish",
+        "1400s",
+        "national-gallery"
+      ],
+      "sources": [
+        "National Gallery, London, catalogue entry NG186",
+        "Erwin Panofsky, 'Jan van Eyck's Arnolfini Portrait', Burlington Magazine (1934)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Rogier van der Weyden",
+          "Hans Memling",
+          "Hans Holbein the Younger"
+        ],
+        "title": [
+          "The Ambassadors",
+          "Portrait of a Man in a Red Turban",
+          "The Ghent Altarpiece"
+        ],
+        "era": [
+          "Italian High Renaissance",
+          "Dutch Golden Age",
+          "Northern Mannerism"
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Van Eyck - Arnolfini Portrait.jpg",
+          "source": "National Gallery, London, via Wikimedia Commons",
+          "license": "Public domain (artist died 1441); verify the file's tag when fetching",
+          "focus": {
+            "x": 0.5,
+            "y": 0.42
+          }
+        }
+      }
+    },
+    {
+      "id": "art.turner",
+      "discipline": "art",
+      "kind": "creator",
+      "title": "J. M. W. Turner",
+      "city": "london",
+      "difficulty": 1,
+      "era": "Romantic",
+      "year": 1775,
+      "year_end": 1851,
+      "facts": [
+        "Born in Covent Garden in 1775; entered the Royal Academy Schools at fourteen.",
+        "Rain, Steam and Speed (1844) is in the National Gallery; the bulk of the Turner Bequest is at Tate Britain."
+      ],
+      "remark": "Turner left the nation the contents of his studio on condition it be kept together; that is why so much of him is in one building at Tate Britain.",
+      "gaffe": "Confusing him with Constable. Constable painted Suffolk skies and hay wains; Turner painted light dissolving everything.",
+      "links": [],
+      "tags": [
+        "painter",
+        "british",
+        "romantic",
+        "1800s"
+      ],
+      "sources": [
+        "Tate, 'Joseph Mallord William Turner 1775–1851' artist biography"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Pre-Raphaelite",
+          "Baroque",
+          "Impressionist"
+        ],
+        "person": [
+          "John Constable",
+          "Thomas Gainsborough",
+          "Joshua Reynolds"
+        ]
+      }
+    },
+    {
+      "id": "history.episode.french-revolution",
+      "discipline": "history",
+      "kind": "episode",
+      "title": "The French Revolution",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Revolution",
+      "year": 1789,
+      "year_end": 1794,
+      "facts": [
+        "The Bastille fell on 14 July 1789; Louis XVI was executed on 21 January 1793 and Marie Antoinette on 16 October 1793.",
+        "The Terror of 1793 to 1794 ended with Robespierre's own execution in July 1794.",
+        "Jacques-Louis David sat in the Convention, voted for the king's death, and painted the Revolution's images."
+      ],
+      "remark": "David voted to execute the king, painted Marat dead in his bath, and then painted Napoleon's coronation; the Revolution's official artist survived every regime.",
+      "gaffe": "Placing the storming of the Bastille in 1793. It was 1789; 1793 is the year of the guillotine.",
+      "links": [
+        "history.person.marie-antoinette",
+        "history.apocrypha.let-them-eat-cake"
+      ],
+      "tags": [
+        "france",
+        "revolution",
+        "1780s",
+        "1790s"
+      ],
+      "sources": [
+        "William Doyle, The Oxford History of the French Revolution (2nd ed., 2002)"
+      ],
+      "reviewed_by": null,
+      "cast": [
+        "Louis XVI",
+        "Marie Antoinette",
+        "Robespierre",
+        "Danton",
+        "Jacques-Louis David"
+      ]
+    },
+    {
+      "id": "history.person.marie-antoinette",
+      "discipline": "history",
+      "kind": "person",
+      "title": "Marie Antoinette",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Ancien Régime",
+      "year": 1755,
+      "year_end": 1793,
+      "facts": [
+        "Born in Vienna on 2 November 1755, the fifteenth child of the Empress Maria Theresa.",
+        "Married the future Louis XVI in 1770, aged fourteen; guillotined on 16 October 1793.",
+        "Élisabeth Vigée Le Brun painted her some thirty times."
+      ],
+      "remark": "She was a Habsburg first: an Austrian archduchess sent to France at fourteen, and 'l'Autrichienne' was the insult that followed her to the scaffold.",
+      "gaffe": "Attributing 'let them eat cake' to her as fact.",
+      "links": [
+        "history.episode.french-revolution",
+        "history.apocrypha.let-them-eat-cake"
+      ],
+      "tags": [
+        "france",
+        "queen",
+        "habsburg",
+        "1700s"
+      ],
+      "sources": [
+        "Antonia Fraser, Marie Antoinette: The Journey (2001)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "person": [
+          "Madame de Pompadour",
+          "Madame du Barry",
+          "Joséphine de Beauharnais"
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Marie-Antoinette par Elisabeth Vigée-Lebrun - 1783.jpg",
+          "source": "Élisabeth Vigée Le Brun, Marie Antoinette with a Rose (1783), via Wikimedia Commons",
+          "license": "Public domain (artist died 1842); verify the file's tag when fetching"
+        }
+      },
+      "role": "Queen of France"
+    },
+    {
+      "id": "history.apocrypha.let-them-eat-cake",
+      "discipline": "history",
+      "kind": "apocrypha",
+      "title": "\"Let them eat cake\"",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Ancien Régime",
+      "year": 1789,
+      "facts": [
+        "Rousseau's Confessions, Book VI, has the anecdote; the passage was written around 1765, when Marie Antoinette was about ten.",
+        "The French is 'qu'ils mangent de la brioche', and brioche is not cake."
+      ],
+      "remark": "Rousseau wrote that line down when she was about ten and living in Vienna; nobody pinned it on her until well after her death.",
+      "gaffe": "Quoting it as fact at a table where anyone has read a biography.",
+      "links": [
+        "history.person.marie-antoinette",
+        "history.episode.french-revolution"
+      ],
+      "tags": [
+        "france",
+        "revolution",
+        "quotation"
+      ],
+      "sources": [
+        "Jean-Jacques Rousseau, Confessions, Book VI",
+        "Antonia Fraser, Marie Antoinette: The Journey (2001)"
+      ],
+      "reviewed_by": null,
+      "claim": "Told that the poor had no bread, Marie Antoinette said: let them eat cake.",
+      "attributed_to": "Marie Antoinette",
+      "verdict": "invented",
+      "truth": "The line appears in Rousseau's Confessions, attributed to 'a great princess', and was written when Marie Antoinette was a child in Vienna. No contemporary source connects it to her."
+    },
+    {
+      "id": "music.beethoven.symphony-5.i",
+      "discipline": "music",
+      "kind": "work",
+      "title": "Symphony No. 5 in C minor, Op. 67, first movement",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Classical / early Romantic",
+      "year": 1808,
+      "creator": "Ludwig van Beethoven",
+      "facts": [
+        "Premiered on 22 December 1808 at the Theater an der Wien, on the same marathon programme as the Sixth Symphony and the Fourth Piano Concerto.",
+        "Composed between 1804 and 1808, alongside the Fourth Symphony and the Violin Concerto."
+      ],
+      "remark": "The 'fate knocking at the door' line comes from Beethoven's secretary Schindler, whose reliability scholars doubt; say that, and you sound like you have read something.",
+      "gaffe": "Calling it the Fifth Piano Concerto. That is the Emperor, and it is a different piece.",
+      "links": [],
+      "tags": [
+        "symphony",
+        "vienna",
+        "1800s",
+        "beethoven"
+      ],
+      "sources": [
+        "Lewis Lockwood, Beethoven: The Music and the Life (2003)",
+        "Grove Music Online, 'Beethoven, Ludwig van'"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Joseph Haydn",
+          "Wolfgang Amadeus Mozart",
+          "Franz Schubert"
+        ],
+        "title": [
+          "Symphony No. 3 in E-flat major, 'Eroica'",
+          "Symphony No. 9 in D minor, 'Choral'",
+          "Symphony No. 6 in F major, 'Pastoral'"
+        ],
+        "era": [
+          "Baroque",
+          "High Romantic",
+          "Modernist"
+        ]
+      },
+      "theme": {
+        "notes": "R/8 G4/8 G4/8 G4/8 Eb4/2. | R/8 F4/8 F4/8 F4/8 D4/1",
+        "tempo": 200,
+        "key": "C minor",
+        "note": "Opening motif, strings and clarinets in unison. Fermatas approximated as long notes."
+      }
+    },
+    {
+      "id": "music.term.lied",
+      "discipline": "music",
+      "kind": "term",
+      "title": "Lied",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Romantic",
+      "facts": [
+        "Schubert wrote more than six hundred Lieder, including the cycles Die schöne Müllerin and Winterreise.",
+        "Schumann, Brahms, Wolf, Mahler and Strauss carried the form to the end of the nineteenth century."
+      ],
+      "remark": "The point of a Lied is that the piano is telling the story too; listen to what it does under the voice, not just to the tune.",
+      "gaffe": "Saying 'a Lieder'. Lied is the singular; Lieder is the plural.",
+      "links": [],
+      "tags": [
+        "term",
+        "song",
+        "german",
+        "schubert"
+      ],
+      "sources": [
+        "Grove Music Online, 'Lied'"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "term": [
+          "A short instrumental piece for solo piano in a single mood, often published in sets.",
+          "A German dance in triple time that preceded the waltz.",
+          "The German term for a choral movement in an oratorio."
+        ]
+      },
+      "pronunciation": "leet (plural LEE-der)",
+      "language": "German",
+      "definition": "A German art song for solo voice and piano, in which the piano is a partner rather than an accompaniment; the plural is Lieder."
+    },
+    {
+      "id": "opera.handel.serse.ombra-mai-fu",
+      "discipline": "opera",
+      "kind": "work",
+      "title": "Ombra mai fu",
+      "city": "london",
+      "difficulty": 1,
+      "era": "Baroque",
+      "year": 1738,
+      "creator": "George Frideric Handel",
+      "parent": "Serse (1738)",
+      "facts": [
+        "Opens Serse, which premiered at the King's Theatre in the Haymarket, London, on 15 April 1738.",
+        "Known as 'Handel's Largo', though Handel marked it larghetto.",
+        "Sung by Xerxes, king of Persia, in praise of the shade of a plane tree."
+      ],
+      "remark": "It is a love song to a tree; Xerxes is serenading a plane tree, which is why the opera was laughed at in 1738 and adored two centuries later.",
+      "gaffe": "Calling it 'Handel's Largo' as if that were its name, or assuming it is addressed to a woman.",
+      "links": [
+        "opera.venue.covent-garden"
+      ],
+      "tags": [
+        "aria",
+        "baroque",
+        "handel",
+        "london",
+        "1730s"
+      ],
+      "sources": [
+        "Winton Dean, Handel's Operas, 1726–1741 (2006)",
+        "Grove Music Online, 'Serse'"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Henry Purcell",
+          "Antonio Vivaldi",
+          "Johann Sebastian Bach"
+        ],
+        "title": [
+          "Lascia ch'io pianga",
+          "Dido's Lament",
+          "Where'er you walk"
+        ],
+        "era": [
+          "Classical",
+          "Romantic",
+          "Verismo"
+        ]
+      }
+    },
+    {
+      "id": "opera.venue.covent-garden",
+      "discipline": "opera",
+      "kind": "venue",
+      "title": "Royal Opera House, Covent Garden",
+      "city": "london",
+      "difficulty": 1,
+      "era": "Georgian to Victorian",
+      "year": 1732,
+      "facts": [
+        "The first theatre on the site opened in 1732 under John Rich; the present building, by E. M. Barry, opened in 1858 after fires in 1808 and 1856.",
+        "Handel wrote many of his operas and oratorios for the first Covent Garden theatre.",
+        "It has been called the Royal Opera House since 1892."
+      ],
+      "remark": "Everyone calls it Covent Garden; the current house is the third on the site, the first two having burned down.",
+      "gaffe": "Calling it 'the Royal Albert Hall' or 'the Coliseum', which is the other opera house across the road, home of English National Opera.",
+      "links": [],
+      "tags": [
+        "venue",
+        "london",
+        "opera-house"
+      ],
+      "sources": [
+        "Royal Opera House, 'History of the Royal Opera House'"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "title": [
+          "London Coliseum",
+          "Theatre Royal, Drury Lane",
+          "Glyndebourne"
+        ]
+      },
+      "location": "London"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scenario.paris.versailles-leash",
+      "city": "paris",
+      "discipline": "history",
+      "difficulty": 1,
+      "setting": "Dinner in the seventh arrondissement. The conversation has reached Versailles.",
+      "prompt": "Your host says: \"Of course, Versailles was Louis XIV's way of keeping the nobles busy, wasn't it?\"",
+      "options": [
+        {
+          "text": "Busy and broke. Making them live at court on his timetable was the point; the etiquette was the leash, and Saint-Simon spent forty years resenting it in his memoirs.",
+          "kind": "correct",
+          "explanation": "Specific, agrees where the host is right, and adds one thing they did not know (Saint-Simon's memoirs). This is the register to aim for."
+        },
+        {
+          "text": "It was Louis XV who built it, actually; Louis XIV preferred the Louvre.",
+          "kind": "wrong",
+          "explanation": "Wrong. Louis XIII built the hunting lodge; Louis XIV turned it into the palace and moved the court there in 1682. Louis XV inherited it."
+        },
+        {
+          "text": "I have never understood why anyone bothers with Versailles. It is just a very big house.",
+          "kind": "gaffe",
+          "explanation": "A gaffe: it dismisses your host's subject and announces you have nothing to add. Philistinism is not the same as wit."
+        }
+      ],
+      "links": [
+        "history.person.marie-antoinette"
+      ],
+      "sources": [
+        "Saint-Simon, Mémoires"
+      ],
+      "reviewed_by": null
+    }
+  ],
+  "mediaIndex": {},
+  "stats": {
+    "items": 9,
+    "scenarios": 1,
+    "byDiscipline": {
+      "music": 2,
+      "opera": 2,
+      "art": 2,
+      "history": 3
+    },
+    "byCity": {
+      "london": 4,
+      "paris": 3,
+      "vienna": 2
+    },
+    "withTheme": 1,
+    "withImage": 0
+  }
+}

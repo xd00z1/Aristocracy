@@ -1,0 +1,55 @@
+items:
+  - id: art.van-eyck.arnolfini-portrait
+    discipline: art
+    kind: work
+    title: "The Arnolfini Portrait"
+    creator: Jan van Eyck
+    city: london
+    difficulty: 1
+    era: Early Netherlandish
+    year: 1434
+    facts:
+      - "Hangs in the National Gallery, London, which bought it in 1842."
+      - "The Latin inscription above the mirror reads 'Johannes de eyck fuit hic 1434': Jan van Eyck was here."
+      - "The convex mirror reflects two figures in the doorway, one of whom may be the painter."
+    remark: "Look at the mirror: two people are standing where you are standing, and the signature above it says the painter was here. It is a witness statement as much as a portrait."
+    gaffe: "Announcing that it depicts a wedding. Panofsky argued that in 1934, and art historians have been arguing about it ever since."
+    media:
+      image:
+        commons: "File:Van Eyck - Arnolfini Portrait.jpg"
+        source: "National Gallery, London, via Wikimedia Commons"
+        license: "Public domain (artist died 1441); verify the file's tag when fetching"
+        focus: { x: 0.5, y: 0.42 }
+    distractors:
+      creator: [Rogier van der Weyden, Hans Memling, Hans Holbein the Younger]
+      title: ["The Ambassadors", "Portrait of a Man in a Red Turban", "The Ghent Altarpiece"]
+      era: [Italian High Renaissance, Dutch Golden Age, Northern Mannerism]
+    links: []
+    tags: [painting, netherlandish, 1400s, national-gallery]
+    sources:
+      - "National Gallery, London, catalogue entry NG186"
+      - "Erwin Panofsky, 'Jan van Eyck's Arnolfini Portrait', Burlington Magazine (1934)"
+    reviewed_by: null
+
+  - id: art.turner
+    discipline: art
+    kind: creator
+    title: "J. M. W. Turner"
+    city: london
+    difficulty: 1
+    era: Romantic
+    year: 1775
+    year_end: 1851
+    facts:
+      - "Born in Covent Garden in 1775; entered the Royal Academy Schools at fourteen."
+      - "Rain, Steam and Speed (1844) is in the National Gallery; the bulk of the Turner Bequest is at Tate Britain."
+    remark: "Turner left the nation the contents of his studio on condition it be kept together; that is why so much of him is in one building at Tate Britain."
+    gaffe: "Confusing him with Constable. Constable painted Suffolk skies and hay wains; Turner painted light dissolving everything."
+    distractors:
+      person: [John Constable, Thomas Gainsborough, Joshua Reynolds]
+      era: [Pre-Raphaelite, Baroque, Impressionist]
+    links: []
+    tags: [painter, british, romantic, 1800s]
+    sources:
+      - "Tate, 'Joseph Mallord William Turner 1775–1851' artist biography"
+    reviewed_by: null

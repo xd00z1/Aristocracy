@@ -1,0 +1,50 @@
+items:
+  - id: opera.handel.serse.ombra-mai-fu
+    discipline: opera
+    kind: work
+    title: "Ombra mai fu"
+    parent: "Serse (1738)"
+    creator: George Frideric Handel
+    city: london
+    difficulty: 1
+    era: Baroque
+    year: 1738
+    facts:
+      - "Opens Serse, which premiered at the King's Theatre in the Haymarket, London, on 15 April 1738."
+      - "Known as 'Handel's Largo', though Handel marked it larghetto."
+      - "Sung by Xerxes, king of Persia, in praise of the shade of a plane tree."
+    remark: "It is a love song to a tree; Xerxes is serenading a plane tree, which is why the opera was laughed at in 1738 and adored two centuries later."
+    gaffe: "Calling it 'Handel's Largo' as if that were its name, or assuming it is addressed to a woman."
+    distractors:
+      creator: [Henry Purcell, Antonio Vivaldi, Johann Sebastian Bach]
+      title: ["Lascia ch'io pianga", "Dido's Lament", "Where'er you walk"]
+      era: [Classical, Romantic, Verismo]
+    links: [opera.venue.covent-garden]
+    tags: [aria, baroque, handel, london, 1730s]
+    sources:
+      - "Winton Dean, Handel's Operas, 1726–1741 (2006)"
+      - "Grove Music Online, 'Serse'"
+    reviewed_by: null
+
+  - id: opera.venue.covent-garden
+    discipline: opera
+    kind: venue
+    title: "Royal Opera House, Covent Garden"
+    location: London
+    city: london
+    difficulty: 1
+    era: Georgian to Victorian
+    year: 1732
+    facts:
+      - "The first theatre on the site opened in 1732 under John Rich; the present building, by E. M. Barry, opened in 1858 after fires in 1808 and 1856."
+      - "Handel wrote many of his operas and oratorios for the first Covent Garden theatre."
+      - "It has been called the Royal Opera House since 1892."
+    remark: "Everyone calls it Covent Garden; the current house is the third on the site, the first two having burned down."
+    gaffe: "Calling it 'the Royal Albert Hall' or 'the Coliseum', which is the other opera house across the road, home of English National Opera."
+    distractors:
+      title: ["London Coliseum", "Theatre Royal, Drury Lane", "Glyndebourne"]
+    links: []
+    tags: [venue, london, opera-house]
+    sources:
+      - "Royal Opera House, 'History of the Royal Opera House'"
+    reviewed_by: null

@@ -1,0 +1,59 @@
+# Exemplar file. Every item needs: a remark you could say at dinner, a gaffe that
+# would expose you, at least one fact, at least one source, and links to other
+# items where they exist. Themes are for Drop the Needle; see CLAUDE.md.
+items:
+  - id: music.beethoven.symphony-5.i
+    discipline: music
+    kind: work
+    title: "Symphony No. 5 in C minor, Op. 67, first movement"
+    creator: Ludwig van Beethoven
+    city: vienna
+    difficulty: 1
+    era: Classical / early Romantic
+    year: 1808
+    facts:
+      - "Premiered on 22 December 1808 at the Theater an der Wien, on the same marathon programme as the Sixth Symphony and the Fourth Piano Concerto."
+      - "Composed between 1804 and 1808, alongside the Fourth Symphony and the Violin Concerto."
+    remark: "The 'fate knocking at the door' line comes from Beethoven's secretary Schindler, whose reliability scholars doubt; say that, and you sound like you have read something."
+    gaffe: "Calling it the Fifth Piano Concerto. That is the Emperor, and it is a different piece."
+    theme:
+      notes: "R/8 G4/8 G4/8 G4/8 Eb4/2. | R/8 F4/8 F4/8 F4/8 D4/1"
+      tempo: 200
+      key: C minor
+      note: "Opening motif, strings and clarinets in unison. Fermatas approximated as long notes."
+    distractors:
+      creator: [Joseph Haydn, Wolfgang Amadeus Mozart, Franz Schubert]
+      title: ["Symphony No. 3 in E-flat major, 'Eroica'", "Symphony No. 9 in D minor, 'Choral'", "Symphony No. 6 in F major, 'Pastoral'"]
+      era: [Baroque, High Romantic, Modernist]
+    links: []
+    tags: [symphony, vienna, 1800s, beethoven]
+    sources:
+      - "Lewis Lockwood, Beethoven: The Music and the Life (2003)"
+      - "Grove Music Online, 'Beethoven, Ludwig van'"
+    reviewed_by: null
+
+  - id: music.term.lied
+    discipline: music
+    kind: term
+    title: Lied
+    city: vienna
+    difficulty: 1
+    era: Romantic
+    definition: "A German art song for solo voice and piano, in which the piano is a partner rather than an accompaniment; the plural is Lieder."
+    pronunciation: "leet (plural LEE-der)"
+    language: German
+    facts:
+      - "Schubert wrote more than six hundred Lieder, including the cycles Die schöne Müllerin and Winterreise."
+      - "Schumann, Brahms, Wolf, Mahler and Strauss carried the form to the end of the nineteenth century."
+    remark: "The point of a Lied is that the piano is telling the story too; listen to what it does under the voice, not just to the tune."
+    gaffe: "Saying 'a Lieder'. Lied is the singular; Lieder is the plural."
+    distractors:
+      term:
+        - "A short instrumental piece for solo piano in a single mood, often published in sets."
+        - "A German dance in triple time that preceded the waltz."
+        - "The German term for a choral movement in an oratorio."
+    links: []
+    tags: [term, song, german, schubert]
+    sources:
+      - "Grove Music Online, 'Lied'"
+    reviewed_by: null

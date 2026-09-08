@@ -1,0 +1,25 @@
+# Remark scenarios: a social situation, three replies. Exactly one `correct`
+# (specific, graceful, shows knowledge), one `wrong` (a factual error), one
+# `gaffe` (socially exposing). Every option carries an explanation shown after
+# answering.
+scenarios:
+  - id: scenario.paris.versailles-leash
+    city: paris
+    discipline: history
+    difficulty: 1
+    setting: "Dinner in the seventh arrondissement. The conversation has reached Versailles."
+    prompt: "Your host says: \"Of course, Versailles was Louis XIV's way of keeping the nobles busy, wasn't it?\""
+    options:
+      - kind: correct
+        text: "Busy and broke. Making them live at court on his timetable was the point; the etiquette was the leash, and Saint-Simon spent forty years resenting it in his memoirs."
+        explanation: "Specific, agrees where the host is right, and adds one thing they did not know (Saint-Simon's memoirs). This is the register to aim for."
+      - kind: wrong
+        text: "It was Louis XV who built it, actually; Louis XIV preferred the Louvre."
+        explanation: "Wrong. Louis XIII built the hunting lodge; Louis XIV turned it into the palace and moved the court there in 1682. Louis XV inherited it."
+      - kind: gaffe
+        text: "I have never understood why anyone bothers with Versailles. It is just a very big house."
+        explanation: "A gaffe: it dismisses your host's subject and announces you have nothing to add. Philistinism is not the same as wit."
+    links: [history.person.marie-antoinette]
+    sources:
+      - "Saint-Simon, Mémoires"
+    reviewed_by: null

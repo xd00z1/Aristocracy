@@ -1,0 +1,75 @@
+items:
+  - id: history.episode.french-revolution
+    discipline: history
+    kind: episode
+    title: "The French Revolution"
+    city: paris
+    difficulty: 1
+    era: Revolution
+    year: 1789
+    year_end: 1794
+    cast: [Louis XVI, Marie Antoinette, Robespierre, Danton, Jacques-Louis David]
+    facts:
+      - "The Bastille fell on 14 July 1789; Louis XVI was executed on 21 January 1793 and Marie Antoinette on 16 October 1793."
+      - "The Terror of 1793 to 1794 ended with Robespierre's own execution in July 1794."
+      - "Jacques-Louis David sat in the Convention, voted for the king's death, and painted the Revolution's images."
+    remark: "David voted to execute the king, painted Marat dead in his bath, and then painted Napoleon's coronation; the Revolution's official artist survived every regime."
+    gaffe: "Placing the storming of the Bastille in 1793. It was 1789; 1793 is the year of the guillotine."
+    links: [history.person.marie-antoinette, history.apocrypha.let-them-eat-cake]
+    tags: [france, revolution, 1780s, 1790s]
+    sources:
+      - "William Doyle, The Oxford History of the French Revolution (2nd ed., 2002)"
+    reviewed_by: null
+
+  - id: history.person.marie-antoinette
+    discipline: history
+    kind: person
+    title: "Marie Antoinette"
+    role: Queen of France
+    city: paris
+    difficulty: 1
+    era: Ancien Régime
+    year: 1755
+    year_end: 1793
+    facts:
+      - "Born in Vienna on 2 November 1755, the fifteenth child of the Empress Maria Theresa."
+      - "Married the future Louis XVI in 1770, aged fourteen; guillotined on 16 October 1793."
+      - "Élisabeth Vigée Le Brun painted her some thirty times."
+    remark: "She was a Habsburg first: an Austrian archduchess sent to France at fourteen, and 'l'Autrichienne' was the insult that followed her to the scaffold."
+    gaffe: "Attributing 'let them eat cake' to her as fact."
+    media:
+      image:
+        commons: "File:Marie-Antoinette par Elisabeth Vigée-Lebrun - 1783.jpg"
+        source: "Élisabeth Vigée Le Brun, Marie Antoinette with a Rose (1783), via Wikimedia Commons"
+        license: "Public domain (artist died 1842); verify the file's tag when fetching"
+    distractors:
+      person: [Madame de Pompadour, Madame du Barry, Joséphine de Beauharnais]
+    links: [history.episode.french-revolution, history.apocrypha.let-them-eat-cake]
+    tags: [france, queen, habsburg, 1700s]
+    sources:
+      - "Antonia Fraser, Marie Antoinette: The Journey (2001)"
+    reviewed_by: null
+
+  - id: history.apocrypha.let-them-eat-cake
+    discipline: history
+    kind: apocrypha
+    title: "\"Let them eat cake\""
+    attributed_to: Marie Antoinette
+    verdict: invented
+    claim: "Told that the poor had no bread, Marie Antoinette said: let them eat cake."
+    truth: "The line appears in Rousseau's Confessions, attributed to 'a great princess', and was written when Marie Antoinette was a child in Vienna. No contemporary source connects it to her."
+    city: paris
+    difficulty: 1
+    era: Ancien Régime
+    year: 1789
+    facts:
+      - "Rousseau's Confessions, Book VI, has the anecdote; the passage was written around 1765, when Marie Antoinette was about ten."
+      - "The French is 'qu'ils mangent de la brioche', and brioche is not cake."
+    remark: "Rousseau wrote that line down when she was about ten and living in Vienna; nobody pinned it on her until well after her death."
+    gaffe: "Quoting it as fact at a table where anyone has read a biography."
+    links: [history.person.marie-antoinette, history.episode.french-revolution]
+    tags: [france, revolution, quotation]
+    sources:
+      - "Jean-Jacques Rousseau, Confessions, Book VI"
+      - "Antonia Fraser, Marie Antoinette: The Journey (2001)"
+    reviewed_by: null
