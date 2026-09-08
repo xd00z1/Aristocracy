@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "builtAt": "2026-09-08T14:43:15.437Z",
+  "builtAt": "2026-09-08T14:54:23.635Z",
   "cities": [
     {
       "id": "london",
@@ -317,9 +317,9 @@
       "itemIds": [
         "art.leonardo.mona-lisa",
         "history.person.marie-antoinette",
-        "opera.gounod.faust.jewel-song",
+        "opera.delibes.lakme.flower-duet",
         "art.manet.dejeuner-sur-l-herbe",
-        "opera.massenet.thais.meditation",
+        "opera.gounod.faust.jewel-song",
         "art.monet.impression-sunrise"
       ],
       "scenarioIds": [
@@ -332,11 +332,11 @@
       "order": 3,
       "title": "Lesson 3",
       "itemIds": [
-        "opera.offenbach.contes-d-hoffmann.barcarolle",
+        "opera.massenet.manon.adieu-notre-petite-table",
         "art.movement.impressionism",
-        "opera.offenbach.orphee-aux-enfers.galop-infernal",
+        "opera.massenet.thais.meditation",
         "art.renoir.bal-du-moulin-de-la-galette",
-        "opera.term.opera-comique",
+        "opera.massenet.werther.pourquoi-me-reveiller",
         "art.rodin"
       ],
       "scenarioIds": [
@@ -349,11 +349,11 @@
       "order": 4,
       "title": "Lesson 4",
       "itemIds": [
-        "opera.venue.palais-garnier",
+        "opera.offenbach",
         "art.cezanne",
-        "opera.debussy.pelleas-et-melisande",
+        "opera.offenbach.contes-d-hoffmann.barcarolle",
         "art.david.oath-of-the-horatii",
-        "opera.lully",
+        "opera.offenbach.orphee-aux-enfers.galop-infernal",
         "art.degas"
       ],
       "scenarioIds": [
@@ -366,11 +366,45 @@
       "order": 5,
       "title": "Lesson 5",
       "itemIds": [
-        "opera.rameau",
+        "opera.saint-saens.samson-et-dalila.mon-coeur",
         "art.term.salon",
-        "opera.term.grand-opera",
+        "opera.term.opera-comique",
         "art.term.japonisme",
-        "opera.berlioz.les-troyens"
+        "opera.venue.opera-bastille",
+        "opera.venue.opera-comique"
+      ],
+      "scenarioIds": [
+        "scenario.paris.versailles-leash"
+      ]
+    },
+    {
+      "id": "paris.6",
+      "cityId": "paris",
+      "order": 6,
+      "title": "Lesson 6",
+      "itemIds": [
+        "opera.venue.palais-garnier",
+        "opera.debussy.pelleas-et-melisande",
+        "opera.lully",
+        "opera.meyerbeer",
+        "opera.poulenc.dialogues-des-carmelites",
+        "opera.rameau"
+      ],
+      "scenarioIds": [
+        "scenario.paris.versailles-leash"
+      ]
+    },
+    {
+      "id": "paris.7",
+      "cityId": "paris",
+      "order": 7,
+      "title": "Lesson 7",
+      "itemIds": [
+        "opera.term.claque",
+        "opera.term.divertissement",
+        "opera.term.grand-opera",
+        "opera.berlioz.les-troyens",
+        "opera.meyerbeer.les-huguenots"
       ],
       "scenarioIds": [
         "scenario.paris.versailles-leash"
@@ -601,10 +635,10 @@
       "title": "Lesson 2",
       "itemIds": [
         "music.term.lied",
-        "opera.mozart.die-zauberfloete",
+        "opera.lehar",
         "art.durer.young-hare",
         "history.episode.mayerling",
-        "opera.mozart.don-giovanni",
+        "opera.lehar.die-lustige-witwe",
         "art.klimt"
       ],
       "scenarioIds": [
@@ -623,10 +657,10 @@
       "title": "Lesson 3",
       "itemIds": [
         "history.episode.siege-of-vienna",
-        "opera.mozart.le-nozze-di-figaro",
+        "opera.mozart",
         "art.klimt.the-kiss",
         "history.episode.vienna-1900",
-        "opera.r-strauss.der-rosenkavalier",
+        "opera.mozart.die-zauberfloete",
         "art.movement.vienna-secession"
       ],
       "scenarioIds": [
@@ -645,10 +679,10 @@
       "title": "Lesson 4",
       "itemIds": [
         "history.person.elisabeth",
-        "opera.strauss-ii.die-fledermaus",
+        "opera.mozart.die-zauberfloete.der-vogelfaenger",
         "art.schiele",
         "history.person.franz-joseph",
-        "opera.term.operetta",
+        "opera.mozart.don-giovanni",
         "art.venue.kunsthistorisches-museum"
       ],
       "scenarioIds": [
@@ -667,10 +701,10 @@
       "title": "Lesson 5",
       "itemIds": [
         "history.person.maria-theresa",
-        "opera.venue.staatsoper",
+        "opera.mozart.le-nozze-di-figaro",
         "art.klimt.adele-bloch-bauer-i",
         "history.apocrypha.salieri-poisoned-mozart",
-        "opera.gluck.orfeo-ed-euridice",
+        "opera.r-strauss.der-rosenkavalier",
         "art.schiele.self-portrait-with-physalis"
       ],
       "scenarioIds": [
@@ -689,10 +723,10 @@
       "title": "Lesson 6",
       "itemIds": [
         "history.episode.1848-and-franz-joseph",
-        "opera.mozart.cosi-fan-tutte",
+        "opera.strauss-ii.die-fledermaus",
         "art.term.jugendstil",
         "history.episode.end-of-old-europe",
-        "opera.r-strauss",
+        "opera.term.opera-ball",
         "art.vermeer.the-art-of-painting"
       ],
       "scenarioIds": [
@@ -711,9 +745,54 @@
       "title": "Lesson 7",
       "itemIds": [
         "history.episode.joseph-ii-and-mozart",
-        "opera.term.singspiel",
+        "opera.term.operetta",
         "art.term.biedermeier",
         "history.person.metternich",
+        "opera.term.prompter",
+        "opera.venue.staatsoper"
+      ],
+      "scenarioIds": [
+        "scenario.vienna.bruegel-seasons",
+        "scenario.vienna.fate-knocking",
+        "scenario.vienna.orlofsky-in-trousers",
+        "scenario.vienna.poor-salieri",
+        "scenario.vienna.woman-in-gold",
+        "scenario.vienna.metternich-sekt"
+      ]
+    },
+    {
+      "id": "vienna.8",
+      "cityId": "vienna",
+      "order": 8,
+      "title": "Lesson 8",
+      "itemIds": [
+        "opera.venue.theater-an-der-wien",
+        "opera.gluck",
+        "opera.gluck.orfeo-ed-euridice",
+        "opera.mozart.cosi-fan-tutte",
+        "opera.mozart.die-entfuehrung-aus-dem-serail",
+        "opera.r-strauss"
+      ],
+      "scenarioIds": [
+        "scenario.vienna.bruegel-seasons",
+        "scenario.vienna.fate-knocking",
+        "scenario.vienna.orlofsky-in-trousers",
+        "scenario.vienna.poor-salieri",
+        "scenario.vienna.woman-in-gold",
+        "scenario.vienna.metternich-sekt"
+      ]
+    },
+    {
+      "id": "vienna.9",
+      "cityId": "vienna",
+      "order": 9,
+      "title": "Lesson 9",
+      "itemIds": [
+        "opera.r-strauss.salome",
+        "opera.term.regietheater",
+        "opera.term.singspiel",
+        "opera.venue.volksoper",
+        "opera.berg.wozzeck",
         "opera.da-ponte"
       ],
       "scenarioIds": [
@@ -9925,6 +10004,667 @@
       "definition": "French opera with spoken dialogue between the musical numbers instead of recitative; the name describes the form, not the tone, and Carmen, which ends in a stabbing, is one."
     },
     {
+      "id": "opera.massenet.manon.adieu-notre-petite-table",
+      "discipline": "opera",
+      "kind": "work",
+      "title": "Adieu, notre petite table",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Romantic",
+      "year": 1884,
+      "creator": "Jules Massenet",
+      "parent": "Manon (1884)",
+      "facts": [
+        "Manon opened at the Opéra-Comique on 19 January 1884, with Marie Heilbron as Manon and Jean-Alexandre Talazac as des Grieux; the libretto is by Henri Meilhac and Philippe Gille, after the Abbé Prévost's novel of 1731.",
+        "Manon sings it in Act 2, in the lovers' rooms in the rue Vivienne, having already agreed to leave des Grieux for the rich de Brétigny; des Grieux comes in, sings her his dream ('En fermant les yeux'), and is carried off by his father's men before the act ends.",
+        "Much of the dialogue is spoken over the orchestra rather than sung, a device called mélodrame; in Massenet's version Manon dies on the road to Le Havre, not, as in the novel, in Louisiana.",
+        "Puccini set the same novel as Manon Lescaut (Turin, 1 February 1893); Massenet answered with a one-act sequel, Le portrait de Manon, in 1894."
+      ],
+      "remark": "She is saying goodbye to a table, not to a man: Manon has already agreed to go off with the rich de Brétigny, and des Grieux, who does not know, walks in and sings her his dream.",
+      "gaffe": "Confusing it with Puccini's Manon Lescaut. Same novel, nine years later, in Italian; Massenet's Manon dies on the road to Le Havre, Puccini's in a Louisiana desert.",
+      "links": [
+        "opera.massenet.thais.meditation",
+        "opera.massenet.werther.pourquoi-me-reveiller",
+        "opera.term.opera-comique",
+        "opera.venue.opera-comique"
+      ],
+      "tags": [
+        "aria",
+        "soprano",
+        "massenet",
+        "manon",
+        "prevost",
+        "paris",
+        "1880s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Manon'",
+        "Demar Irvine, Massenet: A Chronicle of His Life and Times (1994)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Charles Gounod",
+          "Georges Bizet",
+          "Ambroise Thomas"
+        ],
+        "title": [
+          "En fermant les yeux (Le rêve)",
+          "Obéissons quand leur voix appelle (Gavotte)",
+          "Je suis encor tout étourdie"
+        ],
+        "era": [
+          "Baroque",
+          "Classical",
+          "Verismo"
+        ]
+      },
+      "pronunciation": "ah-DYUH, NOT-ruh puh-TEET TAHBL",
+      "language": "French"
+    },
+    {
+      "id": "opera.massenet.werther.pourquoi-me-reveiller",
+      "discipline": "opera",
+      "kind": "work",
+      "title": "Pourquoi me réveiller",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Romantic",
+      "year": 1892,
+      "creator": "Jules Massenet",
+      "parent": "Werther (1892)",
+      "facts": [
+        "Massenet finished Werther in 1887; Léon Carvalho, director of the Opéra-Comique, turned it down as too gloomy, and the work opened instead at the Vienna Hofoper, in German, on 16 February 1892, with the Belgian tenor Ernest Van Dyck as Werther.",
+        "Paris heard it on 16 January 1893, given by the Opéra-Comique company at the Théâtre Lyrique while the Salle Favart was being rebuilt after the fire of 1887.",
+        "The libretto, by Édouard Blau, Paul Milliet and Georges Hartmann, follows Goethe's novel of 1774; the aria comes in Act 3, on Christmas Eve, when Werther reads Charlotte his translation of Ossian, the passage Goethe's Werther reads to Lotte in the book.",
+        "Charlotte is a mezzo-soprano; Werther shoots himself with pistols borrowed from her husband Albert and dies as children sing a carol outside; Massenet later arranged the title role for the baritone Mattia Battistini, who sang it in St Petersburg in 1902."
+      ],
+      "remark": "The words are not the librettists' but Ossian's: Werther is reading Charlotte his translation of Macpherson's counterfeit Gaelic bard, which is exactly what Goethe has him read to Lotte before he shoots himself.",
+      "gaffe": "Calling it a German opera because it opened in Vienna. It is French through and through; Vienna took it after the Opéra-Comique had refused it as too gloomy, and Paris caught up a year later.",
+      "links": [
+        "opera.massenet.manon.adieu-notre-petite-table",
+        "opera.massenet.thais.meditation",
+        "opera.venue.staatsoper",
+        "opera.term.voice-types"
+      ],
+      "tags": [
+        "aria",
+        "tenor",
+        "massenet",
+        "werther",
+        "goethe",
+        "ossian",
+        "paris",
+        "vienna",
+        "1890s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Werther'",
+        "Demar Irvine, Massenet: A Chronicle of His Life and Times (1994)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Charles Gounod",
+          "Georges Bizet",
+          "Ernest Chausson"
+        ],
+        "title": [
+          "Ô nature, pleine de grâce",
+          "Va! laisse couler mes larmes",
+          "Ah! fuyez, douce image"
+        ],
+        "era": [
+          "Baroque",
+          "Classical",
+          "Verismo"
+        ]
+      },
+      "pronunciation": "poor-KWAH muh ray-vay-YAY",
+      "language": "French"
+    },
+    {
+      "id": "opera.meyerbeer",
+      "discipline": "opera",
+      "kind": "creator",
+      "title": "Giacomo Meyerbeer",
+      "city": "paris",
+      "difficulty": 2,
+      "era": "Romantic",
+      "year": 1791,
+      "year_end": 1864,
+      "facts": [
+        "Born Jakob Liebmann Beer near Berlin on 5 September 1791, the son of a Jewish banker; the Meyer came from his mother's family. He died in Paris on 2 May 1864.",
+        "Studied with the Abbé Vogler at Darmstadt alongside Carl Maria von Weber, then spent the years 1816 to 1824 in Italy writing Italian operas, ending with Il crociato in Egitto (Venice, 1824).",
+        "Robert le diable (1831), Les Huguenots (1836) and Le prophète (1849) at the Paris Opéra made him the most performed opera composer of the century; L'Africaine was staged in 1865, the year after his death. From 1842 he was also Prussian Generalmusikdirektor in Berlin.",
+        "His support helped get Wagner's Rienzi staged at Dresden in 1842; Wagner repaid him in 1850 with the anonymous pamphlet 'Das Judenthum in der Musik'."
+      ],
+      "remark": "Wagner owed him Rienzi and repaid him with 'Das Judenthum in der Musik'; the most performed opera composer of the nineteenth century is now known chiefly through the attack on him.",
+      "gaffe": "Calling him a French composer. He was a Berlin banker's son who wrote Italian operas for Venice before he ever wrote for Paris, and he held the Prussian court's music post while the Opéra lived off Les Huguenots.",
+      "links": [
+        "opera.meyerbeer.les-huguenots",
+        "opera.term.grand-opera",
+        "opera.term.divertissement",
+        "opera.venue.palais-garnier"
+      ],
+      "tags": [
+        "composer",
+        "grand-opera",
+        "meyerbeer",
+        "berlin",
+        "wagner",
+        "paris",
+        "1800s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Meyerbeer, Giacomo'",
+        "Robert Ignatius Letellier, The Operas of Giacomo Meyerbeer (2006)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Baroque",
+          "Classical",
+          "Verismo"
+        ],
+        "person": [
+          "Fromental Halévy",
+          "Daniel Auber",
+          "Gaspare Spontini"
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Meyerbeer d'après P. Petit b 1865.jpg",
+          "source": "Print after a photograph of Meyerbeer by Pierre Petit (1865), via Wikimedia Commons",
+          "license": "Public domain (nineteenth-century print; photographer Pierre Petit died 1909); verify the file's tag when fetching"
+        }
+      },
+      "pronunciation": "JAH-ko-mo MY-er-bair"
+    },
+    {
+      "id": "opera.meyerbeer.les-huguenots",
+      "discipline": "opera",
+      "kind": "work",
+      "title": "Les Huguenots",
+      "city": "paris",
+      "difficulty": 3,
+      "era": "Romantic",
+      "year": 1836,
+      "creator": "Giacomo Meyerbeer",
+      "facts": [
+        "Grand opéra in five acts, libretto by Eugène Scribe and Émile Deschamps; first performed at the Opéra, then in the Salle Le Peletier, on 29 February 1836.",
+        "Set in 1572 and ending in the St Bartholomew's Day massacre: the Protestant Raoul de Nangis loves the Catholic Valentine, and in the last act Raoul, Valentine and Raoul's old servant Marcel are shot by soldiers led by Valentine's own father, Saint-Bris.",
+        "Marcel, a bass, sings Luther's chorale 'Ein feste Burg', which runs through the score; the Act 4 'Bénédiction des poignards', in which the Catholic nobles bless their daggers, is the famous ensemble.",
+        "It needs seven leading singers, and in the 1890s the Metropolitan Opera's casts (Melba, Nordica, Scalchi, the brothers de Reszke, Plançon, Maurel) were billed as 'the nights of the seven stars'; it was also the first work to reach a thousand performances at the Paris Opéra, in 1906."
+      ],
+      "remark": "It needs seven stars, which is why nobody stages it: the Met's Huguenots of the 1890s, with Melba, Nordica and both de Reszkes, were sold as the nights of the seven stars, and the phrase has outlived the opera's place in the repertory.",
+      "gaffe": "Assuming the Huguenots come out of it alive. It ends in the massacre of 24 August 1572, and the hero, the heroine and the servant who sings Luther's chorale are all shot by the heroine's father's men.",
+      "links": [
+        "opera.meyerbeer",
+        "opera.term.grand-opera",
+        "opera.term.divertissement",
+        "history.person.catherine-de-medici"
+      ],
+      "tags": [
+        "opera",
+        "grand-opera",
+        "meyerbeer",
+        "scribe",
+        "huguenots",
+        "paris",
+        "1830s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Huguenots, Les'",
+        "Robert Ignatius Letellier, The Operas of Giacomo Meyerbeer (2006)",
+        "David Charlton (ed.), The Cambridge Companion to Grand Opera (2003)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Fromental Halévy",
+          "Daniel Auber",
+          "Gioachino Rossini"
+        ],
+        "title": [
+          "La Juive",
+          "Robert le diable",
+          "Guillaume Tell"
+        ],
+        "era": [
+          "Baroque",
+          "Classical",
+          "Verismo"
+        ]
+      },
+      "pronunciation": "lay ewg-NOH",
+      "language": "French"
+    },
+    {
+      "id": "opera.offenbach",
+      "discipline": "opera",
+      "kind": "creator",
+      "title": "Jacques Offenbach",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Romantic",
+      "year": 1819,
+      "year_end": 1880,
+      "facts": [
+        "Born Jacob Offenbach in Cologne on 20 June 1819, the son of a synagogue cantor who had taken the name of his home town, Offenbach am Main; he came to the Paris Conservatoire as a cellist in 1833 and died in Paris on 5 October 1880.",
+        "He opened his own theatre, the Bouffes-Parisiens, in 1855; its licence at first allowed only one-act pieces for a handful of singers, and Orphée aux enfers (1858) was his first full-length work once the rule was relaxed.",
+        "La belle Hélène (1864), La Vie parisienne (1866), La Grande-Duchesse de Gérolstein (1867) and La Périchole (1868) made him the composer of the Second Empire; he was naturalised French in 1860. Rossini is said to have called him the Mozart of the Champs-Élysées.",
+        "After the war of 1870 he was attacked in Paris as a German and in Germany as the man who had mocked the Empire; Les contes d'Hoffmann, his one serious opera, was unfinished when he died."
+      ],
+      "remark": "He was the Second Empire's court jester and its one German: after 1870 France remembered where he was born and Germany remembered whom he had mocked, and the Hoffmann he did not live to finish was his bid to be taken seriously.",
+      "gaffe": "Calling him a Viennese operetta composer. He is the Paris original; Johann Strauss took up the form after Offenbach's Vienna successes, and Die Fledermaus is 1874, sixteen years after Orphée.",
+      "links": [
+        "opera.offenbach.orphee-aux-enfers.galop-infernal",
+        "opera.offenbach.contes-d-hoffmann.barcarolle",
+        "opera.strauss-ii.die-fledermaus",
+        "opera.term.operetta"
+      ],
+      "tags": [
+        "composer",
+        "operetta",
+        "offenbach",
+        "second-empire",
+        "cologne",
+        "paris",
+        "1800s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Offenbach, Jacques'",
+        "Alexander Faris, Jacques Offenbach (1980)",
+        "Siegfried Kracauer, Jacques Offenbach and the Paris of His Time (1937)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Baroque",
+          "Classical",
+          "Verismo"
+        ],
+        "person": [
+          "Hervé",
+          "Charles Lecocq",
+          "Johann Strauss II"
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Jacques Offenbach by Nadar.jpg",
+          "source": "Photograph of Jacques Offenbach by Nadar, Bibliothèque nationale de France, via Wikimedia Commons",
+          "license": "Public domain (photographer Félix Nadar died 1910); verify the file's tag when fetching"
+        }
+      },
+      "pronunciation": "zhahk OFF-en-bahk"
+    },
+    {
+      "id": "opera.delibes.lakme.flower-duet",
+      "discipline": "opera",
+      "kind": "work",
+      "title": "Sous le dôme épais (Flower Duet)",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Romantic",
+      "year": 1883,
+      "creator": "Léo Delibes",
+      "parent": "Lakmé (1883)",
+      "facts": [
+        "Lakmé opened at the Opéra-Comique on 14 April 1883, with the American soprano Marie van Zandt in the title role; the libretto is by Edmond Gondinet and Philippe Gille, after Pierre Loti.",
+        "The duet comes in Act 1: Lakmé, daughter of a Brahmin priest in British India, and her servant Mallika, a mezzo, gather flowers by a river, singing in thirds in a rocking 6/8; Gérald, the British officer Lakmé will die for, has not yet appeared.",
+        "The Act 2 'Bell Song' ('Où va la jeune Hindoue') is the coloratura showpiece; Lakmé dies at the end by eating a datura leaf.",
+        "Delibes was a ballet composer first: Coppélia (1870) and Sylvia (1876) were written for the Opéra. British Airways took the duet for its advertising from 1989."
+      ],
+      "remark": "Delibes was a ballet composer first, and the duet, sung in thirds by a Brahmin's daughter and her servant picking flowers by a river, is the one page of Lakmé that an airline and everybody else took.",
+      "gaffe": "Calling it a love duet. Both singers are women, mistress and servant, and the man Lakmé loves, a British officer, has not yet walked on.",
+      "links": [
+        "opera.term.opera-comique",
+        "opera.venue.opera-comique",
+        "opera.offenbach.contes-d-hoffmann.barcarolle",
+        "opera.term.voice-types"
+      ],
+      "tags": [
+        "duet",
+        "soprano",
+        "mezzo",
+        "delibes",
+        "lakme",
+        "paris",
+        "1880s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Lakmé'",
+        "Grove Music Online, 'Delibes, Léo'"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Georges Bizet",
+          "Jules Massenet",
+          "Charles Gounod"
+        ],
+        "title": [
+          "Où va la jeune Hindoue (Bell Song)",
+          "Belle nuit, ô nuit d'amour (Barcarolle)",
+          "Les oiseaux dans la charmille (Doll Song)"
+        ],
+        "era": [
+          "Baroque",
+          "Classical",
+          "Verismo"
+        ]
+      },
+      "pronunciation": "soo luh DOHM ay-PEH",
+      "language": "French"
+    },
+    {
+      "id": "opera.saint-saens.samson-et-dalila.mon-coeur",
+      "discipline": "opera",
+      "kind": "work",
+      "title": "Mon cœur s'ouvre à ta voix",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Romantic",
+      "year": 1877,
+      "creator": "Camille Saint-Saëns",
+      "parent": "Samson et Dalila (1877)",
+      "facts": [
+        "Paris theatres were shy of biblical subjects on stage, so the opera was first given at Weimar, in German, on 2 December 1877, at Liszt's instigation; the libretto is by Ferdinand Lemaire.",
+        "France first heard it at Rouen in 1890; it entered the Paris Opéra on 23 November 1892, and is the only one of Saint-Saëns's dozen or so operas that stays in the repertory.",
+        "Dalila, a mezzo-soprano, sings it in Act 2 to seduce Samson, a tenor, into telling her the secret of his strength; the Act 3 Bacchanale in the temple of Dagon is the orchestral showpiece, and Samson brings the temple down at the end.",
+        "Saint-Saëns began the piece in 1867 as an oratorio and was talked into making it an opera."
+      ],
+      "remark": "Paris would not put the Bible on the stage, so his one repertory opera opened in Weimar, in German, in 1877 because Liszt arranged it, and the Opéra waited fifteen years.",
+      "gaffe": "Calling Dalila a soprano. The seduction sits low on purpose; it is the mezzo's aria, and Samson is the tenor she is working on.",
+      "links": [
+        "opera.bizet.carmen.habanera",
+        "opera.massenet.thais.meditation",
+        "opera.venue.palais-garnier",
+        "opera.term.voice-types"
+      ],
+      "tags": [
+        "aria",
+        "mezzo",
+        "saint-saens",
+        "samson",
+        "weimar",
+        "paris",
+        "1870s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Samson et Dalila'",
+        "Brian Rees, Camille Saint-Saëns: A Life (1999)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Jules Massenet",
+          "Charles Gounod",
+          "Ernest Reyer"
+        ],
+        "title": [
+          "Printemps qui commence",
+          "Amour! viens aider ma faiblesse",
+          "Bacchanale"
+        ],
+        "era": [
+          "Baroque",
+          "Classical",
+          "Verismo"
+        ]
+      },
+      "pronunciation": "mohn KUR SOOV-rah tah VWAH",
+      "language": "French"
+    },
+    {
+      "id": "opera.poulenc.dialogues-des-carmelites",
+      "discipline": "opera",
+      "kind": "work",
+      "title": "Dialogues des Carmélites",
+      "city": "paris",
+      "difficulty": 2,
+      "era": "Twentieth century",
+      "year": 1957,
+      "creator": "Francis Poulenc",
+      "facts": [
+        "Commissioned by Ricordi and first performed at La Scala, Milan, in Italian, on 26 January 1957; the French premiere followed at the Paris Opéra on 21 June 1957, with Denise Duval as Blanche and Régine Crespin as the new Prioress.",
+        "The text is Georges Bernanos's, written as a film script after Gertrud von Le Fort's novella Die Letzte am Schafott (1931), and set by Poulenc nearly as it stood.",
+        "The subject is the sixteen Carmelite nuns of Compiègne guillotined in Paris on 17 July 1794, ten days before Robespierre fell; Blanche de la Force, the frightened aristocrat who joins them at the scaffold, is invented.",
+        "In the final scene the nuns walk to the guillotine singing the Salve Regina, and the fall of the blade is written into the score, the voices dropping out one by one. Poulenc dedicated the work to the memory of his mother and to Monteverdi, Verdi, Mussorgsky and Debussy."
+      ],
+      "remark": "The guillotine is in the score: the nuns walk out singing the Salve Regina and a voice drops out at each stroke, which is what happened at the place du Trône on 17 July 1794, ten days before Robespierre followed them.",
+      "gaffe": "Assuming it opened in Paris. Ricordi commissioned it, so it opened at La Scala in Italian in January 1957; Paris heard it in French that June, with Denise Duval as Blanche.",
+      "links": [
+        "history.episode.french-revolution",
+        "opera.debussy.pelleas-et-melisande",
+        "opera.venue.palais-garnier"
+      ],
+      "tags": [
+        "opera",
+        "poulenc",
+        "bernanos",
+        "revolution",
+        "carmelites",
+        "paris",
+        "1950s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Dialogues des Carmélites'",
+        "Carl B. Schmidt, Entrancing Muse: A Documented Biography of Francis Poulenc (2001)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Olivier Messiaen",
+          "Darius Milhaud",
+          "Arthur Honegger"
+        ],
+        "title": [
+          "La voix humaine",
+          "Les mamelles de Tirésias",
+          "Saint François d'Assise"
+        ],
+        "era": [
+          "Baroque",
+          "Romantic",
+          "Verismo"
+        ]
+      },
+      "pronunciation": "dee-ah-LOG day kar-may-LEET",
+      "language": "French"
+    },
+    {
+      "id": "opera.venue.opera-bastille",
+      "discipline": "opera",
+      "kind": "venue",
+      "title": "Opéra Bastille",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Contemporary",
+      "year": 1989,
+      "facts": [
+        "One of Mitterrand's grands projets, meant as a modern, popular opera house; Carlos Ott won the competition in 1983, and the building went up on the site of the old Bastille railway station.",
+        "Inaugurated on 13 July 1989, the eve of the Revolution's bicentenary; the first opera performed in it was Berlioz's Les Troyens, on 17 March 1990. The main auditorium seats about 2,700.",
+        "Pierre Bergé, president of the Opéra, sacked its music director designate, Daniel Barenboim, in January 1989, before the house had opened; Myung-whun Chung took the post.",
+        "Since it opened, most opera in Paris is given here and the Palais Garnier is chiefly the house of the ballet; the two together form the Opéra national de Paris."
+      ],
+      "remark": "It opened on the eve of the bicentenary, 13 July 1989, on the site of the old Bastille railway station, having already sacked its music director, Barenboim, six months before anyone sang in it.",
+      "gaffe": "Praising the building at a Paris dinner. Parisians have been rude about Carlos Ott's design since the competition, and panels of its facade started coming loose within a few years; praise the stage machinery and the sightlines instead.",
+      "links": [
+        "opera.venue.palais-garnier",
+        "opera.berlioz.les-troyens",
+        "opera.venue.opera-comique"
+      ],
+      "tags": [
+        "venue",
+        "opera-house",
+        "bastille",
+        "mitterrand",
+        "paris",
+        "1980s"
+      ],
+      "sources": [
+        "Opéra national de Paris, 'The Opéra Bastille'",
+        "Grove Music Online, 'Paris', §6 (after 1945)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "title": [
+          "Palais Garnier",
+          "Théâtre des Champs-Élysées",
+          "Théâtre du Châtelet"
+        ]
+      },
+      "pronunciation": "oh-pay-RAH bas-TEEY",
+      "location": "Place de la Bastille, Paris"
+    },
+    {
+      "id": "opera.venue.opera-comique",
+      "discipline": "opera",
+      "kind": "venue",
+      "title": "Opéra-Comique (Salle Favart)",
+      "city": "paris",
+      "difficulty": 1,
+      "era": "Ancien Régime to Third Republic",
+      "year": 1783,
+      "facts": [
+        "The company began in the fairground theatres of Paris around 1715 and merged with the Comédie-Italienne in 1762; the house is named after Charles-Simon Favart, the eighteenth-century librettist who ran it.",
+        "Three theatres have stood on the site: the first Salle Favart of 1783 burned in 1838, the second, of 1840, burned on 25 May 1887 with 84 dead, and the third, by Louis Bernier, opened in December 1898.",
+        "Carmen (1875), Les contes d'Hoffmann (1881), Lakmé (1883), Manon (1884), Louise (1900) and Pelléas et Mélisande (1902) all had their premieres with the company; Werther's Paris premiere in 1893 was given at the Théâtre Lyrique while the house was being rebuilt.",
+        "It is a separate company from the Opéra, a few hundred metres from the Garnier on the boulevard des Italiens, and has been a théâtre national since 2005."
+      ],
+      "remark": "Three theatres on the same spot: the Salle Favart of 1783 burned in 1838, its successor burned in 1887 with eighty-four dead, and the third, of 1898, is where Pelléas opened in 1902.",
+      "gaffe": "Assuming the Opéra-Comique is part of the Opéra. It is a separate company with its own house a few hundred metres away, and Carmen, Manon and Pelléas were its premieres, not the Opéra's.",
+      "links": [
+        "opera.term.opera-comique",
+        "opera.bizet.carmen.habanera",
+        "opera.debussy.pelleas-et-melisande",
+        "opera.venue.palais-garnier",
+        "opera.venue.opera-bastille"
+      ],
+      "tags": [
+        "venue",
+        "opera-house",
+        "salle-favart",
+        "opera-comique",
+        "paris",
+        "1780s",
+        "1890s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Opéra-Comique'",
+        "Nicole Wild and David Charlton, Théâtre de l'Opéra-Comique, Paris: répertoire 1762–1972 (2005)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "title": [
+          "Palais Garnier",
+          "Théâtre des Bouffes-Parisiens",
+          "Théâtre Lyrique"
+        ]
+      },
+      "pronunciation": "oh-pay-RAH koh-MEEK; sal fah-VAHR",
+      "location": "Place Boieldieu, Paris"
+    },
+    {
+      "id": "opera.term.claque",
+      "discipline": "opera",
+      "kind": "term",
+      "title": "Claque",
+      "city": "paris",
+      "difficulty": 2,
+      "era": "Nineteenth century",
+      "facts": [
+        "Paris put applause on a commercial footing in 1820, when a man named Sauton opened an agency selling it to managers and performers; the Opéra's chef de claque of the 1830s, Auguste Levasseur, attended rehearsals to plan where his people would clap.",
+        "A claque had specialists: rieurs to laugh, pleureurs to weep, bisseurs to demand the encore, and chatouilleurs to keep their neighbours in good humour.",
+        "The practice is older than opera: Nero kept a trained body of young applauders, the Augustiani. Mahler fought the claque at the Vienna Hofoper after 1897, and houses went on tolerating it well into the twentieth century."
+      ],
+      "remark": "At the Opéra in the 1830s the applause was scored as carefully as the music: Levasseur, the chef de claque, went to rehearsals to plan where his people would clap, laugh, weep and call for the encore.",
+      "gaffe": "Taking a warm reception at a Paris premiere as the verdict of the public. Well into the twentieth century some of it was paid for, seated in the middle of the parterre, and told when to start.",
+      "links": [
+        "opera.venue.palais-garnier",
+        "opera.term.grand-opera",
+        "opera.meyerbeer",
+        "opera.venue.staatsoper"
+      ],
+      "tags": [
+        "term",
+        "claque",
+        "applause",
+        "audience",
+        "paris",
+        "1820s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Claque'",
+        "The Oxford Companion to Music, 'Claque'"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "term": [
+          "A group of critics and connoisseurs who sat together in the parterre and set the town's opinion of a new work.",
+          "The clatter made by the stage machinery of an old French theatre, used as a signal to the orchestra.",
+          "A rousing vocal flourish written into the end of an aria to draw an ovation."
+        ]
+      },
+      "pronunciation": "klak",
+      "language": "French",
+      "definition": "An organised body of paid applauders, seated through the house and directed by a chef de claque, who clapped, laughed, wept and called for encores to order; from claquer, to clap."
+    },
+    {
+      "id": "opera.term.divertissement",
+      "discipline": "opera",
+      "kind": "term",
+      "title": "Divertissement (the ballet in French opera)",
+      "city": "paris",
+      "difficulty": 2,
+      "era": "Baroque to Romantic",
+      "facts": [
+        "Louis XIV danced himself, appearing as the rising sun in the Ballet royal de la Nuit in 1653 with Lully among the dancers; Lully's tragédies en musique kept a divertissement of dances and choruses in each act, and Rameau's Les Indes galantes (1735) is an opéra-ballet, a form held together by dancing.",
+        "The Romantic ballet was born inside an opera: the ballet of the dead nuns in Act 3 of Meyerbeer's Robert le diable (1831), choreographed by Filippo Taglioni for his daughter Marie, came a year before La Sylphide.",
+        "Verdi wrote ballets for the Opéra four times, for Les vêpres siciliennes (1855), Le trouvère (1857), Don Carlos (1867) and the Paris Otello of 1894; Gounod's Faust acquired its Walpurgis Night ballet when it moved to the Opéra in 1869."
+      ],
+      "remark": "The Romantic ballet was born inside an opera: the dance of the dead nuns in Robert le diable in 1831, with Marie Taglioni, came a year before La Sylphide, and after that the Opéra expected a ballet from everyone, Verdi and Wagner included.",
+      "gaffe": "Treating the ballet in a French opera as padding to cut. Verdi wrote one for Paris four times, and the whole opéra-ballet form of Rameau is nothing but the dancing.",
+      "links": [
+        "opera.lully",
+        "opera.rameau",
+        "opera.term.grand-opera",
+        "opera.meyerbeer",
+        "opera.gounod.faust.jewel-song",
+        "opera.venue.palais-garnier"
+      ],
+      "tags": [
+        "term",
+        "ballet",
+        "divertissement",
+        "lully",
+        "rameau",
+        "meyerbeer",
+        "verdi",
+        "paris"
+      ],
+      "sources": [
+        "Grove Music Online, 'Divertissement'",
+        "Marian Smith, Ballet and Opera in the Age of Giselle (2000)",
+        "David Charlton (ed.), The Cambridge Companion to Grand Opera (2003)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "term": [
+          "The comic intermezzo played between the acts of an Italian opera seria, from which opera buffa grew.",
+          "A spoken scene between the musical numbers of an opéra comique.",
+          "The orchestral prelude played before the curtain rises on a French grand opéra."
+        ]
+      },
+      "pronunciation": "dee-vair-teess-MAHN",
+      "language": "French",
+      "definition": "The dance episode built into a French opera: a set of dances, usually with chorus, that halts the plot to show the company's ballet. Lully put one in every act, and the Opéra of the 1830s expected it in Act 2."
+    },
+    {
       "id": "opera.mozart.le-nozze-di-figaro",
       "discipline": "opera",
       "kind": "work",
@@ -10644,6 +11384,732 @@
       "pronunciation": "op-er-ET-ta",
       "language": "Italian",
       "definition": "Light opera with spoken dialogue, dance rhythms and a comic or sentimental plot; in Vienna it runs from Strauss's Die Fledermaus (1874) to Lehár's The Merry Widow (1905) and its successors."
+    },
+    {
+      "id": "opera.mozart.die-zauberfloete.der-vogelfaenger",
+      "discipline": "opera",
+      "kind": "work",
+      "title": "Der Vogelfänger bin ich ja (Papageno's aria)",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Classical",
+      "year": 1791,
+      "creator": "Wolfgang Amadeus Mozart",
+      "parent": "Die Zauberflöte (1791)",
+      "facts": [
+        "Papageno's entrance song in Act I of Die Zauberflöte, first heard at the Theater auf der Wieden on 30 September 1791, sung by Emanuel Schikaneder, who had written the libretto and owned the theatre.",
+        "A strophic song in G major, deliberately folk-like, the verses turning from birds to girls; Papageno's panpipes, five rising notes, punctuate it.",
+        "Papageno is a baritone in a suit of feathers who catches birds for the Queen of the Night's three ladies; his instruments are the panpipes and, later, a set of magic bells. The flute is Tamino's."
+      ],
+      "remark": "Schikaneder wrote the words, owned the theatre and sang this himself on the first night, in feathers; it is a strophic song in G major with five rising panpipe notes between the lines, and it sounds like a street song on purpose.",
+      "gaffe": "Handing Papageno the flute. The flute is Tamino's, the tenor's; Papageno, a baritone, has the panpipes and the magic bells, and what he wants is a wife, not wisdom.",
+      "links": [
+        "opera.mozart.die-zauberfloete",
+        "opera.term.singspiel",
+        "opera.mozart",
+        "opera.venue.theater-an-der-wien"
+      ],
+      "tags": [
+        "aria",
+        "papageno",
+        "baritone",
+        "singspiel",
+        "mozart",
+        "schikaneder",
+        "vienna",
+        "1790s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Zauberflöte, Die'",
+        "Peter Branscombe, W. A. Mozart: Die Zauberflöte (Cambridge Opera Handbooks, 1991)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Joseph Haydn",
+          "Antonio Salieri",
+          "Carl Ditters von Dittersdorf"
+        ],
+        "title": [
+          "Ein Mädchen oder Weibchen",
+          "O Isis und Osiris",
+          "Dies Bildnis ist bezaubernd schön"
+        ],
+        "era": [
+          "Baroque",
+          "Romantic",
+          "Verismo"
+        ]
+      },
+      "pronunciation": "dair FOH-gel-feng-er bin ikh yah",
+      "language": "German"
+    },
+    {
+      "id": "opera.mozart.die-entfuehrung-aus-dem-serail",
+      "discipline": "opera",
+      "kind": "work",
+      "title": "Die Entführung aus dem Serail (The Abduction from the Seraglio)",
+      "city": "vienna",
+      "difficulty": 2,
+      "era": "Classical",
+      "year": 1782,
+      "creator": "Wolfgang Amadeus Mozart",
+      "facts": [
+        "First performed at the Burgtheater on 16 July 1782, written for Joseph II's National Singspiel company; the libretto is by Gottlieb Stephanie the younger, reworked from Christoph Friedrich Bretzner's Belmont und Constanze.",
+        "Belmonte, with his servant Pedrillo, rescues Konstanze and her maid Blonde from the seraglio of Pasha Selim, a speaking part; Osmin, the overseer, is a bass whose rage aria goes down to a low D, and the Pasha lets them all go.",
+        "The 'Turkish' scoring, piccolo, triangle, cymbals and bass drum, opens the overture; Konstanze's 'Martern aller Arten' has a long concertante introduction for four solo instruments before she sings a note.",
+        "Mozart married Constanze Weber on 4 August 1782, under three weeks after the premiere. Niemetschek's biography of 1798 is the source for Joseph II's 'an enormous number of notes, dear Mozart' and for the reply that there were exactly as many as were needed."
+      ],
+      "remark": "'Too many notes' belongs here, if anywhere: Niemetschek's biography of 1798 has Joseph II say it of this piece and Mozart answer that there were exactly as many as were needed; the heroine is Konstanze, and Mozart married his own Constanze three weeks after the first night.",
+      "gaffe": "Filing it with the Italian operas. It is a German Singspiel with spoken dialogue, written for Joseph II's National Singspiel company, and its Pasha never sings a note; the Italian Vienna operas came later, with Da Ponte.",
+      "links": [
+        "opera.term.singspiel",
+        "opera.mozart.die-zauberfloete",
+        "opera.mozart",
+        "opera.da-ponte",
+        "history.episode.joseph-ii-and-mozart"
+      ],
+      "tags": [
+        "opera",
+        "singspiel",
+        "mozart",
+        "turkish",
+        "burgtheater",
+        "vienna",
+        "1780s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Entführung aus dem Serail, Die'",
+        "Thomas Bauman, W. A. Mozart: Die Entführung aus dem Serail (Cambridge Opera Handbooks, 1987)",
+        "Franz Xaver Niemetschek, Leben des K.K. Kapellmeisters Wolfgang Gottlieb Mozart (1798)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Antonio Salieri",
+          "Joseph Haydn",
+          "Carl Ditters von Dittersdorf"
+        ],
+        "title": [
+          "Die Zauberflöte",
+          "Zaide",
+          "Der Schauspieldirektor"
+        ],
+        "era": [
+          "Baroque",
+          "Romantic",
+          "Verismo"
+        ],
+        "year": [
+          1778,
+          1786,
+          1791
+        ]
+      },
+      "pronunciation": "dee ent-FUE-roong ows dem zeh-RYE",
+      "language": "German"
+    },
+    {
+      "id": "opera.lehar.die-lustige-witwe",
+      "discipline": "opera",
+      "kind": "work",
+      "title": "Die lustige Witwe (The Merry Widow)",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Viennese operetta",
+      "year": 1905,
+      "creator": "Franz Lehár",
+      "facts": [
+        "First performed at the Theater an der Wien on 30 December 1905, with Mizzi Günther as Hanna Glawari and Louis Treumann as Danilo; the libretto is by Victor Léon and Leo Stein, after Henri Meilhac's comedy L'Attaché d'ambassade (1861).",
+        "Hanna, a rich widow from Pontevedro, a Balkan state standing in for Montenegro, is in Paris; the embassy's Baron Zeta wants her millions kept at home by marrying her to Count Danilo, her old love, who refuses to court money.",
+        "The numbers: Hanna's 'Vilja-Lied', Danilo's 'Da geh' ich zu Maxim', and the Act III duet 'Lippen schweigen', the Merry Widow Waltz.",
+        "London had it at Daly's Theatre in June 1907 with Lily Elsie, New York that October; the 'Merry Widow hat' was a fashion, and the Silver Age of Viennese operetta is dated from it."
+      ],
+      "remark": "Danilo will not court a woman with millions in case it looks like the money, so the two dance instead of talking until Act III, when 'Lippen schweigen' lets the violins say it; it opened at the Theater an der Wien on 30 December 1905 and was in London and New York within two years.",
+      "gaffe": "Calling it Strauss, or Lehár Viennese by birth. He was a Hungarian bandmaster's son from Komárom, and the Widow belongs to the Silver Age of operetta, thirty years after Die Fledermaus.",
+      "links": [
+        "opera.term.operetta",
+        "opera.lehar",
+        "opera.venue.theater-an-der-wien",
+        "opera.strauss-ii.die-fledermaus"
+      ],
+      "tags": [
+        "operetta",
+        "lehar",
+        "silver-age",
+        "theater-an-der-wien",
+        "paris",
+        "vienna",
+        "1900s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Lustige Witwe, Die'",
+        "Richard Traubner, Operetta: A Theatrical History (2nd ed., 2003)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Johann Strauss II",
+          "Emmerich Kálmán",
+          "Oscar Straus"
+        ],
+        "title": [
+          "Die Fledermaus",
+          "Die Csárdásfürstin",
+          "Das Land des Lächelns"
+        ],
+        "era": [
+          "Classical",
+          "Grand opéra",
+          "Verismo"
+        ]
+      },
+      "pronunciation": "dee LOOS-tig-eh VIT-veh",
+      "language": "German"
+    },
+    {
+      "id": "opera.r-strauss.salome",
+      "discipline": "opera",
+      "kind": "work",
+      "title": "Salome",
+      "city": "vienna",
+      "difficulty": 2,
+      "era": "Late Romantic",
+      "year": 1905,
+      "creator": "Richard Strauss",
+      "facts": [
+        "First performed at the Dresden Court Opera on 9 December 1905, in one act; Strauss set Hedwig Lachmann's German translation of Oscar Wilde's play, which Wilde had written in French in 1891, cutting the text himself.",
+        "Salome, Herod's stepdaughter, dances the Dance of the Seven Veils for the head of Jochanaan, John the Baptist, and kisses it when it comes; Herod has the soldiers crush her under their shields.",
+        "Vienna's censor refused it for the Court Opera despite Mahler; the Austrian premiere was in Graz on 16 May 1906 under Strauss, with Mahler, Puccini, Schoenberg and Berg in the house, and the Vienna Court Opera did not stage it until 1918.",
+        "The Metropolitan Opera gave it once, on 22 January 1907, and withdrew it under pressure from its board; the first Salome, Marie Wittich, declined to do the dance herself and a dancer stood in."
+      ],
+      "remark": "The censor kept it off the Court Opera stage until 1918, so the Austrian premiere was Graz in May 1906 with Strauss conducting and Mahler, Puccini, Schoenberg and Berg in the audience; that is the performance to mention.",
+      "gaffe": "Expecting waltzes or an interval. It is one act of about a hundred minutes, the dance is the Seven Veils and the first Salome would not dance it herself; the waltzes are Rosenkavalier, six years later.",
+      "links": [
+        "opera.r-strauss",
+        "opera.r-strauss.der-rosenkavalier",
+        "opera.venue.staatsoper",
+        "opera.venue.volksoper",
+        "history.episode.vienna-1900"
+      ],
+      "tags": [
+        "opera",
+        "strauss",
+        "wilde",
+        "dresden",
+        "graz",
+        "censorship",
+        "vienna",
+        "1900s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Salome'",
+        "Derrick Puffett (ed.), Richard Strauss: Salome (Cambridge Opera Handbooks, 1989)",
+        "Michael Kennedy, Richard Strauss: Man, Musician, Enigma (1999)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Gustav Mahler",
+          "Alexander von Zemlinsky",
+          "Franz Schreker"
+        ],
+        "title": [
+          "Elektra",
+          "Der Rosenkavalier",
+          "Ariadne auf Naxos"
+        ],
+        "era": [
+          "Classical",
+          "Baroque",
+          "Bel canto"
+        ]
+      },
+      "pronunciation": "ZAH-lo-meh",
+      "language": "German"
+    },
+    {
+      "id": "opera.berg.wozzeck",
+      "discipline": "opera",
+      "kind": "work",
+      "title": "Wozzeck",
+      "city": "vienna",
+      "difficulty": 3,
+      "era": "Modernist",
+      "year": 1925,
+      "creator": "Alban Berg",
+      "facts": [
+        "Berg, born in Vienna in 1885 and Schoenberg's pupil, saw Georg Büchner's unfinished play at its Vienna premiere in May 1914; he composed the opera between 1914 and 1922, around his war service, and Erich Kleiber gave the premiere at the Berlin State Opera on 14 December 1925.",
+        "Three acts of five scenes each, every scene built as an instrumental form: the suite, passacaglia and rondo of Act I, the five-movement symphony of Act II, the inventions of Act III; the D minor interlude before the last scene is where the score turns tonal.",
+        "The soldier Wozzeck, shaved, lectured and fed on beans by the Captain and the Doctor, cuts Marie's throat by the pond and drowns looking for the knife; their child rides his hobby-horse in the last scene while the others run off to see the body.",
+        "The name is a misreading: Karl Emil Franzos, editing Büchner's manuscripts in 1879, read Woyzeck as Wozzeck, and Berg kept the spelling. The Vienna State Opera first gave it in March 1930 under Clemens Krauss."
+      ],
+      "remark": "Berg saw Büchner's play in Vienna in May 1914 and needed eight years and a war to make it an opera, and the title keeps a misprint: Franzos, reading Büchner's hand in 1879, made Woyzeck into Wozzeck, and Berg never corrected it.",
+      "gaffe": "Calling it twelve-tone. Wozzeck is atonal but not serial; Berg's row technique arrives with Lulu, and the shape of Wozzeck is old forms, a passacaglia, a symphony, a set of inventions, hidden under the drama.",
+      "links": [
+        "opera.venue.staatsoper",
+        "opera.r-strauss.salome",
+        "history.episode.vienna-1900",
+        "history.episode.end-of-old-europe"
+      ],
+      "tags": [
+        "opera",
+        "berg",
+        "second-viennese-school",
+        "buechner",
+        "berlin",
+        "vienna",
+        "1920s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Wozzeck'",
+        "Douglas Jarman, Alban Berg: Wozzeck (Cambridge Opera Handbooks, 1989)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "creator": [
+          "Arnold Schoenberg",
+          "Anton Webern",
+          "Ernst Krenek"
+        ],
+        "title": [
+          "Lulu",
+          "Moses und Aron",
+          "Jonny spielt auf"
+        ],
+        "era": [
+          "Classical",
+          "Romantic",
+          "Verismo"
+        ]
+      },
+      "pronunciation": "VOT-sek",
+      "language": "German"
+    },
+    {
+      "id": "opera.mozart",
+      "discipline": "opera",
+      "kind": "creator",
+      "title": "Wolfgang Amadeus Mozart",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Classical",
+      "year": 1756,
+      "year_end": 1791,
+      "facts": [
+        "Born in Salzburg on 27 January 1756; dismissed from the Archbishop of Salzburg's service in Vienna in June 1781 and stayed on as a freelance; died in Vienna on 5 December 1791, aged thirty-five, of a fever the death register calls 'hitziges Frieselfieber'.",
+        "The Vienna operas: Die Entführung aus dem Serail (1782) for Joseph II's National Singspiel, the three Da Ponte comedies Le nozze di Figaro (1786), Don Giovanni (Prague 1787, Vienna 1788) and Così fan tutte (1790), and Die Zauberflöte (1791) for Schikaneder's suburban theatre.",
+        "He signed himself Wolfgang Amadè; 'Amadeus' is the Latin form he used only in jest, and it stuck after his death.",
+        "Buried at St Marx cemetery in a common grave, which is what Joseph II's burial regulations of 1784 prescribed for most Viennese; the storm and the pauper's grave are later embroidery."
+      ],
+      "remark": "He signed himself Amadè, not Amadeus, spent his last ten years in Vienna as a freelance after the Archbishop's man had kicked him out of the room, and was buried in a common grave because Joseph II's regulations said so, not because he was a pauper.",
+      "gaffe": "Repeating the poisoning. The register says fever, the Salieri story was gossip within a month and a Pushkin play by 1830, and Salieri taught Mozart's own son; Amadeus is a play, not a biography.",
+      "links": [
+        "opera.mozart.le-nozze-di-figaro",
+        "opera.mozart.don-giovanni",
+        "opera.mozart.cosi-fan-tutte",
+        "opera.mozart.die-zauberfloete",
+        "opera.mozart.die-entfuehrung-aus-dem-serail",
+        "opera.da-ponte",
+        "history.apocrypha.salieri-poisoned-mozart",
+        "history.episode.joseph-ii-and-mozart"
+      ],
+      "tags": [
+        "composer",
+        "salzburg",
+        "vienna",
+        "mozart",
+        "classical",
+        "1780s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Mozart, (Johann Chrysostom) Wolfgang Amadeus'",
+        "Maynard Solomon, Mozart: A Life (1995)",
+        "H. C. Robbins Landon, 1791: Mozart's Last Year (1988)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Baroque",
+          "Romantic",
+          "Bel canto"
+        ],
+        "person": [
+          "Joseph Haydn",
+          "Antonio Salieri",
+          "Christoph Willibald Gluck"
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Wolfgang-amadeus-mozart 1.jpg",
+          "source": "Barbara Krafft, posthumous portrait of Mozart, 1819, Gesellschaft der Musikfreunde, Vienna, via Wikimedia Commons",
+          "license": "Public domain (artist died 1825); verify the file's tag when fetching",
+          "focus": {
+            "x": 0.5,
+            "y": 0.3
+          }
+        }
+      }
+    },
+    {
+      "id": "opera.gluck",
+      "discipline": "opera",
+      "kind": "creator",
+      "title": "Christoph Willibald Gluck",
+      "city": "vienna",
+      "difficulty": 2,
+      "era": "Classical",
+      "year": 1714,
+      "year_end": 1787,
+      "facts": [
+        "Born at Erasbach in the Upper Palatinate on 2 July 1714, a forester's son; worked in Milan, London and Prague before settling in Vienna, where he married a merchant's daughter in 1750 and died on 15 November 1787.",
+        "With the librettist Ranieri de' Calzabigi he made the Vienna reform operas, Orfeo ed Euridice (1762), Alceste (1767) and Paride ed Elena (1770); the printed dedication of Alceste (1769) is the manifesto: music to serve the poetry, no da capo repeats, no ornament for its own sake.",
+        "He had taught the Archduchess Maria Antonia her music in Vienna; as Marie Antoinette she backed him in Paris, where Iphigénie en Aulide (1774) set off the pamphlet war between his partisans and Niccolò Piccinni's.",
+        "A papal Knight of the Golden Spur from 1756, hence 'Ritter von Gluck'; the Paris operas run to Armide (1777) and Iphigénie en Tauride (1779), after which strokes ended his career."
+      ],
+      "remark": "A Bavarian forester's son who taught Marie Antoinette her music in Vienna and followed her to Paris, where his Iphigénie en Aulide of 1774 started the Gluckist and Piccinnist quarrel; the reform manifesto is the preface to Alceste, printed in 1769.",
+      "gaffe": "Shelving him with Handel as Baroque because he wrote an Orpheus. The point of Gluck is the break with Baroque opera: no da capo arias, no display for its own sake, the drama first; Berlioz worshipped him and Wagner revised his Iphigénie en Aulide for Dresden.",
+      "links": [
+        "opera.gluck.orfeo-ed-euridice",
+        "opera.term.castrato",
+        "history.person.marie-antoinette",
+        "history.person.maria-theresa",
+        "opera.mozart"
+      ],
+      "tags": [
+        "composer",
+        "reform",
+        "gluck",
+        "calzabigi",
+        "vienna",
+        "paris",
+        "1760s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Gluck, Christoph Willibald Ritter von'",
+        "Patricia Howard, Gluck: An Eighteenth-Century Portrait in Letters and Documents (1995)",
+        "Bruce Alan Brown, Gluck and the French Theatre in Vienna (1991)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Baroque",
+          "Romantic",
+          "Verismo"
+        ],
+        "person": [
+          "Johann Adolf Hasse",
+          "Niccolò Piccinni",
+          "Joseph Haydn"
+        ]
+      },
+      "media": {
+        "image": {
+          "commons": "File:Joseph Siffred Duplessis - Christoph Willibald Gluck - Google Art Project.jpg",
+          "source": "Joseph Siffred Duplessis, Christoph Willibald Gluck, 1775, Kunsthistorisches Museum, Vienna, via Wikimedia Commons (Google Art Project scan)",
+          "license": "Public domain (artist died 1802); verify the file's tag when fetching",
+          "focus": {
+            "x": 0.5,
+            "y": 0.3
+          }
+        }
+      },
+      "pronunciation": "GLOOK"
+    },
+    {
+      "id": "opera.lehar",
+      "discipline": "opera",
+      "kind": "creator",
+      "title": "Franz Lehár",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Viennese operetta",
+      "year": 1870,
+      "year_end": 1948,
+      "facts": [
+        "Born at Komárom in Hungary on 30 April 1870, the son of a military bandmaster; trained as a violinist at the Prague Conservatory and was himself an army bandmaster, lastly in Vienna, until 1902.",
+        "Die lustige Witwe (1905) made him; the operettas of the 1920s, Paganini (1925), Der Zarewitsch (1927), Friederike (1928) and Das Land des Lächelns (1929), were written around the tenor Richard Tauber, whose song in the last is 'Dein ist mein ganzes Herz'.",
+        "Giuditta, his last stage work, opened at the Vienna State Opera on 20 January 1934 with Tauber and Jarmila Novotná; he died at Bad Ischl on 24 October 1948, where his villa on the Traun is a museum.",
+        "Hitler's favourite operetta was The Merry Widow. Lehár stayed in Vienna after the Anschluss, his Jewish wife Sophie protected by a special status, while his librettist Fritz Löhner-Beda, who had written Das Land des Lächelns, was murdered at Auschwitz in December 1942."
+      ],
+      "remark": "Every Lehár of the 1920s has a tenor part built for Richard Tauber, and 'Dein ist mein ganzes Herz' from Das Land des Lächelns is the one Tauber sang in every language he had; the composer was a Hungarian bandmaster's son who stayed in Vienna through the Nazi years.",
+      "gaffe": "Counting him among the Strausses, or the Widow as Golden Age. He was born in Hungary in 1870, trained in Prague, and is the Silver Age of operetta, the generation after Die Fledermaus.",
+      "links": [
+        "opera.lehar.die-lustige-witwe",
+        "opera.term.operetta",
+        "opera.venue.theater-an-der-wien",
+        "opera.strauss-ii.die-fledermaus",
+        "opera.venue.staatsoper"
+      ],
+      "tags": [
+        "composer",
+        "operetta",
+        "lehar",
+        "tauber",
+        "hungary",
+        "vienna",
+        "bad-ischl",
+        "1900s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Lehár, Franz'",
+        "Richard Traubner, Operetta: A Theatrical History (2nd ed., 2003)",
+        "Bernard Grun, Gold and Silver: The Life and Times of Franz Lehár (1970)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "era": [
+          "Classical",
+          "Baroque",
+          "Verismo"
+        ],
+        "person": [
+          "Emmerich Kálmán",
+          "Oscar Straus",
+          "Leo Fall"
+        ]
+      },
+      "pronunciation": "LAY-har"
+    },
+    {
+      "id": "opera.venue.theater-an-der-wien",
+      "discipline": "opera",
+      "kind": "venue",
+      "title": "Theater an der Wien",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Classical",
+      "year": 1801,
+      "facts": [
+        "Opened on 13 June 1801 by Emanuel Schikaneder, the librettist and first Papageno of Die Zauberflöte, to replace his Theater auf der Wieden; the Wien in the name is the river it stands on, and the Papagenotor on Millöckergasse, with Schikaneder as Papageno, survives from the original building.",
+        "Beethoven lodged in the building and used it: Fidelio opened there on 20 November 1805, the Eroica had its first public performance there on 7 April 1805, and the concert of 22 December 1808 introduced the Fifth and Sixth Symphonies.",
+        "The operetta house of the Golden and Silver Ages: Die Fledermaus (1874), Der Zigeunerbaron (1885) and Die lustige Witwe (1905) all opened here.",
+        "Closed after the Staatsoper company left in 1955, reopened in 1962, and from the 1980s a musicals house, where Cats ran for seven years from 1983; since 2006, the Mozart year, it has been an opera house again on the stagione system, one production at a time."
+      ],
+      "remark": "The Wien in the name is the river, not the city: Schikaneder built it on the Wien in 1801, Beethoven lodged in it and gave Fidelio there, Fledermaus and The Merry Widow opened on its stage, and it spent the 1980s running Cats before going back to opera in 2006.",
+      "gaffe": "Calling it a musicals house. It was one from the 1980s to 2006; since then it has been Vienna's third opera house, one production at a time, and it is the room where Fidelio, the Eroica and Die Fledermaus were first heard.",
+      "links": [
+        "opera.beethoven.fidelio",
+        "opera.strauss-ii.die-fledermaus",
+        "opera.lehar.die-lustige-witwe",
+        "opera.mozart.die-zauberfloete",
+        "opera.venue.staatsoper",
+        "music.beethoven.symphony-5.i"
+      ],
+      "tags": [
+        "venue",
+        "vienna",
+        "theater-an-der-wien",
+        "schikaneder",
+        "beethoven",
+        "operetta"
+      ],
+      "sources": [
+        "Grove Music Online, 'Vienna'",
+        "Lewis Lockwood, Beethoven: The Music and the Life (2003)",
+        "Theater an der Wien, 'History of the house'"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "title": [
+          "Volksoper Wien",
+          "Burgtheater",
+          "Theater in der Josefstadt"
+        ]
+      },
+      "pronunciation": "teh-AH-ter ahn dair VEEN",
+      "location": "Vienna, Linke Wienzeile"
+    },
+    {
+      "id": "opera.venue.volksoper",
+      "discipline": "opera",
+      "kind": "venue",
+      "title": "Volksoper Wien",
+      "city": "vienna",
+      "difficulty": 2,
+      "era": "Fin de siècle",
+      "year": 1898,
+      "facts": [
+        "Opened on 14 December 1898 on the Währinger Strasse as the Kaiser-Jubiläums-Stadttheater, a playhouse marking Franz Joseph's fifty years on the throne; it took up opera in 1903 and became the Volksoper.",
+        "It gave Vienna its first Tosca, in 1907, and its first Salome, in 1910, neither of which the Court Opera on the Ring had yet staged.",
+        "From 1945 to 1955, while the bombed State Opera was rebuilt, the Staatsoper company played here and at the Theater an der Wien.",
+        "Today it is a repertory house for operetta, opera sung in German, musicals and dance, out by the Gürtel rather than on the Ring."
+      ],
+      "remark": "It began as a jubilee playhouse for Franz Joseph's fifty years in 1898 and only turned to opera in 1903, then gave Vienna its first Tosca in 1907 and its first Salome in 1910 while the Court Opera on the Ring had staged neither.",
+      "gaffe": "Treating it as the Staatsoper's understudy. It is the house for operetta and opera in German, it housed the Staatsoper company itself from 1945 to 1955, and it is on the Gürtel, not the Ring.",
+      "links": [
+        "opera.venue.staatsoper",
+        "opera.venue.theater-an-der-wien",
+        "opera.term.operetta",
+        "opera.r-strauss.salome",
+        "history.person.franz-joseph"
+      ],
+      "tags": [
+        "venue",
+        "vienna",
+        "volksoper",
+        "operetta",
+        "opera-house",
+        "1890s"
+      ],
+      "sources": [
+        "Grove Music Online, 'Vienna'",
+        "Volksoper Wien, 'History of the Volksoper'"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "title": [
+          "Wiener Staatsoper",
+          "Theater an der Wien",
+          "Raimundtheater"
+        ]
+      },
+      "pronunciation": "FOLKS-oh-per",
+      "location": "Vienna, Währinger Strasse"
+    },
+    {
+      "id": "opera.term.opera-ball",
+      "discipline": "opera",
+      "kind": "term",
+      "title": "Opernball (the Vienna Opera Ball)",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Twentieth century",
+      "year": 1935,
+      "facts": [
+        "The Court Opera held its first ball soirée in 1877; the first ball under the name Wiener Opernball was in 1935, and the modern series dates from 1956, the first carnival after the rebuilt house reopened.",
+        "The seats come out and a dance floor goes in level with the stage in the days before; dress is white tie for men and floor-length for women, and the debutantes' committee, in white with tiaras, opens with a polonaise before the call of 'Alles Walzer' clears the floor for everyone.",
+        "It was cancelled in 1991 during the Gulf War and in 2021 and 2022 for the pandemic; the demonstrations against it in the late 1980s and 1990s, the Opernballdemo, became a fixture of their own."
+      ],
+      "remark": "The seats come out and a floor goes in level with the stage, so the debutantes open the ball on what is normally the set; it is white tie, on the Thursday before Ash Wednesday, and it was cancelled in 1991 for the Gulf War.",
+      "gaffe": "Turning up in black tie, or calling it the Philharmonic Ball. Black tie is turned away at the door, the Philharmonic's ball is another night in the Musikverein, and the Opernball is the Staatsoper's own, once a year, on the Thursday before Ash Wednesday.",
+      "links": [
+        "opera.venue.staatsoper",
+        "opera.strauss-ii.die-fledermaus",
+        "opera.term.operetta",
+        "history.person.franz-joseph"
+      ],
+      "tags": [
+        "term",
+        "ball",
+        "fasching",
+        "debutantes",
+        "staatsoper",
+        "waltz",
+        "vienna"
+      ],
+      "sources": [
+        "Wiener Staatsoper, 'The Vienna Opera Ball: history'",
+        "Wien Geschichte Wiki, 'Opernball'"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "term": [
+          "The gala performance that opens the Vienna State Opera's season each September, with the orchestra on stage and the audience in evening dress.",
+          "The Vienna Philharmonic's carnival ball in the Golden Hall of the Musikverein in January.",
+          "The New Year's Eve performance of Die Fledermaus at the State Opera, followed by dancing in the foyers."
+        ]
+      },
+      "pronunciation": "OH-pern-bal",
+      "language": "German",
+      "definition": "The ball held inside the Vienna State Opera on the Thursday before Ash Wednesday, the last great night of the Viennese carnival: the stalls are floored over level with the stage, dress is white tie and floor-length, and a committee of debutantes in white opens the dancing."
+    },
+    {
+      "id": "opera.term.regietheater",
+      "discipline": "opera",
+      "kind": "term",
+      "title": "Regietheater",
+      "city": "vienna",
+      "difficulty": 2,
+      "era": "Twentieth century",
+      "year": 1976,
+      "year_approx": true,
+      "facts": [
+        "The usual starting point is Patrice Chéreau's centenary Ring at Bayreuth in 1976, which set Wagner among the dams and frock coats of the industrial nineteenth century; it was booed in 1976 and given a long ovation in its last year, 1980.",
+        "Its roots are earlier: Wieland Wagner cleared the scenery off the Bayreuth stage from 1951, and Walter Felsenstein's Komische Oper in East Berlin made the director's reading the point of the evening from 1947.",
+        "Hans Neuenfels's Frankfurt Aida of 1981, with Aida as a cleaning woman, and Calixto Bieito's Entführung at the Berlin Komische Oper in 2004, set in a brothel, are the productions opponents cite; English critics say 'director's theatre' or, less kindly, 'Eurotrash'.",
+        "Vienna's Staatsoper has been the conservative pole: Otto Schenk's 1968 production of Der Rosenkavalier is still in the repertory, and the Theater an der Wien has taken the newer stagings since 2006."
+      ],
+      "remark": "It is a German word for a German habit: Chéreau's Bayreuth Ring of 1976, booed on its first night and cheered off in 1980, is where the argument starts, and Otto Schenk's 1968 Rosenkavalier, still on at the Staatsoper, is the argument on the other side.",
+      "gaffe": "Using it to mean modern dress. Updated costumes are the least of it; the word means the director's reading outranks the libretto, and a production can be in period and still be Regietheater if it rewrites what happens.",
+      "links": [
+        "opera.r-strauss.der-rosenkavalier",
+        "opera.venue.staatsoper",
+        "opera.venue.theater-an-der-wien",
+        "opera.mozart.die-entfuehrung-aus-dem-serail"
+      ],
+      "tags": [
+        "term",
+        "staging",
+        "director",
+        "bayreuth",
+        "chereau",
+        "staatsoper",
+        "vienna"
+      ],
+      "sources": [
+        "Grove Music Online, 'Production'",
+        "Frederic Spotts, Bayreuth: A History of the Wagner Festival (1994)",
+        "Carolyn Abbate and Roger Parker, A History of Opera (2012)"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "term": [
+          "A production that follows the composer's stage directions and reproduces the sets and costumes of the premiere.",
+          "The German repertory system, in which a house keeps a resident company and rotates dozens of works through a season.",
+          "The practice of performing opera in the language of the audience rather than the original."
+        ]
+      },
+      "pronunciation": "reh-ZHEE-teh-ah-ter",
+      "language": "German",
+      "definition": "German for director's theatre: opera staging in which the director's concept, not the libretto's stated time and place, governs the production, relocating or reinterpreting the work and sometimes contradicting its text; used by admirers and, more often, by opponents."
+    },
+    {
+      "id": "opera.term.prompter",
+      "discipline": "opera",
+      "kind": "term",
+      "title": "Prompter (Souffleur, Souffleuse)",
+      "city": "vienna",
+      "difficulty": 1,
+      "era": "Nineteenth century",
+      "facts": [
+        "The opera prompter's box is sunk into the stage at the front centre with its hood towards the audience; the prompter sees the conductor on a monitor or in a mirror and passes on words and, when needed, the beat.",
+        "In the spoken theatre the prompter sat at the side of the stage, which is why 'prompt side' and 'opposite prompt' are still British names for the two sides, prompt side usually being stage left.",
+        "A repertory house such as the Staatsoper, which changes its opera almost every night on little rehearsal, still depends on prompters; the Metropolitan Opera keeps a box too, and some houses have done away with theirs.",
+        "The word is from the French souffler, to breathe or whisper; the Italian suggeritore is the one who suggests."
+      ],
+      "remark": "The hooded hump at the front of the stage is the prompter's box, and in a repertory house like the Staatsoper, which can change its opera every night on a morning's rehearsal, the Souffleuse is the one feeding every singer the next line a beat early.",
+      "gaffe": "Assuming a singer who glances at the box has dried. The prompt is routine and a word ahead, and in a house running dozens of operas a season almost nobody sings without it; the one who has forgotten is the one who stops.",
+      "links": [
+        "opera.venue.staatsoper",
+        "opera.venue.covent-garden",
+        "opera.term.voice-types"
+      ],
+      "tags": [
+        "term",
+        "prompter",
+        "souffleur",
+        "stage",
+        "repertory",
+        "staatsoper",
+        "vienna"
+      ],
+      "sources": [
+        "The Oxford Companion to Music (ed. Alison Latham, 2002), 'Prompter'",
+        "John Warrack and Ewan West, The Oxford Dictionary of Opera (1992), 'Prompter'"
+      ],
+      "reviewed_by": null,
+      "distractors": {
+        "term": [
+          "The stage manager who calls the scene changes and lighting cues from the wings, 'on the book'.",
+          "The répétiteur who plays the piano at rehearsals and coaches the singers in their roles.",
+          "A paid group in the audience who lead the applause at agreed moments, the claque."
+        ]
+      },
+      "pronunciation": "soo-FLUR, soo-FLURZ",
+      "language": "French",
+      "definition": "The person in the hooded box at the front centre of the stage who, facing the singers and watching the conductor, gives them the first words of each phrase a moment before they sing them; the Souffleur or Souffleuse of a German house, the maestro suggeritore of an Italian one."
     }
   ],
   "scenarios": [
@@ -11318,19 +12784,19 @@
   ],
   "mediaIndex": {},
   "stats": {
-    "items": 178,
+    "items": 203,
     "scenarios": 19,
     "byDiscipline": {
       "music": 28,
-      "opera": 54,
+      "opera": 79,
       "art": 54,
       "history": 42
     },
     "byCity": {
       "florence": 52,
       "london": 56,
-      "paris": 29,
-      "vienna": 41
+      "paris": 41,
+      "vienna": 54
     },
     "withTheme": 14,
     "withImage": 0

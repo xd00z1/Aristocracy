@@ -55,8 +55,8 @@ export function itemsFor(exercise: Exercise, lookup: (id: string) => Item | unde
 export function SlotProgress({ index, total, tag }: { index: number; total: number; tag: string | null }) {
   const pct = total > 0 ? Math.round(((index + 1) / total) * 100) : 0
   return (
-    <div className="pb-4 pt-2" data-testid="slot-progress">
-      <div className="flex items-baseline justify-between">
+    <div className="min-w-0 flex-1 pb-4 pt-2" data-testid="slot-progress">
+      <div className="flex items-baseline justify-between gap-3">
         <p className="smallcaps text-xs text-ink-mute" data-testid="slot-label">
           {index + 1} of {total}
         </p>
@@ -233,7 +233,7 @@ export default function SessionRunner({ profile, now = () => new Date(), onRankU
 
   return (
     <div data-testid="session-runner">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between gap-3">
         <SlotProgress index={index} total={total} tag={slotTag(exercise)} />
         <Button variant="quiet" className="-mr-3 px-3 text-sm" onClick={onReturn} data-testid="session-leave" aria-label="Leave the lesson">
           Leave

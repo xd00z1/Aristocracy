@@ -416,3 +416,409 @@ items:
       - "Grove Music Online, 'Operetta'"
       - "Richard Traubner, Operetta: A Theatrical History (2nd ed., 2003)"
     reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Second tranche: Papageno, the Entführung, the Merry Widow, Salome, Wozzeck;
+  # Mozart, Gluck and Lehár; the Theater an der Wien and the Volksoper; the
+  # Opera Ball, Regietheater and the prompter. No themes were added here: the
+  # melodies could not be checked against a score from this sandbox, and a
+  # theme written from memory is a guess.
+  # ---------------------------------------------------------------------------
+
+  - id: opera.mozart.die-zauberfloete.der-vogelfaenger
+    discipline: opera
+    kind: work
+    title: "Der Vogelfänger bin ich ja (Papageno's aria)"
+    parent: "Die Zauberflöte (1791)"
+    creator: Wolfgang Amadeus Mozart
+    city: vienna
+    difficulty: 1
+    era: Classical
+    year: 1791
+    language: German
+    pronunciation: "dair FOH-gel-feng-er bin ikh yah"
+    facts:
+      - "Papageno's entrance song in Act I of Die Zauberflöte, first heard at the Theater auf der Wieden on 30 September 1791, sung by Emanuel Schikaneder, who had written the libretto and owned the theatre."
+      - "A strophic song in G major, deliberately folk-like, the verses turning from birds to girls; Papageno's panpipes, five rising notes, punctuate it."
+      - "Papageno is a baritone in a suit of feathers who catches birds for the Queen of the Night's three ladies; his instruments are the panpipes and, later, a set of magic bells. The flute is Tamino's."
+    remark: "Schikaneder wrote the words, owned the theatre and sang this himself on the first night, in feathers; it is a strophic song in G major with five rising panpipe notes between the lines, and it sounds like a street song on purpose."
+    gaffe: "Handing Papageno the flute. The flute is Tamino's, the tenor's; Papageno, a baritone, has the panpipes and the magic bells, and what he wants is a wife, not wisdom."
+    distractors:
+      creator: [Joseph Haydn, Antonio Salieri, Carl Ditters von Dittersdorf]
+      title: ["Ein Mädchen oder Weibchen", "O Isis und Osiris", "Dies Bildnis ist bezaubernd schön"]
+      era: [Baroque, Romantic, Verismo]
+    links: [opera.mozart.die-zauberfloete, opera.term.singspiel, opera.mozart, opera.venue.theater-an-der-wien]
+    tags: [aria, papageno, baritone, singspiel, mozart, schikaneder, vienna, 1790s]
+    sources:
+      - "Grove Music Online, 'Zauberflöte, Die'"
+      - "Peter Branscombe, W. A. Mozart: Die Zauberflöte (Cambridge Opera Handbooks, 1991)"
+    reviewed_by: null
+
+  - id: opera.mozart.die-entfuehrung-aus-dem-serail
+    discipline: opera
+    kind: work
+    title: "Die Entführung aus dem Serail (The Abduction from the Seraglio)"
+    creator: Wolfgang Amadeus Mozart
+    city: vienna
+    difficulty: 2
+    era: Classical
+    year: 1782
+    language: German
+    pronunciation: "dee ent-FUE-roong ows dem zeh-RYE"
+    facts:
+      - "First performed at the Burgtheater on 16 July 1782, written for Joseph II's National Singspiel company; the libretto is by Gottlieb Stephanie the younger, reworked from Christoph Friedrich Bretzner's Belmont und Constanze."
+      - "Belmonte, with his servant Pedrillo, rescues Konstanze and her maid Blonde from the seraglio of Pasha Selim, a speaking part; Osmin, the overseer, is a bass whose rage aria goes down to a low D, and the Pasha lets them all go."
+      - "The 'Turkish' scoring, piccolo, triangle, cymbals and bass drum, opens the overture; Konstanze's 'Martern aller Arten' has a long concertante introduction for four solo instruments before she sings a note."
+      - "Mozart married Constanze Weber on 4 August 1782, under three weeks after the premiere. Niemetschek's biography of 1798 is the source for Joseph II's 'an enormous number of notes, dear Mozart' and for the reply that there were exactly as many as were needed."
+    remark: "'Too many notes' belongs here, if anywhere: Niemetschek's biography of 1798 has Joseph II say it of this piece and Mozart answer that there were exactly as many as were needed; the heroine is Konstanze, and Mozart married his own Constanze three weeks after the first night."
+    gaffe: "Filing it with the Italian operas. It is a German Singspiel with spoken dialogue, written for Joseph II's National Singspiel company, and its Pasha never sings a note; the Italian Vienna operas came later, with Da Ponte."
+    distractors:
+      creator: [Antonio Salieri, Joseph Haydn, Carl Ditters von Dittersdorf]
+      title: ["Die Zauberflöte", "Zaide", "Der Schauspieldirektor"]
+      era: [Baroque, Romantic, Verismo]
+      year: [1778, 1786, 1791]
+    links: [opera.term.singspiel, opera.mozart.die-zauberfloete, opera.mozart, opera.da-ponte, history.episode.joseph-ii-and-mozart]
+    tags: [opera, singspiel, mozart, turkish, burgtheater, vienna, 1780s]
+    sources:
+      - "Grove Music Online, 'Entführung aus dem Serail, Die'"
+      - "Thomas Bauman, W. A. Mozart: Die Entführung aus dem Serail (Cambridge Opera Handbooks, 1987)"
+      - "Franz Xaver Niemetschek, Leben des K.K. Kapellmeisters Wolfgang Gottlieb Mozart (1798)"
+    reviewed_by: null
+
+  - id: opera.lehar.die-lustige-witwe
+    discipline: opera
+    kind: work
+    title: "Die lustige Witwe (The Merry Widow)"
+    creator: Franz Lehár
+    city: vienna
+    difficulty: 1
+    era: Viennese operetta
+    year: 1905
+    language: German
+    pronunciation: "dee LOOS-tig-eh VIT-veh"
+    facts:
+      - "First performed at the Theater an der Wien on 30 December 1905, with Mizzi Günther as Hanna Glawari and Louis Treumann as Danilo; the libretto is by Victor Léon and Leo Stein, after Henri Meilhac's comedy L'Attaché d'ambassade (1861)."
+      - "Hanna, a rich widow from Pontevedro, a Balkan state standing in for Montenegro, is in Paris; the embassy's Baron Zeta wants her millions kept at home by marrying her to Count Danilo, her old love, who refuses to court money."
+      - "The numbers: Hanna's 'Vilja-Lied', Danilo's 'Da geh' ich zu Maxim', and the Act III duet 'Lippen schweigen', the Merry Widow Waltz."
+      - "London had it at Daly's Theatre in June 1907 with Lily Elsie, New York that October; the 'Merry Widow hat' was a fashion, and the Silver Age of Viennese operetta is dated from it."
+    remark: "Danilo will not court a woman with millions in case it looks like the money, so the two dance instead of talking until Act III, when 'Lippen schweigen' lets the violins say it; it opened at the Theater an der Wien on 30 December 1905 and was in London and New York within two years."
+    gaffe: "Calling it Strauss, or Lehár Viennese by birth. He was a Hungarian bandmaster's son from Komárom, and the Widow belongs to the Silver Age of operetta, thirty years after Die Fledermaus."
+    distractors:
+      creator: [Johann Strauss II, Emmerich Kálmán, Oscar Straus]
+      title: ["Die Fledermaus", "Die Csárdásfürstin", "Das Land des Lächelns"]
+      era: [Classical, Grand opéra, Verismo]
+    links: [opera.term.operetta, opera.lehar, opera.venue.theater-an-der-wien, opera.strauss-ii.die-fledermaus]
+    tags: [operetta, lehar, silver-age, theater-an-der-wien, paris, vienna, 1900s]
+    sources:
+      - "Grove Music Online, 'Lustige Witwe, Die'"
+      - "Richard Traubner, Operetta: A Theatrical History (2nd ed., 2003)"
+    reviewed_by: null
+
+  - id: opera.r-strauss.salome
+    discipline: opera
+    kind: work
+    title: "Salome"
+    creator: Richard Strauss
+    city: vienna
+    difficulty: 2
+    era: Late Romantic
+    year: 1905
+    language: German
+    pronunciation: "ZAH-lo-meh"
+    facts:
+      - "First performed at the Dresden Court Opera on 9 December 1905, in one act; Strauss set Hedwig Lachmann's German translation of Oscar Wilde's play, which Wilde had written in French in 1891, cutting the text himself."
+      - "Salome, Herod's stepdaughter, dances the Dance of the Seven Veils for the head of Jochanaan, John the Baptist, and kisses it when it comes; Herod has the soldiers crush her under their shields."
+      - "Vienna's censor refused it for the Court Opera despite Mahler; the Austrian premiere was in Graz on 16 May 1906 under Strauss, with Mahler, Puccini, Schoenberg and Berg in the house, and the Vienna Court Opera did not stage it until 1918."
+      - "The Metropolitan Opera gave it once, on 22 January 1907, and withdrew it under pressure from its board; the first Salome, Marie Wittich, declined to do the dance herself and a dancer stood in."
+    remark: "The censor kept it off the Court Opera stage until 1918, so the Austrian premiere was Graz in May 1906 with Strauss conducting and Mahler, Puccini, Schoenberg and Berg in the audience; that is the performance to mention."
+    gaffe: "Expecting waltzes or an interval. It is one act of about a hundred minutes, the dance is the Seven Veils and the first Salome would not dance it herself; the waltzes are Rosenkavalier, six years later."
+    distractors:
+      creator: [Gustav Mahler, Alexander von Zemlinsky, Franz Schreker]
+      title: ["Elektra", "Der Rosenkavalier", "Ariadne auf Naxos"]
+      era: [Classical, Baroque, Bel canto]
+    links: [opera.r-strauss, opera.r-strauss.der-rosenkavalier, opera.venue.staatsoper, opera.venue.volksoper, history.episode.vienna-1900]
+    tags: [opera, strauss, wilde, dresden, graz, censorship, vienna, 1900s]
+    sources:
+      - "Grove Music Online, 'Salome'"
+      - "Derrick Puffett (ed.), Richard Strauss: Salome (Cambridge Opera Handbooks, 1989)"
+      - "Michael Kennedy, Richard Strauss: Man, Musician, Enigma (1999)"
+    reviewed_by: null
+
+  - id: opera.berg.wozzeck
+    discipline: opera
+    kind: work
+    title: "Wozzeck"
+    creator: Alban Berg
+    city: vienna
+    difficulty: 3
+    era: Modernist
+    year: 1925
+    language: German
+    pronunciation: "VOT-sek"
+    facts:
+      - "Berg, born in Vienna in 1885 and Schoenberg's pupil, saw Georg Büchner's unfinished play at its Vienna premiere in May 1914; he composed the opera between 1914 and 1922, around his war service, and Erich Kleiber gave the premiere at the Berlin State Opera on 14 December 1925."
+      - "Three acts of five scenes each, every scene built as an instrumental form: the suite, passacaglia and rondo of Act I, the five-movement symphony of Act II, the inventions of Act III; the D minor interlude before the last scene is where the score turns tonal."
+      - "The soldier Wozzeck, shaved, lectured and fed on beans by the Captain and the Doctor, cuts Marie's throat by the pond and drowns looking for the knife; their child rides his hobby-horse in the last scene while the others run off to see the body."
+      - "The name is a misreading: Karl Emil Franzos, editing Büchner's manuscripts in 1879, read Woyzeck as Wozzeck, and Berg kept the spelling. The Vienna State Opera first gave it in March 1930 under Clemens Krauss."
+    remark: "Berg saw Büchner's play in Vienna in May 1914 and needed eight years and a war to make it an opera, and the title keeps a misprint: Franzos, reading Büchner's hand in 1879, made Woyzeck into Wozzeck, and Berg never corrected it."
+    gaffe: "Calling it twelve-tone. Wozzeck is atonal but not serial; Berg's row technique arrives with Lulu, and the shape of Wozzeck is old forms, a passacaglia, a symphony, a set of inventions, hidden under the drama."
+    distractors:
+      creator: [Arnold Schoenberg, Anton Webern, Ernst Krenek]
+      title: ["Lulu", "Moses und Aron", "Jonny spielt auf"]
+      era: [Classical, Romantic, Verismo]
+    links: [opera.venue.staatsoper, opera.r-strauss.salome, history.episode.vienna-1900, history.episode.end-of-old-europe]
+    tags: [opera, berg, second-viennese-school, buechner, berlin, vienna, 1920s]
+    sources:
+      - "Grove Music Online, 'Wozzeck'"
+      - "Douglas Jarman, Alban Berg: Wozzeck (Cambridge Opera Handbooks, 1989)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Creators: Mozart, Gluck, Lehár
+  # ---------------------------------------------------------------------------
+
+  - id: opera.mozart
+    discipline: opera
+    kind: creator
+    title: "Wolfgang Amadeus Mozart"
+    city: vienna
+    difficulty: 1
+    era: Classical
+    year: 1756
+    year_end: 1791
+    facts:
+      - "Born in Salzburg on 27 January 1756; dismissed from the Archbishop of Salzburg's service in Vienna in June 1781 and stayed on as a freelance; died in Vienna on 5 December 1791, aged thirty-five, of a fever the death register calls 'hitziges Frieselfieber'."
+      - "The Vienna operas: Die Entführung aus dem Serail (1782) for Joseph II's National Singspiel, the three Da Ponte comedies Le nozze di Figaro (1786), Don Giovanni (Prague 1787, Vienna 1788) and Così fan tutte (1790), and Die Zauberflöte (1791) for Schikaneder's suburban theatre."
+      - "He signed himself Wolfgang Amadè; 'Amadeus' is the Latin form he used only in jest, and it stuck after his death."
+      - "Buried at St Marx cemetery in a common grave, which is what Joseph II's burial regulations of 1784 prescribed for most Viennese; the storm and the pauper's grave are later embroidery."
+    remark: "He signed himself Amadè, not Amadeus, spent his last ten years in Vienna as a freelance after the Archbishop's man had kicked him out of the room, and was buried in a common grave because Joseph II's regulations said so, not because he was a pauper."
+    gaffe: "Repeating the poisoning. The register says fever, the Salieri story was gossip within a month and a Pushkin play by 1830, and Salieri taught Mozart's own son; Amadeus is a play, not a biography."
+    media:
+      image:
+        commons: "File:Wolfgang-amadeus-mozart 1.jpg"
+        source: "Barbara Krafft, posthumous portrait of Mozart, 1819, Gesellschaft der Musikfreunde, Vienna, via Wikimedia Commons"
+        license: "Public domain (artist died 1825); verify the file's tag when fetching"
+        focus: { x: 0.5, y: 0.3 }
+    distractors:
+      person: [Joseph Haydn, Antonio Salieri, Christoph Willibald Gluck]
+      era: [Baroque, Romantic, Bel canto]
+    links: [opera.mozart.le-nozze-di-figaro, opera.mozart.don-giovanni, opera.mozart.cosi-fan-tutte, opera.mozart.die-zauberfloete, opera.mozart.die-entfuehrung-aus-dem-serail, opera.da-ponte, history.apocrypha.salieri-poisoned-mozart, history.episode.joseph-ii-and-mozart]
+    tags: [composer, salzburg, vienna, mozart, classical, 1780s]
+    sources:
+      - "Grove Music Online, 'Mozart, (Johann Chrysostom) Wolfgang Amadeus'"
+      - "Maynard Solomon, Mozart: A Life (1995)"
+      - "H. C. Robbins Landon, 1791: Mozart's Last Year (1988)"
+    reviewed_by: null
+
+  - id: opera.gluck
+    discipline: opera
+    kind: creator
+    title: "Christoph Willibald Gluck"
+    city: vienna
+    difficulty: 2
+    era: Classical
+    year: 1714
+    year_end: 1787
+    pronunciation: "GLOOK"
+    facts:
+      - "Born at Erasbach in the Upper Palatinate on 2 July 1714, a forester's son; worked in Milan, London and Prague before settling in Vienna, where he married a merchant's daughter in 1750 and died on 15 November 1787."
+      - "With the librettist Ranieri de' Calzabigi he made the Vienna reform operas, Orfeo ed Euridice (1762), Alceste (1767) and Paride ed Elena (1770); the printed dedication of Alceste (1769) is the manifesto: music to serve the poetry, no da capo repeats, no ornament for its own sake."
+      - "He had taught the Archduchess Maria Antonia her music in Vienna; as Marie Antoinette she backed him in Paris, where Iphigénie en Aulide (1774) set off the pamphlet war between his partisans and Niccolò Piccinni's."
+      - "A papal Knight of the Golden Spur from 1756, hence 'Ritter von Gluck'; the Paris operas run to Armide (1777) and Iphigénie en Tauride (1779), after which strokes ended his career."
+    remark: "A Bavarian forester's son who taught Marie Antoinette her music in Vienna and followed her to Paris, where his Iphigénie en Aulide of 1774 started the Gluckist and Piccinnist quarrel; the reform manifesto is the preface to Alceste, printed in 1769."
+    gaffe: "Shelving him with Handel as Baroque because he wrote an Orpheus. The point of Gluck is the break with Baroque opera: no da capo arias, no display for its own sake, the drama first; Berlioz worshipped him and Wagner revised his Iphigénie en Aulide for Dresden."
+    media:
+      image:
+        commons: "File:Joseph Siffred Duplessis - Christoph Willibald Gluck - Google Art Project.jpg"
+        source: "Joseph Siffred Duplessis, Christoph Willibald Gluck, 1775, Kunsthistorisches Museum, Vienna, via Wikimedia Commons (Google Art Project scan)"
+        license: "Public domain (artist died 1802); verify the file's tag when fetching"
+        focus: { x: 0.5, y: 0.3 }
+    distractors:
+      person: [Johann Adolf Hasse, Niccolò Piccinni, Joseph Haydn]
+      era: [Baroque, Romantic, Verismo]
+    links: [opera.gluck.orfeo-ed-euridice, opera.term.castrato, history.person.marie-antoinette, history.person.maria-theresa, opera.mozart]
+    tags: [composer, reform, gluck, calzabigi, vienna, paris, 1760s]
+    sources:
+      - "Grove Music Online, 'Gluck, Christoph Willibald Ritter von'"
+      - "Patricia Howard, Gluck: An Eighteenth-Century Portrait in Letters and Documents (1995)"
+      - "Bruce Alan Brown, Gluck and the French Theatre in Vienna (1991)"
+    reviewed_by: null
+
+  - id: opera.lehar
+    discipline: opera
+    kind: creator
+    title: "Franz Lehár"
+    city: vienna
+    difficulty: 1
+    era: Viennese operetta
+    year: 1870
+    year_end: 1948
+    pronunciation: "LAY-har"
+    facts:
+      - "Born at Komárom in Hungary on 30 April 1870, the son of a military bandmaster; trained as a violinist at the Prague Conservatory and was himself an army bandmaster, lastly in Vienna, until 1902."
+      - "Die lustige Witwe (1905) made him; the operettas of the 1920s, Paganini (1925), Der Zarewitsch (1927), Friederike (1928) and Das Land des Lächelns (1929), were written around the tenor Richard Tauber, whose song in the last is 'Dein ist mein ganzes Herz'."
+      - "Giuditta, his last stage work, opened at the Vienna State Opera on 20 January 1934 with Tauber and Jarmila Novotná; he died at Bad Ischl on 24 October 1948, where his villa on the Traun is a museum."
+      - "Hitler's favourite operetta was The Merry Widow. Lehár stayed in Vienna after the Anschluss, his Jewish wife Sophie protected by a special status, while his librettist Fritz Löhner-Beda, who had written Das Land des Lächelns, was murdered at Auschwitz in December 1942."
+    remark: "Every Lehár of the 1920s has a tenor part built for Richard Tauber, and 'Dein ist mein ganzes Herz' from Das Land des Lächelns is the one Tauber sang in every language he had; the composer was a Hungarian bandmaster's son who stayed in Vienna through the Nazi years."
+    gaffe: "Counting him among the Strausses, or the Widow as Golden Age. He was born in Hungary in 1870, trained in Prague, and is the Silver Age of operetta, the generation after Die Fledermaus."
+    distractors:
+      person: [Emmerich Kálmán, Oscar Straus, Leo Fall]
+      era: [Classical, Baroque, Verismo]
+    links: [opera.lehar.die-lustige-witwe, opera.term.operetta, opera.venue.theater-an-der-wien, opera.strauss-ii.die-fledermaus, opera.venue.staatsoper]
+    tags: [composer, operetta, lehar, tauber, hungary, vienna, bad-ischl, 1900s]
+    sources:
+      - "Grove Music Online, 'Lehár, Franz'"
+      - "Richard Traubner, Operetta: A Theatrical History (2nd ed., 2003)"
+      - "Bernard Grun, Gold and Silver: The Life and Times of Franz Lehár (1970)"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Venues: Theater an der Wien, Volksoper
+  # ---------------------------------------------------------------------------
+
+  - id: opera.venue.theater-an-der-wien
+    discipline: opera
+    kind: venue
+    title: "Theater an der Wien"
+    location: "Vienna, Linke Wienzeile"
+    city: vienna
+    difficulty: 1
+    era: Classical
+    year: 1801
+    pronunciation: "teh-AH-ter ahn dair VEEN"
+    facts:
+      - "Opened on 13 June 1801 by Emanuel Schikaneder, the librettist and first Papageno of Die Zauberflöte, to replace his Theater auf der Wieden; the Wien in the name is the river it stands on, and the Papagenotor on Millöckergasse, with Schikaneder as Papageno, survives from the original building."
+      - "Beethoven lodged in the building and used it: Fidelio opened there on 20 November 1805, the Eroica had its first public performance there on 7 April 1805, and the concert of 22 December 1808 introduced the Fifth and Sixth Symphonies."
+      - "The operetta house of the Golden and Silver Ages: Die Fledermaus (1874), Der Zigeunerbaron (1885) and Die lustige Witwe (1905) all opened here."
+      - "Closed after the Staatsoper company left in 1955, reopened in 1962, and from the 1980s a musicals house, where Cats ran for seven years from 1983; since 2006, the Mozart year, it has been an opera house again on the stagione system, one production at a time."
+    remark: "The Wien in the name is the river, not the city: Schikaneder built it on the Wien in 1801, Beethoven lodged in it and gave Fidelio there, Fledermaus and The Merry Widow opened on its stage, and it spent the 1980s running Cats before going back to opera in 2006."
+    gaffe: "Calling it a musicals house. It was one from the 1980s to 2006; since then it has been Vienna's third opera house, one production at a time, and it is the room where Fidelio, the Eroica and Die Fledermaus were first heard."
+    distractors:
+      title: ["Volksoper Wien", "Burgtheater", "Theater in der Josefstadt"]
+    links: [opera.beethoven.fidelio, opera.strauss-ii.die-fledermaus, opera.lehar.die-lustige-witwe, opera.mozart.die-zauberfloete, opera.venue.staatsoper, music.beethoven.symphony-5.i]
+    tags: [venue, vienna, theater-an-der-wien, schikaneder, beethoven, operetta]
+    sources:
+      - "Grove Music Online, 'Vienna'"
+      - "Lewis Lockwood, Beethoven: The Music and the Life (2003)"
+      - "Theater an der Wien, 'History of the house'"
+    reviewed_by: null
+
+  - id: opera.venue.volksoper
+    discipline: opera
+    kind: venue
+    title: "Volksoper Wien"
+    location: "Vienna, Währinger Strasse"
+    city: vienna
+    difficulty: 2
+    era: Fin de siècle
+    year: 1898
+    pronunciation: "FOLKS-oh-per"
+    facts:
+      - "Opened on 14 December 1898 on the Währinger Strasse as the Kaiser-Jubiläums-Stadttheater, a playhouse marking Franz Joseph's fifty years on the throne; it took up opera in 1903 and became the Volksoper."
+      - "It gave Vienna its first Tosca, in 1907, and its first Salome, in 1910, neither of which the Court Opera on the Ring had yet staged."
+      - "From 1945 to 1955, while the bombed State Opera was rebuilt, the Staatsoper company played here and at the Theater an der Wien."
+      - "Today it is a repertory house for operetta, opera sung in German, musicals and dance, out by the Gürtel rather than on the Ring."
+    remark: "It began as a jubilee playhouse for Franz Joseph's fifty years in 1898 and only turned to opera in 1903, then gave Vienna its first Tosca in 1907 and its first Salome in 1910 while the Court Opera on the Ring had staged neither."
+    gaffe: "Treating it as the Staatsoper's understudy. It is the house for operetta and opera in German, it housed the Staatsoper company itself from 1945 to 1955, and it is on the Gürtel, not the Ring."
+    distractors:
+      title: ["Wiener Staatsoper", "Theater an der Wien", "Raimundtheater"]
+    links: [opera.venue.staatsoper, opera.venue.theater-an-der-wien, opera.term.operetta, opera.r-strauss.salome, history.person.franz-joseph]
+    tags: [venue, vienna, volksoper, operetta, opera-house, 1890s]
+    sources:
+      - "Grove Music Online, 'Vienna'"
+      - "Volksoper Wien, 'History of the Volksoper'"
+    reviewed_by: null
+
+  # ---------------------------------------------------------------------------
+  # Terms: the Opera Ball, Regietheater, the prompter
+  # ---------------------------------------------------------------------------
+
+  - id: opera.term.opera-ball
+    discipline: opera
+    kind: term
+    title: "Opernball (the Vienna Opera Ball)"
+    city: vienna
+    difficulty: 1
+    era: Twentieth century
+    year: 1935
+    definition: "The ball held inside the Vienna State Opera on the Thursday before Ash Wednesday, the last great night of the Viennese carnival: the stalls are floored over level with the stage, dress is white tie and floor-length, and a committee of debutantes in white opens the dancing."
+    pronunciation: "OH-pern-bal"
+    language: German
+    facts:
+      - "The Court Opera held its first ball soirée in 1877; the first ball under the name Wiener Opernball was in 1935, and the modern series dates from 1956, the first carnival after the rebuilt house reopened."
+      - "The seats come out and a dance floor goes in level with the stage in the days before; dress is white tie for men and floor-length for women, and the debutantes' committee, in white with tiaras, opens with a polonaise before the call of 'Alles Walzer' clears the floor for everyone."
+      - "It was cancelled in 1991 during the Gulf War and in 2021 and 2022 for the pandemic; the demonstrations against it in the late 1980s and 1990s, the Opernballdemo, became a fixture of their own."
+    remark: "The seats come out and a floor goes in level with the stage, so the debutantes open the ball on what is normally the set; it is white tie, on the Thursday before Ash Wednesday, and it was cancelled in 1991 for the Gulf War."
+    gaffe: "Turning up in black tie, or calling it the Philharmonic Ball. Black tie is turned away at the door, the Philharmonic's ball is another night in the Musikverein, and the Opernball is the Staatsoper's own, once a year, on the Thursday before Ash Wednesday."
+    distractors:
+      term:
+        - "The gala performance that opens the Vienna State Opera's season each September, with the orchestra on stage and the audience in evening dress."
+        - "The Vienna Philharmonic's carnival ball in the Golden Hall of the Musikverein in January."
+        - "The New Year's Eve performance of Die Fledermaus at the State Opera, followed by dancing in the foyers."
+    links: [opera.venue.staatsoper, opera.strauss-ii.die-fledermaus, opera.term.operetta, history.person.franz-joseph]
+    tags: [term, ball, fasching, debutantes, staatsoper, waltz, vienna]
+    sources:
+      - "Wiener Staatsoper, 'The Vienna Opera Ball: history'"
+      - "Wien Geschichte Wiki, 'Opernball'"
+    reviewed_by: null
+
+  - id: opera.term.regietheater
+    discipline: opera
+    kind: term
+    title: "Regietheater"
+    city: vienna
+    difficulty: 2
+    era: Twentieth century
+    year: 1976
+    year_approx: true
+    definition: "German for director's theatre: opera staging in which the director's concept, not the libretto's stated time and place, governs the production, relocating or reinterpreting the work and sometimes contradicting its text; used by admirers and, more often, by opponents."
+    pronunciation: "reh-ZHEE-teh-ah-ter"
+    language: German
+    facts:
+      - "The usual starting point is Patrice Chéreau's centenary Ring at Bayreuth in 1976, which set Wagner among the dams and frock coats of the industrial nineteenth century; it was booed in 1976 and given a long ovation in its last year, 1980."
+      - "Its roots are earlier: Wieland Wagner cleared the scenery off the Bayreuth stage from 1951, and Walter Felsenstein's Komische Oper in East Berlin made the director's reading the point of the evening from 1947."
+      - "Hans Neuenfels's Frankfurt Aida of 1981, with Aida as a cleaning woman, and Calixto Bieito's Entführung at the Berlin Komische Oper in 2004, set in a brothel, are the productions opponents cite; English critics say 'director's theatre' or, less kindly, 'Eurotrash'."
+      - "Vienna's Staatsoper has been the conservative pole: Otto Schenk's 1968 production of Der Rosenkavalier is still in the repertory, and the Theater an der Wien has taken the newer stagings since 2006."
+    remark: "It is a German word for a German habit: Chéreau's Bayreuth Ring of 1976, booed on its first night and cheered off in 1980, is where the argument starts, and Otto Schenk's 1968 Rosenkavalier, still on at the Staatsoper, is the argument on the other side."
+    gaffe: "Using it to mean modern dress. Updated costumes are the least of it; the word means the director's reading outranks the libretto, and a production can be in period and still be Regietheater if it rewrites what happens."
+    distractors:
+      term:
+        - "A production that follows the composer's stage directions and reproduces the sets and costumes of the premiere."
+        - "The German repertory system, in which a house keeps a resident company and rotates dozens of works through a season."
+        - "The practice of performing opera in the language of the audience rather than the original."
+    links: [opera.r-strauss.der-rosenkavalier, opera.venue.staatsoper, opera.venue.theater-an-der-wien, opera.mozart.die-entfuehrung-aus-dem-serail]
+    tags: [term, staging, director, bayreuth, chereau, staatsoper, vienna]
+    sources:
+      - "Grove Music Online, 'Production'"
+      - "Frederic Spotts, Bayreuth: A History of the Wagner Festival (1994)"
+      - "Carolyn Abbate and Roger Parker, A History of Opera (2012)"
+    reviewed_by: null
+
+  - id: opera.term.prompter
+    discipline: opera
+    kind: term
+    title: "Prompter (Souffleur, Souffleuse)"
+    city: vienna
+    difficulty: 1
+    era: Nineteenth century
+    definition: "The person in the hooded box at the front centre of the stage who, facing the singers and watching the conductor, gives them the first words of each phrase a moment before they sing them; the Souffleur or Souffleuse of a German house, the maestro suggeritore of an Italian one."
+    pronunciation: "soo-FLUR, soo-FLURZ"
+    language: French
+    facts:
+      - "The opera prompter's box is sunk into the stage at the front centre with its hood towards the audience; the prompter sees the conductor on a monitor or in a mirror and passes on words and, when needed, the beat."
+      - "In the spoken theatre the prompter sat at the side of the stage, which is why 'prompt side' and 'opposite prompt' are still British names for the two sides, prompt side usually being stage left."
+      - "A repertory house such as the Staatsoper, which changes its opera almost every night on little rehearsal, still depends on prompters; the Metropolitan Opera keeps a box too, and some houses have done away with theirs."
+      - "The word is from the French souffler, to breathe or whisper; the Italian suggeritore is the one who suggests."
+    remark: "The hooded hump at the front of the stage is the prompter's box, and in a repertory house like the Staatsoper, which can change its opera every night on a morning's rehearsal, the Souffleuse is the one feeding every singer the next line a beat early."
+    gaffe: "Assuming a singer who glances at the box has dried. The prompt is routine and a word ahead, and in a house running dozens of operas a season almost nobody sings without it; the one who has forgotten is the one who stops."
+    distractors:
+      term:
+        - "The stage manager who calls the scene changes and lighting cues from the wings, 'on the book'."
+        - "The répétiteur who plays the piano at rehearsals and coaches the singers in their roles."
+        - "A paid group in the audience who lead the applause at agreed moments, the claque."
+    links: [opera.venue.staatsoper, opera.venue.covent-garden, opera.term.voice-types]
+    tags: [term, prompter, souffleur, stage, repertory, staatsoper, vienna]
+    sources:
+      - "The Oxford Companion to Music (ed. Alison Latham, 2002), 'Prompter'"
+      - "John Warrack and Ewan West, The Oxford Dictionary of Opera (1992), 'Prompter'"
+    reviewed_by: null
