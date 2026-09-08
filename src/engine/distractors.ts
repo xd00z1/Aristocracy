@@ -126,7 +126,9 @@ export function plausibleYears(item: Item, count: number, taken: Set<string>, ra
  * are stable for a given seed and unique within the exercise.
  *
  * Throws only when the item cannot answer `askFor` at all; the session
- * builder never asks for something the schema does not guarantee.
+ * builder never asks for something the schema does not guarantee. A pool too
+ * thin to yield four options warns rather than throwing: sessions are always
+ * completable.
  */
 export function optionsFor(
   item: Item,
@@ -172,6 +174,16 @@ export function optionsFor(
         }
       }
     }
+  }
+
+  if (distractors.length < need) {
+    // Thin content, not a player-facing failure: a session is always
+    // completable, so the options that could be found are used. The engine
+    // tests assert four options against the real bundle, which is where this
+    // is meant to be caught.
+    console.warn(
+      `[distractors] ${item.id} has only ${distractors.length + 1} option(s) for "${askFor}"; ${OPTION_COUNT} are wanted`,
+    )
   }
 
   const labels = shuffle([correct, ...distractors], rand)

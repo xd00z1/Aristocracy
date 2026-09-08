@@ -429,9 +429,16 @@ describe('useThemePlayer', () => {
     expect(oscillatorCount()).toBe(0)
   })
 
-  it('play() ensures the context, schedules the theme and sets playing; stop() clears it', () => {
+  /** play() waits for the context to resume before scheduling, so it is awaited here. */
+  const play = async (result: { current: { play(): void } }) => {
+    await act(async () => {
+      result.current.play()
+    })
+  }
+
+  it('play() ensures the context, schedules the theme and sets playing; stop() clears it', async () => {
     const { result } = renderHook(() => useThemePlayer(THEME, true))
-    act(() => result.current.play())
+    await play(result)
     expect(result.current.playing).toBe(true)
     expect(created).toHaveLength(1)
     expect(created[0].resumeCalls).toBe(1)
@@ -442,27 +449,27 @@ describe('useThemePlayer', () => {
     expect(shared().oscillators.every((o) => o.stopCalls.length >= 1)).toBe(true)
   })
 
-  it('replaying restarts rather than layering', () => {
+  it('replaying restarts rather than layering', async () => {
     const { result } = renderHook(() => useThemePlayer(THEME, true))
-    act(() => result.current.play())
+    await play(result)
     const first = shared().oscillators.slice()
-    act(() => result.current.play())
+    await play(result)
     expect(first.every((o) => o.stopCalls.length === 2)).toBe(true) // scheduled stop plus the fade-out stop
     expect(result.current.playing).toBe(true)
   })
 
-  it('stops when the theme changes and on unmount', () => {
+  it('stops when the theme changes and on unmount', async () => {
     const { result, rerender, unmount } = renderHook(({ theme }) => useThemePlayer(theme, true), {
       initialProps: { theme: THEME },
     })
-    act(() => result.current.play())
+    await play(result)
     const first = shared().oscillators.slice()
     rerender({ theme: { notes: 'E4/2', tempo: 100 } })
     expect(result.current.playing).toBe(false)
     expect(first.every((o) => o.stopCalls.length === 2)).toBe(true)
     expect(result.current.durationSeconds).toBeCloseTo(1.2, 9)
     // A re-render with an equal (but new) theme object does not disturb playback.
-    act(() => result.current.play())
+    await play(result)
     rerender({ theme: { notes: 'E4/2', tempo: 100 } })
     expect(result.current.playing).toBe(true)
     const second = shared().oscillators.slice(first.length)
@@ -470,11 +477,11 @@ describe('useThemePlayer', () => {
     expect(second.every((o) => o.stopCalls.length === 2)).toBe(true)
   })
 
-  it('stops when sound is switched off mid-play', () => {
+  it('stops when sound is switched off mid-play', async () => {
     const { result, rerender } = renderHook(({ enabled }) => useThemePlayer(THEME, enabled), {
       initialProps: { enabled: true },
     })
-    act(() => result.current.play())
+    await play(result)
     expect(result.current.playing).toBe(true)
     rerender({ enabled: false })
     expect(result.current.playing).toBe(false)
@@ -484,9 +491,12 @@ describe('useThemePlayer', () => {
     vi.useFakeTimers()
     try {
       const { result } = renderHook(() => useThemePlayer(THEME, true))
-      act(() => result.current.play())
+      await play(result)
       expect(result.current.progress).toBe(0)
+      // The meter reads the audio clock, not the wall clock: a context that
+      // stops advancing (suspended, interrupted) must not run the line on.
       await act(async () => {
+        shared().currentTime += 0.5
         await vi.advanceTimersByTimeAsync(500)
       })
       expect(result.current.progress).toBeGreaterThan(0.3)
@@ -500,5 +510,33 @@ describe('useThemePlayer', () => {
     } finally {
       vi.useRealTimers()
     }
+  })
+
+  it('does nothing at all when the context will not run, so the meter never lies', async () => {
+    // A context that stays suspended (no gesture yet, or an iOS interruption)
+    // has a frozen clock: scheduling against it would be a silent, full play.
+    vi.stubGlobal(
+      'AudioContext',
+      class extends FakeAudioContext {
+        constructor() {
+          super()
+          created.push(this)
+        }
+        resume() {
+          this.resumeCalls++
+          return Promise.resolve()
+        }
+      },
+    )
+    vi.resetModules()
+    const { useThemePlayer: hook } = await import('./useThemePlayer')
+    const { result } = renderHook(() => hook(THEME, true))
+    await act(async () => {
+      result.current.play()
+    })
+    expect(result.current.playing).toBe(false)
+    expect(result.current.progress).toBe(0)
+    expect(created[0].resumeCalls).toBeGreaterThan(0)
+    expect(oscillatorCount()).toBe(0)
   })
 })

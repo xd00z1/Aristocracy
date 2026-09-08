@@ -94,6 +94,33 @@ export function ensureAudioContext(): AudioContext {
   return singleton
 }
 
+/**
+ * True when a shared context already exists and is running, so playback would
+ * actually sound. Callers use it to decide whether an unprompted play is worth
+ * attempting: creating the context outside a user gesture only produces a
+ * suspended one that sounds nothing.
+ */
+export function audioContextRunning(): boolean {
+  return singleton !== null && singleton.state === 'running'
+}
+
+/**
+ * The shared context, resumed if the browser will allow it. Await this from a
+ * user gesture before scheduling: `resume()` is asynchronous, and notes
+ * scheduled against a suspended context's frozen clock never sound.
+ */
+export async function ensureRunningContext(): Promise<AudioContext> {
+  const ctx = ensureAudioContext()
+  if (ctx.state !== 'running' && typeof ctx.resume === 'function') {
+    try {
+      await ctx.resume()
+    } catch {
+      // Autoplay policy, or an interrupted context: the caller checks `state`.
+    }
+  }
+  return ctx
+}
+
 interface ScheduledNote {
   nodes: AudioNode[]
   oscillators: Array<{ osc: OscillatorNode; endsAt: number }>

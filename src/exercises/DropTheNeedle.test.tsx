@@ -19,6 +19,9 @@ vi.mock('../audio/useThemePlayer', () => ({
     return { play: hook.play, stop: hook.stop, playing: hook.playing, progress: hook.progress, durationSeconds: hook.durationSeconds }
   },
 }))
+// The audio device: autoplay only happens once it is already running.
+const device = vi.hoisted(() => ({ running: true }))
+vi.mock('../audio/synth', () => ({ audioContextRunning: () => device.running }))
 vi.mock('../engine/distractors', () => ({
   redactNames: (text: string, names: string[]) => names.reduce((acc, n) => acc.split(n).join('———'), text),
 }))
@@ -71,6 +74,7 @@ function exerciseFor(item: Item, askFor: 'creator' | 'title' = 'creator'): Choic
 const media: MediaResolver = { imageUrl: () => null, hasImage: () => false }
 
 beforeEach(() => {
+  device.running = true
   hook.play.mockClear()
   hook.stop.mockClear()
   hook.playing = false
@@ -80,7 +84,7 @@ beforeEach(() => {
 afterEach(cleanup)
 
 describe('DropTheNeedle', () => {
-  it('renders the play button, auto-plays once on mount and passes the theme to the hook', () => {
+  it('renders the play button, plays once on mount when the device is already running, and passes the theme to the hook', () => {
     const onAnswer = vi.fn()
     render(<DropTheNeedle exercise={exerciseFor(work)} items={{ [work.id]: work }} answered={null} onAnswer={onAnswer} media={media} soundEnabled />)
     expect(screen.getByTestId('exercise-drop-the-needle')).toBeTruthy()
@@ -117,6 +121,17 @@ describe('DropTheNeedle', () => {
     expect(screen.getByTestId('theme-progress').getAttribute('aria-valuenow')).toBe('100')
     fireEvent.click(screen.getByTestId('play-theme'))
     expect(hook.play).toHaveBeenCalledTimes(3)
+  })
+
+  it('does not open the audio device on mount: no play until the reader has pressed one', () => {
+    device.running = false
+    render(
+      <DropTheNeedle exercise={exerciseFor(work)} items={{ [work.id]: work }} answered={null} onAnswer={vi.fn()} media={media} soundEnabled />,
+    )
+    expect(hook.play).not.toHaveBeenCalled()
+    expect(screen.getByTestId('play-theme').textContent).toBe('Drop the needle')
+    fireEvent.click(screen.getByTestId('play-theme'))
+    expect(hook.play).toHaveBeenCalledTimes(1)
   })
 
   it('with sound off: no auto-play, a notice, a clue, and the question can still be answered', () => {

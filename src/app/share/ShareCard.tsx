@@ -29,9 +29,9 @@ const FALLBACK_TOKENS: Record<string, string> = {
   '--color-parchment': '#fbf8f1',
   '--color-ink': '#1f1a17',
   '--color-ink-soft': '#4a423c',
-  '--color-ink-mute': '#8a7f75',
+  '--color-ink-mute': '#6f655c',
   '--color-rule': '#d8cdb9',
-  '--color-gilt': '#b8912e',
+  '--color-gilt': '#8a6819',
   '--color-gilt-soft': '#d9bd6a',
 }
 
@@ -340,9 +340,16 @@ const LINK_CLASSES =
   'inline-flex min-h-11 items-center justify-center gap-2 rounded-card border border-ink-soft px-5 py-2.5 font-serif text-base leading-tight text-ink ' +
   'hover:bg-ivory-deep focus:outline-none focus-visible:ring-2 focus-visible:ring-gilt focus-visible:ring-offset-2 focus-visible:ring-offset-ivory'
 
+/** Everything inside the dialog a keyboard can reach, in document order. */
+function focusables(root: HTMLElement | null): HTMLElement[] {
+  if (!root) return []
+  return [...root.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])')]
+}
+
 export default function ShareCard({ data, onClose }: ShareCardProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const closeRef = useRef<HTMLButtonElement>(null)
+  const dialogRef = useRef<HTMLDivElement>(null)
   const [state, setState] = useState<CardState>({ status: 'drawing' })
   const [notice, setNotice] = useState<string | null>(null)
 
@@ -377,13 +384,39 @@ export default function ShareCard({ data, onClose }: ShareCardProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
+  // aria-modal is a promise to the reader that the page behind is out of
+  // reach, so Tab and Shift+Tab cycle inside the dialog and the trigger gets
+  // its focus back when the dialog closes.
   useEffect(() => {
+    const opener = typeof document !== 'undefined' ? (document.activeElement as HTMLElement | null) : null
     closeRef.current?.focus()
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose()
+      if (e.key === 'Escape') {
+        onClose()
+        return
+      }
+      if (e.key !== 'Tab') return
+      const nodes = focusables(dialogRef.current)
+      if (nodes.length === 0) return
+      const first = nodes[0]
+      const last = nodes[nodes.length - 1]
+      const active = document.activeElement as HTMLElement | null
+      const inside = Boolean(active && dialogRef.current?.contains(active))
+      if (e.shiftKey) {
+        if (!inside || active === first) {
+          e.preventDefault()
+          last.focus()
+        }
+      } else if (!inside || active === last) {
+        e.preventDefault()
+        first.focus()
+      }
     }
     window.addEventListener('keydown', onKey)
-    return () => window.removeEventListener('keydown', onKey)
+    return () => {
+      window.removeEventListener('keydown', onKey)
+      if (opener && typeof opener.focus === 'function') opener.focus()
+    }
   }, [onClose])
 
   const share = async () => {
@@ -404,6 +437,7 @@ export default function ShareCard({ data, onClose }: ShareCardProps) {
 
   return (
     <div
+      ref={dialogRef}
       className="fixed inset-0 z-20 flex items-end justify-center bg-night/60 p-3 sm:items-center"
       role="dialog"
       aria-modal="true"

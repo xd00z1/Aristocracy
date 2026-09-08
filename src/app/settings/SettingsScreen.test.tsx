@@ -47,12 +47,21 @@ function renderSettings() {
   )
 }
 
+/** The stored row the mocked saveProfile merges into. */
+let stored: Profile = { ...profile }
+
 afterEach(cleanup)
 
 beforeEach(() => {
   vi.clearAllMocks()
   deps.loadProfile.mockResolvedValue(profile)
-  deps.saveProfile.mockImplementation(async (p: Profile) => p)
+  // The real saveProfile merges the patch into the stored row and returns the
+  // whole profile; the screen only ever sends the fields it changed.
+  stored = { ...profile }
+  deps.saveProfile.mockImplementation(async (patch: Partial<Profile>) => {
+    stored = { ...stored, ...patch }
+    return stored
+  })
   deps.resetAll.mockResolvedValue(undefined)
   deps.collection.mockResolvedValue(new Array(30).fill({ acquired: true }))
 })
@@ -85,7 +94,9 @@ describe('SettingsScreen', () => {
     fireEvent.click(feminine)
 
     await waitFor(() => expect(deps.saveProfile).toHaveBeenCalledTimes(1))
-    expect(deps.saveProfile).toHaveBeenCalledWith(expect.objectContaining({ id: 'me', titleStyle: 'feminine', displayName: 'Georgiana' }))
+    // Only the field that changed: a session completed in another tab must not
+    // be undone by a screen that read the profile minutes ago.
+    expect(deps.saveProfile).toHaveBeenCalledWith({ titleStyle: 'feminine' })
     await waitFor(() => expect(screen.getByTestId('title-style-feminine').getAttribute('aria-checked')).toBe('true'))
     expect(screen.getByTestId('title-style-plain').getAttribute('aria-checked')).toBe('false')
     const preview = screen.getByTestId('rank-preview').textContent
@@ -99,6 +110,24 @@ describe('SettingsScreen', () => {
     expect(deps.saveProfile).toHaveBeenCalledTimes(1)
   })
 
+  it('works the style radios from the keyboard: one tab stop, arrows move the choice', async () => {
+    renderSettings()
+    await screen.findByTestId('settings-screen')
+
+    // Roving tabindex: only the checked radio is in the tab order.
+    expect(screen.getByTestId('title-style-plain').getAttribute('tabindex')).toBe('0')
+    expect(screen.getByTestId('title-style-masculine').getAttribute('tabindex')).toBe('-1')
+
+    fireEvent.keyDown(screen.getByTestId('title-style-plain'), { key: 'ArrowRight' })
+    await waitFor(() => expect(screen.getByTestId('title-style-masculine').getAttribute('aria-checked')).toBe('true'))
+    expect(deps.saveProfile).toHaveBeenCalledWith({ titleStyle: 'masculine' })
+    expect(screen.getByTestId('title-style-masculine').getAttribute('tabindex')).toBe('0')
+    expect(document.activeElement).toBe(screen.getByTestId('title-style-masculine'))
+
+    fireEvent.keyDown(screen.getByTestId('title-style-masculine'), { key: 'ArrowUp' })
+    await waitFor(() => expect(screen.getByTestId('title-style-plain').getAttribute('aria-checked')).toBe('true'))
+  })
+
   it('saves the name when the field is left, and the sound switch at once', async () => {
     renderSettings()
     await screen.findByTestId('settings-screen')
@@ -106,11 +135,12 @@ describe('SettingsScreen', () => {
     const input = screen.getByTestId('display-name') as HTMLInputElement
     fireEvent.change(input, { target: { value: '  Lady Bracknell  ' } })
     fireEvent.blur(input)
-    await waitFor(() => expect(deps.saveProfile).toHaveBeenCalledWith(expect.objectContaining({ displayName: 'Lady Bracknell' })))
+    await waitFor(() => expect(deps.saveProfile).toHaveBeenCalledWith({ displayName: 'Lady Bracknell' }))
     expect(input.value).toBe('Lady Bracknell')
 
     fireEvent.click(screen.getByTestId('sound-toggle'))
-    await waitFor(() => expect(deps.saveProfile).toHaveBeenCalledWith(expect.objectContaining({ soundEnabled: false, displayName: 'Lady Bracknell' })))
+    await waitFor(() => expect(deps.saveProfile).toHaveBeenCalledWith({ soundEnabled: false }))
+    expect(screen.getByTestId('display-name')).toHaveProperty('value', 'Lady Bracknell')
     expect(screen.getByTestId('sound-toggle').getAttribute('aria-checked')).toBe('false')
   })
 

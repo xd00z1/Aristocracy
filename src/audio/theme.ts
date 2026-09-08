@@ -7,7 +7,8 @@
  * is 1, 2, 4, 8, 16 or 32, optionally dotted (`4.`). Bar lines `|` are
  * ignored. `tempo` is quarter-note beats per minute.
  */
-import { THEME_TOKEN, type Theme } from '../content/schema'
+import { THEME_TOKEN } from '../content/constants'
+import type { Theme } from '../content/schema'
 
 export interface ParsedNote {
   /** MIDI note number, or null for a rest. */

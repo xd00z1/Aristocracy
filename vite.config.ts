@@ -9,7 +9,11 @@ export default defineConfig({
     react(),
     tailwindcss(),
     VitePWA({
-      registerType: 'autoUpdate',
+      // 'prompt', not 'autoUpdate': an auto-updating worker calls skipWaiting
+      // and reloads open tabs the moment a new build lands, which throws away
+      // whatever lesson is on screen and 404s the lazy chunks already in
+      // flight. A waiting worker takes over on the next cold start instead.
+      registerType: 'prompt',
       includeAssets: ['favicon.svg'],
       manifest: {
         name: 'Aristocracy',
@@ -26,6 +30,11 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,json,woff2}'],
+        // The content bundle is large and grows with every city, so the
+        // precache ceiling is a decision here rather than workbox's silent
+        // 2 MB default (over it, an asset is dropped from the manifest with a
+        // build-time warning only, and offline support quietly stops working).
+        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         runtimeCaching: [
           {
             urlPattern: ({ url }) => url.pathname.startsWith('/media/'),
@@ -37,4 +46,17 @@ export default defineConfig({
     }),
   ],
   resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) } },
+  build: {
+    rollupOptions: {
+      output: {
+        // The compiled content is most of the bytes and changes on a different
+        // clock from the app code; its own chunk keeps one from invalidating
+        // the other in the precache.
+        manualChunks(id: string) {
+          if (id.includes('src/content/generated/content.json')) return 'content'
+          return undefined
+        },
+      },
+    },
+  },
 })

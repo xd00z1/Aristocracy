@@ -146,6 +146,21 @@ describe('Match', () => {
     expect(onAnswer).not.toHaveBeenCalled()
   })
 
+  it('hands keyboard focus to the next unpaired entry when a pair locks', () => {
+    renderMatch()
+    // Locking disables the button that was pressed, so focus has to be given
+    // somewhere deliberately or it falls to <body>.
+    left('b').focus()
+    fireEvent.click(left('b'))
+    right('b').focus()
+    fireEvent.click(right('b'))
+    expect(document.activeElement).toBe(left('a'))
+
+    fireEvent.click(left('a'))
+    fireEvent.click(right('a'))
+    expect(document.activeElement).toBe(left('c'))
+  })
+
   it('a wrong pair flashes both buttons oxblood, counts a mistake, clears the selection, and the flash fades', () => {
     vi.useFakeTimers()
     const { onAnswer } = renderMatch()

@@ -56,7 +56,7 @@ flowchart LR
 **Rules of the loop:**
 
 - Disciplines are interleaved within a session, never blocked. (Interleaving beats blocking for style recognition; high confidence, see section 0.)
-- No hearts, no lives. A wrong answer shows the correct answer plus the item's *remark*, then re-queues the item later in the same session. Punishment mechanics are widely resented, and they are beneath the tone.
+- No hearts, no lives. A wrong answer shows the correct answer plus the item's *remark*. The session itself is a fixed twelve slots, decided before it begins (see the slot table in `CLAUDE.md`, which is what the engine implements); a missed item comes back through the SRS queue, which an `Again` rating schedules within minutes, so it is waiting in the next session's Correspondence rather than later the same day. Punishment mechanics are widely resented, and they are beneath the tone.
 - No timers, except in optional Duels.
 - Every session ends with a **grade** styled on British degree classes: First, Upper Second, Lower Second, Third, Pass. A First requires zero errors on review items.
 - Sessions are always completable. There is no "you must buy more turns."

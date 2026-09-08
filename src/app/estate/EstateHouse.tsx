@@ -6,7 +6,7 @@
  * in their rooms; the Orangery extends the building to the east.
  */
 import type { Discipline } from '../../content/types'
-import { acquiredLine, HOUSE, isLit, ROOMS, windowRect, type EstateProgress, type Room } from './house'
+import { HOUSE, isLit, ROOMS, windowRect, type EstateProgress, type Room } from './house'
 
 export interface EstateHouseProps {
   progress: EstateProgress
@@ -117,7 +117,7 @@ function Canaletto({ room }: { room: Room }) {
       <line x1={x + 30} y1={y + 12} x2={x + 30} y2={y + 18} strokeWidth={0.5} />
       <path d={`M ${x + 10} ${y + 30} q 6 -2 12 0`} strokeWidth={0.5} />
       <path d={`M ${x + 40} ${y + 31} q 6 -2 12 0`} strokeWidth={0.5} />
-      <text x={x + w / 2} y={y + h + 9} textAnchor="middle" fontSize={7} className="fill-ink-mute" stroke="none">
+      <text x={x + w / 2} y={y + h + 10} textAnchor="middle" fontSize={9} className="fill-ink-soft" stroke="none">
         on loan
       </text>
     </g>
@@ -201,11 +201,14 @@ function RoomView({ room, progress, furnishings }: { room: Room; progress: Estat
       <Window room={room} lit={lit} />
       <AcquiredMarks room={room} count={progress[room.discipline]?.acquired ?? 0} />
       <RoomGlyphs room={room} furnishings={furnishings} />
-      <text x={room.x + 8} y={room.y + 17} fontSize={13} className="smallcaps fill-ink" stroke="none">
+      {/*
+        Only the room's name is drawn here. SVG text scales with the drawing,
+        not with the reader's font size, and the count set beneath it came out
+        at about seven pixels on a 360px screen; the same count is in the list
+        under the house, at the reader's own size.
+      */}
+      <text x={room.x + 8} y={room.y + 18} fontSize={15} className="smallcaps fill-ink" stroke="none">
         {room.name}
-      </text>
-      <text x={room.x + 8} y={room.y + 30} fontSize={10} className="fill-ink-mute" stroke="none">
-        {acquiredLine(progress, room.discipline)}
       </text>
     </g>
   )

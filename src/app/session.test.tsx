@@ -14,6 +14,7 @@ import type { ExerciseProps } from '../exercises/types'
 
 const progress = vi.hoisted(() => ({
   startSession: vi.fn(),
+  sessionAnswers: vi.fn(),
   recordAnswer: vi.fn(),
   completeSession: vi.fn(),
   loadProfile: vi.fn(),
@@ -203,6 +204,7 @@ beforeEach(() => {
   vi.clearAllMocks()
   registry.EXERCISE_COMPONENTS = { identify: Stub, remark: Stub }
   progress.startSession.mockResolvedValue(makePlan())
+  progress.sessionAnswers.mockResolvedValue([])
   progress.recordAnswer.mockResolvedValue(undefined)
   progress.completeSession.mockResolvedValue(makeSummary())
 })
@@ -225,6 +227,45 @@ describe('SessionRunner', () => {
     expect(screen.getByTestId('exercise-identify').getAttribute('data-sound')).toBe('false')
     expect(screen.queryByTestId('feedback')).toBeNull()
     expect(screen.queryByTestId('continue')).toBeNull()
+  })
+
+  it('resumes an interrupted session at the first slot still unanswered', async () => {
+    const plan = makePlan()
+    progress.startSession.mockResolvedValue(plan)
+    progress.sessionAnswers.mockResolvedValue(
+      plan.exercises.slice(0, 5).map((e) => ({ exerciseId: e.id, correct: true, itemIds: e.itemIds, msElapsed: 900 })),
+    )
+    render(<SessionRunner profile={profile} now={now} onReturn={() => {}} />)
+    await firstSlot()
+    expect(screen.getByTestId('slot-label').textContent).toBe('6 of 12')
+    expect(screen.getByText('Question 6')).toBeTruthy()
+
+    // The answers already given still count towards the grade.
+    for (let slot = 6; slot <= 12; slot++) {
+      fireEvent.click(screen.getByText('right'))
+      await screen.findByTestId('feedback')
+      fireEvent.click(screen.getByTestId('continue'))
+    }
+    await waitFor(() => expect(progress.completeSession).toHaveBeenCalledTimes(1))
+    expect((progress.completeSession.mock.calls[0][1] as Answer[]).length).toBe(12)
+  })
+
+  it('completes at once when every slot was answered before the interruption', async () => {
+    const plan = makePlan()
+    progress.startSession.mockResolvedValue(plan)
+    progress.sessionAnswers.mockResolvedValue(
+      plan.exercises.map((e) => ({ exerciseId: e.id, correct: true, itemIds: e.itemIds, msElapsed: 900 })),
+    )
+    render(<SessionRunner profile={profile} now={now} onReturn={() => {}} />)
+    await screen.findByTestId('session-summary')
+    expect(progress.completeSession).toHaveBeenCalledTimes(1)
+  })
+
+  it('starts from the first slot when the earlier answers cannot be read', async () => {
+    progress.sessionAnswers.mockRejectedValue(new Error('records are shut'))
+    render(<SessionRunner profile={profile} now={now} onReturn={() => {}} />)
+    await firstSlot()
+    expect(screen.getByTestId('slot-label').textContent).toBe('1 of 12')
   })
 
   it('passes the sound setting through to the exercise', async () => {

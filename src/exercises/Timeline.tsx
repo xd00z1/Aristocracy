@@ -1,6 +1,10 @@
 /**
  * Timeline: three or four entries to put in chronological order by tapping,
- * never dragging. The shuffled entries wait in a pool as cards showing label
+ * never dragging. Placing an entry hands keyboard focus to the next one in the
+ * pool (or to Submit once the pool is empty) and announces the placement on a
+ * quiet status line, so the board can be worked without a mouse.
+ *
+ * The shuffled entries wait in a pool as cards showing label
  * and sublabel but no year. Tapping one appends it to the numbered list above
  * and removes it from the pool; "Start again" empties the list; "Submit" is
  * enabled only once every entry is placed and answers exactly once, correct
@@ -11,7 +15,7 @@
  * in oxblood. The Feedback panel and the Continue button belong to the
  * session runner.
  */
-import { useCallback, useId, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react'
 import type { Item } from '../content/types'
 import type { TimelineEntry, TimelineExercise } from '../engine/types'
 import { Button } from '../ui/Button'
@@ -70,13 +74,29 @@ export function Timeline({ exercise, items, answered, onAnswer }: ExerciseProps<
   const pool = exercise.entries.filter((e) => !placed.includes(e.id))
   const complete = placed.length === exercise.entries.length
 
+  // Placing an entry unmounts the button that was tapped, which would drop
+  // keyboard focus to <body> and make the user tab in from the top for each
+  // of the four. Focus is handed on deliberately instead.
+  const poolRef = useRef<HTMLDivElement>(null)
+  const submitRef = useRef<HTMLButtonElement>(null)
+  const handOn = useRef(false)
+
   const place = useCallback(
     (id: string) => {
       if (locked) return
+      handOn.current = true
       setPlaced((prev) => (prev.includes(id) ? prev : [...prev, id]))
     },
     [locked],
   )
+
+  useEffect(() => {
+    if (!handOn.current) return
+    handOn.current = false
+    const next = poolRef.current?.querySelector<HTMLButtonElement>('button')
+    if (next) next.focus()
+    else submitRef.current?.focus()
+  }, [placed])
 
   const reset = useCallback(() => {
     if (locked) return
@@ -144,6 +164,13 @@ export function Timeline({ exercise, items, answered, onAnswer }: ExerciseProps<
         {exercise.question}
       </h2>
 
+      <p className="sr-only" role="status" data-testid="timeline-status">
+        {placed.length === 0
+          ? ''
+          : `${byId.get(placed[placed.length - 1])?.label ?? 'Entry'} placed ${ordinal(placed.length)}. ` +
+            (complete ? 'All placed; submit when ready.' : `${exercise.entries.length - placed.length} to go.`)}
+      </p>
+
       <ol data-testid="timeline-placed" aria-label="Your order" className="space-y-2">
         {exercise.entries.map((_, i) => {
           const entry = placed[i] ? byId.get(placed[i]) : undefined
@@ -164,7 +191,7 @@ export function Timeline({ exercise, items, answered, onAnswer }: ExerciseProps<
       </ol>
 
       {pool.length ? (
-        <div role="group" aria-label="Entries to place" data-testid="timeline-pool" className="space-y-2">
+        <div ref={poolRef} role="group" aria-label="Entries to place" data-testid="timeline-pool" className="space-y-2">
           <p className="smallcaps text-xs text-ink-mute">Tap the earliest first</p>
           {pool.map((entry) => (
             <button key={entry.id} type="button" data-testid={`timeline-entry-${entry.id}`} onClick={() => place(entry.id)} className={ENTRY_BUTTON}>
@@ -174,11 +201,18 @@ export function Timeline({ exercise, items, answered, onAnswer }: ExerciseProps<
         </div>
       ) : null}
 
-      <div className="flex gap-2">
-        <Button variant="secondary" data-testid="timeline-reset" disabled={placed.length === 0 || locked} onClick={reset}>
+      <div className="flex flex-wrap gap-2">
+        <Button variant="secondary" className="min-w-0" data-testid="timeline-reset" disabled={placed.length === 0 || locked} onClick={reset}>
           Start again
         </Button>
-        <Button variant="primary" data-testid="timeline-submit" disabled={!complete || locked} onClick={submit} className="flex-1">
+        <Button
+          ref={submitRef}
+          variant="primary"
+          data-testid="timeline-submit"
+          disabled={!complete || locked}
+          onClick={submit}
+          className="min-w-0 flex-1"
+        >
           Submit
         </Button>
       </div>

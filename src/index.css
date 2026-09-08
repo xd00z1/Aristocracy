@@ -4,6 +4,11 @@
   Design tokens. The palette is deliberately restrained: ivory ground, ink text,
   oxblood for emphasis and error, gilt for reward. No pure white, no pure black,
   no saturated greens. If a colour would embarrass a duchess, it is not here.
+
+  Every ink and every gilt here is dark enough to be read: ink-mute clears
+  4.5:1 on ivory, parchment and ivory-deep, and gilt clears 4.5:1 on ivory and
+  parchment (it carries meter values and the focus ring, so it is not
+  decorative). Check any change to these two against those three grounds.
 */
 @theme {
   --color-ivory: #f6f1e7;
@@ -11,11 +16,11 @@
   --color-parchment: #fbf8f1;
   --color-ink: #1f1a17;
   --color-ink-soft: #4a423c;
-  --color-ink-mute: #8a7f75;
+  --color-ink-mute: #6f655c;
   --color-rule: #d8cdb9;
   --color-oxblood: #6b1f2a;
   --color-oxblood-soft: #8c3a45;
-  --color-gilt: #b8912e;
+  --color-gilt: #8a6819;
   --color-gilt-soft: #d9bd6a;
   --color-moss: #4f5d3a;
   --color-night: #15121a;
@@ -61,4 +66,19 @@ body {
   content: "";
   flex: 1;
   border-top: 1px solid var(--color-rule);
+}
+
+/*
+  Reduced motion: a reader who has asked the system for stillness gets it.
+  Transitions and animations are cut to a single frame rather than removed, so
+  anything that waits on transitionend still fires. Zoom Out reads the same
+  preference in JS and shows the picture whole (see src/exercises/ZoomOut.tsx).
+*/
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }

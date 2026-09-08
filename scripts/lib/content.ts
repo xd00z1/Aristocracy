@@ -122,6 +122,18 @@ export function loadContent(): { content: LoadedContent; problems: Problem[] } {
   return { content: { cities, items, scenarios, origins }, problems }
 }
 
+/** The runtime's option key: trimmed, lower-cased, inner whitespace collapsed. */
+function normaliseLabel(label: string): string {
+  return label.trim().toLowerCase().replace(/\s+/g, ' ')
+}
+
+/** True when a distractor list holds the correct answer, however it is spaced or cased. */
+function collides(list: string[] | undefined, answer: string | undefined): boolean {
+  if (!list || answer === undefined || answer === '') return false
+  const key = normaliseLabel(answer)
+  return list.some((d) => normaliseLabel(d) === key)
+}
+
 /** Cross-item rules that the schema alone cannot express. */
 export function checkContent(c: LoadedContent): Problem[] {
   const problems: Problem[] = []
@@ -147,12 +159,19 @@ export function checkContent(c: LoadedContent): Problem[] {
     if (item.remark.length > 320) warn(item.id, 'remark is long; one sentence, two at most')
     if (item.kind === 'work' && !item.creator) err(item.id, 'works need a creator')
     const d = item.distractors
-    if (d?.creator?.includes(item.creator ?? '')) err(item.id, 'distractors.creator contains the correct creator')
-    if (d?.title?.includes(item.title)) err(item.id, 'distractors.title contains the correct title')
-    if (d?.era?.includes(item.era)) err(item.id, 'distractors.era contains the correct era')
+    // Compared the way the runtime compares them (src/engine/distractors.ts),
+    // so a distractor differing only in case or spacing is caught here rather
+    // than silently dropped from the options at play time.
+    if (collides(d?.creator, item.creator)) err(item.id, 'distractors.creator contains the correct creator')
+    if (collides(d?.title, item.title)) err(item.id, 'distractors.title contains the correct title')
+    if (collides(d?.era, item.era)) err(item.id, 'distractors.era contains the correct era')
     if (item.year !== undefined && d?.year?.includes(item.year)) err(item.id, 'distractors.year contains the correct year')
-    if (item.kind === 'term' && d?.term && d.term.includes(item.definition)) err(item.id, 'distractors.term contains the correct definition')
-    if (item.kind === 'person' && d?.person?.includes(item.title)) err(item.id, 'distractors.person contains the correct person')
+    if (item.kind === 'term' && collides(d?.term, item.definition)) err(item.id, 'distractors.term contains the correct definition')
+    // The session builder asks "who is this?" of creators as well as persons,
+    // and both answer with their own title.
+    if ((item.kind === 'person' || item.kind === 'creator') && collides(d?.person, item.title)) {
+      err(item.id, 'distractors.person contains the correct person')
+    }
     if (item.year !== undefined && item.year_end !== undefined && item.year_end < item.year) err(item.id, 'year_end before year')
     if (item.media?.image && !item.media.image.commons && !item.media.image.file) err(item.id, 'media.image needs commons or file')
   }

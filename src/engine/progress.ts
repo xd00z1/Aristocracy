@@ -7,8 +7,11 @@
  *
  *   loadProfile / saveProfile     the single profile (id 'me'), created on first run
  *   loadCards                     every CardState, keyed by item id
- *   startSession                  builds the plan (attempt = today's records for
- *                                 the same lesson + 1) and writes a SessionRecord
+ *   startSession                  resumes today's unfinished session for the
+ *                                 lesson, or builds a new plan (attempt =
+ *                                 today's records for the same lesson + 1) and
+ *                                 writes a SessionRecord holding it
+ *   sessionAnswers                what has been answered on a plan so far
  *   recordAnswer                  applies the scheduler to every item in the
  *                                 answer at once and persists the cards
  *   completeSession               grades, awards Prestige and Guineas, applies
@@ -21,7 +24,7 @@
  * is `new Date()` so the app can omit it while tests never read the clock.
  */
 import { getContent } from '../content'
-import { DISCIPLINES, type Discipline } from '../content/schema'
+import { DISCIPLINES, type Discipline } from '../content/constants'
 import type { City, Lesson } from '../content/types'
 import { db } from '../store/db'
 import { gradeSession, guineasFor, prestigeFor } from './grading'
@@ -44,19 +47,24 @@ export const DEFAULT_DISPLAY_NAME = 'Traveller'
 
 /**
  * What is actually written to the sessions table: the contract's SessionRecord
- * plus the ids already acquired when the session began, so `completeSession`
- * can tell which cards flipped during this session even after a reload.
+ * plus the ids already acquired when the session began (so `completeSession`
+ * can tell which cards flipped during this session even after a reload) and
+ * the plan itself (so an interrupted session resumes on exactly the twelve
+ * slots it started with, rather than being silently replaced).
  */
 interface StoredSessionRecord extends SessionRecord {
   acquiredBefore?: string[]
+  plan?: SessionPlan
 }
-
-/** In-memory fallback for the pre-session acquired set, keyed by plan id. */
-const acquiredBeforeMemo = new Map<string, Set<string>>()
 
 // ---------------------------------------------------------------------------
 // Content helpers (read through getContent() only, so tests mock one function)
 // ---------------------------------------------------------------------------
+
+/** Every item id in the content today. Cards for anything else are ignored. */
+function contentItemIds(): Set<string> {
+  return new Set(getContent().items.map((i) => i.id))
+}
 
 function citiesInOrder(): City[] {
   return [...getContent().cities].sort((a, b) => a.order - b.order)
@@ -120,9 +128,19 @@ export async function loadProfile(now: Date = new Date()): Promise<Profile> {
   })
 }
 
-export async function saveProfile(p: Profile): Promise<Profile> {
-  await db.profile.put(p)
-  return p
+/**
+ * Merge changes into the stored profile inside a transaction. A caller holding
+ * a profile read minutes ago (the Settings screen) must not write back the
+ * prestige, guineas and lesson progress a session completed meanwhile, so only
+ * the fields it passes are applied.
+ */
+export async function saveProfile(patch: Partial<Profile>): Promise<Profile> {
+  return db.transaction('rw', db.profile, async () => {
+    const current = await loadProfile()
+    const next: Profile = { ...current, ...patch, id: PROFILE_ID }
+    await db.profile.put(next)
+    return next
+  })
 }
 
 // ---------------------------------------------------------------------------
@@ -144,38 +162,66 @@ function acquiredIds(cards: Iterable<CardState>): string[] {
 // Sessions
 // ---------------------------------------------------------------------------
 
-/** Session records written today for this lesson; the next attempt is one more. */
-async function attemptsToday(lessonId: string, now: Date): Promise<number> {
-  return db.sessions
-    .where('sessionId')
-    .startsWith(`${localDay(now)}-${lessonId}-`)
-    .count()
-}
-
 async function findRecord(sessionId: string): Promise<StoredSessionRecord | undefined> {
   return (await db.sessions.where('sessionId').equals(sessionId).last()) as StoredSessionRecord | undefined
 }
 
+/** True while every item a stored plan touches is still in the content. */
+function planIsCurrent(plan: SessionPlan): boolean {
+  if (!plan?.exercises?.length) return false
+  const known = contentItemIds()
+  return plan.exercises.every((e) => e.itemIds.length > 0 && e.itemIds.every((id) => known.has(id)))
+}
+
+/**
+ * Today's plan for the current lesson: the unfinished one if there is one,
+ * otherwise a new attempt.
+ *
+ * A reload, a backgrounded tab evicted by the browser or a crash must not cost
+ * the user the answers already applied to their cards, so the plan is stored
+ * with the record and handed back verbatim; `sessionAnswers` returns what has
+ * been answered so far. Finding and writing happen in one transaction, so two
+ * clients starting at once cannot both add a record for the same attempt.
+ */
 export async function startSession(now: Date = new Date()): Promise<SessionPlan> {
   const [profile, cards] = await Promise.all([loadProfile(now), loadCards()])
   const probe = buildSession({ profile, cards, now, attempt: 1 })
-  const attempt = (await attemptsToday(probe.lessonId, now)) + 1
-  const plan = attempt === 1 ? probe : buildSession({ profile, cards, now, attempt })
+  return db.transaction('rw', db.sessions, async () => {
+    const today = (await db.sessions
+      .where('sessionId')
+      .startsWith(`${localDay(now)}-${probe.lessonId}-`)
+      .toArray()) as StoredSessionRecord[]
 
-  const acquiredBefore = acquiredIds(cards.values())
-  const record: StoredSessionRecord = {
-    sessionId: plan.id,
-    cityId: plan.cityId,
-    lessonId: plan.lessonId,
-    startedAt: now.getTime(),
-    completedAt: null,
-    summary: null,
-    answers: [],
-    acquiredBefore,
-  }
-  await db.sessions.add(record)
-  acquiredBeforeMemo.set(plan.id, new Set(acquiredBefore))
-  return plan
+    const unfinished = today
+      .filter((r) => r.completedAt === null && r.plan && planIsCurrent(r.plan))
+      .sort((a, b) => a.startedAt - b.startedAt)
+      .pop()
+    if (unfinished?.plan) return unfinished.plan
+
+    const attempt = today.length + 1
+    const plan = attempt === 1 ? probe : buildSession({ profile, cards, now, attempt })
+    const record: StoredSessionRecord = {
+      sessionId: plan.id,
+      cityId: plan.cityId,
+      lessonId: plan.lessonId,
+      startedAt: now.getTime(),
+      completedAt: null,
+      summary: null,
+      answers: [],
+      acquiredBefore: acquiredIds(cards.values()),
+      plan,
+    }
+    await db.sessions.add(record)
+    return plan
+  })
+}
+
+/** Answers already recorded for a session, in the plan's own slot order. */
+export async function sessionAnswers(plan: SessionPlan): Promise<Answer[]> {
+  const record = await findRecord(plan.id)
+  if (!record?.answers?.length) return []
+  const byExercise = new Map(record.answers.map((a) => [a.exerciseId, a]))
+  return plan.exercises.map((e) => byExercise.get(e.id)).filter((a): a is Answer => Boolean(a))
 }
 
 function itemIdsForAnswer(plan: SessionPlan, answer: Answer): string[] {
@@ -279,8 +325,9 @@ export async function completeSession(plan: SessionPlan, answers: Answer[], now:
     const record = await findRecord(plan.id)
 
     // What this session acquired: cards acquired now that were not when it began.
-    const before = record?.acquiredBefore ? new Set(record.acquiredBefore) : acquiredBeforeMemo.get(plan.id)
-    const acquiredNow = cards.filter((c) => c.acquired)
+    const before = record?.acquiredBefore ? new Set(record.acquiredBefore) : undefined
+    const known = contentItemIds()
+    const acquiredNow = cards.filter((c) => c.acquired && known.has(c.itemId))
     const acquired = acquiredNow
       .filter((c) => (before ? !before.has(c.itemId) : (c.acquiredAt ?? 0) >= plan.createdAt))
       .map((c) => c.itemId)
@@ -348,7 +395,6 @@ export async function completeSession(plan: SessionPlan, answers: Answer[], now:
         answers,
       })
     }
-    acquiredBeforeMemo.delete(plan.id)
     return summary
   })
 }
@@ -357,15 +403,22 @@ export async function completeSession(plan: SessionPlan, answers: Answer[], now:
 // Queries
 // ---------------------------------------------------------------------------
 
+/**
+ * Due cards. A card whose item has left the content is never scheduled by the
+ * session builder, so counting it here would leave the Correspondence at "one
+ * item awaits your reply" that no session can clear.
+ */
 export async function dueCount(now: Date = new Date()): Promise<number> {
   const scheduler = createScheduler()
+  const known = contentItemIds()
   const cards = await db.cards.toArray()
-  return cards.filter((c) => scheduler.isDue(c, now)).length
+  return cards.filter((c) => known.has(c.itemId) && scheduler.isDue(c, now)).length
 }
 
-/** Acquired cards, in the order they were acquired. */
+/** Acquired cards, in the order they were acquired; orphans are left out. */
 export async function collection(): Promise<CardState[]> {
-  const cards = await db.cards.filter((c) => c.acquired).toArray()
+  const known = contentItemIds()
+  const cards = (await db.cards.filter((c) => c.acquired).toArray()).filter((c) => known.has(c.itemId))
   return cards.sort((a, b) => (a.acquiredAt ?? 0) - (b.acquiredAt ?? 0) || a.itemId.localeCompare(b.itemId))
 }
 
@@ -406,5 +459,4 @@ export async function resetAll(): Promise<void> {
   await db.transaction('rw', db.cards, db.profile, db.sessions, async () => {
     await Promise.all([db.cards.clear(), db.profile.clear(), db.sessions.clear()])
   })
-  acquiredBeforeMemo.clear()
 }

@@ -52,6 +52,7 @@ vi.mock('./session/deps', () => ({
   startSession: async () => {
     throw new Error('not in this test')
   },
+  sessionAnswers: async () => [],
   recordAnswer: async () => {},
   completeSession: async () => {
     throw new Error('not in this test')

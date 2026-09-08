@@ -4,6 +4,8 @@
  * the house PRNG seeded from the exercise id, so a session shows the same
  * board every time it is rendered. A correct pair locks and dims; a wrong pair
  * flashes oxblood for a moment and counts a mistake, shown as "Mistakes: n".
+ * Locking a pair hands keyboard focus to the next unpaired entry on the left,
+ * so the board can be worked without a mouse.
  * When every pair is locked the exercise answers exactly once: correct when
  * at most one mistake was made, `chosen` = the pair ids in the order matched.
  *
@@ -69,11 +71,26 @@ export function Match({ exercise, answered, onAnswer }: ExerciseProps<MatchExerc
 
   const right = useMemo(() => rightColumn(exercise), [exercise])
 
+  // A locked tile cannot be focused, so the button the user just pressed would
+  // drop keyboard focus to <body> and make them tab in from the top for every
+  // pair. Focus moves to the next unpaired entry on the left instead; when the
+  // last pair locks, the runner takes focus to Continue.
+  const leftButtons = useRef(new Map<string, HTMLButtonElement | null>())
+  const handOn = useRef(false)
+
   useEffect(() => {
     if (!flash) return
     const timer = setTimeout(() => setFlash(null), FLASH_MS)
     return () => clearTimeout(timer)
   }, [flash])
+
+  useEffect(() => {
+    if (!handOn.current) return
+    handOn.current = false
+    if (done) return
+    const next = exercise.pairs.find((p) => !lockedIds.includes(p.id))
+    if (next) leftButtons.current.get(next.id)?.focus()
+  }, [lockedIds, done, exercise.pairs])
 
   const tap = useCallback(
     (side: MatchSide, id: string) => {
@@ -97,6 +114,7 @@ export function Match({ exercise, answered, onAnswer }: ExerciseProps<MatchExerc
         return
       }
       const next = [...lockedIds, leftId]
+      handOn.current = true
       setLockedIds(next)
       if (next.length === exercise.pairs.length && !fired.current) {
         fired.current = true
@@ -125,6 +143,7 @@ export function Match({ exercise, answered, onAnswer }: ExerciseProps<MatchExerc
       <button
         key={pair.id}
         type="button"
+        ref={side === 'left' ? (el) => void leftButtons.current.set(pair.id, el) : undefined}
         data-testid={`match-${side}-${pair.id}`}
         data-state={state}
         aria-pressed={state === 'selected'}

@@ -3,7 +3,7 @@
  * per discipline, drawn in the same coordinates by the SVG on the Estate
  * screen and by the share card's canvas. Pure data and small helpers; no DOM.
  */
-import { DISCIPLINES, type Discipline } from '../../content/schema'
+import { DISCIPLINES, type Discipline } from '../../content/constants'
 
 export interface Rect {
   x: number

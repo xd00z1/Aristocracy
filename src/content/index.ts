@@ -7,35 +7,55 @@ import type { City, ContentBundle, Discipline, Item, Lesson, Scenario } from './
 
 const content = bundle as unknown as ContentBundle
 
-const itemById = new Map<string, Item>(content.items.map((i) => [i.id, i]))
-const scenarioById = new Map<string, Scenario>(content.scenarios.map((s) => [s.id, s]))
-const lessonById = new Map<string, Lesson>(content.lessons.map((l) => [l.id, l]))
-const cityById = new Map<string, City>(content.cities.map((c) => [c.id, c]))
+interface Indexes {
+  itemById: Map<string, Item>
+  scenarioById: Map<string, Scenario>
+  lessonById: Map<string, Lesson>
+  cityById: Map<string, City>
+}
+
+/**
+ * The id lookups, built on first use rather than at module evaluation: this
+ * module is in the first chunk the browser parses, and four maps over every
+ * item, scenario, lesson and city are work the first paint does not need.
+ */
+let indexes: Indexes | null = null
+function index(): Indexes {
+  if (!indexes) {
+    indexes = {
+      itemById: new Map(content.items.map((i) => [i.id, i])),
+      scenarioById: new Map(content.scenarios.map((s) => [s.id, s])),
+      lessonById: new Map(content.lessons.map((l) => [l.id, l])),
+      cityById: new Map(content.cities.map((c) => [c.id, c])),
+    }
+  }
+  return indexes
+}
 
 export function getContent(): ContentBundle {
   return content
 }
 
 export function getItem(id: string): Item | undefined {
-  return itemById.get(id)
+  return index().itemById.get(id)
 }
 
 export function requireItem(id: string): Item {
-  const item = itemById.get(id)
+  const item = index().itemById.get(id)
   if (!item) throw new Error(`Unknown item: ${id}`)
   return item
 }
 
 export function getScenario(id: string): Scenario | undefined {
-  return scenarioById.get(id)
+  return index().scenarioById.get(id)
 }
 
 export function getLesson(id: string): Lesson | undefined {
-  return lessonById.get(id)
+  return index().lessonById.get(id)
 }
 
 export function getCity(id: string): City | undefined {
-  return cityById.get(id)
+  return index().cityById.get(id)
 }
 
 export function citiesInOrder(): City[] {

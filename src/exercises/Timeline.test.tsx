@@ -102,6 +102,23 @@ describe('Timeline', () => {
     expect(submit().textContent).toBe('Submit')
   })
 
+  it('hands keyboard focus on: the next entry in the pool, then Submit, and says what was placed', () => {
+    renderTimeline()
+    // The button that was pressed unmounts, so focus has to be given somewhere
+    // deliberately or it falls to <body> and the reader tabs in from the top.
+    const order = poolIds()
+    entry(order[0]).focus()
+    fireEvent.click(entry(order[0]))
+    expect(document.activeElement).toBe(entry(order[1]))
+    expect(screen.getByTestId('timeline-status').textContent).toContain('placed 1st')
+    expect(screen.getByTestId('timeline-status').textContent).toContain('3 to go')
+
+    for (const id of order.slice(1)) fireEvent.click(entry(id))
+    expect(document.activeElement).toBe(submit())
+    expect(screen.getByTestId('timeline-status').textContent).toContain('placed 4th')
+    expect(screen.getByTestId('timeline-status').textContent).toContain('submit when ready')
+  })
+
   it('tapping an entry appends it to the numbered list and removes it from the pool; Submit enables once every entry is placed', () => {
     renderTimeline()
     fireEvent.click(entry('a'))

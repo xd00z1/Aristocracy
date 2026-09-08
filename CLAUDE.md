@@ -62,9 +62,10 @@ export function nextRank(level: RankLevel): RankDefinition | null
 
 // src/engine/progress.ts (Dexie-backed; all async)
 export async function loadProfile(): Promise<Profile>                  // creates the default profile on first run
-export async function saveProfile(p: Profile): Promise<Profile>
+export async function saveProfile(patch: Partial<Profile>): Promise<Profile>   // merged into the stored row in a transaction
 export async function loadCards(): Promise<Map<string, CardState>>
-export async function startSession(now?: Date): Promise<SessionPlan>   // builds the plan, writes a SessionRecord
+export async function startSession(now?: Date): Promise<SessionPlan>   // resumes today's unfinished session, else builds a plan and writes a SessionRecord holding it
+export async function sessionAnswers(plan: SessionPlan): Promise<Answer[]>     // what has been answered so far, for a resumed session
 export async function recordAnswer(plan: SessionPlan, answer: Answer, now?: Date): Promise<void>   // updates cards at once
 export async function completeSession(plan: SessionPlan, answers: Answer[], now?: Date): Promise<SessionSummary>
 export async function dueCount(now?: Date): Promise<number>
@@ -84,6 +85,8 @@ export function midiToFrequency(midi: number): number
 // src/audio/synth.ts
 export interface ThemePlayback { stop(): void; done: Promise<void>; durationSeconds: number }
 export function ensureAudioContext(): AudioContext                      // singleton; call from a user gesture
+export async function ensureRunningContext(): Promise<AudioContext>     // the same, with resume() awaited; schedule only when state === 'running'
+export function audioContextRunning(): boolean                          // true when a context already exists and is running
 export function playTheme(theme: Theme, opts?: { context?: AudioContext; gain?: number }): ThemePlayback
 // src/audio/useThemePlayer.ts
 export function useThemePlayer(theme: Theme | undefined, enabled: boolean): { play(): void; stop(): void; playing: boolean; progress: number; durationSeconds: number }

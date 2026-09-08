@@ -6,7 +6,7 @@
  * runner renders beneath every answered exercise; nothing is shown twice.
  */
 import { useCallback, useRef } from 'react'
-import { VERDICTS } from '../content/schema'
+import { VERDICTS } from '../content/constants'
 import type { Verdict } from '../content/types'
 import type { Answer, ApocryphaExercise } from '../engine/types'
 import { nowMs, type OptionState } from './ChoiceBase'

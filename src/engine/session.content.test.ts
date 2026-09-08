@@ -14,6 +14,7 @@
  */
 import { describe, expect, it } from 'vitest'
 import { citiesInOrder, getContent, getItem, lessonsForCity } from '../content'
+import { OPTION_COUNT } from './distractors'
 import { buildSession } from './session'
 import type { Exercise, Profile } from './types'
 import { isChoice } from './types'
@@ -99,14 +100,35 @@ describe.each(CASES)('a session for $label', ({ cityId, order, seed, label }) =>
     }
   })
 
-  it('offers answerable choices: the right answer present once, the wrong ones distinct', () => {
+  it('offers answerable choices: four options, the right answer present once, the wrong ones distinct', () => {
     for (const exercise of plan.exercises.filter(isChoice)) {
       const labels = exercise.options.map((o) => o.label)
-      expect(exercise.options.length, `${exercise.id} has too few options`).toBeGreaterThanOrEqual(2)
+      // CLAUDE.md: options are always four (three for apocrypha verdicts, which
+      // are not choice exercises). Fewer means the pool could not furnish
+      // distractors, which makes the question unloseable.
+      expect(exercise.options.length, `${exercise.id} (${exercise.itemId}, ${exercise.askFor}) has ${labels.length} options`).toBe(
+        OPTION_COUNT,
+      )
       expect(new Set(labels).size, `${exercise.id} repeats an option: ${labels.join(' | ')}`).toBe(labels.length)
       const correct = exercise.options.find((o) => o.id === exercise.correctOptionId)
       expect(correct, `${exercise.id} has no option matching correctOptionId`).toBeDefined()
       expect(exercise.question.trim().length, `${exercise.id} has an empty question`).toBeGreaterThan(0)
+    }
+  })
+
+  it('never puts the answer in the question', () => {
+    // "In which year was 1848 and the accession of Franz Joseph?" pays full
+    // Prestige for reading, and feeds a free Good into the scheduler.
+    const flatten = (s: string) => s.toLowerCase().replace(/[\s\u2014\u2013"“”‘’']+/g, ' ').trim()
+    for (const exercise of plan.exercises.filter(isChoice)) {
+      const correct = exercise.options.find((o) => o.id === exercise.correctOptionId)
+      if (!correct) continue
+      const answer = flatten(correct.label)
+      if (answer.length < 3) continue
+      expect(
+        flatten(exercise.question).includes(answer),
+        `${exercise.id} (${exercise.itemId}) asks "${exercise.question}" and answers "${correct.label}"`,
+      ).toBe(false)
     }
   })
 

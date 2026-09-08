@@ -10,7 +10,8 @@
  *   10    the Remark: a scenario from the lesson, rotated by seed; else an item
  *   11    Timeline on even seeds, Match on odd seeds; the other when the
  *         preferred one lacks material; else an item exercise
- *   12    the finale: the hardest unused item in the city, `isFinale: true`
+ *   12    the finale: the hardest unused item in the city as a choice
+ *         exercise, `isFinale: true`
  *
  * Every random choice draws from `mulberry32(seed)`, where the seed defaults
  * to `hashString(sessionId)` and the session id is `${localDay}-${lessonId}-${attempt}`.
@@ -18,7 +19,7 @@
  */
 import { getContent, hasImage as contentHasImage } from '../content'
 import type { City, Item, Lesson, Scenario } from '../content/types'
-import { answerFor, optionsFor, redactNames } from './distractors'
+import { answerFor, optionsFor, redactNames, REDACTION } from './distractors'
 import { createScheduler } from './scheduler'
 import {
   hashString,
@@ -163,9 +164,24 @@ function clueFor(item: Item, names: string[], rand: () => number, variant: numbe
   return redactNames(picked.join(' '), names)
 }
 
+/**
+ * A title that names its own year would answer the question ("1848 and the
+ * accession of Franz Joseph"), so the year and the end of its span are struck
+ * out of the title before it is asked about.
+ */
+export function redactYears(title: string, years: Array<number | undefined>): string {
+  let out = title
+  for (const year of years) {
+    if (typeof year !== 'number') continue
+    out = out.replace(new RegExp(`(?<!\\d)${Math.abs(year)}(?!\\d)`, 'g'), REDACTION)
+  }
+  return out
+}
+
 function yearQuestion(item: Item): string {
   const spanned = typeof item.year_end === 'number' && item.year_end !== item.year
-  return spanned ? `In which year did ${item.title} begin?` : `In which year was ${item.title}?`
+  const title = redactYears(item.title, [item.year, item.year_end])
+  return spanned ? `In which year did ${title} begin?` : `In which year was ${title}?`
 }
 
 /**
@@ -424,11 +440,15 @@ export function buildSession(input: BuildSessionInput): SessionPlan {
   // Slot 12: the finale, the hardest unused item in the city.
   const touched = new Set(exercises.flatMap((e) => e.itemIds))
   const cityItems = source.items.filter((i) => i.city === cityId)
+  // The finale is a choice exercise (CLAUDE.md, slot 12), so every list that
+  // can still yield one comes before the lists that would allow an apocrypha
+  // verdict; those are a last resort for a city with nothing else in it.
   const finaleCandidates =
     [
       cityItems.filter((i) => !touched.has(i.id) && i.kind !== 'apocrypha'),
-      cityItems.filter((i) => !touched.has(i.id)),
       cityItems.filter((i) => i.kind !== 'apocrypha'),
+      lessonItems.filter((i) => i.kind !== 'apocrypha'),
+      cityItems.filter((i) => !touched.has(i.id)),
       cityItems,
       lessonItems,
     ].find((c) => c.length > 0) ?? lessonItems

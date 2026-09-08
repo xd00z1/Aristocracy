@@ -103,7 +103,7 @@ const fx = vi.hoisted(() => {
     }
   }
 
-  return { bundle, buildSession }
+  return { bundle, buildSession, item }
 })
 
 vi.mock('../content', () => ({ getContent: () => fx.bundle }))
@@ -124,6 +124,7 @@ import {
   recordAnswer,
   resetAll,
   saveProfile,
+  sessionAnswers,
   startSession,
 } from './progress'
 import type { Answer, CardState, Profile, SessionPlan } from './types'
@@ -177,7 +178,21 @@ function acquiredCard(itemId: string, acquiredAt: number): CardState {
   }
 }
 
+/** The fixture content's own items; anything a test lends it is taken back after. */
+const BASE_ITEMS = fx.bundle.items.length
+
+/**
+ * Lend the mocked content some extra items for one test. Cards for items that
+ * are not in the content are ignored by the engine (they can never be
+ * scheduled), so a test about counting acquired items must give them somewhere
+ * to belong.
+ */
+function lendItems(ids: string[]): void {
+  fx.bundle.items.push(...ids.map((id) => fx.item(id, 'music', 'alpha')))
+}
+
 beforeEach(async () => {
+  fx.bundle.items.length = BASE_ITEMS
   await resetAll()
 })
 
@@ -243,14 +258,37 @@ describe('startSession', () => {
     expect(records[0].id).toBeTypeOf('number')
   })
 
-  it('numbers repeat attempts on the same day and lesson, and starts over on a new day', async () => {
+  it('resumes today\'s unfinished session instead of starting a second one', async () => {
     const a = await startSession(JAN5)
+    await recordAnswer(a, answerFor(a, 'music.a1', true), JAN5)
+
+    // A reload: the same plan comes back, with the answers already given.
+    const again = await startSession(at(2026, 1, 5, 21))
+    expect(again.id).toBe(a.id)
+    expect(again.exercises.map((e) => e.id)).toEqual(a.exercises.map((e) => e.id))
+    expect(await db.sessions.count()).toBe(1)
+    expect((await sessionAnswers(again)).map((x) => x.exerciseId)).toEqual([a.exercises[0].id])
+  })
+
+  it('numbers a repeat attempt on the same lesson once the earlier one is complete, and starts over on a new day', async () => {
+    await playSession(JAN5)
+    await seedProfile({ lessonProgress: { alpha: 1 } }) // play the same lesson again
     const b = await startSession(at(2026, 1, 5, 21))
     const c = await startSession(JAN6)
-    expect(a.id).toBe('2026-01-05-alpha.1-1')
     expect(b.id).toBe('2026-01-05-alpha.1-2')
     expect(c.id).toBe('2026-01-06-alpha.1-1')
     expect(await db.sessions.count()).toBe(3)
+  })
+
+  it('starts a fresh session rather than resuming one whose items have left the content', async () => {
+    const a = await startSession(JAN5)
+    const record = (await db.sessions.where('sessionId').equals(a.id).first())!
+    // `plan` is stored alongside the contract's SessionRecord fields (see
+    // StoredSessionRecord in progress.ts), so the update spec is widened here.
+    const stale = { plan: { ...a, exercises: a.exercises.map((e) => ({ ...e, itemIds: ['music.gone-away'] })) } }
+    await db.sessions.update(record.id!, stale as unknown as Parameters<typeof db.sessions.update>[1])
+    const b = await startSession(at(2026, 1, 5, 21))
+    expect(b.id).toBe('2026-01-05-alpha.1-2')
   })
 
   it('starts the next lesson once the previous one is complete', async () => {
@@ -561,7 +599,9 @@ describe('acquisition and rank-up', () => {
 
   it('detects the rank-up to Esquire when the 25th item is acquired in the session', async () => {
     const earlier = at(2025, 12, 9).getTime()
-    await db.cards.bulkPut(Array.from({ length: 24 }, (_, i) => acquiredCard(`music.seed-${i}`, earlier)))
+    const seeded = Array.from({ length: 24 }, (_, i) => `music.seed-${i}`)
+    lendItems(seeded)
+    await db.cards.bulkPut(seeded.map((id) => acquiredCard(id, earlier)))
     await seedProfile({ sessionsCompleted: 3 })
 
     for (const day of [JAN5, JAN6]) {
@@ -582,6 +622,7 @@ describe('acquisition and rank-up', () => {
   })
 
   it('falls back to acquiredAt when the session has no record of its starting set', async () => {
+    lendItems(['music.seed-old'])
     await db.cards.bulkPut([acquiredCard('music.seed-old', at(2025, 12, 9).getTime()), acquiredCard('music.a1', JAN5.getTime())])
     const profile = await loadProfile(JAN5)
     const plan = fx.buildSession({ profile, cards: new Map(), now: at(2026, 1, 5, 8) }) as unknown as SessionPlan
@@ -597,6 +638,15 @@ describe('dueCount and collection', () => {
     await recordAnswer(plan, { exerciseId: plan.exercises[0].id, correct: true, itemIds: ['music.a1', 'art.a2'], msElapsed: 1 }, JAN5)
     expect(await dueCount(JAN5)).toBe(0) // just answered: scheduled for later
     expect(await dueCount(JAN6)).toBe(2)
+  })
+
+  it('ignores cards whose item has left the content, which no session could ever clear', async () => {
+    await db.cards.bulkPut([
+      { ...acquiredCard('music.a1', JAN5.getTime()), due: JAN5.getTime() - 1000 },
+      { ...acquiredCard('music.gone-away', JAN5.getTime()), due: JAN5.getTime() - 1000 },
+    ])
+    expect(await dueCount(JAN5)).toBe(1)
+    expect((await collection()).map((c) => c.itemId)).toEqual(['music.a1'])
   })
 
   it('collection returns acquired cards in order of acquisition', async () => {

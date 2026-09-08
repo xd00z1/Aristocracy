@@ -57,6 +57,7 @@ export default function SettingsScreen() {
 
   // Move focus to the confirmation when it appears, so a thumb and a screen reader both land on it.
   const confirmRef = useRef<HTMLButtonElement>(null)
+  const styleGroupRef = useRef<HTMLDivElement>(null)
   useEffect(() => {
     if (resetStep === 'confirm') confirmRef.current?.focus()
   }, [resetStep])
@@ -79,13 +80,32 @@ export default function SettingsScreen() {
     setEdited(next)
     setNotice(null)
     try {
-      const saved = await saveProfile(next)
+      // Only the changed fields go to the store: this screen's profile was read
+      // when it opened, and a session completed since then may have moved
+      // prestige, guineas and lesson progress on.
+      const saved = await saveProfile(patch)
       setEdited(saved)
       if (line) setNotice({ text: line })
     } catch (error) {
       setEdited(current)
       setNotice({ text: `That could not be saved. ${error instanceof Error ? error.message : ''}`.trim(), error: true })
     }
+  }
+
+  /**
+   * The radio-group pattern a screen reader promises when it announces this as
+   * a radio group: one tab stop for the whole group (the checked radio), and
+   * the arrow keys moving the choice along it.
+   */
+  const onStyleKey = (e: KeyboardEvent<HTMLButtonElement>, style: TitleStyle) => {
+    const keys: Record<string, number> = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }
+    const step = keys[e.key]
+    if (step === undefined) return
+    e.preventDefault()
+    const index = TITLE_STYLES.findIndex((o) => o.style === style)
+    const next = TITLE_STYLES[(index + step + TITLE_STYLES.length) % TITLE_STYLES.length]
+    void persist({ titleStyle: next.style })
+    styleGroupRef.current?.querySelector<HTMLButtonElement>(`[data-testid="title-style-${next.style}"]`)?.focus()
   }
 
   const commitName = () => {
@@ -155,7 +175,7 @@ export default function SettingsScreen() {
         <p id="settings-style" className="smallcaps text-xs text-ink-mute">
           Style of title
         </p>
-        <div role="radiogroup" aria-labelledby="settings-style" className="mt-2 grid grid-cols-1 gap-2 sm:grid-cols-3">
+        <div ref={styleGroupRef} role="radiogroup" aria-labelledby="settings-style" className="mt-2 grid grid-cols-1 gap-2 sm:grid-cols-3">
           {TITLE_STYLES.map((opt) => {
             const checked = profile.titleStyle === opt.style
             return (
@@ -164,6 +184,8 @@ export default function SettingsScreen() {
                 type="button"
                 role="radio"
                 aria-checked={checked}
+                tabIndex={checked ? 0 : -1}
+                onKeyDown={(e) => onStyleKey(e, opt.style)}
                 onClick={() => {
                   if (!checked) void persist({ titleStyle: opt.style })
                 }}
@@ -201,8 +223,8 @@ export default function SettingsScreen() {
       </Card>
 
       <Card as="section" className="mt-4" aria-labelledby="settings-sound">
-        <div className="flex items-center justify-between gap-3">
-          <div>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="min-w-0">
             <p id="settings-sound" className="smallcaps text-xs text-ink-mute">
               Sound
             </p>
@@ -215,7 +237,7 @@ export default function SettingsScreen() {
             aria-labelledby="settings-sound"
             onClick={() => void persist({ soundEnabled: !profile.soundEnabled })}
             data-testid="sound-toggle"
-            className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-card px-2 font-serif text-ink focus:outline-none focus-visible:ring-2 focus-visible:ring-gilt focus-visible:ring-offset-2 focus-visible:ring-offset-ivory"
+            className="inline-flex min-h-11 items-center gap-2 rounded-card px-2 font-serif text-ink focus:outline-none focus-visible:ring-2 focus-visible:ring-gilt focus-visible:ring-offset-2 focus-visible:ring-offset-ivory"
           >
             <span className="smallcaps text-sm">{profile.soundEnabled ? 'On' : 'Off'}</span>
             <span aria-hidden="true" className={`relative block h-6 w-11 rounded-full border transition-colors ${profile.soundEnabled ? 'border-oxblood bg-oxblood' : 'border-ink-mute bg-ivory-deep'}`}>

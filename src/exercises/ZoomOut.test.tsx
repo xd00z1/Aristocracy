@@ -143,6 +143,26 @@ describe('ZoomOut', () => {
     expect((screen.getByTestId('zoom-image') as HTMLImageElement).style.transformOrigin).toBe('50% 50%')
   })
 
+  it('a picture that fails to load ends the reveal and pays no early bonus', () => {
+    const onAnswer = vi.fn()
+    render(<ZoomOut exercise={exerciseFor(painting)} items={{ [painting.id]: painting }} answered={null} onAnswer={onAnswer} media={withImage} soundEnabled />)
+    fireEvent.error(screen.getByTestId('zoom-image'))
+    expect(screen.getByTestId('choice-notice').textContent).toContain('could not be loaded')
+    expect(scaleOf()).toBe(1)
+    fireEvent.click(screen.getByTestId('option-b'))
+    expect(onAnswer.mock.calls[0][0]).toMatchObject({ correct: true, earlyFraction: 0 })
+  })
+
+  it('with reduced motion asked for, the picture is whole from the first frame and pays no early bonus', () => {
+    vi.stubGlobal('matchMedia', (query: string) => ({ matches: query.includes('prefers-reduced-motion'), media: query }))
+    const onAnswer = vi.fn()
+    render(<ZoomOut exercise={exerciseFor(painting)} items={{ [painting.id]: painting }} answered={null} onAnswer={onAnswer} media={withImage} soundEnabled />)
+    expect(scaleOf()).toBe(1)
+    expect(screen.getByTestId('zoom-remaining').getAttribute('aria-valuenow')).toBe('0')
+    fireEvent.click(screen.getByTestId('option-b'))
+    expect(onAnswer.mock.calls[0][0]).toMatchObject({ correct: true, earlyFraction: 0 })
+  })
+
   it('reports earlyFraction at the moment of answering and completes the reveal', () => {
     const onAnswer = vi.fn()
     const props = { exercise: exerciseFor(painting), items: { [painting.id]: painting }, media: withImage, soundEnabled: true }

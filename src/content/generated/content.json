@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "builtAt": "2026-09-08T16:32:08.939Z",
+  "builtAt": "2026-09-08T17:13:44.999Z",
   "cities": [
     {
       "id": "london",
@@ -9389,7 +9389,7 @@
       "era": "Romantic",
       "facts": [
         "Schubert wrote more than six hundred Lieder, including the cycles Die schöne Müllerin and Winterreise.",
-        "Schumann, Brahms, Wolf, Mahler and Strauss carried the form to the end of the nineteenth century."
+        "Schumann, Brahms, Wolf, Mahler and Richard Strauss carried the form to the end of the nineteenth century."
       ],
       "remark": "The point of a Lied is that the piano is telling the story too; listen to what it does under the voice, not just to the tune.",
       "gaffe": "Saying 'a Lieder'. Lied is the singular; Lieder is the plural.",
@@ -9577,7 +9577,7 @@
       ],
       "sources": [
         "Grove Music Online, 'Mozart, Wolfgang Amadeus'",
-        "Eva Badura-Skoda and Paul Badura-Skoda, Interpreting Mozart on the Keyboard (rev. ed., 2008)",
+        "Eva Badura-Skoda and Paul Badura-Skoda, Interpreting Mozart: The Performance of His Piano Works (rev. ed., 2008)",
         "National Széchényi Library, Budapest, on the K. 331 autograph fragment found in 2014"
       ],
       "reviewed_by": null,
@@ -9806,7 +9806,7 @@
         "The two movements of the B minor symphony of 1822 were left with Anselm Hüttenbrenner and not performed until 17 December 1865, thirty-seven years after his death."
       ],
       "remark": "He gave one public concert of his own music, eight months before he died at thirty-one; everything else was heard in friends' drawing rooms, and the Unfinished sat in a drawer until 1865.",
-      "gaffe": "Saying the Unfinished is unfinished because he died. He wrote its two movements in 1822 and lived another six years, writing other symphonies; the manuscript simply stayed with a friend.",
+      "gaffe": "Saying the Unfinished is unfinished because he died. He wrote its two movements in 1822 and lived another six years, long enough to write the Great C major symphony; the manuscript simply stayed with a friend.",
       "links": [
         "music.term.lied",
         "music.beethoven.symphony-5.i",
@@ -9860,7 +9860,7 @@
         "Born in Hamburg on 7 May 1833; he came to Vienna in 1862, made it his home, and died there on 3 April 1897. He lies in the Zentralfriedhof a few steps from Beethoven and Schubert.",
         "He spent twenty-one years on his First Symphony, begun in 1855 and finished in 1876; when Hans von Bülow called it Beethoven's Tenth, Brahms is said to have replied that any fool could hear as much.",
         "The Wiegenlied, 'Guten Abend, gut' Nacht', Op. 49 No. 4, was published in 1868 for Bertha Faber on the birth of her second son, with a Ländler she used to sing to him hidden in the piano part.",
-        "Musical Vienna divided into Wagnerians and Brahmsians, with the critic Eduard Hanslick leading for Brahms; the essay that finally called him a modernist, 'Brahms the Progressive', was written in 1947 by Schoenberg."
+        "Musical Vienna divided into Wagnerians and Brahmsians, with the critic Eduard Hanslick leading for Brahms; the essay that finally called him a modernist, Schoenberg's 'Brahms the Progressive', began as a talk for the Brahms centenary in 1933 and was published in its familiar form in 1947."
       ],
       "remark": "The lullaby everyone knows was a present for Bertha Faber on the birth of her second son, and he hid in the piano part a Ländler she had sung to him years before.",
       "gaffe": "Calling the Hungarian Dances his own tunes. He published them without opus numbers and called himself the arranger, precisely because most of the melodies were not his, and he was accused of stealing them anyway.",
@@ -10023,7 +10023,7 @@
         "It grew out of the Ländler, the turning dance of the Alpine countryside, and scandalised polite Europe because the partners held one another instead of dancing in a line or a set.",
         "The Congress of Vienna danced it into respectability in 1814 and 1815; the Prince de Ligne's line about the Congress dancing rather than advancing was about actual balls.",
         "Joseph Lanner and Johann Strauss the elder turned it into concert music in the 1820s and 1830s, as rivals; Strauss's son Johann II wrote over five hundred pieces, most of them dances, and his brothers Josef and Eduard kept the family orchestra going.",
-        "The Vienna Philharmonic's New Year's Concert, all Strauss family, was first given on 31 December 1939 under Clemens Krauss in the Musikverein, whose Golden Hall opened in 1870 to Theophil Hansen's design; it ends with the Blue Danube and the Radetzky March."
+        "The Vienna Philharmonic's New Year's Concert, chiefly Strauss family music, was first given on 31 December 1939 under Clemens Krauss in the Musikverein, whose Golden Hall opened in 1870 to Theophil Hansen's design; it ends with the Blue Danube and the Radetzky March."
       ],
       "remark": "It scandalised Europe because the partners held each other, and the Congress of Vienna danced it into respectability; the Viennese play the second beat a shade early, which is why their waltzes cannot be counted evenly.",
       "gaffe": "Counting a Viennese waltz in a strict one-two-three, or calling anything in triple time a waltz. The minuet and the Ländler are in three as well, and neither is a waltz.",

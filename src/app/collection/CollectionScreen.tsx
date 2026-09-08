@@ -3,7 +3,7 @@
  * remark you can now say about it. A filter row narrows to one discipline.
  */
 import { useState } from 'react'
-import { DISCIPLINES, type Discipline } from '../../content/schema'
+import { DISCIPLINES, type Discipline } from '../../content/constants'
 import type { Item } from '../../content/types'
 import type { CardState } from '../../engine/types'
 import { Card, ErrorNotice, PageTitle, Spinner, useAsync } from '../../ui'

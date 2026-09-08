@@ -1,15 +1,16 @@
 /**
  * React hook around the theme synthesiser for Drop the Needle.
  *
- * `play()` is a no-op when sound is disabled or there is no theme; otherwise
- * it ensures the shared AudioContext (call it from a tap so autoplay policies
- * are satisfied) and starts playback. `playing` and `progress` (0..1, driven
- * by requestAnimationFrame) feed the UI. Playback stops on unmount, when the
+ * `play()` is a no-op when sound is disabled, when there is no theme, and when
+ * the shared AudioContext will not run (call it from a tap so autoplay policies
+ * are satisfied): a suspended context sounds nothing, and the UI must not claim
+ * otherwise. `playing` and `progress` (0..1, sampled each animation frame from
+ * the audio clock) feed the UI. Playback stops on unmount, when the
  * theme changes, and when sound is switched off.
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { Theme } from '../content/schema'
-import { ensureAudioContext, playTheme, type ThemePlayback } from './synth'
+import { ensureRunningContext, playTheme, type ThemePlayback } from './synth'
 import { parseTheme } from './theme'
 
 export interface ThemePlayer {
@@ -36,13 +37,11 @@ function cancelFrame(handle: FrameHandle): void {
   }
 }
 
-function nowMs(): number {
-  return typeof performance !== 'undefined' && typeof performance.now === 'function' ? performance.now() : Date.now()
-}
-
 export function useThemePlayer(theme: Theme | undefined, enabled: boolean): ThemePlayer {
   const playbackRef = useRef<ThemePlayback | null>(null)
   const frameRef = useRef<FrameHandle | null>(null)
+  /** Rises on every play() and stop(), so a resume that lands late is discarded. */
+  const attemptRef = useRef(0)
   const [playing, setPlaying] = useState(false)
   const [progress, setProgress] = useState(0)
 
@@ -68,6 +67,7 @@ export function useThemePlayer(theme: Theme | undefined, enabled: boolean): Them
   }, [])
 
   const stop = useCallback(() => {
+    attemptRef.current++
     const playback = playbackRef.current
     playbackRef.current = null
     cancelFrames()
@@ -75,40 +75,62 @@ export function useThemePlayer(theme: Theme | undefined, enabled: boolean): Them
     setPlaying(false)
   }, [cancelFrames])
 
+  /**
+   * Start the theme, once the shared context is actually running.
+   *
+   * A context that is still suspended (no gesture yet, or an iOS interruption)
+   * has a frozen clock: notes scheduled against it never sound. Nothing is
+   * claimed in that case — no graph, no `playing`, no meter — so the button
+   * keeps reading "Drop the needle" rather than showing a full, silent play.
+   */
   const play = useCallback(() => {
     if (!enabled || !theme) return
     stop()
-    let playback: ThemePlayback
-    try {
-      const context = ensureAudioContext()
-      playback = playTheme(theme, { context })
-    } catch (err) {
-      // No Web Audio, or a malformed theme: the exercise stays answerable, just silent.
-      console.warn('[audio] could not play theme', err)
-      return
-    }
-    playbackRef.current = playback
-    setPlaying(true)
-    setProgress(0)
+    const attempt = ++attemptRef.current
 
-    const startedAt = nowMs()
-    const totalMs = playback.durationSeconds * 1000
-    const tick = () => {
-      frameRef.current = null
-      if (playbackRef.current !== playback) return
-      const fraction = totalMs > 0 ? Math.min(1, (nowMs() - startedAt) / totalMs) : 1
-      setProgress(fraction)
-      if (fraction < 1) frameRef.current = requestFrame(tick)
-    }
-    frameRef.current = requestFrame(tick)
+    const begin = (context: AudioContext) => {
+      if (attempt !== attemptRef.current) return // stopped or superseded while resuming
+      if (context.state !== 'running') return
+      let playback: ThemePlayback
+      try {
+        playback = playTheme(theme, { context })
+      } catch (err) {
+        // A malformed theme: the exercise stays answerable, just silent.
+        console.warn('[audio] could not play theme', err)
+        return
+      }
+      playbackRef.current = playback
+      setPlaying(true)
+      setProgress(0)
 
-    void playback.done.then(() => {
-      if (playbackRef.current !== playback) return // stopped or superseded
-      playbackRef.current = null
-      cancelFrames()
-      setProgress(1)
-      setPlaying(false)
-    })
+      // The meter follows the audio clock, not the wall clock, so a context
+      // that suspends mid-theme freezes the line instead of running it to 100%.
+      const startedAt = context.currentTime
+      const total = playback.durationSeconds
+      const tick = () => {
+        frameRef.current = null
+        if (playbackRef.current !== playback) return
+        const fraction = total > 0 ? Math.min(1, Math.max(0, (context.currentTime - startedAt) / total)) : 1
+        setProgress(fraction)
+        if (fraction < 1) frameRef.current = requestFrame(tick)
+      }
+      frameRef.current = requestFrame(tick)
+
+      void playback.done.then(() => {
+        if (playbackRef.current !== playback) return // stopped or superseded
+        playbackRef.current = null
+        cancelFrames()
+        setProgress(1)
+        setPlaying(false)
+      })
+    }
+
+    void ensureRunningContext()
+      .then(begin)
+      .catch((err: unknown) => {
+        // No Web Audio here at all: the exercise stays answerable, just silent.
+        console.warn('[audio] could not open the audio device', err)
+      })
   }, [enabled, theme, stop, cancelFrames])
 
   // Stop when the theme changes (and reset the meter); the first run is a harmless no-op.

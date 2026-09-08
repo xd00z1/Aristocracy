@@ -3,7 +3,9 @@
  * `media.image.focus`) and eases down to 1x over six seconds. Answering
  * earlier is worth more: the Answer carries `earlyFraction`, the share of the
  * reveal still to run at the moment of the tap (0..1). The reveal completes
- * as soon as the exercise is answered. Without an image on disk it degrades to
+ * as soon as the exercise is answered, and at once when the picture fails to
+ * load or the reader has asked for reduced motion, so neither pays an early
+ * bonus for a reveal nobody watched. Without an image on disk it degrades to
  * a plain choice with a notice.
  */
 import { useCallback, useEffect, useRef, useState } from 'react'
@@ -37,6 +39,15 @@ export function earlyFractionAt(elapsedMs: number): number {
   return clamp01((REVEAL_MS - elapsedMs) / REVEAL_MS)
 }
 
+/** True when the reader has asked the system for stillness. */
+export function prefersReducedMotion(): boolean {
+  try {
+    return typeof matchMedia === 'function' && matchMedia('(prefers-reduced-motion: reduce)').matches
+  } catch {
+    return false
+  }
+}
+
 type FrameHandle = { kind: 'raf'; id: number } | { kind: 'timeout'; id: ReturnType<typeof setTimeout> }
 
 function requestFrame(cb: () => void): FrameHandle {
@@ -55,11 +66,14 @@ function cancelFrame(handle: FrameHandle): void {
 function Reveal({ url, item, ...props }: ExerciseProps<ChoiceExercise> & { url: string; item: Item | undefined }) {
   const { answered } = props
   const focus = item?.media?.image?.focus ?? DEFAULT_FOCUS
-  const [scale, setScale] = useState(() => (answered ? 1 : START_SCALE))
-  const [remaining, setRemaining] = useState(() => (answered ? 0 : 1))
+  // No reveal at all for a reader who has asked for reduced motion: the whole
+  // picture from the first frame, and no early bonus for something never hidden.
+  const still = useRef(prefersReducedMotion())
+  const [scale, setScale] = useState(() => (answered || still.current ? 1 : START_SCALE))
+  const [remaining, setRemaining] = useState(() => (answered || still.current ? 0 : 1))
   const [broken, setBroken] = useState(false)
   const startedAt = useRef<number | null>(null)
-  const done = useRef(Boolean(answered))
+  const done = useRef(Boolean(answered) || still.current)
   const frame = useRef<FrameHandle | null>(null)
 
   const finish = useCallback(() => {
@@ -109,7 +123,13 @@ function Reveal({ url, item, ...props }: ExerciseProps<ChoiceExercise> & { url: 
             src={url}
             alt="A painting, revealed over six seconds"
             draggable={false}
-            onError={() => setBroken(true)}
+            onError={() => {
+              // A picture that never arrived cannot be answered early: end the
+              // reveal so the answer reports earlyFraction 0, as the
+              // "not fetched yet" fallback does.
+              setBroken(true)
+              finish()
+            }}
             className="h-full w-full select-none object-cover"
             style={{
               transform: `scale(${scale})`,

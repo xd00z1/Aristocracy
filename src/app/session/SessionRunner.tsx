@@ -1,6 +1,7 @@
 /**
- * Runs one twelve-slot session. On mount it asks the engine for a plan, then
- * renders each exercise in turn through the EXERCISE_COMPONENTS registry.
+ * Runs one twelve-slot session. On mount it asks the engine for a plan — which
+ * may be today's unfinished one, resumed at the first slot still unanswered —
+ * then renders each exercise in turn through the EXERCISE_COMPONENTS registry.
  * An answer is recorded at once; the shared Feedback panel and a Continue
  * button follow; after the last slot the session is completed and the Summary
  * shown (or, on a rank-up, `onRankUp` is called first).
@@ -12,7 +13,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { Item } from '../../content/types'
 import type { Answer, Exercise, Profile, SessionPlan, SessionSummary } from '../../engine/types'
 import type { ExerciseComponent, MediaResolver } from '../../exercises/types'
-import { completeSession, EXERCISE_COMPONENTS, getItem, hasImage, imageUrl, recordAnswer, startSession } from './deps'
+import { completeSession, EXERCISE_COMPONENTS, getItem, hasImage, imageUrl, recordAnswer, sessionAnswers, startSession } from './deps'
 import { Button, ErrorNotice, Feedback, Spinner } from '../../ui'
 import Summary from './Summary'
 
@@ -99,21 +100,62 @@ export default function SessionRunner({ profile, now = () => new Date(), onRankU
     }
   }, [])
 
+  const complete = useCallback(
+    async (finalAnswers: Answer[], forPlan?: SessionPlan) => {
+      const target = forPlan ?? plan
+      if (!target) return
+      setError(null)
+      setPhase('completing')
+      try {
+        await pending.current
+        const s = await completeSession(target, finalAnswers, now())
+        if (!alive.current) return
+        setSummary(s)
+        if (s.rankAfter > s.rankBefore && onRankUp) {
+          onRankUp(s)
+          return
+        }
+        setPhase('summary')
+      } catch (e) {
+        if (alive.current) setError(e)
+      }
+    },
+    [plan, now, onRankUp],
+  )
+
   const start = useCallback(async () => {
     setError(null)
     setPhase('starting')
     try {
       const p = await startSession(now())
+      // A session interrupted earlier today comes back with its answers, so a
+      // reload resumes at the next unanswered slot instead of losing the lot.
+      let done: Answer[] = []
+      try {
+        done = (await sessionAnswers(p)) ?? []
+      } catch (e) {
+        console.warn('[session] earlier answers could not be read', e)
+      }
       if (!alive.current) return
+      const answeredIds = new Set(done.map((a) => a.exerciseId))
+      let resumeAt = 0
+      while (resumeAt < p.exercises.length && answeredIds.has(p.exercises[resumeAt].id)) resumeAt++
       setPlan(p)
-      setIndex(0)
-      setAnswers([])
       setAnswered(null)
+      setAnswers(done)
+      if (resumeAt >= p.exercises.length && done.length > 0) {
+        // Every slot was answered before the interruption: mark it and be done.
+        setIndex(p.exercises.length - 1)
+        setPhase('running')
+        void complete(done, p)
+        return
+      }
+      setIndex(resumeAt)
       setPhase('running')
     } catch (e) {
       if (alive.current) setError(e)
     }
-  }, [now])
+  }, [now, complete])
 
   useEffect(() => {
     if (started.current) return
@@ -145,28 +187,6 @@ export default function SessionRunner({ profile, now = () => new Date(), onRankU
         })
     },
     [plan, answered, now],
-  )
-
-  const complete = useCallback(
-    async (finalAnswers: Answer[]) => {
-      if (!plan) return
-      setError(null)
-      setPhase('completing')
-      try {
-        await pending.current
-        const s = await completeSession(plan, finalAnswers, now())
-        if (!alive.current) return
-        setSummary(s)
-        if (s.rankAfter > s.rankBefore && onRankUp) {
-          onRankUp(s)
-          return
-        }
-        setPhase('summary')
-      } catch (e) {
-        if (alive.current) setError(e)
-      }
-    },
-    [plan, now, onRankUp],
   )
 
   const handleContinue = useCallback(() => {

@@ -2,13 +2,14 @@
  * Drop the Needle: a synthesised opening phrase, four options.
  *
  * A large "Drop the needle" button starts the theme (from the tap, so the
- * AudioContext is resumed inside a user gesture); one auto-play is attempted
- * on mount when sound is on. A thin gilt line tracks playback and the button
- * doubles as the replay affordance. When sound is off or the item has no
+ * AudioContext is resumed inside a user gesture); on later slots, once that
+ * context is running, the theme plays itself on mount. A thin gilt line tracks
+ * playback and the button doubles as the replay affordance. When sound is off or the item has no
  * theme, a one-line notice and a short clue take the theme's place and the
  * question can still be answered: sessions never block on media.
  */
 import { useEffect, useRef } from 'react'
+import { audioContextRunning } from '../audio/synth'
 import { useThemePlayer } from '../audio/useThemePlayer'
 import type { Item } from '../content/types'
 import { redactNames } from '../engine/distractors'
@@ -56,9 +57,11 @@ export function DropTheNeedle(props: ExerciseProps<ChoiceExercise>) {
   const playRef = useRef(player.play)
   playRef.current = player.play
 
-  // One attempt on mount. Autoplay policies may keep the context suspended;
-  // the hook swallows that and the button remains.
-  const autoplay = useRef(canPlay && !answered)
+  // One attempt on mount, but only once the audio device is already running
+  // (the reader has pressed play at least once this session). Before that a
+  // context opened outside a tap is suspended and would sound nothing, so the
+  // button is left to say "Drop the needle" instead.
+  const autoplay = useRef(canPlay && !answered && audioContextRunning())
   useEffect(() => {
     if (autoplay.current) playRef.current()
   }, [])
