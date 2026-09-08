@@ -7,25 +7,28 @@ import { MemoryRouter } from 'react-router-dom'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import type { Profile, RankDefinition, SessionSummary } from '../engine/types'
 
-const profile: Profile = {
-  id: 'me',
-  createdAt: 0,
-  titleStyle: 'plain',
-  displayName: '',
-  prestige: 0,
-  guineas: 0,
-  standing: 0,
-  lastSessionDay: null,
-  countryWeekendsLeft: 2,
-  countryWeekendMonth: null,
-  currentCityId: 'testville',
-  lessonProgress: {},
-  completedCities: [],
-  furnishings: [],
-  sessionsCompleted: 0,
-  soundEnabled: true,
-}
-const commoner: RankDefinition = { level: 1, names: { masculine: 'Commoner', feminine: 'Commoner', plain: 'Commoner' }, items: 0, cities: 0, peer: false }
+const { profile, commoner } = vi.hoisted(() => {
+  const profile: Profile = {
+    id: 'me',
+    createdAt: 0,
+    titleStyle: 'plain',
+    displayName: '',
+    prestige: 0,
+    guineas: 0,
+    standing: 0,
+    lastSessionDay: null,
+    countryWeekendsLeft: 2,
+    countryWeekendMonth: null,
+    currentCityId: 'testville',
+    lessonProgress: {},
+    completedCities: [],
+    furnishings: [],
+    sessionsCompleted: 0,
+    soundEnabled: true,
+  }
+  const commoner: RankDefinition = { level: 1, names: { masculine: 'Commoner', feminine: 'Commoner', plain: 'Commoner' }, items: 0, cities: 0, peer: false }
+  return { profile, commoner }
+})
 
 vi.mock('./today/deps', () => ({
   loadProfile: async () => profile,
