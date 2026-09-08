@@ -72,6 +72,7 @@ Each discipline maps to a wing of the player's Estate (section 6).
 | Classical music | Music Room | **MVP** | Hear 10 seconds, name era and probable composer; know the big forms (sonata, symphony, concerto, quartet, lied) |
 | Opera | Opera Box | **MVP** | Recognise the twenty arias that get played at dinner; know plots well enough to follow a conversation; know voice types and who sings what |
 | Visual art | Gallery | **MVP** | See a painting, name the movement and probable artist; know where the famous ones hang; recognise brushwork at close range |
+| History | Long Gallery | **MVP** | Know the dynasties, courts, revolutions and scandals the art, music and opera are about; know which famous stories are false. Curriculum in [`HISTORY.md`](HISTORY.md) |
 | Architecture | The House itself | v2 | Tell Baroque from Rococo from Neoclassical from a doorway; name the orders |
 | Literature and poetry | Library | v2 | Recognise first lines and famous passages; know who wrote what and roughly when; quote without misquoting |
 | Titles, forms of address, heraldry | Muniment Room | v2 | Address a marquess in writing and in person; read a coat of arms; know that a baronet is not a peer |
@@ -80,7 +81,11 @@ Each discipline maps to a wing of the player's Estate (section 6).
 | Wine and the table | Cellar | v3 | Regions, grapes, vintages that matter; how to order, taste, and talk without being a bore |
 | Languages of culture | Schoolroom | v2 | Pronounce Italian, French, German titles and terms; the fifty phrases you need (*sprezzatura*, *bel canto*, *plein air*, *Gesamtkunstwerk*) |
 
-MVP is three disciplines, deliberately. Every additional discipline multiplies content cost linearly and dilutes the first impression. Architecture and Literature come first in v2 because they are cheapest to source (public-domain text and photographs).
+MVP is four disciplines, deliberately few. Every additional discipline multiplies content cost linearly and dilutes the first impression. History is the fourth because it is the cheapest to source (portraits and history paintings are public domain, and it needs no audio) and because the other three are unintelligible without it. Architecture and Literature come first in v2 because they are next cheapest (public-domain text and photographs).
+
+### History: the filter
+
+History is not taught as wars and treaties. An episode gets in only if it explains something in another discipline, explains the aristocracy itself, or is a story a cultured person is expected to have on hand, and it must pass the dinner test. Wars appear only through what they did to art and the people who made it: the Second World War as a war is out; the Monuments Men and the Leningrad Symphony are in. Famous false stories are content in their own right (the *Apocrypha* strand). Every history item must link to an item in another discipline or it does not ship. The episode list, the Apocrypha table, and the MVP allocation by city are in [`HISTORY.md`](HISTORY.md).
 
 ---
 
@@ -93,15 +98,18 @@ The exercise catalogue is where "fun" actually lives. Each type is a reusable co
 | 1 | **Drop the Needle** | 10 to 20 second clip; pick composer, era, or work from 4 options. Variant: two clips, "which is earlier?" | Music, Opera | MVP |
 | 2 | **Zoom Out** | Image starts zoomed to brushwork and zooms out over 6 seconds; answer earlier for more Prestige | Art | MVP |
 | 3 | **The Remark** | A social situation with three replies: one correct and graceful, one factually wrong, one gaffe. Explanation on every answer | All | MVP |
-| 4 | **Timeline** | Drag 3 or 4 works or people into chronological order | All | MVP |
-| 5 | **Match** | Pair arias to operas, paintings to museums, composers to cities | All | MVP |
+| 4 | **Timeline** | Drag 3 or 4 works or people into chronological order. Succession variant: order the Tudors, the Louis, the Medici | All | MVP |
+| 5 | **Match** | Pair arias to operas, paintings to museums, patrons to artists, rulers to palaces | All | MVP |
 | 6 | **Lexicon** | Term to definition, with pronunciation audio for foreign terms | All | MVP |
-| 7 | **Odd One Out** | Four items, one doesn't belong (three Impressionists and a Fauve) | All | v2 |
-| 8 | **Programme Note** | Read three sentences, answer one question. Trains the habit of reading the programme | All | v2 |
-| 9 | **Attribution** | Two images: which is the master, which the follower (Caravaggio vs. the Caravaggisti)? Hard tier | Art | v2 |
-| 10 | **The Libretto** | Fill the blank in a famous line ("La donna è ___") | Opera, Literature | v2 |
-| 11 | **Precedence** | Seat six named guests correctly, or address a letter to a given rank | Etiquette, Titles | v2 |
-| 12 | **Duel** | Asynchronous head-to-head: same 10 questions, timed, best score wins | All | v2 |
+| 7 | **Who's Who** | A portrait, four names. Cross-trains art, since the portraits are Holbein, Titian, Van Dyck, Velázquez, Winterhalter, Sargent | History, Art | MVP |
+| 8 | **Apocrypha** | A famous line or story; choose *attested*, *embellished*, or *invented*. Every answer shows the source | History, Music, Opera | MVP |
+| 9 | **Odd One Out** | Four items, one doesn't belong (three Impressionists and a Fauve) | All | v2 |
+| 10 | **Programme Note** | Read three sentences, answer one question. Trains the habit of reading the programme | All | v2 |
+| 11 | **Attribution** | Two images: which is the master, which the follower (Caravaggio vs. the Caravaggisti)? Hard tier | Art | v2 |
+| 12 | **The Libretto** | Fill the blank in a famous line ("La donna è ___") | Opera, Literature | v2 |
+| 13 | **Precedence** | Seat six named guests correctly, or address a letter to a given rank | Etiquette, Titles | v2 |
+| 14 | **Kinship** | Who was whose daughter, cousin, mistress? The royal houses as gossip | History, Titles | v2 |
+| 15 | **Duel** | Asynchronous head-to-head: same 10 questions, timed, best score wins | All | v2 |
 
 **Sample Remark (Opera, tier 2):**
 
@@ -158,7 +166,7 @@ Every item is an SRS card. Scheduler: FSRS via the `ts-fsrs` library (open sourc
 The player's house is the collection screen and the emotional payoff. It starts as a modest hall and grows a wing per discipline as the user progresses.
 
 - **Visual:** a 2D cross-section elevation in an engraving style, SVG, rooms lit as they unlock. Not isometric, not 3D. Cheap to make, fits the tone, works on a phone.
-- **Furnishing:** acquired items appear as thumbnails on the walls (paintings in the Gallery), as spines on shelves (scores in the Music Room), as playbills in the Opera Box. Tapping one replays the item and its remark.
+- **Furnishing:** acquired items appear as thumbnails on the walls (paintings in the Gallery), as spines on shelves (scores in the Music Room), as playbills in the Opera Box, as ancestral-style portraits along the Long Gallery (history). Tapping one replays the item and its remark.
 - **Guineas** buy cosmetic upgrades: a better chandelier, a Canaletto over the mantelpiece you have not earned yet (it hangs "on loan" until you acquire it, which is a small joke and a real nudge).
 - **Share card:** a rendered image of your Estate with rank and item count, for the one social channel that matters at this stage (people showing friends).
 
@@ -170,10 +178,10 @@ The campaign structure is the historical Grand Tour: the 17th to early 19th cent
 
 | Order | City | Weighted content | Release |
 |---|---|---|---|
-| 1 | London (Departure) | Fundamentals: eras, voice types, forms, the ten paintings everyone knows; Handel, Purcell, Turner, Constable | MVP |
-| 2 | Paris | Louvre canon; Impressionism and after; Debussy, Ravel, Berlioz; Opéra Garnier; Bizet, Gounod | MVP |
-| 3 | Florence | Renaissance: Botticelli, Michelangelo, Leonardo; the Uffizi; early opera's origins (the Florentine Camerata) | MVP |
-| 4 | Vienna | Haydn, Mozart, Beethoven, Schubert, Brahms, Mahler; the Strausses; Klimt and the Secession | MVP |
+| 1 | London (Departure) | Fundamentals: eras, voice types, forms, the ten paintings everyone knows; Handel, Purcell, Turner, Constable; the Conquest, the Tudors, the Restoration, the Regency, the fall of the Lords | MVP |
+| 2 | Paris | Louvre canon; Impressionism and after; Debussy, Ravel, Berlioz; Opéra Garnier; Bizet, Gounod; Versailles, the salons, the Revolution, Napoleon, Dreyfus | MVP |
+| 3 | Florence | Renaissance: Botticelli, Michelangelo, Leonardo; the Uffizi; early opera's origins (the Florentine Camerata); Dante, the Medici, Savonarola, Machiavelli, Galileo | MVP |
+| 4 | Vienna | Haydn, Mozart, Beethoven, Schubert, Brahms, Mahler; the Strausses; Klimt and the Secession; the 1683 siege, Maria Theresa, the Congress, Mayerling, the end of the Habsburgs | MVP |
 | 5 | Rome | Baroque: Bernini, Caravaggio, Borromini; Palestrina; the Tosca locations | v2 |
 | 6 | Venice | Titian, Tintoretto, Canaletto; Vivaldi, Monteverdi; La Fenice; the Biennale | v2 |
 | 7 | Naples | Caravaggio's late work; Teatro di San Carlo; the Neapolitan school and song | v2 |
@@ -182,7 +190,7 @@ The campaign structure is the historical Grand Tour: the 17th to early 19th cent
 | 10 | St Petersburg | The Hermitage; Tchaikovsky, Mussorgsky, Stravinsky; the Ballets Russes bridge to Paris | v3 |
 | 11 | Return (Country House) | Consolidation; Titles, Etiquette, Architecture of the English house | v3 |
 
-Each city is 6 to 10 lessons. Lessons within a city are unlocked in order; cities are unlocked in order. A "Season Ticket" (free) lets a user jump ahead to a later city after passing a placement test, so an expert is not forced through the fundamentals.
+Each city is 6 to 10 lessons and carries a history strand weighted to that city's own story (per-city list in [`HISTORY.md`](HISTORY.md), section 3). Lessons within a city are unlocked in order; cities are unlocked in order. A "Season Ticket" (free) lets a user jump ahead to a later city after passing a placement test, so an expert is not forced through the fundamentals.
 
 ---
 
@@ -218,7 +226,7 @@ Content is the whole business. A connoisseurship app that gets a fact wrong is d
 ```yaml
 id: opera.puccini.tosca.e-lucevan-le-stelle
 discipline: opera
-kind: work            # work | creator | movement | term | venue | scenario
+kind: work            # work | creator | movement | term | venue | scenario | episode | person | apocrypha
 title: "E lucevan le stelle"
 parent: "Tosca (1900)"
 creator: "Giacomo Puccini"
@@ -245,7 +253,7 @@ sources:
 reviewed_by: null
 ```
 
-Two more samples to show the range:
+Two more samples to show the range (history samples, using the `episode` and `apocrypha` kinds, are in [`HISTORY.md`](HISTORY.md), section 8):
 
 ```yaml
 id: art.vermeer.girl-with-a-pearl-earring
@@ -298,6 +306,8 @@ tags: [symphony, vienna, 1800s]
 |---|---|---|---|
 | Paintings, drawings, sculpture photos | The Met Open Access, Art Institute of Chicago API, Cleveland Museum of Art Open Access, National Gallery of Art (US) open data, Smithsonian Open Access, Rijksmuseum, Paris Musées, Wikimedia Commons | CC0 or public domain | High that these programmes exist. Rijksmuseum changed its API recently; verify the current endpoint |
 | Zoom-out crops | IIIF image servers from the museums above | Same as image | High; IIIF supports region requests natively |
+| Portraits and history paintings | The same museum programmes; Wikimedia Commons files tagged public domain | CC0 or public domain | High. UK institutions often claim rights in their own photographs of public-domain paintings, so take portraits only from explicit open-access releases or from Commons files with a clear tag |
+| History facts and Apocrypha verdicts | Standard scholarly biographies and reference works; the primary source wherever a verdict rests on one (Rousseau, Tacitus, Ries) | n/a | Editorial. The Apocrypha strand ships nothing without a citation |
 | Classical music recordings | Musopen (CC0/CC recordings), Wikimedia Commons, IMSLP's recordings section | CC0 / CC-BY / PD | Moderate. Coverage is uneven; solo piano and chamber are well covered, opera and large orchestral less so |
 | Historic opera recordings | US recordings published before 1926 (Caruso, Melba, early Chaliapin, Galli-Curci) | Public domain in the US under the Music Modernization Act; in the EU, recordings published before 1963 are generally out of term | Moderate-high on the law; avoid the Internet Archive's Great 78 Project as a source while its litigation with the major labels remains unresolved (check current status before relying on it either way) |
 | Composer and work metadata | Wikidata; Open Opus API | CC0 | High for Wikidata; moderate for Open Opus (verify it is still maintained) |
@@ -309,9 +319,9 @@ tags: [symphony, vienna, 1800s]
 
 | Release | Items | Remark scenarios | Audio clips | Images |
 |---|---|---|---|---|
-| MVP (v0.1) | 240 (80 per discipline) | 40 | 110 | 90 |
-| v0.2 | 600 | 120 | 250 | 220 |
-| v1.0 | 1,500 | 300 | 550 | 500 |
+| MVP (v0.1) | 300 (80 each for music, opera, art; 60 history) | 50 | 110 | 150 |
+| v0.2 | 720 | 130 | 250 | 300 |
+| v1.0 | 1,800 | 320 | 550 | 650 |
 
 The audio column is the schedule risk. If public-domain opera coverage proves too thin, the fallback is to commission short recordings or use synthesised renderings for *thematic* recognition (a clean piano reduction still teaches "which tune is this"), while reserving real recordings for the items where the voice matters.
 
@@ -361,11 +371,11 @@ aristocracy/
 
 | Release | Name | Contents | Done when |
 |---|---|---|---|
-| v0.1 | The Departure | 3 disciplines; 240 items; 6 exercise types (1 to 6 above); Grand Tour cities 1 to 4; ranks to Baron; Estate with 3 wings; Standing streak; FSRS reviews; local-only progress; share card. No accounts, no social, no payments | 20 outside testers complete 7 consecutive days and the content review log shows zero unresolved factual flags |
-| v0.2 | The Season | Accounts and sync; Salons; Duels; cities 5 to 8; Architecture and Literature; exercise types 7 to 12; iOS and Android wrappers | Week-4 retention is measured and the number is written down |
+| v0.1 | The Departure | 4 disciplines; 300 items; 8 exercise types (1 to 8 above); Grand Tour cities 1 to 4; ranks to Baron; Estate with 4 wings; Standing streak; FSRS reviews; local-only progress; share card. No accounts, no social, no payments | 20 outside testers complete 7 consecutive days and the content review log shows zero unresolved factual flags |
+| v0.2 | The Season | Accounts and sync; Salons; Duels; cities 5 to 8; Architecture and Literature; exercise types 9 to 15; iOS and Android wrappers | Week-4 retention is measured and the number is written down |
 | v0.3 | The Court | Live Season events; Patron subscription; Titles and Etiquette; cities 9 to 11; Ballet, Wine | First paying users |
 
-The MVP is deliberately small on features and comparatively large on content. Feature work without content is a demo.
+The MVP is deliberately small on features and comparatively large on content. History adds items but almost no engineering: two new exercise components and three content kinds. Feature work without content is a demo.
 
 ---
 
@@ -392,6 +402,7 @@ No targets are set until there are 200 users; guessing benchmarks now would be t
 | Audio rights and coverage | High; the schedule risk | Public-domain-only policy enforced by the content validator; synthesised fallbacks for thematic recognition; commission where needed |
 | Tone drifts to camp or to snobbery | High; either kills the audience | Written tone guide: "the knowing wink." The app knows you are playing at being a duke, and so do you. Copy is dry, never arch; it never mocks the user for not knowing |
 | Trivia creep | Medium | Item acceptance rule: if the fact cannot be used in a sentence at dinner, it does not go in |
+| History drifts into contested narrative or live politics | Medium | The filter keeps to courts, patrons, art, scandal and myth; nothing that is a live political dispute goes in; every Apocrypha verdict is sourced or cut |
 | Scope creep across disciplines | Medium | Three disciplines in MVP, enforced |
 | "Aristocracy" as a name alienates | Medium | Keep as working title; test public names (section 14) |
 | PWA limitations on iOS (audio autoplay, background, install friction) | Medium | Audio always follows a user tap; Capacitor wrappers in v0.2 |
@@ -406,7 +417,7 @@ No targets are set until there are 200 users; guessing benchmarks now would be t
 2. Tone: the knowing wink (see risks).
 3. Title system: British, with the user choosing style.
 4. Language: English UI; foreign terms with pronunciation.
-5. MVP disciplines: Music, Opera, Art. Etiquette and Titles wait for v2 even though they fit the theme, because they are the hardest to source authoritatively and the easiest to get subtly wrong.
+5. MVP disciplines: Music, Opera, Art, History. Etiquette and Titles wait for v2 even though they fit the theme, because they are the hardest to source authoritatively and the easiest to get subtly wrong.
 6. No monetisation in MVP.
 
 **Needs your call:**
